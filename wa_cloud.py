@@ -283,8 +283,19 @@ def send(message, headless=True, timeout_ms=30000):
             ctx.close()
             raise RuntimeError(f"WhatsApp not actually connected before send -- {info}")
 
-        box.click()
-        page.keyboard.press("Enter")
+        try:
+            box.click(timeout=10000)
+            page.keyboard.press("Enter")
+        except Exception as e:
+            # a WhatsApp popup overlaying the page swallows pointer clicks
+            # (28 Sep 2026: every run timed out here while the box was visible);
+            # keyboard focus + Enter doesn't need pointer hit-testing
+            try:
+                dialogs = [t[:200] for t in page.locator('[role="dialog"]').all_inner_texts()]
+            except Exception:
+                dialogs = "<err>"
+            print(f"compose click blocked ({str(e).splitlines()[0]}); dialogs={dialogs}; sending via focus+Enter")
+            box.press("Enter")
         page.wait_for_timeout(2500)
 
         sent_ok = _confirm_last_sent(page, timeout_ms=8000)
