@@ -16,6 +16,7 @@ import datetime, json, os
 from pathlib import Path
 
 FILE = Path(__file__).resolve().parent / "last_run.json"
+LOCK_FILE = Path(__file__).resolve().parent / "local_lock.json"
 MIN_SUCCESS_GAP = 50
 MIN_ATTEMPT_GAP = 25
 
@@ -47,7 +48,22 @@ def last_success():
     return _ts(_read(), "last_success")
 
 
+def locked():
+    """True while the user has flagged that they're logging into ERP manually
+    themselves (see pause_bot.sh) -- the ERP is effectively single-session, so
+    the cloud login and a manual one within the same couple of minutes can
+    make one of them grab/consume the other's OTP email. This is a plain
+    timed pause, not tied to force=true, so even a manual test run respects it."""
+    try:
+        until = datetime.datetime.fromisoformat(json.loads(LOCK_FILE.read_text())["until"])
+    except Exception:
+        return False
+    return _now() < until
+
+
 def run_is_due():
+    if locked():
+        return False
     if os.environ.get("FORCE_RUN", "").strip().lower() == "true":
         return True
     st = _read(); now = _now()
