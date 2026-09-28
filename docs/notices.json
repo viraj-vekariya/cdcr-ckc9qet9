@@ -1,13 +1,49 @@
 {
- "last_updated": "2026-09-28T11:39:44Z",
+ "last_updated": "2026-09-28T12:53:39Z",
  "stats": {
-  "placement": 127,
+  "placement": 131,
   "internship": 745,
   "with_files": 167,
   "listed_downloads": 170
  },
  "categories": {
   "placement": [
+   {
+    "id": "939",
+    "type": "PLACEMENT",
+    "subject": "PPO",
+    "company": "Google India",
+    "notice": "Google India has extended the offer to the following student(s):SARTHAK ARORA - 22EC37014\nAAKARSH A - 22EC37035\nThe students are advised to give offer acceptance by 28.09.26.(For more details, check your email ID.)\n\nCDC, IIT Kharagpur",
+    "noticeat": "28-09-2026 18:00",
+    "has_download": false
+   },
+   {
+    "id": "938",
+    "type": "PLACEMENT",
+    "subject": "PPO",
+    "company": "IBM",
+    "notice": "IBM has extended the offer to the following student(s):UDIT MOHAN PRADHAN - 23CH10073\nThe students are advised to give offer acceptance by 28.09.2026.(For more details, check your email ID.)\n\nCDC, IIT Kharagpur",
+    "noticeat": "28-09-2026 17:58",
+    "has_download": false
+   },
+   {
+    "id": "937",
+    "type": "PLACEMENT",
+    "subject": "PPO",
+    "company": "SAMSUNG R&D INSTITUTE INDIA - DELHI",
+    "notice": "SAMSUNG R&D INSTITUTE INDIA - DELHI has extended the offer to the following student(s):SRIKANTAM SAI SRINIVAS - 22CS30053\nPRIYANSH GOYAL - 22EC39042\nMAYANK FENIN - 22MA23002\nThe students are advised to give offer acceptance by 29.09.26.(For more details, check your email ID.)\n\nCDC, IIT Kharagpur",
+    "noticeat": "28-09-2026 17:55",
+    "has_download": false
+   },
+   {
+    "id": "936",
+    "type": "PLACEMENT",
+    "subject": "PPO",
+    "company": "Honeywell",
+    "notice": "Honeywell has extended the offer to the following student(s):MAYANK NAGAR - 23ME10049\nThe students are advised to give offer acceptance by 28.09.2026.(For more details, check your email ID.)\n\nCDC, IIT Kharagpur",
+    "noticeat": "28-09-2026 17:42",
+    "has_download": false
+   },
    {
     "id": "935",
     "type": "PLACEMENT",
