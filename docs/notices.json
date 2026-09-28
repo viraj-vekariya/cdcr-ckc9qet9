@@ -1,13 +1,22 @@
 {
- "last_updated": "2026-09-28T09:39:50Z",
+ "last_updated": "2026-09-28T10:39:50Z",
  "stats": {
-  "placement": 126,
+  "placement": 127,
   "internship": 745,
   "with_files": 167,
   "listed_downloads": 170
  },
  "categories": {
   "placement": [
+   {
+    "id": "935",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "TREXQUANT",
+    "notice": "The CV submission of TREXQUANT for the role of Quantitative Researcher has been opened till 4:00 PM, 29th September 2026.\n\nIt is mandatory for all the students who are applying for this role to fill out the following Google form attached below:Form \n\nLink: https://forms.gle/8HC94Fg4iyMTr28f7\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "28-09-2026 15:52",
+    "has_download": false
+   },
    {
     "id": "931",
     "type": "PLACEMENT",
