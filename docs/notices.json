@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-09-29T14:26:27Z",
+ "last_updated": "2026-09-29T16:01:03Z",
  "stats": {
   "placement": 135,
   "internship": 747,
@@ -3589,7 +3589,7 @@
     "company": "TEXAS INSTRUMENTS",
     "notice": "The CV submission of Texas Instruments has been extended till 11:00 PM, 13th August 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "13-08-2026 10:33",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "f7297cdf53fa132103b947eab35753884e2326dca55cf447354c84752fcacfa3",
     "has_download": false
    },
@@ -3600,7 +3600,7 @@
     "company": "TOWER RESEARCH CAPITAL",
     "notice": "The CV submission of TOWER RESEARCH CAPITAL (6 months) has been opened till 10:00 AM, 14th August 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "12-08-2026 20:49",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "92b1510e925e3228362c2c21cd47093cfdaedf84661f484f109aaf1e04c16676",
     "has_download": false
    },
@@ -3611,7 +3611,7 @@
     "company": "Teesta Investment",
     "notice": "The CV submission of Teesta Investment has been extended till 9:00 AM, 13th August 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "12-08-2026 20:09",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "003189db922656f519f30096d26cd91b12bbc9f30fd839a9547b643f1ede47c4",
     "has_download": false
    },
@@ -3620,9 +3620,9 @@
     "type": "INTERNSHIP",
     "subject": "Urgent",
     "company": "NVIDIA",
-    "notice": "The assessment of Nvidia FindingHopper Program for the students is scheduled on 12th August 2026 from 8:00 PM onwards.\n\nPFA the test Shortlist :24EC10082\n23EE36001\n24EE10054\n24EE10096\n24EE10098\n24EC10113\n23EC39040\n24EC10077\n23EC37013\n24EE10107\n23EC37008\n24EC10048\n24EC10037\n23EC37043\n24EE10037\n\nVenue: NR 221\n\nPOC: Vatsal(9234457393), Nikhita (8770035884)\n\nCDC, IIT Kharagpur",
+    "notice": "The assessment of Nvidia FindingHopper Program for the students is scheduled on 12th August 2026 from 8:00 PM onwards.\n\nPFA the test Shortlist :\n\n24EC10082\n23EE36001\n24EE10054\n24EE10096\n24EE10098\n24EC10113\n23EC39040\n24EC10077\n23EC37013\n24EE10107\n23EC37008\n24EC10048\n24EC10037\n23EC37043\n24EE10037\n\nVenue: NR 221\n\nPOC: Vatsal(9234457393), Nikhita (8770035884)\n\nCDC, IIT Kharagpur",
     "noticeat": "12-08-2026 19:12",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "d76ca609b8acb0bebeb2d5c72cd8fb4a831076b9a63fd2b66b14cef0a6841765",
     "has_download": false
    },
@@ -3631,9 +3631,9 @@
     "type": "INTERNSHIP",
     "subject": "Urgent",
     "company": "Application for Departmental Representative_2026-27",
-    "notice": "Kind attn:APPLICATION FORM OF DEPARTMENTAL REPRESENTATIVE FOR CDC 2026-27A hardcopy letter is being send today to all the Department/ School/ Centre regarding the selection of Departmental Representative of CDC for the year 2026-27======================Students who are interested for the position of Departmental Representative are advised to contact their Department / School / Centre office, Faculty Advisor, In Charge (T&P) or HoD -office for more information.\n\nFORM COPY IS ALSO ATTACHED=======================Last date to receive the names from the department/ school/ centre to CDC is 24th August 2026, 6:00 PM.========================CDC, IITKharagpur",
+    "notice": "Kind attn:APPLICATION FORM OF DEPARTMENTAL REPRESENTATIVE FOR CDC 2026-27\n\nA hardcopy letter is being send today to all the Department/ School/ Centre regarding the selection of Departmental Representative of CDC for the year 2026-27\n======================\n\nStudents who are interested for the position of Departmental Representative are advised to contact their Department / School / Centre office, Faculty Advisor, In Charge (T&P) or HoD -office for more information.\n\nFORM COPY IS ALSO ATTACHED\n=======================\n\nLast date to receive the names from the department/ school/ centre to CDC is 24th August 2026, 6:00 PM.\n\n========================\n\nCDC, IITKharagpur",
     "noticeat": "12-08-2026 18:57",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "84d3cf438a36f086b63d948464dba50f1494b1e27118a96d3d610232668036ef",
     "has_download": true,
     "file": "files/630.pdf"
@@ -3645,7 +3645,7 @@
     "company": "Zscaler",
     "notice": "The CV submission of Zscaler has been opened till 10:00 AM, 13th August 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nNote: It is mandatory for students to fill out the Google form below before 10:00 AM, 13th August 2026.\n\nForm \n\nLink: https://forms.gle/Gp9TzFaK1cDmQNVy5\n\nCDC, IIT Kharagpur",
     "noticeat": "12-08-2026 16:50",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "e022206af74ae6a9da86d776c424ce1849dbed52301c5c690aba8edb6004b786",
     "has_download": false
    },
@@ -3656,7 +3656,7 @@
     "company": "ICICI Bank Ltd.",
     "notice": "The CV submission of ICICI Bank Ltd. has been extended till 11:59 PM, 12th August 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nNote: It is mandatory for students to apply on the company portal before 11:59 PM, 12th August 2026. Students are required to use their personal email ID for registration on the company portal.\n\nPortal link : https://www.icicicareers.com/CareerApplicant/Career/job-details/2271594\n\nCDC, IIT Kharagpur",
     "noticeat": "12-08-2026 12:42",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "07f51d3d5b87c961794d6fc78351f34fcee03c886d93ca7ead8e1cea19ba9f17",
     "has_download": false
    },
@@ -3667,7 +3667,7 @@
     "company": "NVIDIA",
     "notice": "The CV submission of NVIDIA FindingHopper Program has been opened till 05:00 PM, 12th August 2026 for both the roles.\n\nNOTE: This is a gender inclusion program, intended for female students only.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "12-08-2026 12:37",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "faa19acd0df837ad7b0251b453cbae9589ee37875f56306dab63ee77c9d16c4b",
     "has_download": false
    },
@@ -3678,7 +3678,7 @@
     "company": "LAT Aerospace",
     "notice": "The CV submission of LAT Aerospace has been extended till 08:00 PM, 12th August 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "12-08-2026 11:51",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "87e4cb1e9e4a6918e3e86f72e6491fb48ec91acc8c49cb2a4c0e4c375a33cf93",
     "has_download": false
    },
@@ -3689,7 +3689,7 @@
     "company": "TEXAS INSTRUMENTS",
     "notice": "The Pre-Placement Talk for Texas Instruments will be held on 12th August 2026 from 6:00 PM\n\nLink: https://ti.webex.com/ti/j.php?MTID=md90d28c685c042ebaa00411b7f34475c\n\nNote: All interested and eligible students are required to attend the PPT without fail. Attendance is compulsory.\n\nPOC: Aryan (+91 8100303122)\n\nCDC, IIT Kharagpur",
     "noticeat": "12-08-2026 10:48",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "85df420700b55055bf541facba9dfbf27833bdecefb87324c9c2f0b4ba769ce6",
     "has_download": false
    },
@@ -3700,7 +3700,7 @@
     "company": "Siemens EDA",
     "notice": "The CV submission for all the roles of Siemens EDA has been Extended till 2:59 PM, 12th August 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "12-08-2026 09:28",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "670425cc55225f79f11242b1a634d24b76ea0117011ccaca4db61dd66108835c",
     "has_download": false
    },
@@ -3711,7 +3711,7 @@
     "company": "FUNDWAVE",
     "notice": "PFA the shortlist for the Test of Fundwave.\n\nThe Online Assessment is scheduled from 11th August, 9:00 P.\n\nM. and ends at 10:30 P.\n\nM.\n\nVenue: Respective Location\n\nNote: The assessment link will be shared with all the shortlisted students. All the shortlisted students are requested to start the assesment sharp at 9:00 P.\n\nM.\n\nInstructions: Don't use any sort of AI, and copy-pasting will plague your test. Please read and follow the instructions carefully. For Full Stack Development, there are two tests available, but you have to attempt only one.\n\nPOC: Bhavy (7597121669)\n\nCDC, IIT Kharagpur",
     "noticeat": "11-08-2026 18:21",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "b89e8b28ce7c3457993c9eec667748689eff81042cb8c9c39bedd2ba6cd6144e",
     "has_download": true,
     "file": "files/617.pdf"
@@ -3723,7 +3723,7 @@
     "company": "TEXAS INSTRUMENTS",
     "notice": "The CV submission of Texas Instruments with has been opened till 6:00 PM, 12th August 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "11-08-2026 17:17",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "8339e8ba0e03744ec90b1da75fe7f62543098e065ef193ce4b123cc5c9539c11",
     "has_download": false
    },
@@ -3734,7 +3734,7 @@
     "company": "Teesta Investment",
     "notice": "The CV submission of Teesta Investment with revised eligibility has been opened till 5:00 PM, 12th August 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "11-08-2026 17:14",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "689a71b3d5e7d0a7daf296d6f771c24f0e0d8532b28a21956c283d4dbaf2267a",
     "has_download": false
    },
@@ -3743,9 +3743,9 @@
     "type": "INTERNSHIP",
     "subject": "Shortlist",
     "company": "LINKEDIN",
-    "notice": "PFA the test shortlist for LINKEDIN.\n\nVenue: NR 121Students are required to carry their original Institute ID card/Medical Book, failing which students will not be permitted to sit for test.\n\nStudents are also advised to reach the venue 15 minutes prior to the time.\n\nPlease carry your laptops, pens, and papers.\n\nPOC: Aryan (8100303122), Khush (9922168000)\n\nCDC, IIT Kharagpur",
+    "notice": "PFA the test shortlist for LINKEDIN.\n\nVenue: NR 121\n\nStudents are required to carry their original Institute ID card/Medical Book, failing which students will not be permitted to sit for test.\n\nStudents are also advised to reach the venue 15 minutes prior to the time.\n\nPlease carry your laptops, pens, and papers.\n\nPOC: Aryan (8100303122), Khush (9922168000)\n\nCDC, IIT Kharagpur",
     "noticeat": "11-08-2026 16:37",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "eb8d62d424ebdf9ba007fa16499b5d1e7b5fefc2a1491d41f349be59cfc6236b",
     "has_download": true,
     "file": "files/613.pdf"
@@ -3757,7 +3757,7 @@
     "company": "Day_3 Internship Offers 2026-27",
     "notice": "PFA the result of Day 3 of Internship 2026-27.\n\nThose who have got single offer, that offer will be treated as deemed accepted.\n\nCDC, IIT Kharagpur",
     "noticeat": "11-08-2026 16:25",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "7fd8980a0b5863b268d2d3946dea9b3c816b1e1ab578e21d1696c21de1d4357f",
     "has_download": true,
     "file": "files/611.pdf"
@@ -3769,7 +3769,7 @@
     "company": "ICICI Bank Ltd.",
     "notice": "The CV submission of ICICI Bank Ltd. has been opened till 10:00 AM, 12th August 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "11-08-2026 16:07",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "21cc898b463238a6910b8cd514df1e796851e9e3d236394731574c2b845cbf0c",
     "has_download": false
    },
@@ -3780,7 +3780,7 @@
     "company": "LAT Aerospace",
     "notice": "The CV submission of LAT Aerospace has been opened till 10:00 AM, 12th August 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "11-08-2026 16:05",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "a05309a98a855f4a814e6e779914d34451956451ede6e63fe2714c59da78034d",
     "has_download": false
    },
@@ -3791,7 +3791,7 @@
     "company": "Insurity",
     "notice": "The CV submission of Insurity with revised eligibility has been opened till 10 PM, 11th August 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCG criteria 7.5\n\nCDC, IIT Kharagpur",
     "noticeat": "11-08-2026 15:51",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "51d19bf22b85b338c898da0795ee95f0cd3aa9a7b4479104c1ad5cf504c7cb08",
     "has_download": false
    },
@@ -3802,7 +3802,7 @@
     "company": "Barclays",
     "notice": "The CV submission of Barclays has been Extended till 11:59 AM, 12th August 2026 with revised Eligibility.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "11-08-2026 15:42",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "e96ada5d3507cd83b0a66ee1e1dc42cb72aa9beb1c9c21b69207b355d0aad78b",
     "has_download": false
    },
@@ -3813,7 +3813,7 @@
     "company": "Insurity",
     "notice": "The CV submission of Insurity with revised eligibility has been opened till 11:59 PM, 11th August 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCG criteria 7.5\n\nCDC, IIT Kharagpur",
     "noticeat": "11-08-2026 15:39",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "54233fe7d99826fe4eb574942965690bc349bcb22ac46dc8c9301f0c8ce81f49",
     "has_download": false
    },
@@ -3822,9 +3822,9 @@
     "type": "INTERNSHIP",
     "subject": "Urgent",
     "company": "LINKEDIN",
-    "notice": "The assessment of LINKEDIN for the shortlisted students is scheduled on 11th August 2026 from 7:00 PM onwards.\n\nVenue: Nalanda Classroom ComplexThe test shortlist, room allocation along with detailed instructions will be shared soon.\n\nPOC: Aryan (8100303122), Khush (9922168000)\n\nCDC, IIT Kharagpur",
+    "notice": "The assessment of LINKEDIN for the shortlisted students is scheduled on 11th August 2026 from 7:00 PM onwards.\n\nVenue: Nalanda Classroom Complex\n\nThe test shortlist, room allocation along with detailed instructions will be shared soon.\n\nPOC: Aryan (8100303122), Khush (9922168000)\n\nCDC, IIT Kharagpur",
     "noticeat": "11-08-2026 13:41",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "be6a23739f13e7b136c1f4e92ecd0ac4ea89d6f5200907f2d41bfd3c0c3587b7",
     "has_download": false
    },
@@ -3835,7 +3835,7 @@
     "company": "Layer10",
     "notice": "The CV submission of Layer10 has been extended till 11:59 AM, 12th August 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "11-08-2026 12:18",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "52cfeea87fa97501936eb671e648dd8f0a049ff9b09ddf6ba572fa35bec8ad62",
     "has_download": false
    },
@@ -3846,7 +3846,7 @@
     "company": "INSURITY",
     "notice": "The CV submission of Insurity with revised eligibility has been opened till 10:00 PM, 11th August 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCG criteria 7.5\n\nCDC, IIT Kharagpur",
     "noticeat": "11-08-2026 12:17",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "2dca7d1bf2f96a3931d7d842daccd78038d16470918b4ec4fea63759c3df3b38",
     "has_download": false
    },
@@ -3855,9 +3855,9 @@
     "type": "INTERNSHIP",
     "subject": "PPT/Workshop/Seminars etc",
     "company": "ICICI Bank Ltd.",
-    "notice": "The Pre-Placement Talk for ICICI Bank Ltd. will be held on 11th August 2026 from 1:00 PM\n\nLink: https://teams.microsoft.com/meet/410745692972158?p=ioLs8rgO8A61IuyaLLMeeting ID: 410 745 692 972 158Passcode: Ep6dZ2pL\n\nNote: All interested and eligible students are required to attend the PPT without fail. Attendance is compulsory.\n\nPOC: Khush (+91 99221 68000)\n\nCDC, IIT Kharagpur",
+    "notice": "The Pre-Placement Talk for ICICI Bank Ltd. will be held on 11th August 2026 from 1:00 PM\n\nLink: https://teams.microsoft.com/meet/410745692972158?p=ioLs8rgO8A61IuyaLL\nMeeting ID: 410 745 692 972 158\nPasscode: Ep6dZ2pL\n\nNote: All interested and eligible students are required to attend the PPT without fail. Attendance is compulsory.\n\nPOC: Khush (+91 99221 68000)\n\nCDC, IIT Kharagpur",
     "noticeat": "11-08-2026 10:21",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "a1b474665f1cb17f3a5aa868938f08ff6ff593c8fc26a626168d6141add3acdc",
     "has_download": false
    },
@@ -3866,9 +3866,9 @@
     "type": "INTERNSHIP",
     "subject": "Shortlist",
     "company": "LimeChat",
-    "notice": "PFB the extended shortlist of LimeChat for AI/ML role23IM30007\n24CY10002\n\nCDC, IIT Kharagpur",
+    "notice": "PFB the extended shortlist of LimeChat for AI/ML role\n\n23IM30007\n24CY10002\n\nCDC, IIT Kharagpur",
     "noticeat": "10-08-2026 19:48",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "ab39f5b938e6c4085b5778f4624f9126b4081fa525a6f7023bf2b865e3e83498",
     "has_download": false
    },
@@ -3879,7 +3879,7 @@
     "company": "Siemens EDA",
     "notice": "The CV submission for all the roles of Siemens EDA has been opened till 11:59 PM, 11th August 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "10-08-2026 17:00",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "fcdb05bc8e9a0881a38b26da944cf233968431770a86a0c79af3affa0adf0887",
     "has_download": false
    },
@@ -3890,7 +3890,7 @@
     "company": "Flipkart",
     "notice": "The CV submission for all the roles of Flipkart has been opened till 11:59 PM, 11th August 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "10-08-2026 16:58",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "b7bd5b97a61a7c102e5575fd71efd6db8c215b4eb2c242ad00cb88d0d5d6ee4a",
     "has_download": false
    },
@@ -3901,7 +3901,7 @@
     "company": "PURPLLE",
     "notice": "PFA the interview shortlist for Purplle.\n\nCDC, IIT Kharagpur",
     "noticeat": "10-08-2026 15:32",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "2d4f9720eae7d157a4f9107ca00d9d80fc63225cec19e9772a59b1db96f9f65f",
     "has_download": true,
     "file": "files/592.pdf"
@@ -3913,7 +3913,7 @@
     "company": "INSURITY",
     "notice": "The CV submission of Insurity has been opened till 11:59 PM, 10th August 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCG criteria: 8.5\n\nCDC, IIT Kharagpur",
     "noticeat": "10-08-2026 15:30",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "977ccb8d55b2d164a97cab50ebc1e1b6b2687597cca17854eb8af640d86f9d8b",
     "has_download": false
    },
@@ -3924,7 +3924,7 @@
     "company": "Layer10",
     "notice": "The CV submission of Layer10 has been opened till 11:59 PM, 10th August 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "10-08-2026 15:30",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "b696f0e14867abe6765299083bea00c13fe73e882bd2264af52681e04e199bba",
     "has_download": false
    },
@@ -3933,9 +3933,9 @@
     "type": "INTERNSHIP",
     "subject": "Urgent",
     "company": "Reckitt",
-    "notice": "PFB the shortlist for the Group Discussion round of Reckitt, scheduled for 10th August.23CH30029\n23CH3AI11\n23ME3FP18\n23MF3FP26\n24CH10004\n24CH10031\n24CH10038\n24CH10044\n24CH10063\n24CH10102\n24CY10008\n24CY10032\n24CY10033\n24CY10041\n24ME10036\n24ME10104\n24ME10121\n24ME10167\nVenue : Respective LocationTime : 6:30 PM onwards\n\nPOC: Khush(+91 9922168000 )\n\nCDC, IIT Kharagpur",
+    "notice": "PFB the shortlist for the Group Discussion round of Reckitt, scheduled for 10th August.\n\n23CH30029\n23CH3AI11\n23ME3FP18\n23MF3FP26\n24CH10004\n24CH10031\n24CH10038\n24CH10044\n24CH10063\n24CH10102\n24CY10008\n24CY10032\n24CY10033\n24CY10041\n24ME10036\n24ME10104\n24ME10121\n24ME10167\n\nVenue : Respective Location\nTime : 6:30 PM onwards\n\nPOC: Khush(+91 9922168000 )\n\nCDC, IIT Kharagpur",
     "noticeat": "10-08-2026 14:23",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "76d151b2a9188921d8b2a353b2a91ad158533c13e3cca1cc2bf82415b94aef02",
     "has_download": false
    },
@@ -3946,7 +3946,7 @@
     "company": "SIEMENS",
     "notice": "The Pre-Placement Talk for Siemens EDA will be held on 10th August 2026 from 1:00 PM\n\nLink: https://teams.microsoft.com/meet/320877663098572?p=Rr1EYTQcfQIxqk69rR\n\nNote: All interested and eligible students are required to attend the PPT without fail. Attendance is compulsory.\n\nPOC: Aditi (+91 91 8815395895)\n\nCDC, IIT Kharagpur",
     "noticeat": "10-08-2026 10:39",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "af29f0c7fbd97146c418a56ffc68fa9ef3705b15443c8faf8e23bfc0c0dbd0c1",
     "has_download": false
    },
@@ -3955,9 +3955,9 @@
     "type": "INTERNSHIP",
     "subject": "Shortlist",
     "company": "WALMART",
-    "notice": "PFB the extended shortlist for Walmart.24CS10031\n24CS10090\n23EC39041\n24EC10102\n24EC10038\n24MA10025\n24MA10034\n24MA10069\n24MA10066\n\nCDC, IIT Kharagpur",
+    "notice": "PFB the extended shortlist for Walmart.\n\n24CS10031\n24CS10090\n23EC39041\n24EC10102\n24EC10038\n24MA10025\n24MA10034\n24MA10069\n24MA10066\n\nCDC, IIT Kharagpur",
     "noticeat": "09-08-2026 16:11",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "618da228a999724eef89b8fea4bb78ad5d6c67aa359a9f4a37857f3bc92d4edc",
     "has_download": false
    },
@@ -3968,7 +3968,7 @@
     "company": "SYSTALYZE",
     "notice": "The SYSTALYZE recruitment process has been postponed until further notice.\n\nFurther updates, if any, will be communicated accordingly.\n\nCDC, IIT Kharagpur",
     "noticeat": "09-08-2026 11:01",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "aff3cfec0af3361f9659f1f62275b80cc943bc0e4ecf9e38a48351e07545263d",
     "has_download": false
    },
@@ -3979,7 +3979,7 @@
     "company": "LimeChat",
     "notice": "PFA the revised shortlist of LimeChat for all the roles.\n\nCDC, IIT Kharagpur",
     "noticeat": "09-08-2026 09:57",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "38f908f2ccf00d5aad4f46d2e326c846e469abeb45e132206634def91bf1ccaf",
     "has_download": true,
     "file": "files/582.pdf"
@@ -3989,9 +3989,9 @@
     "type": "INTERNSHIP",
     "subject": "Shortlist",
     "company": "Neo Group",
-    "notice": "PFB the shortlist of Neo Group for WM role.23GG23001\n23MF3IM04\n23MI3EP25\n24BT10017\n24BT10020\n24CE10050\n24CH10057\n24EX10030\n24MA10026\n24MI10073\n24NA10011\n\nCDC, IIT Kharagpur",
+    "notice": "PFB the shortlist of Neo Group for WM role.\n\n23GG23001\n23MF3IM04\n23MI3EP25\n24BT10017\n24BT10020\n24CE10050\n24CH10057\n24EX10030\n24MA10026\n24MI10073\n24NA10011\n\nCDC, IIT Kharagpur",
     "noticeat": "09-08-2026 08:47",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "3912d1641656524ce67cf661183226812a1bf49292b0353d87f8c21eb44b9c75",
     "has_download": false
    },
@@ -4002,7 +4002,7 @@
     "company": "LimeChat",
     "notice": "PFA the shortlist of LimeChat for all the roles.\n\nCDC, IIT Kharagpur",
     "noticeat": "08-08-2026 23:50",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "efa269fc7949a6e41f0363f6aed3b487687e68c15054a16ad2bc6797ea27c382",
     "has_download": true,
     "file": "files/579.pdf"
@@ -4012,9 +4012,9 @@
     "type": "INTERNSHIP",
     "subject": "Shortlist",
     "company": "Multiple Companies",
-    "notice": "PFA the shortlist for the following companies for the respective roles :NAVIAxxelaWalmartIxana\n\nCDC, IIT Kharagpur",
+    "notice": "PFA the shortlist for the following companies for the respective roles :\n\nNAVI\nAxxela\nWalmart\nIxana\n\nCDC, IIT Kharagpur",
     "noticeat": "08-08-2026 20:04",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "4b866b05905bfe0826fe30030e1546a26a92ccb90ddf5e159f817b3e4316eb9b",
     "has_download": true,
     "file": "files/578.pdf"
@@ -4026,7 +4026,7 @@
     "company": "INTRADAY for 9th August",
     "notice": "PFA the INTRADAY for 9th August 2026.\n\nCDC, IIT Kharagpur",
     "noticeat": "08-08-2026 20:01",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "c08d3761d0374261dfadabc9d939834e0a6190c2c11a0ed70ac70076e1df8731",
     "has_download": true,
     "file": "files/577.pdf"
