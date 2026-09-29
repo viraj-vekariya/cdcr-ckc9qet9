@@ -60,6 +60,26 @@ def enrich_notices(context, rows):
         page.close()
     print(f'Full notice text: {done} retrieved, {sum(r["text_source"] == "full_notice" for r in rows)} total verified')
 
+def _find_frame(page, url_part, timeout_s=6):
+    """Playwright's `page.frames` can lag a moment behind the DOM: the
+    iframe's `src` attribute (what `.wait_for()` on a CSS locator checks)
+    can be set before Playwright's own frame-tracking has registered a
+    matching Frame object with that `.url` -- a single `next(...)` lookup
+    right after the locator wait can miss a frame that's genuinely about to
+    be there. Confirmed live 29 Sep 2026 in a real (non-headless) browser:
+    every selector this module uses is correct and the dialog/iframe/content
+    all load fine -- the cloud runner's "job/company detail did not load"
+    failures were exactly this race, not a broken selector. Poll instead of
+    checking once."""
+    end = time.monotonic() + timeout_s
+    while time.monotonic() < end:
+        for f in page.frames:
+            if url_part in f.url:
+                return f
+        time.sleep(0.2)
+    return None
+
+
 def capture_companies(context):
     from attachments import MENU, ENTER
     page = context.new_page()
@@ -98,9 +118,9 @@ def capture_companies(context):
             try:
                 row.locator('[aria-describedby="grid37_designation"] a').click()
                 app.locator('iframe[src*="TPJNFView.jsp"]').wait_for(timeout=12000)
-                detail = next((f for f in page.frames if 'TPJNFView.jsp' in f.url), None)
+                detail = _find_frame(page, 'TPJNFView.jsp')
                 if detail is None:
-                    raise RuntimeError('job detail did not load')
+                    raise RuntimeError('job detail iframe never registered with Playwright')
                 detail.locator('#ftpjnfvw').wait_for(timeout=12000)
                 text = detail.locator('#ftpjnfvw').inner_text()
                 item['is_applied'] = 'Cancel apply' in text
@@ -110,7 +130,7 @@ def capture_companies(context):
                 if start >= 0:
                     item['details'] = text[start:]
             except Exception as exc:
-                print(f'Job detail unavailable for {company}: {type(exc).__name__}')
+                print(f'Job detail unavailable for {company}: {type(exc).__name__}: {str(exc)[:150]}')
             finally:
                 try:
                     app.locator('.ui-dialog:visible .ui-dialog-titlebar-close').last.click(timeout=3000)
@@ -120,12 +140,13 @@ def capture_companies(context):
             try:
                 row.locator('[aria-describedby="grid37_companyname"] a').click()
                 app.locator('iframe[src*="TPComView.jsp"]').wait_for(timeout=12000)
-                company_frame = next((f for f in page.frames if 'TPComView.jsp' in f.url), None)
-                if company_frame:
-                    company_frame.get_by_text('Company Details :', exact=True).wait_for(timeout=10000)
-                    item['company_details'] = company_frame.locator('body').inner_text().replace('Print This Page', '').strip()
+                company_frame = _find_frame(page, 'TPComView.jsp')
+                if company_frame is None:
+                    raise RuntimeError('company detail iframe never registered with Playwright')
+                company_frame.get_by_text('Company Details :', exact=True).wait_for(timeout=10000)
+                item['company_details'] = company_frame.locator('body').inner_text().replace('Print This Page', '').strip()
             except Exception as exc:
-                print(f'Company detail unavailable for {company}: {type(exc).__name__}')
+                print(f'Company detail unavailable for {company}: {type(exc).__name__}: {str(exc)[:150]}')
             finally:
                 try:
                     app.locator('.ui-dialog:visible .ui-dialog-titlebar-close').last.click(timeout=3000)
