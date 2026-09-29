@@ -115,7 +115,6 @@ footer a{color:var(--accent)}
 <section id="opportunities" class="opportunities" aria-labelledby="jobsTitle">
   <h2 id="jobsTitle">Placement opportunities</h2>
   <p id="jobsUpdated">Loading latest company snapshot…</p>
-  <div class="tabs" role="tablist" id="jobsTabs"></div>
   <div id="jobsList"></div>
 </section>
 <div class="stats" id="stats"></div>
@@ -366,27 +365,6 @@ footer a{color:var(--accent)}
   // skeleton while first load is in flight
   document.getElementById("list").innerHTML = Array(4).fill('<div class="skel"></div>').join("");
 
-  var JOB_TABS = [{key:'PLACEMENT', label:'Placement'}, {key:'INTERNSHIP', label:'Internship'}];
-  var jobState = {tab:'PLACEMENT', data:null};
-
-  function jobType(c){ return (c.form_type || 'PLACEMENT').toUpperCase() === 'INTERNSHIP' ? 'INTERNSHIP' : 'PLACEMENT'; }
-
-  function renderJobTabs(){
-    var el = document.getElementById('jobsTabs');
-    if(!jobState.data){ el.innerHTML=''; return; }
-    el.innerHTML = JOB_TABS.map(function(t){
-      var cnt = jobState.data.companies.filter(function(c){ return jobType(c)===t.key; }).length;
-      var sel = t.key===jobState.tab;
-      return '<button class="tab" role="tab" aria-selected="'+sel+'" data-jobtab="'+t.key+'">'+esc(t.label)+' <span class="cnt">'+cnt+'</span></button>';
-    }).join('');
-    Array.prototype.forEach.call(el.querySelectorAll('.tab'), function(btn){
-      btn.addEventListener('click', function(){
-        jobState.tab = btn.getAttribute('data-jobtab');
-        renderJobTabs(); renderJobList();
-      });
-    });
-  }
-
   function renderJobCard(c){
     var expiry = c.resume_end ? new Date(c.resume_end.replace(' ','T')+':00+05:30') : null;
     var closed = expiry && !isNaN(expiry) && expiry < new Date();
@@ -422,24 +400,16 @@ footer a{color:var(--accent)}
     });
   }
 
-  function renderJobList(){
-    if(!jobState.data){ return; }
-    var list = jobState.data.companies.filter(function(c){ return jobType(c)===jobState.tab; });
-    document.getElementById('jobsList').innerHTML = list.map(renderJobCard).join('') ||
-      '<p>No '+jobState.tab.toLowerCase()+' opportunities were listed in the last successful check.</p>';
-    wireJobExpanders();
-  }
-
   function loadCompanies(){
     fetch('./companies.json?_='+Date.now(), {cache:'no-store'}).then(function(r){
       if(!r.ok) throw new Error('Company snapshot not yet available'); return r.json();
     }).then(function(data){
-      jobState.data = data;
       var timestamp = new Date(data.last_updated);
       var stale = Date.now() - timestamp.getTime() > 2*60*60*1000;
       document.getElementById('jobsUpdated').textContent = 'Last checked '+timestamp.toLocaleString('en-IN',{timeZone:'Asia/Kolkata'})+' IST'+(stale?' · Snapshot may be outdated; verify in ERP':'');
-      renderJobTabs();
-      renderJobList();
+      document.getElementById('jobsList').innerHTML = data.companies.map(renderJobCard).join('') ||
+        '<p>No placement opportunities were listed in the last successful check.</p>';
+      wireJobExpanders();
     }).catch(function(){document.getElementById('jobsUpdated').textContent='Company details will appear after the next successful CDC sync.';});
   }
   loadCompanies();
