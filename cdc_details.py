@@ -66,10 +66,10 @@ def capture_companies(context):
     results = []
     try:
         page.goto(MENU, timeout=30000)
-        page.wait_for_function('typeof showMenu === "function"', timeout=10000)
+        page.wait_for_timeout(2000)
         page.evaluate(ENTER)
-        # Use actual frame URL after the menu enters the placement application.
-        page.wait_for_function("Array.from(document.querySelectorAll('iframe')).some(f => {try {return f.contentWindow.location.href.includes('TPStudent.jsp')} catch(e) {return false}})", timeout=20000)
+        # This is the same menu sequence used successfully for attachment downloads.
+        page.wait_for_timeout(6000)
         candidates = [f for f in page.frames if 'TPStudent.jsp' in f.url]
         if not candidates:
             raise RuntimeError('CDC application frame unavailable')
@@ -88,37 +88,49 @@ def capture_companies(context):
             role = cell('designation')
             item = dict(company=company, role=role, ctc=cell('ctc'), currency=cell('Currency'),
                         resume_start=cell('resumedeadline_st'), resume_end=cell('resumedeadline'),
-                        interview=cell('interview_date_confirmed'))
-            # Read the job detail dialog without invoking application controls.
-            row.locator('[aria-describedby="grid37_designation"] a').click()
-            app.locator('iframe[src*="TPJNFView.jsp"]').wait_for(timeout=12000)
-            detail = next((f for f in page.frames if 'TPJNFView.jsp' in f.url), None)
-            if detail is None:
-                raise RuntimeError('Job detail did not load')
-            detail.locator('#ftpjnfvw').wait_for(timeout=12000)
-            text = detail.locator('#ftpjnfvw').inner_text()
-            item['is_applied'] = 'Cancel apply' in text
-            # Everything before Company may contain personal application actions.
-            start = text.find('Company :')
-            if start < 0:
-                start = text.find('Company:')
-            if start < 0:
-                raise RuntimeError('Job description header missing')
-            text = text[start:]
-            if not re.search(r'\bPLACEMENT\b', text):
-                app.locator('.ui-dialog:visible .ui-dialog-titlebar-close').last.click()
-                continue
-            item['details'] = text
+                        interview=cell('interview_date_confirmed'), is_applied=None,
+                        details='', company_details='')
             item['id'] = hashlib.sha256((company + '\n' + role).encode()).hexdigest()[:16]
-            app.locator('.ui-dialog:visible .ui-dialog-titlebar-close').last.click()
-            row.locator('[aria-describedby="grid37_companyname"] a').click()
-            app.locator('iframe[src*="TPComView.jsp"]').wait_for(timeout=12000)
-            company_frame = next((f for f in page.frames if 'TPComView.jsp' in f.url), None)
-            if company_frame:
-                company_frame.get_by_text('Company Details :', exact=True).wait_for(timeout=10000)
-                item['company_details'] = company_frame.locator('body').inner_text().replace('Print This Page', '').strip()
-            app.locator('.ui-dialog:visible .ui-dialog-titlebar-close').last.click()
             results.append(item)
+
+            # Detail dialogs enrich the card but never prevent the grid data
+            # from reaching the site.
+            try:
+                row.locator('[aria-describedby="grid37_designation"] a').click()
+                app.locator('iframe[src*="TPJNFView.jsp"]').wait_for(timeout=12000)
+                detail = next((f for f in page.frames if 'TPJNFView.jsp' in f.url), None)
+                if detail is None:
+                    raise RuntimeError('job detail did not load')
+                detail.locator('#ftpjnfvw').wait_for(timeout=12000)
+                text = detail.locator('#ftpjnfvw').inner_text()
+                item['is_applied'] = 'Cancel apply' in text
+                start = text.find('Company :')
+                if start < 0:
+                    start = text.find('Company:')
+                if start >= 0:
+                    item['details'] = text[start:]
+            except Exception as exc:
+                print(f'Job detail unavailable for {company}: {type(exc).__name__}')
+            finally:
+                try:
+                    app.locator('.ui-dialog:visible .ui-dialog-titlebar-close').last.click(timeout=3000)
+                except Exception:
+                    pass
+
+            try:
+                row.locator('[aria-describedby="grid37_companyname"] a').click()
+                app.locator('iframe[src*="TPComView.jsp"]').wait_for(timeout=12000)
+                company_frame = next((f for f in page.frames if 'TPComView.jsp' in f.url), None)
+                if company_frame:
+                    company_frame.get_by_text('Company Details :', exact=True).wait_for(timeout=10000)
+                    item['company_details'] = company_frame.locator('body').inner_text().replace('Print This Page', '').strip()
+            except Exception as exc:
+                print(f'Company detail unavailable for {company}: {type(exc).__name__}')
+            finally:
+                try:
+                    app.locator('.ui-dialog:visible .ui-dialog-titlebar-close').last.click(timeout=3000)
+                except Exception:
+                    pass
         output = {'last_updated': datetime.datetime.now(datetime.timezone.utc).isoformat(), 'companies': results,
                   'scope': 'Placement opportunities visible to the configured ERP account.'}
         (BASE / 'docs/companies.json').write_text(json.dumps(output, indent=2))

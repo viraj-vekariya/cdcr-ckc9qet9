@@ -375,10 +375,10 @@ footer a{color:var(--accent)}
         var expiry = c.resume_end ? new Date(c.resume_end.replace(' ','T')+':00+05:30') : null;
         var closed = expiry && !isNaN(expiry) && expiry < new Date();
         return '<article class="job"><h3>'+esc(c.company)+'</h3><b>'+esc(c.role)+'</b>'+
-          '<div class="job-grid"><span>CTC: '+esc(c.ctc)+' '+esc(c.currency)+'</span><span>CV deadline: '+esc(c.resume_end)+' IST'+(closed?' · Closed':'')+'</span><span>'+ (c.is_applied ? 'Applied in ERP' : 'Not applied in ERP') +'</span></div>'+
+          '<div class="job-grid"><span>CTC: '+esc(c.ctc)+' '+esc(c.currency)+'</span><span>CV deadline: '+esc(c.resume_end)+' IST'+(closed?' · Closed':'')+'</span><span>'+ (c.is_applied === true ? 'Applied in ERP' : c.is_applied === false ? 'Not applied in ERP' : 'Application status loading') +'</span></div>'+
           '<p>CV window opens: '+esc(c.resume_start)+' IST</p>'+
           (c.interview?'<p>Interview / selection: '+esc(c.interview)+'</p>':'')+
-          '<details><summary>Job description &amp; eligibility</summary><pre>'+linkify(c.details)+'</pre></details>'+
+          (c.details?'<details><summary>Job description &amp; eligibility</summary><pre>'+linkify(c.details)+'</pre></details>':'')+
           (c.company_details?'<details><summary>About the company</summary><pre>'+linkify(c.company_details)+'</pre></details>':'')+
           '<a href="https://erp.iitkgp.ac.in/IIT_ERP3/" target="_blank" rel="noopener noreferrer">Open ERP to apply or download job attachments</a></article>';
       }).join('') || '<p>No placement opportunities were listed in the last successful check.</p>';
