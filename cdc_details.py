@@ -130,6 +130,17 @@ def _find_frame(page, url_part, timeout_s=6):
     return None
 
 
+def _frame_dump(page):
+    """Diagnostic snapshot for when _find_frame still can't locate a frame
+    after polling -- lists every frame Playwright currently knows about, so
+    a persistent (not just momentary) mismatch is actually debuggable from
+    the run log instead of guessed at again."""
+    try:
+        return [f.url for f in page.frames]
+    except Exception as e:
+        return [f'<error dumping frames: {e}>']
+
+
 def capture_companies(context):
     from attachments import MENU, ENTER
     page = context.new_page()
@@ -172,7 +183,7 @@ def capture_companies(context):
                 app.locator('iframe[src*="TPJNFView.jsp"]').wait_for(timeout=12000)
                 detail = _find_frame(page, 'TPJNFView.jsp')
                 if detail is None:
-                    raise RuntimeError('job detail iframe never registered with Playwright')
+                    raise RuntimeError(f'job detail iframe never registered with Playwright -- frames now: {_frame_dump(page)}')
                 detail.locator('#ftpjnfvw').wait_for(timeout=12000)
                 text = detail.locator('#ftpjnfvw').inner_text()
                 item['is_applied'] = 'Cancel apply' in text
@@ -183,7 +194,7 @@ def capture_companies(context):
                     item['details'] = text[start:]
                     item.update(_parse_job_detail(item['details']))
             except Exception as exc:
-                print(f'Job detail unavailable for {company}: {type(exc).__name__}: {str(exc)[:150]}')
+                print(f'Job detail unavailable for {company}: {type(exc).__name__}: {str(exc)[:600]}')
             finally:
                 try:
                     app.locator('.ui-dialog:visible .ui-dialog-titlebar-close').last.click(timeout=3000)
@@ -195,11 +206,11 @@ def capture_companies(context):
                 app.locator('iframe[src*="TPComView.jsp"]').wait_for(timeout=12000)
                 company_frame = _find_frame(page, 'TPComView.jsp')
                 if company_frame is None:
-                    raise RuntimeError('company detail iframe never registered with Playwright')
+                    raise RuntimeError(f'company detail iframe never registered with Playwright -- frames now: {_frame_dump(page)}')
                 company_frame.get_by_text('Company Details :', exact=True).wait_for(timeout=10000)
                 item['company_details'] = company_frame.locator('body').inner_text().replace('Print This Page', '').strip()
             except Exception as exc:
-                print(f'Company detail unavailable for {company}: {type(exc).__name__}: {str(exc)[:150]}')
+                print(f'Company detail unavailable for {company}: {type(exc).__name__}: {str(exc)[:600]}')
             finally:
                 try:
                     app.locator('.ui-dialog:visible .ui-dialog-titlebar-close').last.click(timeout=3000)
