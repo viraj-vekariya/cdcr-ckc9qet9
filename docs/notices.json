@@ -1,8 +1,8 @@
 {
- "last_updated": "2026-09-29T11:59:10Z",
+ "last_updated": "2026-09-29T12:59:08Z",
  "stats": {
   "placement": 135,
-  "internship": 746,
+  "internship": 747,
   "with_files": 167,
   "listed_downloads": 170
  },
@@ -1500,6 +1500,17 @@
   ],
   "internship": [
    {
+    "id": "945",
+    "type": "INTERNSHIP",
+    "subject": "CV Submission",
+    "company": "Sun Valley Resources Private Limited",
+    "notice": "The CV submission of Sun Valley Resources Private Limited has been opened till 11:59 PM, 30th September 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "29-09-2026 18:16",
+    "text_source": "full_notice",
+    "source_hash": "7a2d119f805d8c469da981661befe06a4d9bbfdfe628f404be695cd6a50f8ff0",
+    "has_download": false
+   },
+   {
     "id": "944",
     "type": "INTERNSHIP",
     "subject": "Date extension",
@@ -2686,9 +2697,9 @@
     "type": "INTERNSHIP",
     "subject": "Shortlist",
     "company": "KPMG",
-    "notice": "PFA the Test shortlist for KPMG.\n\nFurther details would be communicated to the shortlisted students shortly.\n\nCDC, IIT Kharagpur",
+    "notice": "PFA the Test shortlist for KPMG.\nFurther details would be communicated to the shortlisted students shortly.\n\nCDC, IIT Kharagpur",
     "noticeat": "26-08-2026 13:52",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "b99284b971d3c61feb181409e6220f590b055058a774c2885b2fb21cabc68403",
     "has_download": true,
     "file": "files/771.pdf"
@@ -2700,7 +2711,7 @@
     "company": "FUTURES FIRST",
     "notice": "The Pre-Placement Talk for Futures First will held on 26th August 2026 from 1:00 PM.\n\nLink: https://teams.microsoft.com/meet/379915715743998?p=sRtF1d7impuG1pB9pj\n\nNote: All interested and eligible students are required to attend the PPT without fail. Attendance is compulsory.\n\nPOC: Deepak (+91 90249 50269)\n\nCDC, IIT Kharagpur",
     "noticeat": "26-08-2026 03:42",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "22fdd891b9cafad037d182c7417a4937c566ca20513ed0580737e3a36c2f6e29",
     "has_download": false
    },
@@ -2711,7 +2722,7 @@
     "company": "ACCENTURE INDIA",
     "notice": "The CV submission for ACCENTURE INDIA Elite Technology Engineer Intern role has been extended till 11:59 PM, 26th August 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be provided.\n\nNote: It is mandatory for students to register on the company portal for the interested roles using their personal email ID before 11:59 PM, 26th August 2026. All the details must be entered exactly as it appears on your PAN card.\n\nLink: https://indiacampus.accenture.com/v2/registration/accenture/AEHPLUSINTERNSHIP27/apply?event=1505061&job=1727509\n\nCDC, IIT Kharagpur",
     "noticeat": "25-08-2026 22:58",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "0066091f31876598819a82ead866accfbcc77f74256b587f7eb416b6a6a0e258",
     "has_download": false
    },
@@ -2722,7 +2733,7 @@
     "company": "HONEYWELL",
     "notice": "The CV submission of Honeywell for Data Engineering Intern role has been opened till 11:59 PM, 26th August 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "25-08-2026 21:27",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "aad8a30fb44c1b7827e0ab53af9bd8255dd2cf0a5a13cf35ad03c69cc12d0d10",
     "has_download": false
    },
@@ -2733,7 +2744,7 @@
     "company": "ExxonMobil Services & Technology Private Limited",
     "notice": "The Online Behavioural Round for ExxonMobil Services & Technology Private Limited is scheduled on 24th August, 2026 from 10:30PM. Students who have given the test earlier need not to give the test again.\n\nVenue: Respective Location\n\nNote: The assessment link will be shared with the students by the company, who have applied both on ERP and Company Portal. All the students are requested to complete the assessment anytime within the specified time window.\n\nNote : The deadline for the assessment is Tuesday, 25th August 2026, 9:00AM.\n\nPOC: Arpita(+91 9075564147), Aditi(+91 8815395895)\n\nCDC, IIT Kharagpur",
     "noticeat": "24-08-2026 22:25",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "d552b6990d99ef343fd2c62f446d5cd5126df92562cdccbdff3bf53812c79f67",
     "has_download": false
    },
@@ -2744,7 +2755,7 @@
     "company": "ExxonMobil Services & Technology Private Limited",
     "notice": "The CV submission of ExxonMobil Services & Technology Private Limited for all roles with revised eligibility has been opened till 8:00PM, 24th August 2026. All eligible students are kindly requested to register on the company portal on the link given below. Those students who will apply both on ERP and Company portal will only receive the test link.\n\nLink: https://career4.successfactors.com/sfcareer/jobreqcareerpvt?jobId=107441&company=exxonmobilP&st=7043281D9322DAC328023E0649394D4DDEAB24F7\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "24-08-2026 17:05",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "d0046683e6a8b12318f3d3798599d0e0f56f291f640adec27549391043d1224e",
     "has_download": false
    },
@@ -2753,9 +2764,9 @@
     "type": "INTERNSHIP",
     "subject": "Shortlist",
     "company": "NATION WITH NAMO",
-    "notice": "PFB the interview shortlist for Nation With Namo.23CE3EP16\n23BT30001\n24MI10020\n23CE36002\n23HS23024\n23ME31038\n23CE36017\n24AG10058\n24AG10085\n24CH10074\n24CY10021\n23CE36006\n24CE10016\n24EX10030\n24GG10031\n24HS10027\n23IM30020\n23MI3EP04\n24MI10078\n23BT30027\n23AE3AI46\n\nCDC, IIT Kharagpur",
+    "notice": "PFB the interview shortlist for Nation With Namo.\n\n23CE3EP16\n23BT30001\n24MI10020\n23CE36002\n23HS23024\n23ME31038\n23CE36017\n24AG10058\n24AG10085\n24CH10074\n24CY10021\n23CE36006\n24CE10016\n24EX10030\n24GG10031\n24HS10027\n23IM30020\n23MI3EP04\n24MI10078\n23BT30027\n23AE3AI46\n\nCDC, IIT Kharagpur",
     "noticeat": "24-08-2026 17:01",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "3ea4a0710352618596dae69c070bf64e07a7d645bb48704b959c4a465ec67d1a",
     "has_download": false
    },
@@ -2766,7 +2777,7 @@
     "company": "FUTURES FIRST",
     "notice": "The CV submission of Futures First has been opened till 11:59AM, 25th August 2026. All eligible students are kindly requested to register on the company portal on the link given below.\n\nLink: https://insight.futuresfirst.com/ats/campusapplicationform.php?appjsuwb=212&sourcekjfef=28\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "24-08-2026 12:04",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "c49598660438242bee2b05bbb24baa3af26c8e29343e72256469e490120059cf",
     "has_download": false
    },
@@ -2777,7 +2788,7 @@
     "company": "ACCENTURE INDIA",
     "notice": "The CV submission for ACCENTURE INDIA Elite Technology Engineer Intern role has been extended until 11:59 PM, 25th August 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be provided.\n\nNote: It is mandatory for students to register on the company portal for the interested roles using their personal email ID before 11:59 PM, 25th August 2026. All the details must be entered exactly as it appears on your PAN card.\n\nLink: https://indiacampus.accenture.com/v2/registration/accenture/AEHPLUSINTERNSHIP27/apply?event=1505061&job=1727509\n\nCDC, IIT Kharagpur",
     "noticeat": "24-08-2026 09:34",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "7a1f99238d10e29101054f127e7309b6c126ef201b89c0a2ab63e723bd8df247",
     "has_download": false
    },
@@ -2786,9 +2797,9 @@
     "type": "INTERNSHIP",
     "subject": "Urgent",
     "company": "ExxonMobil Services & Technology Private Limited",
-    "notice": "The Online Behavioural Round for ExxonMobil Services & Technology Private Limited is scheduled on 23rd August, 2026, 6:30PM.\n\nVenue: Respective Location\n\nNote: The assessment link will be shared with all the shortlisted students by the company. All the shortlisted students are requested to complete the assessment anytime within the specified time window.\n\nNote : The deadline for the assessment is Monday, 24th August 2026, 6:30PM. \n\nPOC: Arpita(+91 9075564147), Aditi(+91 8815395895)\n\nCDC, IIT Kharagpur",
+    "notice": "The Online Behavioural Round for ExxonMobil Services & Technology Private Limited is scheduled on 23rd August, 2026, 6:30PM.\n\nVenue: Respective Location\n\nNote: The assessment link will be shared with all the shortlisted students by the company. All the shortlisted students are requested to complete the assessment anytime within the specified time window.\n\nNote : The deadline for the assessment is Monday, 24th August 2026, 6:30PM.\n\nPOC: Arpita(+91 9075564147), Aditi(+91 8815395895)\n\nCDC, IIT Kharagpur",
     "noticeat": "23-08-2026 15:38",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "2daeff8afc2fba38b1cf18acbfa665bc2ec49a7a359d6851b03e31631d209fe3",
     "has_download": false
    },
@@ -2797,9 +2808,9 @@
     "type": "INTERNSHIP",
     "subject": "PPT/Workshop/Seminars etc",
     "company": "ExxonMobil Services & Technology Private Limited",
-    "notice": "The Pre-Placement Talk for ExxonMobil Services & Technology Private Limited will held on 23rd August 2026 from 5:00-6:00 PM.\n\nLink: https://exxonmobil.zoom.us/j/97463347498?pwd=8tU91yIHe5jK7S37CkjVoXNKK1N7NR.1Meeting ID: 974 6334 7498Password: 130517\n\nNote: All interested and eligible students are required to attend the PPT without fail. Attendance is compulsory.\n\nPOC: Arpita(+91 9075564147), Aditi(+91 8815395895)\n\nCDC, IIT Kharagpur",
+    "notice": "The Pre-Placement Talk for ExxonMobil Services & Technology Private Limited will held on 23rd August 2026 from 5:00-6:00 PM.\n\nLink: https://exxonmobil.zoom.us/j/97463347498?pwd=8tU91yIHe5jK7S37CkjVoXNKK1N7NR.1\nMeeting ID: 974 6334 7498\nPassword: 130517\n\nNote: All interested and eligible students are required to attend the PPT without fail. Attendance is compulsory.\n\nPOC: Arpita(+91 9075564147), Aditi(+91 8815395895)\n\nCDC, IIT Kharagpur",
     "noticeat": "23-08-2026 15:37",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "e1af54d8e10daec103a17ddc885af4f92d17262285bce25094754f85d6fd32af",
     "has_download": false
    },
@@ -2808,9 +2819,9 @@
     "type": "INTERNSHIP",
     "subject": "Urgent",
     "company": "AMEX",
-    "notice": "PFB the extended shortlist of AMEX for Software Engineering role.24IM10070\n24IM10028\n24CH10110\n24CH10102\n24CH10097\n24CH10063\n24CH10028\n24CE10106\n24CE10049\n24CE10034\n23CH3EP11\n23CH30026\n23CE36015\n24MA10019\n23MA23003\n\nCDC, IIT Kharagpur",
+    "notice": "PFB the extended shortlist of AMEX for Software Engineering role.\n\n24IM10070\n24IM10028\n24CH10110\n24CH10102\n24CH10097\n24CH10063\n24CH10028\n24CE10106\n24CE10049\n24CE10034\n23CH3EP11\n23CH30026\n23CE36015\n24MA10019\n23MA23003\n\nCDC, IIT Kharagpur",
     "noticeat": "23-08-2026 14:34",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "3ee95320344aea9c99c6a168eb604081ba7f1168c1f13051503a252933270614",
     "has_download": false
    },
@@ -2821,7 +2832,7 @@
     "company": "Siemens EDA(6 months)",
     "notice": "The CV submission of Siemens EDA(6 months) for all the roles has been extended till 2:59 PM, 24th August 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nAll eligible students are required to fill the additional details form on the link given below.\n\nLink: https://forms.gle/2VgmK4FA23Na2nxi9\n\nCDC, IIT Kharagpur",
     "noticeat": "23-08-2026 12:44",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "94306bfcd3520ee6685b60fb518d1c9c8b79c0431d854abebb2fd9279fd343a1",
     "has_download": false
    },
@@ -2830,9 +2841,9 @@
     "type": "INTERNSHIP",
     "subject": "Shortlist",
     "company": "SIEMENS",
-    "notice": "PFA the interview shortlist for Siemens.\n\nFurther details would be communicated to the shortlisted candidates shortly.\n\nPOC : Devansh(+91 7999892181), Neev(+91 9001346350)\n\nCDC, IIT Kharagpur",
+    "notice": "PFA the interview shortlist for Siemens.\nFurther details would be communicated to the shortlisted candidates shortly.\n\nPOC : Devansh(+91 7999892181), Neev(+91 9001346350)\n\nCDC, IIT Kharagpur",
     "noticeat": "23-08-2026 12:42",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "6a71431232a5771f948a2e90f75a31a5c4a4cc5059c96dbf4ca0dcda6ebbbb63",
     "has_download": true,
     "file": "files/751.pdf"
@@ -2842,9 +2853,9 @@
     "type": "INTERNSHIP",
     "subject": "Shortlist",
     "company": "AMEX",
-    "notice": "PFA the interview shortlist for AMEX.\n\nFurther details would be communicated to the shortlisted candidates shortly.\n\nPOC : Deepak(+91 9024950269), Khush(+91 9922168000)\n\nCDC, IIT Kharagpur",
+    "notice": "PFA the interview shortlist for AMEX.\nFurther details would be communicated to the shortlisted candidates shortly.\n\nPOC : Deepak(+91 9024950269), Khush(+91 9922168000)\n\nCDC, IIT Kharagpur",
     "noticeat": "22-08-2026 19:58",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "99f0c647d20e3afd1045966d0cda862449806f91f2bb9d22abf0bf1d8e9a0248",
     "has_download": true,
     "file": "files/750.pdf"
@@ -2854,9 +2865,9 @@
     "type": "INTERNSHIP",
     "subject": "Shortlist",
     "company": "WINDFLOW",
-    "notice": "PFB the extended shortlist of Windflow for 6 Month onsite Internship.23AE3EP01\n24AE10018\n23ME31013\n23ME31039\n24ME10072\n24ME10092\n\nCDC, IIT Kharagpur",
+    "notice": "PFB the extended shortlist of Windflow for 6 Month onsite Internship.\n\n23AE3EP01\n24AE10018\n23ME31013\n23ME31039\n24ME10072\n24ME10092\n\nCDC, IIT Kharagpur",
     "noticeat": "22-08-2026 19:45",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "ed714102e308c0f7b5c4922d50deacf60f8236b446c20744e64b4b5af9194474",
     "has_download": false
    },
@@ -2867,7 +2878,7 @@
     "company": "ACCENTURE INDIA",
     "notice": "The CV submission for ACCENTURE INDIA - Elite Technology Engineer Intern role is opened until 11:59 PM, 23rd August 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be provided.\n\nNote: It is mandatory for students to register on the company portal for the interested roles using their personal email ID before 11:59 PM, 23rd August 2026. All the details must be entered exactly as it appears on your PAN card.\n\nLink: https://indiacampus.accenture.com/v2/registration/accenture/AEHPLUSINTERNSHIP27/apply?event=1505061&job=1727509\n\nCDC, IIT Kharagpur",
     "noticeat": "22-08-2026 18:00",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "260a54bf06b924f36c70455e073af55e82518f7f13df3ca3962531841033099e",
     "has_download": false
    },
@@ -2878,7 +2889,7 @@
     "company": "KPMG",
     "notice": "The CV submission of KPMG with has been extended till 10:00 AM, 23th August 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "22-08-2026 17:59",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "ea66ce7f7980770c17ec90368a306c475079a2b19206b0a4f70dc84033f6c257",
     "has_download": false
    },
@@ -2887,9 +2898,9 @@
     "type": "INTERNSHIP",
     "subject": "Urgent",
     "company": "WINDFLOW",
-    "notice": "PFB the extended shortlist of Windflow for 6 Month onsite Internship.23ME3FP18\n24ME10161\n23ME3FP28\n24AE10067\n23ME36003\n24MF10030\n23AE3AI46\n23IE3FP38\n24ME10138\n24ME10168\n23AE30007\n\nCDC, IIT Kharagpur",
+    "notice": "PFB the extended shortlist of Windflow for 6 Month onsite Internship.\n\n23ME3FP18\n24ME10161\n23ME3FP28\n24AE10067\n23ME36003\n24MF10030\n23AE3AI46\n23IE3FP38\n24ME10138\n24ME10168\n23AE30007\n\nCDC, IIT Kharagpur",
     "noticeat": "22-08-2026 13:14",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "b9e2f26ac8f7d2c31119b3ade011fe98af8d504575728a35e0c69e1015f5368b",
     "has_download": false
    },
@@ -2900,7 +2911,7 @@
     "company": "Windflow",
     "notice": "PFA the interview shortlist of Windflow for 6 Month onsite Internship.\n\nCDC, IIT Kharagpur",
     "noticeat": "22-08-2026 10:03",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "dbe6fc38dcf16af9ad8f1b49a0439b6f45dbafe9c7fdf217b029b1765eac6795",
     "has_download": true,
     "file": "files/745.pdf"
@@ -2912,7 +2923,7 @@
     "company": "Eternal",
     "notice": "PFA the shortlist of Eternal for all the roles.\n\nCDC, IIT Kharagpur",
     "noticeat": "22-08-2026 03:31",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "e20d53791816f0e1bf329318550ac54c779032f34f207f09a9b66cba7fbc904c",
     "has_download": true,
     "file": "files/743.pdf"
@@ -2924,7 +2935,7 @@
     "company": "WINDFLOW",
     "notice": "The interview process for Windflow.ai will be conducted tomorrow at 11:00 AM from Nalanda Complex.\n\nThe interview shortlist will be released shortly. Shortlisted candidates are requested to report at Nalanda Complex before the scheduled time.\n\nFurther details will be communicated to the shortlisted candidates shortly.\n\nCDC, IIT Kharagpur",
     "noticeat": "22-08-2026 01:09",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "6b3600dc0489fd48f0e9bf0f5abee7f549866faeebc6aa1c2ca68144c32fda8c",
     "has_download": false
    },
@@ -2935,7 +2946,7 @@
     "company": "ETERNAL",
     "notice": "The interview process for Eternal will be conducted tomorrow at 11:00 AM from Nalanda Complex.\n\nThe interview shortlist will be released shortly. Shortlisted candidates are requested to report at Nalanda Complex before the scheduled time.\n\nFurther details will be communicated to the shortlisted candidates shortly.\n\nCDC, IIT Kharagpur",
     "noticeat": "21-08-2026 22:20",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "95a17641d30219d9dadc12790d045c2b3daa147fbcf1fa1c22fef31f5838820d",
     "has_download": false
    },
@@ -2946,7 +2957,7 @@
     "company": "ExxonMobil Services & Technology Private Limited",
     "notice": "The CV submission of ExxonMobil Services & Technology Private Limited for all roles with updated link and revised eligibility has been opened till 8:00AM, 23rd August 2026. All eligible students are kindly requested to register on the company portal on the link given below.\n\nLink: https://career4.successfactors.com/sfcareer/jobreqcareerpvt?jobId=107441&company=exxonmobilP&st=7043281D9322DAC328023E0649394D4DDEAB24F7\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "21-08-2026 19:44",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "b51aea2fa38af0727b5bec455cf588379e148511a67b015836d2294e0d0d19bc",
     "has_download": false
    },
@@ -2957,7 +2968,7 @@
     "company": "SigIQ.ai",
     "notice": "The CV submission of SigIQ.ai for Full-stack Intern role has been extended till 11:59 PM, 22st August 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "21-08-2026 19:36",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "1ed12aba6f1f7f67091873ddf5d5e836af98eb7627cb5f50b5f94c328a0fb6b2",
     "has_download": false
    },
@@ -2966,9 +2977,9 @@
     "type": "INTERNSHIP",
     "subject": "Shortlist",
     "company": "ICICI BANK",
-    "notice": "PFA the interview shortlist for ICICI Bank.\n\nFurther details would be communicated to the shortlisted candidates shortly.\n\nCDC, IIT Kharagpur",
+    "notice": "PFA the interview shortlist for ICICI Bank.\nFurther details would be communicated to the shortlisted candidates shortly.\n\nCDC, IIT Kharagpur",
     "noticeat": "21-08-2026 18:54",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "7762183e537f90939254436e0bb702342bdfa50f39a357389fa4c8dc3625ac9f",
     "has_download": true,
     "file": "files/736.pdf"
@@ -2980,7 +2991,7 @@
     "company": "Siemens EDA(6 months)",
     "notice": "The CV submission of Siemens EDA(6 months) for all the roles has been opened till 11:59 PM, 22nd August 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nAll eligible students are required to fill the additional details form on the link given below.\n\nLink: https://forms.gle/2VgmK4FA23Na2nxi9\n\nCDC, IIT Kharagpur",
     "noticeat": "21-08-2026 11:52",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "49dd9bf28555ce2eaf95b0f14ab7458e0fba43ea439fc670a387b94f08f0d015",
     "has_download": false
    },
@@ -2991,7 +3002,7 @@
     "company": "ExxonMobil Services & Technology Private Limited",
     "notice": "The CV submission of ExxonMobil Services & Technology Private Limited for all roles with updated link has been extended till 2:00PM, 22nd August 2026. All eligible students are kindly requested to register on the company portal on the link given below.\n\nLink: https://career4.successfactors.com/sfcareer/jobreqcareerpvt?jobId=107441&company=exxonmobilP&st=7043281D9322DAC328023E0649394D4DDEAB24F7\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "21-08-2026 11:40",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "7b6d377379fcbf4850d67b1ca91fabf1ce24ff7dfd7543d8a18031a60c06aea4",
     "has_download": false
    },
@@ -3000,9 +3011,9 @@
     "type": "INTERNSHIP",
     "subject": "CV Submission",
     "company": "NoBroker",
-    "notice": "The CV submission of Nobroker for its Business Strategy role has been extended till 11:59 PM, 22nd August 2026. Interested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "notice": "The CV submission of Nobroker for its Business Strategy role has been extended till 11:59 PM, 22nd August 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "21-08-2026 10:36",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "d20d86c0ee8e35c879f35e127a16dcdb504aef879fd320ab35b1ef3c079fc641",
     "has_download": false
    },
@@ -3013,7 +3024,7 @@
     "company": "SigIQ.ai",
     "notice": "The CV submission of SigIQ.ai for Full-stack Intern role has been opened till 11:59 PM, 21st August 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "21-08-2026 10:08",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "47a8e6523b06f3cde6a01db8e739086b0cbdcc0520fe0f6b1bf83b0a048846c6",
     "has_download": false
    },
@@ -3022,9 +3033,9 @@
     "type": "INTERNSHIP",
     "subject": "Urgent",
     "company": "AMERICAN EXPRESS",
-    "notice": "PFA the test shortlist for the Assessment of American Express - Software Engineering Role, scheduled from 10:00 PM onwards on 20th August 2026.\n\nVenue: Your respective locationsThe test is of 1.5 hours and must be ended by 11:59 PM, 20th August 2026\n\nPOC: Aditya (+91 6295-916930), Neev (+91 90013 46350)\n\nCDC, IIT Kharagpur",
+    "notice": "PFA the test shortlist for the Assessment of American Express - Software Engineering Role, scheduled from 10:00 PM onwards on 20th August 2026.\n\nVenue: Your respective locations\n\nThe test is of 1.5 hours and must be ended by 11:59 PM, 20th August 2026\n\nPOC: Aditya (+91 6295-916930), Neev (+91 90013 46350)\n\nCDC, IIT Kharagpur",
     "noticeat": "20-08-2026 21:20",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "f8d1bc1e8f5e7aeb046d8ed63e6932479990f3e33ebb90c59dc9c88e5b8ead03",
     "has_download": true,
     "file": "files/728.pdf"
@@ -3036,7 +3047,7 @@
     "company": "AMERICAN EXPRESS",
     "notice": "The Online Assessment for American Express is scheduled from 10:00 PM on 20th August, 2026. The Shortlist shall be released soon.\n\nKindly note that the test links for the assessment will be directly shared with the shortlisted students over mail.\n\nVenue: Your respective locations\n\nPOC: Aditya (+91 6295 916 930), Neev (+91 90013 46350)\n\nCDC, IIT Kharagpur",
     "noticeat": "20-08-2026 20:14",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "9501c49a823f19cb8ff277c0277f3960d24023c0afb39d03cac68a6a4c0ea975",
     "has_download": false
    },
@@ -3045,9 +3056,9 @@
     "type": "INTERNSHIP",
     "subject": "Urgent",
     "company": "ETERNAL",
-    "notice": "PFA the room allocation for the Online Assessment of Eternal, scheduled from 8:00 PM onwards on 20th August 2026.\n\nVenue: Nalanda Classroom ComplexStudents are requested to report 15 minutes prior to the reporting time.\n\nPOC: Devansh (+91 79998 92181), Neev (+91 90013 46350)\n\nCDC, IIT Kharagpur",
+    "notice": "PFA the room allocation for the Online Assessment of Eternal, scheduled from 8:00 PM onwards on 20th August 2026.\n\nVenue: Nalanda Classroom Complex\n\nStudents are requested to report 15 minutes prior to the reporting time.\n\nPOC: Devansh (+91 79998 92181), Neev (+91 90013 46350)\n\nCDC, IIT Kharagpur",
     "noticeat": "20-08-2026 19:08",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "30eabcf8eccc2269243565f8cd9070771289da042d3bb09f553e562ea0db190b",
     "has_download": true,
     "file": "files/726.pdf"
@@ -3057,9 +3068,9 @@
     "type": "INTERNSHIP",
     "subject": "Urgent",
     "company": "ETERNAL",
-    "notice": "PFA the test shortlist for the Assessment of Eternal, scheduled from 8:00 PM onwards on 20th August 2026.\n\nVenue: Nalanda Classroom ComplexStudents are requested to report 15 minutes prior to the reporting time.\n\nPOC: Devansh (+91 79998 92181), Neev (+91 90013 46350)\n\nCDC, IIT Kharagpur",
+    "notice": "PFA the test shortlist for the Assessment of Eternal, scheduled from 8:00 PM onwards on 20th August 2026.\n\nVenue: Nalanda Classroom Complex\n\nStudents are requested to report 15 minutes prior to the reporting time.\n\nPOC: Devansh (+91 79998 92181), Neev (+91 90013 46350)\n\nCDC, IIT Kharagpur",
     "noticeat": "20-08-2026 17:40",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "1f1e0feaa8ea7be2df385dec812bc21fd3669922d9cfc98a98504a05ca28dcc0",
     "has_download": true,
     "file": "files/724.pdf"
@@ -3071,7 +3082,7 @@
     "company": "ExxonMobil Services & Technology Private Limited",
     "notice": "The CV submission of ExxonMobil Services & Technology Private Limited for all roles with revised eligibility has been opened till 11:59 PM, 21st August 2026. All eligible students are kindly requested to register on the company portal on the given link below.\n\nLink: https://career4.successfactors.com/sfcareer/jobreqcareerpvt?jobId=107441&company=eexxonmobilP&st7043281D9322DAC328023E0649394D4DDEAB24F7\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "20-08-2026 16:16",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "aaf61263c33ea21fc7ba3babea87abc75d0fa89e3ab471d48d407f1a25dc5d82",
     "has_download": false
    },
@@ -3082,7 +3093,7 @@
     "company": "KPMG",
     "notice": "The CV submission of KPMG with has been opened till 11:59 PM, 21th August 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "20-08-2026 13:31",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "f6154bc84fda2ff1b07f3a76f901e775574349afc125d1e70744e594c3323cfe",
     "has_download": false
    },
@@ -3093,7 +3104,7 @@
     "company": "Barclays",
     "notice": "PFA the interview shortlist for Barclays.\n\nThe Interviews are scheduled from 6:00 PM, 20th August, 2026, at the Nalanda Classroom Complex. The exact venue and timings will be shared with the shortlisted candidates shortly.\n\nCDC, IIT Kharagpur",
     "noticeat": "20-08-2026 12:40",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "4d870808283fed78bae197de72b62a9f17cf2f16e21671537dc6b08d49b8b986",
     "has_download": true,
     "file": "files/717.pdf"
@@ -3103,9 +3114,9 @@
     "type": "INTERNSHIP",
     "subject": "CV Submission",
     "company": "NoBroker",
-    "notice": "The CV submission of Nobroker for its Business Strategy role has been opened till 11:59 PM, 20th August 2026. Interested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "notice": "The CV submission of Nobroker for its Business Strategy role has been opened till 11:59 PM, 20th August 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "20-08-2026 09:40",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "c8def3cac04a4d2f8f750e8fb132f4ced91067761c836febd0811a6c5e93b30b",
     "has_download": false
    },
@@ -3114,9 +3125,9 @@
     "type": "INTERNSHIP",
     "subject": "CV Submission",
     "company": "ExxonMobil Services & Technology Private Limited",
-    "notice": "The CV submission of ExxonMobil Services & Technology Private Limited for all roles has been opened till 11:59 PM, 21st August 2026. Interested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "notice": "The CV submission of ExxonMobil Services & Technology Private Limited for all roles has been opened till 11:59 PM, 21st August 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "20-08-2026 09:39",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "2f1aa0fe42492a4cc0934ff2842e965d3bed9e862fee3ef73619b92bae7e39f3",
     "has_download": false
    },
