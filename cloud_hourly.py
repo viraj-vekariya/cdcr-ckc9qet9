@@ -37,7 +37,7 @@ UPDATE_EMAIL = os.environ.get("UPDATE_EMAIL", "viraj.vp.iitkgp@gmail.com")  # 24
                                                             # both a few days,
                                                             # then decide which
                                                             # channel to rely on
-SITE_URL = "https://viraj-vekariya.github.io/placement-watcher/"
+SITE_URL = "https://viraj-vekariya.github.io/cdcr-ckc9qet9/"
 IST = ZoneInfo("Asia/Kolkata")  # the GitHub Actions runner's clock is UTC --
                                 # every timestamp must convert explicitly or
                                 # messages silently show UTC as if it were IST
