@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-09-29T09:59:11Z",
+ "last_updated": "2026-09-29T10:59:15Z",
  "stats": {
-  "placement": 134,
-  "internship": 745,
+  "placement": 135,
+  "internship": 746,
   "with_files": 167,
   "listed_downloads": 170
  },
  "categories": {
   "placement": [
+   {
+    "id": "943",
+    "type": "PLACEMENT",
+    "subject": "Date extension",
+    "company": "TREXQUANT",
+    "notice": "The CV submission of TREXQUANT for the role of Quantitative Researcher has been extended till 12:00 PM, 30th September 2026.\n\nIt is mandatory for all the students who are applying for this role to fill out the following Google form attached below:\n\nForm \n\nLink: https://forms.gle/8HC94Fg4iyMTr28f7\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "29-09-2026 15:42",
+    "text_source": "full_notice",
+    "source_hash": "01e30ca6a4b8adb8fdc09219ed1136931556f11291decb5e2114dd4b4cc4d128",
+    "has_download": false
+   },
    {
     "id": "942",
     "type": "PLACEMENT",
@@ -1489,6 +1500,17 @@
   ],
   "internship": [
    {
+    "id": "944",
+    "type": "INTERNSHIP",
+    "subject": "Date extension",
+    "company": "MOTILAL OSWAL FINANCIAL SERVICES LIMITED",
+    "notice": "The CV submission of MOTILAL OSWAL FINANCIAL SERVICES LIMITED for the role of Management Trainee has been extended with revised eligibility till 11:59 AM, 30th September 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "29-09-2026 15:44",
+    "text_source": "full_notice",
+    "source_hash": "acd9675f962d7edd9e2163f84fd83e149c455152e7686130bc609209a22f51e0",
+    "has_download": false
+   },
+   {
     "id": "934",
     "type": "INTERNSHIP",
     "subject": "CV Submission",
@@ -1789,7 +1811,7 @@
     "company": "Intellimation.AI",
     "notice": "The CV submission of Intellimation.\n\nAI for all the roles has been opened till 11:59 PM, 13th September 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "13-09-2026 12:11",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "7d10148199674d054797ced42cac387f26d948d35fe6da6429f807c6a548c295",
     "has_download": false
    },
@@ -1800,7 +1822,7 @@
     "company": "HP INC",
     "notice": "The CV submission of HP Inc has been extended till 11:59 PM, 13th September 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "13-09-2026 12:10",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "c4f7a5057f2ff153ef5de1bb58ebead65cb792369af74f3efe10f4a805d9cf5b",
     "has_download": false
    },
@@ -1811,7 +1833,7 @@
     "company": "I'MBESIDEYOU INC. (JAPAN)",
     "notice": "PFA the shortlist for further process of I'mbesideyou.\n\nFurther details would be communicated to the shortlisted candidates shortly.\n\nCDC, IIT Kharagpur",
     "noticeat": "13-09-2026 11:20",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "0bf6dda00e0b96b63842db7b5fbb027027eed15f0165700716de74c08a36bbd4",
     "has_download": true,
     "file": "files/885.pdf"
@@ -1823,7 +1845,7 @@
     "company": "EY GDS",
     "notice": "The CV submission of EY GDS for the role of AI & Data Intern has been opened till 11:59 PM, 13th September 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "11-09-2026 22:17",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "db32df99158b39700d29a41d32ab8aaede7d53e8ed58490299c7e7392201714f",
     "has_download": false
    },
@@ -1834,7 +1856,7 @@
     "company": "HP Inc.",
     "notice": "The CV submission of HP Inc has been reopened till 11:59 PM, 12th September 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "11-09-2026 20:01",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "cf6df74364c51ff7093a8b7c2656066902a8cbba08a439146275e293e33f2ad9",
     "has_download": false
    },
@@ -1845,7 +1867,7 @@
     "company": "NAVIGATORS SOFTWARE PVT LTD",
     "notice": "The CV submission of NAVIGATORS SOFTWARE PVT LTD for all the roles has been opened till 11:59 PM, 12th September 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "11-09-2026 20:00",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "7eedabec7b826097ae3d62b93e31f9ed9bf270e2a872407c79b062fd51bcd833",
     "has_download": false
    },
@@ -1854,9 +1876,9 @@
     "type": "INTERNSHIP",
     "subject": "Shortlist",
     "company": "SigIQ.ai",
-    "notice": "PFB the interview shortlist for SigIQ.ai:23CE36020\n23EC39025\n23MI31016\n24BT10039\n24CE10106\n24IM10006\n24IM10041\n24MI10015\n24MT10034\nFurther details would be communicated to the shortlisted candidates shortly.\n\nCDC, IIT Kharagpur",
+    "notice": "PFB the interview shortlist for SigIQ.ai:\n\n23CE36020\n23EC39025\n23MI31016\n24BT10039\n24CE10106\n24IM10006\n24IM10041\n24MI10015\n24MT10034\n\nFurther details would be communicated to the shortlisted candidates shortly.\n\nCDC, IIT Kharagpur",
     "noticeat": "11-09-2026 16:09",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "2fe7415447ee1b95ea227f7cc8fa0627d745a5cb05d89546a60bfd8bf951475c",
     "has_download": false
    },
@@ -1865,9 +1887,9 @@
     "type": "INTERNSHIP",
     "subject": "CV Submission",
     "company": "Intellimation.AI",
-    "notice": "The CV submission of Intellimation.\n\nAI for all the roles has been opened till 11:59 PM, 12th September 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "notice": "The CV submission of Intellimation.\n\nAI for all the roles has been opened till 11:59 PM, 12th September 2026.\n\nInterested and eligible students are advised to apply within the given deadline.\n\nNo further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "11-09-2026 16:08",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "40acddcc961d501b73d463829fc62648eadb1be13c90420e8d77b13bb884a2b9",
     "has_download": false
    },
@@ -1876,9 +1898,9 @@
     "type": "INTERNSHIP",
     "subject": "Shortlist",
     "company": "Mastercard",
-    "notice": "PFB the interview shortlist for Mastercard:23ME31007\n24IE10014\n24AI10046\n24CS10011\n23ME31024\n24MA10042\n23MA25007\n23CS30059\nFurther details would be communicated to the shortlisted candidates shortly.\n\nCDC, IIT Kharagpur",
+    "notice": "PFB the interview shortlist for Mastercard:\n\n23ME31007\n24IE10014\n24AI10046\n24CS10011\n23ME31024\n24MA10042\n23MA25007\n23CS30059\n\nFurther details would be communicated to the shortlisted candidates shortly.\n\nCDC, IIT Kharagpur",
     "noticeat": "10-09-2026 12:44",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "219c281008ad1a6cb213bbdfb6a68513820d1cc5f1bf0bff522dc92b9754eeb4",
     "has_download": false
    },
@@ -1889,7 +1911,7 @@
     "company": "GENERAL MILLS INDIA CENTRE",
     "notice": "The CV submission of GENERAL MILLS INDIA CENTRE has been extended till 11:59 PM, 10th September 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "10-09-2026 10:43",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "36fa73a1128bf3d746615219e6f8818c64e27eb1b2e71d6431bad09782c76d96",
     "has_download": false
    },
@@ -1898,9 +1920,9 @@
     "type": "INTERNSHIP",
     "subject": "Shortlist",
     "company": "Accenture India",
-    "notice": "PFB the interview shortlist of Accenture India for the role of ETE.23BT3FP59\n23CS30053\n23EC39033\n23IE3FP38\n24AE10009\n24CH10108\n24EC10006\n24EC10127\n24IE10017\n24IM10016\n24ME10123\nFurther details would be communicated to the shortlisted candidates shortly.\n\nCDC, IIT Kharagpur",
+    "notice": "PFB the interview shortlist of Accenture India for the role of ETE.\n\n23BT3FP59\n23CS30053\n23EC39033\n23IE3FP38\n24AE10009\n24CH10108\n24EC10006\n24EC10127\n24IE10017\n24IM10016\n24ME10123\n\nFurther details would be communicated to the shortlisted candidates shortly.\n\nCDC, IIT Kharagpur",
     "noticeat": "09-09-2026 18:27",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "52b8b308d0b6ff6ae1063b10a450cc20878df89e4c50a21a29b9e5cbe581164a",
     "has_download": false
    },
@@ -1909,9 +1931,9 @@
     "type": "INTERNSHIP",
     "subject": "Shortlist",
     "company": "Futures First",
-    "notice": "PFB the shortlist for further process of Futures First:24AE10053\n24AE10060\n24AG10050\n24CE10034\n24CH10036\n24CH10044\n24CH10107\n24CS10075\n24CY10032\n24EE10091\n24EX10030\n24HS10037\n24IE10010\n24IE10021\n24IE10034\n24IM10070\n24ME10092\n24ME10168\n24MF10050\n24MI10038\n24MI10073\n24MT10033\n24MT10075\n24NA10077\n\nCDC, IIT Kharagpur",
+    "notice": "PFB the shortlist for further process of Futures First:\n\n24AE10053\n24AE10060\n24AG10050\n24CE10034\n24CH10036\n24CH10044\n24CH10107\n24CS10075\n24CY10032\n24EE10091\n24EX10030\n24HS10037\n24IE10010\n24IE10021\n24IE10034\n24IM10070\n24ME10092\n24ME10168\n24MF10050\n24MI10038\n24MI10073\n24MT10033\n24MT10075\n24NA10077\n\nCDC, IIT Kharagpur",
     "noticeat": "09-09-2026 16:18",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "7ee92197c334241ea276149b64dd92c195367026f86c2433233971db4e12833d",
     "has_download": false
    },
@@ -1920,9 +1942,9 @@
     "type": "INTERNSHIP",
     "subject": "Shortlist",
     "company": "Axtria",
-    "notice": "PFA the shortlist for the test of Axtria.\n\nDate - 9th August 2026Time -7:00 PM to 9:00 PM Venue - NR221, Nalanda Classroom ComplexAll the shortlisted students are requested to reach the respective location 15 minutes prior to the test start time.\n\nPOC: Hardik (+91 8177018092), Aryan (+91 8100303122)\n\nCDC, IIT Kharagpur",
+    "notice": "PFA the shortlist for the test of Axtria.\n\nDate - 9th August 2026\nTime -7:00 PM to 9:00 PM\nVenue - NR221, Nalanda Classroom Complex\n\nAll the shortlisted students are requested to reach the respective location 15 minutes prior to the test start time.\n\nPOC: Hardik (+91 8177018092), Aryan (+91 8100303122)\n\nCDC, IIT Kharagpur",
     "noticeat": "09-09-2026 10:53",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "977c215cd73eb3ffd8bd9c5149c9f3fba0be67096f596866a75d476892aceac5",
     "has_download": true,
     "file": "files/867.pdf"
@@ -1934,7 +1956,7 @@
     "company": "GENERAL MILLS INDIA CENTRE",
     "notice": "The CV submission of GENERAL MILLS INDIA CENTRE has been opened till 11:59 PM, 9th September 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "08-09-2026 17:39",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "f482853cb436880a0445ad1eda98312c53af237e5d08827e6a640de520d29547",
     "has_download": false
    },
@@ -1943,9 +1965,9 @@
     "type": "INTERNSHIP",
     "subject": "Urgent",
     "company": "Accenture India",
-    "notice": "PFB the shortlist for the communication assessment of Accenture India for the role of ETE.23BT3FP59\n23CS30053\n23EC39033\n23IE3FP38\n24AE10009\n24CH10108\n24EC10006\n24EC10127\n24IE10017\n24IM10016\n24ME10123\nPlease note that the test link has been shared on the respective email IDs of the shortlisted candidates. The deadline to complete the mandatory test is 8th September 2026, 11:59 PM.\n\nVenue: Respective Location\n\nPOC: Ashutosh (+91 884 010 4367)\n\nCDC, IIT Kharagpur",
+    "notice": "PFB the shortlist for the communication assessment of Accenture India for the role of ETE.\n\n23BT3FP59\n23CS30053\n23EC39033\n23IE3FP38\n24AE10009\n24CH10108\n24EC10006\n24EC10127\n24IE10017\n24IM10016\n24ME10123\n\nPlease note that the test link has been shared on the respective email IDs of the shortlisted candidates. The deadline to complete the mandatory test is 8th September 2026, 11:59 PM.\n\nVenue: Respective Location\n\nPOC: Ashutosh (+91 884 010 4367)\n\nCDC, IIT Kharagpur",
     "noticeat": "08-09-2026 16:35",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "37814392063d372b17ab4ee3d5d9c303946f334afc677f8efdb94bf4f76599f9",
     "has_download": false
    },
@@ -1956,7 +1978,7 @@
     "company": "TATA STEEL",
     "notice": "PFA the shortlist for the online assessment of TATA STEEL, which is scheduled on 8th September 2026 from 8:00 PM onwards.\n\nThe test link has been shared on the CDC-registered email IDs of the shortlisted candidates.\n\nIn case of technical queries, the candidates can coordinate with the SHL support team as shared in the test email.\n\nVenue: Respective Location\n\nPOC: Daksh (+91 98180 71612)\n\nCDC, IIT Kharagpur",
     "noticeat": "08-09-2026 16:12",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "fcd58b894a6e4e6e8804c3473b510702549e8ca9d65bed47538787739bed5526",
     "has_download": true,
     "file": "files/860.pdf"
@@ -1968,7 +1990,7 @@
     "company": "Axtria",
     "notice": "The Pre-Placement Talk for Axtria will be held on 8th September 2026 from 6:00 PM\n\nLink: https://teams.microsoft.com/meet/454681452043378?p=p0AZ9EHk1KTzhtUhRp\n\nNote: All interested and eligible students are required to attend the PPT without fail. Attendance is compulsory.\n\nPOC: Abhinav (+91 9837964667)\n\nCDC, IIT Kharagpur",
     "noticeat": "08-09-2026 05:44",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "d5aaba41b95ec163e691a3f242f048d9650102e62391d54e2609385d962f71ab",
     "has_download": false
    },
@@ -1979,7 +2001,7 @@
     "company": "HP INC",
     "notice": "The CV submission of HP Inc has been opened till 11:59 PM, 9th September 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "07-09-2026 20:44",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "3d82a211118dcdd84b9b60d7abb3770f5ca43781671f3b3503a02b6ada2d019c",
     "has_download": false
    },
@@ -1988,9 +2010,9 @@
     "type": "INTERNSHIP",
     "subject": "Shortlist",
     "company": "Futures First",
-    "notice": "PFA room allocation and test shortlist for Futures First Test-2.\n\nThe test is scheduled on 7th September 2026 from 6:15 PM onwards.\n\nNote: Test-2 is mandatory for all candidates, irrespective of their participation in Test-1. Candidates must appear for Test-2 to be considered for further stages of the recruitment process. Students are required to carry their original Institute ID card/Medical Book, failing which students will not be permitted to sit for test.\n\nStudents are also advised to reach the venue 15 minutes prior to the time.\n\nPlease carry your laptops, pens, and papers.\n\nVenue: Nalanda Classroom Complex\n\nPOC: Bhavy (7597121669), Nikita Sinha (9969207598)\n\nCDC, IIT Kharagpur",
+    "notice": "PFA room allocation and test shortlist for Futures First Test-2.\n\nThe test is scheduled on 7th September 2026 from 6:15 PM onwards.\n\nNote: Test-2 is mandatory for all candidates, irrespective of their participation in Test-1. Candidates must appear for Test-2 to be considered for further stages of the recruitment process.\n\nStudents are required to carry their original Institute ID card/Medical Book, failing which students will not be permitted to sit for test.\n\nStudents are also advised to reach the venue 15 minutes prior to the time.\n\nPlease carry your laptops, pens, and papers.\n\nVenue: Nalanda Classroom Complex\n\nPOC: Bhavy (7597121669), Nikita Sinha (9969207598)\n\nCDC, IIT Kharagpur",
     "noticeat": "07-09-2026 15:59",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "c01033593935f6ee10df8d166d221bbc456e9390a480e00b3f5a53483d9c35be",
     "has_download": true,
     "file": "files/855.pdf"
@@ -2002,7 +2024,7 @@
     "company": "MOTILAL OSWAL",
     "notice": "The CV submission of Motilal Oswal for all the role has been extended till 11:59 PM, 7th September 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "07-09-2026 11:49",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "505b86c434e6aa20287c9c2e2b963331fab14c20408c14ca28e38e09034d3160",
     "has_download": false
    },
@@ -2013,7 +2035,7 @@
     "company": "SAMSUNG R&D INSTITUTE INDIA - NOIDA",
     "notice": "The CV submission of SAMSUNG R&D INSTITUTE INDIA - NOIDA with revised eligibility has been extended till 06:00 PM, 7th September 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "07-09-2026 11:49",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "4f1bc932cc48546e536c00a113db5c6e19ef19bc7c9aabe9b90542e130bf96aa",
     "has_download": false
    },
@@ -2024,7 +2046,7 @@
     "company": "Axtria",
     "notice": "The CV submission of Axtria for the Data Science role has been extended till 11:59 AM, 7th September 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "06-09-2026 18:49",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "59a1440ed7b3b182397284c2a2d1dcea8c4d6ffc88a9e3fa02648fd09adb1794",
     "has_download": false
    },
@@ -2035,7 +2057,7 @@
     "company": "Mastercard",
     "notice": "PFA the room allocation for the Online Assessment of MASTERCARD, scheduled from 9:00 PM onwards on 6th September 2026.\n\nNote: Only students who have successfully registered on the Hirepro Portal will be allowed to appear for the test.\n\nStudents are requested to report 15 minutes prior to the reporting time.\n\nPOC: Devansh (+91 7999892181), Dishil (+91 9925492574)\n\nCDC, IIT Kharagpur",
     "noticeat": "06-09-2026 18:27",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "944e07b4eaa0819fa64be7f07b532464b8115680e54e7d88aeefbe442e788395",
     "has_download": true,
     "file": "files/848.pdf"
@@ -2045,9 +2067,9 @@
     "type": "INTERNSHIP",
     "subject": "Shortlist",
     "company": "ETERNAL",
-    "notice": "PFB the updated interview shortlist of Eternal for the role of Product Analyst.23AG36014\n23ME33007\n23MI3EP04\n23NA3FP32\n24BT10024\n24CH10047\n24HS10042\n24HS10049\n\nCDC, IIT Kharagpur",
+    "notice": "PFB the updated interview shortlist of Eternal for the role of Product Analyst.\n\n23AG36014\n23ME33007\n23MI3EP04\n23NA3FP32\n24BT10024\n24CH10047\n24HS10042\n24HS10049\n\nCDC, IIT Kharagpur",
     "noticeat": "06-09-2026 18:26",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "a594cf05de85a8578618eec9e160878a6ae5279eac170e79ec266dbb0388b908",
     "has_download": false
    },
@@ -2058,7 +2080,7 @@
     "company": "SAMSUNG R&D INSTITUTE INDIA - NOIDA",
     "notice": "The CV submission of SAMSUNG R&D INSTITUTE INDIA - NOIDA has been extended till 11:59 PM, 6th September 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "06-09-2026 18:14",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "30e7261c76117db173f2dee984400687c4204c32e43665d74d30670cac175798",
     "has_download": false
    },
@@ -2069,7 +2091,7 @@
     "company": "MOTILAL OSWAL",
     "notice": "The CV submission of Motilal Oswal for all the role has been extended till 11:59 PM, 6th September 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "05-09-2026 14:27",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "50af15725aed5c4c76116d7cd64e0d62fefc11ca0929ec6e2b4dbd0683629e5d",
     "has_download": false
    },
@@ -2080,7 +2102,7 @@
     "company": "SAMSUNG R&D INSTITUTE INDIA - NOIDA",
     "notice": "The CV submission of SAMSUNG R&D INSTITUTE INDIA - NOIDA has been extended till 11:59 AM, 6th September 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "05-09-2026 14:26",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "987ca2ab931230f54157e595d641f2ee8009e5ee3dd9a99f66c9e37200c9c01d",
     "has_download": false
    },
@@ -2089,9 +2111,9 @@
     "type": "INTERNSHIP",
     "subject": "Urgent",
     "company": "Accenture India",
-    "notice": "Please find attached the revised list of eligible candidates for the in-campus coding assessment for the Accenture India Elite Technology Engineer Intern role. The reporting room and revised reporting time are as follows:Date - 5th September 2026Revised Time - 7:30 AMReporting Room - NR 321Important Instructions:It is mandatory for all students to carry the following items to be eligible for the in-campus assessment: - A printout of the admit card sent to the registered email ID. A soft copy of the admit card will not be considered valid. - Original physical PAN card. Scanned copies, photocopies, or laminated copies of the PAN card will not be accepted. DigiLocker PAN cards will not be considered valid. If a student does not have their physical PAN card, they can download the official E-PAN card and present it tomorrow.\n\nAll shortlisted students are requested to reach the reporting location 15 minutes prior to the mentioned time.\n\nPOC: Keshav (+91 7710038569), Aditya Ghandge (+91 9325468252)\n\nCDC, IIT Kharagpur",
+    "notice": "Please find attached the revised list of eligible candidates for the in-campus coding assessment for the Accenture India Elite Technology Engineer Intern role. The reporting room and revised reporting time are as follows:\n\nDate - 5th September 2026\nRevised Time - 7:30 AM\nReporting Room - NR 321\n\nImportant Instructions:\n\nIt is mandatory for all students to carry the following items to be eligible for the in-campus assessment:\n\n- A printout of the admit card sent to the registered email ID. A soft copy of the admit card will not be considered valid.\n- Original physical PAN card. Scanned copies, photocopies, or laminated copies of the PAN card will not be accepted. DigiLocker PAN cards will not be considered valid. If a student does not have their physical PAN card, they can download the official E-PAN card and present it tomorrow.\n\nAll shortlisted students are requested to reach the reporting location 15 minutes prior to the mentioned time.\n\nPOC: Keshav (+91 7710038569), Aditya Ghandge (+91 9325468252)\n\nCDC, IIT Kharagpur",
     "noticeat": "04-09-2026 22:58",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "e09581f086bf9034ea3e9e78e0109fa1eeec581e7d219bdfdecbbe9824b09cce",
     "has_download": true,
     "file": "files/843.pdf"
@@ -2103,7 +2125,7 @@
     "company": "Mastercard",
     "notice": "The CV submission of Mastercard for the Data Science role has been opened till 6:00 PM, 5th September 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "04-09-2026 22:09",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "0356c4897081d565a81b1dc00f9660892a03914a45a5bea0f99f6d8ede777add",
     "has_download": false
    },
@@ -2114,7 +2136,7 @@
     "company": "Axtria",
     "notice": "The CV submission of Axtria for the Data Science role has been extended till 11:59 PM, 5th September 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "04-09-2026 21:41",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "3abc7248e6dce546f5767de7886534be37ed73140d3261205d99107b6525fd56",
     "has_download": false
    },
@@ -2125,7 +2147,7 @@
     "company": "SLB",
     "notice": "PFA the shortlist for the Group Discussion round of SLB of all the roles.\n\nNote: Further details would be communicated to the shortlisted candidates shortly.\n\nCDC, IIT Kharagpur",
     "noticeat": "04-09-2026 21:25",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "54503cbd13d6e6debcaf1b2a74bfc745775e1468e87153dede1e6d4099ded929",
     "has_download": true,
     "file": "files/840.pdf"
@@ -2135,9 +2157,9 @@
     "type": "INTERNSHIP",
     "subject": "Shortlist",
     "company": "SAMSUNG R&D INSTITUTE INDIA - DELHI",
-    "notice": "PFB the Interview shortlist for SAMSUNG R&D INSTITUTE INDIA - DELHI of the role of Software Development Intern.23CS30013\n23CS30045\n23EE3AI22\n24CS10085\n24CS10109\n24EC10102\n24EC10127\n24EE10037\n24IE10005\n24IE10017\n24MA10018\n24MA10022\n24MA10025\n24MA10026\nReporting Time : 3:00 PM, 4th SeptemberReporting Room : NC241\n\nCDC, IIT Kharagpur",
+    "notice": "PFB the Interview shortlist for SAMSUNG R&D INSTITUTE INDIA - DELHI of the role of Software Development Intern.\n\n23CS30013\n23CS30045\n23EE3AI22\n24CS10085\n24CS10109\n24EC10102\n24EC10127\n24EE10037\n24IE10005\n24IE10017\n24MA10018\n24MA10022\n24MA10025\n24MA10026\n\nReporting Time : 3:00 PM, 4th September\nReporting Room : NC241\n\nCDC, IIT Kharagpur",
     "noticeat": "04-09-2026 14:35",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "0ebc53782dadfb02c1ba296dd4b9c1a7ae124be0c3fe2e66da11abb6e0d5a99c",
     "has_download": false
    },
@@ -2148,7 +2170,7 @@
     "company": "SAMSUNG R&D INSTITUTE INDIA - NOIDA",
     "notice": "The CV submission of SAMSUNG R&D INSTITUTE INDIA - NOIDA has been opened till 11:59 AM, 5th September 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "04-09-2026 13:37",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "24ada17915b016fb91b5c04e8afef0de47eadc1357f4fea1c419859081d811f9",
     "has_download": false
    },
@@ -2159,7 +2181,7 @@
     "company": "MOTILAL OSWAL",
     "notice": "The CV submission of Motilal Oswal for all the role has been opened till 11:59 AM, 5th September 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "04-09-2026 13:36",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "a7bc25ac52593292e24eb98e35f7317ebdf801947dc4e8d32a500d91324902ea",
     "has_download": false
    },
@@ -2170,7 +2192,7 @@
     "company": "FUTURES FIRST",
     "notice": "PFA room allocation and test shortlist for Futures First.\n\nThe test is scheduled on 4th September 2026 from 10:00 AM onwards.\n\nStudents are required to carry their original Institute ID card/Medical Book, failing which students will not be permitted to sit for test.\n\nStudents are also advised to reach the venue 15 minutes prior to the time.\n\nPlease carry your laptops, pens, and papers.\n\nVenue: Nalanda Classroom Complex\n\nPOC: Bhavy (7597121669), Nikita Sinha (9969207598)\n\nCDC, IIT Kharagpur",
     "noticeat": "03-09-2026 18:00",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "9ccc8c2d022183847b88c63073226dac96c40f200ed6f605194bcca9aefb16a5",
     "has_download": true,
     "file": "files/835.pdf"
@@ -2182,7 +2204,7 @@
     "company": "SAMSUNG R&D INSTITUTE INDIA - DELHI",
     "notice": "PFA room allocation and test shortlist for SAMSUNG R&D INSTITUTE INDIA - DELHI.\n\nThe test is scheduled on 4th September 2026 from 11:00 AM onwards.\n\nStudents are required to carry their original Institute ID card/Medical Book, failing which students will not be permitted to sit for test.\n\nStudents are also advised to reach the venue 15 minutes prior to the time.\n\nPlease carry your laptops, pens, and papers.\n\nVenue: Nalanda Classroom Complex\n\nPOC: Khush (9922168000), Aryan (8100303122)\n\nCDC, IIT Kharagpur",
     "noticeat": "03-09-2026 17:32",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "1299c48d1acdf2110e8b786662fa550aa4d70a9d7b0657d907ecc12a6183639e",
     "has_download": true,
     "file": "files/834.pdf"
@@ -2194,7 +2216,7 @@
     "company": "SLB",
     "notice": "PFA room allocation and test shortlist for SLB.\n\nThe test is scheduled on 3rd September 2026 from 9:00 PM onwards.\n\nStudents are required to carry their original Institute ID card/Medical Book, failing which students will not be permitted to sit for test.\n\nStudents are also advised to reach the venue 15 minutes prior to the time.\n\nPlease carry your laptops, pens, and papers.\n\nVenue: Nalanda Classroom Complex\n\nPOC: Devansh (7999892181), Rudra (8235755257)\n\nCDC, IIT Kharagpur",
     "noticeat": "03-09-2026 17:20",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "131882385fd68563214f3c8ab8fa1e070410e5a5b8b49f5311f481b69be766a3",
     "has_download": true,
     "file": "files/832.pdf"
@@ -2206,7 +2228,7 @@
     "company": "Axtria",
     "notice": "The CV submission of Axtria for the Data Science role has been opened till 11:59 AM, 4rd September 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "03-09-2026 16:03",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "77d2b07a822dffadf4d1c1b77c72af19a704883c0551beb35838a0e6e47292db",
     "has_download": false
    },
