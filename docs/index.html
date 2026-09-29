@@ -94,7 +94,7 @@ footer{margin-top:34px;padding-top:16px;border-top:1px solid var(--border);font-
 footer a{color:var(--accent)}
 .skel{background:linear-gradient(90deg,var(--surface-2) 25%,var(--border) 37%,var(--surface-2) 63%);background-size:400% 100%;animation:sh 1.4s ease infinite;border-radius:12px;height:88px}
 @keyframes sh{0%{background-position:100% 0}100%{background-position:0 0}}
-.opportunities{max-width:1100px;margin:24px auto;padding:0 20px}.opportunities h2{margin-bottom:6px}.opportunities p{color:var(--muted,#666)}.job{border:1px solid var(--border,#ddd);border-radius:14px;background:var(--card,#fff);padding:20px;margin:12px 0}.job h3{margin:0 0 8px}.job-grid{display:flex;flex-wrap:wrap;gap:14px;margin:14px 0}.job-grid span{padding:8px 12px;background:var(--info-bg,#eef4ff);border-radius:8px}.job pre{white-space:pre-wrap;overflow-wrap:anywhere;font:inherit;line-height:1.65}.job summary{cursor:pointer;padding:10px 0;font-weight:600}.body a{overflow-wrap:anywhere}.source-note{font-size:12px;color:var(--muted,#666);margin-top:12px}
+.opportunities{max-width:1100px;margin:24px auto;padding:0 20px}.opportunities h2{margin-bottom:6px}.opportunities p{color:var(--muted,#666)}.job{border:1px solid var(--border,#ddd);border-radius:14px;background:var(--card,#fff);padding:20px;margin:12px 0}.job h3{margin:0 0 8px}.job-grid{display:flex;flex-wrap:wrap;gap:14px;margin:14px 0}.job-grid span{padding:8px 12px;background:var(--info-bg,#eef4ff);border-radius:8px}.status-badge{padding:8px 12px;border-radius:8px;font-weight:600}.status-applied{background:#e6f6ea;color:#1a7a3a}.status-available{background:#eef4ff;color:#1a4fa0}.status-loading{background:var(--surface-2,#f0f0f0);color:var(--muted,#666)}.job pre{white-space:pre-wrap;overflow-wrap:anywhere;font:inherit;line-height:1.65}.job summary{cursor:pointer;padding:10px 0;font-weight:600}.body a{overflow-wrap:anywhere}.source-note{font-size:12px;color:var(--muted,#666);margin-top:12px}
 </style>
 
 <header class="top">
@@ -375,7 +375,7 @@ footer a{color:var(--accent)}
         var expiry = c.resume_end ? new Date(c.resume_end.replace(' ','T')+':00+05:30') : null;
         var closed = expiry && !isNaN(expiry) && expiry < new Date();
         return '<article class="job"><h3>'+esc(c.company)+'</h3><b>'+esc(c.role)+'</b>'+
-          '<div class="job-grid"><span>CTC: '+esc(c.ctc)+' '+esc(c.currency)+'</span><span>CV deadline: '+esc(c.resume_end)+' IST'+(closed?' · Closed':'')+'</span><span>'+ (c.is_applied === true ? 'Applied in ERP' : c.is_applied === false ? 'Not applied in ERP' : 'Application status loading') +'</span></div>'+
+          '<div class="job-grid"><span>CTC: '+esc(c.ctc)+' '+esc(c.currency)+'</span><span>CV deadline: '+esc(c.resume_end)+' IST'+(closed?' · Closed':'')+'</span>'+'<span class="status-badge '+(c.is_applied === true ? 'status-applied' : c.is_applied === false ? 'status-available' : 'status-loading')+'">'+(c.is_applied === true ? 'Applied in ERP' : c.is_applied === false ? 'Not yet applied' : 'Checking status…')+'</span></div>'+
           '<p>CV window opens: '+esc(c.resume_start)+' IST</p>'+
           (c.interview?'<p>Interview / selection: '+esc(c.interview)+'</p>':'')+
           (c.details?'<details><summary>Job description &amp; eligibility</summary><pre>'+linkify(c.details)+'</pre></details>':'')+
