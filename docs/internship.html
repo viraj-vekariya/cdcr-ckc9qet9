@@ -1,0 +1,270 @@
+<meta charset="utf-8">
+<title>CDC Radar &middot; Internship notices</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --accent:#1e2a63; --accent-contrast:#ffffff; --gold:#b8892c;
+  --bg:#f7f6f1; --surface:#ffffff; --surface-2:#efece3; --border:#e2ded2;
+  --text:#1b1b1f; --text-dim:#67646c;
+  --good:#1f7a4d; --good-bg:#e6f4ec;
+  --info:#2452c8; --info-bg:#e9eefc;
+  --warn:#a8660a; --warn-bg:#fbeed7;
+  --shadow:0 1px 2px rgba(20,20,30,.04), 0 6px 20px -8px rgba(20,20,30,.10);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --accent:#93a4ff; --accent-contrast:#10142c; --gold:#e3b854;
+    --bg:#12141d; --surface:#1a1d29; --surface-2:#212437; --border:#2b2e40;
+    --text:#eceefc; --text-dim:#9c9db3;
+    --good:#5fd39a; --good-bg:#123321;
+    --info:#9db3ff; --info-bg:#1a2247;
+    --warn:#f0b967; --warn-bg:#3a2b0f;
+    --shadow:0 1px 2px rgba(0,0,0,.3), 0 6px 24px -8px rgba(0,0,0,.5);
+  }
+}
+:root[data-theme="dark"]{
+  --accent:#93a4ff; --accent-contrast:#10142c; --gold:#e3b854;
+  --bg:#12141d; --surface:#1a1d29; --surface-2:#212437; --border:#2b2e40;
+  --text:#eceefc; --text-dim:#9c9db3;
+  --good:#5fd39a; --good-bg:#123321;
+  --info:#9db3ff; --info-bg:#1a2247;
+  --warn:#f0b967; --warn-bg:#3a2b0f;
+  --shadow:0 1px 2px rgba(0,0,0,.3), 0 6px 24px -8px rgba(0,0,0,.5);
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--text);font-family:"IBM Plex Sans",-apple-system,sans-serif;padding-inline:16px;padding-block:22px 60px;max-width:880px;margin:0 auto}
+h1,h2,h3{font-family:"Fraunces",Georgia,serif;text-wrap:balance;margin:0}
+header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding-block:10px 14px;margin-bottom:14px;border-bottom:1px solid var(--border)}
+.brand{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.brand h1{font-size:22px;font-weight:700;color:var(--accent)}
+.brand .inst{font-size:12.5px;color:var(--text-dim);letter-spacing:.02em}
+.subrow{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:8px;flex-wrap:wrap}
+.updated{font-size:12px;color:var(--text-dim)}
+.updated b{color:var(--text)}
+.back{font:600 12.5px "IBM Plex Sans";color:var(--accent);text-decoration:none}
+.searchwrap{position:relative;margin-bottom:10px}
+input.search{width:100%;font:14px "IBM Plex Sans";padding:10px 12px 10px 34px;border-radius:9px;border:1px solid var(--border);background:var(--surface);color:var(--text)}
+input.search:focus{outline:2px solid var(--accent);outline-offset:-1px}
+.searchwrap svg{position:absolute;left:11px;top:50%;transform:translateY(-50%);width:15px;height:15px;color:var(--text-dim)}
+.subjectrow{margin-bottom:16px}
+select.subjectSelect{font:600 12.5px "IBM Plex Sans";color:var(--text);background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:7px 10px;width:100%}
+.list{display:flex;flex-direction:column;gap:10px}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:13px 15px;box-shadow:var(--shadow)}
+.card .hd{display:flex;justify-content:space-between;gap:8px;align-items:flex-start;margin-bottom:6px;flex-wrap:wrap}
+.badges{display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+.badge{font:700 10.5px "IBM Plex Sans";text-transform:uppercase;letter-spacing:.03em;padding:2px 7px;border-radius:5px}
+.badge.INTERNSHIP{background:var(--info-bg);color:var(--info)}
+.badge.subj{background:var(--warn-bg);color:var(--warn)}
+.badge.new{background:var(--gold);color:#241a00}
+.time{font-size:11.5px;color:var(--text-dim);font-family:"IBM Plex Mono";white-space:nowrap}
+.co{font-weight:600;font-size:14.5px;margin-bottom:5px}
+.co.empty{color:var(--text-dim);font-weight:400;font-style:italic}
+.body{font-size:13px;line-height:1.55;color:var(--text);white-space:pre-wrap;max-height:96px;overflow:hidden;position:relative}
+.body.open{max-height:none}
+.body:not(.open)::after{content:"";position:absolute;bottom:0;left:0;right:0;height:34px;background:linear-gradient(transparent,var(--surface))}
+.body a{overflow-wrap:anywhere}
+.more{margin-top:6px;font:600 12px "IBM Plex Sans";color:var(--accent);background:none;border:none;cursor:pointer;padding:0}
+.dl{text-decoration:none;margin-top:8px;font-size:12px;display:inline-flex;align-items:center;gap:5px;padding:4px 9px;border-radius:6px}
+.dl.yes{background:var(--good-bg);color:var(--good)}
+.dl.no{background:var(--surface-2);color:var(--text-dim)}
+.loadmore{display:block;margin:16px auto 0;font:600 13px "IBM Plex Sans";color:var(--accent-contrast);background:var(--accent);border:none;border-radius:9px;padding:10px 18px;cursor:pointer}
+.empty-state{text-align:center;color:var(--text-dim);padding:40px 10px;font-size:13.5px}
+.err{background:var(--warn-bg);color:var(--warn);border-radius:10px;padding:12px 14px;font-size:13px;margin-bottom:14px}
+.skel{background:linear-gradient(90deg,var(--surface-2) 25%,var(--border) 37%,var(--surface-2) 63%);background-size:400% 100%;animation:sh 1.4s ease infinite;border-radius:12px;height:88px}
+@keyframes sh{0%{background-position:100% 0}100%{background-position:0 0}}
+.source-note{font-size:12px;color:var(--text-dim);margin-top:12px}
+footer{margin-top:34px;padding-top:16px;border-top:1px solid var(--border);font-size:11.5px;color:var(--text-dim);text-align:center;line-height:1.6}
+footer a{color:var(--accent)}
+</style>
+
+<header class="top">
+  <div class="brand">
+    <h1>Internship notices</h1>
+    <span class="inst">IIT Kharagpur &middot; Career Development Centre</span>
+  </div>
+  <div class="subrow">
+    <div class="updated">Updated <b id="updatedAt">&hellip;</b></div>
+    <a class="back" href="./index.html">&larr; Back to Placement</a>
+  </div>
+</header>
+
+<div class="searchwrap">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+  <input class="search" id="search" placeholder="Search by company or keyword&hellip;" autocomplete="off">
+</div>
+
+<div class="subjectrow">
+  <select class="subjectSelect" id="subjectFilter"></select>
+</div>
+
+<div id="errBox"></div>
+<div class="list" id="list"></div>
+<button class="loadmore" id="loadMore" hidden>Show more</button>
+
+<footer>
+  Internship notices auto-scraped hourly from the IIT KGP ERP CDC Notice board.<br>
+  Source: <a href="./notices.json" target="_blank" rel="noopener">notices.json</a>
+  on <a href="https://github.com/viraj-vekariya/placement-watcher" target="_blank" rel="noopener">placement-watcher</a>
+</footer>
+
+<script>
+(function(){
+  "use strict";
+  var DATA_URL = "./notices.json";
+  var PAGE_SIZE = 40;
+  var state = { data:null, query:"", subject:"", shown:PAGE_SIZE, lastSeenId:0 };
+
+  function esc(s){
+    return String(s==null?"":s).replace(/[&<>"']/g,function(c){
+      return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c];
+    });
+  }
+  function linkify(s){
+    var text = String(s || ''), out = '', cursor = 0;
+    var re = /https?:\/\/[^\s<>"']+/g, m;
+    while ((m = re.exec(text))) {
+      out += esc(text.slice(cursor, m.index));
+      var url = m[0], tail = '';
+      while (/[.,;!]$/.test(url)) { tail = url.slice(-1) + tail; url = url.slice(0,-1); }
+      out += '<a href="'+esc(url)+'" target="_blank" rel="noopener noreferrer">'+esc(url)+'</a>'+esc(tail);
+      cursor = m.index + m[0].length;
+    }
+    return out + esc(text.slice(cursor));
+  }
+  function safeStore(fn,fallback){ try{ return fn(); }catch(e){ return fallback; } }
+  function loadLastSeen(){
+    return safeStore(function(){ return parseInt(localStorage.getItem("cdcRadarInternLastSeenId")||"0",10) || 0; }, 0);
+  }
+  function saveLastSeen(id){
+    safeStore(function(){ localStorage.setItem("cdcRadarInternLastSeenId", String(id)); }, null);
+  }
+  function relTime(iso){
+    var d = new Date(iso);
+    if(isNaN(d)) return iso;
+    var mins = Math.round((Date.now()-d.getTime())/60000);
+    if(mins < 1) return "just now";
+    if(mins < 60) return mins + "m ago";
+    var hrs = Math.round(mins/60);
+    if(hrs < 24) return hrs + "h ago";
+    var days = Math.round(hrs/24);
+    return days + "d ago";
+  }
+  function isToday(noticeat){
+    var parts = (noticeat||"").split(" ")[0].split("-");
+    if(parts.length !== 3) return false;
+    var d = parseInt(parts[0],10), m = parseInt(parts[1],10), y = parseInt(parts[2],10);
+    var now = new Date();
+    return d===now.getDate() && m===(now.getMonth()+1) && y===now.getFullYear();
+  }
+
+  function rows(){ return (state.data && state.data.categories.internship) || []; }
+
+  function renderSubjectFilter(){
+    var subjects = [];
+    rows().forEach(function(r){
+      var s = r.subject || "";
+      if(s && subjects.indexOf(s) === -1) subjects.push(s);
+    });
+    subjects.sort();
+    var sel = document.getElementById("subjectFilter");
+    var opts = ['<option value="">All subjects</option>'].concat(
+      subjects.map(function(s){
+        return '<option value="'+esc(s)+'"'+(s===state.subject?' selected':'')+'>'+esc(s)+'</option>';
+      })
+    );
+    sel.innerHTML = opts.join("");
+  }
+
+  function filtered(){
+    var r = rows();
+    if(state.subject){ r = r.filter(function(x){ return (x.subject||"") === state.subject; }); }
+    var q = state.query.trim().toLowerCase();
+    if(!q) return r;
+    return r.filter(function(x){
+      return (x.company||"").toLowerCase().indexOf(q) > -1 ||
+             (x.notice||"").toLowerCase().indexOf(q) > -1 ||
+             (x.subject||"").toLowerCase().indexOf(q) > -1;
+    });
+  }
+
+  function cardHtml(r){
+    var idNum = parseInt(r.id,10) || 0;
+    var isNew = idNum > state.lastSeenId;
+    var badges = '<span class="badge INTERNSHIP">INTERNSHIP</span>' +
+                 (r.subject ? '<span class="badge subj">'+esc(r.subject)+'</span>' : '') +
+                 (isNew ? '<span class="badge new">New</span>' : '') +
+                 (isToday(r.noticeat) ? '<span class="badge subj" style="background:var(--info-bg);color:var(--info)">Today</span>' : '');
+    var dl = "";
+    if(r.file){
+      dl = '<a class="dl yes" href="'+esc(r.file)+'" target="_blank" rel="noopener">&#128206; Download attached file (PDF)</a>';
+    } else if(r.has_download){
+      dl = '<div class="dl no">Attachment listed on ERP &mdash; download pending or unavailable</div>';
+    }
+    return '<div class="card" data-id="'+esc(r.id)+'">' +
+      '<div class="hd"><div class="badges">'+badges+'</div><div class="time">'+esc(r.noticeat)+'</div></div>' +
+      '<div class="co'+(r.company?'':' empty')+'">'+esc(r.company||"General notice (no company)")+'</div>' +
+      '<div class="body">'+linkify(r.notice)+'</div>' +
+      '<button class="more">Read full notice</button>' +
+      '<div class="source-note">'+(r.text_source === 'full_notice' ? 'Full ERP notice &middot; original wording' : 'ERP grid text &middot; full detail pending')+'</div>' +
+      dl +
+    '</div>';
+  }
+
+  function renderList(){
+    var r = filtered();
+    var list = document.getElementById("list");
+    var maxIdSeen = state.lastSeenId;
+    if(r.length === 0){
+      list.innerHTML = '<div class="empty-state">No notices match&nbsp;&mdash;&nbsp;try a different search or filter.</div>';
+      document.getElementById("loadMore").hidden = true;
+      return;
+    }
+    var slice = r.slice(0, state.shown);
+    list.innerHTML = slice.map(cardHtml).join("");
+    r.forEach(function(x){ var idNum = parseInt(x.id,10) || 0; if(idNum > maxIdSeen) maxIdSeen = idNum; });
+    Array.prototype.forEach.call(list.querySelectorAll(".more"), function(btn){
+      btn.addEventListener("click", function(){
+        var body = btn.previousElementSibling;
+        var open = body.classList.toggle("open");
+        btn.textContent = open ? "Show less" : "Show more";
+      });
+    });
+    var lm = document.getElementById("loadMore");
+    lm.hidden = r.length <= state.shown;
+    clearTimeout(renderList._t);
+    renderList._t = setTimeout(function(){ saveLastSeen(maxIdSeen); }, 4000);
+  }
+
+  function showError(msg){
+    document.getElementById("errBox").innerHTML =
+      '<div class="err">Couldn&rsquo;t load the latest notices (' + esc(msg) + '). Showing the last data loaded, if any.</div>';
+  }
+
+  function fetchData(){
+    return fetch(DATA_URL + "?_=" + Date.now(), {cache:"no-store"})
+      .then(function(r){ if(!r.ok) throw new Error("HTTP "+r.status); return r.json(); })
+      .then(function(json){
+        document.getElementById("errBox").innerHTML = "";
+        state.data = json;
+        if(state.lastSeenId === 0) state.lastSeenId = loadLastSeen();
+        document.getElementById("updatedAt").textContent = relTime(json.last_updated) + " (" + json.last_updated.replace("T"," ").replace("Z"," UTC") + ")";
+        renderSubjectFilter(); renderList();
+      })
+      .catch(function(e){ showError(e.message); });
+  }
+
+  document.getElementById("loadMore").addEventListener("click", function(){ state.shown += PAGE_SIZE; renderList(); });
+  var searchTimer;
+  document.getElementById("search").addEventListener("input", function(e){
+    clearTimeout(searchTimer);
+    var v = e.target.value;
+    searchTimer = setTimeout(function(){ state.query = v; state.shown = PAGE_SIZE; renderList(); }, 150);
+  });
+  document.getElementById("subjectFilter").addEventListener("change", function(e){
+    state.subject = e.target.value; state.shown = PAGE_SIZE; renderList();
+  });
+
+  document.getElementById("list").innerHTML = Array(4).fill('<div class="skel"></div>').join("");
+  fetchData();
+})();
+</script>
