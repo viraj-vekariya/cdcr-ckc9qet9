@@ -76,7 +76,7 @@ def capture_companies(context):
         app = candidates[0]
         app.wait_for_function(
             'window.jQuery && jQuery("#grid37").length && '
-            'jQuery("#grid37").jqGrid("getGridParam","records") >= 0',
+            'jQuery("#grid37").jqGrid("getGridParam","records") > 0',
             timeout=20000,
         )
         rows = app.locator('#grid37 tr.jqgrow')
