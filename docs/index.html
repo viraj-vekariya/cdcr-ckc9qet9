@@ -32,7 +32,7 @@
   --shadow:0 1px 2px rgba(0,0,0,.3), 0 6px 24px -8px rgba(0,0,0,.5);
 }
 *{box-sizing:border-box}
-body{background:var(--bg);color:var(--text);font-family:"IBM Plex Sans",-apple-system,sans-serif;padding-inline:16px;padding-block:22px 60px;max-width:880px;margin:0 auto}
+body{background:var(--bg);color:var(--text);font-family:"IBM Plex Sans",-apple-system,sans-serif;padding-inline:16px;padding-block:22px 60px;max-width:960px;margin:0 auto}
 h1,h2,h3{font-family:"Fraunces",Georgia,serif;text-wrap:balance;margin:0}
 .mono{font-family:"IBM Plex Mono",ui-monospace,monospace;font-variant-numeric:tabular-nums}
 header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding-block:10px 14px;margin-bottom:14px;border-bottom:1px solid var(--border)}
@@ -48,16 +48,14 @@ button.refresh svg{width:13px;height:13px}
 button.refresh.spin svg{animation:spin .8s linear infinite}
 @keyframes spin{to{transform:rotate(360deg)}}
 
-.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:16px}
-.stat{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:10px 12px;box-shadow:var(--shadow)}
-.stat .n{font-family:"IBM Plex Mono";font-size:20px;font-weight:500;color:var(--accent);font-variant-numeric:tabular-nums}
-.stat .l{font-size:10.5px;color:var(--text-dim);text-transform:uppercase;letter-spacing:.05em;margin-top:2px}
-@media (max-width:480px){.stats{grid-template-columns:repeat(3,1fr)}}
-
-.tabs{display:flex;gap:4px;background:var(--surface-2);border:1px solid var(--border);border-radius:10px;padding:4px;margin-bottom:10px;overflow-x:auto}
+.tabs{display:flex;gap:4px;background:var(--surface-2);border:1px solid var(--border);border-radius:10px;padding:4px;margin-bottom:14px;overflow-x:auto}
 .tab{flex:1 0 auto;text-align:center;font:600 12.5px "IBM Plex Sans";color:var(--text-dim);padding:7px 10px;border-radius:7px;cursor:pointer;white-space:nowrap;background:transparent;border:none}
 .tab[aria-selected="true"]{background:var(--surface);color:var(--accent);box-shadow:var(--shadow)}
 .tab .cnt{opacity:.7;font-family:"IBM Plex Mono";margin-left:3px}
+
+.toggle-row{display:flex;align-items:center;gap:8px;margin-bottom:12px;font-size:13px;color:var(--text-dim)}
+.toggle-row input{width:15px;height:15px;accent-color:var(--accent)}
+.toggle-row label{cursor:pointer;user-select:none}
 
 .searchwrap{position:relative;margin-bottom:10px}
 input.search{width:100%;font:14px "IBM Plex Sans";padding:10px 12px 10px 34px;border-radius:9px;border:1px solid var(--border);background:var(--surface);color:var(--text)}
@@ -83,6 +81,7 @@ select.subjectSelect:focus{outline:2px solid var(--accent);outline-offset:-1px}
 .body{font-size:13px;line-height:1.55;color:var(--text);white-space:pre-wrap;max-height:96px;overflow:hidden;position:relative}
 .body.open{max-height:none}
 .body:not(.open)::after{content:"";position:absolute;bottom:0;left:0;right:0;height:34px;background:linear-gradient(transparent,var(--surface))}
+.body a{overflow-wrap:anywhere}
 .more{margin-top:6px;font:600 12px "IBM Plex Sans";color:var(--accent);background:none;border:none;cursor:pointer;padding:0}
 .dl{text-decoration:none;margin-top:8px;font-size:12px;display:inline-flex;align-items:center;gap:5px;padding:4px 9px;border-radius:6px}
 .dl.yes{background:var(--good-bg);color:var(--good)}
@@ -95,7 +94,28 @@ footer{margin-top:34px;padding-top:16px;border-top:1px solid var(--border);font-
 footer a{color:var(--accent)}
 .skel{background:linear-gradient(90deg,var(--surface-2) 25%,var(--border) 37%,var(--surface-2) 63%);background-size:400% 100%;animation:sh 1.4s ease infinite;border-radius:12px;height:88px}
 @keyframes sh{0%{background-position:100% 0}100%{background-position:0 0}}
-.opportunities{max-width:880px;margin:0 auto 28px}.opportunities h2{margin-bottom:4px}.opportunities>p{color:var(--text-dim);font-size:13px;margin:0 0 12px}.job{border:1px solid var(--border);border-radius:14px;background:var(--surface);padding:18px 20px;margin:12px 0;box-shadow:var(--shadow)}.job-head{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;flex-wrap:wrap}.job-company{font:700 16px "Fraunces",Georgia,serif;margin:0}.job-role{color:var(--text-dim);font-size:13.5px;margin:2px 0 0}.badge{padding:6px 11px;border-radius:20px;font:600 12px "IBM Plex Sans";white-space:nowrap}.badge-applied{background:var(--good-bg);color:var(--good)}.badge-available{background:var(--info-bg);color:var(--info)}.badge-loading{background:var(--surface-2);color:var(--text-dim)}.job-chips{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}.chip{padding:6px 11px;border-radius:8px;background:var(--surface-2);font-size:12.5px;color:var(--text)}.chip-warn{background:var(--warn-bg);color:var(--warn)}.job-desc{font-size:13.5px;line-height:1.6;color:var(--text);margin:10px 0 0;max-height:78px;overflow:hidden;position:relative;white-space:pre-wrap}.job-desc.open{max-height:none}.job-desc:not(.open)::after{content:"";position:absolute;bottom:0;left:0;right:0;height:28px;background:linear-gradient(transparent,var(--surface))}.job-more{margin-top:6px;font:600 12px "IBM Plex Sans";color:var(--accent);background:none;border:none;cursor:pointer;padding:0}.job details{margin-top:10px;border-top:1px solid var(--border);padding-top:10px}.job summary{cursor:pointer;font-weight:600;font-size:13px}.job details pre{white-space:pre-wrap;overflow-wrap:anywhere;font:inherit;line-height:1.6;font-size:12.5px;color:var(--text-dim);max-height:260px;overflow:auto;margin:8px 0 0;padding:8px;background:var(--surface-2);border-radius:8px}.job-eligibility-note{font-size:13px;color:var(--text-dim);margin-top:8px}.job-open{display:inline-block;margin-top:12px;font:600 13px "IBM Plex Sans";color:var(--accent-contrast);background:var(--accent);padding:8px 14px;border-radius:8px;text-decoration:none}.body a{overflow-wrap:anywhere}.source-note{font-size:12px;color:var(--text-dim);margin-top:12px}
+
+#jobsUpdated{color:var(--text-dim);font-size:13px;margin:0 0 12px}
+.status-pill{padding:5px 10px;border-radius:20px;font:600 11.5px "IBM Plex Sans";white-space:nowrap;display:inline-block}
+.status-applied{background:var(--good-bg);color:var(--good)}
+.status-available{background:var(--info-bg);color:var(--info)}
+.status-loading{background:var(--surface-2);color:var(--text-dim)}
+.opp-table{width:100%;border-collapse:collapse;font-size:13px}
+.opp-table th{text-align:left;font:600 10.5px "IBM Plex Sans";text-transform:uppercase;letter-spacing:.04em;color:var(--text-dim);padding:8px 10px;border-bottom:2px solid var(--border);white-space:nowrap}
+.opp-table td{padding:10px;border-bottom:1px solid var(--border);vertical-align:top}
+.opp-table tr.opp-row:hover{background:var(--surface-2)}
+.opp-company{font:700 14px "Fraunces",Georgia,serif;margin:0}
+.opp-role{color:var(--text-dim);font-size:12.5px;margin:2px 0 0}
+.opp-toggle-btn{font:600 12px "IBM Plex Sans";color:var(--accent);background:none;border:1px solid var(--border);border-radius:6px;padding:5px 10px;cursor:pointer;white-space:nowrap}
+.opp-detail-row td{background:var(--surface-2)}
+.opp-detail{padding:6px 2px}
+.opp-desc{font-size:13.5px;line-height:1.6;color:var(--text);white-space:pre-wrap}
+.opp-eligibility-note{font-size:13px;color:var(--text-dim);margin-top:10px}
+.opp-detail details{margin-top:10px;border-top:1px solid var(--border);padding-top:10px}
+.opp-detail summary{cursor:pointer;font-weight:600;font-size:13px}
+.opp-detail pre{white-space:pre-wrap;overflow-wrap:anywhere;font:inherit;line-height:1.6;font-size:12.5px;color:var(--text-dim);max-height:260px;overflow:auto;margin:8px 0 0;padding:8px;background:var(--surface);border-radius:8px}
+.opp-open{display:inline-block;margin-top:12px;font:600 13px "IBM Plex Sans";color:var(--accent-contrast);background:var(--accent);padding:8px 14px;border-radius:8px;text-decoration:none}
+.source-note{font-size:12px;color:var(--text-dim);margin-top:12px}
 </style>
 
 <header class="top">
@@ -112,30 +132,36 @@ footer a{color:var(--accent)}
   </div>
 </header>
 
-<section id="opportunities" class="opportunities" aria-labelledby="jobsTitle">
-  <h2 id="jobsTitle">Placement opportunities</h2>
-  <p id="jobsUpdated">Loading latest company snapshot…</p>
-  <div id="jobsList"></div>
+<div class="tabs" role="tablist" id="sectionTabs"></div>
+
+<section id="noticesSection">
+  <div class="toggle-row">
+    <input type="checkbox" id="ppoToggle">
+    <label for="ppoToggle">Show PPO notices</label>
+  </div>
+
+  <div class="searchwrap">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+    <input class="search" id="search" placeholder="Search by company or keyword&hellip;" autocomplete="off">
+  </div>
+
+  <div class="subjectrow">
+    <select class="subjectSelect" id="subjectFilter"></select>
+  </div>
+
+  <div id="errBox"></div>
+  <div class="list" id="list"></div>
+  <button class="loadmore" id="loadMore" hidden>Show more</button>
 </section>
-<div class="stats" id="stats"></div>
 
-<div class="tabs" role="tablist" id="tabs"></div>
-
-<div class="searchwrap">
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
-  <input class="search" id="search" placeholder="Search by company or keyword&hellip;" autocomplete="off">
-</div>
-
-<div class="subjectrow">
-  <select class="subjectSelect" id="subjectFilter"></select>
-</div>
-
-<div id="errBox"></div>
-<div class="list" id="list"></div>
-<button class="loadmore" id="loadMore" hidden>Show more</button>
+<section id="opportunitiesSection" hidden>
+  <p id="jobsUpdated">Loading latest company snapshot&hellip;</p>
+  <div id="jobsTableWrap"></div>
+</section>
 
 <footer>
-  Placement and internship notices auto-scraped hourly from the IIT KGP ERP CDC Notice board.<br>
+  Placement notices auto-scraped hourly from the IIT KGP ERP CDC Notice board.<br>
+  <a href="./internship.html">Internship notices &rarr;</a><br>
   Source: <a href="./notices.json" target="_blank" rel="noopener">notices.json</a>
   on <a href="https://github.com/viraj-vekariya/placement-watcher" target="_blank" rel="noopener">placement-watcher</a>
 </footer>
@@ -145,11 +171,11 @@ footer a{color:var(--accent)}
   "use strict";
   var DATA_URL = "./notices.json";
   var PAGE_SIZE = 40;
-  var TABS = [
-    {key:"placement", label:"Placement"},
-    {key:"internship", label:"Internship"}
+  var SECTION_TABS = [
+    {key:"notices", label:"Placement"},
+    {key:"opportunities", label:"Placement Opportunity"}
   ];
-  var state = { data:null, tab:"placement", query:"", subject:"", shown:PAGE_SIZE, lastSeenId:0 };
+  var state = { data:null, jobsData:null, section:"notices", query:"", subject:"", showPPO:false, shown:PAGE_SIZE, lastSeenId:0 };
 
   function esc(s){
     return String(s==null?"":s).replace(/[&<>"']/g,function(c){
@@ -157,7 +183,6 @@ footer a{color:var(--accent)}
     });
   }
   function linkify(s){
-    // Match raw text, then escape the text and href separately.
     var text = String(s || ''), out = '', cursor = 0;
     var re = /https?:\/\/[^\s<>"']+/g, m;
     while ((m = re.exec(text))) {
@@ -198,40 +223,32 @@ footer a{color:var(--accent)}
     return d===now.getDate() && m===(now.getMonth()+1) && y===now.getFullYear();
   }
 
-  function renderStats(){
-    var s = state.data.stats;
-    var tiles = [
-      ["Placement", s.placement], ["Internship", s.internship],
-      ["Files saved", s.with_files]
-    ];
-    document.getElementById("stats").innerHTML = tiles.map(function(t){
-      return '<div class="stat"><div class="n">'+t[1]+'</div><div class="l">'+esc(t[0])+'</div></div>';
-    }).join("");
-  }
-
-  function renderTabs(){
-    var el = document.getElementById("tabs");
-    el.innerHTML = TABS.map(function(t){
-      var cnt = state.data.categories[t.key].length;
-      var sel = t.key===state.tab;
-      return '<button class="tab" role="tab" aria-selected="'+sel+'" data-tab="'+t.key+'">'+
-             esc(t.label)+' <span class="cnt">'+cnt+'</span></button>';
+  function renderSectionTabs(){
+    var el = document.getElementById("sectionTabs");
+    el.innerHTML = SECTION_TABS.map(function(t){
+      var sel = t.key===state.section;
+      return '<button class="tab" role="tab" aria-selected="'+sel+'" data-section="'+t.key+'">'+esc(t.label)+'</button>';
     }).join("");
     Array.prototype.forEach.call(el.querySelectorAll(".tab"), function(btn){
       btn.addEventListener("click", function(){
-        state.tab = btn.getAttribute("data-tab");
-        state.subject = "";
-        state.shown = PAGE_SIZE;
-        renderTabs(); renderSubjectFilter(); renderList();
+        state.section = btn.getAttribute("data-section");
+        renderSectionTabs();
+        document.getElementById("noticesSection").hidden = state.section !== "notices";
+        document.getElementById("opportunitiesSection").hidden = state.section !== "opportunities";
       });
     });
   }
 
-  // Subject filter -- lets the site do what the old "No PPO" static PDF
-  // used to do (and more), client-side, within whichever tab is open, e.g.
-  // pick "PPO" to isolate it or leave "All subjects" to see everything.
+  // Placement-only notices on this page (internship notices live on their
+  // own page, ./internship.html, per explicit request). PPO is hidden by
+  // default via a dedicated toggle -- separate from the general subject
+  // dropdown, which still covers every other subject.
+  function placementRows(){
+    return (state.data && state.data.categories.placement) || [];
+  }
+
   function renderSubjectFilter(){
-    var rows = state.data.categories[state.tab] || [];
+    var rows = placementRows().filter(function(r){ return state.showPPO || (r.subject||"").toUpperCase() !== "PPO"; });
     var subjects = [];
     rows.forEach(function(r){
       var s = r.subject || "";
@@ -249,7 +266,10 @@ footer a{color:var(--accent)}
   }
 
   function filtered(){
-    var rows = state.data.categories[state.tab] || [];
+    var rows = placementRows();
+    if(!state.showPPO){
+      rows = rows.filter(function(r){ return (r.subject||"").toUpperCase() !== "PPO"; });
+    }
     if(state.subject){
       rows = rows.filter(function(r){ return (r.subject||"") === state.subject; });
     }
@@ -280,7 +300,7 @@ footer a{color:var(--accent)}
       '<div class="co'+(r.company?'':' empty')+'">'+esc(r.company||"General notice (no company)")+'</div>' +
       '<div class="body">'+linkify(r.notice)+'</div>' +
       '<button class="more">Read full notice</button>' +
-      '<div class="source-note">'+(r.text_source === 'full_notice' ? 'Full ERP notice · original wording' : 'ERP grid text · full detail pending')+'</div>' +
+      '<div class="source-note">'+(r.text_source === 'full_notice' ? 'Full ERP notice &middot; original wording' : 'ERP grid text &middot; full detail pending')+'</div>' +
       dl +
     '</div>';
   }
@@ -291,7 +311,7 @@ footer a{color:var(--accent)}
     var maxIdSeen = state.lastSeenId;
 
     if(rows.length === 0){
-      list.innerHTML = '<div class="empty-state">No notices match&nbsp;&mdash;&nbsp;try a different search or tab.</div>';
+      list.innerHTML = '<div class="empty-state">No notices match&nbsp;&mdash;&nbsp;try a different search or filter.</div>';
       document.getElementById("loadMore").hidden = true;
       return;
     }
@@ -315,14 +335,8 @@ footer a{color:var(--accent)}
     var lm = document.getElementById("loadMore");
     lm.hidden = rows.length <= state.shown;
 
-    // mark everything currently visible as "seen" after a short delay,
-    // so the New badge stays visible for this viewing but clears next visit
     clearTimeout(renderList._t);
     renderList._t = setTimeout(function(){ saveLastSeen(maxIdSeen); }, 4000);
-  }
-
-  function renderAll(){
-    renderStats(); renderTabs(); renderSubjectFilter(); renderList();
   }
 
   function showError(msg){
@@ -340,7 +354,7 @@ footer a{color:var(--accent)}
         state.data = json;
         if(state.lastSeenId === 0) state.lastSeenId = loadLastSeen();
         document.getElementById("updatedAt").textContent = relTime(json.last_updated) + " (" + json.last_updated.replace("T"," ").replace("Z"," UTC") + ")";
-        renderAll();
+        renderSubjectFilter(); renderList();
       })
       .catch(function(e){ showError(e.message); })
       .finally(function(){ if(isRefresh) btn.classList.remove("spin"); });
@@ -361,41 +375,57 @@ footer a{color:var(--accent)}
   document.getElementById("subjectFilter").addEventListener("change", function(e){
     state.subject = e.target.value; state.shown = PAGE_SIZE; renderList();
   });
+  document.getElementById("ppoToggle").addEventListener("change", function(e){
+    state.showPPO = e.target.checked; state.subject = ""; state.shown = PAGE_SIZE;
+    renderSubjectFilter(); renderList();
+  });
 
   // skeleton while first load is in flight
   document.getElementById("list").innerHTML = Array(4).fill('<div class="skel"></div>').join("");
 
-  function renderJobCard(c){
+  // -- Placement Opportunity table (mirrors the ERP application grid + its
+  // job/company detail dialogs) --
+  function oppRow(c, idx){
     var expiry = c.resume_end ? new Date(c.resume_end.replace(' ','T')+':00+05:30') : null;
     var closed = expiry && !isNaN(expiry) && expiry < new Date();
     var hoursLeft = expiry ? (expiry - new Date())/36e5 : null;
     var urgent = !closed && hoursLeft!==null && hoursLeft < 24;
-    var badgeCls = c.is_applied===true?'badge-applied':c.is_applied===false?'badge-available':'badge-loading';
-    var badgeTxt = c.is_applied===true?'Applied in ERP':c.is_applied===false?'Not yet applied':'Checking status…';
+    var pillCls = c.is_applied===true?'status-applied':c.is_applied===false?'status-available':'status-loading';
+    var pillTxt = c.is_applied===true?'Applied':c.is_applied===false?'Not applied':'Checking…';
     var desc = c.description || c.details || '';
-    return '<article class="job">'+
-      '<div class="job-head"><div><p class="job-company">'+esc(c.company)+'</p><p class="job-role">'+esc(c.role)+'</p></div>'+
-      '<span class="badge '+badgeCls+'">'+badgeTxt+'</span></div>'+
-      '<div class="job-chips">'+
-        '<span class="chip">CTC '+esc(c.ctc)+' '+esc(c.currency)+'</span>'+
-        (c.cgpa_cutoff?'<span class="chip">CGPA cut-off '+esc(c.cgpa_cutoff)+'</span>':'')+
-        '<span class="chip'+((closed||urgent)?' chip-warn':'')+'">'+(closed?'Deadline passed: ':'Apply by: ')+esc(c.resume_end)+' IST</span>'+
-        (c.interview?'<span class="chip">Interview: '+esc(c.interview)+'</span>':'')+
-      '</div>'+
-      (desc?('<div class="job-desc">'+linkify(desc)+'</div><button class="job-more">Read more</button>'):'')+
-      (c.eligibility_summary?'<p class="job-eligibility-note">Eligibility: '+esc(c.eligibility_summary)+'</p>':'')+
+    var detailId = 'oppdet'+idx;
+    var summary = '<tr class="opp-row">'+
+      '<td><p class="opp-company">'+esc(c.company)+'</p><p class="opp-role">'+esc(c.role)+'</p></td>'+
+      '<td class="mono">'+esc(c.ctc)+' '+esc(c.currency)+(c.cgpa_cutoff?'<br><span style="color:var(--text-dim);font-size:11px">CGPA '+esc(c.cgpa_cutoff)+'+</span>':'')+'</td>'+
+      '<td><span class="status-pill '+pillCls+'">'+pillTxt+'</span></td>'+
+      '<td class="mono" style="font-size:12px'+((closed||urgent)?';color:var(--warn)':'')+'">'+esc(c.resume_start)+'<br>&rarr; '+esc(c.resume_end)+(closed?' (closed)':'')+'</td>'+
+      '<td><button class="opp-toggle-btn" data-target="'+detailId+'">Details</button></td>'+
+    '</tr>';
+    var detail = '<tr class="opp-detail-row" id="'+detailId+'" hidden><td colspan="5"><div class="opp-detail">'+
+      (desc?('<div class="opp-desc">'+linkify(desc)+'</div>'):'<p style="color:var(--text-dim)">Description not yet captured &mdash; open ERP for now.</p>')+
+      (c.eligibility_summary?'<p class="opp-eligibility-note">Eligibility: '+esc(c.eligibility_summary)+'</p>':'')+
       (c.eligibility_full?'<details><summary>Full eligible departments &amp; degrees</summary><pre>'+esc(c.eligibility_full)+'</pre></details>':'')+
       (c.company_details?'<details><summary>About the company</summary><pre>'+linkify(c.company_details)+'</pre></details>':'')+
-      '<div><a class="job-open" href="https://erp.iitkgp.ac.in/IIT_ERP3/" target="_blank" rel="noopener noreferrer">Open ERP to apply or download attachments</a></div>'+
-    '</article>';
+      '<div><a class="opp-open" href="https://erp.iitkgp.ac.in/IIT_ERP3/" target="_blank" rel="noopener noreferrer">Open ERP to apply, view JD, or view applied resume</a></div>'+
+    '</div></td></tr>';
+    return summary + detail;
   }
 
-  function wireJobExpanders(){
-    Array.prototype.forEach.call(document.querySelectorAll('#jobsList .job-more'), function(btn){
+  function renderJobTable(){
+    var data = state.jobsData;
+    var wrap = document.getElementById('jobsTableWrap');
+    if(!data || !data.companies.length){
+      wrap.innerHTML = '<p>No placement opportunities were listed in the last successful check.</p>';
+      return;
+    }
+    wrap.innerHTML = '<table class="opp-table"><thead><tr>'+
+      '<th>Company &amp; role</th><th>CTC</th><th>Status</th><th>Resume window (IST)</th><th></th>'+
+      '</tr></thead><tbody>'+data.companies.map(oppRow).join('')+'</tbody></table>';
+    Array.prototype.forEach.call(wrap.querySelectorAll('.opp-toggle-btn'), function(btn){
       btn.addEventListener('click', function(){
-        var d = btn.previousElementSibling;
-        var open = d.classList.toggle('open');
-        btn.textContent = open ? 'Show less' : 'Read more';
+        var row = document.getElementById(btn.getAttribute('data-target'));
+        row.hidden = !row.hidden;
+        btn.textContent = row.hidden ? 'Details' : 'Hide';
       });
     });
   }
@@ -404,14 +434,15 @@ footer a{color:var(--accent)}
     fetch('./companies.json?_='+Date.now(), {cache:'no-store'}).then(function(r){
       if(!r.ok) throw new Error('Company snapshot not yet available'); return r.json();
     }).then(function(data){
+      state.jobsData = data;
       var timestamp = new Date(data.last_updated);
       var stale = Date.now() - timestamp.getTime() > 2*60*60*1000;
       document.getElementById('jobsUpdated').textContent = 'Last checked '+timestamp.toLocaleString('en-IN',{timeZone:'Asia/Kolkata'})+' IST'+(stale?' · Snapshot may be outdated; verify in ERP':'');
-      document.getElementById('jobsList').innerHTML = data.companies.map(renderJobCard).join('') ||
-        '<p>No placement opportunities were listed in the last successful check.</p>';
-      wireJobExpanders();
+      renderJobTable();
     }).catch(function(){document.getElementById('jobsUpdated').textContent='Company details will appear after the next successful CDC sync.';});
   }
+
+  renderSectionTabs();
   loadCompanies();
   fetchData(false);
   setInterval(function(){ fetchData(false); }, 5 * 60 * 1000);
