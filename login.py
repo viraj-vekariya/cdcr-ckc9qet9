@@ -99,24 +99,26 @@ def login(verbose=False):
     r = s.get("https://erp.iitkgp.ac.in/IIT_ERP3/", timeout=30)
     tok = re.search(r'name="sessionToken"[^>]*value="([^"]+)"', r.text)
     token = tok.group(1) if tok else ""
-    if verbose: print("1) sessionToken:", token[:16])
+    if verbose: print("1) session token received:", bool(token))
     q = s.post(f"{SSO}/getSecurityQues.htm", data={"user_id": USER}, timeout=30).text.strip()
     ans = _pick(q)
-    if verbose: print("2) question:", q, "| answer matched:", bool(ans))
+    if verbose: print("2) security answer matched:", bool(ans))
     baseline = None
     try: baseline = _newest_otp()
     except Exception as e: print("baseline read failed:", e)
     form = {"user_id": USER, "password": PW, "answer": ans, "email_otp": "",
             "sessionToken": token, "requestedUrl": "https://erp.iitkgp.ac.in/IIT_ERP3/", "typeee": "SI"}
     o = s.post(f"{SSO}/getEmilOTP.htm", data=form, timeout=30)
-    if verbose: print("3) OTP request:", o.status_code, o.text[:100])
+    if verbose: print("3) OTP request:", o.status_code)
     otp = _wait_new_otp(baseline, timeout=150)
     if not otp:
         if verbose: print("   no OTP within 150s -- resending once...")
         o2 = s.post(f"{SSO}/getEmilOTP.htm", data=form, timeout=30)
-        if verbose: print("3b) OTP resend:", o2.status_code, o2.text[:100])
+        if verbose: print("3b) OTP resend:", o2.status_code)
         otp = _wait_new_otp(baseline, timeout=150)
     if verbose: print("4) OTP received:", bool(otp))
+    if not otp:
+        return None
     form["email_otp"] = otp
     a = s.post(f"{SSO}/auth.htm", data=form, timeout=30)
     h = s.get("https://erp.iitkgp.ac.in/IIT_ERP3/home.htm", timeout=30).text
@@ -124,9 +126,8 @@ def login(verbose=False):
     if verbose: print("5) LOGGED IN:", ok)
     if not ok:
         if verbose:
-            flat = lambda t: re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", re.sub(r"(?s)<(script|style).*?</\1>", " ", t))).strip()
-            print("   auth.htm:", a.status_code, "|", flat(a.text)[:200])
-            print("   home.htm:", flat(h)[:200])
+            conflict = any(word in (a.text + h).lower() for word in ('already logged', 'abnormal', 'active session'))
+            print("   ERP rejected login; existing-session conflict:", conflict)
         _delete_otp_emails(verbose)
         return None
     _delete_otp_emails(verbose)

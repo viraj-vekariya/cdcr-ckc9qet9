@@ -41,6 +41,7 @@ jobs:
           pip install playwright requests
           python3 -m playwright install --with-deps chromium
       - name: Decrypt WhatsApp session
+        id: wa_decrypt
         if: steps.gate.outputs.should_run == 'true'
         env:
           WA_PROFILE_KEY: ${{ secrets.WA_PROFILE_KEY }}
@@ -62,7 +63,8 @@ jobs:
           FORCE_RUN: ${{ inputs.force }}
         run: python3 cloud_hourly.py
       - name: Re-encrypt WhatsApp session (may have refreshed tokens)
-        if: steps.gate.outputs.should_run == 'true' && always()
+        id: wa_encrypt
+        if: always() && steps.wa_decrypt.outcome == 'success'
         env:
           WA_PROFILE_KEY: ${{ secrets.WA_PROFILE_KEY }}
         run: |
@@ -95,14 +97,19 @@ jobs:
           git add seen_notice_ids.json docs/ last_run.json 2>/dev/null || true
           git commit -m "chore: hourly update $(date -u +%Y-%m-%dT%H:%M:%SZ)" || echo "nothing to commit"
           # unattended-safe: someone may have pushed meanwhile; rebase then push, retry once
-          git pull --rebase -q || true
-          git push || (sleep 5 && git pull --rebase -q && git push)
+          git pull --rebase --autostash -q || true
+          git push || (sleep 5 && git pull --rebase --autostash -q && git push)
       - name: Commit + push WhatsApp session (best-effort, kept separate on
           purpose -- an oversized/rejected session commit must never hold
           back the site/state commit above)
-        if: steps.gate.outputs.should_run == 'true' && always()
+        if: always() && steps.wa_encrypt.outcome == 'success'
         run: |
           git add wa_profile.tar.gz.enc 2>/dev/null || true
           git commit -m "chore: re-encrypted WhatsApp session $(date -u +%Y-%m-%dT%H:%M:%SZ)" || echo "nothing to commit"
-          git pull --rebase -q || true
-          git push || (sleep 5 && git pull --rebase -q && git push) || echo "::warning::WhatsApp session push failed (likely still >100MB) -- next run reuses the last committed session, non-fatal"
+          git pull --rebase --autostash -q || true
+          git push || (sleep 5 && git pull --rebase --autostash -q && git push) || echo "::warning::WhatsApp session push failed (likely still >100MB) -- next run reuses the last committed session, non-fatal"
+
+      - name: Remove plaintext sessions from runner
+        if: always()
+        run: |
+          rm -rf wa_profile wa_profile.tar.gz session_cookie.txt

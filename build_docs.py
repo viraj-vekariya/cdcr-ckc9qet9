@@ -100,6 +100,7 @@ def write_json(rows):
     def slim(r):
         out = {"id": r["id"], "type": r["type"], "subject": r["subject"],
                "company": r["company"], "notice": r["notice"], "noticeat": r["noticeat"],
+               "text_source": r.get("text_source", "grid"), "source_hash": r.get("source_hash", ""),
                "has_download": bool((r.get("download_raw") or "").strip())}
         f = DOCS / "files" / f"{r['id']}.pdf"
         if f.exists() and f.stat().st_size > 0:

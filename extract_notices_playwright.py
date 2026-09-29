@@ -60,6 +60,12 @@ def fetch(cookie_str, headless=True, timeout_ms=60000):
           }));
         }
         """)
+        from cdc_details import enrich_notices, capture_companies
+        enrich_notices(ctx, rows)
+        try:
+            capture_companies(ctx)
+        except Exception as exc:
+            print(f"Company capture unavailable ({type(exc).__name__}); retaining previous snapshot")
         browser.close()
         return rows
 

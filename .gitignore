@@ -3,3 +3,10 @@ state.json
 public/
 session_cookie.txt
 wa_profile/
+
+.env
+.env.*
+credentials.env
+wa_profile.tar.gz
+notices_cache.json
+.pytest_cache/

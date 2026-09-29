@@ -94,6 +94,7 @@ footer{margin-top:34px;padding-top:16px;border-top:1px solid var(--border);font-
 footer a{color:var(--accent)}
 .skel{background:linear-gradient(90deg,var(--surface-2) 25%,var(--border) 37%,var(--surface-2) 63%);background-size:400% 100%;animation:sh 1.4s ease infinite;border-radius:12px;height:88px}
 @keyframes sh{0%{background-position:100% 0}100%{background-position:0 0}}
+.opportunities{max-width:1100px;margin:24px auto;padding:0 20px}.opportunities h2{margin-bottom:6px}.opportunities p{color:var(--muted,#666)}.job{border:1px solid var(--border,#ddd);border-radius:14px;background:var(--card,#fff);padding:20px;margin:12px 0}.job h3{margin:0 0 8px}.job-grid{display:flex;flex-wrap:wrap;gap:14px;margin:14px 0}.job-grid span{padding:8px 12px;background:var(--info-bg,#eef4ff);border-radius:8px}.job pre{white-space:pre-wrap;overflow-wrap:anywhere;font:inherit;line-height:1.65}.job summary{cursor:pointer;padding:10px 0;font-weight:600}.body a{overflow-wrap:anywhere}.source-note{font-size:12px;color:var(--muted,#666);margin-top:12px}
 </style>
 
 <header class="top">
@@ -110,6 +111,11 @@ footer a{color:var(--accent)}
   </div>
 </header>
 
+<section id="opportunities" class="opportunities" aria-labelledby="jobsTitle">
+  <h2 id="jobsTitle">Placement opportunities</h2>
+  <p id="jobsUpdated">Loading latest company snapshot…</p>
+  <div id="jobsList"></div>
+</section>
 <div class="stats" id="stats"></div>
 
 <div class="tabs" role="tablist" id="tabs"></div>
@@ -150,16 +156,17 @@ footer a{color:var(--accent)}
     });
   }
   function linkify(s){
-    // esc() first so a stray "<"/"&" in the notice text can't break the markup,
-    // then wrap URLs in the already-escaped string -- an escaped "&" (from a
-    // query string) still matches and lands correctly inside href since HTML
-    // attribute values need it escaped the same way
-    return esc(s).replace(/https?:\/\/[^\s<]+/g, function(u){
-      var trail = "";
-      var m = u.match(/[.,;:!?)\]]+$/);
-      if(m){ trail = m[0]; u = u.slice(0, -trail.length); }
-      return '<a href="'+u+'" target="_blank" rel="noopener">'+u+'</a>'+trail;
-    });
+    // Match raw text, then escape the text and href separately.
+    var text = String(s || ''), out = '', cursor = 0;
+    var re = /https?:\/\/[^\s<>"']+/g, m;
+    while ((m = re.exec(text))) {
+      out += esc(text.slice(cursor, m.index));
+      var url = m[0], tail = '';
+      while (/[.,;!]$/.test(url)) { tail = url.slice(-1) + tail; url = url.slice(0,-1); }
+      out += '<a href="'+esc(url)+'" target="_blank" rel="noopener noreferrer">'+esc(url)+'</a>'+esc(tail);
+      cursor = m.index + m[0].length;
+    }
+    return out + esc(text.slice(cursor));
   }
   function safeStore(fn,fallback){ try{ return fn(); }catch(e){ return fallback; } }
 
@@ -265,13 +272,14 @@ footer a{color:var(--accent)}
     if(r.file){
       dl = '<a class="dl yes" href="'+esc(r.file)+'" target="_blank" rel="noopener">&#128206; Download attached file (PDF)</a>';
     } else if(r.has_download){
-      dl = '<div class="dl no">Attachment listed on ERP &mdash; file not available (ERP served an empty file)</div>';
+      dl = '<div class="dl no">Attachment listed on ERP &mdash; download pending or unavailable</div>';
     }
     return '<div class="card" data-id="'+esc(r.id)+'">' +
       '<div class="hd"><div class="badges">'+badges+'</div><div class="time">'+esc(r.noticeat)+'</div></div>' +
       '<div class="co'+(r.company?'':' empty')+'">'+esc(r.company||"General notice (no company)")+'</div>' +
       '<div class="body">'+linkify(r.notice)+'</div>' +
-      '<button class="more">Show more</button>' +
+      '<button class="more">Read full notice</button>' +
+      '<div class="source-note">'+(r.text_source === 'full_notice' ? 'Full ERP notice · original wording' : 'ERP grid text · full detail pending')+'</div>' +
       dl +
     '</div>';
   }
@@ -356,6 +364,27 @@ footer a{color:var(--accent)}
   // skeleton while first load is in flight
   document.getElementById("list").innerHTML = Array(4).fill('<div class="skel"></div>').join("");
 
+  function loadCompanies(){
+    fetch('./companies.json?_='+Date.now(), {cache:'no-store'}).then(function(r){
+      if(!r.ok) throw new Error('Company snapshot not yet available'); return r.json();
+    }).then(function(data){
+      var timestamp = new Date(data.last_updated);
+      var stale = Date.now() - timestamp.getTime() > 2*60*60*1000;
+      document.getElementById('jobsUpdated').textContent = 'Last checked '+timestamp.toLocaleString('en-IN',{timeZone:'Asia/Kolkata'})+' IST'+(stale?' · Snapshot may be outdated; verify in ERP':'');
+      document.getElementById('jobsList').innerHTML = data.companies.map(function(c){
+        var expiry = c.resume_end ? new Date(c.resume_end.replace(' ','T')+':00+05:30') : null;
+        var closed = expiry && !isNaN(expiry) && expiry < new Date();
+        return '<article class="job"><h3>'+esc(c.company)+'</h3><b>'+esc(c.role)+'</b>'+
+          '<div class="job-grid"><span>CTC: '+esc(c.ctc)+' '+esc(c.currency)+'</span><span>CV deadline: '+esc(c.resume_end)+' IST'+(closed?' · Closed':'')+'</span><span>'+ (c.is_applied ? 'Applied in ERP' : 'Not applied in ERP') +'</span></div>'+
+          '<p>CV window opens: '+esc(c.resume_start)+' IST</p>'+
+          (c.interview?'<p>Interview / selection: '+esc(c.interview)+'</p>':'')+
+          '<details><summary>Job description &amp; eligibility</summary><pre>'+linkify(c.details)+'</pre></details>'+
+          (c.company_details?'<details><summary>About the company</summary><pre>'+linkify(c.company_details)+'</pre></details>':'')+
+          '<a href="https://erp.iitkgp.ac.in/IIT_ERP3/" target="_blank" rel="noopener noreferrer">Open ERP to apply or download job attachments</a></article>';
+      }).join('') || '<p>No placement opportunities were listed in the last successful check.</p>';
+    }).catch(function(){document.getElementById('jobsUpdated').textContent='Company details will appear after the next successful CDC sync.';});
+  }
+  loadCompanies();
   fetchData(false);
   setInterval(function(){ fetchData(false); }, 5 * 60 * 1000);
 })();
