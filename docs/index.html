@@ -32,7 +32,7 @@
   --shadow:0 1px 2px rgba(0,0,0,.3), 0 6px 24px -8px rgba(0,0,0,.5);
 }
 *{box-sizing:border-box}
-body{background:var(--bg);color:var(--text);font-family:"IBM Plex Sans",-apple-system,sans-serif;padding-inline:16px;padding-block:22px 60px;max-width:1220px;margin:0 auto}#noticesSection{max-width:880px;margin:0 auto}
+body{background:var(--bg);color:var(--text);font-family:"IBM Plex Sans",-apple-system,sans-serif;padding-inline:16px;padding-block:22px 60px;max-width:1220px;margin:0 auto}
 h1,h2,h3{font-family:"Fraunces",Georgia,serif;text-wrap:balance;margin:0}
 .mono{font-family:"IBM Plex Mono",ui-monospace,monospace;font-variant-numeric:tabular-nums}
 header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding-block:10px 14px;margin-bottom:14px;border-bottom:1px solid var(--border)}
@@ -96,25 +96,15 @@ footer a{color:var(--accent)}
 @keyframes sh{0%{background-position:100% 0}100%{background-position:0 0}}
 
 #jobsUpdated{color:var(--text-dim);font-size:13px;margin:0 0 12px}
-.status-pill{padding:5px 10px;border-radius:20px;font:600 11.5px "IBM Plex Sans";white-space:nowrap;display:inline-block}
-.status-applied{background:var(--good-bg);color:var(--good)}
-.status-available{background:var(--info-bg);color:var(--info)}
-.status-loading{background:var(--surface-2);color:var(--text-dim)}
 .opp-table{width:100%;border-collapse:collapse;font-size:13px}
 .opp-table th{text-align:left;font:600 10.5px "IBM Plex Sans";text-transform:uppercase;letter-spacing:.04em;color:var(--text-dim);padding:8px 10px;border-bottom:2px solid var(--border);white-space:nowrap}
 .opp-table td{padding:10px;border-bottom:1px solid var(--border);vertical-align:top}
 .opp-table tr.opp-row:hover{background:var(--surface-2)}
 .opp-company{font:700 14px "Fraunces",Georgia,serif;margin:0}
 .opp-role{color:var(--text-dim);font-size:12.5px;margin:2px 0 0}
-.opp-toggle-btn{font:600 12px "IBM Plex Sans";color:var(--accent);background:none;border:1px solid var(--border);border-radius:6px;padding:5px 10px;cursor:pointer;white-space:nowrap}
-.opp-detail-row td{background:var(--surface-2)}
-.opp-detail{padding:6px 2px}
-.opp-desc{font-size:13.5px;line-height:1.6;color:var(--text);white-space:pre-wrap}
-.opp-eligibility-note{font-size:13px;color:var(--text-dim);margin-top:10px}
-.opp-detail details{margin-top:10px;border-top:1px solid var(--border);padding-top:10px}
-.opp-detail summary{cursor:pointer;font-weight:600;font-size:13px}
-.opp-detail pre{white-space:pre-wrap;overflow-wrap:anywhere;font:inherit;line-height:1.6;font-size:12.5px;color:var(--text-dim);max-height:260px;overflow:auto;margin:8px 0 0;padding:8px;background:var(--surface);border-radius:8px}
-.opp-open{display:inline-block;margin-top:12px;font:600 13px "IBM Plex Sans";color:var(--accent-contrast);background:var(--accent);padding:8px 14px;border-radius:8px;text-decoration:none}.opp-table-wrap{overflow-x:auto}.opp-global-open{display:inline-block;margin:2px 0 16px;font:600 13px "IBM Plex Sans";color:var(--accent-contrast);background:var(--accent);padding:9px 16px;border-radius:8px;text-decoration:none}
+.opp-status-select{font:600 12.5px "IBM Plex Sans";color:var(--text);background:var(--surface);border:1px solid var(--border);border-radius:7px;padding:6px 8px}
+.opp-table-wrap{overflow-x:auto}
+.opp-global-open{display:inline-block;margin:2px 0 16px;font:600 13px "IBM Plex Sans";color:var(--accent-contrast);background:var(--accent);padding:9px 16px;border-radius:8px;text-decoration:none}
 .source-note{font-size:12px;color:var(--text-dim);margin-top:12px}
 </style>
 
@@ -172,7 +162,7 @@ footer a{color:var(--accent)}
 <footer>
   Placement notices auto-scraped hourly from the IIT KGP ERP CDC Notice board.<br>
   Source: <a href="./notices.json" target="_blank" rel="noopener">notices.json</a>
-  on <a href="https://github.com/viraj-vekariya/placement-watcher" target="_blank" rel="noopener">placement-watcher</a>
+  on <a href="https://github.com/viraj-vekariya/cdcr-ckc9qet9" target="_blank" rel="noopener">cdcr-ckc9qet9</a>
 </footer>
 
 <script>
@@ -181,7 +171,7 @@ footer a{color:var(--accent)}
   var DATA_URL = "./notices.json";
   var PAGE_SIZE = 40;
   var SECTION_TABS = [
-    {key:"notices", label:"Placement"},
+    {key:"notices", label:"Placement Notice"},
     {key:"opportunities", label:"Placement Opportunity"}
   ];
   var state = { data:null, jobsData:null, section:"notices", query:"", subject:"", showPPO:false, shown:PAGE_SIZE, lastSeenId:0 };
@@ -409,34 +399,51 @@ footer a{color:var(--accent)}
     if(d.length !== 3) return {date: esc(s), time:''};
     return {date: d[2]+'-'+d[1]+'-'+d[0].slice(2), time: esc(parts[1]||'')};
   }
-  function oppRow(c, idx){
+  // Status is not reliably auto-detectable (ERP exposes applied Y/N but never
+  // which CV was used), so it is a manual, per-viewer dropdown persisted in
+  // this browser's localStorage -- fine since this site has exactly one real
+  // viewer. Auto-computed only as a starting guess from is_applied + whether
+  // the deadline has passed; the viewer corrects it once and it sticks.
+  var STATUS_OPTIONS = [
+    {v:'not_applied', label:'Not applied yet'},
+    {v:'cv1', label:'Applied – CV1'},
+    {v:'cv2', label:'Applied – CV2'},
+    {v:'cv3', label:'Applied – CV3'},
+    {v:'missed', label:'Missed'}
+  ];
+  function statusKey(id){ return 'cdcRadarStatus:' + id; }
+  function computedDefaultStatus(c, closed){
+    if (c.is_applied === true) return 'cv1';
+    return closed ? 'missed' : 'not_applied';
+  }
+  function loadStatus(c, closed){
+    var saved = safeStore(function(){ return localStorage.getItem(statusKey(c.id)); }, null);
+    if (saved && STATUS_OPTIONS.some(function(o){ return o.v === saved; })) return saved;
+    return computedDefaultStatus(c, closed);
+  }
+  function saveStatus(id, value){
+    safeStore(function(){ localStorage.setItem(statusKey(id), value); }, null);
+  }
+
+  function oppRow(c){
     var expiry = c.resume_end ? new Date(c.resume_end.replace(' ','T')+':00+05:30') : null;
     var closed = expiry && !isNaN(expiry) && expiry < new Date();
     var hoursLeft = expiry ? (expiry - new Date())/36e5 : null;
     var urgent = !closed && hoursLeft!==null && hoursLeft < 24;
-    var pillCls = c.is_applied===true?'status-applied':c.is_applied===false?'status-available':'status-loading';
-    var pillTxt = c.is_applied===true?'Applied':c.is_applied===false?'Not applied':'Checking…';
-    var desc = c.description || c.details || '';
-    var detailId = 'oppdet'+idx;
     var opens = fmtDateTime(c.resume_start);
     var deadline = fmtDateTime(c.resume_end);
-    var summary = '<tr class="opp-row">'+
+    var current = loadStatus(c, closed);
+    var selectHtml = '<select class="opp-status-select" data-id="'+esc(c.id)+'">' +
+      STATUS_OPTIONS.map(function(o){
+        return '<option value="'+o.v+'"'+(o.v===current?' selected':'')+'>'+esc(o.label)+'</option>';
+      }).join('') + '</select>';
+    return '<tr class="opp-row">'+
       '<td><p class="opp-company">'+esc(c.company)+'</p><p class="opp-role">'+esc(c.role)+'</p></td>'+
-      '<td class="mono">'+esc(formatINR(c.ctc))+'</td>'+
-      '<td class="mono">'+esc(c.currency)+'</td>'+
-      '<td class="mono">'+(c.cgpa_cutoff?esc(c.cgpa_cutoff)+'+':'&mdash;')+'</td>'+
-      '<td><span class="status-pill '+pillCls+'">'+pillTxt+'</span></td>'+
+      '<td class="mono">'+esc(formatINR(c.ctc))+'<br><span style="color:var(--text-dim);font-size:11px">('+esc(c.currency)+')</span></td>'+
+      '<td>'+selectHtml+'</td>'+
       '<td class="mono" style="font-size:12.5px">'+opens.date+'<br><span style="color:var(--text-dim);font-size:11px">'+opens.time+'</span></td>'+
       '<td class="mono" style="font-size:12.5px'+((closed||urgent)?';color:var(--warn)':'')+'">'+deadline.date+'<br><span style="font-size:11px'+((closed||urgent)?'':';color:var(--text-dim)')+'">'+deadline.time+(closed?' (closed)':'')+'</span></td>'+
-      '<td><button class="opp-toggle-btn" data-target="'+detailId+'">Details</button></td>'+
     '</tr>';
-    var detail = '<tr class="opp-detail-row" id="'+detailId+'" hidden><td colspan="8"><div class="opp-detail">'+
-      (desc?('<div class="opp-desc">'+linkify(desc)+'</div>'):'<p style="color:var(--text-dim)">Job description not yet captured by the scraper &mdash; use the Open ERP button above for now.</p>')+
-      (c.eligibility_summary?'<p class="opp-eligibility-note">Eligibility: '+esc(c.eligibility_summary)+'</p>':'')+
-      (c.eligibility_full?'<details><summary>Full eligible departments &amp; degrees</summary><pre>'+esc(c.eligibility_full)+'</pre></details>':'')+
-      (c.company_details?'<details><summary>About the company</summary><pre>'+linkify(c.company_details)+'</pre></details>':'')+
-    '</div></td></tr>';
-    return summary + detail;
   }
 
   function renderJobTable(){
@@ -448,14 +455,10 @@ footer a{color:var(--accent)}
     }
     wrap.innerHTML = '<a class="opp-global-open" href="https://erp.iitkgp.ac.in/IIT_ERP3/" target="_blank" rel="noopener noreferrer">Open ERP to apply, view full JD, or view an applied resume</a>'+
       '<div class="opp-table-wrap"><table class="opp-table"><thead><tr>'+
-      '<th>Company &amp; role</th><th>CTC</th><th>Currency</th><th>CGPA</th><th>Status</th><th>Resume opens</th><th>Deadline</th><th></th>'+
+      '<th>Company &amp; role</th><th>CTC</th><th>Status</th><th>Resume opens</th><th>Deadline</th>'+
       '</tr></thead><tbody>'+data.companies.map(oppRow).join('')+'</tbody></table></div>';
-    Array.prototype.forEach.call(wrap.querySelectorAll('.opp-toggle-btn'), function(btn){
-      btn.addEventListener('click', function(){
-        var row = document.getElementById(btn.getAttribute('data-target'));
-        row.hidden = !row.hidden;
-        btn.textContent = row.hidden ? 'Details' : 'Hide';
-      });
+    Array.prototype.forEach.call(wrap.querySelectorAll('.opp-status-select'), function(sel){
+      sel.addEventListener('change', function(){ saveStatus(sel.getAttribute('data-id'), sel.value); });
     });
   }
 
