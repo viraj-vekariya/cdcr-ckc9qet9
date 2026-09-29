@@ -1,5 +1,19 @@
 {
-  "last_updated": "2026-09-29T01:24:35.318950+00:00",
-  "companies": [],
+  "last_updated": "2026-09-29T01:34:07.173567+00:00",
+  "companies": [
+    {
+      "company": "Trexquant (India) Business Consulting LLP",
+      "role": "Quantitative Researcher",
+      "ctc": "9160000",
+      "currency": "INR",
+      "resume_start": "2026-09-28 15:51",
+      "resume_end": "2026-09-29 16:00",
+      "interview": "",
+      "is_applied": null,
+      "details": "",
+      "company_details": "",
+      "id": "e70ccf99e8e9ae7e"
+    }
+  ],
   "scope": "Placement opportunities visible to the configured ERP account."
 }
