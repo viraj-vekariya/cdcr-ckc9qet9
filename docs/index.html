@@ -1,3 +1,4 @@
+<meta charset="utf-8">
 <title>CDC Radar</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
@@ -94,7 +95,7 @@ footer{margin-top:34px;padding-top:16px;border-top:1px solid var(--border);font-
 footer a{color:var(--accent)}
 .skel{background:linear-gradient(90deg,var(--surface-2) 25%,var(--border) 37%,var(--surface-2) 63%);background-size:400% 100%;animation:sh 1.4s ease infinite;border-radius:12px;height:88px}
 @keyframes sh{0%{background-position:100% 0}100%{background-position:0 0}}
-.opportunities{max-width:1100px;margin:24px auto;padding:0 20px}.opportunities h2{margin-bottom:6px}.opportunities p{color:var(--muted,#666)}.job{border:1px solid var(--border,#ddd);border-radius:14px;background:var(--card,#fff);padding:20px;margin:12px 0}.job h3{margin:0 0 8px}.job-grid{display:flex;flex-wrap:wrap;gap:14px;margin:14px 0}.job-grid span{padding:8px 12px;background:var(--info-bg,#eef4ff);border-radius:8px}.status-badge{padding:8px 12px;border-radius:8px;font-weight:600}.status-applied{background:#e6f6ea;color:#1a7a3a}.status-available{background:#eef4ff;color:#1a4fa0}.status-loading{background:var(--surface-2,#f0f0f0);color:var(--muted,#666)}.job pre{white-space:pre-wrap;overflow-wrap:anywhere;font:inherit;line-height:1.65}.job summary{cursor:pointer;padding:10px 0;font-weight:600}.body a{overflow-wrap:anywhere}.source-note{font-size:12px;color:var(--muted,#666);margin-top:12px}
+.opportunities{max-width:880px;margin:0 auto 28px}.opportunities h2{margin-bottom:4px}.opportunities>p{color:var(--text-dim);font-size:13px;margin:0 0 12px}.job{border:1px solid var(--border);border-radius:14px;background:var(--surface);padding:18px 20px;margin:12px 0;box-shadow:var(--shadow)}.job-head{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;flex-wrap:wrap}.job-company{font:700 16px "Fraunces",Georgia,serif;margin:0}.job-role{color:var(--text-dim);font-size:13.5px;margin:2px 0 0}.badge{padding:6px 11px;border-radius:20px;font:600 12px "IBM Plex Sans";white-space:nowrap}.badge-applied{background:var(--good-bg);color:var(--good)}.badge-available{background:var(--info-bg);color:var(--info)}.badge-loading{background:var(--surface-2);color:var(--text-dim)}.job-chips{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}.chip{padding:6px 11px;border-radius:8px;background:var(--surface-2);font-size:12.5px;color:var(--text)}.chip-warn{background:var(--warn-bg);color:var(--warn)}.job-desc{font-size:13.5px;line-height:1.6;color:var(--text);margin:10px 0 0;max-height:78px;overflow:hidden;position:relative;white-space:pre-wrap}.job-desc.open{max-height:none}.job-desc:not(.open)::after{content:"";position:absolute;bottom:0;left:0;right:0;height:28px;background:linear-gradient(transparent,var(--surface))}.job-more{margin-top:6px;font:600 12px "IBM Plex Sans";color:var(--accent);background:none;border:none;cursor:pointer;padding:0}.job details{margin-top:10px;border-top:1px solid var(--border);padding-top:10px}.job summary{cursor:pointer;font-weight:600;font-size:13px}.job details pre{white-space:pre-wrap;overflow-wrap:anywhere;font:inherit;line-height:1.6;font-size:12.5px;color:var(--text-dim);max-height:260px;overflow:auto;margin:8px 0 0;padding:8px;background:var(--surface-2);border-radius:8px}.job-eligibility-note{font-size:13px;color:var(--text-dim);margin-top:8px}.job-open{display:inline-block;margin-top:12px;font:600 13px "IBM Plex Sans";color:var(--accent-contrast);background:var(--accent);padding:8px 14px;border-radius:8px;text-decoration:none}.body a{overflow-wrap:anywhere}.source-note{font-size:12px;color:var(--text-dim);margin-top:12px}
 </style>
 
 <header class="top">
@@ -114,6 +115,7 @@ footer a{color:var(--accent)}
 <section id="opportunities" class="opportunities" aria-labelledby="jobsTitle">
   <h2 id="jobsTitle">Placement opportunities</h2>
   <p id="jobsUpdated">Loading latest company snapshot…</p>
+  <div class="tabs" role="tablist" id="jobsTabs"></div>
   <div id="jobsList"></div>
 </section>
 <div class="stats" id="stats"></div>
@@ -364,24 +366,80 @@ footer a{color:var(--accent)}
   // skeleton while first load is in flight
   document.getElementById("list").innerHTML = Array(4).fill('<div class="skel"></div>').join("");
 
+  var JOB_TABS = [{key:'PLACEMENT', label:'Placement'}, {key:'INTERNSHIP', label:'Internship'}];
+  var jobState = {tab:'PLACEMENT', data:null};
+
+  function jobType(c){ return (c.form_type || 'PLACEMENT').toUpperCase() === 'INTERNSHIP' ? 'INTERNSHIP' : 'PLACEMENT'; }
+
+  function renderJobTabs(){
+    var el = document.getElementById('jobsTabs');
+    if(!jobState.data){ el.innerHTML=''; return; }
+    el.innerHTML = JOB_TABS.map(function(t){
+      var cnt = jobState.data.companies.filter(function(c){ return jobType(c)===t.key; }).length;
+      var sel = t.key===jobState.tab;
+      return '<button class="tab" role="tab" aria-selected="'+sel+'" data-jobtab="'+t.key+'">'+esc(t.label)+' <span class="cnt">'+cnt+'</span></button>';
+    }).join('');
+    Array.prototype.forEach.call(el.querySelectorAll('.tab'), function(btn){
+      btn.addEventListener('click', function(){
+        jobState.tab = btn.getAttribute('data-jobtab');
+        renderJobTabs(); renderJobList();
+      });
+    });
+  }
+
+  function renderJobCard(c){
+    var expiry = c.resume_end ? new Date(c.resume_end.replace(' ','T')+':00+05:30') : null;
+    var closed = expiry && !isNaN(expiry) && expiry < new Date();
+    var hoursLeft = expiry ? (expiry - new Date())/36e5 : null;
+    var urgent = !closed && hoursLeft!==null && hoursLeft < 24;
+    var badgeCls = c.is_applied===true?'badge-applied':c.is_applied===false?'badge-available':'badge-loading';
+    var badgeTxt = c.is_applied===true?'Applied in ERP':c.is_applied===false?'Not yet applied':'Checking status…';
+    var desc = c.description || c.details || '';
+    return '<article class="job">'+
+      '<div class="job-head"><div><p class="job-company">'+esc(c.company)+'</p><p class="job-role">'+esc(c.role)+'</p></div>'+
+      '<span class="badge '+badgeCls+'">'+badgeTxt+'</span></div>'+
+      '<div class="job-chips">'+
+        '<span class="chip">CTC '+esc(c.ctc)+' '+esc(c.currency)+'</span>'+
+        (c.cgpa_cutoff?'<span class="chip">CGPA cut-off '+esc(c.cgpa_cutoff)+'</span>':'')+
+        '<span class="chip'+((closed||urgent)?' chip-warn':'')+'">'+(closed?'Deadline passed: ':'Apply by: ')+esc(c.resume_end)+' IST</span>'+
+        (c.interview?'<span class="chip">Interview: '+esc(c.interview)+'</span>':'')+
+      '</div>'+
+      (desc?('<div class="job-desc">'+linkify(desc)+'</div><button class="job-more">Read more</button>'):'')+
+      (c.eligibility_summary?'<p class="job-eligibility-note">Eligibility: '+esc(c.eligibility_summary)+'</p>':'')+
+      (c.eligibility_full?'<details><summary>Full eligible departments &amp; degrees</summary><pre>'+esc(c.eligibility_full)+'</pre></details>':'')+
+      (c.company_details?'<details><summary>About the company</summary><pre>'+linkify(c.company_details)+'</pre></details>':'')+
+      '<div><a class="job-open" href="https://erp.iitkgp.ac.in/IIT_ERP3/" target="_blank" rel="noopener noreferrer">Open ERP to apply or download attachments</a></div>'+
+    '</article>';
+  }
+
+  function wireJobExpanders(){
+    Array.prototype.forEach.call(document.querySelectorAll('#jobsList .job-more'), function(btn){
+      btn.addEventListener('click', function(){
+        var d = btn.previousElementSibling;
+        var open = d.classList.toggle('open');
+        btn.textContent = open ? 'Show less' : 'Read more';
+      });
+    });
+  }
+
+  function renderJobList(){
+    if(!jobState.data){ return; }
+    var list = jobState.data.companies.filter(function(c){ return jobType(c)===jobState.tab; });
+    document.getElementById('jobsList').innerHTML = list.map(renderJobCard).join('') ||
+      '<p>No '+jobState.tab.toLowerCase()+' opportunities were listed in the last successful check.</p>';
+    wireJobExpanders();
+  }
+
   function loadCompanies(){
     fetch('./companies.json?_='+Date.now(), {cache:'no-store'}).then(function(r){
       if(!r.ok) throw new Error('Company snapshot not yet available'); return r.json();
     }).then(function(data){
+      jobState.data = data;
       var timestamp = new Date(data.last_updated);
       var stale = Date.now() - timestamp.getTime() > 2*60*60*1000;
       document.getElementById('jobsUpdated').textContent = 'Last checked '+timestamp.toLocaleString('en-IN',{timeZone:'Asia/Kolkata'})+' IST'+(stale?' · Snapshot may be outdated; verify in ERP':'');
-      document.getElementById('jobsList').innerHTML = data.companies.map(function(c){
-        var expiry = c.resume_end ? new Date(c.resume_end.replace(' ','T')+':00+05:30') : null;
-        var closed = expiry && !isNaN(expiry) && expiry < new Date();
-        return '<article class="job"><h3>'+esc(c.company)+'</h3><b>'+esc(c.role)+'</b>'+
-          '<div class="job-grid"><span>CTC: '+esc(c.ctc)+' '+esc(c.currency)+'</span><span>CV deadline: '+esc(c.resume_end)+' IST'+(closed?' · Closed':'')+'</span>'+'<span class="status-badge '+(c.is_applied === true ? 'status-applied' : c.is_applied === false ? 'status-available' : 'status-loading')+'">'+(c.is_applied === true ? 'Applied in ERP' : c.is_applied === false ? 'Not yet applied' : 'Checking status…')+'</span></div>'+
-          '<p>CV window opens: '+esc(c.resume_start)+' IST</p>'+
-          (c.interview?'<p>Interview / selection: '+esc(c.interview)+'</p>':'')+
-          (c.details?'<details><summary>Job description &amp; eligibility</summary><pre>'+linkify(c.details)+'</pre></details>':'')+
-          (c.company_details?'<details><summary>About the company</summary><pre>'+linkify(c.company_details)+'</pre></details>':'')+
-          '<a href="https://erp.iitkgp.ac.in/IIT_ERP3/" target="_blank" rel="noopener noreferrer">Open ERP to apply or download job attachments</a></article>';
-      }).join('') || '<p>No placement opportunities were listed in the last successful check.</p>';
+      renderJobTabs();
+      renderJobList();
     }).catch(function(){document.getElementById('jobsUpdated').textContent='Company details will appear after the next successful CDC sync.';});
   }
   loadCompanies();
