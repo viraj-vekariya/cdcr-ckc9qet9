@@ -312,6 +312,13 @@ def main():
         "id": r["id"], "type": r["type"], "subject": r["subject"], "company": r["company"],
         "notice": smart_text.get(r["id"]) or reflow(r["notice"]), "noticeat": r["noticeat"],
         "download_raw": "<a href='#'>Download</a>" if r.get("hasDownload") else "",
+        # enrich_notices() (extract_notices_playwright.py) sets these on `raw`
+        # so it can skip re-fetching an already-captured notice next run --
+        # but they were never carried through into this published row, so
+        # every notice defaulted back to "grid" on the site forever and
+        # enrich_notices kept re-fetching the same ~40 newest placement rows
+        # every single cycle instead of ever making progress on the rest.
+        "text_source": r.get("text_source", "grid"), "source_hash": r.get("source_hash", ""),
     } for r in raw]
     CACHE.write_text(json.dumps(cache_rows, indent=1))
     # attachments for EVERY notice (placement + internship) -- the site now
