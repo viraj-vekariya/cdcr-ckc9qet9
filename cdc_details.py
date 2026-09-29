@@ -15,6 +15,56 @@ BASE = Path(__file__).resolve().parent
 ROOT = 'https://erp.iitkgp.ac.in/TrainingPlacementSSO/'
 YEAR = os.environ.get('ERP_YEAR', '2026-2027')
 
+DEPT_HEADING = re.compile(r'^[A-Z][A-Z0-9 &,./()\-]+$')
+
+
+def _parse_job_detail(text):
+    """Splits the raw job-detail dialog text into the pieces a website card
+    actually wants, instead of one undifferentiated blob. Verified live 29
+    Sep 2026 (Trexquant) against the real dialog structure:
+      Cancel apply / View applied Resume
+      Company : <name>
+      Job Profile
+      Form Type<TAB>Designation<TAB>Cost to Company per year<TAB>Bond / Service Contract<TAB>Additional Criteria<TAB>CGPA Cut-off
+      PLACEMENT<TAB>Quantitative Researcher<TAB>9160000 INR<TAB><TAB><TAB>8.0
+      Job Description
+      Description <the actual paragraph, glued to the label with one space>
+      Allowed Departments and degrees
+      <DEPARTMENT NAME>
+      <DEGREE> --- <programme>
+      ... (this list can run to hundreds of lines -- e.g. 285 for a role
+      open department-wide -- so it's summarised, never dropped: the full
+      text is kept in 'eligibility_full' for anyone who wants to check).
+    Every field defaults to '' / [] and the caller keeps the raw `details`
+    text as a fallback, so a dialog that doesn't match this shape (a
+    different company's ERP template, a future ERP change) degrades to
+    exactly the old plain-dump behaviour instead of showing something wrong."""
+    out = {'form_type': '', 'cgpa_cutoff': '', 'description': '', 'eligibility_summary': '', 'eligibility_full': ''}
+    lines = text.split('\n')
+    for i, line in enumerate(lines):
+        if line.strip() == 'Form Type' and i + 1 < len(lines):
+            cells = lines[i + 1].split('\t')
+            if len(cells) >= 6:
+                out['form_type'] = cells[0].strip()
+                out['cgpa_cutoff'] = cells[5].strip()
+            break
+    i_desc = text.find('Job Description')
+    i_dept = text.find('Allowed Departments and degrees')
+    if i_desc >= 0:
+        desc = text[i_desc + len('Job Description'):(i_dept if i_dept > i_desc else len(text))].strip()
+        out['description'] = re.sub(r'^Description\s+', '', desc).strip()
+    if i_dept >= 0:
+        dept_text = text[i_dept + len('Allowed Departments and degrees'):].strip()
+        out['eligibility_full'] = dept_text
+        entries = [l.strip() for l in dept_text.split('\n') if l.strip()]
+        dept_count = sum(1 for l in entries if DEPT_HEADING.match(l) and '---' not in l)
+        programme_count = len(entries) - dept_count
+        if dept_count and programme_count <= 8:
+            out['eligibility_summary'] = '; '.join(l for l in entries if not (DEPT_HEADING.match(l) and '---' not in l))
+        elif dept_count:
+            out['eligibility_summary'] = f'Open to {dept_count} department(s), {programme_count} degree programme(s)'
+    return out
+
 def enrich_notices(context, rows):
     previous = {}
     try:
@@ -109,6 +159,8 @@ def capture_companies(context):
             item = dict(company=company, role=role, ctc=cell('ctc'), currency=cell('Currency'),
                         resume_start=cell('resumedeadline_st'), resume_end=cell('resumedeadline'),
                         interview=cell('interview_date_confirmed'), is_applied=None,
+                        form_type='', cgpa_cutoff='', description='',
+                        eligibility_summary='', eligibility_full='',
                         details='', company_details='')
             item['id'] = hashlib.sha256((company + '\n' + role).encode()).hexdigest()[:16]
             results.append(item)
@@ -129,6 +181,7 @@ def capture_companies(context):
                     start = text.find('Company:')
                 if start >= 0:
                     item['details'] = text[start:]
+                    item.update(_parse_job_detail(item['details']))
             except Exception as exc:
                 print(f'Job detail unavailable for {company}: {type(exc).__name__}: {str(exc)[:150]}')
             finally:
