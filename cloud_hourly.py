@@ -17,7 +17,6 @@ from zoneinfo import ZoneInfo
 BASE = Path(__file__).resolve().parent
 sys.path.insert(0, str(BASE))
 import login, build_docs, wa_cloud, attachments, gate
-from notice_text import normalize, valid_layout
 from extract_notices_playwright import fetch as extract_notices
 
 SESSION_FILE = BASE / "session_cookie.txt"
@@ -109,7 +108,7 @@ def reflow(text):
     return text
 
 
-GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-flash-latest")  # confirmed via live API calls 25 Sep 2026 --
+GEMINI_MODEL = "gemini-flash-latest"  # confirmed via live API calls 25 Sep 2026 --
                                     # gemini-2.5-flash is deprecated (404, points
                                     # to gemini-3.8-flash); gemini-3.8-flash itself
                                     # returns 503 "high demand" under real load,
@@ -136,14 +135,19 @@ def smart_reflow(text):
         return text
     import re, time as _time, json as _json, urllib.request as _urlreq
     prompt = (
-        "Reformat ONLY the whitespace and line breaks of the text below so "
-        "it reads cleanly: put separate fields/labels (e.g. Date:, Venue:, "
-        "Time:, batch/session names), separate list entries, and links each "
-        "on their own line, with a blank line between distinct sections. Do "
-        "not change, add, remove, reorder, translate, abbreviate, or "
-        "rephrase a single word or character of the actual content. Do not "
-        "add any title, header, footer, note, or explanation of your own. "
-        "Output ONLY the reformatted text and nothing else.\n\n---\n" + text
+        "Reformat the layout of this placement/internship notice so it reads "
+        "cleanly on WhatsApp: put separate fields/labels (e.g. Date:, Venue:, "
+        "Time:, CTC, batch/session names), separate list entries, and links "
+        "each on their own line, with a blank line between distinct "
+        "sections. Fix any link that's malformed, split across lines, or has "
+        "stray characters stuck to it, so it becomes one clean working URL. "
+        "You may reorder or lightly reword for clarity, but do not change "
+        "any fact: keep every number (CTC, dates, times, roll numbers, "
+        "phone numbers), every company/person name, and every link's actual "
+        "URL exactly as given -- reformat around them, never alter them. Do "
+        "not add any title, header, footer, note, or explanation of your "
+        "own, and do not drop any real information from the notice. Output "
+        "ONLY the reformatted text and nothing else.\n\n---\n" + text
     )
     body = _json.dumps({
         "contents": [{"parts": [{"text": prompt}]}],
@@ -158,27 +162,39 @@ def smart_reflow(text):
     for attempt in range(2):
         try:
             req = _urlreq.Request(
-                f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent",
-                data=body, headers={"Content-Type": "application/json", "x-goog-api-key": api_key},
+                f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent?key={api_key}",
+                data=body, headers={"Content-Type": "application/json"},
             )
             with _urlreq.urlopen(req, timeout=25) as resp:
                 data = _json.loads(resp.read())
             out = data["candidates"][0]["content"]["parts"][0]["text"].strip()
             break
         except Exception as e:
-            log(f"Gemini polish call failed (attempt {attempt + 1}/2): {type(e).__name__}")
+            log(f"Gemini polish call failed (attempt {attempt + 1}/2): {e}")
             if attempt == 0:
                 _time.sleep(3)  # Google's own 503 message: "usually temporary"
     if out is None:
         log("Gemini polish giving up, using regex text")
         return text
 
-    tok = lambda s: re.findall(r"\S+", s)
-    if not valid_layout(text, out):
-        log("Gemini polish REJECTED -- token mismatch vs regex text, using regex text")
+    # Loosened 29 Sep 2026 per explicit request: an exact-token-match check
+    # rejected Gemini's output for ANY rewording/reordering, including
+    # genuinely better URL formatting -- which is exactly what this feature
+    # is for. What's still hard-verified, because these are the parts that
+    # actually matter on a real placement notice (CTC, dates, deadlines,
+    # roll numbers, application links): every number and every URL present
+    # in the regex text must still be present, character-for-character,
+    # somewhere in Gemini's output. This catches a dropped/altered fact
+    # without punishing harmless rewording or reflow.
+    nums = lambda s: set(re.findall(r"\d+(?:[.,]\d+)*", s))
+    urls = lambda s: set(re.findall(r"https?://\S+", s))
+    missing_nums = nums(text) - nums(out)
+    missing_urls = urls(text) - urls(out)
+    if missing_nums or missing_urls:
+        log(f"Gemini polish REJECTED -- missing numbers {missing_nums} or URLs {missing_urls}, using regex text")
         return text
     log("Gemini polish applied")
-    return normalize(out)
+    return out
 
 
 def email_fallback(subject, message):
@@ -270,50 +286,45 @@ def main():
         log(f"login failed at {now_str} -- will retry next hour.")
         notify_all(f"CDC watcher: login failed at {now_str} -- will retry next hour.",
                    subject="CDC watcher: login failed")
-        raise RuntimeError("ERP login failed; no data refreshed")
+        return
 
-    try:
-        log("extracting notice board via headless browser...")
-        raw = extract_notices(cookie, headless=True)
-        log(f"fetched {len(raw)} total notices")
+    log("extracting notice board via headless browser...")
+    raw = extract_notices(cookie, headless=True)
+    log(f"fetched {len(raw)} total notices")
 
-        seen = set(json.loads(SEEN_FILE.read_text())) if SEEN_FILE.exists() else set()
-        # WhatsApp stays placement-only, and excludes PPO specifically (21 Sep
-        # 2026 request) -- the website/PDFs below get EVERYTHING (placement +
-        # internship, PPO included) since that split now lives client-side on
-        # the site's own subject filter instead of at the alerting layer.
-        # seen-tracking still covers every id so nothing wrongly resurfaces.
-        new_rows = [r for r in raw if r["id"] not in seen and r["type"] == "PLACEMENT"
-                    and (r.get("subject") or "").upper() != "PPO"]
+    seen = set(json.loads(SEEN_FILE.read_text())) if SEEN_FILE.exists() else set()
+    # WhatsApp stays placement-only, and excludes PPO specifically (21 Sep
+    # 2026 request) -- the website/PDFs below get EVERYTHING (placement +
+    # internship, PPO included) since that split now lives client-side on
+    # the site's own subject filter instead of at the alerting layer.
+    # seen-tracking still covers every id so nothing wrongly resurfaces.
+    new_rows = [r for r in raw if r["id"] not in seen and r["type"] == "PLACEMENT"
+                and (r.get("subject") or "").upper() != "PPO"]
 
-        # Gemini-polish only the freshly-arriving notices (typically 0-5/hour) so
-        # the WhatsApp/email text and the website show identical, better-
-        # formatted text for anything a user might currently see as new --
-        # running this on all ~859 rows every run would blow the 15-min job
-        # timeout and any API quota for no benefit (nobody's re-reading old ones).
-        smart_text = {r["id"]: smart_reflow(normalize(r["notice"]) if r.get("text_source") == "full_notice" else reflow(r["notice"])) for r in new_rows}
+    # Gemini-polish only the freshly-arriving notices (typically 0-5/hour) so
+    # the WhatsApp/email text and the website show identical, better-
+    # formatted text for anything a user might currently see as new --
+    # running this on all ~859 rows every run would blow the 15-min job
+    # timeout and any API quota for no benefit (nobody's re-reading old ones).
+    smart_text = {r["id"]: smart_reflow(reflow(r["notice"])) for r in new_rows}
 
-        cache_rows = [{
-            "id": r["id"], "type": r["type"], "subject": r["subject"], "company": r["company"],
-            "notice": smart_text.get(r["id"]) or (normalize(r["notice"]) if r.get("text_source") == "full_notice" else reflow(r["notice"])), "noticeat": r["noticeat"],
-            "text_source": r.get("text_source", "grid"), "source_hash": r.get("source_hash", ""),
-            "download_raw": "<a href='#'>Download</a>" if r.get("hasDownload") else "",
-        } for r in raw]
-        CACHE.write_text(json.dumps(cache_rows, indent=1))
-        # attachments for EVERY notice (placement + internship) -- the site now
-        # shows both categories with their real files, not placement-only.
-        files = attachments.sync(cookie, cache_rows, log)
-        log(f"attachments: {len(files)} file(s) captured, "
-            f"{sum(1 for r in cache_rows if r['download_raw'])} notice(s) list a Download")
-        build_docs.main()
-        log(f"documents rebuilt ({len(cache_rows)} total rows)")
+    cache_rows = [{
+        "id": r["id"], "type": r["type"], "subject": r["subject"], "company": r["company"],
+        "notice": smart_text.get(r["id"]) or reflow(r["notice"]), "noticeat": r["noticeat"],
+        "download_raw": "<a href='#'>Download</a>" if r.get("hasDownload") else "",
+    } for r in raw]
+    CACHE.write_text(json.dumps(cache_rows, indent=1))
+    # attachments for EVERY notice (placement + internship) -- the site now
+    # shows both categories with their real files, not placement-only.
+    files = attachments.sync(cookie, cache_rows, log)
+    log(f"attachments: {len(files)} file(s) captured, "
+        f"{sum(1 for r in cache_rows if r['download_raw'])} notice(s) list a Download")
+    build_docs.main()
+    log(f"documents rebuilt ({len(cache_rows)} total rows)")
 
-        SEEN_FILE.write_text(json.dumps(sorted({r["id"] for r in raw}, key=lambda x: int(x) if x.isdigit() else 0)))
-
-    finally:
-        login.logout(cookie)
-        SESSION_FILE.unlink(missing_ok=True)
-        log("ERP session closed; local cookie removed")
+    SEEN_FILE.write_text(json.dumps(sorted({r["id"] for r in raw}, key=lambda x: int(x) if x.isdigit() else 0)))
+    login.logout(cookie)
+    log("ERP session closed")
 
     log(f"cycle complete -- {len(new_rows)} new placement notice(s) (excl. PPO) this hour" if new_rows else "cycle complete -- no new non-PPO placement notices this hour")
     prev_run = gate.last_success()
@@ -325,7 +336,7 @@ def main():
     if new_rows:
         for r in new_rows:
             header = f"[PLACEMENT] {r['company'] or '(no company / general notice)'} ({r['subject']})"
-            body = smart_text.get(r["id"]) or (normalize(r["notice"]) if r.get("text_source") == "full_notice" else reflow(r["notice"]))
+            body = smart_text.get(r["id"]) or reflow(r["notice"])
             listed = bool(r.get("hasDownload"))
             fpath = files.get(r["id"])
             if fpath:
