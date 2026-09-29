@@ -32,7 +32,7 @@
   --shadow:0 1px 2px rgba(0,0,0,.3), 0 6px 24px -8px rgba(0,0,0,.5);
 }
 *{box-sizing:border-box}
-body{background:var(--bg);color:var(--text);font-family:"IBM Plex Sans",-apple-system,sans-serif;padding-inline:16px;padding-block:22px 60px;max-width:960px;margin:0 auto}
+body{background:var(--bg);color:var(--text);font-family:"IBM Plex Sans",-apple-system,sans-serif;padding-inline:16px;padding-block:22px 60px;max-width:1220px;margin:0 auto}#noticesSection{max-width:880px;margin:0 auto}
 h1,h2,h3{font-family:"Fraunces",Georgia,serif;text-wrap:balance;margin:0}
 .mono{font-family:"IBM Plex Mono",ui-monospace,monospace;font-variant-numeric:tabular-nums}
 header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding-block:10px 14px;margin-bottom:14px;border-bottom:1px solid var(--border)}
@@ -51,7 +51,7 @@ button.refresh.spin svg{animation:spin .8s linear infinite}
 .tabs{display:flex;gap:4px;background:var(--surface-2);border:1px solid var(--border);border-radius:10px;padding:4px;margin-bottom:14px;overflow-x:auto}
 .tab{flex:1 0 auto;text-align:center;font:600 12.5px "IBM Plex Sans";color:var(--text-dim);padding:7px 10px;border-radius:7px;cursor:pointer;white-space:nowrap;background:transparent;border:none}
 .tab[aria-selected="true"]{background:var(--surface);color:var(--accent);box-shadow:var(--shadow)}
-.tab .cnt{opacity:.7;font-family:"IBM Plex Mono";margin-left:3px}
+.tab .cnt{opacity:.7;font-family:"IBM Plex Mono";margin-left:3px}.toolbar{display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:14px}.cv-links{display:flex;gap:8px}.cv-links a{font:600 12.5px "IBM Plex Sans";color:var(--accent);background:var(--surface-2);border:1px solid var(--border);border-radius:7px;padding:6px 12px;text-decoration:none}.cv-links a:hover{border-color:var(--accent)}.toolbar-right{display:flex;align-items:center;gap:18px;flex-wrap:wrap}.toolbar-right .toggle-row{margin-bottom:0}.intern-link{font:600 12.5px "IBM Plex Sans";color:var(--accent);text-decoration:none;white-space:nowrap}
 
 .toggle-row{display:flex;align-items:center;gap:8px;margin-bottom:12px;font-size:13px;color:var(--text-dim)}
 .toggle-row input{width:15px;height:15px;accent-color:var(--accent)}
@@ -114,7 +114,7 @@ footer a{color:var(--accent)}
 .opp-detail details{margin-top:10px;border-top:1px solid var(--border);padding-top:10px}
 .opp-detail summary{cursor:pointer;font-weight:600;font-size:13px}
 .opp-detail pre{white-space:pre-wrap;overflow-wrap:anywhere;font:inherit;line-height:1.6;font-size:12.5px;color:var(--text-dim);max-height:260px;overflow:auto;margin:8px 0 0;padding:8px;background:var(--surface);border-radius:8px}
-.opp-open{display:inline-block;margin-top:12px;font:600 13px "IBM Plex Sans";color:var(--accent-contrast);background:var(--accent);padding:8px 14px;border-radius:8px;text-decoration:none}
+.opp-open{display:inline-block;margin-top:12px;font:600 13px "IBM Plex Sans";color:var(--accent-contrast);background:var(--accent);padding:8px 14px;border-radius:8px;text-decoration:none}.opp-table-wrap{overflow-x:auto}.opp-global-open{display:inline-block;margin:2px 0 16px;font:600 13px "IBM Plex Sans";color:var(--accent-contrast);background:var(--accent);padding:9px 16px;border-radius:8px;text-decoration:none}
 .source-note{font-size:12px;color:var(--text-dim);margin-top:12px}
 </style>
 
@@ -132,14 +132,24 @@ footer a{color:var(--accent)}
   </div>
 </header>
 
+<div class="toolbar">
+  <div class="cv-links">
+    <a href="./cvs/CV1.pdf" target="_blank" rel="noopener">CV1</a>
+    <a href="./cvs/CV2.pdf" target="_blank" rel="noopener">CV2</a>
+    <a href="./cvs/CV3.pdf" target="_blank" rel="noopener">CV3</a>
+  </div>
+  <div class="toolbar-right">
+    <div class="toggle-row">
+      <input type="checkbox" id="ppoToggle">
+      <label for="ppoToggle">Show PPO notices</label>
+    </div>
+    <a class="intern-link" href="./internship.html">Internship notices &rarr;</a>
+  </div>
+</div>
+
 <div class="tabs" role="tablist" id="sectionTabs"></div>
 
 <section id="noticesSection">
-  <div class="toggle-row">
-    <input type="checkbox" id="ppoToggle">
-    <label for="ppoToggle">Show PPO notices</label>
-  </div>
-
   <div class="searchwrap">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
     <input class="search" id="search" placeholder="Search by company or keyword&hellip;" autocomplete="off">
@@ -161,7 +171,6 @@ footer a{color:var(--accent)}
 
 <footer>
   Placement notices auto-scraped hourly from the IIT KGP ERP CDC Notice board.<br>
-  <a href="./internship.html">Internship notices &rarr;</a><br>
   Source: <a href="./notices.json" target="_blank" rel="noopener">notices.json</a>
   on <a href="https://github.com/viraj-vekariya/placement-watcher" target="_blank" rel="noopener">placement-watcher</a>
 </footer>
@@ -385,6 +394,21 @@ footer a{color:var(--accent)}
 
   // -- Placement Opportunity table (mirrors the ERP application grid + its
   // job/company detail dialogs) --
+  function formatINR(n){
+    var s = String(n==null?'':n).replace(/[^\d]/g,'');
+    if(!s) return String(n==null?'':n);
+    var last3 = s.slice(-3), rest = s.slice(0,-3);
+    if(rest) rest = rest.replace(/\B(?=(\d{2})+(?!\d))/g, ',') + ',';
+    return rest + last3;
+  }
+  function fmtDateTime(s){
+    // ERP gives "YYYY-MM-DD HH:MM" -- shown as DD-MM-YY with the time on its own line
+    if(!s) return {date:'\u2014', time:''};
+    var parts = String(s).split(' ');
+    var d = (parts[0]||'').split('-');
+    if(d.length !== 3) return {date: esc(s), time:''};
+    return {date: d[2]+'-'+d[1]+'-'+d[0].slice(2), time: esc(parts[1]||'')};
+  }
   function oppRow(c, idx){
     var expiry = c.resume_end ? new Date(c.resume_end.replace(' ','T')+':00+05:30') : null;
     var closed = expiry && !isNaN(expiry) && expiry < new Date();
@@ -394,19 +418,23 @@ footer a{color:var(--accent)}
     var pillTxt = c.is_applied===true?'Applied':c.is_applied===false?'Not applied':'Checking…';
     var desc = c.description || c.details || '';
     var detailId = 'oppdet'+idx;
+    var opens = fmtDateTime(c.resume_start);
+    var deadline = fmtDateTime(c.resume_end);
     var summary = '<tr class="opp-row">'+
       '<td><p class="opp-company">'+esc(c.company)+'</p><p class="opp-role">'+esc(c.role)+'</p></td>'+
-      '<td class="mono">'+esc(c.ctc)+' '+esc(c.currency)+(c.cgpa_cutoff?'<br><span style="color:var(--text-dim);font-size:11px">CGPA '+esc(c.cgpa_cutoff)+'+</span>':'')+'</td>'+
+      '<td class="mono">'+esc(formatINR(c.ctc))+'</td>'+
+      '<td class="mono">'+esc(c.currency)+'</td>'+
+      '<td class="mono">'+(c.cgpa_cutoff?esc(c.cgpa_cutoff)+'+':'&mdash;')+'</td>'+
       '<td><span class="status-pill '+pillCls+'">'+pillTxt+'</span></td>'+
-      '<td class="mono" style="font-size:12px'+((closed||urgent)?';color:var(--warn)':'')+'">'+esc(c.resume_start)+'<br>&rarr; '+esc(c.resume_end)+(closed?' (closed)':'')+'</td>'+
+      '<td class="mono" style="font-size:12.5px">'+opens.date+'<br><span style="color:var(--text-dim);font-size:11px">'+opens.time+'</span></td>'+
+      '<td class="mono" style="font-size:12.5px'+((closed||urgent)?';color:var(--warn)':'')+'">'+deadline.date+'<br><span style="font-size:11px'+((closed||urgent)?'':';color:var(--text-dim)')+'">'+deadline.time+(closed?' (closed)':'')+'</span></td>'+
       '<td><button class="opp-toggle-btn" data-target="'+detailId+'">Details</button></td>'+
     '</tr>';
-    var detail = '<tr class="opp-detail-row" id="'+detailId+'" hidden><td colspan="5"><div class="opp-detail">'+
-      (desc?('<div class="opp-desc">'+linkify(desc)+'</div>'):'<p style="color:var(--text-dim)">Description not yet captured &mdash; open ERP for now.</p>')+
+    var detail = '<tr class="opp-detail-row" id="'+detailId+'" hidden><td colspan="8"><div class="opp-detail">'+
+      (desc?('<div class="opp-desc">'+linkify(desc)+'</div>'):'<p style="color:var(--text-dim)">Job description not yet captured by the scraper &mdash; use the Open ERP button above for now.</p>')+
       (c.eligibility_summary?'<p class="opp-eligibility-note">Eligibility: '+esc(c.eligibility_summary)+'</p>':'')+
       (c.eligibility_full?'<details><summary>Full eligible departments &amp; degrees</summary><pre>'+esc(c.eligibility_full)+'</pre></details>':'')+
       (c.company_details?'<details><summary>About the company</summary><pre>'+linkify(c.company_details)+'</pre></details>':'')+
-      '<div><a class="opp-open" href="https://erp.iitkgp.ac.in/IIT_ERP3/" target="_blank" rel="noopener noreferrer">Open ERP to apply, view JD, or view applied resume</a></div>'+
     '</div></td></tr>';
     return summary + detail;
   }
@@ -418,9 +446,10 @@ footer a{color:var(--accent)}
       wrap.innerHTML = '<p>No placement opportunities were listed in the last successful check.</p>';
       return;
     }
-    wrap.innerHTML = '<table class="opp-table"><thead><tr>'+
-      '<th>Company &amp; role</th><th>CTC</th><th>Status</th><th>Resume window (IST)</th><th></th>'+
-      '</tr></thead><tbody>'+data.companies.map(oppRow).join('')+'</tbody></table>';
+    wrap.innerHTML = '<a class="opp-global-open" href="https://erp.iitkgp.ac.in/IIT_ERP3/" target="_blank" rel="noopener noreferrer">Open ERP to apply, view full JD, or view an applied resume</a>'+
+      '<div class="opp-table-wrap"><table class="opp-table"><thead><tr>'+
+      '<th>Company &amp; role</th><th>CTC</th><th>Currency</th><th>CGPA</th><th>Status</th><th>Resume opens</th><th>Deadline</th><th></th>'+
+      '</tr></thead><tbody>'+data.companies.map(oppRow).join('')+'</tbody></table></div>';
     Array.prototype.forEach.call(wrap.querySelectorAll('.opp-toggle-btn'), function(btn){
       btn.addEventListener('click', function(){
         var row = document.getElementById(btn.getAttribute('data-target'));
