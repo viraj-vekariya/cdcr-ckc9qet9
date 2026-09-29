@@ -14,7 +14,7 @@ other machine. A modern User-Agent is required or WhatsApp Web refuses to
 load at all ("update your Chrome"), even though the underlying engine is
 perfectly current.
 """
-import os, sys, time, urllib.parse
+import os, re, sys, time, urllib.parse
 from pathlib import Path
 from playwright.sync_api import sync_playwright
 
@@ -183,7 +183,7 @@ def setup_with_phone_code(timeout_s=480):
         return ok
 
 
-def _confirm_last_sent(page, timeout_ms=8000):
+def _confirm_last_sent(page, before_count, expected_snippet=None, timeout_ms=8000):
     """Confirms the message we just sent actually left the client, using
     selectors VERIFIED live on 21 Sep 2026 against the current WhatsApp Web
     DOM (the earlier div.message-out / data-icon=msg-check selectors are
@@ -197,19 +197,34 @@ def _confirm_last_sent(page, timeout_ms=8000):
     any given moment can be an empty addon/placeholder row with no message
     in it at all, not the newest message -- so target actual message
     containers directly via [data-testid^="conv-msg-"] instead.
-    send()/send_file() only ever target the "Message yourself" self-chat, so
-    every message is outgoing by definition; the only thing left to confirm
-    is that the last message's status icon <title> is one of WhatsApp's own
-    design-system tick names: wds-ic-check (sent), wds-ic-double-check
-    (delivered), wds-ic-read (read). Any of the three is real confirmation,
-    not just a rendered draft."""
+
+    CRITICAL FIX (29 Sep 2026): the old version only checked whether the
+    LAST message in the DOM had a sent/delivered/read tick -- but on a self-
+    chat there is ALWAYS an old, already-ticked message sitting there from a
+    previous run. If a send silently failed to register (the deep-link's
+    prefilled text never actually reached the compose box, Enter fired too
+    early, etc.) the conversation's last real message stays that old one,
+    and the old check happily reported "confirmed" every single run even
+    though nothing new went out -- exactly matching real user reports of
+    getting only a handful of the many "delivery confirmed" messages logged.
+    Fix: `before_count` is the message count taken right before sending;
+    this only returns True once a message count LARGER than that appears
+    (a genuinely new bubble, not a stale old one), and -- when the caller
+    knows the text it sent -- that new bubble's own text must contain
+    `expected_snippet`, so a same-count-but-different-message race can't
+    false-positive either."""
     msgs = page.locator('[data-testid^="conv-msg-"]')
+    norm = lambda s: re.sub(r"\s+", " ", s or "").strip()
+    want = norm(expected_snippet) if expected_snippet else None
     end = time.time() + timeout_ms / 1000
     while time.time() < end:
         n = msgs.count()
-        if n > 0:
+        if n > before_count:
             last = msgs.nth(n - 1)
             try:
+                if want and want not in norm(last.inner_text(timeout=1500)):
+                    page.wait_for_timeout(400)
+                    continue
                 # SVG <title> elements have no innerText (all_inner_texts()
                 # silently returns None for each -- verified live 21 Sep
                 # 2026), so textContent via all_text_contents() is required.
@@ -219,7 +234,7 @@ def _confirm_last_sent(page, timeout_ms=8000):
                     return True
             except Exception:
                 pass
-        page.wait_for_timeout(500)
+        page.wait_for_timeout(400)
     return False
 
 
@@ -253,6 +268,7 @@ def send(message, headless=True, timeout_ms=30000):
         box = page.locator('div[contenteditable="true"][aria-label^="Type a message" i]')
         box.wait_for(state="visible", timeout=timeout_ms)
         page.wait_for_timeout(3000)  # let the socket to the phone settle, not just the DOM render
+        before_count = page.locator('[data-testid^="conv-msg-"]').count()
 
         def diag():
             """One-shot diagnostic bundle -- attached to any failure so a
@@ -298,11 +314,11 @@ def send(message, headless=True, timeout_ms=30000):
             box.press("Enter")
         page.wait_for_timeout(2500)
 
-        sent_ok = _confirm_last_sent(page, timeout_ms=8000)
+        sent_ok = _confirm_last_sent(page, before_count, expected_snippet=message[:40], timeout_ms=10000)
         if not sent_ok:
             info = diag()
             ctx.close()
-            raise RuntimeError(f"could not confirm a sent/delivered tick after Enter -- {info}")
+            raise RuntimeError(f"could not confirm a NEW sent/delivered tick after Enter -- {info}")
         ctx.close()
 
 
@@ -319,6 +335,7 @@ def send_file(path, caption="", headless=True, timeout_ms=40000):
         page.goto(f"https://web.whatsapp.com/send?phone={MY_NUMBER}", timeout=timeout_ms)
         page.wait_for_selector('div[contenteditable="true"][aria-label^="Type a message" i]', timeout=timeout_ms)
         page.wait_for_timeout(3000)  # let the socket to the phone settle, not just the DOM render
+        before_count = page.locator('[data-testid^="conv-msg-"]').count()
         page_text = page.evaluate("document.body.innerText")
         if any(w in page_text for w in ("Connecting", "computer is not connected", "Trying to reach phone", "phone number shared via url is invalid")):
             ctx.close()
@@ -342,10 +359,10 @@ def send_file(path, caption="", headless=True, timeout_ms=40000):
             page.keyboard.press("Enter")
         page.wait_for_timeout(5000)
 
-        sent_ok = _confirm_last_sent(page, timeout_ms=10000)
+        sent_ok = _confirm_last_sent(page, before_count, expected_snippet=(caption[:40] if caption else None), timeout_ms=12000)
         ctx.close()
         if not sent_ok:
-            raise RuntimeError("could not confirm a sent/delivered tick after sending the file")
+            raise RuntimeError("could not confirm a NEW sent/delivered tick after sending the file")
 
 
 def _find_chat_listitem(page, chat_name, timeout_s=15):
