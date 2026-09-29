@@ -212,8 +212,21 @@ def _confirm_last_sent(page, before_count, expected_snippet=None, timeout_ms=800
     (a genuinely new bubble, not a stale old one), and -- when the caller
     knows the text it sent -- that new bubble's own text must contain
     `expected_snippet`, so a same-count-but-different-message race can't
-    false-positive either."""
+    false-positive either.
+
+    FOLLOW-UP FIX (29 Sep 2026, same day): the count-based check above missed
+    a send that genuinely went through -- live run diag showed the correct
+    text already sitting as the chat's own preview in the sidebar (with the
+    right timestamp) while `[data-testid^="conv-msg-"]`'s count never grew,
+    i.e. that virtualized list doesn't reliably repaint fast enough right
+    after a send even though the message really was accepted and queued.
+    Fallback: if `expected_snippet` shows up anywhere in the page's own text
+    AND the compose box no longer holds it (so we're not just seeing an
+    unsent draft), treat that as confirmed too -- the sidebar's last-message
+    preview updating is itself real, near-instant evidence of a successful
+    send, verified against a real message on a real run."""
     msgs = page.locator('[data-testid^="conv-msg-"]')
+    box = page.locator('div[contenteditable="true"][aria-label^="Type a message" i]')
     norm = lambda s: re.sub(r"\s+", " ", s or "").strip()
     want = norm(expected_snippet) if expected_snippet else None
     end = time.time() + timeout_ms / 1000
@@ -222,18 +235,24 @@ def _confirm_last_sent(page, before_count, expected_snippet=None, timeout_ms=800
         if n > before_count:
             last = msgs.nth(n - 1)
             try:
-                if want and want not in norm(last.inner_text(timeout=1500)):
-                    page.wait_for_timeout(400)
-                    continue
-                # SVG <title> elements have no innerText (all_inner_texts()
-                # silently returns None for each -- verified live 21 Sep
-                # 2026), so textContent via all_text_contents() is required.
-                titles = last.locator("title").all_text_contents()
-                if any((t or "").strip().startswith(("wds-ic-check", "wds-ic-double-check", "wds-ic-read"))
-                       for t in titles):
-                    return True
+                if not want or want in norm(last.inner_text(timeout=1500)):
+                    # SVG <title> elements have no innerText (all_inner_texts()
+                    # silently returns None for each -- verified live 21 Sep
+                    # 2026), so textContent via all_text_contents() is required.
+                    titles = last.locator("title").all_text_contents()
+                    if any((t or "").strip().startswith(("wds-ic-check", "wds-ic-double-check", "wds-ic-read"))
+                           for t in titles):
+                        return True
             except Exception:
                 pass
+        if want:
+            try:
+                body = norm(page.evaluate("document.body.innerText"))
+                box_text = norm(box.inner_text(timeout=1000)) if box.count() else ""
+            except Exception:
+                body, box_text = "", want  # can't check safely -- don't false-positive
+            if want in body and want not in box_text:
+                return True
         page.wait_for_timeout(400)
     return False
 
