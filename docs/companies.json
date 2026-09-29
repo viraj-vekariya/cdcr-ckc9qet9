@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-29T01:34:07.173567+00:00",
+  "last_updated": "2026-09-29T02:47:30.807202+00:00",
   "companies": [
     {
       "company": "Trexquant (India) Business Consulting LLP",
@@ -10,6 +10,11 @@
       "resume_end": "2026-09-29 16:00",
       "interview": "",
       "is_applied": null,
+      "form_type": "",
+      "cgpa_cutoff": "",
+      "description": "",
+      "eligibility_summary": "",
+      "eligibility_full": "",
       "details": "",
       "company_details": "",
       "id": "e70ccf99e8e9ae7e"
