@@ -1,8 +1,8 @@
 {
- "last_updated": "2026-09-30T12:10:32Z",
+ "last_updated": "2026-09-30T13:40:51Z",
  "stats": {
   "placement": 135,
-  "internship": 750,
+  "internship": 751,
   "with_files": 167,
   "listed_downloads": 170
  },
@@ -1499,6 +1499,17 @@
    }
   ],
   "internship": [
+   {
+    "id": "949",
+    "type": "INTERNSHIP",
+    "subject": "CV Submission",
+    "company": "Trilogy",
+    "notice": "The CV submission of Trilogy has been opened till 11:59 PM, 1st October 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "30-09-2026 17:50",
+    "text_source": "full_notice",
+    "source_hash": "72793a23fdfe5ddc66cf558dae929a1dfb8efb3ccbac1b0253118e5e219ea9d8",
+    "has_download": false
+   },
    {
     "id": "948",
     "type": "INTERNSHIP",
@@ -9864,7 +9875,7 @@
     "company": "CV building - URGENT",
     "notice": "Students participating in the CDC Internship Process 2026-27 are informed that they are NOT allowed to mention JEE / GATE ranks in their CV, as per AIPC guidelines.\n\nPlease take a note of the same and comply strictly.\n\nCDC, IIT Kharagpur",
     "noticeat": "24-06-2026 16:03",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "5c7e53c52e6168993b69ed368a6033384b6cef7915585050ab61e9ca62265749",
     "has_download": false
    },
@@ -9875,7 +9886,7 @@
     "company": "Travel window for potentially eligible students for Internship 2026-27",
     "notice": "Students participating in the CDC Internship Process 2026-27 are advised to plan their travel during the designated travel window (10th July to 12th July 2026) and ensure their availability in the IIT Kharagpur campus from 13th July 2026 onwards.\n\nThere will be internship related activities between 13th July and 18th July 2026. Please note that these processes may be conducted in either online or offline mode.\n\nStudents are therefore advised to make their travel arrangements accordingly and remain available during this entire period to avoid missing any internship activities.\n\nCDC, IIT Kharagpur",
     "noticeat": "24-06-2026 12:30",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "eeed70f7febd7c8b8d97706d6df72c11c2be8404e076f0f1ace763d30f58da78",
     "has_download": false
    },
@@ -9884,9 +9895,9 @@
     "type": "INTERNSHIP",
     "subject": "Urgent",
     "company": "Placement Committee Member for the session 2026-27",
-    "notice": "The following students have been provisionally selected to work as Placement Committee Member for the session 2026-27 with CDC - Sl. No.\n\nName Roll Number1Vatsal Gutgutia 23AE3FP05\n2Abhinav Kumar Choudhary 23AG30001\n3Aditi Singh 23AG30002\n4Bhavy Vaishnav 23AR10009\n5Khush Duggar 23BT30016\n6Devansh Soni 23CH30043\n7Arpita Pawar 23CH30006\n8Aryan Raj Chourasia 23CE30008\n9Kaviliga N S R Anurag 25CR60R04\n10Himanshu Bisht 25EC62R37\n11Rudra Pratap 23EC30065\n12Keshav Agarwal 23EE30011\n13Aditya Ghandge 23GG10002\n14Aditya Ghosh 23MA10072\n15Zalavadiya Dishil 23ME3FP14\n16Syed Faiz Reza Zaidi 23MF3FP60\n17Hardik Mahawar 23ME30080\n18Daksh Dadeech 23ME3FP54\n19Anjali Kumari Gunjan 25MT61R04\n20Deepak Tekchandani 23MI33009\n21Nikita Sinha 23MI3EP25\n22Ritvik Puvvada 23NA3FP32\n23Nikhita Singh 23NA30020\n24Neev Agrawal 23CH3FP44\n25Ashutosh Singh 23CE10014",
+    "notice": "The following students have been provisionally selected to work as Placement Committee Member for the session 2026-27 with CDC -\n\nSl. No. Name Roll Number\n1 Vatsal Gutgutia 23AE3FP05\n2 Abhinav Kumar Choudhary 23AG30001\n3 Aditi Singh 23AG30002\n4 Bhavy Vaishnav 23AR10009\n5 Khush Duggar 23BT30016\n6 Devansh Soni 23CH30043\n7 Arpita Pawar 23CH30006\n8 Aryan Raj Chourasia 23CE30008\n9 Kaviliga N S R Anurag 25CR60R04\n10 Himanshu Bisht 25EC62R37\n11 Rudra Pratap 23EC30065\n12 Keshav Agarwal 23EE30011\n13 Aditya Ghandge 23GG10002\n14 Aditya Ghosh 23MA10072\n15 Zalavadiya Dishil 23ME3FP14\n16 Syed Faiz Reza Zaidi 23MF3FP60\n17 Hardik Mahawar 23ME30080\n18 Daksh Dadeech 23ME3FP54\n19 Anjali Kumari Gunjan 25MT61R04\n20 Deepak Tekchandani 23MI33009\n21 Nikita Sinha 23MI3EP25\n22 Ritvik Puvvada 23NA3FP32\n23 Nikhita Singh 23NA30020\n24 Neev Agrawal 23CH3FP44\n25 Ashutosh Singh 23CE10014",
     "noticeat": "24-06-2026 10:16",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "6410e604531c9708d28e1ba356f3322166601ce30ef28bf9ef1a4163b9661fd5",
     "has_download": false
    },
@@ -9895,9 +9906,9 @@
     "type": "INTERNSHIP",
     "subject": "Urgent",
     "company": "Travelling window for potentially eligible students for Internship 2026-27",
-    "notice": "All the students who will register for CDC internship process of 2026-27 may note:Travel window for the potentially eligible students for internship will be from 10th July to 12th July, 2026.\n\nAll the tests (if conducted) before the travel window time will be conducted online, that means students can write their tests / process from their respective locations.\n\nFrom 18th July 2026 onwards all the tests may be conducted at Nalanda and student must come to Nalanda to write the test / process, otherwise their candidature will be treated as null and void.\n\nCDC, IIT Kharagpur",
+    "notice": "All the students who will register for CDC internship process of 2026-27 may note:\n\nTravel window for the potentially eligible students for internship will be from 10th July to 12th July, 2026.\n\nAll the tests (if conducted) before the travel window time will be conducted online, that means students can write their tests / process from their respective locations.\n\nFrom 18th July 2026 onwards all the tests may be conducted at Nalanda and student must come to Nalanda to write the test / process, otherwise their candidature will be treated as null and void.\n\nCDC, IIT Kharagpur",
     "noticeat": "23-06-2026 15:32",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "ff98d464549f0664827035fc495c7798d791771475349ecbc5b9635ee3ee4d45",
     "has_download": false
    },
@@ -9906,9 +9917,9 @@
     "type": "INTERNSHIP",
     "subject": "Urgent",
     "company": "CV Building for Internship 2026-27",
-    "notice": "Opening of CV portal for CDC Internship registration _2026-27All the potential eligible students of compulsory Internship (who will go for internship 2027 summer) are advised to kindly note the followings:CV Portal in ERP for CV building (for Internship) is being started from today (22/06/2026) and will be open till 27th June 2026, 11.59 pma) You will be provided very short duration, so be alert and follow CDC notice board in ERP to have regular updates.b) By enrolling in the CDC Internship portal, you are also confirming that, you will go for compulsory internship in the year 2027 from May to Mid-July (as per academic schedule).c) Please pass this message to your fellow mates who will go for compulsory internship in the year 2027.d) Registration for Internship is must and \n\nCDC, IIT Kharagpur is requesting all the students to participate in internship activities with positive spirit.\n\nNote: For students who have applied for B.\n\nTech/ BS to Dual degree/ MS conversion will be given the access in due course of time to register in CDC portal.\n\nCDC, IIT Kharagpur",
+    "notice": "Opening of CV portal for CDC Internship registration _2026-27\n\nAll the potential eligible students of compulsory Internship (who will go for internship 2027 summer) are advised to kindly note the followings:\n\nCV Portal in ERP for CV building (for Internship) is being started from today (22/06/2026) and will be open till 27th June 2026, 11.59 pm\n\na) You will be provided very short duration, so be alert and follow CDC notice board in ERP to have regular updates.\n\nb) By enrolling in the CDC Internship portal, you are also confirming that, you will go for compulsory internship in the year 2027 from May to Mid-July (as per academic schedule).\n\nc) Please pass this message to your fellow mates who will go for compulsory internship in the year 2027.\n\nd) Registration for Internship is must and \n\nCDC, IIT Kharagpur is requesting all the students to participate in internship activities with positive spirit.\n\nNote: For students who have applied for B.\n\nTech/ BS to Dual degree/ MS conversion will be given the access in due course of time to register in CDC portal.\n\nCDC, IIT Kharagpur",
     "noticeat": "22-06-2026 18:30",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "51256003dd84b10bb2edf1120783afbd2edc5adc8f04d52699477c1a94d42d00",
     "has_download": false
    }
