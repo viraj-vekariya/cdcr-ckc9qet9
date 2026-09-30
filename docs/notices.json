@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-09-29T23:32:02Z",
+ "last_updated": "2026-09-30T00:32:20Z",
  "stats": {
   "placement": 135,
   "internship": 747,
@@ -7192,9 +7192,9 @@
     "type": "INTERNSHIP",
     "subject": "PPT/Workshop/Seminars etc",
     "company": "Peak XV Partners",
-    "notice": "The Pre-Placement Talk for Peak XV Partners has been rescheduled and will now be held on 24th July 2026 from 10:00 PM onwards.\n\nZoom Meeting \n\nLink: https://peakxv.zoom.us/j/98740637649?pwd=egKTHWW8al0EU15DWIrRQ4OOMnqfXJ.1&jst=2PPTMeeting ID: 98740637649Passcode: 748974\n\nNote: All interested and eligible students are required to attend the PPT without fail. Attendance is compulsory. Students are instructed to join 15 minutes before the scheduled time of the event.\n\nPOC : Deepak (+91 9024950269), Aditi (+91 8815395895)\n\nCDC, IIT Kharagpur",
+    "notice": "The Pre-Placement Talk for Peak XV Partners has been rescheduled and will now be held on 24th July 2026 from 10:00 PM onwards.\n\nZoom Meeting \n\nLink: https://peakxv.zoom.us/j/98740637649?pwd=egKTHWW8al0EU15DWIrRQ4OOMnqfXJ.1&jst=2PPT\nMeeting ID: 98740637649\nPasscode: 748974\n\nNote: All interested and eligible students are required to attend the PPT without fail. Attendance is compulsory. Students are instructed to join 15 minutes before the scheduled time of the event.\n\nPOC : Deepak (+91 9024950269), Aditi (+91 8815395895)\n\nCDC, IIT Kharagpur",
     "noticeat": "24-07-2026 10:10",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "b3f74317e0e2185a0bc0f4fd26eaadd10a2dbebd191977569347fc69413662d0",
     "has_download": false
    },
@@ -7203,9 +7203,9 @@
     "type": "INTERNSHIP",
     "subject": "Schedule",
     "company": "CDC Internship schedule for 24th July",
-    "notice": "1. [PPT] Texas Instruments (01:00 PM - 02:00 PM)Mode: Online\n\nPOC: Himanshu (9311332376)2.[PPT] Mastercard (05:00 PM - 06:00 PM)Mode: Online\n\nPOC: Rudra (8235755257)3.[TEST] JPMC (07:30 PM - 09:00 PM)Mode: Offline\n\nPOC: Hardik (8177018092), Aditya Ghosh (6295916930)4.[PPT] Peak XV (10:00 PM - 10:30 PM)Mode: Online \n\nPOC: Deepak (9024950269), Aditi(8815395895)5.[TEST] Rubrik (11:00 PM - 12:30 AM)Mode: Offline\n\nPOC: Ashutosh (8840104367), Neev (9001346350)6.[TEST] Corridor (25th July, 01:00 AM - 03:00 AM)Mode: Online \n\nPOC: Aditya Ghandge(9325468252)Anjali (7989613926)Note : The link for the PPT will be shared shortly. All interested candidates are required to attend the PPT. The test link, along with detailed instructions, will also be shared soon\n\nCDC, IIT Kharagpur",
+    "notice": "1. [PPT] Texas Instruments (01:00 PM - 02:00 PM)\nMode: Online\n\nPOC: Himanshu (9311332376)\n\n2.[PPT] Mastercard (05:00 PM - 06:00 PM)\nMode: Online\n\nPOC: Rudra (8235755257)\n\n3.[TEST] JPMC (07:30 PM - 09:00 PM)\nMode: Offline\n\nPOC: Hardik (8177018092), Aditya Ghosh (6295916930)\n\n4.[PPT] Peak XV (10:00 PM - 10:30 PM)\nMode: Online\n\nPOC: Deepak (9024950269), Aditi(8815395895)\n\n5.[TEST] Rubrik (11:00 PM - 12:30 AM)\nMode: Offline\n\nPOC: Ashutosh (8840104367), Neev (9001346350)\n\n6.[TEST] Corridor (25th July, 01:00 AM - 03:00 AM)\nMode: Online\n\nPOC: Aditya Ghandge(9325468252)\nAnjali (7989613926)\n\nNote : The link for the PPT will be shared shortly. All interested candidates are required to attend the PPT. The test link, along with detailed instructions, will also be shared soon\n\nCDC, IIT Kharagpur",
     "noticeat": "24-07-2026 02:16",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "c464d52b8c63a73266c6fc906c39769d8c195399a24772551084b3cbac0a32a4",
     "has_download": false
    },
@@ -7216,7 +7216,7 @@
     "company": "Rubrik",
     "notice": "The CV submission of Rubrik for all the roles has been extended till 10:00 AM, 24th July 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "23-07-2026 23:01",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "9af5a565ccf338c67b9b5ecf16ba0284a82a429ad0102017dbe9ae8fbdd03be6",
     "has_download": false
    },
@@ -7227,7 +7227,7 @@
     "company": "JPMC",
     "notice": "PFA the room allocation of shortlisted students who have applied for the roles of MRGR / QTR and D&AI, for the test of JPMC.\n\nPOC: Faiz (7386295387), Nikhita (8770035884)\n\nCDC, IIT Kharagpur",
     "noticeat": "23-07-2026 17:41",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "5b3620d6cfd5a76ce13516523fd5cbd9ca3d31c6d13e3beb827423bc71832dcd",
     "has_download": true,
     "file": "files/253.pdf"
@@ -7239,7 +7239,7 @@
     "company": "JPMC",
     "notice": "PFA the shortlisted students who have applied for the roles of MRGR / QTR and D&AI, for the test of JPMC.\n\nPOC: Faiz (7386295387), Nikhita (8770035884)\n\nCDC, IIT Kharagpur",
     "noticeat": "23-07-2026 17:32",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "2d51745b819b648574e3a8e2351b744a30514d17c280b6db2e5ef755c978cd67",
     "has_download": true,
     "file": "files/252.pdf"
@@ -7249,9 +7249,9 @@
     "type": "INTERNSHIP",
     "subject": "Urgent",
     "company": "MORGAN STANLEY",
-    "notice": "PFA the shortlist and room allocation for test of MORGAN STANLEY.\n\nThe test is scheduled on 23rd July 2026 from 10:00 PM onwards.\n\nStudents are required to carry their Institute ID card/Medical Book and are advised to reach the venue 15 minutes prior to the time. The test link and instructions have been shared to their CDC Registered Email ID.\n\nPOC: Deepak (+91 90249 50269) and Himanshu (+91 93113 32376)\n\nNote: Please carry your laptops, pens, and papers.\n\nCDC,IITKharagpur",
+    "notice": "PFA the shortlist and room allocation for test of MORGAN STANLEY.\n\nThe test is scheduled on 23rd July 2026 from 10:00 PM onwards.\n\nStudents are required to carry their Institute ID card/Medical Book and are advised to reach the venue 15 minutes prior to the time. The test link and instructions have been shared to their CDC Registered Email ID.\n\nPOC: Deepak (+91 90249 50269) and Himanshu (+91 93113 32376)\n\nNote: Please carry your laptops, pens, and papers.\n\nCDC, IIT Kharagpur",
     "noticeat": "23-07-2026 17:27",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "db0fe80098fe5b1ac173fe1470b5fb60d58d76292f6ff4bb1dcfc108ddb80d9d",
     "has_download": true,
     "file": "files/251.pdf"
@@ -7263,7 +7263,7 @@
     "company": "ALPHAGREP SECURITIES",
     "notice": "The CV submission of ALPHAGREP SECURITIES for all the roles has been extended till 4:00 PM, 24th July 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "23-07-2026 15:44",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "27b409d824bb6e609a77f6898c2a348afe8bc0ec4e35660b0c66827aba6c4e74",
     "has_download": false
    },
@@ -7274,7 +7274,7 @@
     "company": "GLEAN SEARCH TECHNOLOGIES",
     "notice": "The CV submission of GLEAN SEARCH TECHNOLOGIES for all the roles has been extended till 4:00 PM, 24th July 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "23-07-2026 15:43",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "c04a5ce2548d0606b7cc7432840fcadb7e4ebdd8716950b99eea0f2b56ec4e25",
     "has_download": false
    },
@@ -7285,7 +7285,7 @@
     "company": "HINDUSTAN UNILEVER LIMITED",
     "notice": "The CV submission of HINDUSTAN UNILEVER LIMITED for all the roles has been extended till 11:59 PM, 23rd July 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nStudents are also required to fill the following preference form by 11:59PM, 23rd July, 2026.\n\nPreference Form: https://forms.gle/FQMMrNCtYeS3moPo8\n\nCDC, IIT Kharagpur",
     "noticeat": "23-07-2026 15:43",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "eddc6864fbce4a1cba306ca7201f2dbda4f0826cd43e5c8ea9329841ce82e835",
     "has_download": false
    },
@@ -7296,7 +7296,7 @@
     "company": "FinMechanics",
     "notice": "The CV submission of FinMechanics has been opened till 4:00 PM, 24th July 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "23-07-2026 15:42",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "cc75e8343fb05bb1670283afd1ff1235963d6865246230dd32d988baf5d545b1",
     "has_download": false
    },
@@ -7307,7 +7307,7 @@
     "company": "CAPITAL ONE",
     "notice": "The CV submission of Capital One has been opened till 11:59 AM, 24th July 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "23-07-2026 12:42",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "5f9181aa1af2cae93adde4aad15de8d3bf6d2637261912adebeb5413d6bce1b7",
     "has_download": false
    },
@@ -7318,7 +7318,7 @@
     "company": "IRAGE",
     "notice": "The CV submission of IRAGE for all the roles has been opened till 6:00 PM, 23rd July 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "23-07-2026 12:03",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "cc7e5fef07619a78959482788c5168223bb3c7d0f773744ba123ae03c24dc795",
     "has_download": false
    },
@@ -7329,7 +7329,7 @@
     "company": "CAPITAL ONE",
     "notice": "The Pre-Placement Talk for Capital One has been rescheduled and will now be held on 23rd July 2026 from 12:00 PM onwards.\n\nMeeting \n\nLink: https://capitalone.zoom.us/j/93929494450?pwd=qhsCUQrN07md6PV8br0tqfx6d58kBO.1&jst=2\n\nNote: All interested and eligible students are required to attend the PPT without fail. Students are instructed to join 15 minutes before the scheduled time of the event.\n\nPOC: Bhavy (+91 7597121669)\n\nCDC, IIT Kharagpur",
     "noticeat": "23-07-2026 10:52",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "79ac2adf9c0a58cf0226a01fdfb3580f10f78b415d592ff2daae425edc54f23c",
     "has_download": false
    },
@@ -7338,9 +7338,9 @@
     "type": "INTERNSHIP",
     "subject": "Shortlist",
     "company": "NOMURA",
-    "notice": "PFB the extended shortlist for the Global Markets role of Nomura.24ME10152\n24HS10016\n\nCDC, IIT Kharagpur",
+    "notice": "PFB the extended shortlist for the Global Markets role of Nomura.\n\n24ME10152\n24HS10016\n\nCDC, IIT Kharagpur",
     "noticeat": "23-07-2026 09:24",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "d65e65cc4499eeeedd211f5877e58836407cf459fb5802e83d6e328d89ff83af",
     "has_download": false
    },
@@ -7351,7 +7351,7 @@
     "company": "PIRAMAL FINANCE",
     "notice": "The CV submission of PIRAMAL FINANCE has been extended till 5:00 PM, 23rd July 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "23-07-2026 08:39",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "53b2aa31ab3e22b8c64941245f0cc5ccdb97e0e3ec6a31cb0c14019ce3c6cc56",
     "has_download": false
    },
@@ -7360,9 +7360,9 @@
     "type": "INTERNSHIP",
     "subject": "PPT/Workshop/Seminars etc",
     "company": "BlackRock",
-    "notice": "The Pre-Placement Talk for BlackRock has been scheduled on 23rd July 2026 (today) from 12:00 PM onwards.\n\nLink: https://blackrock.webex.com/blackrock/j.php?MTID=md878efbfba52129a8147098876e67a0aMeeting ID: 2315 889 8000Password: BBmpsQY2?23 (22677792 when dialing from a phone)\n\nNote: All interested and eligible students are required to attend the PPT without fail. Attendance is compulsory. Students are instructed to join 15 minutes before the scheduled time of the event.\n\nPOC : Aditya Ghosh (+91 6295 916 930)\n\nCDC, IIT Kharagpur",
+    "notice": "The Pre-Placement Talk for BlackRock has been scheduled on 23rd July 2026 (today) from 12:00 PM onwards.\n\nLink: https://blackrock.webex.com/blackrock/j.php?MTID=md878efbfba52129a8147098876e67a0a\n\nMeeting ID: 2315 889 8000\nPassword: BBmpsQY2?23 (22677792 when dialing from a phone)\n\nNote: All interested and eligible students are required to attend the PPT without fail. Attendance is compulsory. Students are instructed to join 15 minutes before the scheduled time of the event.\n\nPOC : Aditya Ghosh (+91 6295 916 930)\n\nCDC, IIT Kharagpur",
     "noticeat": "23-07-2026 07:46",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "c934abf59fef525a470bbc860289b6558031caf1bbd354ba8edaca1d658ba965",
     "has_download": false
    },
@@ -7371,9 +7371,9 @@
     "type": "INTERNSHIP",
     "subject": "Schedule",
     "company": "CDC Internship schedule for 23rd July",
-    "notice": "1. [PPT] BlackRock (12:00 PM - 01:00 PM)Mode: Online\n\nPOC: Aditya Ghosh (6295916930)2. [PPT] Capital One (01:00 PM - 02:00 PM)Mode: Online\n\nPOC: Bhavy (7597121669)3. [TEST] JPMC (06:00 PM - 09:30 PM)Mode: Offline\n\nPOC: Nikhita Singh (8770035884), Faiz (7386295387)4. [TEST] Morgan Stanley (10:00 PM - 01:00 AM)Mode: Offline\n\nPOC: Deepak (9024950269), Himanshu (9311332376)Note : The link for the PPT will be shared shortly. All interested candidates are required to attend the PPT. The test link, along with detailed instructions, will also be shared soon\n\nCDC, IIT Kharagpur",
+    "notice": "1. [PPT] BlackRock (12:00 PM - 01:00 PM)\nMode: Online\n\nPOC: Aditya Ghosh (6295916930)\n\n2. [PPT] Capital One (01:00 PM - 02:00 PM)\nMode: Online\n\nPOC: Bhavy (7597121669)\n\n3. [TEST] JPMC (06:00 PM - 09:30 PM)\nMode: Offline\n\nPOC: Nikhita Singh (8770035884), Faiz (7386295387)\n\n4. [TEST] Morgan Stanley (10:00 PM - 01:00 AM)\nMode: Offline\n\nPOC: Deepak (9024950269), Himanshu (9311332376)\n\nNote : The link for the PPT will be shared shortly. All interested candidates are required to attend the PPT. The test link, along with detailed instructions, will also be shared soon\n\nCDC, IIT Kharagpur",
     "noticeat": "23-07-2026 02:14",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "5d95f24b1af2cf58b0696a7bbbaf4bca359bf157d8e1ebebaed9962da7faea64",
     "has_download": false
    },
@@ -7384,7 +7384,7 @@
     "company": "UIPATH",
     "notice": "The CV submission of UIPATH has been extended till 10:59 AM, 23rd July 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "22-07-2026 23:01",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "8aec4d4eaae57137fe95b6c00ae92e8046eedb521c3d5ce7a493a778d8868678",
     "has_download": false
    },
@@ -7395,7 +7395,7 @@
     "company": "PIRAMAL PHARMA",
     "notice": "The CV submission of PIRAMAL PHARMA for all the roles has been opened till 5:00 PM, 23rd July 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "22-07-2026 23:01",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "52e2a09e0a53b8d75d3f0a68674f8c2de69afbc5361c811abe7750af0b11d4dd",
     "has_download": false
    },
@@ -7404,9 +7404,9 @@
     "type": "INTERNSHIP",
     "subject": "CV Submission",
     "company": "SALESFORCE",
-    "notice": "Source: Invited by Salesforce; B.\n\nTech/B.\n\nS/B.\n\nArch: Select BS, Dual Degree: Select MSInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur' href='javascript:void(0);' onclick='ViewNotice(\"2026-2027\",\"236\");'>The CV submission of SALESFORCE for the AMTS role has been opened till 11:59 PM, 23rd July 2026.\n\nStudents are also required to to apply on the following portal: https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Bangalore/Summer-2027-Intern---Software-Engineer_JR337715\n\nNote: For Job application-> Source: Invited by Salesforce; B.\n\nTech/B.\n\nS/B.\n\nArch: Select BS, Dual Degree: Select MSInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "notice": "The CV submission of SALESFORCE for the AMTS role has been opened till 11:59 PM, 23rd July 2026.\n\nStudents are also required to to apply on the following portal: https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Bangalore/Summer-2027-Intern---Software-Engineer_JR337715\n\nNote: For Job application-> Source: Invited by Salesforce; B.\n\nTech/B.\n\nS/B.\n\nArch: Select BS, Dual Degree: Select MS\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "22-07-2026 23:00",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "ae061ad86fa3657aa434091c04e8e44a7b495c1601594dc09b282dccc1624f34",
     "has_download": false
    },
@@ -7417,7 +7417,7 @@
     "company": "HINDUSTAN UNILEVER UNITED",
     "notice": "Interested and eligible students are advised to fill the following Preference Form for HINDUSTAN UNILEVER UNITED by 4:00 PM, 23rd July, 2026. No further extensions will be given.\n\nPreference Form: https://forms.gle/FQMMrNCtYeS3moPo8\n\nCDC, IIT Kharagpur",
     "noticeat": "22-07-2026 16:35",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "1f5dc95994c759ac6853451e63bf25c0eea5c07b7d6c39dd3804ad15b70d97ea",
     "has_download": false
    },
@@ -7426,9 +7426,9 @@
     "type": "INTERNSHIP",
     "subject": "CV Submission",
     "company": "QiCAP",
-    "notice": "The CV submission of QiCAP Investments Private Limited has been extended till 10:00 AM, 23rd July 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nNote: 1) Only the students applying for tech role are required to fill the Google form attached below.2) Only CDC registered mail ID is to be used wherever required.\n\nLink: https://forms.gle/NJ3922tPvk1gqp9E6CGPA criterion : 8.0\n\nCDC, IIT Kharagpur",
+    "notice": "The CV submission of QiCAP Investments Private Limited has been extended till 10:00 AM, 23rd July 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nNote:\n1) Only the students applying for tech role are required to fill the Google form attached below.\n2) Only CDC registered mail ID is to be used wherever required.\n\nLink: https://forms.gle/NJ3922tPvk1gqp9E6\n\nCGPA criterion : 8.0\n\nCDC, IIT Kharagpur",
     "noticeat": "22-07-2026 15:44",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "b2c298495a7e25dd1050503d3f9f786520df34d26a8de543dd3c6bddd6532ca1",
     "has_download": false
    },
@@ -7439,7 +7439,7 @@
     "company": "WELLS FARGO",
     "notice": "The CV submission for the WELLS FARGO Quantitative Analytics Program (QAP) Intern role is extended until 10:00 AM, 23rd July 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be provided.\n\nNote: It is mandatory for students to register on the company portal using their Institute Email ID before 10:00 AM, 23rd July 2026. DO NOT withdraw your application under any circumstances. Once an application is withdrawn, you will not be able to re-apply. Your name must be entered exactly as it appears on your PAN card, in the same order.\n\nLink: https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Bengaluru-India/XMLNAME-2027-Quantitative-Analytics-Program-Intern_R-558426\n\nCDC, IIT Kharagpur",
     "noticeat": "22-07-2026 15:36",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "cba7a86c8eb34ee2f2b7acee7b741ab18093c1cd08a7c9dad32ecaa8733bc8f7",
     "has_download": false
    },
@@ -7450,7 +7450,7 @@
     "company": "PIRAMAL FINANCE",
     "notice": "The CV submission of PIRAMAL FINANCE for all the roles has been opened till 11:59 PM, 22nd July 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "22-07-2026 15:15",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "89c3dab0d27ddc1e942f4d6a3a207a6ecc9ca6087012f719f69be0a313e03aca",
     "has_download": false
    },
@@ -7461,7 +7461,7 @@
     "company": "ALPHAGREP SECURITIES",
     "notice": "The CV submission of ALPHAGREP SECURITIES for all the roles has been opened till 4:00 PM, 23rd July 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCGPA Criterion: 8.0\n\nCDC, IIT Kharagpur",
     "noticeat": "22-07-2026 15:13",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "f2b6ce1316c5833a97a15cddaf1c0573c9b97b0a6eb511ec08290495c2381939",
     "has_download": false
    },
@@ -7472,7 +7472,7 @@
     "company": "GLEAN SEARCH TECHNOLOGIES",
     "notice": "The CV submission of GLEAN SEARCH TECHNOLOGIES for all the roles has been extended till 4:00 PM, 23rd July 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCGPA Criterion: 8.0\n\nCDC, IIT Kharagpur",
     "noticeat": "22-07-2026 15:09",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "ed2dff4bc9363e866ab1ba6daef0878c511b8330b7e0a2498487f6876cdcb378",
     "has_download": false
    },
@@ -7483,7 +7483,7 @@
     "company": "HINDUSTAN UNILEVER LIMITED",
     "notice": "The CV submission of HINDUSTAN UNILEVER LIMITED for all the roles has been extended till 4:00 PM, 23rd July 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "22-07-2026 15:08",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "e372761ce41810601e472f75939e0cfdeb63144ffcd3681255a6a296c334e788",
     "has_download": false
    },
@@ -7494,7 +7494,7 @@
     "company": "Rubrik",
     "notice": "The CV submission of Rubrik for all the roles has been opened till 4:00 PM, 23rd July 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "22-07-2026 15:06",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "60cfd3f83bdbe77ee2bc229378e26fd6d3de35078246c51655107170383f0b27",
     "has_download": false
    },
@@ -7505,7 +7505,7 @@
     "company": "TREXQUANT",
     "notice": "The deadline for the TREXQUANT Challenge has been extended till 25th July, 2026.\n\nNote: The use of AI tools is permitted; however, if plagiarism is identified between any two submissions, both participants will be disqualified.\n\nCDC, IIT Kharagpur",
     "noticeat": "22-07-2026 12:04",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "ea7a26b8be1aaff407d3a91ff90d055b6bf58e7a82a791fba35446821688b43f",
     "has_download": false
    },
@@ -7516,7 +7516,7 @@
     "company": "QUANTBOX RESEARCH",
     "notice": "All students eligible are informed that job details for Quantbox Research has been revised for both roles.\n\nCDC, IIT Kharagpur",
     "noticeat": "22-07-2026 11:16",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "ceab71ff0534634f06512491eb2817de0208ce07c99be2b1c8330ea31227f6ac",
     "has_download": false
    },
@@ -7527,7 +7527,7 @@
     "company": "WELLS FARGO",
     "notice": "The Pre-Placement Talk for WELLS FARGO has been rescheduled and will now be held on 22nd July 2026 from 1:00 PM to 2:00 PM\n\nLink: https://teams.microsoft.com/meet/2747601325944?p=0WiLLsu8RvQ0Hfxm9J\n\nNote: All interested and eligible students are required to attend the PPT without fail. Attendance is compulsory. Students are instructed to join 15 minutes before the scheduled time of the event.\n\nPOC : Vatsal Gutgutia (+91 9234457393)\n\nCDC, IIT Kharagpur",
     "noticeat": "22-07-2026 09:41",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "409d228d23bb737d01b92eaf2daf054d2c36b1cc7a3602349f0c9ff9087c7390",
     "has_download": false
    },
@@ -7538,7 +7538,7 @@
     "company": "N K Securities",
     "notice": "All eligible students are hereby informed that job details for N K Securities has been revised.\n\nCDC, IIT Kharagpur",
     "noticeat": "22-07-2026 02:59",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "0ade8c9e27ccf33347afd62c73963035e409818062f4a0ed8bdc5f144f585fbd",
     "has_download": false
    },
@@ -7549,7 +7549,7 @@
     "company": "TOWER RESEARCH CAPITAL",
     "notice": "PFA the room allocation of shortlisted students who have applied for the core role, for the test of Tower Research Capital.\n\nPOC: Rudra (+91 8235755257), Dishil (+91 9925492574)\n\nCDC, IIT Kharagpur",
     "noticeat": "21-07-2026 18:11",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "a8987c6ff5a8c9ebeb676f0f460a0d9f426b1357c5b227049aef8cb85920900e",
     "has_download": true,
     "file": "files/221.pdf"
@@ -7561,7 +7561,7 @@
     "company": "AMERICAN EXPRESS",
     "notice": "PFA the shortlist for the Data Science & Analytics and Advanced Analytics Role.\n\nPlease \n\nNote: The test is only for the Data Science and Analytics role.",
     "noticeat": "21-07-2026 17:45",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "074860845d73682bc4f49e016a287d6ac60ec5b6f19fe1c85265c4b4d1189574",
     "has_download": true,
     "file": "files/220.pdf"
@@ -7571,9 +7571,9 @@
     "type": "INTERNSHIP",
     "subject": "CV Submission",
     "company": "QiCAP",
-    "notice": "The CV submission of QiCAP Investments Private Limited has been opened till 5:00 PM, 22nd July 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nNote:1) It is mandatory for students to register before 5:00 PM, 22nd July 2026. 2) Only the students applying for tech role are required to fill the Google form attached below.3) Only CDC registered mail ID is to be used wherever required.\n\nLink: https://forms.gle/NJ3922tPvk1gqp9E6\n\nCDC, IIT Kharagpur",
+    "notice": "The CV submission of QiCAP Investments Private Limited has been opened till 5:00 PM, 22nd July 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nNote:\n1) It is mandatory for students to register before 5:00 PM, 22nd July 2026.\n2) Only the students applying for tech role are required to fill the Google form attached below.\n3) Only CDC registered mail ID is to be used wherever required.\n\nLink: https://forms.gle/NJ3922tPvk1gqp9E6\n\nCDC, IIT Kharagpur",
     "noticeat": "21-07-2026 17:03",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "1d9729e3b8de784172c49b6e283157481cf9ca686ab0f1331cbe2c0d497a30b9",
     "has_download": false
    },
@@ -7584,7 +7584,7 @@
     "company": "GLEAN SEARCH TECHNOLOGIES",
     "notice": "The CV submission of GLEAN SEARCH TECHNOLOGIES for all the roles has been opened till 4:00 PM, 22nd July 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "21-07-2026 17:03",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "d9d69ff453cfe757486c02cc80958f7527027d696a029f4bf4091dc8a6923720",
     "has_download": false
    },
@@ -7595,7 +7595,7 @@
     "company": "UIPATH",
     "notice": "The CV submission of UiPath has been opened till 11:59 PM, 22nd July 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "21-07-2026 17:02",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "8abea71fd7abfcac86d1fc27f21e0b0d06cb5e5998a4edf4bfac8ae82c6e0794",
     "has_download": false
    },
@@ -7606,7 +7606,7 @@
     "company": "HINDUSTAN UNILEVER LIMITED",
     "notice": "The CV submission of HINDUSTAN UNILEVER LIMITED for all the roles has been opened till 4:00 PM, 22nd July 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "21-07-2026 17:02",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "3c6ff86b3622e91a50c7c6cc93e6f02cf5342376cb272a7f327d6c98180b0cc4",
     "has_download": false
    },
@@ -7617,7 +7617,7 @@
     "company": "TOWER RESEARCH CAPITAL",
     "notice": "Please Note that the assessment of TOWER RESEARCH CAPITAL is scheduled on 21st July, 2026 from 8:30 PM at Nalanda Classroom Complex.\n\nThe test link and instructions will be sent to all the shortlisted students through their CDC Registered Email ID.\n\nStudents are required to carry their original Institute ID card/Medical Book, failing which students will not be permitted to sit for test.\n\nStudents are also advised to reach the venue 15 minutes prior to the time.\n\nPlease carry your laptops, pens, and papers.\n\nThe room allotment for the same will be released shortly.\n\nPOC: Rudra (+91 8235755257), Dishil (+91 9925492574)\n\nCDC, IIT Kharagpur",
     "noticeat": "21-07-2026 16:52",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "3c81b0d475ed68b91a45db5480ff1218b36ddf6b55924543e1cd7c64d0b385de",
     "has_download": false
    },
@@ -7628,7 +7628,7 @@
     "company": "WELLS FARGO",
     "notice": "The CV submission for the WELLS FARGO Quantitative Analytics Program (QAP) Intern role is open until 4:00 PM, 22nd July 2027.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be provided.\n\nNote: It is mandatory for students to register on the company portal using their Institute Email ID before 4:00 PM, 22nd July 2027. DO NOT withdraw your application under any circumstances. Once an application is withdrawn, you will not be able to re-apply. Your name must be entered exactly as it appears on your PAN card, in the same order.\n\nCGPA criterion : 7.5\n\nLink: https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Bengaluru-India/XMLNAME-2027-Quantitative-Analytics-Program-Intern_R-558426\n\nCDC, IIT Kharagpur",
     "noticeat": "21-07-2026 15:10",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "648c7a4cad4a5147a96bc8b1816380ca76f989d03b3614cbd06d11f2b3b07fae",
     "has_download": false
    },
