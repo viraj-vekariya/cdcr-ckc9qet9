@@ -1,8 +1,8 @@
 {
- "last_updated": "2026-09-30T07:24:05Z",
+ "last_updated": "2026-09-30T12:10:32Z",
  "stats": {
   "placement": 135,
-  "internship": 748,
+  "internship": 750,
   "with_files": 167,
   "listed_downloads": 170
  },
@@ -1499,6 +1499,28 @@
    }
   ],
   "internship": [
+   {
+    "id": "948",
+    "type": "INTERNSHIP",
+    "subject": "CV Submission",
+    "company": "MOTILAL OSWAL FINANCIAL SERVICES LIMITED",
+    "notice": "The CV submission of MOTILAL OSWAL FINANCIAL SERVICES LIMITED for the role of Management Trainee has been extended till 11:59 AM, 1st October 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "30-09-2026 16:41",
+    "text_source": "full_notice",
+    "source_hash": "86e12612304ba31890072b0253640eaa096fdcb61a010f311991669e69fdf785",
+    "has_download": false
+   },
+   {
+    "id": "947",
+    "type": "INTERNSHIP",
+    "subject": "CV Submission",
+    "company": "Tech Mahindra",
+    "notice": "The CV submission of Tech Mahindra has been opened till 11:59 PM, 2nd October 2026.\n\nInterested and eligible students are advised to apply within the given deadline.\n\nCDC, IIT Kharagpur",
+    "noticeat": "30-09-2026 16:39",
+    "text_source": "full_notice",
+    "source_hash": "f935ddd4847a275514120c8d3dffd1c09fc7d738e24ee7d18fb455cb40508e1b",
+    "has_download": false
+   },
    {
     "id": "946",
     "type": "INTERNSHIP",
@@ -9421,9 +9443,9 @@
     "type": "INTERNSHIP",
     "subject": "PPT/Workshop/Seminars etc",
     "company": "Stripe",
-    "notice": "Please note that the Pre-Placement Talk for Stripe will be held on 8th July 2026 from 2:00 PM onwards.\n\nRegistration \n\nLink: https://www.gem.com/form?formID=cbece1c3-2c6b-46ca-8d3a-029e33247da3\n\nAll the students registered for internships are supposed to attend the PPT without fail. Attendance is compulsory. Students must fill this form by 8pm, 7th July.\n\nPOC : Himanshu Bisht(+91 9311332376)CDC,IITKharagpur",
+    "notice": "Please note that the Pre-Placement Talk for Stripe will be held on 8th July 2026 from 2:00 PM onwards.\n\nRegistration \n\nLink: https://www.gem.com/form?formID=cbece1c3-2c6b-46ca-8d3a-029e33247da3\n\nAll the students registered for internships are supposed to attend the PPT without fail. Attendance is compulsory. Students must fill this form by 8pm, 7th July.\n\nPOC : Himanshu Bisht(+91 9311332376)\n\nCDC, IIT Kharagpur",
     "noticeat": "07-07-2026 12:03",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "539acbe4291c310ab3020b6fde0b84c4f6f24b7e6a43bb213a7f5749ecd4ad05",
     "has_download": false
    },
@@ -9434,7 +9456,7 @@
     "company": "Ebullient Securities (Tradewalk Broking Pvt Ltd )&#8232;",
     "notice": "The CV submission of EBULLIENT SECURITIES has been opened till 11:59 PM, 7th July 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "06-07-2026 22:35",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "882563c301354ff9d6dd32d84da29fa89f35b821658db079cb6e3f46b626b2b1",
     "has_download": false
    },
@@ -9445,7 +9467,7 @@
     "company": "BOSTON CONSULTING GROUP (BCG)",
     "notice": "The CV submission of BOSTON CONSULTING GROUP (BCG) has been extended till 11:59 AM, 7th July 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nNote: Eligible students are also required to register on the company portal till 11:59 AM, 7th July 2026.\n\nRegistration Link : https://www.113.vovici.net/se/13B2588B25872D03\n\nCDC, IIT Kharagpur",
     "noticeat": "06-07-2026 19:02",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "f3492579d80060080375db27c5872802a5f8bde1a38390654daa4c288cc0f214",
     "has_download": false
    },
@@ -9454,9 +9476,9 @@
     "type": "INTERNSHIP",
     "subject": "PPT/Workshop/Seminars etc",
     "company": "Dynamic Technology Labs",
-    "notice": "Please note that the Pre-Placement Talk for Dynamic Technology Labs (DTL) will be held on 7th July 2026 from 2:00 PM onwards.\n\nLink: https://us02web.zoom.us/j/86711322326\n\nAll the students registered for internships are supposed to attend the PPT without fail. Attendance is compulsory. Students must join the link 15 minutes prior to the scheduled time.\n\nPOC : Himanshu Bisht (+91 9311332376)CDC,IITKharagpur",
+    "notice": "Please note that the Pre-Placement Talk for Dynamic Technology Labs (DTL) will be held on 7th July 2026 from 2:00 PM onwards.\n\nLink: https://us02web.zoom.us/j/86711322326\n\nAll the students registered for internships are supposed to attend the PPT without fail. Attendance is compulsory. Students must join the link 15 minutes prior to the scheduled time.\n\nPOC : Himanshu Bisht (+91 9311332376)\n\nCDC, IIT Kharagpur",
     "noticeat": "06-07-2026 17:00",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "211b0f1283bb2b6aff618955f5b3117095b0fb0fe8f3809c60232b89fa0aaf0a",
     "has_download": false
    },
@@ -9465,9 +9487,9 @@
     "type": "INTERNSHIP",
     "subject": "PPT/Workshop/Seminars etc",
     "company": "D. E. Shaw India",
-    "notice": "Please note that the Pre-Placement Talk for D. E. Shaw India will be held on 7th July 2026 from 4:00 PM onwards.\n\nLink: https://deshaw.webex.com/deshaw/j.php?MTID=m42d0e0ed071ec2549660a0fb00f64257\n\nWebinar number:2349 410 8822Webinar password:1011728 (1011728 when dialing from a phone or video system)Access code: 234 941 08822Students are requested to access the link for posting questions during the session:\n\nLink: https://app.sli.do/event/vG5UQTN2L2raAVtMB8iMRaCode: 1278266All the students registered for internships are supposed to attend the PPT without fail. Attendance is compulsory. Students must join the link 15 minutes prior to the scheduled time.\n\nPOC : Deepak Tekchandani (+91 9024950269)CDC,IITKharagpur",
+    "notice": "Please note that the Pre-Placement Talk for D. E. Shaw India will be held on 7th July 2026 from 4:00 PM onwards.\n\nLink: https://deshaw.webex.com/deshaw/j.php?MTID=m42d0e0ed071ec2549660a0fb00f64257\n\nWebinar number:\n2349 410 8822\n\nWebinar password:\n1011728 (1011728 when dialing from a phone or video system)\n\nAccess code: 234 941 08822\n\nStudents are requested to access the link for posting questions during the session:\n\nLink: https://app.sli.do/event/vG5UQTN2L2raAVtMB8iMRa\nCode: 1278266\n\nAll the students registered for internships are supposed to attend the PPT without fail. Attendance is compulsory. Students must join the link 15 minutes prior to the scheduled time.\n\nPOC : Deepak Tekchandani (+91 9024950269)\n\nCDC, IIT Kharagpur",
     "noticeat": "06-07-2026 16:55",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "f72e9f75ea853d85cb86e8bfe690a632151858d663ae3d778c95d3223174ad0a",
     "has_download": false
    },
@@ -9476,9 +9498,9 @@
     "type": "INTERNSHIP",
     "subject": "PPT/Workshop/Seminars etc",
     "company": "AUXIA",
-    "notice": "Please note that the Pre-Placement Talk for Auxia will be held on 7th July 2026 from 12:00 PM onwards.\n\nLink: https://meet.google.com/kbb-bgse-sxt\n\nAll the students registered for internships are supposed to attend the PPT without fail. Attendance is compulsory. Students must join the link 15 minutes prior to the scheduled time.\n\nPOC : Rudra Pratap (+91 8235755257)CDC,IITKharagpur",
+    "notice": "Please note that the Pre-Placement Talk for Auxia will be held on 7th July 2026 from 12:00 PM onwards.\n\nLink: https://meet.google.com/kbb-bgse-sxt\n\nAll the students registered for internships are supposed to attend the PPT without fail. Attendance is compulsory. Students must join the link 15 minutes prior to the scheduled time.\n\nPOC : Rudra Pratap (+91 8235755257)\n\nCDC, IIT Kharagpur",
     "noticeat": "06-07-2026 16:54",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "f427aec85fc3fa1563e2ae376d7fdccc017271e54bd1cba6547f0b2d181424d8",
     "has_download": false
    },
@@ -9489,7 +9511,7 @@
     "company": "TREXQUANT (INDIA) BUSINESS CONSULTING LLP",
     "notice": "The CV submission of TREXQUANT (INDIA) BUSINESS CONSULTING LLP has been opened till 3 PM, 7th July 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "06-07-2026 16:11",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "e81cb60b382eebc65264defbdd8d56f01450d09102cf18648471ad2d1a80be80",
     "has_download": false
    },
@@ -9500,7 +9522,7 @@
     "company": "MICROSOFT",
     "notice": "The CV submission of MICROSOFT has been opened till 3 pm, 7th July 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nNote: Eligible students are also required to register on the company portal till 3 PM, 7th July 2026.\n\nRegistration Link : https://apply.careers.microsoft.com/careers/job/1970393556911730\n\nCDC, IIT Kharagpur",
     "noticeat": "06-07-2026 16:09",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "9d83423832312752cbd0c438b1050892495172f8efab906c937b7e5841feffed",
     "has_download": false
    },
@@ -9509,9 +9531,9 @@
     "type": "INTERNSHIP",
     "subject": "Urgent",
     "company": "CV Building for Internship 2026-27",
-    "notice": "All the potential eligible internship students who will go for compulsory internship in the summer of 2027 are advised to kindly note the following:CV Portal in ERP for CV building / CV editing (for Internship) has been extended and will remain open till 6th July, 2026, 11:59 PM.\n\nNo further extension will be provided so all are requested to complete the process within the stipulated time.\n\nCDC, IIT Kharagpur",
+    "notice": "All the potential eligible internship students who will go for compulsory internship in the summer of 2027 are advised to kindly note the following:\n\nCV Portal in ERP for CV building / CV editing (for Internship) has been extended and will remain open till 6th July, 2026, 11:59 PM.\n\nNo further extension will be provided so all are requested to complete the process within the stipulated time.\n\nCDC, IIT Kharagpur",
     "noticeat": "06-07-2026 12:09",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "3d88f83e6a05d47211508549394b8cc3b68065767253c389f21474a64feb46e1",
     "has_download": false
    },
@@ -9520,9 +9542,9 @@
     "type": "INTERNSHIP",
     "subject": "Urgent",
     "company": "BAIN & COMPANY",
-    "notice": "The assessment of BAIN & COMPANY for the role of Associate Consultant Intern (ACI) is scheduled for today, Monday, 6th July 2026, from 8:00 PM to 10:00 PM.\n\nAssessment Details: Platform: TestGorilla \n\nDate: Monday, 6th July 2026 Test Window: 8:00 PM 10:00 PM Duration: 3035 minutes Mode: Online (Recommended: Desktop/laptop using Google Chrome)Important Instructions: The test link will be triggered to your registered email ID. You will receive a separate email from assessments@testgorilla.com with your unique assessment link by 6th July, 7:00 PM. If you do not receive it by the stipulated time, please check your spam folder. Pen, paper, and a calculator are permitted; AI tools and other external aids are strictly prohibited.\n\nPOC: Nikhita (+91 8770035884) , Dishil (+91 9925492574)\n\nCDC, IIT Kharagpur",
+    "notice": "The assessment of BAIN & COMPANY for the role of Associate Consultant Intern (ACI) is scheduled for today, Monday, 6th July 2026, from 8:00 PM to 10:00 PM.\n\nAssessment Details:\n\nPlatform: TestGorilla\n\nDate: Monday, 6th July 2026\n\nTest Window: 8:00 PM \u2013 10:00 PM\n\nDuration: 30\u201335 minutes\n\nMode: Online (Recommended: Desktop/laptop using Google Chrome)\n\nImportant Instructions:\n\nThe test link will be triggered to your registered email ID. You will receive a separate email from assessments@testgorilla.com with your unique assessment link by 6th July, 7:00 PM.\n\nIf you do not receive it by the stipulated time, please check your spam folder.\n\nPen, paper, and a calculator are permitted; AI tools and other external aids are strictly prohibited.\n\nPOC: Nikhita (+91 8770035884) , Dishil (+91 9925492574)\n\nCDC, IIT Kharagpur",
     "noticeat": "06-07-2026 09:54",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "3e7baf1b7f21091f1a2a2e2f14b5ba114ad58785ea73d5686371c76131a9c28f",
     "has_download": false
    },
@@ -9533,7 +9555,7 @@
     "company": "BOSTON CONSULTING GROUP (BCG)",
     "notice": "The CV submission of BOSTON CONSULTING GROUP (BCG) has been extended till 11:59 PM, 6th July 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nNote: Eligible students are also required to register on the company portal till 11:59 PM, 6th July 2026.\n\nRegistration Link : https://www.113.vovici.net/se/13B2588B25872D03\n\nCDC, IIT Kharagpur",
     "noticeat": "06-07-2026 09:52",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "d606e6b9c043654bcb86e86a8d934a08b71fd65b75d9bf75b385a627c411b9c0",
     "has_download": false
    },
@@ -9542,9 +9564,9 @@
     "type": "INTERNSHIP",
     "subject": "Urgent",
     "company": "CV Building for Internship 2026-27",
-    "notice": "All the potential eligible internship students who will go for compulsory internship in the summer of 2027 are advised to kindly note the following:CV Portal in ERP for CV building / CV editing (for Internship) has been extended and will remain open till 6th July, 2026, 11:59 AM.\n\nNo further extension will be provided so all are requested to complete the process within the stipulated time.\n\nCDC, IIT Kharagpur",
+    "notice": "All the potential eligible internship students who will go for compulsory internship in the summer of 2027 are advised to kindly note the following:\n\nCV Portal in ERP for CV building / CV editing (for Internship) has been extended and will remain open till 6th July, 2026, 11:59 AM.\n\nNo further extension will be provided so all are requested to complete the process within the stipulated time.\n\nCDC, IIT Kharagpur",
     "noticeat": "05-07-2026 21:28",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "2f119ce36a88fd0c33f0a89188a8aaa798591e2f2693984edfb56fad958d8275",
     "has_download": false
    },
@@ -9553,9 +9575,9 @@
     "type": "INTERNSHIP",
     "subject": "Urgent",
     "company": "CV Building for Internship 2026-27",
-    "notice": "All the potential eligible internship students who will go for compulsory internship in the summer of 2027 are advised to kindly note the following:CV Portal in ERP for CV building / CV editing (for Internship) has been extended and will remain open till 5th July, 2026, 11:59 PM.\n\nNo further extension will be provided so all are requested to complete the process within the stipulated time.\n\nCDC, IIT Kharagpur",
+    "notice": "All the potential eligible internship students who will go for compulsory internship in the summer of 2027 are advised to kindly note the following:\n\nCV Portal in ERP for CV building / CV editing (for Internship) has been extended and will remain open till 5th July, 2026, 11:59 PM.\n\nNo further extension will be provided so all are requested to complete the process within the stipulated time.\n\nCDC, IIT Kharagpur",
     "noticeat": "05-07-2026 18:08",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "63acda85b193489895c9cfcb6033ebf8f3bc738e713cb89c00735e1ec9b3af26",
     "has_download": false
    },
@@ -9564,9 +9586,9 @@
     "type": "INTERNSHIP",
     "subject": "PPT/Workshop/Seminars etc",
     "company": "Ebullient Securities",
-    "notice": "Please note that the Pre-Placement Talk for Ebullient Securities will be held on 6 July 2026 from 2:00 PM onwards.\n\nLink: https://us06web.zoom.us/j/82092294752?pwd=SawfkrNcTHgopZlLpBH27c8GoP5NY2.1Meeting ID: 820 9229 4752Passcode: 584537All the students registered for internships are supposed to attend the PPT without fail. Attendance is compulsory. Students must join the link 15 minutes prior to the scheduled time.\n\nPOC : Rudra Pratap (+91 8235755257)CDC,IITKharagpur",
+    "notice": "Please note that the Pre-Placement Talk for Ebullient Securities will be held on 6 July 2026 from 2:00 PM onwards.\n\nLink: https://us06web.zoom.us/j/82092294752?pwd=SawfkrNcTHgopZlLpBH27c8GoP5NY2.1\n\nMeeting ID: 820 9229 4752\nPasscode: 584537\n\nAll the students registered for internships are supposed to attend the PPT without fail. Attendance is compulsory. Students must join the link 15 minutes prior to the scheduled time.\n\nPOC : Rudra Pratap (+91 8235755257)\n\nCDC, IIT Kharagpur",
     "noticeat": "05-07-2026 13:24",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "3e89f35a8ef6d04b47662aa80510d6420e2625e0bb07bc7871c36b1ba8fe3739",
     "has_download": false
    },
@@ -9575,9 +9597,9 @@
     "type": "INTERNSHIP",
     "subject": "Urgent",
     "company": "CV Building for Internship 2026-27",
-    "notice": "All the potential eligible internship students who will go for compulsory internship in the summer of 2027 are advised to kindly note the following:CV Portal in ERP for CV building / CV editing (for Internship) has been extended and will remain open till 5th July, 2026, 6:00 PM.\n\nNo further extension will be provided so all are requested to complete the process within the stipulated time.\n\nCDC, IIT Kharagpur",
+    "notice": "All the potential eligible internship students who will go for compulsory internship in the summer of 2027 are advised to kindly note the following:\n\nCV Portal in ERP for CV building / CV editing (for Internship) has been extended and will remain open till 5th July, 2026, 6:00 PM.\n\nNo further extension will be provided so all are requested to complete the process within the stipulated time.\n\nCDC, IIT Kharagpur",
     "noticeat": "04-07-2026 22:10",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "0e9f0c856d976c5ae1d881e4d4d92f5fd549ad3735944bd9e19dd0ef51e6632c",
     "has_download": false
    },
@@ -9588,7 +9610,7 @@
     "company": "Boston Consulting Group (BCG)",
     "notice": "The CV submission of BOSTON CONSULTING GROUP (BCG) has been extended till 11:59 PM, 5th July 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nNote: Eligible students are also required to register on the company portal till 11:59 PM, 5th July 2026.\n\nRegistration Link : https://www.113.vovici.net/se/13B2588B25872D03\n\nCDC, IIT Kharagpur",
     "noticeat": "04-07-2026 17:06",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "a23f72a4a427d76854105d1dc9440705e60b05b986a6a052d51bc1f8826d9483",
     "has_download": false
    },
@@ -9597,9 +9619,9 @@
     "type": "INTERNSHIP",
     "subject": "Urgent",
     "company": "Boston Consulting Group (BCG)",
-    "notice": "Please note that the Webinar for BCG will be held on 4th July, 2026 from 4:00 PM IST.*Kindly refer to the updated link below.*All interested students are supposed to attend the Webinar, without fail. Students must join the link 15 minutes prior to the scheduled time.\n\nLink: https://bcg.zoom.us/j/94218324108?pwd=FfzOFXJAZ8lOGY77bDXuwdYjzKgpnP.1\n\nPOC: Vatsal Gutgutia (+91 9234457393)\n\nCDC, IIT Kharagpur",
+    "notice": "Please note that the Webinar for BCG will be held on 4th July, 2026 from 4:00 PM IST.\n\n*Kindly refer to the updated link below.*\n\nAll interested students are supposed to attend the Webinar, without fail. Students must join the link 15 minutes prior to the scheduled time.\n\nLink: https://bcg.zoom.us/j/94218324108?pwd=FfzOFXJAZ8lOGY77bDXuwdYjzKgpnP.1\n\nPOC: Vatsal Gutgutia (+91 9234457393)\n\nCDC, IIT Kharagpur",
     "noticeat": "04-07-2026 12:29",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "922accd3c7a7d3586ecf4219026eca648c69057b5a17e0d5901aaac0a81a63c8",
     "has_download": false
    },
@@ -9610,7 +9632,7 @@
     "company": "Lek Consulting",
     "notice": "The CV submission of LEK CONSULTING has been extended till 6:00 PM, 4th July 2026.\n\nInterested and eligible students are advised to apply within the given deadline. This is the final extension and no further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "04-07-2026 12:27",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "0d30caf153faacc5bd9364970485e04f33c3ce9629b2225b7fce8df54f3edbaf",
     "has_download": false
    },
@@ -9619,9 +9641,9 @@
     "type": "INTERNSHIP",
     "subject": "Urgent",
     "company": "CV Building for Internship 2026-27",
-    "notice": "All the potential eligible internship students who will go for compulsory internship in the summer of 2027 are advised to kindly note the following:CV Portal in ERP for CV building / CV editing (for Internship) has been extended and will remain open till 4th July, 2026, 6:00 PM.\n\nNo further extensions will be provided so all students are requested to complete the process within the stipulated timeframe.\n\nCDC, IIT Kharagpur",
+    "notice": "All the potential eligible internship students who will go for compulsory internship in the summer of 2027 are advised to kindly note the following:\n\nCV Portal in ERP for CV building / CV editing (for Internship) has been extended and will remain open till 4th July, 2026, 6:00 PM.\n\nNo further extensions will be provided so all students are requested to complete the process within the stipulated timeframe.\n\nCDC, IIT Kharagpur",
     "noticeat": "03-07-2026 18:09",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "6e716225a9cc9198fa7e90fffce99abdbfa85256458332cd67b101ea1a60330a",
     "has_download": false
    },
@@ -9632,7 +9654,7 @@
     "company": "Lek Consulting",
     "notice": "The CV submission of LEK CONSULTING has been extended till 6:00 PM, 3rd July 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "03-07-2026 14:29",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "d2e22fe8e6a0222428412b107709cfee888a41ce0cab3bf7400dfac8af69acf3",
     "has_download": false
    },
@@ -9643,7 +9665,7 @@
     "company": "Bain and Company",
     "notice": "The CV submission of BAIN AND COMPANY has been extended till 6:00 PM, 3rd July 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nNote: It is mandatory for students to also register on the company portal before 6:00 PM, 3rd July 2026.\n\nRegistration Link : https://careers.bain.com/recruits/signin?folderId=10403\n\nCDC, IIT Kharagpur",
     "noticeat": "03-07-2026 14:28",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "9411b136c6882436537eeffbe5c275572e08f4570bdafe0b9cd78a4c6491d797",
     "has_download": false
    },
@@ -9654,7 +9676,7 @@
     "company": "BOSTON CONSULTING GROUP (BCG)",
     "notice": "Please note that the Webinar for BCG will be held on 4th July, 2026 from 4:00 PM IST.\n\nAll interested students are supposed to attend the Webinar, without fail. Students must join the link 15 minutes prior to the scheduled time.\n\nLink: https://bcg.zoom.us/j/94142950344?pwd=e6Q08NYM24BPuIG5WY7ALELtV2b7BE.1&from=addon\n\nPOC: Vatsal Gutgutia (+91 9234457393)\n\nCDC, IIT Kharagpur",
     "noticeat": "03-07-2026 10:19",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "ee3527c9ffdca8d3dccb8719bf29bf679ee64f97a39329c4caf3839ddfa11251",
     "has_download": false
    },
@@ -9663,9 +9685,9 @@
     "type": "INTERNSHIP",
     "subject": "Urgent",
     "company": "CV Building for Internship 2026-27",
-    "notice": "All the potential eligible internship students who will go for compulsory internship in the summer of 2027 are advised to kindly note the following:CV Portal in ERP for CV building / CV editing (for Internship) has been extended and will remain open till 3rd July, 2026, 9:00 AM.\n\nThis extension is provided to allow students to correct any potential errors in their resumes. No further extensions will be granted, so all students are requested to complete the process within the stipulated timeframe.\n\nCDC, IIT Kharagpur",
+    "notice": "All the potential eligible internship students who will go for compulsory internship in the summer of 2027 are advised to kindly note the following:\n\nCV Portal in ERP for CV building / CV editing (for Internship) has been extended and will remain open till 3rd July, 2026, 9:00 AM.\n\nThis extension is provided to allow students to correct any potential errors in their resumes. No further extensions will be granted, so all students are requested to complete the process within the stipulated timeframe.\n\nCDC, IIT Kharagpur",
     "noticeat": "02-07-2026 21:33",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "9ee7edf3bb18de6a61fabd8e8df4b8d4f42a9c624bcad0272a786e0cda6f6cea",
     "has_download": false
    },
@@ -9676,7 +9698,7 @@
     "company": "MCKINSEY & CO.",
     "notice": "The CV submission of MCKINSEY & CO. has been extended till 11:00 AM, 3rd July 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "02-07-2026 21:14",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "4f7fe9517095953485d55ca1cac7f64efb06100b565e5c8225049c0a9e1e59bd",
     "has_download": false
    },
@@ -9687,7 +9709,7 @@
     "company": "LEK CONSULTING",
     "notice": "The CV submission of LEK CONSULTING has been extended till 11:00 AM, 3rd July 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "02-07-2026 21:12",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "56ac7925de14c64db7fcba68f22e305b49ed1b26184d0a706ea5f390e0f0738e",
     "has_download": false
    },
@@ -9698,7 +9720,7 @@
     "company": "BAIN AND COMPANY",
     "notice": "The CV submission of BAIN AND COMPANY has been extended till 11:00 AM, 3rd July 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nNote: Eligible students are also required to register on the company portal till 11:00 AM, 3rd July 2026.\n\nRegistration Link : https://careers.bain.com/recruits/signin?folderId=10403\n\nCDC, IIT Kharagpur",
     "noticeat": "02-07-2026 21:11",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "c72406b5e7067c462ef14b50f3fa50a03ed1b5eed6b36eedf6a2a691f6a310fb",
     "has_download": false
    },
@@ -9709,7 +9731,7 @@
     "company": "BOSTON CONSULTING GROUP (BCG)",
     "notice": "The CV submission of BOSTON CONSULTING GROUP (BCG) has been extended till 11:00 AM, 3rd July 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nNote: Eligible students are also required to register on the company portal till 11:00 AM, 3rd July 2026.\n\nRegistration Link : https://www.113.vovici.net/se/13B2588B25872D03\n\nCDC, IIT Kharagpur",
     "noticeat": "02-07-2026 21:10",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "73aa915cfdc54c7f970daa8563d7e51c0a639197a7efb541b02fb18c68873a8b",
     "has_download": false
    },
@@ -9718,9 +9740,9 @@
     "type": "INTERNSHIP",
     "subject": "Urgent",
     "company": "BAIN AND COMPANY",
-    "notice": "All the eligible students applying for BAIN AND COMPANY are advised to kindly note the following:The registration link for the company portal has been updated. All students are required to re-apply using the new link provided below.\n\nNew Registration Link : https://careers.bain.com/recruits/signin?folderId=10403Deadline : 2nd July 2026, 9:00 PMPlease ensure you complete both the CDC CV submission and this portal registration before the deadline. No further extensions will be provided.\n\nA step-by-step PDF guide is attached to this notice. Kindly follow the steps in the PDF to complete your registration without errors.\n\nPOC: Hardik(+91 8177018092)\n\nCDC, IIT Kharagpur",
+    "notice": "All the eligible students applying for BAIN AND COMPANY are advised to kindly note the following:\n\nThe registration link for the company portal has been updated. All students are required to re-apply using the new link provided below.\n\nNew Registration Link : https://careers.bain.com/recruits/signin?folderId=10403\nDeadline : 2nd July 2026, 9:00 PM\n\nPlease ensure you complete both the CDC CV submission and this portal registration before the deadline. No further extensions will be provided.\n\nA step-by-step PDF guide is attached to this notice. Kindly follow the steps in the PDF to complete your registration without errors.\n\nPOC: Hardik(+91 8177018092)\n\nCDC, IIT Kharagpur",
     "noticeat": "02-07-2026 15:29",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "47a1a11d74028af2b852da32df90a9427dc63f2970d20faa3b25dd21f7565966",
     "has_download": true,
     "file": "files/17.pdf"
@@ -9730,9 +9752,9 @@
     "type": "INTERNSHIP",
     "subject": "PPT/Workshop/Seminars etc",
     "company": "Nomura",
-    "notice": "Please note that the Pre-Placement Talk for Nomura will be held on 2nd July, 2026 (today) from 5:00 PM - 6:00 PM.\n\nAll interested students are supposed to attend the PPT, without fail. Students must join the link 15 minutes prior to the scheduled time.\n\nLink: https://nomura.webex.com/nomura/j.php?MTID=m230ec11cb3b0528cb6606c99a8968a8fMeeting Code: 2378 676 7476Meeting password: 20262026\n\nPOC: Aditya Ghandge (9325468252)\n\nCDC, IIT Kharagpur",
+    "notice": "Please note that the Pre-Placement Talk for Nomura will be held on 2nd July, 2026 (today) from 5:00 PM - 6:00 PM.\n\nAll interested students are supposed to attend the PPT, without fail. Students must join the link 15 minutes prior to the scheduled time.\n\nLink: https://nomura.webex.com/nomura/j.php?MTID=m230ec11cb3b0528cb6606c99a8968a8f\n\nMeeting Code: 2378 676 7476\nMeeting password: 20262026\n\nPOC: Aditya Ghandge (9325468252)\n\nCDC, IIT Kharagpur",
     "noticeat": "02-07-2026 12:13",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "41498c05ed3ebc9cd11e6142b7ff5c928f7872b214d433eefc69d9d6641fd9a3",
     "has_download": false
    },
@@ -9743,7 +9765,7 @@
     "company": "BOSTON CONSULTING GROUP (BCG)",
     "notice": "The CV submission of BOSTON CONSULTING GROUP (BCG) has been opened till 9:00 PM, 2nd July 2026.\n\nInterested and eligible students are advised to apply within the given deadline.\n\nNo further extensions will be given.\n\nNote: Eligible students are also required to register on the company portal till 9:00 PM, 2nd July 2026.\n\nRegistration Link : https://www.113.vovici.net/se/13B2588B25872D03\n\nCDC, IIT Kharagpur",
     "noticeat": "02-07-2026 10:40",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "a0f54bd905a82ab675f4853eac2a097ab19337a1d9808ea9603f17910b8e4662",
     "has_download": false
    },
@@ -9754,7 +9776,7 @@
     "company": "BAIN AND COMPANY",
     "notice": "The CV submission of BAIN AND COMPANY has been opened till 9:00 PM, 2nd July 2026.\n\nInterested and eligible students are advised to apply within the given deadline.\n\nNo further extensions will be given.\n\nNote: Eligible students are also required to register on the company portal till 9:00 PM, 2nd July 2026.\n\nRegistration Link : https://careers.bain.com/recruits/signin\n\nCDC, IIT Kharagpur",
     "noticeat": "02-07-2026 10:38",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "b62b4d9bb792e12530c9a4edbd141517f80574a7079542ec535aed5894ee00e7",
     "has_download": false
    },
@@ -9765,7 +9787,7 @@
     "company": "LEK CONSULTING",
     "notice": "The CV submission of LEK CONSULTING has been opened till 9:00 PM, 2nd July 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "02-07-2026 10:09",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "8131b6334b60f5816e1d406bd7f00fe6428ea1858f707b83875a4ea55672a7bd",
     "has_download": false
    },
@@ -9776,7 +9798,7 @@
     "company": "MCKINSEY & CO.",
     "notice": "The CV submission of MCKINSEY & CO. has been opened till 9:00 PM, 2nd July 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "02-07-2026 09:48",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "b0b7e506c756f8555991ee696b4cb801ccb43750ac995202c307553a851e65a9",
     "has_download": false
    },
@@ -9785,9 +9807,9 @@
     "type": "INTERNSHIP",
     "subject": "Urgent",
     "company": "CV Building for Internship 2026-27",
-    "notice": "All the potential eligible internship students who will go for compulsory internship in the summer of 2027 are advised to kindly note the following:CV Portal in ERP for CV building / CV editing (for Internship) has been extended and will remain open till 2nd July, 2026, 8:00 AM.\n\nNo further extension will be provided. So, all are requested to complete the process within the stipulated time.\n\nCDC, IIT Kharagpur",
+    "notice": "All the potential eligible internship students who will go for compulsory internship in the summer of 2027 are advised to kindly note the following:\n\nCV Portal in ERP for CV building / CV editing (for Internship) has been extended and will remain open till 2nd July, 2026, 8:00 AM.\n\nNo further extension will be provided. So, all are requested to complete the process within the stipulated time.\n\nCDC, IIT Kharagpur",
     "noticeat": "01-07-2026 19:21",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "65080c5263faa80bec9cc6a4c19d55f8785b035dbf3880cfc17710de6cb170c0",
     "has_download": false
    },
@@ -9796,9 +9818,9 @@
     "type": "INTERNSHIP",
     "subject": "PPT/Workshop/Seminars etc",
     "company": "Nomura",
-    "notice": "The PPT for Nomura is scheduled as per the timings mentioned below. All candidates should join 15 mins prior. The webinar link will be shared soon.\n\nFor any doubts or questions you would like to be addressed in the PPT, please fill out the Google Form linked belowForm link: https://forms.gle/EwqnG2S4vXiqMueJ9\n\nDate: July 2nd, 2026 (Tomorrow)Time: 5:00 PM sharpMode: Online\n\nPOC: Aditya Ghandge (+91 93254 68252)NOTE: It is mandatory for all interested candidates to join the PPT.\n\nCDC, IIT Kharagpur",
+    "notice": "The PPT for Nomura is scheduled as per the timings mentioned below. All candidates should join 15 mins prior. The webinar link will be shared soon.\n\nFor any doubts or questions you would like to be addressed in the PPT, please fill out the Google Form linked below\n\nForm link: https://forms.gle/EwqnG2S4vXiqMueJ9\n\nDate: July 2nd, 2026 (Tomorrow)\nTime: 5:00 PM sharp\nMode: Online\n\nPOC: Aditya Ghandge (+91 93254 68252)\n\nNOTE: It is mandatory for all interested candidates to join the PPT.\n\nCDC, IIT Kharagpur",
     "noticeat": "01-07-2026 15:39",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "8caeb5dd9995bbf4aa9133a0b48759109a0d08cf15105c0714635983a45c4e7f",
     "has_download": false
    },
@@ -9807,9 +9829,9 @@
     "type": "INTERNSHIP",
     "subject": "Urgent",
     "company": "CV Building for Internship 2026-27",
-    "notice": "All the potential eligible internship students who will go for compulsory internship in the summer of 2027 are advised to kindly note the following:CV Portal in ERP for CV building / CV editing (for Internship) has been extended and will remain open till 1st July, 2026, 11:59 PM.\n\nNo further extension will be provided so all are requested to complete the process within the stipulated time.\n\nCDC, IIT Kharagpur",
+    "notice": "All the potential eligible internship students who will go for compulsory internship in the summer of 2027 are advised to kindly note the following:\n\nCV Portal in ERP for CV building / CV editing (for Internship) has been extended and will remain open till 1st July, 2026, 11:59 PM.\n\nNo further extension will be provided so all are requested to complete the process within the stipulated time.\n\nCDC, IIT Kharagpur",
     "noticeat": "30-06-2026 18:44",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "d896aa2129f1f062186057373c2983bfc75982f58244c432cb55e45ca572fece",
     "has_download": false
    },
@@ -9818,9 +9840,9 @@
     "type": "INTERNSHIP",
     "subject": "Urgent",
     "company": "CV Building for Internship 2026-27",
-    "notice": "All the potential eligible internship students who will go for compulsory internship in the summer of 2027 are advised to kindly note the following:CV Portal in ERP for CV building / CV editing (for Internship) has been extended and will remain open till 30th June, 2026, 11:59 PM. No further extension will be provided so all are requested to complete the process within the stipulated time.\n\nCDC, IIT Kharagpur",
+    "notice": "All the potential eligible internship students who will go for compulsory internship in the summer of 2027 are advised to kindly note the following:\n\nCV Portal in ERP for CV building / CV editing (for Internship) has been extended and will remain open till 30th June, 2026, 11:59 PM.\n\nNo further extension will be provided so all are requested to complete the process within the stipulated time.\n\nCDC, IIT Kharagpur",
     "noticeat": "29-06-2026 18:47",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "8fb9a0c89d92239a95332d25c778264b607635b950073ba092d3f6fafb7381f8",
     "has_download": false
    },
@@ -9829,9 +9851,9 @@
     "type": "INTERNSHIP",
     "subject": "Date extension",
     "company": "CV Building for Internship 2026-27",
-    "notice": "All the potential eligible internship students who will go for compulsory internship in the summer of 2027 are advised to kindly note the following:CV Portal in ERP for CV building / CV editing (for Internship) has been extended and will remain open till 29th June, 2026, 11:59 PM.\n\nChairman CDC",
+    "notice": "All the potential eligible internship students who will go for compulsory internship in the summer of 2027 are advised to kindly note the following:\n\nCV Portal in ERP for CV building / CV editing (for Internship) has been extended and will remain open till 29th June, 2026, 11:59 PM.\n\nChairman CDC",
     "noticeat": "27-06-2026 18:54",
-    "text_source": "grid",
+    "text_source": "full_notice",
     "source_hash": "0a20ee2abf400861fc056b359e88f441ee9eeafd00a46b4264f1752f3dfb5f0b",
     "has_download": false
    },
