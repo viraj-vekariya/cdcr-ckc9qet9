@@ -1,10 +1,10 @@
 {
- "last_updated": "2026-10-01T13:10:10Z",
+ "last_updated": "2026-10-01T14:10:23Z",
  "stats": {
   "placement": 137,
-  "internship": 758,
-  "with_files": 168,
-  "listed_downloads": 171
+  "internship": 761,
+  "with_files": 169,
+  "listed_downloads": 172
  },
  "categories": {
   "placement": [
@@ -1522,6 +1522,28 @@
   ],
   "internship": [
    {
+    "id": "961",
+    "type": "INTERNSHIP",
+    "subject": "Shortlist",
+    "company": "I'mbesideyou Inc",
+    "notice": "PFB the Interview shortlist for I'mbesideyou Inc.\n\n24AE10053\n23AR10021\n23BT30023\n24MI10076\n\nFurther details would be communicated to the shortlisted candidates shortly.\n\nCDC, IIT Kharagpur",
+    "noticeat": "01-10-2026 19:12",
+    "text_source": "full_notice",
+    "source_hash": "7baf4d1946810ceb4249ba58f8a288f20e684300c39b66211be976ad465d0db9",
+    "has_download": false
+   },
+   {
+    "id": "960",
+    "type": "INTERNSHIP",
+    "subject": "Shortlist",
+    "company": "HP Inc",
+    "notice": "PFB the shortlist for Test 2 of HP Inc.\n\n24EE10041\n24CS10009\n24CS10011\n24EC10040\n24EC10111\n24CS10030\n24EC10033\n24AI10049\n24IE10005\n24CS10109\n24EE10045\n24EC10034\n24EC10061\n24AI10030\n24EC10125\n24EE10083\n24EC10102\n\nThe Assessment is scheduled on 3rd October, 04:00 P.\n\nM onwards.\n\nVenue: Respective location\n\nPOC: Hardik (+91 8177018092)\n\nCDC, IIT Kharagpur",
+    "noticeat": "01-10-2026 19:12",
+    "text_source": "full_notice",
+    "source_hash": "ec34506dfdb96fc3bc0930efd16d63b697cbaf93636a70814141f06f01372e50",
+    "has_download": false
+   },
+   {
     "id": "959",
     "type": "INTERNSHIP",
     "subject": "Urgent",
@@ -1531,6 +1553,18 @@
     "text_source": "full_notice",
     "source_hash": "e92cc6fedd8aeb784dc88aad6160458c0a914f4b1c0f4cdadae56ac8f33fd506",
     "has_download": false
+   },
+   {
+    "id": "958",
+    "type": "INTERNSHIP",
+    "subject": "Urgent",
+    "company": "MICROSOFT",
+    "notice": "PFA the room allocation for the test of Microsoft, scheduled from 10:00 AM onwards on 2nd October 2026.\n\nNote: Students will receive the test link on their CDC registered email address\n\nVenue: Nalanda Classroom Complex\n\nStudents are requested to arrive 15 minutes prior to the reporting time.\n\nPOC: Daksh (+91 98180 71612), Neev(+91 90013 46350)\n\nCDC, IIT Kharagpur",
+    "noticeat": "01-10-2026 17:53",
+    "text_source": "full_notice",
+    "source_hash": "3e7dd9a68ac15d093883c1273a50668b83918ab95d2046b5b767e8bdc97fcc51",
+    "has_download": true,
+    "file": "files/958.pdf"
    },
    {
     "id": "957",
