@@ -1,13 +1,35 @@
 {
- "last_updated": "2026-10-01T06:28:04Z",
+ "last_updated": "2026-10-01T07:28:48Z",
  "stats": {
-  "placement": 135,
-  "internship": 753,
+  "placement": 137,
+  "internship": 754,
   "with_files": 167,
   "listed_downloads": 170
  },
  "categories": {
   "placement": [
+   {
+    "id": "954",
+    "type": "PLACEMENT",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "",
+    "notice": "CDC is organising an Employability Enhancement & Interview Preparedness Programme for final-year students from 2nd to 5th October 2026.\n\n2nd & 3rd October | Training Sessions\nThe sessions will cover:\n\n- Self-Introduction & Personal Branding\n- Company Research\n- LinkedIn Profile Optimisation\n- One-Page Resume Building\n- STAR Method\n- Interview Preparedness & Strategies\n\n4th & 5th October | One-to-One Mock Interviews\nMock interviews will be conducted through multiple interview panels, providing students with a simulated interview experience and practical feedback.\n\nStudents are requested to:\n\n- Confirm their participation through the form below.\n- Carry an updated one-page CV/resume.\n- Come prepared with their academic background, career interests and relevant companies/roles.\n- Wear formal/professional attire for the mock interviews.\n- Report at the designated venue 10\u201315 minutes before the scheduled time.\n- Carefully check their allotted batch/panel, timing and venue once communicated.\n\nParticipation Confirmation Form - https://forms.gle/wibDwjnXtb5AuLzu9\n\nStudents are informed that participation is mandatory so make full use of this opportunity.\n\nBest wishes for your placement preparation.\n\nCDC, IIT Kharagpur",
+    "noticeat": "01-10-2026 12:57",
+    "text_source": "full_notice",
+    "source_hash": "5e67b2e9d2dd042ce0418e839598a192fe26d1cce97d6ddc2e7f290c006aab13",
+    "has_download": false
+   },
+   {
+    "id": "952",
+    "type": "PLACEMENT",
+    "subject": "PPO",
+    "company": "Walmart",
+    "notice": "Walmart has extended the offer to the following student(s):\n\nNilesh Arjun Gupta - 25CS60R64\n\nRounak Neogy - 25CS60R55\n\nThe students are advised to give offer acceptance by 01.10.2026.\n\n(For more details, check your email ID.)\n\nCDC, IIT Kharagpur",
+    "noticeat": "01-10-2026 12:15",
+    "text_source": "full_notice",
+    "source_hash": "82c0e751a1a17f5acb19927e609fe2c31b4a60c87ad6bf2d09933fa9bd8bcc93",
+    "has_download": false
+   },
    {
     "id": "943",
     "type": "PLACEMENT",
@@ -1499,6 +1521,17 @@
    }
   ],
   "internship": [
+   {
+    "id": "953",
+    "type": "INTERNSHIP",
+    "subject": "Date extension",
+    "company": "VISA Inc.",
+    "notice": "The CV submission of Visa has been extended till 11:59 PM, 1st October 2026.\n\nInterested and eligible students are advised to apply within the given deadline.\n\nCDC, IIT Kharagpur",
+    "noticeat": "01-10-2026 12:50",
+    "text_source": "full_notice",
+    "source_hash": "4c98179aca77ceb2c7c94dbf8103057182367dcc0cd2722fb1e2a0068bc6ad38",
+    "has_download": false
+   },
    {
     "id": "951",
     "type": "INTERNSHIP",
