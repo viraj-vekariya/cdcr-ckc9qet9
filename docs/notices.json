@@ -1,8 +1,8 @@
 {
- "last_updated": "2026-10-01T12:09:50Z",
+ "last_updated": "2026-10-01T13:10:10Z",
  "stats": {
   "placement": 137,
-  "internship": 757,
+  "internship": 758,
   "with_files": 168,
   "listed_downloads": 171
  },
@@ -1521,6 +1521,17 @@
    }
   ],
   "internship": [
+   {
+    "id": "959",
+    "type": "INTERNSHIP",
+    "subject": "Urgent",
+    "company": "Multiple companies",
+    "notice": "The further processes for the following companies are scheduled for the upcoming weekend (2nd to 4th October).\n\n- SLB (PTE role)\n- Microsoft\n- I'mbesideyou\n- HP Inc\n\nStudents interested in pursuing internship opportunities with these companies are advised to remain available on campus during the aforementioned dates and plan their schedules accordingly.\n\nFurther details regarding the respective processes will be communicated in due time.\n\nCDC, IIT Kharagpur",
+    "noticeat": "01-10-2026 18:35",
+    "text_source": "full_notice",
+    "source_hash": "e92cc6fedd8aeb784dc88aad6160458c0a914f4b1c0f4cdadae56ac8f33fd506",
+    "has_download": false
+   },
    {
     "id": "957",
     "type": "INTERNSHIP",
