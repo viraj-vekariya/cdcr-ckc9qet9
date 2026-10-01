@@ -1,8 +1,8 @@
 {
- "last_updated": "2026-10-01T05:28:09Z",
+ "last_updated": "2026-10-01T06:28:04Z",
  "stats": {
   "placement": 135,
-  "internship": 752,
+  "internship": 753,
   "with_files": 167,
   "listed_downloads": 170
  },
@@ -1499,6 +1499,17 @@
    }
   ],
   "internship": [
+   {
+    "id": "951",
+    "type": "INTERNSHIP",
+    "subject": "CV Submission",
+    "company": "Toast Tab",
+    "notice": "The CV submission of Toast Tab has been opened till 11:59 PM, 2nd October 2026.\n\nAll the students are required to fill the additional details form.\n\nLink: https://forms.gle/cGrfeYVPeWCGsDSs9\n\nInterested and eligible students are advised to apply within the given deadline.\n\nCDC, IIT Kharagpur",
+    "noticeat": "01-10-2026 11:41",
+    "text_source": "full_notice",
+    "source_hash": "7f746043f225566499c87435c8e392d1c4c252d7eae36ae377e9aaa43df60eb6",
+    "has_download": false
+   },
    {
     "id": "950",
     "type": "INTERNSHIP",
