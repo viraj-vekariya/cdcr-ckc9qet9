@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-10-02T04:21:15Z",
+ "last_updated": "2026-10-02T05:21:03Z",
  "stats": {
-  "placement": 137,
+  "placement": 138,
   "internship": 763,
   "with_files": 169,
   "listed_downloads": 172
  },
  "categories": {
   "placement": [
+   {
+    "id": "964",
+    "type": "PLACEMENT",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "IPIM",
+    "notice": "*REMINDER - IPIM: Employability Enhancement & Interview Preparedness Programme*\n\nDear Students,\n\nReminder - The session started today at 10 AM, kindly refer to the timings mentioned below:\n\n*Session 1*\nDate: Friday, 2nd October 2026\nReporting Time: 10:00 AM\nVenue: NR321\n\n*Session 2*\nDate: Saturday, 3rd October 2026\nReporting Time: 10:00 AM\nVenue: NR321\n\nPlease note that attendance at all sessions is mandatory for eligibility for the mock interviews. Details of any further sessions and the mock interview schedule will be communicated to you shortly.\n\nBest Regards,\n\nPlacement Coordinators' Team\nCareer Development Centre,\nIIT Kharagpur",
+    "noticeat": "02-10-2026 10:41",
+    "text_source": "full_notice",
+    "source_hash": "744d425e134fa6b2fde6e8e7c7e62cbd840f74c442cb7395e13a844230e1d463",
+    "has_download": false
+   },
    {
     "id": "954",
     "type": "PLACEMENT",
