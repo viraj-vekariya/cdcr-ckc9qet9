@@ -1,10 +1,10 @@
 {
- "last_updated": "2026-10-03T08:32:38Z",
+ "last_updated": "2026-10-03T09:32:46Z",
  "stats": {
   "placement": 138,
-  "internship": 767,
-  "with_files": 169,
-  "listed_downloads": 172
+  "internship": 768,
+  "with_files": 170,
+  "listed_downloads": 173
  },
  "categories": {
   "placement": [
@@ -1532,6 +1532,18 @@
    }
   ],
   "internship": [
+   {
+    "id": "971",
+    "type": "INTERNSHIP",
+    "subject": "Shortlist",
+    "company": "Intellimation.AI",
+    "notice": "PFA the Interview shortlist of Intellimation.\n\nAI for all the roles.\n\nFurther details would be communicated to the shortlisted candidates in due time.\n\nCDC, IIT Kharagpur",
+    "noticeat": "03-10-2026 14:34",
+    "text_source": "full_notice",
+    "source_hash": "3598d18312583145c9d742b9bf83573519d3870b6880b12eba6ced19272c4977",
+    "has_download": true,
+    "file": "files/971.pdf"
+   },
    {
     "id": "970",
     "type": "INTERNSHIP",
