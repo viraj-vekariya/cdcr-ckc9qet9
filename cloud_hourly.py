@@ -197,32 +197,6 @@ def smart_reflow(text):
     return out
 
 
-def email_fallback(subject, message):
-    """WhatsApp Web on a headless runner can fail in ways that look like
-    success (see wa_cloud.send's docstring, 21 Sep 2026) -- when it now
-    raises instead, this is the one channel that never depends on the
-    flaky part: same Gmail app password already used for OTP retrieval,
-    sent to the same inbox the user already checks every cycle for OTPs."""
-    gmail, app_pw = os.environ.get("GMAIL", ""), os.environ.get("APP_PW", "")
-    if not (gmail and app_pw):
-        log("email fallback skipped -- GMAIL/APP_PW not set")
-        return
-    try:
-        import smtplib
-        from email.mime.text import MIMEText
-        msg = MIMEText(message)
-        msg["Subject"] = subject
-        msg["From"] = gmail
-        msg["To"] = gmail
-        with smtplib.SMTP("smtp.gmail.com", 587, timeout=20) as s:
-            s.starttls()
-            s.login(gmail, app_pw)
-            s.send_message(msg)
-        log("fallback email sent (WhatsApp send failed)")
-    except Exception as e:
-        log(f"fallback email ALSO failed: {e}")
-
-
 def send_update_email(subject, message, failed=False):
     """24 Sep 2026 trial channel: mirrors every update that goes to WhatsApp
     to a SEPARATE dedicated inbox (UPDATE_EMAIL), independent of whether
@@ -270,7 +244,13 @@ def notify_all(message, subject="CDC watcher update"):
         send_update_email(subject, message, failed=False)
     except Exception as e:
         log(f"WhatsApp personal-DM send failed: {e}")
-        email_fallback("CDC watcher -- WhatsApp failed, here's the update", f"{message}\n\n(WhatsApp error: {e})")
+        # 3 Oct 2026: email_fallback() used to also mail the personal Gmail
+        # (GMAIL/APP_PW's own inbox) on every WhatsApp failure -- explicit
+        # request to stop that account getting any of these at all. Dropped
+        # entirely rather than "send then delete", since send_update_email()
+        # below already mails UPDATE_EMAIL (viraj.vp.iitkgp@gmail.com) with
+        # the same content, tagged failed=True -- that's the real safety net
+        # now; personal Gmail is no longer a notification channel.
         send_update_email(subject, f"{message}\n\n(WhatsApp error: {e})", failed=True)
 
 
