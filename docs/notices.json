@@ -1,8 +1,8 @@
 {
- "last_updated": "2026-10-03T07:32:48Z",
+ "last_updated": "2026-10-03T08:32:38Z",
  "stats": {
   "placement": 138,
-  "internship": 766,
+  "internship": 767,
   "with_files": 169,
   "listed_downloads": 172
  },
@@ -1532,6 +1532,17 @@
    }
   ],
   "internship": [
+   {
+    "id": "970",
+    "type": "INTERNSHIP",
+    "subject": "Shortlist",
+    "company": "TATA STEEL",
+    "notice": "PFB the Interview shortlist for Tata Steel.\n\n24CE10003\n24CE10015\n24CE10035\n24CE10041\n24CE10071\n24CE10081\n24CE10097\n24CE10112\n24ME10008\n24ME10019\n24ME10026\n24ME10028\n24ME10029\n24ME10035\n24ME10036\n24ME10048\n24ME10067\n24ME10072\n24ME10076\n24ME10089\n24ME10128\n24ME10145\n24ME10169\n\nFurther details would be communicated to the shortlisted candidates in due time.\n\nCDC, IIT Kharagpur",
+    "noticeat": "03-10-2026 13:57",
+    "text_source": "full_notice",
+    "source_hash": "0401bcc0b331b9e69a4e2cfa5008e251e2afce9b4fe67f2409179b32a3c24504",
+    "has_download": false
+   },
    {
     "id": "969",
     "type": "INTERNSHIP",
