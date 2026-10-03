@@ -1,8 +1,8 @@
 {
- "last_updated": "2026-10-03T11:32:57Z",
+ "last_updated": "2026-10-03T13:03:09Z",
  "stats": {
   "placement": 138,
-  "internship": 769,
+  "internship": 770,
   "with_files": 170,
   "listed_downloads": 173
  },
@@ -1532,6 +1532,17 @@
    }
   ],
   "internship": [
+   {
+    "id": "973",
+    "type": "INTERNSHIP",
+    "subject": "Shortlist",
+    "company": "SLB",
+    "notice": "PFB the shortlist for the Interview round of SLB for the role of PTE\n\n23GG23002\n23GG5PE02\n24EX10019\n24EX10030\n24EX10038\n24EX10041\n24EX10042\n24GG10031\n\nFurther details would be communicated to the shortlisted candidates in due time.\n\nCDC, IIT Kharagpur",
+    "noticeat": "03-10-2026 18:07",
+    "text_source": "full_notice",
+    "source_hash": "7b482ce39659d804e9bcee031d32294a15028c1ba4b5e12318c37696fb1e08d0",
+    "has_download": false
+   },
    {
     "id": "972",
     "type": "INTERNSHIP",
