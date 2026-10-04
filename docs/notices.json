@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-10-04T03:47:13Z",
+ "last_updated": "2026-10-04T05:18:01Z",
  "stats": {
-  "placement": 139,
-  "internship": 770,
+  "placement": 140,
+  "internship": 771,
   "with_files": 171,
   "listed_downloads": 174
  },
  "categories": {
   "placement": [
+   {
+    "id": "977",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "SQUAREPOINT CAPITAL",
+    "notice": "The CV submission of SQUAREPOINT CAPITAL for all the roles has been opened till 10:00 AM, 5th October 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "04-10-2026 09:37",
+    "text_source": "full_notice",
+    "source_hash": "f0d9effd1f5527e50d0ac1731e007d34328f514fa8c7423e5541a1abc965c945",
+    "has_download": false
+   },
    {
     "id": "975",
     "type": "PLACEMENT",
@@ -1544,6 +1555,17 @@
    }
   ],
   "internship": [
+   {
+    "id": "978",
+    "type": "INTERNSHIP",
+    "subject": "CV Submission",
+    "company": "Toast Tab",
+    "notice": "The CV submission of Toast Tab has been extended till 11:59 PM, 4th October 2026.\n\nIt is mandatory for all the students who are applying for this role to fill out the following Google form attached below:\n\nLink: https://forms.gle/cGrfeYVPeWCGsDSs9\n\nInterested and eligible students are advised to apply within the given deadline.\n\nCDC, IIT Kharagpur",
+    "noticeat": "04-10-2026 10:18",
+    "text_source": "full_notice",
+    "source_hash": "662356a35a66900c3cafe40d2444c1ae78026f2bdddb0a036c2dd063ad25dfab",
+    "has_download": false
+   },
    {
     "id": "973",
     "type": "INTERNSHIP",
