@@ -1,8 +1,8 @@
 {
- "last_updated": "2026-10-04T12:25:46Z",
+ "last_updated": "2026-10-04T13:25:54Z",
  "stats": {
   "placement": 140,
-  "internship": 772,
+  "internship": 773,
   "with_files": 171,
   "listed_downloads": 174
  },
@@ -1555,6 +1555,17 @@
    }
   ],
   "internship": [
+   {
+    "id": "980",
+    "type": "INTERNSHIP",
+    "subject": "CV Submission",
+    "company": "Tech Mahindra",
+    "notice": "The CV submission of Tech Mahindra has been extended till 08:59 AM, 5th October 2026.\n\nInterested and eligible students are advised to apply within the given deadline.\n\nCDC, IIT Kharagpur",
+    "noticeat": "04-10-2026 18:28",
+    "text_source": "full_notice",
+    "source_hash": "2442cfeba34419a873fe2e6f1d72df2ee0f65a1452995caa498928b0121c936a",
+    "has_download": false
+   },
    {
     "id": "979",
     "type": "INTERNSHIP",
