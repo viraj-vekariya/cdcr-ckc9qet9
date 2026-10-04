@@ -1,8 +1,8 @@
 {
- "last_updated": "2026-10-04T06:13:23Z",
+ "last_updated": "2026-10-04T07:23:34Z",
  "stats": {
   "placement": 140,
-  "internship": 771,
+  "internship": 772,
   "with_files": 171,
   "listed_downloads": 174
  },
@@ -1555,6 +1555,17 @@
    }
   ],
   "internship": [
+   {
+    "id": "979",
+    "type": "INTERNSHIP",
+    "subject": "CV Submission",
+    "company": "HSBC",
+    "notice": "The CV submission of HSBC(6 months) has been extended till 11:59 PM, 4th October 2026.\n\nInterested and eligible students are advised to apply within the given deadline.\n\nCDC, IIT Kharagpur",
+    "noticeat": "04-10-2026 12:15",
+    "text_source": "full_notice",
+    "source_hash": "77c20824c1139e8b21f00857a6b58a23fe4aede9cace9d0fb35c9ef7673560af",
+    "has_download": false
+   },
    {
     "id": "978",
     "type": "INTERNSHIP",
