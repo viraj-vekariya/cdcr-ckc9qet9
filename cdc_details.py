@@ -110,7 +110,7 @@ def enrich_notices(context, rows):
         page.close()
     print(f'Full notice text: {done} retrieved, {sum(r["text_source"] == "full_notice" for r in rows)} total verified')
 
-def _find_frame(page, url_part, timeout_s=6):
+def _find_frame(page, url_part, timeout_s=15):
     """Playwright's `page.frames` can lag a moment behind the DOM: the
     iframe's `src` attribute (what `.wait_for()` on a CSS locator checks)
     can be set before Playwright's own frame-tracking has registered a
@@ -180,7 +180,7 @@ def capture_companies(context):
             # from reaching the site.
             try:
                 row.locator('[aria-describedby="grid37_designation"] a').click()
-                app.locator('iframe[src*="TPJNFView.jsp"]').wait_for(timeout=12000)
+                app.locator('iframe[src*="TPJNFView.jsp"]').wait_for(timeout=20000)
                 detail = _find_frame(page, 'TPJNFView.jsp')
                 if detail is None:
                     raise RuntimeError(f'job detail iframe never registered with Playwright -- frames now: {_frame_dump(page)}')
@@ -200,10 +200,25 @@ def capture_companies(context):
                     app.locator('.ui-dialog:visible .ui-dialog-titlebar-close').last.click(timeout=3000)
                 except Exception:
                     pass
+                # Closing a jQuery UI dialog only hides it (display:none) --
+                # it never removes its iframe from the DOM. Left alone, every
+                # subsequent row's `iframe[src*="TPJNFView.jsp"]` locator
+                # matches one MORE stale iframe than the last, and Playwright
+                # (strict mode, the default) refuses to act on an ambiguous
+                # multi-element match -- confirmed live 4 Oct 2026: row 1
+                # failed on the known slow-load timing issue, but rows 2/3/4
+                # ALL failed instead with "resolved to 2/3/4 elements", i.e.
+                # every opportunity past the first has been failing outright
+                # since this dialog was first built. Removing the stale
+                # iframe here keeps exactly 0-1 matches at any time.
+                try:
+                    app.evaluate('document.querySelectorAll(\'iframe[src*="TPJNFView.jsp"]\').forEach(f => f.remove())')
+                except Exception:
+                    pass
 
             try:
                 row.locator('[aria-describedby="grid37_companyname"] a').click()
-                app.locator('iframe[src*="TPComView.jsp"]').wait_for(timeout=12000)
+                app.locator('iframe[src*="TPComView.jsp"]').wait_for(timeout=20000)
                 company_frame = _find_frame(page, 'TPComView.jsp')
                 if company_frame is None:
                     raise RuntimeError(f'company detail iframe never registered with Playwright -- frames now: {_frame_dump(page)}')
@@ -214,6 +229,10 @@ def capture_companies(context):
             finally:
                 try:
                     app.locator('.ui-dialog:visible .ui-dialog-titlebar-close').last.click(timeout=3000)
+                except Exception:
+                    pass
+                try:
+                    app.evaluate('document.querySelectorAll(\'iframe[src*="TPComView.jsp"]\').forEach(f => f.remove())')
                 except Exception:
                     pass
         output = {'last_updated': datetime.datetime.now(datetime.timezone.utc).isoformat(), 'companies': results,
