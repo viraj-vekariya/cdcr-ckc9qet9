@@ -102,7 +102,7 @@ footer a{color:var(--accent)}
 .opp-table tr.opp-row:hover{background:var(--surface-2)}
 .opp-company{font:700 14px "Fraunces",Georgia,serif;margin:0}
 .opp-role{color:var(--text-dim);font-size:12.5px;margin:2px 0 0}
-.opp-status-select{font:600 12.5px "IBM Plex Sans";color:var(--text);background:var(--surface);border:1px solid var(--border);border-radius:7px;padding:6px 8px}
+.opp-status-select{font:600 12.5px "IBM Plex Sans";color:var(--text);background:var(--surface);border:1px solid var(--border);border-radius:7px;padding:6px 8px}.opp-toggle-btn{font:600 12px "IBM Plex Sans";color:var(--accent);background:none;border:1px solid var(--border);border-radius:6px;padding:5px 10px;cursor:pointer;white-space:nowrap}.opp-detail-row td{background:var(--surface-2)}.opp-detail{padding:6px 2px}.opp-detail h4{font:700 12px "IBM Plex Sans";text-transform:uppercase;letter-spacing:.04em;color:var(--text-dim);margin:0 0 6px}.opp-detail h4:not(:first-child){margin-top:16px}.opp-desc{font-size:13.5px;line-height:1.6;color:var(--text);white-space:pre-wrap}.opp-eligibility-note{font-size:13px;color:var(--text-dim);margin-top:6px}.opp-detail details{margin-top:8px}.opp-detail summary{cursor:pointer;font-weight:600;font-size:12.5px;color:var(--accent)}.opp-detail pre{white-space:pre-wrap;overflow-wrap:anywhere;font:inherit;line-height:1.6;font-size:12.5px;color:var(--text-dim);max-height:260px;overflow:auto;margin:8px 0 0;padding:8px;background:var(--surface);border-radius:8px}.opp-empty{font-size:13px;color:var(--text-dim);font-style:italic}
 .opp-table-wrap{overflow-x:auto}
 .opp-global-open{display:inline-block;margin:2px 0 16px;font:600 13px "IBM Plex Sans";color:var(--accent-contrast);background:var(--accent);padding:9px 16px;border-radius:8px;text-decoration:none}
 .source-note{font-size:12px;color:var(--text-dim);margin-top:12px}
@@ -425,7 +425,7 @@ footer a{color:var(--accent)}
     safeStore(function(){ localStorage.setItem(statusKey(id), value); }, null);
   }
 
-  function oppRow(c){
+  function oppRow(c, idx){
     var expiry = c.resume_end ? new Date(c.resume_end.replace(' ','T')+':00+05:30') : null;
     var closed = expiry && !isNaN(expiry) && expiry < new Date();
     var hoursLeft = expiry ? (expiry - new Date())/36e5 : null;
@@ -437,13 +437,35 @@ footer a{color:var(--accent)}
       STATUS_OPTIONS.map(function(o){
         return '<option value="'+o.v+'"'+(o.v===current?' selected':'')+'>'+esc(o.label)+'</option>';
       }).join('') + '</select>';
-    return '<tr class="opp-row">'+
+    var detailId = 'oppdet'+idx;
+    var desc = c.description || c.details || '';
+    var hasDetail = !!(desc || c.eligibility_summary || c.company_details);
+    var summary = '<tr class="opp-row">'+
       '<td><p class="opp-company">'+esc(c.company)+'</p><p class="opp-role">'+esc(c.role)+'</p></td>'+
       '<td class="mono">'+esc(formatINR(c.ctc))+'<br><span style="color:var(--text-dim);font-size:11px">('+esc(c.currency)+')</span></td>'+
       '<td>'+selectHtml+'</td>'+
       '<td class="mono" style="font-size:12.5px">'+opens.date+'<br><span style="color:var(--text-dim);font-size:11px">'+opens.time+'</span></td>'+
       '<td class="mono" style="font-size:12.5px'+((closed||urgent)?';color:var(--warn)':'')+'">'+deadline.date+'<br><span style="font-size:11px'+((closed||urgent)?'':';color:var(--text-dim)')+'">'+deadline.time+(closed?' (closed)':'')+'</span></td>'+
+      '<td><button class="opp-toggle-btn" data-target="'+detailId+'">Details</button></td>'+
     '</tr>';
+    var body = hasDetail ? (
+      '<h4>Job description</h4>' + (desc ? '<div class="opp-desc">'+linkify(desc)+'</div>' : '<p class="opp-empty">Not captured yet.</p>') +
+      (c.eligibility_summary ? '<p class="opp-eligibility-note">Eligibility: '+esc(c.eligibility_summary)+'</p>' : '') +
+      (c.eligibility_full ? '<details><summary>Full eligible departments &amp; degrees</summary><pre>'+esc(c.eligibility_full)+'</pre></details>' : '') +
+      '<h4>Company page</h4>' + (c.company_details ? '<div class="opp-desc">'+linkify(c.company_details)+'</div>' : '<p class="opp-empty">Not captured yet.</p>')
+    ) : '<p class="opp-empty">Not captured yet &mdash; this gets filled in on the next successful ERP sync.</p>';
+    var detail = '<tr class="opp-detail-row" id="'+detailId+'" hidden><td colspan="6"><div class="opp-detail">'+body+'</div></td></tr>';
+    return summary + detail;
+  }
+
+  function wireOppExpanders(wrap){
+    Array.prototype.forEach.call(wrap.querySelectorAll('.opp-toggle-btn'), function(btn){
+      btn.addEventListener('click', function(){
+        var row = document.getElementById(btn.getAttribute('data-target'));
+        row.hidden = !row.hidden;
+        btn.textContent = row.hidden ? 'Details' : 'Hide';
+      });
+    });
   }
 
   function renderJobTable(){
@@ -455,11 +477,12 @@ footer a{color:var(--accent)}
     }
     wrap.innerHTML = '<a class="opp-global-open" href="https://erp.iitkgp.ac.in/IIT_ERP3/" target="_blank" rel="noopener noreferrer">Open ERP to apply, view full JD, or view an applied resume</a>'+
       '<div class="opp-table-wrap"><table class="opp-table"><thead><tr>'+
-      '<th>Company &amp; role</th><th>CTC</th><th>Status</th><th>Resume opens</th><th>Deadline</th>'+
+      '<th>Company &amp; role</th><th>CTC</th><th>Status</th><th>Resume opens</th><th>Deadline</th><th></th>'+
       '</tr></thead><tbody>'+data.companies.map(oppRow).join('')+'</tbody></table></div>';
     Array.prototype.forEach.call(wrap.querySelectorAll('.opp-status-select'), function(sel){
       sel.addEventListener('change', function(){ saveStatus(sel.getAttribute('data-id'), sel.value); });
     });
+    wireOppExpanders(wrap);
   }
 
   function loadCompanies(){
