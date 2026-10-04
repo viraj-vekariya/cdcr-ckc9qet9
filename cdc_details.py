@@ -110,17 +110,17 @@ def enrich_notices(context, rows):
         page.close()
     print(f'Full notice text: {done} retrieved, {sum(r["text_source"] == "full_notice" for r in rows)} total verified')
 
-def _find_frame(page, url_part, timeout_s=15):
-    """Playwright's `page.frames` can lag a moment behind the DOM: the
-    iframe's `src` attribute (what `.wait_for()` on a CSS locator checks)
-    can be set before Playwright's own frame-tracking has registered a
-    matching Frame object with that `.url` -- a single `next(...)` lookup
-    right after the locator wait can miss a frame that's genuinely about to
-    be there. Confirmed live 29 Sep 2026 in a real (non-headless) browser:
-    every selector this module uses is correct and the dialog/iframe/content
-    all load fine -- the cloud runner's "job/company detail did not load"
-    failures were exactly this race, not a broken selector. Poll instead of
-    checking once."""
+def _find_frame(page, url_part, timeout_s=45):
+    """Playwright's `page.frames` only registers a real `.url` once the
+    iframe's own cross-origin navigation actually finishes -- the DOM `src`
+    attribute (what `.wait_for()` on a CSS locator checks) is set first and
+    is not proof the navigation is done. ROOT CAUSE, confirmed 4 Oct 2026 by
+    reproducing this exact click locally: on the user's own network the
+    frame resolves in ~2s, but GitHub's free-tier runners run from a
+    US/EU datacenter, and the round trip to erp.iitkgp.ac.in from there
+    routinely took longer than the 15s this used to poll for -- every
+    selector in this module is correct, this was never a broken locator,
+    just real geographic network latency the old budget didn't cover."""
     end = time.monotonic() + timeout_s
     while time.monotonic() < end:
         for f in page.frames:
