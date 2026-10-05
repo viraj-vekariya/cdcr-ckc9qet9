@@ -1,8 +1,8 @@
 {
- "last_updated": "2026-10-05T09:35:52Z",
+ "last_updated": "2026-10-05T12:01:44Z",
  "stats": {
   "placement": 143,
-  "internship": 774,
+  "internship": 776,
   "with_files": 171,
   "listed_downloads": 174
  },
@@ -1588,6 +1588,28 @@
    }
   ],
   "internship": [
+   {
+    "id": "987",
+    "type": "INTERNSHIP",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "AXIS BANK",
+    "notice": "The Pre-Placement Talk for Axis Bank for Business Intelligence Unit role, will be held on 5th October, 2026 from 5:30 PM in online mode.\n\nMeeting link: https://teams.microsoft.com/meet/486465285641565?p=LqtUD1vxneNapxeTHf\nMeeting ID: 486 465 285 641 565\nPasscode: jm34Te7n\n\nNote: All internship registered eligible students are supposed to attend the PPT without fail. Attendance will be recorded, and only those attending will be considered for the further processes. Students are advised to be present 15 minutes prior to the scheduled time.\n\nPOC: Aditya Ghosh (+91 6295 916 930)\n\nCDC, IIT Kharagpur",
+    "noticeat": "05-10-2026 16:17",
+    "text_source": "full_notice",
+    "source_hash": "2a720276ba8dc2c76de85b6e90c4f3bdfd8e575e8b4b6199d1627058508fb9e6",
+    "has_download": false
+   },
+   {
+    "id": "986",
+    "type": "INTERNSHIP",
+    "subject": "CV Submission",
+    "company": "IBM",
+    "notice": "The CV submission of IBM for all the roles has been opened till 11:59 PM, 6th October 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "05-10-2026 15:40",
+    "text_source": "full_notice",
+    "source_hash": "f21f5275bdc80c0c826a2f06f342f84de2722b0b3b3928cacced513d79219e69",
+    "has_download": false
+   },
    {
     "id": "983",
     "type": "INTERNSHIP",
