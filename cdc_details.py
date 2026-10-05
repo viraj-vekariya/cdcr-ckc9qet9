@@ -42,7 +42,13 @@ def _parse_job_detail(text):
     out = {'form_type': '', 'cgpa_cutoff': '', 'description': '', 'eligibility_summary': '', 'eligibility_full': ''}
     lines = text.split('\n')
     for i, line in enumerate(lines):
-        if line.strip() == 'Form Type' and i + 1 < len(lines):
+        # The header row is ONE tab-joined line ("Form Type\tDesignation\t...
+        # \tCGPA Cut-off"), not a bare "Form Type" line with headers below it
+        # -- confirmed live 6 Oct 2026 against 4 real dialogs (3 SquarePoint
+        # roles + Trexquant), all with the exact same shape. The old `==`
+        # check never matched, so form_type/cgpa_cutoff were silently empty
+        # on every single real capture this function has ever been run on.
+        if line.strip().startswith('Form Type') and i + 1 < len(lines):
             cells = lines[i + 1].split('\t')
             if len(cells) >= 6:
                 out['form_type'] = cells[0].strip()
