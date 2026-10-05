@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-10-05T12:01:44Z",
+ "last_updated": "2026-10-05T13:01:43Z",
  "stats": {
-  "placement": 143,
+  "placement": 144,
   "internship": 776,
   "with_files": 171,
   "listed_downloads": 174
  },
  "categories": {
   "placement": [
+   {
+    "id": "988",
+    "type": "PLACEMENT",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "Houlihan Lokey",
+    "notice": "The Pre-Placement Talk for Houlihan Lokey for Analyst role, will be held on 6th October, 2026 from 6:00 PM in offline mode.\n\nVenue: V4, Vikramshila Auditorium.\n\nNote: All placement registered eligible students are supposed to attend the PPT without fail. Attendance will be recorded, and only those attending will be considered for the further processes. Students are advised to be present 15 minutes prior to the scheduled time.\n\nPOC: Aryan (+91 81003 03122)\n\nCDC, IIT Kharagpur",
+    "noticeat": "05-10-2026 17:31",
+    "text_source": "full_notice",
+    "source_hash": "2942b9fa0a95a3b0a21eaadaf16a8d5494eebf3b6d43abfafcc1771a17b785d4",
+    "has_download": false
+   },
    {
     "id": "985",
     "type": "PLACEMENT",
