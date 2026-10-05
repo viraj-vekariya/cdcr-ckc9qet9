@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-10-05T04:29:31Z",
+ "last_updated": "2026-10-05T05:35:44Z",
  "stats": {
-  "placement": 140,
+  "placement": 141,
   "internship": 773,
   "with_files": 171,
   "listed_downloads": 174
  },
  "categories": {
   "placement": [
+   {
+    "id": "981",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "SQUAREPOINT CAPITAL",
+    "notice": "Company: SQUAREPOINT CAPITAL\n\nUpdate: The CV submission for all roles has been extended.\n\nDeadline: 11:59 PM, 5th October 2026\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "05-10-2026 10:44",
+    "text_source": "full_notice",
+    "source_hash": "31e146517fb2bf26195e8c54e788f342c4a591db42f542eebd7b713a2cbd1293",
+    "has_download": false
+   },
    {
     "id": "977",
     "type": "PLACEMENT",
