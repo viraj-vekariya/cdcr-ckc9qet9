@@ -1,8 +1,8 @@
 {
- "last_updated": "2026-10-05T15:02:18Z",
+ "last_updated": "2026-10-05T16:02:12Z",
  "stats": {
   "placement": 144,
-  "internship": 776,
+  "internship": 779,
   "with_files": 171,
   "listed_downloads": 174
  },
@@ -1599,6 +1599,39 @@
    }
   ],
   "internship": [
+   {
+    "id": "991",
+    "type": "INTERNSHIP",
+    "subject": "CV Submission",
+    "company": "PwC AC",
+    "notice": "The CV submission of PwC AC has been opened till 11:59 PM, 6th October 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "05-10-2026 20:55",
+    "text_source": "full_notice",
+    "source_hash": "4b0a6c873536bbe5c0cab2e88f5567436a70cb12ff873232d7037771bcb96e82",
+    "has_download": false
+   },
+   {
+    "id": "990",
+    "type": "INTERNSHIP",
+    "subject": "CV Submission",
+    "company": "Axis Bank",
+    "notice": "The CV submission of Axis Bank has been opened till 11:59 PM, 6th October 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "05-10-2026 20:54",
+    "text_source": "full_notice",
+    "source_hash": "19fbc61d4aa95cf633b66ef7b545d2eca504e9b51d94ee8c6fc43d07ab16cf2f",
+    "has_download": false
+   },
+   {
+    "id": "989",
+    "type": "INTERNSHIP",
+    "subject": "CV Submission",
+    "company": "Maxim AI",
+    "notice": "The CV submission of Maxim AI has been opened till 11:59 PM, 6th October 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "05-10-2026 20:53",
+    "text_source": "full_notice",
+    "source_hash": "c5b4d0c93ef8b562d31f2e4d091508fc6289a85b0cc4eda0b370a55ad916dce5",
+    "has_download": false
+   },
    {
     "id": "987",
     "type": "INTERNSHIP",
