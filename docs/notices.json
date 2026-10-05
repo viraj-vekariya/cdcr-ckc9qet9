@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-10-05T05:35:44Z",
+ "last_updated": "2026-10-05T06:35:36Z",
  "stats": {
-  "placement": 141,
+  "placement": 142,
   "internship": 773,
   "with_files": 171,
   "listed_downloads": 174
  },
  "categories": {
   "placement": [
+   {
+    "id": "982",
+    "type": "PLACEMENT",
+    "subject": "PPO",
+    "company": "Microsoft",
+    "notice": "Microsoft has extended the offer to the following student(s):\n\nFAZAL HAYAT KHAN - 23EC10091\n\nCHARNIYA KRISH - 23CS10012\n\nAIMAN ASHNA - 23EE10005\n\nADITHYA ANANTHANARAYANAN - 23EE10003\n\nAANCHAL BAHETI - 22EE38001\n\nRAGHAVKRISHNA RAMASAMY CHANDRAKUMAR - 23EE10050\n\nPRACHETA SAHA - 22CS30042\n\nThe students are advised to give offer acceptance by 5.10.26.\n\n(For more details, check your email ID.)\n\nCDC, IIT Kharagpur",
+    "noticeat": "05-10-2026 11:41",
+    "text_source": "full_notice",
+    "source_hash": "d3b79d320b08bdcd8742e013efdd927f223194567e0e8d8a1a84796fe39a2749",
+    "has_download": false
+   },
    {
     "id": "981",
     "type": "PLACEMENT",
