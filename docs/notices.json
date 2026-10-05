@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-10-05T06:35:36Z",
+ "last_updated": "2026-10-05T07:35:47Z",
  "stats": {
-  "placement": 142,
-  "internship": 773,
+  "placement": 143,
+  "internship": 774,
   "with_files": 171,
   "listed_downloads": 174
  },
  "categories": {
   "placement": [
+   {
+    "id": "985",
+    "type": "PLACEMENT",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "IPIM",
+    "notice": "The IPIM mock interviews scheduled on 5th October 2026 will be open for walk in interviews and will conclude by 2:30 PM.\n\nVenue: Panel Rooms (near the CDC Office)\n\nMake full use of this opportunity to get personalized feedback from industry experts and boost your interview readiness.\n\n\u200bBest wishes for your placement preparation.\n\n\u200b\n\nCDC, IIT Kharagpur",
+    "noticeat": "05-10-2026 12:08",
+    "text_source": "full_notice",
+    "source_hash": "a1b2d0942d8b6d862bc88b233ace065289939e9dd2f5d3814da2295e32847d9e",
+    "has_download": false
+   },
    {
     "id": "982",
     "type": "PLACEMENT",
@@ -1577,6 +1588,17 @@
    }
   ],
   "internship": [
+   {
+    "id": "983",
+    "type": "INTERNSHIP",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "VISA",
+    "notice": "The Pre-Placement Talk for VISA is scheduled on, 5th October 2026 from 7:00 PM onwards\n\nLink: https://teams.microsoft.com/meet/272096879138113?p=9ulPVuJeXOXAvpamwT\n\nPoC: Khush (+91 99221 68000)\n\nNote: All interested and eligible students are required to attend the PPT without fail. Attendance is compulsory.\n\nCDC, IIT Kharagpur",
+    "noticeat": "05-10-2026 12:00",
+    "text_source": "full_notice",
+    "source_hash": "39369d5eb0cf2195d3dd723055c97d19cbb4fca3810fbd05bf6a55432edda277",
+    "has_download": false
+   },
    {
     "id": "980",
     "type": "INTERNSHIP",
