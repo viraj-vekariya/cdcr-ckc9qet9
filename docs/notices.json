@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-10-06T20:42:42Z",
+ "last_updated": "2026-10-06T21:42:36Z",
  "stats": {
-  "placement": 150,
+  "placement": 151,
   "internship": 786,
   "with_files": 174,
   "listed_downloads": 177
  },
  "categories": {
   "placement": [
+   {
+    "id": "1008",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "SQUAREPOINT CAPITAL",
+    "notice": "Please note that the test for Squarepoint Capital for all the three roles is scheduled on 7th October 2026 from 7:00 PM onwards. All the eligible students are required to fill the additional details form shared with them over their respective email IDs before 11:59 AM, 7th October 2026. The room allocation and the role wise schedule will be released shortly.\n\nNote: Students are required to carry their Institute ID card and must report at least 15 minutes prior to the test.\n\nPOC: Devansh (7999892181), Vatsal (9234457393)\n\nCDC, IIT Kharagpur",
+    "noticeat": "07-10-2026 03:01",
+    "text_source": "full_notice",
+    "source_hash": "96fe9e128959ba8420764cbc13cbd1f616a05f4d6bc9f8ee63758e3d2bfafeff",
+    "has_download": false
+   },
    {
     "id": "1005",
     "type": "PLACEMENT",
