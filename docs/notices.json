@@ -1,10 +1,10 @@
 {
- "last_updated": "2026-10-06T09:56:26Z",
+ "last_updated": "2026-10-06T10:56:36Z",
  "stats": {
   "placement": 147,
-  "internship": 782,
-  "with_files": 172,
-  "listed_downloads": 175
+  "internship": 783,
+  "with_files": 173,
+  "listed_downloads": 176
  },
  "categories": {
   "placement": [
@@ -1632,6 +1632,18 @@
    }
   ],
   "internship": [
+   {
+    "id": "1000",
+    "type": "INTERNSHIP",
+    "subject": "Shortlist",
+    "company": "TRILOGY",
+    "notice": "PFA the test shortlist for TRILOGY.\n\nThe Assessment is scheduled on 6th October, 07:00 P.\n\nM. onwards.\nThe Test slots have been shared on your registered Email ID.\n\nVenue: Respective Location\n\nPOC: Khush (+91 9922168000), Ashutosh (+91 8840104367)\n\nCDC, IIT Kharagpur",
+    "noticeat": "06-10-2026 16:21",
+    "text_source": "full_notice",
+    "source_hash": "d1d8a18e62255124318a61ac1a57e89c27c77ae994908853bf98aad9550cb15f",
+    "has_download": true,
+    "file": "files/1000.pdf"
+   },
    {
     "id": "999",
     "type": "INTERNSHIP",
