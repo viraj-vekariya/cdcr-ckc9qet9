@@ -1,13 +1,35 @@
 {
- "last_updated": "2026-10-06T11:57:22Z",
+ "last_updated": "2026-10-06T14:41:58Z",
  "stats": {
-  "placement": 147,
+  "placement": 149,
   "internship": 784,
   "with_files": 173,
   "listed_downloads": 176
  },
  "categories": {
   "placement": [
+   {
+    "id": "1003",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "SQUAREPOINT CAPITAL",
+    "notice": "All the applicants of Squarepoint Capital for all the roles are requested to fill the form given below for additional details by 11:59 PM, 6th October 2026.\n\nNote: It is mandatory for all the applicants to fill the form within the given deadline, else you wont be considered for the further process.\n\nForm \n\nLink: https://forms.gle/WFEAJzzdJY1Yyn266\n\nThe eligible students are advised to fill the form within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur.",
+    "noticeat": "06-10-2026 20:09",
+    "text_source": "full_notice",
+    "source_hash": "927b4940be07261fdffdb0f0d0588a40d38f441d6d9e8d9a531a67a9fb0fd2b4",
+    "has_download": false
+   },
+   {
+    "id": "1002",
+    "type": "PLACEMENT",
+    "subject": "PPO",
+    "company": "Cryogas Equipment Pvt. Ltd.",
+    "notice": "Cryogas Equipment Pvt. Ltd. has extended the offer to the following student(s):\n\nKARRI NIRANJAN KUMAR - 25CR60R06\n\nThe students are advised to give offer acceptance by 06.10.2026.\n\n(For more details, check your email ID.)\n\nCDC, IIT Kharagpur",
+    "noticeat": "06-10-2026 18:04",
+    "text_source": "full_notice",
+    "source_hash": "019a82f790d7e10faaf374a7db6546c33df65a8f27a19f3d3597ce9a5b09947b",
+    "has_download": false
+   },
    {
     "id": "997",
     "type": "PLACEMENT",
