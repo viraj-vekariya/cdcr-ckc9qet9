@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-10-06T06:56:14Z",
+ "last_updated": "2026-10-06T07:56:32Z",
  "stats": {
-  "placement": 146,
-  "internship": 780,
+  "placement": 147,
+  "internship": 781,
   "with_files": 171,
   "listed_downloads": 174
  },
  "categories": {
   "placement": [
+   {
+    "id": "997",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "CDC Placement Process 2026-27",
+    "notice": "All students eligible for placement are hereby informed that no placement assessments will be conducted from 17th October 2026 to 21st October 2026, in view of the Autumn Break/Durga Puja Break.\n\nPlacement assessments may resume from 22nd October 2026. Further details regarding the assessment schedule will be communicated in due course.\n\nStudents are advised to take note of the above and plan accordingly.\n\nCDC, IIT Kharagpur",
+    "noticeat": "06-10-2026 12:36",
+    "text_source": "full_notice",
+    "source_hash": "e430691228c82918af7db407d4d85cf0bae0dbe112aec673aece8f26dd740c15",
+    "has_download": false
+   },
    {
     "id": "993",
     "type": "PLACEMENT",
@@ -1621,6 +1632,17 @@
    }
   ],
   "internship": [
+   {
+    "id": "998",
+    "type": "INTERNSHIP",
+    "subject": "CV Submission",
+    "company": "AXIS BANK",
+    "notice": "The CV submission of AXIS BANK has been extended till 05:59 PM, 6th October 2026.\n\nIt is mandatory for all the students who apply on ERP to fill out the following Additional Details form attached below:\n\nLink: https://forms.gle/oCvS23UEUZSnNhs38\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "06-10-2026 13:09",
+    "text_source": "full_notice",
+    "source_hash": "1436e6ec56513e29bbbc0546cdc284a7c00544f06d4e803f5a7a2c2030e5f205",
+    "has_download": false
+   },
    {
     "id": "994",
     "type": "INTERNSHIP",
