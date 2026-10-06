@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-10-06T04:31:57Z",
+ "last_updated": "2026-10-06T06:56:14Z",
  "stats": {
-  "placement": 145,
-  "internship": 779,
+  "placement": 146,
+  "internship": 780,
   "with_files": 171,
   "listed_downloads": 174
  },
  "categories": {
   "placement": [
+   {
+    "id": "993",
+    "type": "PLACEMENT",
+    "subject": "PPO",
+    "company": "ADOBE",
+    "notice": "ADOBE - Product has extended the offer to the following student(s):\n\nUTSAVI JITENDRA GOHIL - 22CS30058\n\nRAHATE TANISHKA SHIVENDRA - 22CS30044\n\nADHIRAJ SINGH BRAR - 23CH10087\n\nMAURYAVARDHAN SINGH - 23ME10048\n\nGANTA DEVI ABHIJNA 22CS30024\n\nThe students are advised to give offer acceptance by 06.10.26.\n\n(For more details, check your email ID.)\n\nCDC, IIT Kharagpur",
+    "noticeat": "06-10-2026 11:24",
+    "text_source": "full_notice",
+    "source_hash": "c08e43de2184a0dcf5003a882628e44363c1cd0c1440e21621946ed2ace912a4",
+    "has_download": false
+   },
    {
     "id": "992",
     "type": "PLACEMENT",
@@ -1610,6 +1621,17 @@
    }
   ],
   "internship": [
+   {
+    "id": "994",
+    "type": "INTERNSHIP",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "MOTILAL OSWAL FINANCIAL SERVICES LIMITED",
+    "notice": "The Pre-Placement Talk for Motilal Oswal, will be held on 6th October, 2026 from 6:00 PM in online mode.\n\nMeeting link: https://us05web.zoom.us/j/85845485621?pwd=9uiInIrwJEJara8Erpk2fIxDmjWqdh.1\n\nMeeting ID: 858 4548 5621\nPasscode: hHy2RJ\n\nNote: All internship registered eligible students are supposed to attend the PPT without fail. Attendance will be recorded, and only those attending will be considered for the further processes. Students are advised to be present 15 minutes prior to the scheduled time.\n\nPOC: Rudra (+91 8235755257)\n\nCDC, IIT Kharagpur",
+    "noticeat": "06-10-2026 12:03",
+    "text_source": "full_notice",
+    "source_hash": "057ddfe0e727ce5b8929fcd4e668b5038918e04192fb1ba48dc8d60a0f230c64",
+    "has_download": false
+   },
    {
     "id": "991",
     "type": "INTERNSHIP",
