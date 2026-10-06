@@ -1,0 +1,12 @@
+name: dns-check
+on: workflow_dispatch
+jobs:
+  dns:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          for r in "" @8.8.8.8 @1.1.1.1; do echo "== resolver ${r:-default}"; dig +short +time=5 erp.iitkgp.ac.in $r; done
+          echo "== NS"; dig +short NS iitkgp.ac.in @8.8.8.8
+          for ns in $(dig +short NS iitkgp.ac.in @8.8.8.8); do echo "== auth $ns"; dig +short +time=5 erp.iitkgp.ac.in @$ns; done
+          echo "== trace"; dig +trace +time=5 erp.iitkgp.ac.in | tail -15
+          curl -s -o /dev/null -w "HTTP %{http_code} %{time_total}s\n" --max-time 20 https://erp.iitkgp.ac.in/IIT_ERP3/ || echo "curl failed $?"
