@@ -102,7 +102,8 @@ footer a{color:var(--accent)}
 .opp-table tr.opp-row:hover{background:var(--surface-2)}
 .opp-company{font:700 14px "Fraunces",Georgia,serif;margin:0}
 .opp-role{color:var(--text-dim);font-size:12.5px;margin:2px 0 0}
-.opp-status-select{font:600 12.5px "IBM Plex Sans";color:var(--text);background:var(--surface);border:1px solid var(--border);border-radius:7px;padding:6px 8px}.opp-toggle-btn{font:600 12px "IBM Plex Sans";color:var(--accent);background:none;border:1px solid var(--border);border-radius:6px;padding:5px 10px;cursor:pointer;white-space:nowrap}.opp-detail-row td{background:var(--surface-2)}.opp-detail{padding:6px 2px}.opp-detail h4{font:700 12px "IBM Plex Sans";text-transform:uppercase;letter-spacing:.04em;color:var(--text-dim);margin:0 0 6px}.opp-detail h4:not(:first-child){margin-top:16px}.opp-desc{font-size:13.5px;line-height:1.6;color:var(--text);white-space:pre-wrap}.opp-eligibility-note{font-size:13px;color:var(--text-dim);margin-top:6px}.opp-detail details{margin-top:8px}.opp-detail summary{cursor:pointer;font-weight:600;font-size:12.5px;color:var(--accent)}.opp-detail pre{white-space:pre-wrap;overflow-wrap:anywhere;font:inherit;line-height:1.6;font-size:12.5px;color:var(--text-dim);max-height:260px;overflow:auto;margin:8px 0 0;padding:8px;background:var(--surface);border-radius:8px}.opp-empty{font-size:13px;color:var(--text-dim);font-style:italic}
+.opp-status-select{font:600 12.5px "IBM Plex Sans";color:var(--text);background:var(--surface);border:1px solid var(--border);border-radius:7px;padding:6px 8px}.opp-toggle-btn{font:600 12px "IBM Plex Sans";color:var(--accent);background:none;border:1px solid var(--border);border-radius:6px;padding:5px 10px;cursor:pointer;white-space:nowrap}.opp-detail-row td{background:var(--surface-2)}.opp-detail{padding:6px 2px}.opp-detail h4{font:700 12px "IBM Plex Sans";text-transform:uppercase;letter-spacing:.04em;color:var(--text-dim);margin:0 0 6px}.opp-detail h4:not(:first-child){margin-top:16px}.opp-desc{font-size:13.5px;line-height:1.6;color:var(--text);white-space:pre-wrap}.opp-eligibility-note{font-size:13px;color:var(--text-dim);margin-top:6px}.opp-detail details{margin-top:8px}.opp-detail summary{cursor:pointer;font-weight:600;font-size:12.5px;color:var(--accent)}.opp-detail pre{white-space:pre-wrap;overflow-wrap:anywhere;font:inherit;line-height:1.6;font-size:12.5px;color:var(--text-dim);max-height:260px;overflow:auto;margin:8px 0 0;padding:8px;background:var(--surface);border-radius:8px}.opp-facts{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 14px}.opp-fact{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:6px 10px;font-size:12.5px}.opp-fact b{display:block;font:600 10px "IBM Plex Sans";text-transform:uppercase;letter-spacing:.04em;color:var(--text-dim);margin-bottom:2px}.opp-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.6fr);gap:14px}@media (max-width:720px){.opp-grid{grid-template-columns:minmax(0,1fr)}.opp-detail{position:sticky;left:0;width:calc(100vw - 54px)}}.opp-card{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:14px 16px;min-width:0}.opp-card h4{margin-top:0!important}.opp-jd p{margin:0 0 10px;font-size:13.5px;line-height:1.6}.opp-jd ul{margin:0 0 10px;padding-left:18px;font-size:13.5px;line-height:1.55}.opp-jd li{margin-bottom:4px}.opp-jd .opp-sub{font:700 12.5px "IBM Plex Sans";margin:12px 0 4px}.opp-kv{display:grid;grid-template-columns:max-content 1fr;gap:5px 14px;font-size:13px;margin:0}.opp-kv dt{color:var(--text-dim)}.opp-kv dd{margin:0;overflow-wrap:anywhere}.opp-about{font-size:13px;line-height:1.6;margin:10px 0 0;color:var(--text)}.opp-detail a{color:var(--accent)}.opp-chips{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 10px}.opp-chip{font-size:12px;border-radius:999px;padding:3px 10px;border:1px solid var(--border)}.opp-chip.yes{border-color:var(--accent);color:var(--accent);font-weight:600}.opp-chip.no{color:var(--text-dim);text-decoration:line-through}.opp-more-btn{font:600 12.5px "IBM Plex Sans";color:var(--accent);background:none;border:1px solid var(--border);border-radius:7px;padding:6px 12px;cursor:pointer;margin-top:4px}.opp-more{margin-top:10px}.opp-toggle-btn[aria-expanded="true"]{background:var(--accent);color:var(--accent-contrast);border-color:var(--accent)}
+.opp-empty{font-size:13px;color:var(--text-dim);font-style:italic}
 .opp-table-wrap{overflow-x:auto}
 .opp-global-open{display:inline-block;margin:2px 0 16px;font:600 13px "IBM Plex Sans";color:var(--accent-contrast);background:var(--accent);padding:9px 16px;border-radius:8px;text-decoration:none}
 .source-note{font-size:12px;color:var(--text-dim);margin-top:12px}
@@ -425,6 +426,116 @@ footer a{color:var(--accent)}
     safeStore(function(){ localStorage.setItem(statusKey(id), value); }, null);
   }
 
+
+  // ---- structured detail panel (7 Oct 2026 redesign) ----
+  // ERP pages are "Label<TAB>Value" lines; turn them into {label: value}.
+  function parseKV(text){
+    var out = {}, order = [], last = null;
+    String(text||'').split('\n').forEach(function(line){
+      var t = line.split('\t');
+      var k = (t[0]||'').trim(), v = t.slice(1).join(' ').trim();
+      if (t.length > 1 && k) { out[k] = v; order.push(k); last = k; }
+      else if (t.length > 1 && !k && v && last) { out[last] += ' ' + v; }
+      else if (k && last && !/[:]$/.test(k) && order.length) { out[last] += '\n' + k; }
+    });
+    out._order = order;
+    return out;
+  }
+  function jobFacts(c){
+    // header row of the job page: Form Type | Designation | CTC | Bond | Additional Criteria | CGPA
+    var lines = String(c.details||'').split('\n'), cells = [];
+    for (var i = 0; i < lines.length - 1; i++) {
+      if (/^\s*Form Type/.test(lines[i])) { cells = lines[i+1].split('\t'); break; }
+    }
+    var cell = function(n){ return (cells[n]||'').trim(); };
+    return {form: c.form_type || cell(0), ctc: cell(2), bond: cell(3), extra: cell(4), cgpa: c.cgpa_cutoff || cell(5)};
+  }
+  // Job description: drop ERP boilerplate, split into paragraphs, bullets and
+  // inline sub-headings ("Requirements", "Your Responsibilities:" ...).
+  function formatJD(raw){
+    var t = String(raw||'').replace(/View More Details[\s\S]*$/i, '').replace(/Click Here for more details\s*$/i, '')
+      .replace(/^\s*Description\s+/, '').trim();
+    if (!t) return '';
+    t = t.replace(/\s+(Your Responsibilities:?|Responsibilities:?|Requirements:?|Qualifications:?|Benefits:?|What you.ll do:?|What we.re looking for:?|Typical Day of [^•:]+?(?=\s•)|Overview of [^:]+:)\s*/g, '\n##$1\n');
+    var html = '';
+    t.split(/\s*\|\s*|\n/).forEach(function(block){
+      block = block.trim(); if (!block) return;
+      if (block.indexOf('##') === 0) { html += '<p class="opp-sub">'+esc(block.slice(2).replace(/:$/,''))+'</p>'; return; }
+      var parts = block.split(/\s*•\s*/);
+      var lead = parts.shift().trim();
+      if (lead) html += '<p>'+linkify(lead)+'</p>';
+      var items = parts.map(function(x){ return x.replace(/[,;]\s*$/,'').trim(); }).filter(Boolean);
+      if (items.length) html += '<ul>'+items.map(function(x){ return '<li>'+linkify(x)+'</li>'; }).join('')+'</ul>';
+    });
+    return html;
+  }
+  function companyCard(c){
+    if (!c.company_details) return '<p class="opp-empty">Not captured yet.</p>';
+    var kv = parseKV(c.company_details);
+    var city = kv['City']||'', addr = (kv['Address']||'').trim();
+    var place = [addr && addr.toLowerCase() !== city.toLowerCase() ? addr : '', city, kv['Zipcode'], kv['Country']]
+      .filter(Boolean).join(', ');
+    var site = kv['Website']||'';
+    var rows = [
+      ['Location', esc(place)],
+      ['Website', site ? '<a href="'+esc(/^https?:/i.test(site)?site:'https://'+site)+'" target="_blank" rel="noopener noreferrer">'+esc(site.replace(/^https?:\/\//,'').replace(/\/$/,''))+'</a>' : ''],
+      ['Sector', esc(kv['Sector']||'')],
+      ['Type', esc(kv['Category']||'')],
+      ['Employees', esc(kv['Employee Strength']||'')],
+      ['Turnover', esc(kv['Annual Turnover']||'')]
+    ].filter(function(r){ return r[1]; });
+    return '<dl class="opp-kv">'+rows.map(function(r){ return '<dt>'+r[0]+'</dt><dd>'+r[1]+'</dd>'; }).join('')+'</dl>'+
+      (kv['About the company'] ? '<p class="opp-about">'+linkify(kv['About the company'])+'</p>' : '');
+  }
+  // Selection-process signals, read from the full job form ("more details").
+  var PROCESS_STEPS = [
+    ['Resume shortlist', /resume\s*short\s*list|shortlist(ing)?\s*(based on|from)\s*(cv|resume)/i],
+    ['Online assessment', /online\s*(test|assessment|coding)|written\s*test|aptitude\s*test|\bOA\b/i],
+    ['Group discussion', /group\s*discussion|\bGD\b/i],
+    ['Technical interview', /technical\s*interview/i],
+    ['HR interview', /\bHR\s*interview|personal\s*interview/i],
+    ['Case study', /case\s*(study|interview)/i]
+  ];
+  function processSection(c){
+    var t = c.more_details || '';
+    if (!t) {
+      return c.more_details_url
+        ? '<p><a href="'+esc(c.more_details_url)+'" target="_blank" rel="noopener noreferrer">Open the company\'s full job document</a></p>'
+        : (c.more_checked ? '<p class="opp-empty">ERP doesn\'t list a selection process for this role.</p>'
+                         : '<p class="opp-empty">Selection process not captured yet &mdash; it comes from the job\'s &ldquo;more details&rdquo; page on the next sync.</p>');
+    }
+    var kv = parseKV(t);
+    var procKeys = kv._order.filter(function(k){ return /select|process|round|test|shortlist|interview|assessment|GD|discussion/i.test(k); });
+    var chips = PROCESS_STEPS.map(function(st){
+      var hit = procKeys.some(function(k){
+          var v = (kv[k]||'').trim(), neg = /^(no|n|nil|none|not applicable|na|n\/a)$/i.test(v);
+          return (st[1].test(k) && !neg) || (!st[1].test(k) && st[1].test(v));
+        }) ||
+        (!procKeys.length && st[1].test(t));
+      return hit ? '<span class="opp-chip yes">'+st[0]+'</span>' : '';
+    }).join('');
+    var rows = kv._order.filter(function(k){ return kv[k] && k.length < 60; });
+    return (chips ? '<div class="opp-chips">'+chips+'</div>' : '') +
+      '<button type="button" class="opp-more-btn" aria-expanded="false">More details</button>'+
+      '<div class="opp-more" hidden>'+
+        (rows.length ? '<dl class="opp-kv">'+rows.map(function(k){ return '<dt>'+esc(k)+'</dt><dd>'+linkify(kv[k])+'</dd>'; }).join('')+'</dl>'
+                     : '<div class="opp-desc">'+linkify(t)+'</div>')+
+      '</div>';
+  }
+  function oppDetailBody(c){
+    var f = jobFacts(c);
+    var facts = [['Form', f.form], ['CTC', f.ctc ? formatINR(f.ctc.replace(/\s*[A-Z]{3}$/,''))+' '+(f.ctc.match(/[A-Z]{3}$/)||[''])[0] : ''],
+                 ['CGPA cut-off', f.cgpa], ['Bond', f.bond || 'None listed'], ['Other criteria', f.extra]]
+      .filter(function(x){ return x[1]; });
+    var jd = formatJD(c.description || c.details);
+    return '<div class="opp-facts">'+facts.map(function(x){ return '<div class="opp-fact"><b>'+x[0]+'</b>'+esc(x[1])+'</div>'; }).join('')+'</div>'+
+      '<div class="opp-grid">'+
+        '<div class="opp-card" style="grid-column:1/-1"><h4>Job description</h4><div class="opp-jd">'+(jd || '<p class="opp-empty">Not captured yet.</p>')+'</div></div>'+
+        '<div class="opp-card"><h4>Selection process</h4>'+processSection(c)+'</div>'+
+        '<div class="opp-card"><h4>About the company</h4>'+companyCard(c)+'</div>'+
+      '</div>';
+  }
+
   function oppRow(c, idx){
     var expiry = c.resume_end ? new Date(c.resume_end.replace(' ','T')+':00+05:30') : null;
     var closed = expiry && !isNaN(expiry) && expiry < new Date();
@@ -439,7 +550,7 @@ footer a{color:var(--accent)}
       }).join('') + '</select>';
     var detailId = 'oppdet'+idx;
     var desc = c.description || c.details || '';
-    var hasDetail = !!(desc || c.eligibility_summary || c.company_details);
+    var hasDetail = !!(desc || c.company_details || c.more_details || c.more_details_url);
     var summary = '<tr class="opp-row">'+
       '<td><p class="opp-company">'+esc(c.company)+'</p><p class="opp-role">'+esc(c.role)+'</p></td>'+
       '<td class="mono">'+esc(formatINR(c.ctc))+'<br><span style="color:var(--text-dim);font-size:11px">('+esc(c.currency)+')</span></td>'+
@@ -448,22 +559,35 @@ footer a{color:var(--accent)}
       '<td class="mono" style="font-size:12.5px'+((closed||urgent)?';color:var(--warn)':'')+'">'+deadline.date+'<br><span style="font-size:11px'+((closed||urgent)?'':';color:var(--text-dim)')+'">'+deadline.time+(closed?' (closed)':'')+'</span></td>'+
       '<td><button class="opp-toggle-btn" data-target="'+detailId+'">Details</button></td>'+
     '</tr>';
-    var body = hasDetail ? (
-      '<h4>Job description</h4>' + (desc ? '<div class="opp-desc">'+linkify(desc)+'</div>' : '<p class="opp-empty">Not captured yet.</p>') +
-      (c.eligibility_summary ? '<p class="opp-eligibility-note">Eligibility: '+esc(c.eligibility_summary)+'</p>' : '') +
-      (c.eligibility_full ? '<details><summary>Full eligible departments &amp; degrees</summary><pre>'+esc(c.eligibility_full)+'</pre></details>' : '') +
-      '<h4>Company page</h4>' + (c.company_details ? '<div class="opp-desc">'+linkify(c.company_details)+'</div>' : '<p class="opp-empty">Not captured yet.</p>')
-    ) : '<p class="opp-empty">Not captured yet &mdash; this gets filled in on the next successful ERP sync.</p>';
+    var body = hasDetail ? oppDetailBody(c) : '<p class="opp-empty">Not captured yet &mdash; this gets filled in on the next successful ERP sync.</p>';
     var detail = '<tr class="opp-detail-row" id="'+detailId+'" hidden><td colspan="6"><div class="opp-detail">'+body+'</div></td></tr>';
     return summary + detail;
   }
 
   function wireOppExpanders(wrap){
-    Array.prototype.forEach.call(wrap.querySelectorAll('.opp-toggle-btn'), function(btn){
+    var btns = wrap.querySelectorAll('.opp-toggle-btn');
+    Array.prototype.forEach.call(btns, function(btn){
+      btn.setAttribute('aria-expanded', 'false');
       btn.addEventListener('click', function(){
         var row = document.getElementById(btn.getAttribute('data-target'));
-        row.hidden = !row.hidden;
-        btn.textContent = row.hidden ? 'Details' : 'Hide';
+        var opening = row.hidden;
+        // one panel at a time: opening a row closes whichever was open
+        Array.prototype.forEach.call(btns, function(b){
+          document.getElementById(b.getAttribute('data-target')).hidden = true;
+          b.textContent = 'Details'; b.setAttribute('aria-expanded', 'false');
+        });
+        if (opening) {
+          row.hidden = false; btn.textContent = 'Hide'; btn.setAttribute('aria-expanded', 'true');
+          var top = btn.closest('tr').getBoundingClientRect().top;
+          if (top < 0) btn.closest('tr').scrollIntoView({block: 'start', behavior: 'smooth'});
+        }
+      });
+    });
+    Array.prototype.forEach.call(wrap.querySelectorAll('.opp-more-btn'), function(b){
+      b.addEventListener('click', function(){
+        var box = b.nextElementSibling, open = box.hidden;
+        box.hidden = !open; b.textContent = open ? 'Hide details' : 'More details';
+        b.setAttribute('aria-expanded', String(open));
       });
     });
   }
