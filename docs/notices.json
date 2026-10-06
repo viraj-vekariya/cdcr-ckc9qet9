@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-10-06T15:42:08Z",
+ "last_updated": "2026-10-06T16:42:40Z",
  "stats": {
   "placement": 150,
   "internship": 784,
@@ -9,14 +9,14 @@
  "categories": {
   "placement": [
    {
-    "id": "1004",
+    "id": "1005",
     "type": "PLACEMENT",
     "subject": "PPT/Workshop/Seminars etc",
     "company": "SQUAREPOINT CAPITAL",
-    "notice": "The Pre-Placement Talk (for all the roles) of Squarepoint Capital is scheduled on 6th October, 2026 from 6:00 PM.\n\nMode: Offline\n\nVenue: NR 221, Nalanda\n\nNote : Attendance for the offline PPT for all the roles is mandatory and will be recorded. The Test will be held post the PPT. Only the students attending the PPT will be eligible for the test. Students are advised to be present 15 minutes prior to the scheduled time.\n\nPOC: Vatsal (9234457393), Devansh (7999892181).\n\nCDC, IIT Kharagpur.",
-    "noticeat": "06-10-2026 20:52",
+    "notice": "The Pre-Placement Talk (for all the roles) of Squarepoint Capital with updated scheduled is on 7th October, 2026 from 6:00 PM.\n\nMode: Offline\n\nVenue: NR 221, Nalanda\n\nNote : Attendance for the offline PPT for all the roles is mandatory and will be recorded. The Test will be held post the PPT. Only the students attending the PPT will be eligible for the test. Students are advised to be present 15 minutes prior to the scheduled time.\n\nPOC: Vatsal (9234457393), Devansh (7999892181).\n\nCDC, IIT Kharagpur.",
+    "noticeat": "06-10-2026 21:16",
     "text_source": "full_notice",
-    "source_hash": "944558322768e9d65ac3947dc7cbe7de183e2cf28ff93738975ebe73ab145323",
+    "source_hash": "cd9b6bdc3b85e8c0c545ece7bee5e6a5199600eb478f1fb9f9f3829e17271496",
     "has_download": false
    },
    {
