@@ -1,8 +1,8 @@
 {
- "last_updated": "2026-10-06T17:41:42Z",
+ "last_updated": "2026-10-06T18:41:53Z",
  "stats": {
   "placement": 150,
-  "internship": 785,
+  "internship": 786,
   "with_files": 174,
   "listed_downloads": 177
  },
@@ -1665,6 +1665,17 @@
    }
   ],
   "internship": [
+   {
+    "id": "1007",
+    "type": "INTERNSHIP",
+    "subject": "Urgent",
+    "company": "AXIS BANK",
+    "notice": "The test for AXIS BANK has been rescheduled. The revised details are as follows:\n\nTime: 7th October 2026, 07:00 PM onwards\n\nVenue: Respective Location\n\nNote: The test link and further instructions for the assessment will be communicated to the shortlisted candidates on their registered email IDs.\n\nPOC: Dishil (+91 9925492574), Aditya Ghandge (+91 9325468252)\n\nCDC, IIT Kharagpur",
+    "noticeat": "07-10-2026 00:09",
+    "text_source": "full_notice",
+    "source_hash": "062f0854fccd97ebfe9447e43bb2165606fbbc34d9943eb69e7e56430522fbaa",
+    "has_download": false
+   },
    {
     "id": "1006",
     "type": "INTERNSHIP",
