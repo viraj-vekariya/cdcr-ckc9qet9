@@ -1,10 +1,10 @@
 {
- "last_updated": "2026-10-06T16:42:40Z",
+ "last_updated": "2026-10-06T17:41:42Z",
  "stats": {
   "placement": 150,
-  "internship": 784,
-  "with_files": 173,
-  "listed_downloads": 176
+  "internship": 785,
+  "with_files": 174,
+  "listed_downloads": 177
  },
  "categories": {
   "placement": [
@@ -1665,6 +1665,18 @@
    }
   ],
   "internship": [
+   {
+    "id": "1006",
+    "type": "INTERNSHIP",
+    "subject": "Urgent",
+    "company": "AXIS BANK",
+    "notice": "PFA the shortlist for the Online Assessment of AXIS BANK.\n\nTime: 6th October 2026, 11:30 PM onwards\n\nVenue: Respective Location\n\nNote: The test link and further instructions for the assessment will be communicated to the shortlisted candidates on their registered email IDs.\n\nPOC: Vatsal (+91 9234457393), Aditya Ghandge (+91 9325468252)\n\nCDC, IIT Kharagpur",
+    "noticeat": "06-10-2026 22:51",
+    "text_source": "full_notice",
+    "source_hash": "4247f5f8102f002a569ebd1c0702f76d473832a8837c310bafd492af9aa6fa7c",
+    "has_download": true,
+    "file": "files/1006.pdf"
+   },
    {
     "id": "1001",
     "type": "INTERNSHIP",
