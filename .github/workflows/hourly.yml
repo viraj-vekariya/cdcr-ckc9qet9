@@ -40,6 +40,26 @@ jobs:
         run: |
           pip install playwright requests
           python3 -m playwright install --with-deps chromium
+      - name: Pin ERP address (runner DNS flaky for iitkgp.ac.in)
+        if: steps.gate.outputs.should_run == 'true'
+        run: |
+          # 6 Oct 2026: two cycles in a row died at login with "Failed to
+          # resolve erp.iitkgp.ac.in" -- the runner's local resolver
+          # (127.0.0.53) timed out, while 8.8.8.8/1.1.1.1 answered fine and
+          # ERP itself replied in ~1s. Resolve via public DNS with retries and
+          # pin the result in /etc/hosts so login never depends on it.
+          for i in 1 2 3 4 5; do
+            for r in 8.8.8.8 1.1.1.1 9.9.9.9; do
+              ip=$(dig +short +time=5 +tries=1 erp.iitkgp.ac.in A @$r | grep -E '^[0-9.]+$' | head -1)
+              [ -n "$ip" ] && break 2
+            done
+            sleep 5
+          done
+          if [ -n "$ip" ]; then
+            echo "$ip erp.iitkgp.ac.in" | sudo tee -a /etc/hosts
+          else
+            echo "::warning::could not resolve erp.iitkgp.ac.in via public DNS; falling back to runner DNS"
+          fi
       - name: Decrypt WhatsApp session
         id: wa_decrypt
         if: steps.gate.outputs.should_run == 'true'
