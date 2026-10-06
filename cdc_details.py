@@ -8,7 +8,7 @@ import os
 import re
 import time
 from pathlib import Path
-from urllib.parse import urlencode
+from urllib.parse import urlencode, urljoin
 from notice_text import detail_body
 
 BASE = Path(__file__).resolve().parent
@@ -116,35 +116,22 @@ def enrich_notices(context, rows):
         page.close()
     print(f'Full notice text: {done} retrieved, {sum(r["text_source"] == "full_notice" for r in rows)} total verified')
 
-def _find_frame(page, url_part, timeout_s=45):
-    """Playwright's `page.frames` only registers a real `.url` once the
-    iframe's own cross-origin navigation actually finishes -- the DOM `src`
-    attribute (what `.wait_for()` on a CSS locator checks) is set first and
-    is not proof the navigation is done. ROOT CAUSE, confirmed 4 Oct 2026 by
-    reproducing this exact click locally: on the user's own network the
-    frame resolves in ~2s, but GitHub's free-tier runners run from a
-    US/EU datacenter, and the round trip to erp.iitkgp.ac.in from there
-    routinely took longer than the 15s this used to poll for -- every
-    selector in this module is correct, this was never a broken locator,
-    just real geographic network latency the old budget didn't cover."""
-    end = time.monotonic() + timeout_s
-    while time.monotonic() < end:
-        for f in page.frames:
-            if url_part in f.url:
-                return f
-        time.sleep(0.2)
-    return None
-
-
-def _frame_dump(page):
-    """Diagnostic snapshot for when _find_frame still can't locate a frame
-    after polling -- lists every frame Playwright currently knows about, so
-    a persistent (not just momentary) mismatch is actually debuggable from
-    the run log instead of guessed at again."""
+def _direct_text(context, app, iframe_css, wait_css):
+    """Opens a dialog's iframe URL in its own tab instead of reading the
+    iframe. From GitHub's runners the dialog iframe gets its src attribute
+    but never navigates (frame url stays '' -- 16/16 failures, 4-6 Oct 2026),
+    while top-level page.goto on the same server (ShowContent.jsp in
+    enrich_notices) works every cycle. Same session cookies, no nesting."""
+    src = app.locator(iframe_css).first.get_attribute('src', timeout=5000)
+    if not src:
+        raise RuntimeError(f'{iframe_css} has no src')
+    tab = context.new_page()
     try:
-        return [f.url for f in page.frames]
-    except Exception as e:
-        return [f'<error dumping frames: {e}>']
+        tab.goto(urljoin(app.url, src), timeout=30000)
+        tab.locator(wait_css).first.wait_for(timeout=15000)
+        return tab.locator(wait_css).first.inner_text()
+    finally:
+        tab.close()
 
 
 def capture_companies(context):
@@ -186,12 +173,8 @@ def capture_companies(context):
             # from reaching the site.
             try:
                 row.locator('[aria-describedby="grid37_designation"] a').click()
-                app.locator('iframe[src*="TPJNFView.jsp"]').wait_for(timeout=20000)
-                detail = _find_frame(page, 'TPJNFView.jsp')
-                if detail is None:
-                    raise RuntimeError(f'job detail iframe never registered with Playwright -- frames now: {_frame_dump(page)}')
-                detail.locator('#ftpjnfvw').wait_for(timeout=12000)
-                text = detail.locator('#ftpjnfvw').inner_text()
+                app.locator('iframe[src*="TPJNFView.jsp"]').wait_for(state='attached', timeout=20000)
+                text = _direct_text(context, app, 'iframe[src*="TPJNFView.jsp"]', '#ftpjnfvw')
                 item['is_applied'] = 'Cancel apply' in text
                 start = text.find('Company :')
                 if start < 0:
@@ -224,12 +207,11 @@ def capture_companies(context):
 
             try:
                 row.locator('[aria-describedby="grid37_companyname"] a').click()
-                app.locator('iframe[src*="TPComView.jsp"]').wait_for(timeout=20000)
-                company_frame = _find_frame(page, 'TPComView.jsp')
-                if company_frame is None:
-                    raise RuntimeError(f'company detail iframe never registered with Playwright -- frames now: {_frame_dump(page)}')
-                company_frame.get_by_text('Company Details :', exact=True).wait_for(timeout=10000)
-                item['company_details'] = company_frame.locator('body').inner_text().replace('Print This Page', '').strip()
+                app.locator('iframe[src*="TPComView.jsp"]').wait_for(state='attached', timeout=20000)
+                body = _direct_text(context, app, 'iframe[src*="TPComView.jsp"]', 'body')
+                if 'Company Details' not in body:
+                    raise RuntimeError(f'company page has no "Company Details" ({len(body)} chars)')
+                item['company_details'] = body.replace('Print This Page', '').strip()
             except Exception as exc:
                 print(f'Company detail unavailable for {company}: {type(exc).__name__}: {str(exc)[:600]}')
             finally:
@@ -241,6 +223,19 @@ def capture_companies(context):
                     app.evaluate('document.querySelectorAll(\'iframe[src*="TPComView.jsp"]\').forEach(f => f.remove())')
                 except Exception:
                     pass
+        # A failed detail fetch must never erase details captured earlier
+        # (6 Oct 2026: hourly runs blanked the manually captured JD/company
+        # pages within an hour). Carry over any field this run left empty.
+        try:
+            old = {c['id']: c for c in json.loads((BASE / 'docs/companies.json').read_text())['companies']}
+        except (OSError, ValueError, KeyError):
+            old = {}
+        for item in results:
+            prev = old.get(item['id'], {})
+            for key in ('form_type', 'cgpa_cutoff', 'description', 'eligibility_summary',
+                        'eligibility_full', 'details', 'company_details', 'is_applied'):
+                if item.get(key) in ('', None) and prev.get(key) not in ('', None):
+                    item[key] = prev[key]
         output = {'last_updated': datetime.datetime.now(datetime.timezone.utc).isoformat(), 'companies': results,
                   'scope': 'Placement opportunities visible to the configured ERP account.'}
         (BASE / 'docs/companies.json').write_text(json.dumps(output, indent=2))
