@@ -1,8 +1,8 @@
 {
- "last_updated": "2026-10-06T10:56:36Z",
+ "last_updated": "2026-10-06T11:57:22Z",
  "stats": {
   "placement": 147,
-  "internship": 783,
+  "internship": 784,
   "with_files": 173,
   "listed_downloads": 176
  },
@@ -1632,6 +1632,17 @@
    }
   ],
   "internship": [
+   {
+    "id": "1001",
+    "type": "INTERNSHIP",
+    "subject": "Urgent",
+    "company": "AXIS BANK",
+    "notice": "The Online Assessment of AXIS BANK is scheduled from 11:30 PM onwards on 6th October, 2026.\n\nVenue: Respective Location\n\nNote: The shortlist and further instructions for the assessment will be communicated in due course.\n\nPOC: Vatsal (+91 9234457393), Aditya Ghandge (+91 9325468252)\n\nCDC, IIT Kharagpur",
+    "noticeat": "06-10-2026 16:37",
+    "text_source": "full_notice",
+    "source_hash": "9f0e12cbd18f0e100ba9f68becde24d17ebcc2d6ec549ef7971045e6bc281f35",
+    "has_download": false
+   },
    {
     "id": "1000",
     "type": "INTERNSHIP",
