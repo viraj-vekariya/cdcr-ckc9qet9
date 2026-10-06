@@ -116,6 +116,17 @@ def login(verbose=False):
         o2 = s.post(f"{SSO}/getEmilOTP.htm", data=form, timeout=30)
         if verbose: print("3b) OTP resend:", o2.status_code)
         otp = _wait_new_otp(baseline, timeout=150)
+        # 6 Oct 2026: ERP mail was slow, the resend invalidated the first
+        # code, and the first (now dead) code was the one that arrived and
+        # got used -> "ERP rejected login". After a resend, give the second
+        # mail a short window to land and always use the newest code.
+        if otp:
+            newer = _wait_new_otp(otp, timeout=45)
+            if newer:
+                otp = newer
+        resent = True
+    else:
+        resent = False
     if verbose: print("4) OTP received:", bool(otp))
     if not otp:
         return None
@@ -123,6 +134,19 @@ def login(verbose=False):
     a = s.post(f"{SSO}/auth.htm", data=form, timeout=30)
     h = s.get("https://erp.iitkgp.ac.in/IIT_ERP3/home.htm", timeout=30).text
     ok = ("Welcome" in h) and ("loginForm" not in h)
+    if not ok and resent:
+        # The code used may have been the superseded first one; if a newer
+        # code has arrived since, try it once.
+        try:
+            newer = _wait_new_otp(otp, timeout=30)
+        except Exception:
+            newer = None
+        if newer:
+            if verbose: print("   retrying with the newer OTP")
+            form["email_otp"] = newer
+            a = s.post(f"{SSO}/auth.htm", data=form, timeout=30)
+            h = s.get("https://erp.iitkgp.ac.in/IIT_ERP3/home.htm", timeout=30).text
+            ok = ("Welcome" in h) and ("loginForm" not in h)
     if verbose: print("5) LOGGED IN:", ok)
     if not ok:
         if verbose:
