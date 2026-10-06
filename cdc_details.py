@@ -116,7 +116,7 @@ def enrich_notices(context, rows):
         page.close()
     print(f'Full notice text: {done} retrieved, {sum(r["text_source"] == "full_notice" for r in rows)} total verified')
 
-def _direct_text(context, app, iframe_css, wait_css):
+def _direct_text(context, app, iframe_css, wait_css, more=False):
     """Opens a dialog's iframe URL in its own tab instead of reading the
     iframe. From GitHub's runners the dialog iframe gets its src attribute
     but never navigates (frame url stays '' -- 16/16 failures, 4-6 Oct 2026),
@@ -129,9 +129,47 @@ def _direct_text(context, app, iframe_css, wait_css):
     try:
         tab.goto(urljoin(app.url, src), timeout=30000)
         tab.locator(wait_css).first.wait_for(timeout=15000)
-        return tab.locator(wait_css).first.inner_text()
+        text = tab.locator(wait_css).first.inner_text()
+        if not more:
+            return text
+        try:
+            extra = _more_details(context, tab)
+        except Exception as exc:
+            print(f'More-details fetch failed: {type(exc).__name__}: {str(exc)[:200]}')
+            extra = {}
+        return text, extra
     finally:
         tab.close()
+
+
+def _more_details(context, tab):
+    """Follows the job page's "Click Here for more details" link (the full
+    JNF: selection process, rounds, location...). Returns {'url', 'text'};
+    an external link (company PDF/site) is kept as a URL only."""
+    link = tab.evaluate('''() => {
+        const a = [...document.querySelectorAll('a')].find(x => /click here|more details/i.test(x.innerText));
+        return a ? {href: a.getAttribute('href') || '', onclick: a.getAttribute('onclick') || '', target: a.target} : null;
+    }''')
+    if not link:
+        return {}
+    raw = link['href'] if link['href'] and not link['href'].lower().startswith('javascript') else ''
+    if not raw:
+        m = re.search(r'''['"]([^'"]+\.(?:jsp|htm|html|pdf)[^'"]*)['"]''', link['onclick'] + ' ' + link['href'])
+        raw = m.group(1) if m else ''
+    # Logged without query strings: they carry the roll number.
+    print('More-details link:', (raw or link['onclick'] or link['href'])[:160].split('?')[0])
+    if not raw:
+        return {}
+    url = urljoin(tab.url, raw)
+    if 'erp.iitkgp.ac.in' not in url or url.lower().endswith('.pdf'):
+        return {'url': url, 'text': ''}
+    page = context.new_page()
+    try:
+        page.goto(url, timeout=30000)
+        page.wait_for_load_state('domcontentloaded', timeout=15000)
+        return {'url': '', 'text': page.locator('body').inner_text().strip()}
+    finally:
+        page.close()
 
 
 def capture_companies(context):
@@ -165,7 +203,7 @@ def capture_companies(context):
                         interview=cell('interview_date_confirmed'), is_applied=None,
                         form_type='', cgpa_cutoff='', description='',
                         eligibility_summary='', eligibility_full='',
-                        details='', company_details='')
+                        details='', company_details='', more_details='', more_details_url='')
             item['id'] = hashlib.sha256((company + '\n' + role).encode()).hexdigest()[:16]
             results.append(item)
 
@@ -174,7 +212,10 @@ def capture_companies(context):
             try:
                 row.locator('[aria-describedby="grid37_designation"] a').click()
                 app.locator('iframe[src*="TPJNFView.jsp"]').wait_for(state='attached', timeout=20000)
-                text = _direct_text(context, app, 'iframe[src*="TPJNFView.jsp"]', '#ftpjnfvw')
+                text, more = _direct_text(context, app, 'iframe[src*="TPJNFView.jsp"]', '#ftpjnfvw', more=True)
+                item['more_details'] = more.get('text', '')
+                item['more_details_url'] = more.get('url', '')
+                item['more_checked'] = True
                 item['is_applied'] = 'Cancel apply' in text
                 start = text.find('Company :')
                 if start < 0:
@@ -236,7 +277,8 @@ def capture_companies(context):
         for item in results:
             prev = old.get(item['id'], {})
             for key in ('form_type', 'cgpa_cutoff', 'description', 'eligibility_summary',
-                        'eligibility_full', 'details', 'company_details', 'is_applied'):
+                        'eligibility_full', 'details', 'company_details', 'is_applied',
+                        'more_details', 'more_details_url'):
                 if item.get(key) in ('', None) and prev.get(key) not in ('', None):
                     item[key] = prev[key]
         output = {'last_updated': datetime.datetime.now(datetime.timezone.utc).isoformat(), 'companies': results,
