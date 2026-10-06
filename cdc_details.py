@@ -226,6 +226,9 @@ def capture_companies(context):
         # A failed detail fetch must never erase details captured earlier
         # (6 Oct 2026: hourly runs blanked the manually captured JD/company
         # pages within an hour). Carry over any field this run left empty.
+        fresh_jd = sum(1 for r in results if r['details'])
+        fresh_co = sum(1 for r in results if r['company_details'])
+        print(f'Fresh this run: {fresh_jd}/{len(results)} job pages, {fresh_co}/{len(results)} company pages')
         try:
             old = {c['id']: c for c in json.loads((BASE / 'docs/companies.json').read_text())['companies']}
         except (OSError, ValueError, KeyError):
