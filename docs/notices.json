@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-10-07T05:43:33Z",
+ "last_updated": "2026-10-07T06:42:10Z",
  "stats": {
-  "placement": 151,
+  "placement": 152,
   "internship": 788,
   "with_files": 174,
   "listed_downloads": 177
  },
  "categories": {
   "placement": [
+   {
+    "id": "1011",
+    "type": "PLACEMENT",
+    "subject": "PPO",
+    "company": "BP",
+    "notice": "BP has extended the offer to the following student(s):\n\nSURYANSH PANDEY - 23EX10036\n\nThe students are advised to give offer acceptance by 07.10.26.\n\n(For more details, check your email ID.)\n\nCDC, IIT Kharagpur",
+    "noticeat": "07-10-2026 11:19",
+    "text_source": "full_notice",
+    "source_hash": "cebcf8c2287b1d0b53aee70eaa7ba8e4eb157d1017605159360d5b46ab054f58",
+    "has_download": false
+   },
    {
     "id": "1008",
     "type": "PLACEMENT",
