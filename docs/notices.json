@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-10-07T09:44:14Z",
+ "last_updated": "2026-10-07T10:44:09Z",
  "stats": {
-  "placement": 152,
+  "placement": 153,
   "internship": 789,
   "with_files": 174,
   "listed_downloads": 177
  },
  "categories": {
   "placement": [
+   {
+    "id": "1013",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "SQUAREPOINT CAPITAL",
+    "notice": "Please find the test schedule of Squarepoint Capital for all the three roles. (7th October 2026)\n\nInfrastructure Engineering : 7:00 PM to 8:00 PM\n\nGraduate Software Developer : 8:15 PM to 9:15 PM\n\nDesk Quant Analyst : 9:30 PM to 10:40 PM\n\nVenue: Nalanda\n\nTest \n\nPOC: Devansh (7999892181), Vatsal (9234457393)\n\nRoom allocation will be shared shortly, students are required to be present at their allocated rooms for the test(s) corresponding to the role(s) they have applied for at the timings mentioned above for each role.\n\nStudents are advised to reach the venue 15 mins prior to the test.\n\nCDC, IIT Kharagpur",
+    "noticeat": "07-10-2026 15:34",
+    "text_source": "full_notice",
+    "source_hash": "fb02e598f2b4e392bcb77c96f7db464e558d86adff454417c0f1e022bdd0ed98",
+    "has_download": false
+   },
    {
     "id": "1011",
     "type": "PLACEMENT",
