@@ -159,7 +159,33 @@ def _more_details(context, tab):
     # Logged without query strings: they carry the roll number.
     print('More-details link:', (raw or link['onclick'] or link['href'])[:160].split('?')[0])
     if not raw:
-        return {}
+        # 7 Oct 2026: the link is onclick="jnfMoreDet(year, roll, com, jnf)" --
+        # a script, not a URL. Run it with window.open hooked and see where
+        # it goes: popup URL, a new iframe, a navigation, or a dialog.
+        code = link['onclick'] or link['href'].split(':', 1)[-1]
+        src = tab.evaluate("typeof jnfMoreDet === 'function' ? jnfMoreDet.toString() : ''")
+        print('jnfMoreDet source:', re.sub(r'\d{2}[A-Z]{2}\d{5}', '***', re.sub(r'\s+', ' ', src))[:500])
+        start_url = tab.url
+        tab.evaluate("""(code) => {
+            window.__md = {url: null, frames: [...document.querySelectorAll('iframe')].map(f => f.src)};
+            window.open = function(u){ window.__md.url = u; return {focus(){}, close(){}, document: {write(){}, close(){}}}; };
+            try { (new Function(code))(); } catch (e) { window.__md.err = String(e); }
+        }""", code)
+        tab.wait_for_timeout(3000)
+        got = tab.evaluate("""() => {
+            const md = window.__md || {};
+            const fresh = [...document.querySelectorAll('iframe')].map(f => f.src).filter(u => u && !(md.frames || []).includes(u));
+            const dlg = [...document.querySelectorAll('.ui-dialog')].filter(d => d.offsetParent !== null).map(d => d.innerText).join('\\n');
+            return {url: md.url || fresh[0] || '', err: md.err || '', dialog: dlg};
+        }""") if tab.url == start_url else {'url': tab.url, 'err': '', 'dialog': ''}
+        if got.get('err'):
+            print('jnfMoreDet error:', got['err'][:200])
+        if got.get('dialog') and not got.get('url'):
+            return {'url': '', 'text': got['dialog'].strip()}
+        raw = got.get('url') or ''
+        if not raw:
+            print('More-details: script ran but opened nothing detectable')
+            return {}
     url = urljoin(tab.url, raw)
     if 'erp.iitkgp.ac.in' not in url or url.lower().endswith('.pdf'):
         return {'url': url, 'text': ''}
@@ -167,7 +193,9 @@ def _more_details(context, tab):
     try:
         page.goto(url, timeout=30000)
         page.wait_for_load_state('domcontentloaded', timeout=15000)
-        return {'url': '', 'text': page.locator('body').inner_text().strip()}
+        text = page.locator('body').inner_text().strip()
+        print(f'More-details page: {url.split("?")[0].rsplit("/", 1)[-1]}, {len(text)} chars')
+        return {'url': '', 'text': text}
     finally:
         page.close()
 
