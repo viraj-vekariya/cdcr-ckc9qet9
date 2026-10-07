@@ -1,8 +1,8 @@
 {
- "last_updated": "2026-10-07T04:43:29Z",
+ "last_updated": "2026-10-07T05:43:33Z",
  "stats": {
   "placement": 151,
-  "internship": 787,
+  "internship": 788,
   "with_files": 174,
   "listed_downloads": 177
  },
@@ -1676,6 +1676,17 @@
    }
   ],
   "internship": [
+   {
+    "id": "1010",
+    "type": "INTERNSHIP",
+    "subject": "Date extension",
+    "company": "Maxim AI",
+    "notice": "The CV submission of Maxim AI for all the roles has been extended till 11:59 PM, 8th October 2026.\n\nInterested and eligible students are advised to apply within the given deadline.\n\nCDC, IIT Kharagpur",
+    "noticeat": "07-10-2026 11:03",
+    "text_source": "full_notice",
+    "source_hash": "2939824a61b98761f92433edf1daf0b0e67ae0a97cbb270c16bab3ea998c06a7",
+    "has_download": false
+   },
    {
     "id": "1009",
     "type": "INTERNSHIP",
