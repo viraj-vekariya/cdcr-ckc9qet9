@@ -1,8 +1,8 @@
 {
- "last_updated": "2026-10-08T06:30:57Z",
+ "last_updated": "2026-10-08T07:31:26Z",
  "stats": {
   "placement": 155,
-  "internship": 791,
+  "internship": 792,
   "with_files": 175,
   "listed_downloads": 178
  },
@@ -1721,6 +1721,17 @@
    }
   ],
   "internship": [
+   {
+    "id": "1018",
+    "type": "INTERNSHIP",
+    "subject": "Urgent",
+    "company": "AXIS BANK",
+    "notice": "PFB the shortlist for the Interview round of AXIS BANK.\n\n23BT30034\n23CE36010\n23CH30009\n23CH30025\n23ME36003\n23MF3IM30\n24CH10036\n24ME10052\n24MF10045\n24MT10023\n24MT10045\n24NA10041\n\nFurther details would be communicated to the shortlisted candidates shortly.\n\nCDC, IIT Kharagpur",
+    "noticeat": "08-10-2026 12:55",
+    "text_source": "full_notice",
+    "source_hash": "2ede066d32ed45280676cd8a06979d5af2d0a5a89c483ecf80e006c57019e2ac",
+    "has_download": false
+   },
    {
     "id": "1017",
     "type": "INTERNSHIP",
