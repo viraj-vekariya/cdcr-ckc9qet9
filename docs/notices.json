@@ -1,8 +1,8 @@
 {
- "last_updated": "2026-10-08T05:30:48Z",
+ "last_updated": "2026-10-08T06:30:57Z",
  "stats": {
   "placement": 155,
-  "internship": 790,
+  "internship": 791,
   "with_files": 175,
   "listed_downloads": 178
  },
@@ -1721,6 +1721,17 @@
    }
   ],
   "internship": [
+   {
+    "id": "1017",
+    "type": "INTERNSHIP",
+    "subject": "Urgent",
+    "company": "VISA",
+    "notice": "PFB the shortlist for the Interview round of VISA.\n\n24AI10049\n24CS10011\n24CS10022\n24CS10092\n23EC39021\n23IM30022\n23ME31014\n23ME31018\n23MF3IM25\n\nFurther details would be communicated to the shortlisted candidates shortly.\n\nCDC, IIT Kharagpur",
+    "noticeat": "08-10-2026 11:02",
+    "text_source": "full_notice",
+    "source_hash": "72ed10dfba4f563d62b3c2d129d451bc8f390df23d34372edfaf50dc2239f9fe",
+    "has_download": false
+   },
    {
     "id": "1015",
     "type": "INTERNSHIP",
