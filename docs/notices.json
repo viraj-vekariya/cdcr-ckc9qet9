@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-10-08T17:20:36Z",
+ "last_updated": "2026-10-08T18:14:10Z",
  "stats": {
-  "placement": 158,
-  "internship": 792,
+  "placement": 159,
+  "internship": 793,
   "with_files": 175,
   "listed_downloads": 178
  },
  "categories": {
   "placement": [
+   {
+    "id": "1023",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "Accenture Japan",
+    "notice": "*Company:* Accenture Japan\n\n*Role:* Digital Consultant\n\n*Deadline:* 4 PM, 9th October, 2026\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "08-10-2026 23:20",
+    "text_source": "full_notice",
+    "source_hash": "78d5aa56e39cf75fe68db1c0580c5ae77f0eaddd8d562a5877ed06b6fcdeabcd",
+    "has_download": false
+   },
    {
     "id": "1021",
     "type": "PLACEMENT",
@@ -1754,6 +1765,17 @@
    }
   ],
   "internship": [
+   {
+    "id": "1022",
+    "type": "INTERNSHIP",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "TECH JAPAN INC.",
+    "notice": "Tech Japan Inc. will be conducting an Orientation and Interactive Session for interested and eligible students of the 2028 graduating batch.\n\nThe session is scheduled as follows:\n\nDate: 9th October 2026\nTime: 3:00 PM onwards\n\nVenue: S N Bose Auditorium\n\nThe session will cover:\n\n- Introduction to Tech Japan Inc. and the Talendy platform\n- Upcoming Summer Internship opportunities\n- Platform demonstration\n- Interaction and Q&A with the visiting representative\n\nAll interested and eligible students are encouraged to attend the session. Students who have already registered their interest through the earlier form are also requested to attend.\n\nCDC, IIT Kharagpur",
+    "noticeat": "08-10-2026 22:44",
+    "text_source": "full_notice",
+    "source_hash": "9b414dd62ffbc8efe1af84cfc7c23ee47b5d42c3debf2a2f9a1a8b03ce1a7f95",
+    "has_download": false
+   },
    {
     "id": "1018",
     "type": "INTERNSHIP",
