@@ -183,7 +183,18 @@ def setup_with_phone_code(timeout_s=480):
         return ok
 
 
-def _confirm_last_sent(page, before_count, expected_snippet=None, timeout_ms=8000):
+def _match_count(page, snippet):
+    """How many chat bubbles already contain this text (taken before sending)."""
+    snippet = re.sub(r"\s+", " ", snippet or "").strip()
+    if not snippet:
+        return 0
+    try:
+        return page.locator('[data-testid^="conv-msg-"]').filter(has_text=snippet).count()
+    except Exception:
+        return 0
+
+
+def _confirm_last_sent(page, before_count, expected_snippet=None, timeout_ms=8000, before_match=0):
     """Confirms the message we just sent actually left the client, using
     selectors VERIFIED live on 21 Sep 2026 against the current WhatsApp Web
     DOM (the earlier div.message-out / data-icon=msg-check selectors are
@@ -225,35 +236,39 @@ def _confirm_last_sent(page, before_count, expected_snippet=None, timeout_ms=800
     unsent draft), treat that as confirmed too -- the sidebar's last-message
     preview updating is itself real, near-instant evidence of a successful
     send, verified against a real message on a real run."""
+    # 8 Oct 2026: the body-text fallback above passed for messages still
+    # showing the CLOCK icon (queued locally, not yet accepted by WhatsApp's
+    # server), and the browser was closed straight after -- so the message
+    # never actually left. Now ONLY a real tick (sent/delivered/read) on a
+    # bubble containing the text counts; seeing the text without a tick just
+    # means "keep waiting" (the browser stays open, so the queue can flush).
     msgs = page.locator('[data-testid^="conv-msg-"]')
-    box = page.locator('div[contenteditable="true"][aria-label^="Type a message" i]')
     norm = lambda s: re.sub(r"\s+", " ", s or "").strip()
     want = norm(expected_snippet) if expected_snippet else None
+    ok_ticks = ("wds-ic-check", "wds-ic-double-check", "wds-ic-read")
     end = time.time() + timeout_ms / 1000
+    pending_seen = False
     while time.time() < end:
-        n = msgs.count()
-        if n > before_count:
-            last = msgs.nth(n - 1)
-            try:
-                if not want or want in norm(last.inner_text(timeout=1500)):
-                    # SVG <title> elements have no innerText (all_inner_texts()
-                    # silently returns None for each -- verified live 21 Sep
-                    # 2026), so textContent via all_text_contents() is required.
-                    titles = last.locator("title").all_text_contents()
-                    if any((t or "").strip().startswith(("wds-ic-check", "wds-ic-double-check", "wds-ic-read"))
-                           for t in titles):
-                        return True
-            except Exception:
-                pass
-        if want:
-            try:
-                body = norm(page.evaluate("document.body.innerText"))
-                box_text = norm(box.inner_text(timeout=1000)) if box.count() else ""
-            except Exception:
-                body, box_text = "", want  # can't check safely -- don't false-positive
-            if want in body and want not in box_text:
-                return True
-        page.wait_for_timeout(400)
+        try:
+            if want:
+                cands = msgs.filter(has_text=want)
+                # only bubbles that are NEW since before the send -- an older
+                # message with the same opening text must not count
+                cands = [cands.nth(i) for i in range(cands.count())][before_match:]
+            else:
+                n = msgs.count()
+                cands = [msgs.nth(n - 1)] if n > before_count else []
+            for m in reversed(cands[-3:]):
+                titles = [(t or "").strip() for t in m.locator("title").all_text_contents()]
+                if any(t.startswith(ok_ticks) for t in titles):
+                    return True
+                if cands:
+                    pending_seen = True
+        except Exception:
+            pass
+        page.wait_for_timeout(500)
+    if pending_seen:
+        print("WhatsApp: message is in the chat but never got a tick (stuck on the clock icon)")
     return False
 
 
@@ -288,6 +303,7 @@ def send(message, headless=True, timeout_ms=30000):
         box.wait_for(state="visible", timeout=timeout_ms)
         page.wait_for_timeout(3000)  # let the socket to the phone settle, not just the DOM render
         before_count = page.locator('[data-testid^="conv-msg-"]').count()
+        before_match = _match_count(page, message[:40])
 
         def diag():
             """One-shot diagnostic bundle -- attached to any failure so a
@@ -333,7 +349,7 @@ def send(message, headless=True, timeout_ms=30000):
             box.press("Enter")
         page.wait_for_timeout(2500)
 
-        sent_ok = _confirm_last_sent(page, before_count, expected_snippet=message[:40], timeout_ms=10000)
+        sent_ok = _confirm_last_sent(page, before_count, expected_snippet=message[:40], timeout_ms=45000, before_match=before_match)
         if not sent_ok:
             info = diag()
             ctx.close()
@@ -355,6 +371,7 @@ def send_file(path, caption="", headless=True, timeout_ms=40000):
         page.wait_for_selector('div[contenteditable="true"][aria-label^="Type a message" i]', timeout=timeout_ms)
         page.wait_for_timeout(3000)  # let the socket to the phone settle, not just the DOM render
         before_count = page.locator('[data-testid^="conv-msg-"]').count()
+        before_match = _match_count(page, caption[:40] if caption else '')
         page_text = page.evaluate("document.body.innerText")
         if any(w in page_text for w in ("Connecting", "computer is not connected", "Trying to reach phone", "phone number shared via url is invalid")):
             ctx.close()
@@ -378,7 +395,7 @@ def send_file(path, caption="", headless=True, timeout_ms=40000):
             page.keyboard.press("Enter")
         page.wait_for_timeout(5000)
 
-        sent_ok = _confirm_last_sent(page, before_count, expected_snippet=(caption[:40] if caption else None), timeout_ms=12000)
+        sent_ok = _confirm_last_sent(page, before_count, expected_snippet=(caption[:40] if caption else None), timeout_ms=60000, before_match=before_match)
         ctx.close()
         if not sent_ok:
             raise RuntimeError("could not confirm a NEW sent/delivered tick after sending the file")
