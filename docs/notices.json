@@ -1,13 +1,35 @@
 {
- "last_updated": "2026-10-08T11:36:38Z",
+ "last_updated": "2026-10-08T13:05:49Z",
  "stats": {
-  "placement": 156,
+  "placement": 158,
   "internship": 792,
   "with_files": 175,
   "listed_downloads": 178
  },
  "categories": {
   "placement": [
+   {
+    "id": "1021",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "Qi-Cap",
+    "notice": "The CV submission of Qi-Cap for all the roles have been opened till 4 PM, 9th October, 2026.\n\nIts mandatory for all the candidates who are applying for this role, to fill the following google form attached below:\n\nGoogle Form: https://forms.gle/mB3rAx6a8eWUpafg6\n\nNOTE: Students are required to fill the Google Form using their ERP-registered email ID.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "08-10-2026 17:58",
+    "text_source": "full_notice",
+    "source_hash": "b17df7b6eaf3167fe2aa83a1daf944886fd41332fab62a095ccf71a3cea95953",
+    "has_download": false
+   },
+   {
+    "id": "1020",
+    "type": "PLACEMENT",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "Accenture Japan",
+    "notice": "Please note that the Pre-Placement Talk for Accenture Japan will be held on 9th October, 2026 from 6:00 PM.\n\nAll students must register for the PPT using the same link provided below.\n\nLink: https://us02web.zoom.us/meeting/register/RL5J2IhUQpWqES8T68f2fA\n\nAll interested students are required to attend the PPT without fail. Attendance is compulsory. Students should join 15 minutes prior to the meeting time.\n\nPOC: Bhavy (+91 75971 21669)\n\nCDC, IIT Kharagpur",
+    "noticeat": "08-10-2026 17:23",
+    "text_source": "full_notice",
+    "source_hash": "be354ce270fd3e3de025bab35a1ee364184adf60b45f37798827e648b67e6350",
+    "has_download": false
+   },
    {
     "id": "1019",
     "type": "PLACEMENT",
