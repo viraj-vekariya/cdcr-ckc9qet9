@@ -1,13 +1,57 @@
 {
- "last_updated": "2026-10-09T10:36:44Z",
+ "last_updated": "2026-10-09T13:19:52Z",
  "stats": {
-  "placement": 162,
-  "internship": 795,
-  "with_files": 175,
-  "listed_downloads": 178
+  "placement": 166,
+  "internship": 799,
+  "with_files": 176,
+  "listed_downloads": 179
  },
  "categories": {
   "placement": [
+   {
+    "id": "1033",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "DB",
+    "notice": "The CV submission of Deutsche Bank for the Analyst role has been opened.\n\nDeadline:\n4 PM, 10th October, 2026\n\nIt is mandatory for all candidates applying for this role to apply on the company portal as well as fill the Google Form below:\n\nApplication Portal:\nhttps://db.recsolu.com/external/requisitions/Y3A7fA4byU6YnghfeGXi9A\n\nGoogle Form:\nhttps://forms.gle/1LuNjk3Ks7HLRuxZA\n\nNOTE:\nStudents are required to apply on the company portal and the Google Form using their CDC-registered email ID.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "09-10-2026 17:01",
+    "text_source": "full_notice",
+    "source_hash": "31ca3509ed55ffaa6a50e8102e29ab4ae9a69218d65492ed0a96c73bc0a419bd",
+    "has_download": false
+   },
+   {
+    "id": "1032",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "Accenture Japan",
+    "notice": "The CV submission of Accenture Japan for the Digital Consultant role has been extended till 4 PM, 10th October, 2026 with revised eligibility criteria.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "09-10-2026 16:39",
+    "text_source": "full_notice",
+    "source_hash": "75c7a5c59e8ca094e9738f64795b541ffedf83ac7d179d486b5d6978aaf6a2b9",
+    "has_download": false
+   },
+   {
+    "id": "1031",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "Warner Music Group",
+    "notice": "The CV submission of Warner Music Group for the Software Engineer role has been opened till 4 PM, 10th October, 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCGPA: 7.5\n\nCDC, IIT Kharagpur",
+    "noticeat": "09-10-2026 16:38",
+    "text_source": "full_notice",
+    "source_hash": "556eec7f82282afdfffc91f9932d21d80b5cd8e42b260cc0d092733da2224a36",
+    "has_download": false
+   },
+   {
+    "id": "1029",
+    "type": "PLACEMENT",
+    "subject": "PPO",
+    "company": "Samsung Research Bangalore",
+    "notice": "Samsung Research Bangalore has extended the offer to the following student(s):\n\nRUSHIKESH SANTOSH JADHAV - 22EC39045\n\nABHIRAJ RANJAN - 22EC39036\n\nNAGARURU REVANTH REDDY - 23EC10049\n\nGUDURU NEERAJ REDDY - 23CS10022\n\nPATEL SHREY GAURANGBHAI - 23CS10051\n\nSIVAROOP J - 23CS10067\n\nYERNAGULA LAVANYA VANI - 23CS10082\n\nANUBHAV JHA - 23EE10091\n\nThe students are advised to give offer acceptance by 09.10.2026.\n\n(For more details, check your email ID.)\n\nCDC, IIT Kharagpur",
+    "noticeat": "09-10-2026 16:28",
+    "text_source": "full_notice",
+    "source_hash": "f2fba7779ca13ac1edab8376aea9af8b593256333ef8eba09a258e14a8c8ad66",
+    "has_download": false
+   },
    {
     "id": "1028",
     "type": "PLACEMENT",
@@ -24,7 +68,7 @@
     "type": "PLACEMENT",
     "subject": "CV Submission",
     "company": "EDELWEISS",
-    "notice": "Company: Edelweiss\n\nRole: C++ Developer\n\nExtended Deadline: 11:59 PM, 9th October, 2026\n\nCG Criteria: 8.0\n\nNOTE: \nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "notice": "Company: Edelweiss\n\nRole: C++ Developer\n\nExtended \n\nDeadline: 11:59 PM, 9th October, 2026\n\nCG Criteria: 8.0\n\nNOTE: \nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "09-10-2026 15:48",
     "text_source": "full_notice",
     "source_hash": "63a7128ea4778154d2e74841bf48d572a90e14d41beb20df249125ff8c35059a",
@@ -1798,6 +1842,51 @@
    }
   ],
   "internship": [
+   {
+    "id": "1036",
+    "type": "INTERNSHIP",
+    "subject": "CV Submission",
+    "company": "Rekise Marine",
+    "notice": "The CV submission of Rekise Marine for all the roles have been opened till 11:59 PM, 10th October, 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "09-10-2026 18:41",
+    "text_source": "full_notice",
+    "source_hash": "972fbcae3d71e2009581f586d9bada711d26db48a203251ab702b076377ea0cf",
+    "has_download": false
+   },
+   {
+    "id": "1035",
+    "type": "INTERNSHIP",
+    "subject": "Urgent",
+    "company": "TOAST TAB",
+    "notice": "PFA the room allocation for the test of Toast Tab, which is scheduled on 9th October 2026 from 7:30 PM onwards.\n\nThe test link will be shared on the CDC-registered email IDs of the shortlisted candidates shortly.\n\nVenue: Nalanda Classroom Complex\n\nNote: Attendance at the Pre-Placement Talk (PPT) is mandatory. Only students who attended the PPT will be considered for further stages of the recruitment process.\n\nPOC: Nikita (+91 9969207598), Khush (+91 9922168000)\n\nCDC, IIT Kharagpur",
+    "noticeat": "09-10-2026 18:38",
+    "text_source": "full_notice",
+    "source_hash": "1db044ce87bf19513fd770f1af12a4ba6173f31770a0fa5015dcec4ce7715459",
+    "has_download": true,
+    "file": "files/1035.pdf"
+   },
+   {
+    "id": "1034",
+    "type": "INTERNSHIP",
+    "subject": "Schedule",
+    "company": "TOAST TAB",
+    "notice": "The test for Toast Tab is scheduled for 9th October 2026 in offline mode. The schedule is as follows:\n\nTime: 7:30 PM onwards\n\nVenue: Nalanda Classroom Complex\n\nNote:\n1. Attendance at the Pre-Placement Talk (PPT) is mandatory. Students who fail to attend the PPT will not be considered for further stages of the recruitment process.\n2. The test shortlist and room allocation details will be communicated in due course.\n3. Students are required to carry their original Institute ID card/Medical Book. Students failing to produce valid identification will not be permitted to appear for the test.\n4. Students are advised to reach the venue at least 15 minutes before the scheduled time.\n5. Students must carry their laptops, pens, and papers.\n\nPOC: Nikita (+91 9969207598), Khush (+91 9922168000)\n\nCDC, IIT Kharagpur",
+    "noticeat": "09-10-2026 17:24",
+    "text_source": "full_notice",
+    "source_hash": "69cef0ab23b78ae6078ecb8c8c4c89019e6a169f1f1ca47f91642acb60466abb",
+    "has_download": false
+   },
+   {
+    "id": "1030",
+    "type": "INTERNSHIP",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "TOAST TAB",
+    "notice": "The Pre-Placement Talk for Toast Tab, will be held on 9th October, 2026 from 6:30 PM in offline mode.\n\nTime: 9th October 2026, 6:30 PM onwards\n\nVenue: NR221\n\nNote: All students who have applied for the role are supposed to attend the PPT without fail. Attendance will be recorded, and only those attending will be considered for the further processes. Students are advised to be present 15 minutes prior to the scheduled time.\n\nPOC: Nikita (+91 9969207598), Khush (+91 9922168000)\n\nCDC, IIT Kharagpur",
+    "noticeat": "09-10-2026 16:29",
+    "text_source": "full_notice",
+    "source_hash": "a2771afcdb840e52228e0a60e35d126de1bf1908d0e04f202149f06d23ec3480",
+    "has_download": false
+   },
    {
     "id": "1026",
     "type": "INTERNSHIP",
