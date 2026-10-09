@@ -1,13 +1,35 @@
 {
- "last_updated": "2026-10-09T06:47:15Z",
+ "last_updated": "2026-10-09T10:36:44Z",
  "stats": {
-  "placement": 160,
-  "internship": 793,
+  "placement": 162,
+  "internship": 795,
   "with_files": 175,
   "listed_downloads": 178
  },
  "categories": {
   "placement": [
+   {
+    "id": "1028",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "QI-CAP",
+    "notice": "The CV submission of Qi-Cap for all the roles has been extended.\n\nDeadline:\n4 PM, 10th October, 2026\n\nCG Criteria:\n8.0\n\nIt is mandatory for all candidates applying for this role to fill the Google Form below:\n\nGoogle Form:\nhttps://forms.gle/mB3rAx6a8eWUpafg6\n\nNOTE:\nStudents are required to fill the Google Form using their ERP-registered email ID.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "09-10-2026 15:49",
+    "text_source": "full_notice",
+    "source_hash": "7d92b5c0018e83c1de834f8a2811edfd3e5ba937e136818702ba08dedc9213f4",
+    "has_download": false
+   },
+   {
+    "id": "1027",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "EDELWEISS",
+    "notice": "Company: Edelweiss\n\nRole: C++ Developer\n\nExtended Deadline: 11:59 PM, 9th October, 2026\n\nCG Criteria: 8.0\n\nNOTE: \nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "09-10-2026 15:48",
+    "text_source": "full_notice",
+    "source_hash": "63a7128ea4778154d2e74841bf48d572a90e14d41beb20df249125ff8c35059a",
+    "has_download": false
+   },
    {
     "id": "1024",
     "type": "PLACEMENT",
@@ -1776,6 +1798,28 @@
    }
   ],
   "internship": [
+   {
+    "id": "1026",
+    "type": "INTERNSHIP",
+    "subject": "Urgent",
+    "company": "HSBC",
+    "notice": "PFB the shortlist for the Interview round of HSBC.\n\n23ME3FP18\n23NA3FP32\n23MI3FP42\n23MA25003\n23ME3FP35\n23MA23003\n23BT3FP39\n\nFurther details would be communicated to the shortlisted candidates shortly.\n\nCDC, IIT Kharagpur",
+    "noticeat": "09-10-2026 12:51",
+    "text_source": "full_notice",
+    "source_hash": "ebdd6d68e98cd21d4163d18f73d35fc42d33f547670afb818f99f45dc62406c7",
+    "has_download": false
+   },
+   {
+    "id": "1025",
+    "type": "INTERNSHIP",
+    "subject": "Date extension",
+    "company": "Maxim AI",
+    "notice": "The CV submission of Maxim AI for all the roles has been extended till 3:59 PM, 9th October 2026.\n\nInterested and eligible students are advised to apply within the given deadline.\n\nCDC, IIT Kharagpur",
+    "noticeat": "09-10-2026 12:32",
+    "text_source": "full_notice",
+    "source_hash": "efe522ede5b2f0430e53ff2b3d162511f3db36625d68e5a667761184e2639e56",
+    "has_download": false
+   },
    {
     "id": "1022",
     "type": "INTERNSHIP",
