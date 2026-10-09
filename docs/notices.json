@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-10-09T16:46:37Z",
+ "last_updated": "2026-10-09T18:01:21Z",
  "stats": {
-  "placement": 167,
-  "internship": 799,
+  "placement": 168,
+  "internship": 801,
   "with_files": 176,
   "listed_downloads": 179
  },
  "categories": {
   "placement": [
+   {
+    "id": "1039",
+    "type": "PLACEMENT",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "IPIM",
+    "notice": "The CDC in collaboration with IPIM is organizing an Interactive Workshop tomorrow, for all final year students.\n\nTime: 10th October 2026, 2 PM onwards\n\nVenue: NR321, Nalanda Classroom Complex\n\nPlease make a note to come in formal attire and bring a printed copy of your CV.\n\nMake full use of this opportunity to gain valuable insights from industry experts and boost your placement readiness.\n\nBest wishes for your placement preparation.\n\nCDC, IIT Kharagpur",
+    "noticeat": "09-10-2026 23:25",
+    "text_source": "full_notice",
+    "source_hash": "debf615394b7b4487e3a8c3ca9105e275d7cc7b9df2ae9ed70df1a3a4b6e22bd",
+    "has_download": false
+   },
    {
     "id": "1037",
     "type": "PLACEMENT",
@@ -1853,6 +1864,28 @@
    }
   ],
   "internship": [
+   {
+    "id": "1040",
+    "type": "INTERNSHIP",
+    "subject": "CV Submission",
+    "company": "Mastercard",
+    "notice": "The CV submission of Mastercard for the Product Management role has been opened till 11:59 PM, 10th October 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "09-10-2026 23:26",
+    "text_source": "full_notice",
+    "source_hash": "094140b6a164c54ed7afaae201c796b9e78cdf5ad1c0d1aebbafaccf62df1082",
+    "has_download": false
+   },
+   {
+    "id": "1038",
+    "type": "INTERNSHIP",
+    "subject": "Shortlist",
+    "company": "TOAST TAB",
+    "notice": "PFB the shortlist for the Interview round of Toast Tab.\n\n24AI10046\n24BT10055\n24CE10039\n24CH10102\n24EC10033\n24EC10111\n24MA10042\n24MA10054\n24ME10171\n24MT10005\n24MT10033\n24MT10068\n24MT10072\n24PH10003\n\nFurther details would be communicated to the shortlisted candidates shortly.\n\nCDC, IIT Kharagpur",
+    "noticeat": "09-10-2026 23:13",
+    "text_source": "full_notice",
+    "source_hash": "22536fe2e60812b6b7832308464b598b200356fc8b8fa01342bebc8f0069edf3",
+    "has_download": false
+   },
    {
     "id": "1036",
     "type": "INTERNSHIP",
