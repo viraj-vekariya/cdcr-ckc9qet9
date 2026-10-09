@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-10-09T13:19:52Z",
+ "last_updated": "2026-10-09T14:46:20Z",
  "stats": {
-  "placement": 166,
+  "placement": 167,
   "internship": 799,
   "with_files": 176,
   "listed_downloads": 179
  },
  "categories": {
   "placement": [
+   {
+    "id": "1037",
+    "type": "PLACEMENT",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "Warner Music Group",
+    "notice": "The Pre-Placement Talk for Warner Music Group will be held as per the details below:\n\nDate: 10th October, 2026\nTime: 1:00 PM\n\nLink:\nhttps://meet.google.com/vmq-snuz-zhe\n\nNote:\n- All placement-registered students are supposed to attend the PPT, without fail.\n- Attendance is compulsory.\n- Students must join the link 15 minutes prior to the scheduled time.\n\nPOC:\nArpita (+91 9075 564147)\n\nCDC, IIT Kharagpur",
+    "noticeat": "09-10-2026 19:23",
+    "text_source": "full_notice",
+    "source_hash": "edb3bab29f1eac6686e011babd5d96c474a7989b1f223b08faddee9348428d04",
+    "has_download": false
+   },
    {
     "id": "1033",
     "type": "PLACEMENT",
