@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-10-09T04:46:58Z",
+ "last_updated": "2026-10-09T05:46:55Z",
  "stats": {
-  "placement": 159,
+  "placement": 160,
   "internship": 793,
   "with_files": 175,
   "listed_downloads": 178
  },
  "categories": {
   "placement": [
+   {
+    "id": "1024",
+    "type": "PLACEMENT",
+    "subject": "PPO",
+    "company": "Google",
+    "notice": "Google India has extended the offer to the following student(s):\n\nNIMIT KHANDELWAL - 22EC39022\n\nSHAHZEB ARSHAD - 22EC39028\n\nThe students are advised to give offer acceptance by 9.10.26.\n\n(For more details, check your email ID.)\n\nCDC, IIT Kharagpur",
+    "noticeat": "09-10-2026 10:47",
+    "text_source": "full_notice",
+    "source_hash": "a4cc59d67c1c4669f1c9f11042fd52beb29d80873a66a8d474322ba198b88a25",
+    "has_download": false
+   },
    {
     "id": "1023",
     "type": "PLACEMENT",
