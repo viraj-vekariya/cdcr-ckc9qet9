@@ -1,10 +1,10 @@
 {
- "last_updated": "2026-10-10T02:28:59Z",
+ "last_updated": "2026-10-10T08:59:25Z",
  "stats": {
   "placement": 168,
-  "internship": 801,
-  "with_files": 176,
-  "listed_downloads": 179
+  "internship": 803,
+  "with_files": 177,
+  "listed_downloads": 180
  },
  "categories": {
   "placement": [
@@ -1864,6 +1864,29 @@
    }
   ],
   "internship": [
+   {
+    "id": "1042",
+    "type": "INTERNSHIP",
+    "subject": "CV Submission",
+    "company": "JSW GROUP",
+    "notice": "The CV submission of JSW Group has been opened till 11:59 PM, 10th October 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "10-10-2026 14:22",
+    "text_source": "full_notice",
+    "source_hash": "31ffd3def85bea89fc19a4f52cb5a51869333d2b2313ab4fcbce64ae59556f23",
+    "has_download": false
+   },
+   {
+    "id": "1041",
+    "type": "INTERNSHIP",
+    "subject": "Urgent",
+    "company": "WILLINGS INC",
+    "notice": "PFA the test shortlist for Willings Inc.\n\nThe Assessment is scheduled on 10th October, 8:00 PM onwards.\n\nVenue: NR121, Nalanda Classroom Complex\n\nStudents are required to carry their Institute ID card/Medical Book and are advised to reach the venue 15 minutes prior to the time.\n\nNote: The test instructions will be shared in due time.\n\nPOC: Aditya Ghosh (+91 6295916930), Dishil (+91 9925492574)\n\nCDC, IIT Kharagpur",
+    "noticeat": "10-10-2026 11:26",
+    "text_source": "full_notice",
+    "source_hash": "7b19a09de2218621faba6df1741481bffd09dfa7777c8980ca850c08eeaf3283",
+    "has_download": true,
+    "file": "files/1041.pdf"
+   },
    {
     "id": "1040",
     "type": "INTERNSHIP",
