@@ -1,7 +1,7 @@
 {
- "last_updated": "2026-10-10T12:36:13Z",
+ "last_updated": "2026-10-10T13:35:43Z",
  "stats": {
-  "placement": 172,
+  "placement": 173,
   "internship": 803,
   "with_files": 177,
   "listed_downloads": 180
@@ -9,11 +9,22 @@
  "categories": {
   "placement": [
    {
+    "id": "1047",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "IIT Kharagpur: Preference/Experience Form",
+    "notice": "The deadline to fill the Preference/Experience Form is extended till 15th October 2026, 11:59 PM. All the students are advised to fill out the form as detailed and as truthfully as possible. The details filled in this form shall be verified and shall be used by companies for selection processes.\n\nPreference/Experience Form: https://forms.gle/qSWPA9Wj3pqAHj2m8\n\nIt is mandatory for all the students to fill the form within the given deadline.\n\nNo further extensions will be given.\n\nCDC, IIT Kharagpur.",
+    "noticeat": "10-10-2026 18:38",
+    "text_source": "full_notice",
+    "source_hash": "61a597b93f9fbd7b506c3a0f3387a98ad5792e3e7d6e216be74bebed908cd8b5",
+    "has_download": false
+   },
+   {
     "id": "1046",
     "type": "PLACEMENT",
     "subject": "CV Submission",
     "company": "Warner Music Group",
-    "notice": "*Company:* Warner Music Group\n\n*Role:* Software Engineer\n\n*Extended Deadline:* 4 PM, 11th October, 2026\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "notice": "*Company:* Warner Music Group\n\n*Role:* Software Engineer\n\n*Extended \n\nDeadline:* 4 PM, 11th October, 2026\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "10-10-2026 16:58",
     "text_source": "full_notice",
     "source_hash": "5e6ddb2986387a2de5e012cc9552358cd35a96f1b99534aa6bed45538dc8cab9",
@@ -24,7 +35,7 @@
     "type": "PLACEMENT",
     "subject": "CV Submission",
     "company": "Accenture Japan",
-    "notice": "*Company:* Accenture Japan\n\n*Role:* Digital Consultant\n\n*Extended Deadline:* 4 PM, 11th October, 2026\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "notice": "*Company:* Accenture Japan\n\n*Role:* Digital Consultant\n\n*Extended \n\nDeadline:* 4 PM, 11th October, 2026\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "10-10-2026 16:57",
     "text_source": "full_notice",
     "source_hash": "afbdcae42d174897d92a8f3221eba7b45c5dc25c0f4f787eb98b765f18e3f9f5",
@@ -35,7 +46,7 @@
     "type": "PLACEMENT",
     "subject": "CV Submission",
     "company": "DB",
-    "notice": "The CV submission deadline of Deutsche Bank for the Analyst role has been extended.\n\nExtended Deadline: \n11:59 PM, 10th October, 2026\n\nIt is mandatory for all candidates applying for this role to apply on the company portal as well as fill the Google Form below:\n\nApplication Portal: \nhttps://db.recsolu.com/external/requisitions/Y3A7fA4byU6YnghfeGXi9A\n\nGoogle Form: \nhttps://forms.gle/1LuNjk3Ks7HLRuxZA\n\nNOTE: \nStudents are required to apply on the company portal and the Google Form using their CDC-registered email ID.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "notice": "The CV submission deadline of Deutsche Bank for the Analyst role has been extended.\n\nExtended \n\nDeadline: \n11:59 PM, 10th October, 2026\n\nIt is mandatory for all candidates applying for this role to apply on the company portal as well as fill the Google Form below:\n\nApplication Portal: \nhttps://db.recsolu.com/external/requisitions/Y3A7fA4byU6YnghfeGXi9A\n\nGoogle Form: \nhttps://forms.gle/1LuNjk3Ks7HLRuxZA\n\nNOTE: \nStudents are required to apply on the company portal and the Google Form using their CDC-registered email ID.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "10-10-2026 16:30",
     "text_source": "full_notice",
     "source_hash": "bef4afb3acddfc7ae7972c7a4e4071f316ce7e6ffc452181e5fb455fc5ab2843",
