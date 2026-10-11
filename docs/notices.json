@@ -1,8 +1,8 @@
 {
- "last_updated": "2026-10-11T07:57:10Z",
+ "last_updated": "2026-10-11T09:14:15Z",
  "stats": {
   "placement": 175,
-  "internship": 803,
+  "internship": 806,
   "with_files": 177,
   "listed_downloads": 180
  },
@@ -1941,6 +1941,39 @@
    }
   ],
   "internship": [
+   {
+    "id": "1052",
+    "type": "INTERNSHIP",
+    "subject": "CV Submission",
+    "company": "JSW GROUP",
+    "notice": "The CV submission of JSW Group has been extended till 11:59 PM, 11th October 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "11-10-2026 14:21",
+    "text_source": "full_notice",
+    "source_hash": "3f6f33636183d3cb781ed8a009450f5d92ef5a0091fd5a8b6ef7ebc276219615",
+    "has_download": false
+   },
+   {
+    "id": "1051",
+    "type": "INTERNSHIP",
+    "subject": "CV Submission",
+    "company": "THOUGHTSPOT",
+    "notice": "The CV submission of Thoughtspot have been opened till 11:59 PM, 12th October, 2026.\n\nIt is mandatory for all the students who apply on ERP to fill out the following Additional Details form attached below:\n\nLink: https://forms.gle/231BUUtzfpAJwwoR6\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "11-10-2026 13:57",
+    "text_source": "full_notice",
+    "source_hash": "b850f71792eb510d17fa1797bfc808f4294025d9cff1ebbdc4012d4681aa7404",
+    "has_download": false
+   },
+   {
+    "id": "1050",
+    "type": "INTERNSHIP",
+    "subject": "CV Submission",
+    "company": "Rekise Marine",
+    "notice": "The CV submission of Rekise Marine for all the roles have been extended till 6:00 PM, 11th October, 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "11-10-2026 13:56",
+    "text_source": "full_notice",
+    "source_hash": "9d6824245c7e6a9ba61f893ee3b805a903f145cd4a29985e11cb21079acbbf4e",
+    "has_download": false
+   },
    {
     "id": "1042",
     "type": "INTERNSHIP",
