@@ -1,13 +1,46 @@
 {
- "last_updated": "2026-10-11T14:34:40Z",
+ "last_updated": "2026-10-11T18:21:29Z",
  "stats": {
-  "placement": 176,
-  "internship": 807,
-  "with_files": 177,
-  "listed_downloads": 180
+  "placement": 179,
+  "internship": 810,
+  "with_files": 179,
+  "listed_downloads": 182
  },
  "categories": {
   "placement": [
+   {
+    "id": "1061",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "EDELWEISS",
+    "notice": "The Test for Edelweiss for the C++ Developer role will be held on 12th October 2026 from 7:30 PM to 9:30 PM.\nThe room allocation for the test will be released shortly.\n\nNote: Attendance for the offline PPT for all the roles is mandatory and will be recorded. The Test will be held post the PPT. Only the students attending the PPT will be eligible for the test. Students are advised to be present 15 minutes prior to the scheduled time.\n\nPOC: Aditi(+91 8815395895), Dishil(+91 9925492574)\n\nCDC, IIT Kharagpur.",
+    "noticeat": "11-10-2026 22:18",
+    "text_source": "full_notice",
+    "source_hash": "23553d5daab761b9978bf4d567b958a54f12c898136849191c224fab71e624a9",
+    "has_download": false
+   },
+   {
+    "id": "1060",
+    "type": "PLACEMENT",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "EDELWEISS",
+    "notice": "The Pre-Placement Talk for Edelweiss for the C++ Developer role will be held on 12th October 2026 from 6:30 PM.\n\nVenue: NR 221, Nalanda\n\nNote: Attendance for the offline PPT for all the roles is mandatory and will be recorded. The Test will be held post the PPT. Only the students attending the PPT will be eligible for the test. Students are advised to be present 15 minutes prior to the scheduled time.\n\nPOC: Aditi (+91 8815395895), Dishil(+91 9925492574)\n\nCDC, IIT Kharagpur.",
+    "noticeat": "11-10-2026 22:17",
+    "text_source": "full_notice",
+    "source_hash": "45d9374252cf32530eb75529aac42062cd47cbd962807e291779d010fcd7d2dd",
+    "has_download": false
+   },
+   {
+    "id": "1055",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "DB",
+    "notice": "The CV submission of Deutsche Bank for the Analyst role has been extended.\n\nDeadline:\n11:59 PM, 11th October, 2026\n\nIt is mandatory for all candidates applying for this role to apply on the company portal as well as fill the Google Form below:\n\nApplication Portal:\nhttps://db.recsolu.com/external/requisitions/Y3A7fA4byU6YnghfeGXi9A\n\nGoogle Form:\nhttps://forms.gle/1LuNjk3Ks7HLRuxZA\n\nNOTE:\nStudents are required to apply on the company portal and the Google Form using their CDC-registered email ID.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "11-10-2026 20:03",
+    "text_source": "full_notice",
+    "source_hash": "b0671534e9ea0f1281cc7ea1ef84c9b39d3936d4244dadbae79f2384c1f739bc",
+    "has_download": false
+   },
    {
     "id": "1054",
     "type": "PLACEMENT",
@@ -1952,6 +1985,41 @@
    }
   ],
   "internship": [
+   {
+    "id": "1059",
+    "type": "INTERNSHIP",
+    "subject": "Urgent",
+    "company": "ASSURANT",
+    "notice": "PFA the test shortlist for Assurant.\n\nThe Assessment is scheduled on 12th October, 7:30 PM onwards.\n\nVenue: NR321, Nalanda Classroom Complex\n\nStudents are required to carry their Institute ID card/Medical Book and are advised to reach the venue 15 minutes prior to the time.\n\nNote: The test instructions will be shared in due time.\n\nPOC: Rudra (+91 8235755257)\n\nCDC, IIT Kharagpur",
+    "noticeat": "11-10-2026 21:53",
+    "text_source": "full_notice",
+    "source_hash": "6c89a44ac15ae981864cdc30d6036a48d5a56339cef09616693214ff450b6061",
+    "has_download": true,
+    "file": "files/1059.pdf"
+   },
+   {
+    "id": "1058",
+    "type": "INTERNSHIP",
+    "subject": "Urgent",
+    "company": "Multiple Companies",
+    "notice": "The further processes for the following companies are tentatively scheduled for the upcoming week (12th to 16th October).\n\n- PwC\n- HSBC\n- IBM\n- Motilal\n- JSW\n- Thoughtspot\n- Maxim AI\n- Assurant\n- CRED\n- HP Inc\n- Tech Mahindra\n\nStudents interested in pursuing internship opportunities with these companies are advised to remain available on campus during the aforementioned dates and plan their schedules accordingly.\n\nFurther details regarding the respective processes will be communicated in due time.\n\nCDC, IIT Kharagpur",
+    "noticeat": "11-10-2026 21:05",
+    "text_source": "full_notice",
+    "source_hash": "b5293fc79771cb1bf0888ed7695efc233a1b76c3bcf06fbab5f4486e14d98fb5",
+    "has_download": false
+   },
+   {
+    "id": "1057",
+    "type": "INTERNSHIP",
+    "subject": "Shortlist",
+    "company": "PwC AC",
+    "notice": "PFA the shortlist for the Interview round of PwC AC for both the roles.\n\nFurther details would be communicated to the shortlisted candidates shortly.\n\nCDC, IIT Kharagpur",
+    "noticeat": "11-10-2026 20:58",
+    "text_source": "full_notice",
+    "source_hash": "c6e734c337bf24e06d3f96eacbe195179d8656350d923d2a08255ca091735dd5",
+    "has_download": true,
+    "file": "files/1057.pdf"
+   },
    {
     "id": "1053",
     "type": "INTERNSHIP",
