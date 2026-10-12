@@ -1,13 +1,36 @@
 {
- "last_updated": "2026-10-12T14:21:24Z",
+ "last_updated": "2026-10-12T18:40:54Z",
  "stats": {
-  "placement": 184,
-  "internship": 813,
-  "with_files": 179,
-  "listed_downloads": 182
+  "placement": 186,
+  "internship": 814,
+  "with_files": 180,
+  "listed_downloads": 183
  },
  "categories": {
   "placement": [
+   {
+    "id": "1072",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "DB",
+    "notice": "A test link has been triggered to all candidates who have applied for the Analyst role at Deutsche Bank and registered on the company portal.\n\nRole: Analyst\nCompany: Deutsche Bank\nVenue: From your respective locations\nDeadline: 6:00 PM, 14th October 2026\n\nAll students must complete their assessment within the given timeframe.\n\nPOC: Rudra (+91 8235755257)\n\nCDC, IIT Kharagpur",
+    "noticeat": "12-10-2026 22:02",
+    "text_source": "full_notice",
+    "source_hash": "84f9c973860548dc55de29f9f5b4d8dd6ec5124a9be938a27a922bf428c8b9b6",
+    "has_download": false
+   },
+   {
+    "id": "1071",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "EDELWEISS",
+    "notice": "The Test for Edelweiss for the C++ Developer role, will be held on 12th October 2026 from 8:15 PM to 10:00 PM.\nPFA the room allocation for the test.\n\nNote: Attendance for the offline PPT for all the roles is mandatory and will be recorded. The Test will be held post the PPT. Only the students attending the PPT will be eligible for the test. Students are advised to be present 15 minutes prior to the scheduled time.\n\nPOC: Aditi(+91 8815395895), Zalavadiya Dishil(+91 9925492574)\n\nCDC, IIT Kharagpur.",
+    "noticeat": "12-10-2026 19:50",
+    "text_source": "full_notice",
+    "source_hash": "0284ec9cd0bf1f223e31baabee6c0364bf2c5b18327c4403b768fd115eebf0eb",
+    "has_download": true,
+    "file": "files/1071.pdf"
+   },
    {
     "id": "1069",
     "type": "PLACEMENT",
@@ -2040,6 +2063,17 @@
    }
   ],
   "internship": [
+   {
+    "id": "1073",
+    "type": "INTERNSHIP",
+    "subject": "Shortlist",
+    "company": "MOTILAL OSWAL FINANCIAL SERVICES LIMITED",
+    "notice": "PFB the shortlist for the Interview round for the role of Private Credit:\n\n23BT3FP01\n23CE3FP11\n23CH3FP15\n23MI3FP12\n23NA3FP32\n\nPFB the shortlist for the Interview round for the role of Derivative:\n\n24IM10025\n24AI10030\n24IM10067\n\nFurther details would be communicated to the shortlisted candidates shortly.\n\nCDC, IIT Kharagpur",
+    "noticeat": "13-10-2026 00:05",
+    "text_source": "full_notice",
+    "source_hash": "7118b38941af5931a7712a42267f7b3e7b32ca7b05f5cfb2cca7deef702bb6a4",
+    "has_download": false
+   },
    {
     "id": "1070",
     "type": "INTERNSHIP",
