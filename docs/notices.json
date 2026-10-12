@@ -1,8 +1,8 @@
 {
- "last_updated": "2026-10-12T03:26:06Z",
+ "last_updated": "2026-10-12T04:26:19Z",
  "stats": {
   "placement": 179,
-  "internship": 810,
+  "internship": 811,
   "with_files": 179,
   "listed_downloads": 182
  },
@@ -1985,6 +1985,17 @@
    }
   ],
   "internship": [
+   {
+    "id": "1062",
+    "type": "INTERNSHIP",
+    "subject": "CV Submission",
+    "company": "JSW GROUP",
+    "notice": "The CV submission of JSW Group has been extended till 13:59, 12th October 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "12-10-2026 09:22",
+    "text_source": "full_notice",
+    "source_hash": "8f8b8ebd3af18afd36083976df6ab0b2a3d36495d54bd87b9ac8f43e6b749ac2",
+    "has_download": false
+   },
    {
     "id": "1059",
     "type": "INTERNSHIP",
