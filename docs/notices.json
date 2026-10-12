@@ -1,13 +1,46 @@
 {
- "last_updated": "2026-10-12T09:05:11Z",
+ "last_updated": "2026-10-12T11:57:16Z",
  "stats": {
-  "placement": 181,
-  "internship": 811,
+  "placement": 184,
+  "internship": 812,
   "with_files": 179,
   "listed_downloads": 182
  },
  "categories": {
   "placement": [
+   {
+    "id": "1069",
+    "type": "PLACEMENT",
+    "subject": "PPO",
+    "company": "Futures First",
+    "notice": "Futures First has extended the offer to the following student(s):\n\nNEELESH AGRAWAL - 23CE10037\n\nThe students are advised to give offer acceptance by 12.10.2026.\n\n(For more details, check your email ID.)\n\nCDC, IIT Kharagpur",
+    "noticeat": "12-10-2026 17:18",
+    "text_source": "full_notice",
+    "source_hash": "bdd394237c6e38932d08f5b7c583206785a11908983fcd1f3745364301f7a6d4",
+    "has_download": false
+   },
+   {
+    "id": "1068",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "HARNESS",
+    "notice": "The CV submission of Harness for the Software Engineer I role have been opened till 4:00 PM, 13th October, 2026.\n\nNOTE: Interested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "12-10-2026 16:08",
+    "text_source": "full_notice",
+    "source_hash": "8e9792d1b357af5089d9647fac5b849d7246a0bf87efb8a3fc78de8158d4cbe9",
+    "has_download": false
+   },
+   {
+    "id": "1065",
+    "type": "PLACEMENT",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "Accenture",
+    "notice": "The Pre-Placement Talk for Accenture will be held as follows:\n\nDate: 13th October, 2026\n\nTime: 7:00 PM\n\nLink:\nhttps://teams.microsoft.com/l/meetup-join/19%3ameeting_NDM2NTU1MGMtMzYxYi00OTc3LTlkN2MtZDEzNWU1ZDk4MjE0%40thread.v2/0?context=%7B%22Tid%22%3A%22e0793d39-0939-496d-b129-198edd916feb%22%2C%22Oid%22%3A%225b3ffc9c-d5c4-455c-83a2-f52eb438d8c6%22%2C%22IsBroadcastMeeting%22%3Atrue%2C%22role%22%3A%22a%22%7D&btype=a&role=a\n\nNote:\nAll placement-registered students are supposed to attend the PPT, without fail.\nAttendance is compulsory.\nStudents must join the link 15 minutes prior to the scheduled time.\n\nPOC:\nDevansh (+91 79998 92181)\n\nCDC, IIT Kharagpur",
+    "noticeat": "12-10-2026 15:54",
+    "text_source": "full_notice",
+    "source_hash": "ce22af02378a9119157905319a7d7392da4ff60b8bfd66b60e2c0e2fef49b680",
+    "has_download": false
+   },
    {
     "id": "1064",
     "type": "PLACEMENT",
@@ -2007,6 +2040,17 @@
    }
   ],
   "internship": [
+   {
+    "id": "1067",
+    "type": "INTERNSHIP",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "IBM",
+    "notice": "The Pre-Placement Talk for IBM, will be held on 12th October, 2026 from 6:00 PM.\n\nLink: https://events.teams.microsoft.com/event/9c960fe6-9873-46c1-8d42-d2e75e35b0fc@fcf67057-50c9-4ad4-98f3-ffca64add9e9?source=copyLinkLegacyShareLinkDialog\n\nNote: All interested and eligible students are supposed to attend the PPT, without fail. Attendance is compulsory. Students must join the link 15 minutes prior to the scheduled time.\n\nPOC: Devansh (+91 79998 92181)\n\nCDC, IIT Kharagpur",
+    "noticeat": "12-10-2026 16:06",
+    "text_source": "full_notice",
+    "source_hash": "7a9c80e74a35a62176533ba05beccd13afb115c7470fe5be9175dd15bbfbb0cf",
+    "has_download": false
+   },
    {
     "id": "1062",
     "type": "INTERNSHIP",
