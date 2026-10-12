@@ -1,8 +1,8 @@
 {
- "last_updated": "2026-10-12T11:57:16Z",
+ "last_updated": "2026-10-12T14:21:24Z",
  "stats": {
   "placement": 184,
-  "internship": 812,
+  "internship": 813,
   "with_files": 179,
   "listed_downloads": 182
  },
@@ -2040,6 +2040,17 @@
    }
   ],
   "internship": [
+   {
+    "id": "1070",
+    "type": "INTERNSHIP",
+    "subject": "Urgent",
+    "company": "ASSURANT",
+    "notice": "All students appearing for the Assurant Online Assessment scheduled for 12th October 2026 (7:30 PM \u2013 11:30 PM) are hereby informed of the following instructions:\n\n1. The assessment link will be shared with you in advance. However, the test must be attempted from Nalanda only during the scheduled time slot.\n2. All candidates are required to report to Nalanda at least 15 minutes before the scheduled test time and carry their Institute ID card/Medical Book.\n3. Any student found attempting the test from a location other than Nalanda or outside the scheduled time slot will have their test candidature deemed invalid, and strict disciplinary action will be taken against them.\n\nAll candidates are required to strictly adhere to these instructions.\n\nCDC, IIT KHARAGPUR",
+    "noticeat": "12-10-2026 18:18",
+    "text_source": "full_notice",
+    "source_hash": "7e89a5554c97a761f71af5a8a8ec554c17e7dce40298c612abc9f2e8a3a99ff2",
+    "has_download": false
+   },
    {
     "id": "1067",
     "type": "INTERNSHIP",
