@@ -1,13 +1,35 @@
 {
- "last_updated": "2026-10-12T04:26:19Z",
+ "last_updated": "2026-10-12T09:05:11Z",
  "stats": {
-  "placement": 179,
+  "placement": 181,
   "internship": 811,
   "with_files": 179,
   "listed_downloads": 182
  },
  "categories": {
   "placement": [
+   {
+    "id": "1064",
+    "type": "PLACEMENT",
+    "subject": "PPO",
+    "company": "PlusWealth",
+    "notice": "PlusWealth has extended the offer to the following student(s):\n\nBeemagani Veda - 22MA25007\n\nThe students are advised to give offer acceptance by 12.10.26.\n\n(For more details, check your email ID.)\n\nCDC, IIT Kharagpur",
+    "noticeat": "12-10-2026 10:52",
+    "text_source": "full_notice",
+    "source_hash": "3697929729b9d4d82b3661e1f3419b42e0f9d863e5614b54ac7ac4323890cc15",
+    "has_download": false
+   },
+   {
+    "id": "1063",
+    "type": "PLACEMENT",
+    "subject": "PPO",
+    "company": "Tata Steel",
+    "notice": "Tata Steel has extended the offer to the following student(s):\n\nAKANKSHAA PADHI - 23ME10007\n\nThe students are advised to give offer acceptance by 12.10.26.\n\n(For more details, check your email ID.)\n\nCDC, IIT Kharagpur",
+    "noticeat": "12-10-2026 10:51",
+    "text_source": "full_notice",
+    "source_hash": "84b0b88a03687624a992964412395bd164cc18bd277608982743e16d9a516c4a",
+    "has_download": false
+   },
    {
     "id": "1061",
     "type": "PLACEMENT",
