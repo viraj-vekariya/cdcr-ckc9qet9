@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-10-13T10:47:31Z",
+ "last_updated": "2026-10-13T11:47:56Z",
  "stats": {
-  "placement": 187,
-  "internship": 816,
+  "placement": 188,
+  "internship": 817,
   "with_files": 182,
   "listed_downloads": 185
  },
  "categories": {
   "placement": [
+   {
+    "id": "1077",
+    "type": "PLACEMENT",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "Meesho",
+    "notice": "The Pre-Placement Talk for Meesho, will be held on 14th October, 2026 from 6:00 PM.\n\nLink: https://meet.google.com/wnw-uwze-zdo\n\nNote: All placement-registered students are supposed to attend the PPT, without fail. Attendance is compulsory. Students must join the link 15 minutes prior to the scheduled time.\n\nPOC: Khush (+91 99221 68000)\n\nCDC, IIT Kharagpur",
+    "noticeat": "13-10-2026 16:52",
+    "text_source": "full_notice",
+    "source_hash": "e03d8d834919e28d58f7746f575679eb0e45390bef8ecca5dae83db46b471cf8",
+    "has_download": false
+   },
    {
     "id": "1075",
     "type": "PLACEMENT",
@@ -2074,6 +2085,17 @@
    }
   ],
   "internship": [
+   {
+    "id": "1078",
+    "type": "INTERNSHIP",
+    "subject": "Urgent",
+    "company": "JSW GROUP",
+    "notice": "This is to inform all shortlisted students that the test timings for the JSW Group scheduled for 13th October 2026 have been revised.\n\nThe updated schedule is as follows:\n\nOnline Assessment 1: 7:30 PM onwards\nOnline Assessment 2: 9:30 PM onwards\n\nStudents are advised to take note of the revised timings and plan accordingly. Only students who successfully clear the first assessment will be eligible to proceed to the second assessment.\n\nPOC : Arpita (+91-9075564147), Rudra (+91-8235755257)\n\nCDC, IIT Kharagpur",
+    "noticeat": "13-10-2026 16:57",
+    "text_source": "full_notice",
+    "source_hash": "7cf1fdb1b97bc208f850fa889eb46378f02c2a7a37d14898d6b33bbee1c320c5",
+    "has_download": false
+   },
    {
     "id": "1076",
     "type": "INTERNSHIP",
