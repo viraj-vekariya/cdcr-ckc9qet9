@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-10-13T08:47:14Z",
+ "last_updated": "2026-10-13T09:47:47Z",
  "stats": {
-  "placement": 186,
-  "internship": 815,
-  "with_files": 181,
-  "listed_downloads": 184
+  "placement": 187,
+  "internship": 816,
+  "with_files": 182,
+  "listed_downloads": 185
  },
  "categories": {
   "placement": [
+   {
+    "id": "1075",
+    "type": "PLACEMENT",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "MRF Limited",
+    "notice": "The Pre-Placement Talk for MRF Limited, will be held on 13th October, 2026 from 5:30 PM.\n\nLink: https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fmeet%2F482622206121982%3Fp%3DpsmSxZWuVayVo6U1Rl%26anon%3Dtrue&type=meet&deeplinkId=9ec11b58-d77c-472f-b0a6-57946bf29bed&directDl=true&msLaunch=true&enableMobilePage=true&suppressPrompt=true\n\nNote: All placement-registered students are supposed to attend the PPT, without fail. Attendance is compulsory. Students must join the link 15 minutes prior to the scheduled time.\n\nPOC: Hardik (+91 81770 18092)\n\nCDC, IIT Kharagpur",
+    "noticeat": "13-10-2026 15:02",
+    "text_source": "full_notice",
+    "source_hash": "0cbdce8605d1f8ab1ef88e2114f2c0995bff19d7d8ecbc670be397f7ca23f6a5",
+    "has_download": false
+   },
    {
     "id": "1072",
     "type": "PLACEMENT",
@@ -2063,6 +2074,18 @@
    }
   ],
   "internship": [
+   {
+    "id": "1076",
+    "type": "INTERNSHIP",
+    "subject": "Shortlist",
+    "company": "JSW GROUP",
+    "notice": "PFA the test shortlist for JSW Group. The details and instructions for the test are as follows:\n\nDate: 13th October 2026\nTime: 7:00 PM\nMode: Online\n\nVenue: Respective Locations\n\nNote: Shortlisted students must register using the link sent to their CDC Registered email IDs by 5:00 PM today. Registration is mandatory, and failure to register within the deadline will result in disqualification from the assessment. No extensions will be provided.\n\nNext Round: Students who successfully clear the first assessment will be allowed to proceed to the second assessment, scheduled for 9:00 PM today.\n\nPOC : Arpita (+91-9075564147), Rudra (+91-8235755257)\n\nCDC, IIT Kharagpur",
+    "noticeat": "13-10-2026 15:08",
+    "text_source": "full_notice",
+    "source_hash": "a1ab01afbb55194080c6e9b524df3c25b0be9e5001ebeb8ee714f0a66222a807",
+    "has_download": true,
+    "file": "files/1076.pdf"
+   },
    {
     "id": "1074",
     "type": "INTERNSHIP",
