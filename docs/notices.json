@@ -1,10 +1,10 @@
 {
- "last_updated": "2026-10-13T04:17:37Z",
+ "last_updated": "2026-10-13T05:35:22Z",
  "stats": {
   "placement": 186,
-  "internship": 814,
-  "with_files": 180,
-  "listed_downloads": 183
+  "internship": 815,
+  "with_files": 181,
+  "listed_downloads": 184
  },
  "categories": {
   "placement": [
@@ -2063,6 +2063,18 @@
    }
   ],
   "internship": [
+   {
+    "id": "1074",
+    "type": "INTERNSHIP",
+    "subject": "Shortlist",
+    "company": "MOTILAL OSWAL FINANCIAL SERVICES LIMITED",
+    "notice": "PFA the shortlist for the Interview round of MOTILAL OSWAL FINANCIAL SERVICES LIMITED for the RIISE product (IT) role.\n\nFurther details would be communicated to the shortlisted candidates shortly.\n\nCDC, IIT Kharagpur",
+    "noticeat": "13-10-2026 09:55",
+    "text_source": "full_notice",
+    "source_hash": "7224bd4f42665dc596321e3350a6b99283590adec514c3c537c359ae3860bfe7",
+    "has_download": true,
+    "file": "files/1074.pdf"
+   },
    {
     "id": "1073",
     "type": "INTERNSHIP",
