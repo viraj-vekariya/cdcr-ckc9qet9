@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-10-13T18:18:26Z",
+ "last_updated": "2026-10-13T19:20:53Z",
  "stats": {
-  "placement": 189,
+  "placement": 190,
   "internship": 818,
   "with_files": 183,
   "listed_downloads": 186
  },
  "categories": {
   "placement": [
+   {
+    "id": "1083",
+    "type": "PLACEMENT",
+    "subject": "Shortlist",
+    "company": "EDELWEISS",
+    "notice": "PFB the Shortlist for the further process of Edelweiss:\n\n22CS30014\n22CS30041\n22CS30061\n22EC39026\n22EC39034\n22EE38008\n23CS10003\n23CS10052\n23CS10063\n23CS10089\n23MA10005\n23MA10016\n23MA10039\n23MA10042\n23MA10075\n\nCDC, IIT Kharagpur",
+    "noticeat": "14-10-2026 00:02",
+    "text_source": "full_notice",
+    "source_hash": "37bcef1ec3ceb57da659936244b53b0ee480e9f005e3975ad804dd45793ac334",
+    "has_download": false
+   },
    {
     "id": "1082",
     "type": "PLACEMENT",
