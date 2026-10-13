@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-10-13T15:48:20Z",
+ "last_updated": "2026-10-13T16:48:24Z",
  "stats": {
-  "placement": 188,
-  "internship": 817,
-  "with_files": 182,
-  "listed_downloads": 185
+  "placement": 189,
+  "internship": 818,
+  "with_files": 183,
+  "listed_downloads": 186
  },
  "categories": {
   "placement": [
+   {
+    "id": "1082",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "HARNESS",
+    "notice": "The CV submission of Harness for the Software Engineer I role has been extended till 11:59 AM, 14th October, 2026.\n\nNOTE: Interested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "13-10-2026 22:09",
+    "text_source": "full_notice",
+    "source_hash": "a953584b030407ad7dce3673cc945e4fb2a64126cc18a05f4fa02e7ab7621d00",
+    "has_download": false
+   },
    {
     "id": "1077",
     "type": "PLACEMENT",
@@ -2085,6 +2096,18 @@
    }
   ],
   "internship": [
+   {
+    "id": "1081",
+    "type": "INTERNSHIP",
+    "subject": "Shortlist",
+    "company": "JSW GROUP",
+    "notice": "PFA the Test shortlist of students for Online Assessment 2 for JSW Group.\n\nThe details are as follows:\n\nDate: 13th October 2026\nTime: 9:45 PM \u2013-10:45 PM\nDuration: 40 minutes\nMode: Online\n\nVenue: Respective Locations\n\nEligible students are requested to check their inbox and spam/junk folders for the test invitation and appear for the assessment as per the schedule.\n\nPOC : Arpita (+91-9075564147), Rudra (+91-8235755257)\n\nCDC, IIT Kharagpur",
+    "noticeat": "13-10-2026 21:48",
+    "text_source": "full_notice",
+    "source_hash": "017b0e9f33d538d2d043d64ae44a9787042c5f322d0b4f66bc4e186145537f45",
+    "has_download": true,
+    "file": "files/1081.pdf"
+   },
    {
     "id": "1078",
     "type": "INTERNSHIP",
