@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-10-14T15:30:51Z",
+ "last_updated": "2026-10-14T16:54:09Z",
  "stats": {
-  "placement": 192,
+  "placement": 193,
   "internship": 824,
   "with_files": 187,
   "listed_downloads": 191
  },
  "categories": {
   "placement": [
+   {
+    "id": "1094",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "ACCENTURE JAPAN",
+    "notice": "The Test for Accenture Japan for the Digital Consultant role will be held on 15th October 2026 from 8:30 PM to 10:30 PM.\n\nThe room allocation for the test will be released shortly.\n\nNote : Students are advised to be present 15 minutes prior to the scheduled time.\n\nPOC: Rudra(+91 8235755257), Aditya(+91 6295916930)\n\nCDC, IIT Kharagpur.",
+    "noticeat": "14-10-2026 21:32",
+    "text_source": "full_notice",
+    "source_hash": "bdf36220736eff2458c61e33d25de41b2fb67b41012676f328d62d2090442b59",
+    "has_download": false
+   },
    {
     "id": "1093",
     "type": "PLACEMENT",
