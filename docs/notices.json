@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-10-14T05:25:12Z",
+ "last_updated": "2026-10-14T10:38:39Z",
  "stats": {
-  "placement": 190,
-  "internship": 819,
-  "with_files": 183,
-  "listed_downloads": 186
+  "placement": 191,
+  "internship": 823,
+  "with_files": 187,
+  "listed_downloads": 190
  },
  "categories": {
   "placement": [
+   {
+    "id": "1090",
+    "type": "PLACEMENT",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "Schneider Electric",
+    "notice": "The Pre-Placement Talk for Schneider Electric, will be held on 14th October, 2026 from 4:30 PM.\n\nLink: https://teams.microsoft.com/meet/3350708254112026?p=zNf8jiLQ6VvXk3M7ny\n\nNote: All placement-registered students are supposed to attend the PPT, without fail. Attendance is compulsory. Students must join the link 15 minutes prior to the scheduled time.\n\nPOC: Nikita (+91 99692 07598)\n\nCDC, IIT Kharagpur",
+    "noticeat": "14-10-2026 13:27",
+    "text_source": "full_notice",
+    "source_hash": "d014083021818531894525e5169ed031a1669645969886b8b1f523efc762751b",
+    "has_download": false
+   },
    {
     "id": "1083",
     "type": "PLACEMENT",
@@ -2107,6 +2118,54 @@
    }
   ],
   "internship": [
+   {
+    "id": "1091",
+    "type": "INTERNSHIP",
+    "subject": "Urgent",
+    "company": "THOUGHTSPOT",
+    "notice": "PFA the room allocation for the test of ThoughtSpot. The test is scheduled on 14th October 2026 from 6:30 PM onwards.\n\nStudents are required to carry their original Institute ID card/Medical Book, failing which students will not be permitted to sit for test. Students are advised to reach the venue 15 minutes prior to the time.\n\nPOC: Aditya Ghosh(+91 62959 16930), Aryan(+91 81003 03122)\n\nCDC, IIT Kharagpur",
+    "noticeat": "14-10-2026 15:52",
+    "text_source": "full_notice",
+    "source_hash": "f9d34a56e0d7030eb58bf59dcef6a57b51cb4db38010e0331d90442b545d99d6",
+    "has_download": true,
+    "file": "files/1091.pdf"
+   },
+   {
+    "id": "1089",
+    "type": "INTERNSHIP",
+    "subject": "Shortlist",
+    "company": "TECH MAHINDRA",
+    "notice": "PFA the test shortlist for Tech Mahindra.\n\nTest Window: 7PM, 14th October 2026 to 2AM, 15th October 2026\nTest Duration: 90 Minutes\n\nVenue: Respective Location\n\nPOC: Bhavy (+91 7597121669), Neev (+91 9001346350)\n\nCDC, IIT Kharagpur",
+    "noticeat": "14-10-2026 13:25",
+    "text_source": "full_notice",
+    "source_hash": "1ad3c19e1fb410995c335720350b1cb890adb88f84de9dc6b043455214459d6b",
+    "has_download": true,
+    "file": "files/1089.pdf"
+   },
+   {
+    "id": "1088",
+    "type": "INTERNSHIP",
+    "subject": "Shortlist",
+    "company": "MASTERCARD",
+    "notice": "PFA the test shortlist for MASTERCARD.\n\nThe Assessment is scheduled on 14th October, 9:00 PM onwards.\n\nVenue: NR221, Nalanda Classroom Complex\n\nStudents are required to carry their Institute ID card/Medical Book and are advised to reach the venue 15 minutes prior to the time.\n\nPOC: Devansh (+91 7999892181)\n\nCDC, IIT Kharagpur",
+    "noticeat": "14-10-2026 13:19",
+    "text_source": "full_notice",
+    "source_hash": "0303ef8d3367206833dd774c430dd561bbdda94c0bb650f03ad9dd8c29ab39bc",
+    "has_download": true,
+    "file": "files/1088.pdf"
+   },
+   {
+    "id": "1087",
+    "type": "INTERNSHIP",
+    "subject": "Shortlist",
+    "company": "CRED",
+    "notice": "PFA the test shortlist for CRED.\n\nThe Assessment is scheduled on 14th October, 10:30 PM onwards.\n\nVenue: Respective Location\n\nPOC: Vatsal (+91 9234457393)\n\nCDC, IIT Kharagpur",
+    "noticeat": "14-10-2026 13:17",
+    "text_source": "full_notice",
+    "source_hash": "cab887260cea8feb1248099b8aa0e7d09acc58c14b8d9613b3577d4b057092a7",
+    "has_download": true,
+    "file": "files/1087.pdf"
+   },
    {
     "id": "1084",
     "type": "INTERNSHIP",
