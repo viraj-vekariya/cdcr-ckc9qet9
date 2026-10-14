@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-10-14T12:57:15Z",
+ "last_updated": "2026-10-14T15:30:51Z",
  "stats": {
-  "placement": 191,
+  "placement": 192,
   "internship": 824,
   "with_files": 187,
   "listed_downloads": 191
  },
  "categories": {
   "placement": [
+   {
+    "id": "1093",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "GRAVITON RESEARCH CAPITAL",
+    "notice": "The CV submission of Graviton Research Capital for the Software Engineer role, and the Quantitative Researcher role have been opened till 4 PM, 15th October, 2026.\n\nIt is mandatory for all the candidates who are applying for this role, to apply on the company portal:\n\n1. Software Engineering: https://job-boards.greenhouse.io/gravitonresearchcapital/jobs/8764240002\n2. Quantitative Researcher: https://job-boards.greenhouse.io/gravitonresearchcapital/jobs/8768396002\n\nNOTE: Students are required to apply on the company portal using their CDC-registered email ID.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "14-10-2026 20:31",
+    "text_source": "full_notice",
+    "source_hash": "55ddb8fcfad32feba7457f8dd8d4975c789b4aa087dd742cde39f3fa015dca7b",
+    "has_download": false
+   },
    {
     "id": "1090",
     "type": "PLACEMENT",
