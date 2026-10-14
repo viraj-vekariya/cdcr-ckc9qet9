@@ -1,10 +1,10 @@
 {
- "last_updated": "2026-10-14T10:38:39Z",
+ "last_updated": "2026-10-14T11:56:51Z",
  "stats": {
   "placement": 191,
-  "internship": 823,
+  "internship": 824,
   "with_files": 187,
-  "listed_downloads": 190
+  "listed_downloads": 191
  },
  "categories": {
   "placement": [
@@ -2118,6 +2118,17 @@
    }
   ],
   "internship": [
+   {
+    "id": "1092",
+    "type": "INTERNSHIP",
+    "subject": "Shortlist",
+    "company": "CRED",
+    "notice": "Please note that the venue for the CRED assessment scheduled for 14th October, 10:30 PM onwards has been updated.\n\nVenue: NR222, Nalanda Classroom Complex\n\nPOC: Vatsal (+91 9234457393)\n\nCDC, IIT Kharagpur",
+    "noticeat": "14-10-2026 16:45",
+    "text_source": "full_notice",
+    "source_hash": "355935125ca2429b83ce0121b685fa0dce19e56ae7f438e4620718e65fe0983b",
+    "has_download": true
+   },
    {
     "id": "1091",
     "type": "INTERNSHIP",
