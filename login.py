@@ -12,7 +12,7 @@ Required env vars:
                            entry per security question you have set up on the ERP
   OTP_SENDER (optional) -- defaults to erpkgp@adm.iitkgp.ac.in
 """
-import os, re, time, imaplib
+import os, re, time, imaplib, email.utils
 import requests
 
 USER = os.environ.get("ERP_USER", "")
@@ -40,6 +40,11 @@ def _pick(q):
             return v
     return None
 
+# 15 Oct 2026: ERP's mail was delayed 30-60 min, so codes from EARLIER login
+# attempts kept landing mid-login and got used -> "ERP rejected login".
+# Only codes ERP sent after this login's own request are accepted.
+_NOT_BEFORE = 0.0
+
 def _newest_otp():
     M = imaplib.IMAP4_SSL("imap.gmail.com", timeout=25)
     try:
@@ -49,8 +54,17 @@ def _newest_otp():
         ids = d[0].split()
         if not ids:
             return None
-        typ, md = M.fetch(ids[-1], "(BODY[HEADER.FIELDS (SUBJECT)])")
-        m = re.search(r"is\s+(\d{4,8})", md[0][1].decode("utf-8", "ignore"))
+        typ, md = M.fetch(ids[-1], "(BODY[HEADER.FIELDS (SUBJECT DATE)])")
+        hdr = md[0][1].decode("utf-8", "ignore")
+        if _NOT_BEFORE:
+            dm = re.search(r"^Date:\s*(.+)$", hdr, re.M | re.I)
+            try:
+                sent = email.utils.parsedate_to_datetime(dm.group(1).strip()).timestamp() if dm else None
+            except Exception:
+                sent = None
+            if sent is not None and sent < _NOT_BEFORE - 60:
+                return None  # a late code from an earlier attempt
+        m = re.search(r"is\s+(\d{4,8})", hdr)
         return m.group(1) if m else None
     finally:
         try: M.logout()
@@ -108,6 +122,8 @@ def login(verbose=False):
     except Exception as e: print("baseline read failed:", e)
     form = {"user_id": USER, "password": PW, "answer": ans, "email_otp": "",
             "sessionToken": token, "requestedUrl": "https://erp.iitkgp.ac.in/IIT_ERP3/", "typeee": "SI"}
+    global _NOT_BEFORE
+    _NOT_BEFORE = time.time()
     o = s.post(f"{SSO}/getEmilOTP.htm", data=form, timeout=30)
     if verbose: print("3) OTP request:", o.status_code)
     otp = _wait_new_otp(baseline, timeout=150)
