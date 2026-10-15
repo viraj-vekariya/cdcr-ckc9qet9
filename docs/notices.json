@@ -1,8 +1,8 @@
 {
- "last_updated": "2026-10-15T17:20:57Z",
+ "last_updated": "2026-10-15T18:21:34Z",
  "stats": {
   "placement": 200,
-  "internship": 826,
+  "internship": 828,
   "with_files": 189,
   "listed_downloads": 193
  },
@@ -2219,6 +2219,28 @@
    }
   ],
   "internship": [
+   {
+    "id": "1105",
+    "type": "INTERNSHIP",
+    "subject": "Shortlist",
+    "company": "HP INC",
+    "notice": "PFB the shortlist for the Interview round of HP INC.\n\n24EE10045\n\nFurther details would be communicated to the shortlisted candidate shortly.\n\nCDC, IIT Kharagpur",
+    "noticeat": "15-10-2026 23:13",
+    "text_source": "full_notice",
+    "source_hash": "4c085e1a244f4d55454929398b1f69a5370c12353711b4039f2ba1b6f394170d",
+    "has_download": false
+   },
+   {
+    "id": "1104",
+    "type": "INTERNSHIP",
+    "subject": "Shortlist",
+    "company": "SINGULR AI",
+    "notice": "PFB the shortlist for the Interview round of SINGULR AI\n\n23AG36013\n23BT30032\n23EC39043\n23EE37009\n23HS23007\n23HS23017\n23ME31019\n23MF3AI36\n23MI31016\n23MT30015\n24CE10110\n24CH10044\n24EE10076\n24EX10012\n24MA10011\n24MA10042\n\nFurther details would be communicated to the shortlisted candidates shortly.\n\nCDC, IIT Kharagpur",
+    "noticeat": "15-10-2026 23:08",
+    "text_source": "full_notice",
+    "source_hash": "f9bb01109c77e062ab31a7f6d404fb7300472afc431d530ff2c7713f7a5d1ad3",
+    "has_download": false
+   },
    {
     "id": "1102",
     "type": "INTERNSHIP",
