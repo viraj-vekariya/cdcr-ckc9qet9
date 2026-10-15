@@ -1,0 +1,38 @@
+name: Keeper
+# Keeps the hourly watcher running with no Mac and no outside service
+# (15 Oct 2026: the Mac's launchd was the only trigger that actually fired,
+# and runs stopped whenever it slept; GitHub's own schedule fires rarely).
+# One long job dispatches hourly.yml every 30 min, then dispatches itself
+# before GitHub's 6h job limit. The 2-hourly schedule below only restarts
+# the chain if it ever breaks; the concurrency group keeps exactly one
+# keeper running. gate.py inside hourly.yml still decides whether an ERP
+# login is actually due, so extra triggers never mean extra logins.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 */2 * * *'
+permissions:
+  actions: write
+  contents: read
+concurrency:
+  group: keeper
+  cancel-in-progress: false
+jobs:
+  loop:
+    runs-on: ubuntu-latest
+    timeout-minutes: 345
+    steps:
+      - name: Trigger the watcher every 30 minutes
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          end=$(( $(date +%s) + 330*60 ))
+          while [ "$(date +%s)" -lt "$end" ]; do
+            gh workflow run hourly.yml --repo "$GITHUB_REPOSITORY" && echo "triggered $(date -u +%H:%M)" || echo "trigger failed $(date -u +%H:%M)"
+            sleep 1800
+          done
+      - name: Hand over to a fresh keeper
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run keeper.yml --repo "$GITHUB_REPOSITORY"
