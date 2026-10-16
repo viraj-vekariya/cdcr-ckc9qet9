@@ -1,13 +1,36 @@
 {
- "last_updated": "2026-10-16T09:22:18Z",
+ "last_updated": "2026-10-16T10:52:35Z",
  "stats": {
-  "placement": 201,
-  "internship": 828,
-  "with_files": 189,
-  "listed_downloads": 193
+  "placement": 203,
+  "internship": 829,
+  "with_files": 190,
+  "listed_downloads": 194
  },
  "categories": {
   "placement": [
+   {
+    "id": "1108",
+    "type": "PLACEMENT",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "HARNESS",
+    "notice": "The Pre-Placement Talk for Harness for Software Engineer I role, will be held on 16th October 2026 from 6:00 PM to 7:00 PM..\n\nLink: https://www.google.com/url?q=https://harness-io.zoom.us/j/98130763911?pwd%3DVVt0Lku5Bm7kqffp5Q7jJsppT8Oumd.1%26jst%3D2&sa=D&source=calendar&ust=1792308339520704&usg=AOvVaw1wM0st5i5gyKz8A0n2ABLN\n\nNote: All placement-registered students are supposed to attend the PPT, without fail. Attendance is compulsory. Students must join the link 15 minutes prior to the scheduled time.\n\nPOC: Aditya (+91 9325468252), Khush(+91 9922168000)\n\nCDC, IIT Kharagpur",
+    "noticeat": "16-10-2026 15:42",
+    "text_source": "full_notice",
+    "source_hash": "64f36b220b47181ebeed058dc14acbe441f8d34149e82d87c929bf7def644bca",
+    "has_download": false
+   },
+   {
+    "id": "1107",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "WARNER MUSIC GROUP",
+    "notice": "PFA the test shortlist for the Assessment of Warner Music Group for Software Engineer role, scheduled from 7:00 PM onwards on 16th October, 2026.\n\nVenue: Nalanda Classroom Complex.\n\nThe room allocation will be shared shortly.\n\nStudents are requested to report 15 minutes prior to the reporting time.\n\nPOC: Dishil (+91 99254 92574), Arpita (+91 90755 64147)\n\nCDC, IIT Kharagpur",
+    "noticeat": "16-10-2026 15:40",
+    "text_source": "full_notice",
+    "source_hash": "96fef01a36e70a61fc0e05f6b69b293b472f213378fb2a16b8ccd3cc8f9295cf",
+    "has_download": true,
+    "file": "files/1107.pdf"
+   },
    {
     "id": "1106",
     "type": "PLACEMENT",
@@ -2230,6 +2253,17 @@
    }
   ],
   "internship": [
+   {
+    "id": "1109",
+    "type": "INTERNSHIP",
+    "subject": "Shortlist",
+    "company": "Mastercard",
+    "notice": "PFB the shortlist for the Interview round of Mastercard.\n\n23IE3FP38\n24AI10038\n24MA10034\n\nFurther details would be communicated to the shortlisted candidates in due time.\n\nCDC, IIT Kharagpur",
+    "noticeat": "16-10-2026 15:48",
+    "text_source": "full_notice",
+    "source_hash": "af511259be0cb33faaaf78f1375ce81888129f62260b22cd0050ed0e99cc7896",
+    "has_download": false
+   },
    {
     "id": "1105",
     "type": "INTERNSHIP",
