@@ -1,13 +1,25 @@
 {
- "last_updated": "2026-10-16T13:52:34Z",
+ "last_updated": "2026-10-16T14:45:24Z",
  "stats": {
-  "placement": 205,
+  "placement": 206,
   "internship": 829,
-  "with_files": 192,
-  "listed_downloads": 196
+  "with_files": 193,
+  "listed_downloads": 197
  },
  "categories": {
   "placement": [
+   {
+    "id": "1112",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "HARNESS",
+    "notice": "PFA the room allocation for the test of Harness for the Software Engineer I role.\nPlease note that the test has been rescheduled to start from 9:00 PM onwards on 16th October 2026.\n\nPlease carry your laptops, pens, and papers.\n\nStudents are requested to report 15 minutes prior to the reporting time.\n\nNote : Students are required to carry their original Institute ID card, failing which students will not be permitted to sit for test.\n\nPOC: Aditya Ghandge(+91 9325468252), Khush(+91 9922168000)\n\nCDC, IIT Kharagpur",
+    "noticeat": "16-10-2026 20:07",
+    "text_source": "full_notice",
+    "source_hash": "2213c17ad91c7c8a21f4917a3feb95f64e8737ea2c8943b112de369051c4ef11",
+    "has_download": true,
+    "file": "files/1112.pdf"
+   },
    {
     "id": "1111",
     "type": "PLACEMENT",
