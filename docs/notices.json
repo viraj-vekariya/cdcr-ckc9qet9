@@ -1,13 +1,37 @@
 {
- "last_updated": "2026-10-16T11:52:24Z",
+ "last_updated": "2026-10-16T12:53:01Z",
  "stats": {
-  "placement": 203,
+  "placement": 205,
   "internship": 829,
-  "with_files": 190,
-  "listed_downloads": 194
+  "with_files": 192,
+  "listed_downloads": 196
  },
  "categories": {
   "placement": [
+   {
+    "id": "1111",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "WARNER MUSIC GROUP",
+    "notice": "Company: WARNER MUSIC GROUP\n\nRole: Software Engineer\n\nDate: 16th October 2026\n\nTest Time: 7:00 PM to 8:00 PM\n\nReporting Time: 6:45 PM\n(Students are requested to report 15 minutes prior to the reporting time)\n\nPFA the room allocation for the test.\n\nItems to carry:\n- Laptops\n- Pens\n- Papers\n- Original Institute ID card\n\nNote:\nStudents are required to carry their original Institute ID card, failing which students will not be permitted to sit for test.\n\nPOC:\n- Dishil: +91 99254 92574\n- Arpita: +91 90755 64147\n\nCDC, IIT Kharagpur",
+    "noticeat": "16-10-2026 18:09",
+    "text_source": "full_notice",
+    "source_hash": "007357dde72c42fedb926ec6fb3ed9d5371472025e27530adbd0d41d492d3814",
+    "has_download": true,
+    "file": "files/1111.pdf"
+   },
+   {
+    "id": "1110",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "HARNESS",
+    "notice": "PFA the test shortlist for the Assessment of Harness for Software Engineer I role.\n\nDate: 16th October, 2026\nTime: 8:30 PM onwards\nVenue: Nalanda Classroom Complex\n\nThe room allocation will be shared shortly.\n\nStudents are requested to report 15 minutes prior to the reporting time.\n\nPOC:\nAditya (+91 9325468252)\nKhush (+91 9922168000)\n\nCDC, IIT Kharagpur",
+    "noticeat": "16-10-2026 18:05",
+    "text_source": "full_notice",
+    "source_hash": "d2393f21865582a183687321a7987747721ff1312e35f48b131c570c08173e21",
+    "has_download": true,
+    "file": "files/1110.pdf"
+   },
    {
     "id": "1108",
     "type": "PLACEMENT",
