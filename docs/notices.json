@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-10-17T10:24:56Z",
+ "last_updated": "2026-10-17T11:25:00Z",
  "stats": {
-  "placement": 210,
+  "placement": 211,
   "internship": 830,
   "with_files": 193,
   "listed_downloads": 197
  },
  "categories": {
   "placement": [
+   {
+    "id": "1119",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "LAM RESEARCH",
+    "notice": "*LAM Research - CV Submission*\n\nThe CV submission of LAM Research for all roles is open.\n\n*Deadline:* \n4:00 PM, 18th October, 2026\n\nIt is mandatory for all candidates applying for these roles to fill the following Google Form before the deadline:\n\n*Google Form:*\nhttps://docs.google.com/forms/d/e/1FAIpQLSfFAZF8L9VZlXkoL5oZCWCfbT638L0OnKSIgmqKSMcgjSIF8A/viewform?usp=sharing&ouid=103589134014115491452\n\n*NOTE:* \nStudents must use their CDC-registered email ID while filling out the Google Form.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "17-10-2026 16:07",
+    "text_source": "full_notice",
+    "source_hash": "46e41248a39aacefe68254e2cd90870b1965dd0291100fe485f1b32eb2d85b03",
+    "has_download": false
+   },
    {
     "id": "1118",
     "type": "PLACEMENT",
@@ -24,7 +35,7 @@
     "type": "PLACEMENT",
     "subject": "Urgent",
     "company": "Accenture AEH",
-    "notice": "All students who have applied for Accenture AEH for the Elite Technology Engineer Profile are required to register on the company portal.\n\nDeadline: 4:00 PM, 18th October, 2026\n\nRegistration Link:\nhttps://indiacampus.accenture.com/v2/registration/accenture/AEHPLUS27/apply?event=1505067&job=1727495\n\nThis step is mandatory, and candidates who fail to complete the registration will not be considered for the process. \n\nImportant instructions regarding PAN card submission during the registration process:\n\n1. All students must submit a major PAN card which has their photo. This is mandatory and the only identity proof needed during our registration process.\n\n2. PAN cards made when a student was a minor will not be entertained. If provided, candidate will be rejected from the process.\n\n3. E-PAN Card is accepted. Candidates can refer to the instructions available in the help link on the registration page.\n\n4. All students must mandatorily submit their PAN number and PAN copy which has their photo. PAN card application acknowledgment as a proof of PAN card will not be considered.\n\n5. PAN card which has their photo is mandatory, and the only identity proof accepted during our offer and document verification process.\n\nAll students are requested to complete the portal registration using their CDC-registered email ID and ensure compliance with the above guidelines by 4:00 PM, 18th October 2026.\n\nCDC, IIT Kharagpur",
+    "notice": "All students who have applied for Accenture AEH for the Elite Technology Engineer Profile are required to register on the company portal.\n\nDeadline: 4:00 PM, 18th October, 2026\n\nRegistration \n\nLink:\nhttps://indiacampus.accenture.com/v2/registration/accenture/AEHPLUS27/apply?event=1505067&job=1727495\n\nThis step is mandatory, and candidates who fail to complete the registration will not be considered for the process. \n\nImportant instructions regarding PAN card submission during the registration process:\n\n1. All students must submit a major PAN card which has their photo. This is mandatory and the only identity proof needed during our registration process.\n\n2. PAN cards made when a student was a minor will not be entertained. If provided, candidate will be rejected from the process.\n\n3. E-PAN Card is accepted. Candidates can refer to the instructions available in the help link on the registration page.\n\n4. All students must mandatorily submit their PAN number and PAN copy which has their photo. PAN card application acknowledgment as a proof of PAN card will not be considered.\n\n5. PAN card which has their photo is mandatory, and the only identity proof accepted during our offer and document verification process.\n\nAll students are requested to complete the portal registration using their CDC-registered email ID and ensure compliance with the above guidelines by 4:00 PM, 18th October 2026.\n\nCDC, IIT Kharagpur",
     "noticeat": "17-10-2026 15:33",
     "text_source": "full_notice",
     "source_hash": "f990c48bb988e9e52218556c569efd0bf3cf7a2a3bfa8cdc553726f2800afc56",
