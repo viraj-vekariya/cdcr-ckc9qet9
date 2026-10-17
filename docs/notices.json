@@ -1,13 +1,35 @@
 {
- "last_updated": "2026-10-17T06:53:48Z",
+ "last_updated": "2026-10-17T08:25:01Z",
  "stats": {
-  "placement": 206,
-  "internship": 829,
+  "placement": 208,
+  "internship": 830,
   "with_files": 193,
   "listed_downloads": 197
  },
  "categories": {
   "placement": [
+   {
+    "id": "1116",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "Multiple Companies",
+    "notice": "The following companies are open for CV Submission.\n\nDeadline:\n4:00 PM, 18th October, 2026\n\nCompanies & Profiles:\n\n1. Houlihan Lokey\nProfile: Analyst\n\n2. Accenture AEH\nProfile: Elite Technology Engineer\n\n3. Inmobi\nProfile: SDE 1\n\n4. Slice\nProfile: Associate Product Manager, Analyst\n\n5. Mastercard\nProfile: Associate Specialist Product Development, Software Engineer\n\n6. Lam Research\nProfile: Software Application Engineer, Data Scientist\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "17-10-2026 13:51",
+    "text_source": "full_notice",
+    "source_hash": "552d0e801ab55cc123d115395af5f102be29afcc09e83bbbf4b4024fd4be3a4f",
+    "has_download": false
+   },
+   {
+    "id": "1115",
+    "type": "PLACEMENT",
+    "subject": "Date extension",
+    "company": "STENOA CAPITAL",
+    "notice": "*Company:* Stenoa Capital  \n*Role:* Quantitative Researcher  \n*Updated Deadline:* 11:59 PM, 17th October, 2026  \n\n*NOTE:*  \nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.  \n\nCDC, IIT Kharagpur",
+    "noticeat": "17-10-2026 13:47",
+    "text_source": "full_notice",
+    "source_hash": "091f91a467ba6271d87f3c269e973fecc6f2c6e8c1752991875cbc7c5a121b4b",
+    "has_download": false
+   },
    {
     "id": "1112",
     "type": "PLACEMENT",
@@ -2289,6 +2311,17 @@
    }
   ],
   "internship": [
+   {
+    "id": "1113",
+    "type": "INTERNSHIP",
+    "subject": "CV Submission",
+    "company": "ULTIMATE KRONOS GROUP",
+    "notice": "The CV submission of Ultimate Kronos Group has been opened till 11:59 PM, 18th October 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "17-10-2026 13:45",
+    "text_source": "full_notice",
+    "source_hash": "13e2600240b8830ad21d3f3dad7cde44e6ed826bd0610a9d129351a5146a9495",
+    "has_download": false
+   },
    {
     "id": "1109",
     "type": "INTERNSHIP",
