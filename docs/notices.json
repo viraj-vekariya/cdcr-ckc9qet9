@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-10-18T10:26:10Z",
+ "last_updated": "2026-10-18T11:27:06Z",
  "stats": {
-  "placement": 211,
+  "placement": 212,
   "internship": 830,
   "with_files": 193,
   "listed_downloads": 197
  },
  "categories": {
   "placement": [
+   {
+    "id": "1121",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "Accenture AEH",
+    "notice": "All students who have applied for Accenture AEH for the Elite Technology Engineer Profile are required to register on the company portal before 4:00 PM, 19th October, 2026.\n\nThis step is mandatory, and candidates who fail to complete the registration will not be considered for the process. Please take note of the following important instructions regarding PAN card submission during the registration process:\n\n1. All students must submit a major PAN card which has their photo. This is mandatory and the only identity proof needed during our registration process.\n\n2. PAN cards made when a student was a minor will not be entertained. If provided, candidate will be rejected from the process.\n\n3. E-PAN Card is accepted. Candidates can refer to the instructions available in the help link on the registration page.\n\n4. All students must mandatorily submit their PAN number and PAN copy which has their photo. PAN card application acknowledgment as a proof of PAN card will not be considered.\n\n5. PAN card which has their photo is mandatory, and the only identity proof accepted during our offer and document verification process.\n\nRegistration \n\nLink:\nhttps://indiacampus.accenture.com/v2/registration/accenture/AEHPLUS27/apply?event=1505067&job=1727495\n\nAll students are requested to complete the portal registration using their CDC-registered email ID and ensure compliance with the above guidelines by 4:00 PM, 19th October 2026.\n\nCDC, IIT Kharagpur",
+    "noticeat": "18-10-2026 16:34",
+    "text_source": "full_notice",
+    "source_hash": "631ba57b057d6669e9a8fc487b8aab02d17c322f0137bd41263151f8115404bc",
+    "has_download": false
+   },
    {
     "id": "1119",
     "type": "PLACEMENT",
