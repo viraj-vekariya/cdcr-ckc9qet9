@@ -1,13 +1,46 @@
 {
- "last_updated": "2026-10-18T12:26:46Z",
+ "last_updated": "2026-10-18T13:26:53Z",
  "stats": {
-  "placement": 214,
+  "placement": 217,
   "internship": 830,
   "with_files": 193,
   "listed_downloads": 197
  },
  "categories": {
   "placement": [
+   {
+    "id": "1129",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "MASTERCARD",
+    "notice": "The CV submission of MASTERCARD for the roles of Associate Specialist Product Development and Software Engineer has been extended.\n\nExtended Deadline: \n4:00 PM, 19th October, 2026\n\nIt is mandatory for all the candidates who are applying for these roles to apply on the portal links attached below:\n\n1. Associate Specialist Product Development:\nhttps://mastercard.wd1.myworkdayjobs.com/CampusApplyOnly/job/Pune-India/Product-Development--Launch-Program-2027---India_R-287681\n\n2. Software Engineer:\nhttps://mastercard.wd1.myworkdayjobs.com/CampusApplyOnly/job/Pune-India/Software-Engineer--Launch-Program-2027---India_R-287778\n\nNOTE: \nStudents are required to apply using their CDC-registered email ID on both the company portal. This step is mandatory, and candidates who fail to complete the registration will not be considered for the process.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "18-10-2026 18:32",
+    "text_source": "full_notice",
+    "source_hash": "e0cd51657ac844e9d9e76ad770d24b504f865bdf58b395679b484715e4f97cd9",
+    "has_download": false
+   },
+   {
+    "id": "1128",
+    "type": "PLACEMENT",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "MASTERCARD",
+    "notice": "Pre-Placement Talk: Mastercard\n\nDate: 19th October 2026\n\nTime: 4:00 PM to 5:00 PM\n\nLink:\nhttps://mastercard.zoom.us/j/85617943164?pwd=TnFE0SVdGn5V9CkEvTadvtIFz7sKuU.1\n\nPassword: \n215671\n\nNote:\n- All placement-registered students are supposed to attend the PPT, without fail.\n- Attendance is compulsory.\n- Students must join the link 15 minutes prior to the scheduled time.\n\nPOC: \nAshutosh (+91 8840104367)\n\nCDC, IIT Kharagpur",
+    "noticeat": "18-10-2026 18:30",
+    "text_source": "full_notice",
+    "source_hash": "46420d0232ad2437f39756a13b0a64c7a21fa9b64fb1ccaaa17d6ed95676ef13",
+    "has_download": false
+   },
+   {
+    "id": "1124",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "Accenture AEH",
+    "notice": "All students who have applied for the Accenture AEH : Elite Technology Engineer role and have received a rejection email from Accenture are required to fill out the Google Form linked below.\n\nGoogle Form:\nhttps://forms.gle/sgiwVt1xLXkio9Tm7\n\nDeadline:\n4:00 PM, 19th October 2026\n\nPlease note that this form is meant only for students who have received a rejection email from the company's end.\n\nCDC, IIT Kharagpur",
+    "noticeat": "18-10-2026 17:51",
+    "text_source": "full_notice",
+    "source_hash": "f9672cfc62d706c46382bf6f72066ef6fcf083ae0592bd2a7cfa13d88a22cac6",
+    "has_download": false
+   },
    {
     "id": "1123",
     "type": "PLACEMENT",
