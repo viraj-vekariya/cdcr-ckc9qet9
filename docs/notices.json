@@ -1,13 +1,35 @@
 {
- "last_updated": "2026-10-18T11:27:06Z",
+ "last_updated": "2026-10-18T12:26:46Z",
  "stats": {
-  "placement": 212,
+  "placement": 214,
   "internship": 830,
   "with_files": 193,
   "listed_downloads": 197
  },
  "categories": {
   "placement": [
+   {
+    "id": "1123",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "SLICE",
+    "notice": "The CV submission of Slice for both the roles has been reopened with revised eligibility.\n\nDeadline: \n4:00 PM, 19th October, 2026\n\nIt is mandatory for all candidates applying for this role to also apply on the registration link below using their CDC Registered Email ID to be considered for further process.\n\nRegistration link: \nhttps://iitkgp.pod.ai/d/3bTrpC/placement-registrations/-bfGiNKtm6zsZMVq69V-76UREk96_RioCe8d6M5sL2qBCcMTX61lMgB2_NH27yiBUb7whB_YicU1tJHkp0YxcQ/c03feb479a348f457d0e641a2da4d5f5ba6289ed/\n\nNOTE: \nStudents are required to apply using their CDC-registered email ID on the registration portal.\n\nThe 4 year BS courses will be added to the registration portal in due time. The respective students are advised to wait for their course to be added, and then apply on the registration portal as well.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "18-10-2026 17:07",
+    "text_source": "full_notice",
+    "source_hash": "769f93af90b4d77105a69a2896c9a2ccbe93161763ea150bc428b1ae7212ade0",
+    "has_download": false
+   },
+   {
+    "id": "1122",
+    "type": "PLACEMENT",
+    "subject": "Date extension",
+    "company": "Multiple Companies",
+    "notice": "The CV Submission for the following companies has been extended:\n\nDeadline:\n4:00 PM, 19th October, 2026\n\nCompanies:\n1. Houlihan Lokey\nProfile: Analyst\n\n2. Accenture AEH\nProfile: Elite Technology Engineer\n\n3. Inmobi\nProfile: SDE 1\n\n4. Mastercard\nProfile: Associate Specialist Product Development, Software Engineer\n\n5. Lam Research\nProfile: Software Application Engineer, Data Scientist\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "18-10-2026 17:06",
+    "text_source": "full_notice",
+    "source_hash": "3fabe13fe1304892914163321e36dcc75da03e4932fafae1f18d43f85c90a99b",
+    "has_download": false
+   },
    {
     "id": "1121",
     "type": "PLACEMENT",
