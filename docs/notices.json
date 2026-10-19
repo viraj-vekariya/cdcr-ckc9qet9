@@ -1,13 +1,46 @@
 {
- "last_updated": "2026-10-19T12:58:43Z",
+ "last_updated": "2026-10-19T13:59:27Z",
  "stats": {
-  "placement": 219,
+  "placement": 222,
   "internship": 831,
   "with_files": 193,
   "listed_downloads": 197
  },
  "categories": {
   "placement": [
+   {
+    "id": "1135",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "Multiple Companies",
+    "notice": "The following companies are open for CV Submission:\n\nDeadline:\n4:00 PM, 20th October, 2026\n\nCompanies:\n1. Qulacomm (All Profiles)\n2. Natwest Group (Software Engineer)\n\nInterested and eligible students are advised to apply within the given deadline.\n\nCDC, IIT Kharagpur",
+    "noticeat": "19-10-2026 19:15",
+    "text_source": "full_notice",
+    "source_hash": "4f383f229ba4aa0baedc644d9f9837e20600d9a28a93bc72c472b02d613de00b",
+    "has_download": false
+   },
+   {
+    "id": "1134",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "Accenture AEH",
+    "notice": "All students who have applied for Accenture AEH for the Elite Technology Engineer Profile are required to register on the company portal before:\nDeadline: 4:00 PM, 20th October, 2026\n\nThis step is mandatory, and candidates who fail to complete the registration will not be considered for the process.\n\nImportant instructions regarding PAN card submission during the registration process:\n\n1. All students must submit a major PAN card which has their photo. This is mandatory and the only identity proof needed during our registration process.\n\n2. PAN cards made when a student was a minor will not be entertained. If provided, candidate will be rejected from the process.\n\n3. E-PAN Card is accepted. Candidates can refer to the instructions available in the help link on the registration page.\n\n4. All students must mandatorily submit their PAN number and PAN copy which has their photo. PAN card application acknowledgment as a proof of PAN card will not be considered.\n\n5. PAN card which has their photo is mandatory, and the only identity proof accepted during our offer and document verification process.\n\nRegistration Link:\nhttps://indiacampus.accenture.com/v2/registration/accenture/AEHPLUS27/apply?event=1505067&job=1727495\n\nAll students are requested to complete the portal registration using their CDC-registered email ID and ensure compliance with the above guidelines by:\n4:00 PM, 20th October 2026\n\nCDC, IIT Kharagpur",
+    "noticeat": "19-10-2026 19:09",
+    "text_source": "full_notice",
+    "source_hash": "ab947159fa552acaffac048912042495b3c4fdde2614d41b306943a3a0aec2f1",
+    "has_download": false
+   },
+   {
+    "id": "1133",
+    "type": "PLACEMENT",
+    "subject": "Date extension",
+    "company": "Multiple Companies",
+    "notice": "The CV Submission for the following companies has been extended:\n\nDeadline:\n10:00 AM, 20th October, 2026\n\nCompanies:\n1. Inmobi\nProfile: SDE 1\n\n2. Mastercard\nProfile: Associate Specialist Product Development, Software Engineer\n\n3. Slice\nProfile: Associate Product Manager, Analyst\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "19-10-2026 18:51",
+    "text_source": "full_notice",
+    "source_hash": "bbceaf6ab425ec87fe7168bf54a26e3d1ae0a86c9b26b7b1e18d2f1cceb7dfe8",
+    "has_download": false
+   },
    {
     "id": "1132",
     "type": "PLACEMENT",
