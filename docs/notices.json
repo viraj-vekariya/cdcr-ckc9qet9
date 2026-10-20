@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-10-20T09:58:51Z",
+ "last_updated": "2026-10-20T10:59:53Z",
  "stats": {
-  "placement": 223,
+  "placement": 224,
   "internship": 832,
   "with_files": 194,
   "listed_downloads": 198
  },
  "categories": {
   "placement": [
+   {
+    "id": "1138",
+    "type": "PLACEMENT",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "BARCLAYS",
+    "notice": "The Pre-Placement Talk for Barclays, will be held on 21st October 2026 from 1:00 PM to 2:00 PM.\n\nLink: https://teams.microsoft.com/meet/345571785459568?p=gQt2pOftm6j8esFcng\n\nMeeting ID: 345 571 785 459 568\n\nPasscode: ev7rf37S\n\nNote: All placement-registered students are supposed to attend the PPT, without fail. Attendance is compulsory. Students must join the link 15 minutes prior to the scheduled time.\n\nPOC: Daksh (+91 98180 71612)\n\nCDC, IIT Kharagpur",
+    "noticeat": "20-10-2026 16:12",
+    "text_source": "full_notice",
+    "source_hash": "9d7915c96163a23820e6c043b4d3dea0eb72a69a39326936671940473a936a5c",
+    "has_download": false
+   },
    {
     "id": "1136",
     "type": "PLACEMENT",
