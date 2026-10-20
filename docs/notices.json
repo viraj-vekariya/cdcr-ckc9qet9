@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-10-20T19:31:17Z",
+ "last_updated": "2026-10-20T20:31:55Z",
  "stats": {
-  "placement": 227,
+  "placement": 228,
   "internship": 832,
   "with_files": 194,
   "listed_downloads": 198
  },
  "categories": {
   "placement": [
+   {
+    "id": "1142",
+    "type": "PLACEMENT",
+    "subject": "Schedule",
+    "company": "CDC Placement schedule from 21st - 22nd October",
+    "notice": "All students eligible for placement are advised to take note of the tentative PPT and Test Schedule from 21st till 22nd October 2026. \n\nPlease note that this schedule is tentative and subject to additions and deletions.\n\n1. BARCLAYS\nEvent: PPT (Virtual)\nDate: 21st October\nTime: 1:00 PM - 2:00 PM\n\n2. SEDEMAC\nEvent: PPT (Virtual)\nDate: 21st October\nTime: 4:00 PM - 5:00 PM\n\n3. LAM RESEARCH\nEvent: PPT (Virtual)\nDate: 22nd October\nTime: 12:00 PM - 2:00 PM\n\n4. LAM RESEARCH\nEvent: TEST\nDate: 22nd October\nTime: 2:30 PM - 4:30 PM\n\n5. SLICE\nEvent: TEST\nDate: 22nd October\nTime: 9:00 PM - 10:00 PM\n\nNote: \nAll the tests for placements would be conducted at Nalanda. \nRoom Allocation would be released along with the POC details before the test.\n\nCDC, IIT Kharagpur.",
+    "noticeat": "21-10-2026 01:42",
+    "text_source": "full_notice",
+    "source_hash": "baf1c82be1ab92ca800e8356fbf08971cd74fb099f283cce0c2d40bc57251b89",
+    "has_download": false
+   },
    {
     "id": "1141",
     "type": "PLACEMENT",
