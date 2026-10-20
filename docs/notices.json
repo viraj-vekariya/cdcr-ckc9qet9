@@ -1,10 +1,10 @@
 {
- "last_updated": "2026-10-20T05:00:00Z",
+ "last_updated": "2026-10-20T05:54:46Z",
  "stats": {
   "placement": 223,
-  "internship": 831,
-  "with_files": 193,
-  "listed_downloads": 197
+  "internship": 832,
+  "with_files": 194,
+  "listed_downloads": 198
  },
  "categories": {
   "placement": [
@@ -2476,6 +2476,18 @@
    }
   ],
   "internship": [
+   {
+    "id": "1137",
+    "type": "INTERNSHIP",
+    "subject": "Shortlist",
+    "company": "REKISE MARINE",
+    "notice": "PFA the shortlist for the Interview round of REKISE MARINE for all the roles.\n\nFurther details would be communicated to the shortlisted candidates shortly.\n\nCDC, IIT Kharagpur",
+    "noticeat": "20-10-2026 11:03",
+    "text_source": "full_notice",
+    "source_hash": "b40a4bb94cce25e333074d0eecfa8f9e09322e02bbc196714d776768cfbf88fe",
+    "has_download": true,
+    "file": "files/1137.pdf"
+   },
    {
     "id": "1131",
     "type": "INTERNSHIP",
