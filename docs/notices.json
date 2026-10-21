@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-10-21T08:32:18Z",
+ "last_updated": "2026-10-21T09:33:21Z",
  "stats": {
-  "placement": 228,
+  "placement": 229,
   "internship": 832,
   "with_files": 194,
   "listed_downloads": 198
  },
  "categories": {
   "placement": [
+   {
+    "id": "1143",
+    "type": "PLACEMENT",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "SEDEMAC",
+    "notice": "The Pre-Placement Talk for Sedemac for all the roles, will be held on 21st October 2026 from 3:55 PM.\n\nLink: https://teams.microsoft.com/meet/410053609629199?p=vUePnRFVSfYIh1I4xA\n\nNote: All placement-registered students are supposed to attend the PPT, without fail. Attendance is compulsory. Students must join the link 15 minutes prior to the scheduled time.\n\nPOC: Neev (+91 9001346350)\n\nCDC, IIT Kharagpur.",
+    "noticeat": "21-10-2026 14:46",
+    "text_source": "full_notice",
+    "source_hash": "18834601c354fb124d4a66ebc4745bacaf7b158b12035cb518e7d5ce319b6b2a",
+    "has_download": false
+   },
    {
     "id": "1142",
     "type": "PLACEMENT",
