@@ -1,7 +1,7 @@
 {
- "last_updated": "2026-10-21T10:33:34Z",
+ "last_updated": "2026-10-21T12:03:55Z",
  "stats": {
-  "placement": 230,
+  "placement": 232,
   "internship": 832,
   "with_files": 194,
   "listed_downloads": 198
@@ -9,14 +9,36 @@
  "categories": {
   "placement": [
    {
-    "id": "1144",
+    "id": "1147",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "ACCENTURE SOLUTIONS PRIVATE LIMITED",
+    "notice": "All students who are eligible and applied for ACCENTURE SOLUTIONS PRIVATE LIMITED for the GN MANAGEMENT CONSULTING ASSOCIATE Profile are required to register on the company portal.\n\nDeadline:\n4:00 PM, 23rd October, 2026\n\nNote:\nIf you wish to be considered for the Elite Technology Engineer role at Accenture AEH, you must register on the Accenture AEH portal before proceeding with registration on the ACCENTURE SOLUTIONS PRIVATE LIMITED portal.\n\nRegistration is mandatory, and candidates who fail to complete it will not be considered for the recruitment process. Please carefully follow the PAN Card submission guidelines below and all other instructions provided on the company portal:\n\nPAN Card Guidelines & Instructions:\n1. Ensure that you have a valid Adult PAN Card or e-PAN Card at the time of registration.\n\n2. Do not use a Minor PAN Card, as it will not be accepted.\n\n3. Do not use an Adult PAN Card with a childhood photograph.\n\n4. Ensure that your Adult PAN Card includes the name of your father or legal guardian.\n\n5. Enter your name exactly as it appears on your PAN Card. If your PAN Card does not have a last name, enter your first name twice in the portal.\n\n6. Enter your date of birth (DOB) exactly as mentioned on your PAN Card.\n\n7. Upload a clear, high-resolution image of your PAN Card to ensure that all details are clearly visible.\n\n8. In the Source Details section, select College Name for the question \u201cHow did you find out about this job?\u201d and enter IIT Kharagpur as the college name.\n\nRegistration Link:\nhttps://indiacampus.accenture.com/register/accenture/bsclnew/apply/?event=1538945\n\nAll students are requested to complete the portal registration using their CDC-registered email ID and ensure compliance with the above guidelines by 4:00 PM, 23rd October 2026.\n\nCDC, IIT Kharagpur",
+    "noticeat": "21-10-2026 17:23",
+    "text_source": "full_notice",
+    "source_hash": "e74bd885a473da572c4187a82f2484dd3c89fd2e819cd6ee1ef79311d1de630f",
+    "has_download": false
+   },
+   {
+    "id": "1146",
     "type": "PLACEMENT",
     "subject": "CV Submission",
     "company": "Multiple Companies",
-    "notice": "The following companies are open for CV Submission:\n\nDeadline: 4:00 PM, 22nd October, 2026\n\n1. ACCENTURE SOLUTIONS PRIVATE LIMITED\nProfile: I&E AI and Data, GN Management Consulting Associate\n\n2. PLUTUS RESEARCH PRIVATE LIMITED\nProfile: Trading Systems Developer, Quantitative Analyst\n\n3. IXANA\nProfile: All Profiles\n\n4. POCKET FM\nProfile: Member of Technical Staff\n\n5. AMERICAN EXPRESS\nProfile: Management Trainee - Data Science & Analytics\n\nInterested and eligible students are advised to apply within the given deadline.\n\nCDC, IIT Kharagpur",
-    "noticeat": "21-10-2026 15:47",
+    "notice": "The following companies are open for CV Submission:\n\nDeadline:\n4:00 PM, 22nd October, 2026\n\nCompanies & Profiles:\n\n1. ACCENTURE SOLUTIONS PRIVATE LIMITED\nProfile: I&E AI and Data, GN Management Consulting Associate\n\n2. PLUTUS RESEARCH PRIVATE LIMITED\nProfile: Trading Systems Developer, Quantitative Analyst\n\n3. IXANA\nProfile: All Profiles\n\n4. POCKET FM\nProfiles: Member of Technical Staff, Management Trainee\n\n5. AMERICAN EXPRESS\nProfile: Management Trainee - Data Science & Analytics\n\nInterested and eligible students are advised to apply within the given deadline.\n\nCDC, IIT Kharagpur",
+    "noticeat": "21-10-2026 16:23",
     "text_source": "full_notice",
-    "source_hash": "c0fde2cae2d7e267b6f247bf9563f7b7fcde806738a92587b167aa478fdc330c",
+    "source_hash": "9444316d048157b8d4a97b41756ccc20280c870cf5a415fdc553d083c693dde5",
+    "has_download": false
+   },
+   {
+    "id": "1145",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "Accenture AEH",
+    "notice": "All students who have applied for Accenture AEH for the Elite Technology Engineer Profile are required to register on the company portal.\n\nDeadline: \n4:00 PM, 22nd October, 2026\n\nRegistration Link:\nhttps://indiacampus.accenture.com/v2/registration/accenture/AEHPLUS27/apply?event=1505067&job=1727495\n\nThis step is mandatory, and candidates who fail to complete the registration will not be considered for the process. \n\nImportant instructions regarding PAN card submission during the registration process:\n\n1. All students must submit a major PAN card which has their photo. This is mandatory and the only identity proof needed during our registration process.\n\n2. PAN cards made when a student was a minor will not be entertained. If provided, candidate will be rejected from the process.\n\n3. E-PAN Card is accepted. Candidates can refer to the instructions available in the help link on the registration page.\n\n4. All students must mandatorily submit their PAN number and PAN copy which has their photo. PAN card application acknowledgment as a proof of PAN card will not be considered.\n\n5. PAN card which has their photo is mandatory, and the only identity proof accepted during our offer and document verification process.\n\nAll students are requested to complete the portal registration using their CDC-registered email ID and ensure compliance with the above guidelines by 4:00 PM, 22nd October 2026.\n\nCDC, IIT Kharagpur",
+    "noticeat": "21-10-2026 16:10",
+    "text_source": "full_notice",
+    "source_hash": "2feba404628ba158ec9fd5aadfa571e6bf5f358f191f565691ee0e79343db91f",
     "has_download": false
    },
    {
