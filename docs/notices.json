@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-10-21T14:48:44Z",
+ "last_updated": "2026-10-21T15:48:56Z",
  "stats": {
-  "placement": 233,
+  "placement": 234,
   "internship": 833,
   "with_files": 194,
   "listed_downloads": 198
  },
  "categories": {
   "placement": [
+   {
+    "id": "1150",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "Multiple Companies",
+    "notice": "The CV Submission for the following companies have been extended till 2:00 PM, 22nd October, 2026\n\n1. Qulacomm (All Profiles)\n\n2. Natwest Group (Profile : Software Engineer)\n\n3. Accenture AEH (Profile: Elite Technology Engineer)\n\n4. Mastercard (Profile: Associate Specialist Product Development, Software Engineer)\n\nInterested and eligible students are advised to apply within the given deadline.\n\nCDC, IIT Kharagpur",
+    "noticeat": "21-10-2026 20:19",
+    "text_source": "full_notice",
+    "source_hash": "16189f926dc733151ee32757023ae200b7faf977ecab5ec4222fbf4b6ac0c2d2",
+    "has_download": false
+   },
    {
     "id": "1148",
     "type": "PLACEMENT",
