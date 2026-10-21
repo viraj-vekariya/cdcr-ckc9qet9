@@ -183,6 +183,38 @@ def setup_with_phone_code(timeout_s=480):
         return ok
 
 
+def _dismiss_popups(page, rounds=4):
+    """Closes WhatsApp Web modals that sit over the chat and swallow both
+    clicks and key presses (21 Oct 2026: a freshly linked device showed
+    "What's new on WhatsApp Web" and every send timed out behind it)."""
+    for _ in range(rounds):
+        dlg = page.locator('[role="dialog"]')
+        try:
+            if not dlg.count() or not dlg.first.is_visible():
+                return
+            text = dlg.first.inner_text(timeout=1500)[:80].replace("\n", " ")
+        except Exception:
+            return
+        closed = False
+        for name in ("Close", "Continue", "OK", "Got it", "Not now", "Skip", "Done", "Dismiss"):
+            btn = dlg.first.get_by_role("button", name=name)
+            try:
+                if btn.count() and btn.first.is_visible():
+                    btn.first.click(timeout=3000)
+                    closed = True
+                    break
+            except Exception:
+                pass
+        if not closed:
+            try:
+                dlg.first.locator('[aria-label="Close" i], [data-icon="x"], [data-icon="close"]').first.click(timeout=2000)
+                closed = True
+            except Exception:
+                page.keyboard.press("Escape")
+        print(f"dismissed WhatsApp popup: {text!r}")
+        page.wait_for_timeout(800)
+
+
 def _match_count(page, snippet):
     """How many chat bubbles already contain this text (taken before sending)."""
     snippet = re.sub(r"\s+", " ", snippet or "").strip()
@@ -302,6 +334,7 @@ def send(message, headless=True, timeout_ms=30000):
         box = page.locator('div[contenteditable="true"][aria-label^="Type a message" i]')
         box.wait_for(state="visible", timeout=timeout_ms)
         page.wait_for_timeout(3000)  # let the socket to the phone settle, not just the DOM render
+        _dismiss_popups(page)
         before_count = page.locator('[data-testid^="conv-msg-"]').count()
         before_match = _match_count(page, message[:40])
 
@@ -370,6 +403,7 @@ def send_file(path, caption="", headless=True, timeout_ms=40000):
         page.goto(f"https://web.whatsapp.com/send?phone={MY_NUMBER}", timeout=timeout_ms)
         page.wait_for_selector('div[contenteditable="true"][aria-label^="Type a message" i]', timeout=timeout_ms)
         page.wait_for_timeout(3000)  # let the socket to the phone settle, not just the DOM render
+        _dismiss_popups(page)
         before_count = page.locator('[data-testid^="conv-msg-"]').count()
         before_match = _match_count(page, caption[:40] if caption else '')
         page_text = page.evaluate("document.body.innerText")
@@ -453,6 +487,7 @@ def send_to_chat(message, chat_name, headless=True, timeout_ms=30000):
         # ElementHandle taken via wait_for_selector).
         box = page.locator('div[contenteditable="true"][aria-label^="Type a message" i]')
         box.wait_for(state="visible", timeout=timeout_ms)
+        _dismiss_popups(page)
         box.click(timeout=timeout_ms)
         page.keyboard.press("Enter")
         page.wait_for_timeout(1500)
