@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-10-22T10:35:25Z",
+ "last_updated": "2026-10-22T11:36:03Z",
  "stats": {
-  "placement": 239,
+  "placement": 240,
   "internship": 833,
   "with_files": 196,
   "listed_downloads": 200
  },
  "categories": {
   "placement": [
+   {
+    "id": "1157",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "Multiple Companies",
+    "notice": "The CV Submission for the following companies have been extended till 4:00 PM, 23rd October, 2026.\n\n1. ACCENTURE SOLUTIONS PRIVATE LIMITED (Profile: I&E AI and Data, GN Management Consulting Associate)\n\n2. PLUTUS RESEARCH PRIVATE LIMITED (Profile: Trading Systems Developer, Quantitative Analyst)\n\n3. IXANA (All Profiles)\n\n4. POCKET FM (Profile: Member of Technical Staff)\n\n5. AMERICAN EXPRESS (Profile: Management Trainee - Data Science & Analytics)\n\nInterested and eligible students are advised to apply within the given deadline.\n\nCDC, IIT Kharagpur",
+    "noticeat": "22-10-2026 16:41",
+    "text_source": "full_notice",
+    "source_hash": "6aef74ca0e493d923054dbcdf4aa066b099a8ff249777305e08c16e860c71788",
+    "has_download": false
+   },
    {
     "id": "1156",
     "type": "PLACEMENT",
