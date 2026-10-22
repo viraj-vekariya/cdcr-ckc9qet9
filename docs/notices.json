@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-10-22T11:36:03Z",
+ "last_updated": "2026-10-22T12:43:05Z",
  "stats": {
   "placement": 240,
   "internship": 833,
@@ -9,14 +9,14 @@
  "categories": {
   "placement": [
    {
-    "id": "1157",
+    "id": "1159",
     "type": "PLACEMENT",
     "subject": "CV Submission",
     "company": "Multiple Companies",
-    "notice": "The CV Submission for the following companies have been extended till 4:00 PM, 23rd October, 2026.\n\n1. ACCENTURE SOLUTIONS PRIVATE LIMITED (Profile: I&E AI and Data, GN Management Consulting Associate)\n\n2. PLUTUS RESEARCH PRIVATE LIMITED (Profile: Trading Systems Developer, Quantitative Analyst)\n\n3. IXANA (All Profiles)\n\n4. POCKET FM (Profile: Member of Technical Staff)\n\n5. AMERICAN EXPRESS (Profile: Management Trainee - Data Science & Analytics)\n\nInterested and eligible students are advised to apply within the given deadline.\n\nCDC, IIT Kharagpur",
-    "noticeat": "22-10-2026 16:41",
+    "notice": "The following companies are open for CV Submission:\n\nDeadline:\n4:00 PM, 23rd October, 2026\n\nCompanies:\n\n1. ACCENTURE SOLUTIONS PRIVATE LIMITED\nProfile: I&E AI and Data, GN Management Consulting Associate\n\n2. PLUTUS RESEARCH PRIVATE LIMITED\nProfile: Trading Systems Developer, Quantitative Analyst\n\n3. IXANA\nProfile: All Profiles\n\n4. POCKET FM\nProfiles: Member of Technical Staff, Management Trainee\n\n5. AMERICAN EXPRESS\nProfile: Management Trainee - Data Science & Analytics\n\nInterested and eligible students are advised to apply within the given deadline.\n\nCDC, IIT Kharagpur",
+    "noticeat": "22-10-2026 17:59",
     "text_source": "full_notice",
-    "source_hash": "6aef74ca0e493d923054dbcdf4aa066b099a8ff249777305e08c16e860c71788",
+    "source_hash": "90a3544d71831fa7fae2e453739f784c540e74777bce69eb62a28f00a8e5b467",
     "has_download": false
    },
    {
