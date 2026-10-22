@@ -1,13 +1,37 @@
 {
- "last_updated": "2026-10-22T13:44:16Z",
+ "last_updated": "2026-10-22T14:52:33Z",
  "stats": {
-  "placement": 240,
+  "placement": 242,
   "internship": 833,
-  "with_files": 196,
-  "listed_downloads": 200
+  "with_files": 198,
+  "listed_downloads": 202
  },
  "categories": {
   "placement": [
+   {
+    "id": "1161",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "SLICE",
+    "notice": "PFA the test room allocation for the Assessment of Slice for both the roles, scheduled from 9:00 PM onwards on 22nd October, 2026.\n\nVenue: Nalanda Classroom Complex\n\nStudents are required to carry their original Institute ID card/Medical Book, failing which students will not be permitted to sit for test.\n\nPlease carry your laptops, pens, and papers.\n\nStudents are requested to report 15 minutes prior to the reporting time.\n\nPOC: Aryan (+91 8100303122), Anurag (+91 9491087133)\n\nCDC, IIT Kharagpur",
+    "noticeat": "22-10-2026 20:11",
+    "text_source": "full_notice",
+    "source_hash": "e1d7957da9d1c776e08f1696466a7d17db1d7b5cb2f844d99fec9742014b2e13",
+    "has_download": true,
+    "file": "files/1161.pdf"
+   },
+   {
+    "id": "1160",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "SLICE",
+    "notice": "PFA the test shortlist for the Assessment of Slice for both the roles, scheduled from 9:00 PM onwards on 22nd October, 2026.\nPlease note that there will be a common test for both the roles.\n\nVenue: Nalanda Classroom Complex\n\nNote: Students are requested to report 15 minutes prior to the reporting time. Students are also required to bring their Institute Id card for the test.\n\nPOC: Aryan (+91 8100303122), Anurag (+91 9491087133)\n\nCDC, IIT Kharagpur",
+    "noticeat": "22-10-2026 18:27",
+    "text_source": "full_notice",
+    "source_hash": "203026d66b9dd34c93a21b014b6cb7571b5939f58fa371a3689d626cd5b00c20",
+    "has_download": true,
+    "file": "files/1160.pdf"
+   },
    {
     "id": "1159",
     "type": "PLACEMENT",
