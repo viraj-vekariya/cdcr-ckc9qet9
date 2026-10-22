@@ -30,7 +30,14 @@ jobs:
         id: gate
         env:
           FORCE_RUN: ${{ inputs.force }}
-        run: python3 gate.py
+        # a run queued behind another (concurrency group) checks out the repo
+        # as it was when it was QUEUED -- before the previous run pushed its
+        # last_run.json -- so the gate saw a stale "last success" and ran a
+        # second full cycle minutes later (22 Oct 2026: 18:09 + 18:14 IST).
+        # Pull the latest state first.
+        run: |
+          git pull -q --ff-only || true
+          python3 gate.py
       - uses: actions/setup-python@v5
         if: steps.gate.outputs.should_run == 'true'
         with:
