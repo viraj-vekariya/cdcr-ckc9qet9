@@ -1,13 +1,25 @@
 {
- "last_updated": "2026-10-22T06:35:24Z",
+ "last_updated": "2026-10-22T07:35:15Z",
  "stats": {
-  "placement": 238,
+  "placement": 239,
   "internship": 833,
-  "with_files": 195,
-  "listed_downloads": 199
+  "with_files": 196,
+  "listed_downloads": 200
  },
  "categories": {
   "placement": [
+   {
+    "id": "1156",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "LAM RESEARCH",
+    "notice": "PFA the Room Allocation for the Assessment of LAM RESEARCH for both the roles.\n\nDate: 22nd October, 2026\nTime: 2:30 PM onwards\n\nInstructions:\n\u2022 Please carry your laptops, pens, and papers.\n\u2022 Students are requested to report 15 minutes prior to the reporting time.\n\nNote:\nStudents are required to carry their original Institute ID card, failing which students will not be permitted to sit for test.\n\nPOCs:\nAshutosh Singh (+91 8840104367)\nNikhita Singh (+91 8770035884)\n\nCDC, IIT Kharagpur",
+    "noticeat": "22-10-2026 12:36",
+    "text_source": "full_notice",
+    "source_hash": "71e696df5a3a96c629c7becbe4a14c384255a2c13b7e3f4a60244f93d3472a73",
+    "has_download": true,
+    "file": "files/1156.pdf"
+   },
    {
     "id": "1155",
     "type": "PLACEMENT",
