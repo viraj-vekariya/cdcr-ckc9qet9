@@ -341,14 +341,17 @@ def main():
                 except Exception as e:
                     log(f"WhatsApp attachment send failed for {r['id']} (non-fatal): {e}")
     else:
+        # Email only, no WhatsApp: the linked WhatsApp device was logged out
+        # twice in a day (21-22 Oct 2026) while it was being opened 24-48x/day
+        # just to say "nothing new". WhatsApp now opens only for real notices.
         end = datetime.datetime.now(IST).strftime("%I:%M %p")
         if prev_run:
             start = prev_run.astimezone(IST).strftime("%I:%M %p")
-            notify_all(f"No CDC update from {start} to {end} IST.\n\n\U0001F310 {SITE_URL}",
-                       subject="CDC watcher: no update this hour")
+            msg = f"No CDC update from {start} to {end} IST.\n\n\U0001F310 {SITE_URL}"
         else:
-            notify_all(f"No CDC update for now ({end} IST).\n\n\U0001F310 {SITE_URL}",
-                       subject="CDC watcher: no update this hour")
+            msg = f"No CDC update for now ({end} IST).\n\n\U0001F310 {SITE_URL}"
+        send_update_email("CDC watcher: no update this hour", msg, failed=False)
+        log("no new notices -- email only (WhatsApp is kept for real notices)")
 
 
 if __name__ == "__main__":
