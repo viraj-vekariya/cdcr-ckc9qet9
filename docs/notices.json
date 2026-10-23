@@ -1,13 +1,25 @@
 {
- "last_updated": "2026-10-23T12:08:14Z",
+ "last_updated": "2026-10-23T13:04:07Z",
  "stats": {
-  "placement": 246,
+  "placement": 247,
   "internship": 835,
-  "with_files": 199,
-  "listed_downloads": 203
+  "with_files": 200,
+  "listed_downloads": 204
  },
  "categories": {
   "placement": [
+   {
+    "id": "1169",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "INMOBI",
+    "notice": "PFA the test room allocation for the Assessment of InMobi for SDE1 role, scheduled from 6:00 PM onwards on 23rd October, 2026.\n\nVenue: Nalanda Classroom Complex\n\nStudents are required to carry their original Institute ID card/Medical Book, failing which students will not be permitted to sit for test.\n\nPlease carry your laptops, pens, and papers.\n\nStudents are requested to report 15 minutes prior to the reporting time.\n\nPOC: Syed Faiz Reza Zaidi(+91 73862 95387), Daksh(+91 98180 71612)\n\nCDC, IIT Kharagpur",
+    "noticeat": "23-10-2026 17:48",
+    "text_source": "full_notice",
+    "source_hash": "3297eff26a6ebef01a4b06da78c04f1ba6b0b8cccb7c3ac82501a7bf5203fa33",
+    "has_download": true,
+    "file": "files/1169.pdf"
+   },
    {
     "id": "1168",
     "type": "PLACEMENT",
