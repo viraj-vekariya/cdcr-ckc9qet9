@@ -17,7 +17,7 @@ from pathlib import Path
 
 FILE = Path(__file__).resolve().parent / "last_run.json"
 LOCK_FILE = Path(__file__).resolve().parent / "local_lock.json"
-MIN_SUCCESS_GAP = 50
+MIN_SUCCESS_GAP = 25  # 24 Oct 2026: half-hourly; Instinct reads the feeds instead of logging in, so this is the only ERP login
 MIN_ATTEMPT_GAP = 25
 
 
