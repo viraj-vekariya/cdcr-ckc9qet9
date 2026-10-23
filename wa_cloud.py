@@ -332,7 +332,7 @@ def send(message, headless=True, timeout_ms=30000):
         # on every action instead of holding a handle to a specific node, so
         # it survives that re-render.
         box = page.locator('div[contenteditable="true"][aria-label^="Type a message" i]')
-        box.wait_for(state="visible", timeout=timeout_ms)
+        _wait_for_compose(page, box)
         page.wait_for_timeout(3000)  # let the socket to the phone settle, not just the DOM render
         _dismiss_popups(page)
         before_count = page.locator('[data-testid^="conv-msg-"]').count()
@@ -390,6 +390,26 @@ def send(message, headless=True, timeout_ms=30000):
         ctx.close()
 
 
+def _wait_for_compose(page, box, timeout_s=150):
+    """Waits for the compose box, closing popups meanwhile. Since 22 Oct 2026
+    WhatsApp opens only for real notices, so a run can start many hours after
+    the last one and the catch-up sync takes longer than the old 30 s wait
+    (23 Oct 2026: timed out with the session still valid). On failure, say
+    what the page showed instead of a bare locator timeout."""
+    deadline = time.time() + timeout_s
+    while time.time() < deadline:
+        try:
+            box.wait_for(state="visible", timeout=5000)
+            return
+        except Exception:
+            _dismiss_popups(page, rounds=1)
+    try:
+        body = page.evaluate("document.body.innerText")[:300]
+    except Exception:
+        body = "<err>"
+    raise RuntimeError(f"compose box never appeared in {timeout_s}s -- url={page.url.split('?')[0]} page={body!r}")
+
+
 def send_file(path, caption="", headless=True, timeout_ms=40000):
     """Sends a file (PDF etc.) as a document to the personal self-DM, with an
     optional caption. Attach menu -> Document -> file chooser -> preview ->
@@ -401,7 +421,7 @@ def send_file(path, caption="", headless=True, timeout_ms=40000):
         ctx = _launch(p, headless)
         page = ctx.pages[0] if ctx.pages else ctx.new_page()
         page.goto(f"https://web.whatsapp.com/send?phone={MY_NUMBER}", timeout=timeout_ms)
-        page.wait_for_selector('div[contenteditable="true"][aria-label^="Type a message" i]', timeout=timeout_ms)
+        _wait_for_compose(page, page.locator('div[contenteditable="true"][aria-label^="Type a message" i]'))
         page.wait_for_timeout(3000)  # let the socket to the phone settle, not just the DOM render
         _dismiss_popups(page)
         before_count = page.locator('[data-testid^="conv-msg-"]').count()
@@ -486,7 +506,7 @@ def send_to_chat(message, chat_name, headless=True, timeout_ms=30000):
         # for why (a re-render between locating and clicking detaches an
         # ElementHandle taken via wait_for_selector).
         box = page.locator('div[contenteditable="true"][aria-label^="Type a message" i]')
-        box.wait_for(state="visible", timeout=timeout_ms)
+        _wait_for_compose(page, box)
         _dismiss_popups(page)
         box.click(timeout=timeout_ms)
         page.keyboard.press("Enter")
