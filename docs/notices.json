@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-10-23T07:07:57Z",
+ "last_updated": "2026-10-23T08:08:07Z",
  "stats": {
-  "placement": 244,
+  "placement": 245,
   "internship": 834,
   "with_files": 198,
   "listed_downloads": 202
  },
  "categories": {
   "placement": [
+   {
+    "id": "1166",
+    "type": "PLACEMENT",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "INMOBI",
+    "notice": "The Pre-Placement Talk for InMobi for the SDE1 role will be held on 23rd October 2026 from 4:15 PM onwards.\n\nVenue: NR 221, Nalanda\n\nNote: Attendance for the offline PPT for all the roles is mandatory and will be recorded. The Test will be held post the PPT. Only the students attending the PPT will be eligible for the test. Students are advised to be present 15 minutes prior to the scheduled time.\n\nPOC: Syed Faiz Reza Zaid (+91 73862 95387), Daksh(+91 98180 71612)\n\nCDC, IIT Kharagpur.",
+    "noticeat": "23-10-2026 12:57",
+    "text_source": "full_notice",
+    "source_hash": "4da5fb6ac312e0bdacc07e18b8cdc1223dcb37c43319f99c105c1cf9524deb9b",
+    "has_download": false
+   },
    {
     "id": "1163",
     "type": "PLACEMENT",
