@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-10-23T05:36:59Z",
+ "last_updated": "2026-10-23T07:07:57Z",
  "stats": {
-  "placement": 243,
-  "internship": 833,
+  "placement": 244,
+  "internship": 834,
   "with_files": 198,
   "listed_downloads": 202
  },
  "categories": {
   "placement": [
+   {
+    "id": "1163",
+    "type": "PLACEMENT",
+    "subject": "Date extension",
+    "company": "NATWEST",
+    "notice": "The CV Submission for the following company have been extended till 2:00 PM, 23rd October, 2026\n\n1. Natwest Group (Profile : Software Engineer)\n\nInterested and eligible students are advised to apply within the given deadline.\n\nCDC, IIT Kharagpur",
+    "noticeat": "23-10-2026 11:38",
+    "text_source": "full_notice",
+    "source_hash": "b0e3bcd00d5b4a6a3904442c241744a31d175cf8f2f5394050510b566a7dca67",
+    "has_download": false
+   },
    {
     "id": "1162",
     "type": "PLACEMENT",
@@ -2700,6 +2711,17 @@
    }
   ],
   "internship": [
+   {
+    "id": "1164",
+    "type": "INTERNSHIP",
+    "subject": "CV Submission",
+    "company": "SYNOPSYS",
+    "notice": "The CV submission of SYNOPSYS has been opened till 11:59 AM, 24th October 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "23-10-2026 12:03",
+    "text_source": "full_notice",
+    "source_hash": "550839915e4640c3ed1918c6f78a9e8a6f7fc067a92e832b396b9212263c1a35",
+    "has_download": false
+   },
    {
     "id": "1149",
     "type": "INTERNSHIP",
