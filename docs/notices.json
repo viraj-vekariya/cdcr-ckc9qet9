@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-10-23T14:13:25Z",
+ "last_updated": "2026-10-23T15:08:23Z",
  "stats": {
-  "placement": 247,
+  "placement": 248,
   "internship": 835,
   "with_files": 200,
   "listed_downloads": 204
  },
  "categories": {
   "placement": [
+   {
+    "id": "1170",
+    "type": "PLACEMENT",
+    "subject": "Schedule",
+    "company": "CDC Placement schedule for 24th October",
+    "notice": "All students eligible for placement are advised to take note of the schedule for 24th October:\n\n1. [Test] Mastercard (3:00 PM - 4:00 PM)\n\nNote : The room allocation for the test will be shared along with other relevant details prior to the test.\n\nCDC, IIT Kharagpur.",
+    "noticeat": "23-10-2026 20:21",
+    "text_source": "full_notice",
+    "source_hash": "80dee645c0e182078543ce18a2dea6483e0d7fc498e1f5f7488ed503c9e731ec",
+    "has_download": false
+   },
    {
     "id": "1169",
     "type": "PLACEMENT",
