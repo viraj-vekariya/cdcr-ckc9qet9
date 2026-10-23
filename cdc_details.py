@@ -219,8 +219,18 @@ def capture_companies(context):
             'jQuery("#grid37").jqGrid("getGridParam","records") > 0',
             timeout=20000,
         )
+        # The grid pages at 20 rows, so the 21st+ opportunity never showed
+        # (23 Oct 2026: ERP had 23, the site 20). Ask for every row at once.
+        total = app.evaluate('jQuery("#grid37").jqGrid("getGridParam","records")')
+        if total > app.locator('#grid37 tr.jqgrow').count():
+            app.evaluate('n => jQuery("#grid37").jqGrid("setGridParam",{rowNum:n, page:1}).trigger("reloadGrid")', total)
+            try:
+                app.wait_for_function(f'jQuery("#grid37 tr.jqgrow").length >= {total}', timeout=20000)
+            except Exception:
+                pass
         rows = app.locator('#grid37 tr.jqgrow')
-        for index in range(min(rows.count(), 30)):
+        print(f'Opportunities: {rows.count()} rows read, ERP reports {total}')
+        for index in range(min(rows.count(), 80)):
             row = rows.nth(index)
             def cell(field):
                 return row.locator(f'[aria-describedby="grid37_{field}"]').inner_text().strip()
