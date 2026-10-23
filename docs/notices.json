@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-10-23T04:36:51Z",
+ "last_updated": "2026-10-23T05:36:59Z",
  "stats": {
-  "placement": 242,
+  "placement": 243,
   "internship": 833,
   "with_files": 198,
   "listed_downloads": 202
  },
  "categories": {
   "placement": [
+   {
+    "id": "1162",
+    "type": "PLACEMENT",
+    "subject": "PPO",
+    "company": "MediaTek",
+    "notice": "MediaTek has extended the offer to the following student(s):\n\nSANDESH KUMAR - 25EC62R03\n\nGOKUL E T - 25EC62R13\n\nVICKY KASHINATH JHA - 25EC62R06\n\nSARTHAK KUMAR - 25EC62R05\n\nThe students are advised to give offer acceptance by 25.10.2026.\n\n(For more details, check your email ID.)\n\nCDC, IIT Kharagpur",
+    "noticeat": "23-10-2026 10:36",
+    "text_source": "full_notice",
+    "source_hash": "378ca8f4dca4ed1fe6da0a0750a5b09cc37b065f5374956e28fe5f58ac98e649",
+    "has_download": false
+   },
    {
     "id": "1161",
     "type": "PLACEMENT",
