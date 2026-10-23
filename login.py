@@ -110,9 +110,22 @@ def login(verbose=False):
         return None
     s = requests.Session()
     s.headers["User-Agent"] = "Mozilla/5.0"
-    r = s.get("https://erp.iitkgp.ac.in/IIT_ERP3/", timeout=30)
-    tok = re.search(r'name="sessionToken"[^>]*value="([^"]+)"', r.text)
-    token = tok.group(1) if tok else ""
+    # 23 Oct 2026: ERP sometimes serves this page without the token (two
+    # failed cycles that day; three fresh fetches from the Mac all had it).
+    # Without it auth.htm silently rejects the login, so retry, and also
+    # accept the token from the redirect URL (login.htm?sessionToken=...).
+    token = ""
+    for attempt in range(4):
+        try:
+            r = s.get("https://erp.iitkgp.ac.in/IIT_ERP3/", timeout=30)
+            tok = (re.search(r'name="sessionToken"[^>]*value="([^"]+)"', r.text)
+                   or re.search(r'sessionToken=([0-9A-F]+\.node\d+)', r.url))
+            token = tok.group(1) if tok else ""
+        except requests.RequestException as e:
+            if verbose: print(f"   login page fetch failed: {e}")
+        if token:
+            break
+        time.sleep(5 * (attempt + 1))
     if verbose: print("1) session token received:", bool(token))
     q = s.post(f"{SSO}/getSecurityQues.htm", data={"user_id": USER}, timeout=30).text.strip()
     ans = _pick(q)
