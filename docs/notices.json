@@ -1,8 +1,8 @@
 {
- "last_updated": "2026-10-23T10:04:35Z",
+ "last_updated": "2026-10-23T11:07:23Z",
  "stats": {
   "placement": 245,
-  "internship": 834,
+  "internship": 835,
   "with_files": 198,
   "listed_downloads": 202
  },
@@ -2722,6 +2722,17 @@
    }
   ],
   "internship": [
+   {
+    "id": "1167",
+    "type": "INTERNSHIP",
+    "subject": "Date extension",
+    "company": "Multiple Companies",
+    "notice": "The CV Submission for the following companies have been extended till 10:00 AM, 24th October, 2026\n\n1. Glassdata\n2. PHNX Research LLP\n3. Otsuka Corporation\n\nInterested and eligible students are advised to apply within the given deadline.\n\nCDC, IIT Kharagpur",
+    "noticeat": "23-10-2026 16:22",
+    "text_source": "full_notice",
+    "source_hash": "cda9dd8ad9c1a8bfe382ddb27795cc85a8dd939b22ce7ce49883091260d90eec",
+    "has_download": false
+   },
    {
     "id": "1164",
     "type": "INTERNSHIP",
