@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-10-24T14:46:21Z",
+ "last_updated": "2026-10-24T15:17:11Z",
  "stats": {
-  "placement": 257,
+  "placement": 258,
   "internship": 837,
   "with_files": 203,
   "listed_downloads": 207
  },
  "categories": {
   "placement": [
+   {
+    "id": "1184",
+    "type": "PLACEMENT",
+    "subject": "Schedule",
+    "company": "CDC Placement schedule for 25th October",
+    "notice": "All students eligible for placement are advised to take note of the schedule for 25th October:\n\n1. [PPT : Virtual ] COMMONWEALTH BANK OF AUSTRALIA (1:00 PM - 2:00 PM)\n\n2. [Test ] HOULIHAN LOKEY ( 8:00 PM - 9:30 PM )\n\nNote : The links to the ppts will be shared along with other relevant details separately. The room allocation for the test will be shared along with other relevant details prior to the test.\n\nCDC, IIT Kharagpur.",
+    "noticeat": "24-10-2026 20:40",
+    "text_source": "full_notice",
+    "source_hash": "89d6a628044dd8d2bef7bcfc0a014ee7ef83b10f429eedc0416316de967b89c8",
+    "has_download": false
+   },
    {
     "id": "1182",
     "type": "PLACEMENT",
