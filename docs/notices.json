@@ -1,13 +1,46 @@
 {
- "last_updated": "2026-10-24T13:10:07Z",
+ "last_updated": "2026-10-24T14:11:54Z",
  "stats": {
-  "placement": 254,
+  "placement": 257,
   "internship": 837,
   "with_files": 203,
   "listed_downloads": 207
  },
  "categories": {
   "placement": [
+   {
+    "id": "1182",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "Multiple Companies",
+    "notice": "The CV Submission for the following companies have been extended till 11:59 AM, 25th October, 2026.\n\n1. ACCENTURE SOLUTIONS PRIVATE LIMITED (Profile: I&E AI and Data, GN Management Consulting Associate)\n\n2. PLUTUS RESEARCH PRIVATE LIMITED (Profile: Trading Systems Developer, Quantitative Analyst)\n\n3. POCKET FM (Profiles: Member of Technical Staff, Management Trainee)\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "24-10-2026 19:08",
+    "text_source": "full_notice",
+    "source_hash": "ab16d0c6ba275ad9b98ef33b7eda29be8e8d585a3abab04ef3e395ed6cd5779e",
+    "has_download": false
+   },
+   {
+    "id": "1181",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "ACCENTURE",
+    "notice": "All students who have applied for any role at Accenture but have not successfully completed their registration must fill out the Google Form linked below.\n\nGoogle Form: https://forms.gle/PG5asweH3z9WPydA9\n\nDeadline: 4:00 PM, 25th October 2026.\n\nCDC, IIT Kharagpur",
+    "noticeat": "24-10-2026 18:57",
+    "text_source": "full_notice",
+    "source_hash": "19cd216978d68a178fb1b8ad6938edde3c5b674c365302585e43d58dd4c059c3",
+    "has_download": false
+   },
+   {
+    "id": "1179",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "SEDEMAC",
+    "notice": "All the students applying for Sedemac for any role are required to apply on the following Company Portal as well.\n\nA student will be considered for a maximum of 1 role only.\nStudents are also required to register on the following company portal using their CDC Registered Email ID, according to the role that they wish to apply for:\n\nEngineer, R&D and Engineer, Test Automation : https://app.joinsuperset.com/join/#/signup/student?jp=3ef72779-1b48-440b-ab19-69a0b38a8418\n\nEngineer, Electronic Hardware : https://app.joinsuperset.com/join/#/signup/student?jp=0c28522d-8d45-4d6b-af66-94fc6b132882\n\nEngineer, Manufacturing Engineering : https://app.joinsuperset.com/join/#/signup/student?jp=56a35944-3e32-4cce-8472-9e9159816064\n\nLead Engineer, Electronic Hardware : https://app.joinsuperset.com/join/#/signup/student?jp=08e60ac8-6cef-4168-be7b-955effb5c1dd\n\nLead Engineer, Embedded Software : https://app.joinsuperset.com/join/#/signup/student?jp=6161f328-a3d2-449f-961a-df4591f397f1\n\nLead Engineer, R&D (R&D-SysE-COE-AppE-CSA) : https://app.joinsuperset.com/join/#/signup/student?jp=353c06a3-1526-4450-b14c-b66aa9114db5\n\nDeadline: 4:00 PM, 25th October, 2026\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "24-10-2026 18:38",
+    "text_source": "full_notice",
+    "source_hash": "c1f4ec327ce5c4f961fb5834010b111a923238bdcbb7a2d930ffcccfd576e95d",
+    "has_download": false
+   },
    {
     "id": "1177",
     "type": "PLACEMENT",
