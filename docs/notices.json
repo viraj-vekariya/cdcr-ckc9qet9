@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-10-24T16:10:30Z",
+ "last_updated": "2026-10-24T16:49:20Z",
  "stats": {
-  "placement": 258,
+  "placement": 259,
   "internship": 837,
   "with_files": 203,
   "listed_downloads": 207
  },
  "categories": {
   "placement": [
+   {
+    "id": "1185",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "ACCENTURE SOLUTIONS PRIVATE LIMITED",
+    "notice": "All students who are eligible and applied for ACCENTURE SOLUTIONS PRIVATE LIMITED for the I&E AI AND DATA Profile are required to register on the company portal before 4:00 PM, 25th October, 2026.\n\nRegistration is mandatory, and candidates who fail to complete it will not be considered for the recruitment process. Please carefully follow the PAN Card submission guidelines below and all other instructions provided on the company portal:\n\nNote: Bachelor\u2019s students must apply through the designated Bachelor\u2019s Courses link. If they apply through the Dual Degree and Master\u2019s Courses link, they will not be eligible for further rounds of the recruitment process, and vice versa.\n\nRegistration Link for Bachelor Courses : https://indiacampus.accenture.com/v2/registration/accenture/bsclnew/apply?event=1553839\n\nRegistration Link for Dual Degree and Masters Courses :\nhttps://indiacampus.accenture.com/v2/registration/accenture/bsclnew/apply?event=1544941\n\n1. Ensure that you have a valid Adult PAN Card or e-PAN Card at the time of registration.\n\n2. Do not use a Minor PAN Card, as it will not be accepted.\n\n3. Do not use an Adult PAN Card with a childhood photograph.\n\n4. Ensure that your Adult PAN Card includes the name of your father or legal guardian.\n\n5. Enter your name exactly as it appears on your PAN Card. If your PAN Card does not have a last name, enter your first name twice in the portal.\n\n6. Enter your date of birth (DOB) exactly as mentioned on your PAN Card.\n\n7. Upload a clear, high-resolution image of your PAN Card to ensure that all details are clearly visible.\n\n8. In the Source Details section, select College Name for the question \u201cHow did you find out about this job?\u201d and enter IIT Kharagpur as the college name.\n\n9. While capturing your photograph, ensure that it is taken against a plain background or wall.\n\nAll students are requested to complete the portal registration using their CDC-registered email ID and ensure compliance with the above guidelines by 4:00 PM, 25th October 2026.\n\nCDC, IIT Kharagpur",
+    "noticeat": "24-10-2026 22:14",
+    "text_source": "full_notice",
+    "source_hash": "8d76739d3a2e2b3375388f8ac63c97f12a66ffdf83658d1b2edb7d76a9f8e455",
+    "has_download": false
+   },
    {
     "id": "1184",
     "type": "PLACEMENT",
