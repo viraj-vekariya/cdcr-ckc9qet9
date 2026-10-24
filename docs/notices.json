@@ -1,13 +1,36 @@
 {
- "last_updated": "2026-10-24T09:09:23Z",
+ "last_updated": "2026-10-24T09:42:42Z",
  "stats": {
-  "placement": 252,
+  "placement": 254,
   "internship": 836,
-  "with_files": 202,
-  "listed_downloads": 206
+  "with_files": 203,
+  "listed_downloads": 207
  },
  "categories": {
   "placement": [
+   {
+    "id": "1177",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "Multiple Companies",
+    "notice": "The following companies are open for CV Submission till 11:59 PM, 24th October, 2026.\n\n1. NK SECURITIES RESEARCH (Profiles: AI/ML Researcher, Software Development Engineer, Quantitative Researcher)\n\n2. SEDEMAC MECHATRONICS LIMITED (All Profiles)\n\n3. HILABS (Profiles : AI Engineer, Associate Product Manager)\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "24-10-2026 14:52",
+    "text_source": "full_notice",
+    "source_hash": "f0d8674385d96cf09c804062ba45e5a8490418a75ef721b2e3db4b98080bedc7",
+    "has_download": false
+   },
+   {
+    "id": "1176",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "MASTERCARD",
+    "notice": "PFA the test room allocation for the Assessment of Mastercard for both the roles, scheduled from 3:00 PM onwards on 24th October, 2026.\n\nVenue: Nalanda Classroom Complex\n\nStudents are required to carry their original Institute ID card/Medical Book, failing which students will not be permitted to sit for test.\n\nPlease carry your laptops, pens, and papers.\n\nStudents are requested to report 15 minutes prior to the reporting time.\n\nPOC: Nikita (+91 9969207598), Neev (+91 9001346350)\n\nCDC, IIT Kharagpur",
+    "noticeat": "24-10-2026 14:43",
+    "text_source": "full_notice",
+    "source_hash": "9484c80b031d9bfd91fcdf217dc7cd7402ca37c671435fa72882ca25bc9d7dab",
+    "has_download": true,
+    "file": "files/1176.pdf"
+   },
    {
     "id": "1175",
     "type": "PLACEMENT",
