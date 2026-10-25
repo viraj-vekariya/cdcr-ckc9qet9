@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-25T10:11:33.030304+00:00",
+  "last_updated": "2026-10-25T10:58:25.633537+00:00",
   "companies": [
     {
       "company": "Accenture India Private Limited",
@@ -72,7 +72,7 @@
       "resume_start": "2026-10-21 15:30",
       "resume_end": "2026-10-25 16:00",
       "interview": "",
-      "is_applied": true,
+      "is_applied": false,
       "form_type": "PLACEMENT",
       "cgpa_cutoff": "0.0",
       "description": "Will be attached with Registration Links as sent by Accenture\nView More Details\nClick Here for more details",
