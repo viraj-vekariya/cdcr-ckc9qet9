@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-10-25T04:11:30Z",
+ "last_updated": "2026-10-25T04:41:28Z",
  "stats": {
-  "placement": 261,
+  "placement": 262,
   "internship": 837,
   "with_files": 203,
   "listed_downloads": 207
  },
  "categories": {
   "placement": [
+   {
+    "id": "1188",
+    "type": "PLACEMENT",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "URBAN COMPANY",
+    "notice": "Pre-Placement Talk: URBAN COMPANY\n\nDate: 25th October 2026\n\nTime: 1:00 PM\n\nLink:\nhttps://urbancompany.zoom.us/j/95680412903?pwd=AB4ETIcb1MyUcKZFtDi6qxbPwQsRJw.1&jst=2\n\nMeeting ID: 956 8041 2903\n\nPasscode: 557384\n\nNote:\n- All eligible and interested students are supposed to attend the PPT without fail.\n- Attendance is compulsory.\n- Students must join the link 15 minutes prior to the scheduled time.\n\nPOC: Ashutosh Singh (+91 8840104367)\n\nCDC, IIT Kharagpur.",
+    "noticeat": "25-10-2026 09:56",
+    "text_source": "full_notice",
+    "source_hash": "f37e55b9a718e0a9aaaa60eab6e8ca6f719551106702cb227d0dd016d416d311",
+    "has_download": false
+   },
    {
     "id": "1187",
     "type": "PLACEMENT",
