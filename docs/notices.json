@@ -1,8 +1,8 @@
 {
- "last_updated": "2026-10-25T12:42:04Z",
+ "last_updated": "2026-10-25T13:11:57Z",
  "stats": {
   "placement": 263,
-  "internship": 837,
+  "internship": 838,
   "with_files": 204,
   "listed_downloads": 208
  },
@@ -2925,6 +2925,17 @@
    }
   ],
   "internship": [
+   {
+    "id": "1192",
+    "type": "INTERNSHIP",
+    "subject": "CV Submission",
+    "company": "PIXXEL",
+    "notice": "The CV submission for Pixxel has been opened till 11:59 PM, 26th October 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "25-10-2026 18:23",
+    "text_source": "full_notice",
+    "source_hash": "0e885c9f9487ae7b7a3349d1727004fe2d5cd2913c72b7cda069afe81c0e4b5e",
+    "has_download": false
+   },
    {
     "id": "1178",
     "type": "INTERNSHIP",
