@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-10-26T06:13:24Z",
+ "last_updated": "2026-10-26T06:43:17Z",
  "stats": {
-  "placement": 266,
+  "placement": 267,
   "internship": 839,
   "with_files": 205,
   "listed_downloads": 209
  },
  "categories": {
   "placement": [
+   {
+    "id": "1198",
+    "type": "PLACEMENT",
+    "subject": "PPO",
+    "company": "Morgan Stanley",
+    "notice": "Morgan Stanley has extended the offer to the following student(s):\n\nVANSHDEEP - 23MA10068\n\nTANIYA DAS - 23IM10039\n\nAKSHAT MITTAL - 23HS10004\n\nSOBHAN MISHRA - 22CE3FP14\n\nThe students are advised to give offer acceptance by 26.10.2026.\n\n(For more details, check your email ID.)\n\nCDC, IIT Kharagpur",
+    "noticeat": "26-10-2026 11:50",
+    "text_source": "full_notice",
+    "source_hash": "757e74dfd6b1bfb31e8bd376bcb74f8864629a85ded9392f4cd41a0968ef1a71",
+    "has_download": false
+   },
    {
     "id": "1196",
     "type": "PLACEMENT",
