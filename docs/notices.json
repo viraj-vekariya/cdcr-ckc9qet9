@@ -1,13 +1,80 @@
 {
- "last_updated": "2026-10-26T11:35:56Z",
+ "last_updated": "2026-10-26T13:15:28Z",
  "stats": {
-  "placement": 270,
+  "placement": 276,
   "internship": 839,
-  "with_files": 205,
-  "listed_downloads": 209
+  "with_files": 206,
+  "listed_downloads": 210
  },
  "categories": {
   "placement": [
+   {
+    "id": "1211",
+    "type": "PLACEMENT",
+    "subject": "Shortlist",
+    "company": "NATWEST",
+    "notice": "PFA the test shortlist for the Assessment of Natwest for Software Engineer role, scheduled from 9:30 PM onwards on 26th October, 2026.\n\nVenue: Nalanda Classroom Complex\n\nNote: Students are requested to report 15 minutes prior to the reporting time. Students are also required to bring their Institute Id card for the test.\n\nCDC, IIT Kharagpur",
+    "noticeat": "26-10-2026 18:07",
+    "text_source": "full_notice",
+    "source_hash": "4f7a5702ae82190a9f7a9170382454c7c684ab98ef7b5f8b49de931623b98738",
+    "has_download": true,
+    "file": "files/1211.pdf"
+   },
+   {
+    "id": "1209",
+    "type": "PLACEMENT",
+    "subject": "Date extension",
+    "company": "Multiple Companies",
+    "notice": "The following companies have been extended for CV Submission till 4:00 PM, 27th October, 2026.\n\n1. NK SECURITIES RESEARCH (Profiles: AI/ML Researcher, Software Development Engineer, Quantitative Researcher)\n\n2. SEDEMAC MECHATRONICS LIMITED (All Profiles)\n\n3. HILABS (Profiles : AI Engineer, Associate Product Manager)\n\n4. POCKET FM (Profiles: Member of Technical Staff, Management Trainee)\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "26-10-2026 18:03",
+    "text_source": "full_notice",
+    "source_hash": "9e8076c587ddfe2881b7aab3769308f6a824fe8a4c2b0247c471d86b47c55644",
+    "has_download": false
+   },
+   {
+    "id": "1208",
+    "type": "PLACEMENT",
+    "subject": "PPO",
+    "company": "Google",
+    "notice": "Google India has extended the offer to the following student(s):\n\nSUJAY VIVEK - 22EE38016\n\nBALA DHARNESH - 23CS10008\n\nThe students are advised to give offer acceptance by 26.10.2026.\n\n(For more details, check your email ID.)\n\nCDC, IIT Kharagpur",
+    "noticeat": "26-10-2026 17:36",
+    "text_source": "full_notice",
+    "source_hash": "aee3d5b39600c4de03cd23091c94a1afb8f03715b275686948c244d681e04a66",
+    "has_download": false
+   },
+   {
+    "id": "1207",
+    "type": "PLACEMENT",
+    "subject": "PPO",
+    "company": "Meta",
+    "notice": "Meta has extended the offer to the following student(s):\n\nASHUTOSH JOSHI - 22EC37022\n\nThe students are advised to give offer acceptance by 26.10.2026.\n\n(For more details, check your email ID.)\n\nCDC, IIT Kharagpur",
+    "noticeat": "26-10-2026 17:34",
+    "text_source": "full_notice",
+    "source_hash": "1235d4205253660d9ef3296a105484720cef5763f473e940c924d36e8aa21c91",
+    "has_download": false
+   },
+   {
+    "id": "1206",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "SEDEMAC",
+    "notice": "All the students applying for Sedemac for any role are required to apply on the following Company Portal as well.\n\nA student will be considered for a maximum of 1 role only.\nStudents are also required to register on the following company portal using their CDC Registered Email ID, according to the role that they wish to apply for.\nIf you are unable to access the portal through the institute wifi, then please use your mobile data to access the portal.\n\nEngineer, R&D and Engineer, Test Automation : https://app.joinsuperset.com/join/#/signup/student?jp=3ef72779-1b48-440b-ab19-69a0b38a8418\n\nEngineer, Electronic Hardware : https://app.joinsuperset.com/join/#/signup/student?jp=0c28522d-8d45-4d6b-af66-94fc6b132882\n\nEngineer, Manufacturing Engineering : https://app.joinsuperset.com/join/#/signup/student?jp=56a35944-3e32-4cce-8472-9e9159816064\n\nLead Engineer, Electronic Hardware : https://app.joinsuperset.com/join/#/signup/student?jp=08e60ac8-6cef-4168-be7b-955effb5c1dd\n\nLead Engineer, Embedded Software : https://app.joinsuperset.com/join/#/signup/student?jp=6161f328-a3d2-449f-961a-df4591f397f1\n\nLead Engineer, R&D (R&D-SysE-COE-AppE-CSA) : https://app.joinsuperset.com/join/#/signup/student?jp=353c06a3-1526-4450-b14c-b66aa9114db5\n\nDeadline: 4:00 PM, 27th October, 2026\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "26-10-2026 17:06",
+    "text_source": "full_notice",
+    "source_hash": "2032fdb515527c61106bd1b0696be4a412cf8bf9eb7f993ec2f74fce2e474b87",
+    "has_download": false
+   },
+   {
+    "id": "1204",
+    "type": "PLACEMENT",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "NATWEST",
+    "notice": "The Pre-Placement Talk for NATWEST for the Software Engineer role will be held on 26th October 2026 from 8:00 PM.\n\nVenue: NR 221, Nalanda\n\nNote: Attendance for the offline PPT for all the roles is mandatory and will be recorded. The Test will be held post the PPT. Only the students attending the PPT will be eligible for the test. Students are advised to be present 15 minutes prior to the scheduled time.\n\nPOC: Aryan (+91 81003 03122), Bhavy (+91 75971 21669)\n\nCDC, IIT Kharagpur.",
+    "noticeat": "26-10-2026 17:03",
+    "text_source": "full_notice",
+    "source_hash": "51ea496a2fb1fd845cb02696db8f931359c9a40c3387f4e4bbc4764e9c8f4b49",
+    "has_download": false
+   },
    {
     "id": "1202",
     "type": "PLACEMENT",
