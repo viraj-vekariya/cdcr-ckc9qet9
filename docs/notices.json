@@ -1,13 +1,46 @@
 {
- "last_updated": "2026-10-26T07:12:59Z",
+ "last_updated": "2026-10-26T07:45:07Z",
  "stats": {
-  "placement": 267,
+  "placement": 270,
   "internship": 839,
   "with_files": 205,
   "listed_downloads": 209
  },
  "categories": {
   "placement": [
+   {
+    "id": "1202",
+    "type": "PLACEMENT",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "GLEAN SEARCH TECHNOLOGIES INDIA PRIVATE LIMITED",
+    "notice": "The Pre-Placement Talk for Glean for both the roles, will be held on 26th October 2026 from 7:00 PM.\n\nLink: https://meet.google.com/rth-dadj-ogk?hs=224\n\nNote: All placement-registered students are supposed to attend the PPT, without fail. Attendance is compulsory. Students must join the link 15 minutes prior to the scheduled time.\n\nPOC: Rudra (+91 8235755257)\n\nCDC, IIT Kharagpur.",
+    "noticeat": "26-10-2026 12:55",
+    "text_source": "full_notice",
+    "source_hash": "54834a7d5283cc743970d7aa6c9dc249ab617020405c65454850ff93a4fadb2e",
+    "has_download": false
+   },
+   {
+    "id": "1201",
+    "type": "PLACEMENT",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "AMERICAN EXPRESS",
+    "notice": "The Pre-Placement Talk for AMERICAN EXPRESS, will be held on 26th October 2026 from 6:00 PM.\n\nLink: https://amex.webex.com/amex/j.php?MTID=m35f6e6c9f90d8fc8893caf31fa98db71\n\nSession number: 2535 820 9111\nSession password: Amex@2026\n\nNote: All eligible and interested students are supposed to attend the PPT without fail. Attendance is compulsory. Students must join the link 15 minutes prior to the scheduled time.\n\nPOC: Himanshu (+91 9311332376)\n\nCDC, IIT Kharagpur.",
+    "noticeat": "26-10-2026 12:51",
+    "text_source": "full_notice",
+    "source_hash": "7498762a9b9cfcef9948eabff54bcbc4a0a2692e9e815b87ebf63dd8e3c82a99",
+    "has_download": false
+   },
+   {
+    "id": "1200",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "PLUTUS RESEARCH PRIVATE LIMITED",
+    "notice": "The Pre-Placement Talk for Plutus Research Private Limited for both the roles, have been rescheduled to 5:00 PM to 6:00 PM, 26th October, 2026.\n\nLink: https://us06web.zoom.us/j/83367015087?pwd=2dLvOpKPCGdZjwsVmlMAMRe1UQ1MkY.1\n\nMeeting ID: 833 6701 5087\nPasscode: 902804\n\nNote: All placement-registered students are supposed to attend the PPT, without fail. Attendance is compulsory. Students must join the link 15 minutes prior to the scheduled time.\n\nPOC: Ritvik (+91 9480360231)\n\nCDC, IIT Kharagpur.",
+    "noticeat": "26-10-2026 12:45",
+    "text_source": "full_notice",
+    "source_hash": "a975e7192d5c814e2b89c92d2c6258dfce1eb34a3ffcc8ab1cb032f69826b83f",
+    "has_download": false
+   },
    {
     "id": "1198",
     "type": "PLACEMENT",
