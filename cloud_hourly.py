@@ -252,6 +252,14 @@ def notify_all(message, subject="CDC watcher update"):
         # the same content, tagged failed=True -- that's the real safety net
         # now; personal Gmail is no longer a notification channel.
         send_update_email(subject, f"{message}\n\n(WhatsApp error: {e})", failed=True)
+    # Extra recipients (WA_EXTRA_NUMBERS) are best-effort: a failure there is
+    # logged but never affects the self-chat or the email.
+    for n in wa_cloud.EXTRA_NUMBERS:
+        try:
+            wa_cloud.send(message, phone=n)
+            log(f"WhatsApp sent to extra number ...{n[-4:]} (delivery confirmed)")
+        except Exception as e:
+            log(f"WhatsApp send to extra number ...{n[-4:]} failed (non-fatal): {e}")
 
 
 def main():
@@ -340,6 +348,12 @@ def main():
                     log(f"WhatsApp attachment sent for notice {r['id']}")
                 except Exception as e:
                     log(f"WhatsApp attachment send failed for {r['id']} (non-fatal): {e}")
+                for n in wa_cloud.EXTRA_NUMBERS:
+                    try:
+                        wa_cloud.send_file(fpath, caption=f"{r['company']} - attachment", phone=n)
+                        log(f"WhatsApp attachment sent to extra number ...{n[-4:]} for notice {r['id']}")
+                    except Exception as e:
+                        log(f"WhatsApp attachment to extra number ...{n[-4:]} failed for {r['id']} (non-fatal): {e}")
     else:
         # Email only, no WhatsApp: the linked WhatsApp device was logged out
         # twice in a day (21-22 Oct 2026) while it was being opened 24-48x/day
