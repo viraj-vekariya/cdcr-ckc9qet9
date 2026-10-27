@@ -1,13 +1,35 @@
 {
- "last_updated": "2026-10-27T06:45:59Z",
+ "last_updated": "2026-10-27T09:06:07Z",
  "stats": {
-  "placement": 280,
-  "internship": 840,
-  "with_files": 207,
-  "listed_downloads": 211
+  "placement": 282,
+  "internship": 841,
+  "with_files": 208,
+  "listed_downloads": 212
  },
  "categories": {
   "placement": [
+   {
+    "id": "1221",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "ACCENTURE AEH",
+    "notice": "All students are hereby informed that the mock assessment link has been shared for the Elite Technology Engineer role. Students can attempt the mock assessment anytime until 11:59 PM on 27th October 2026.\n\nAll students must complete the mock test within the specified deadline to identify and resolve any system compatibility issues before the actual assessment.\n\nCDC, IIT Kharagpur",
+    "noticeat": "27-10-2026 13:04",
+    "text_source": "full_notice",
+    "source_hash": "732b6180baba34cb8023766883a91cefcf0b824e5b4061163915a988747e82d3",
+    "has_download": false
+   },
+   {
+    "id": "1219",
+    "type": "PLACEMENT",
+    "subject": "Schedule",
+    "company": "CDC Placement Schedule for 27th30th October 2026",
+    "notice": "All students eligible for placement are advised to take note of the tentative placement schedule from Tuesday, 27th October, to Friday, 30th October 2026.\nPlease note that this schedule is tentative and is subject to additions and subtractions.\n\nTuesday, 27th October 2026\n1. [PPT: Online] TEXAS INSTRUMENTS (1:00 PM \u2013 2:00 PM)\n2. [PPT: Online] DELOITTE USI (6:00 PM \u2013 7:00 PM)\n3. [TEST] PLUTUS RESEARCH PRIVATE LIMITED (7:00 PM \u2013 9:00 PM)\n\nWednesday, 28th October 2026\n1. [PPT: Online] COMMONWEALTH BANK OF AUSTRALIA (1:00 PM \u2013 2:00 PM)\n2. [TEST] IXANA (Profile: Embedded Software Engineer) (6:00 PM \u2013 8:00 PM)\n3. [TEST] IXANA (Profiles: IC Design Engineer III, IC Design Engineer II, Silicon Engineer) (8:00 PM \u2013 8:30 PM)\n\nThursday, 29th October 2026\n1. [PPT: Online] LAT AEROSPACE (1:00 PM \u2013 2:00 PM)\n2. [PPT: Online] YCP AUCTUS (5:00 PM \u2013 6:00 PM)\n3. [TEST] SEDEMAC (All Profiles) (6:30 PM \u2013 8:30 PM)\n4. [TEST] QI-CAP (Profiles: Quantitative Researcher, Machine Learning & Quantitative Researcher) (9:00 PM \u2013 10:30 PM)\n5. [TEST] QI-CAP (Profiles: Hardware Engineer, C++ Developer) (10:30 PM - 11:59 PM)\n\nFriday, 30th October 2026\n1. [PPT: Online] CAPITAL ONE (12:01 PM \u2013 1:00 PM)\n2. [PPT: Online] ZANSKAR (5:00 PM \u2013 5:30 PM)\n3. [TEST] QI-CAP Assessment 2 (Profiles: Hardware Engineer, C++ Developer) (6:00 PM - 7:30 PM)\n4. [TEST] QUALCOMM (All Profiles) (10:00 PM - 11:59 PM)\n\nNote: The schedule is tentative and subject to change. Links to the PPTs and other relevant details will be shared separately. Room allocations and other necessary instructions for tests will be communicated prior to the respective assessments.\n\nCDC, IIT Kharagpur",
+    "noticeat": "27-10-2026 12:11",
+    "text_source": "full_notice",
+    "source_hash": "13f7a2cc1dc1fcfb31c708da63c07e4c2b70538f1bd6051fedb0a31b7cffa7ae",
+    "has_download": false
+   },
    {
     "id": "1217",
     "type": "PLACEMENT",
@@ -3115,6 +3137,18 @@
    }
   ],
   "internship": [
+   {
+    "id": "1222",
+    "type": "INTERNSHIP",
+    "subject": "Urgent",
+    "company": "ULTIMATE KRONOS GROUP",
+    "notice": "PFA the test shortlist for Ultimate Kronos Group.\n\nThe Assessment is scheduled on 27th October, 9:15 PM onwards.\n\nVenue: NR 321, Nalanda Classroom Complex\n\nPOC: Arpita Pawar (+91 90755 64147)\n\nCDC, IIT Kharagpur",
+    "noticeat": "27-10-2026 14:18",
+    "text_source": "full_notice",
+    "source_hash": "e4002dab9d5a87337197f372e6e3275b02814b10eac8936a65596cf9fca91867",
+    "has_download": true,
+    "file": "files/1222.pdf"
+   },
    {
     "id": "1215",
     "type": "INTERNSHIP",
