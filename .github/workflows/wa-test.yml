@@ -1,0 +1,83 @@
+name: WhatsApp test to extra numbers
+# Manual only: sends one test message to each WA_EXTRA_NUMBERS recipient.
+# No ERP login. Shares the watcher's concurrency group so it never opens the
+# WhatsApp session at the same time as a real cycle.
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: hourly-watcher
+  cancel-in-progress: false
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install deps
+        run: |
+          pip install playwright
+          python3 -m playwright install --with-deps chromium
+      - name: Decrypt WhatsApp session
+        id: wa_decrypt
+        env:
+          WA_PROFILE_KEY: ${{ secrets.WA_PROFILE_KEY }}
+        run: |
+          git pull -q --ff-only || true
+          openssl enc -aes-256-cbc -pbkdf2 -d -in wa_profile.tar.gz.enc -out wa_profile.tar.gz -pass env:WA_PROFILE_KEY
+          mkdir -p wa_profile
+          tar -xzf wa_profile.tar.gz -C wa_profile
+          rm -f wa_profile.tar.gz
+      - name: Send test message
+        env:
+          WA_NUMBER: ${{ secrets.WA_NUMBER }}
+          WA_EXTRA_NUMBERS: ${{ secrets.WA_EXTRA_NUMBERS }}
+        run: |
+          python3 - <<'PY'
+          import sys, wa_cloud
+          msg = ("CDC Radar test: this number is now connected. New IIT KGP placement "
+                 "notices (full text + PDF) will arrive here.\n\n"
+                 "\U0001F310 https://viraj-vekariya.github.io/cdcr-ckc9qet9/")
+          ok = True
+          for n in wa_cloud.EXTRA_NUMBERS:
+              try:
+                  wa_cloud.send(msg, phone=n)
+                  print(f"sent to ...{n[-4:]} (delivery confirmed)")
+              except Exception as e:
+                  ok = False
+                  print(f"send to ...{n[-4:]} FAILED: {e}")
+          if not wa_cloud.EXTRA_NUMBERS:
+              print("WA_EXTRA_NUMBERS is empty"); ok = False
+          sys.exit(0 if ok else 1)
+          PY
+      - name: Re-encrypt + push WhatsApp session
+        if: always() && steps.wa_decrypt.outcome == 'success'
+        env:
+          WA_PROFILE_KEY: ${{ secrets.WA_PROFILE_KEY }}
+        run: |
+          rm -rf wa_profile/Default/"Code Cache" wa_profile/Default/Cache \
+                 wa_profile/Default/"Cache Data" wa_profile/Default/GPUCache \
+                 wa_profile/Default/DawnWebGPUCache wa_profile/Default/DawnGraphiteCache \
+                 wa_profile/Default/GrShaderCache wa_profile/Default/ShaderCache \
+                 wa_profile/Default/"Service Worker/CacheStorage" \
+                 wa_profile/Default/"Service Worker/ScriptCache" \
+                 wa_profile/Default/blob_storage \
+                 wa_profile/GraphiteDawnCache wa_profile/component_crx_cache \
+                 wa_profile/GrShaderCache wa_profile/ShaderCache \
+                 wa_profile/Crashpad 2>/dev/null || true
+          tar -czf wa_profile.tar.gz -C wa_profile .
+          openssl enc -aes-256-cbc -pbkdf2 -salt -in wa_profile.tar.gz -out wa_profile.tar.gz.enc -pass env:WA_PROFILE_KEY
+          rm -f wa_profile.tar.gz
+          git config user.name "placement-watcher-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add wa_profile.tar.gz.enc
+          git commit -m "chore: re-encrypted WhatsApp session (test send) $(date -u +%Y-%m-%dT%H:%M:%SZ)" || echo "nothing to commit"
+          git pull --rebase --autostash -q || true
+          git push || (sleep 5 && git pull --rebase --autostash -q && git push) || echo "::warning::session push failed, non-fatal"
+      - name: Remove plaintext session
+        if: always()
+        run: rm -rf wa_profile wa_profile.tar.gz
