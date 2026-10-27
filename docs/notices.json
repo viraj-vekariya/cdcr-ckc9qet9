@@ -1,13 +1,47 @@
 {
- "last_updated": "2026-10-27T11:16:22Z",
+ "last_updated": "2026-10-27T12:48:35Z",
  "stats": {
-  "placement": 283,
-  "internship": 842,
-  "with_files": 209,
-  "listed_downloads": 213
+  "placement": 286,
+  "internship": 843,
+  "with_files": 210,
+  "listed_downloads": 214
  },
  "categories": {
   "placement": [
+   {
+    "id": "1228",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "Multiple Companies",
+    "notice": "The following companies have been extended for CV Submission till 10:00 AM, 28th October, 2026.\n\n1.\u2060 \u2060ACCENTURE SOLUTIONS PRIVATE LIMITED (Profile: I&E AI and Data, GN Management Consulting Associate)\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "27-10-2026 18:11",
+    "text_source": "full_notice",
+    "source_hash": "0b958519688d7b1e98258d924ff65471f442ea85af6001e4aea3e9aeb87ece62",
+    "has_download": false
+   },
+   {
+    "id": "1227",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "Multiple Companies",
+    "notice": "The following companies have been extended for CV Submission till 4:00 PM, 28th October, 2026.\n\n1. MEESHO (Profile: Senior Associate - Business Management)\n\n2. TEXAS INSTRUMENTS (All Profiles)\n\n3. WHITEOAK CAPITAL (Profile: Research Executive)\n\n4. AMERICAN EXPRESS (Management Trainee - AI Research, Management Trainee - Data Science & Analytics)\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "27-10-2026 18:11",
+    "text_source": "full_notice",
+    "source_hash": "17f969c1de51da8a5dea93b9b9c172af1585909092510805bd5fe485034195f7",
+    "has_download": false
+   },
+   {
+    "id": "1226",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "PLUTUS RESEARCH PRIVATE LIMITED",
+    "notice": "PFA the list of students eligible for the Assessment of Plutus Research Private Limited for both the roles, scheduled from 7:00 PM onwards on 27th October, 2026.\n\nThe test instructions have been shared with the students on their CDC Registered Email ID.\nPlease ensure that all the assessment requirements are met on your device.\n\nVenue: Nalanda Classroom Complex\n\nStudents are requested to report 15 minutes prior to the reporting time.\n\nPOC: Ritvik (+91 9480360231), Aditi (+91 8815395895)\n\nCDC, IIT Kharagpur",
+    "noticeat": "27-10-2026 17:06",
+    "text_source": "full_notice",
+    "source_hash": "d7e3c85eade2bc58ceecd30bfa23e89d52b8582a9687aa6c66ddc4ed981ba847",
+    "has_download": true,
+    "file": "files/1226.pdf"
+   },
    {
     "id": "1223",
     "type": "PLACEMENT",
@@ -3148,6 +3182,17 @@
    }
   ],
   "internship": [
+   {
+    "id": "1225",
+    "type": "INTERNSHIP",
+    "subject": "Shortlist",
+    "company": "THOUGHTSPOT",
+    "notice": "PFB the shortlist for the Interview round of THOUGHTSPOT.\n\n24AI10030\n24AI10038\n24AI10046\n24AI10049\n24BT10039\n24CH10016\n24CH10102\n24CS10009\n24CS10022\n24CS10092\n24CS10109\n24EC10034\n24IM10017\n24MF10009\n24MI10080\n\nFurther details would be communicated to the shortlisted candidates shortly.\n\nCDC, IIT Kharagpur",
+    "noticeat": "27-10-2026 17:02",
+    "text_source": "full_notice",
+    "source_hash": "14bbb1919bd96a70a492161ac48ed4b56bb679b2f0a4bdf4b34542f90daf3a77",
+    "has_download": false
+   },
    {
     "id": "1224",
     "type": "INTERNSHIP",
