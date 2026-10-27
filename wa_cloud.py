@@ -20,6 +20,9 @@ from playwright.sync_api import sync_playwright
 
 PROFILE_DIR = Path(os.environ.get("WA_PROFILE_DIR", "wa_profile"))
 MY_NUMBER = os.environ.get("WA_NUMBER", "")  # E.164 without '+' (country code + number)
+# 27 Oct 2026: extra recipients for real notices, comma-separated, same format.
+# Kept in a secret (WA_EXTRA_NUMBERS) since the repo is public.
+EXTRA_NUMBERS = [n.strip().lstrip("+") for n in os.environ.get("WA_EXTRA_NUMBERS", "").split(",") if n.strip()]
 UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36")
 
@@ -304,7 +307,7 @@ def _confirm_last_sent(page, before_count, expected_snippet=None, timeout_ms=800
     return False
 
 
-def send(message, headless=True, timeout_ms=30000):
+def send(message, headless=True, timeout_ms=30000, phone=None):
     """Sends to the personal self-chat and VERIFIES it actually went out --
     a cold headless profile can render the compose box from cached local
     state before the real multi-device socket to the phone is up, which
@@ -315,10 +318,11 @@ def send(message, headless=True, timeout_ms=30000):
     last outgoing bubble in the chat actually carries a sent/delivered tick
     before returning -- if it can't confirm that, it raises instead of
     silently claiming success."""
-    if not MY_NUMBER:
+    phone = phone or MY_NUMBER
+    if not phone:
         raise RuntimeError("WA_NUMBER not set")
     text = urllib.parse.quote(message)
-    url = f"https://web.whatsapp.com/send?phone={MY_NUMBER}&text={text}"
+    url = f"https://web.whatsapp.com/send?phone={phone}&text={text}"
     with sync_playwright() as p:
         ctx = _launch(p, headless)
         page = ctx.pages[0] if ctx.pages else ctx.new_page()
@@ -410,17 +414,18 @@ def _wait_for_compose(page, box, timeout_s=150):
     raise RuntimeError(f"compose box never appeared in {timeout_s}s -- url={page.url.split('?')[0]} page={body!r}")
 
 
-def send_file(path, caption="", headless=True, timeout_ms=40000):
+def send_file(path, caption="", headless=True, timeout_ms=40000, phone=None):
     """Sends a file (PDF etc.) as a document to the personal self-DM, with an
     optional caption. Attach menu -> Document -> file chooser -> preview ->
     Send. The file is sent as a document (not a compressed photo)."""
-    if not MY_NUMBER:
+    phone = phone or MY_NUMBER
+    if not phone:
         raise RuntimeError("WA_NUMBER not set")
     path = str(Path(path).resolve())
     with sync_playwright() as p:
         ctx = _launch(p, headless)
         page = ctx.pages[0] if ctx.pages else ctx.new_page()
-        page.goto(f"https://web.whatsapp.com/send?phone={MY_NUMBER}", timeout=timeout_ms)
+        page.goto(f"https://web.whatsapp.com/send?phone={phone}", timeout=timeout_ms)
         _wait_for_compose(page, page.locator('div[contenteditable="true"][aria-label^="Type a message" i]'))
         page.wait_for_timeout(3000)  # let the socket to the phone settle, not just the DOM render
         _dismiss_popups(page)
