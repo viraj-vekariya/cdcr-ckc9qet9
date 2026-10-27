@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-10-27T14:47:49Z",
+ "last_updated": "2026-10-27T15:25:54Z",
  "stats": {
-  "placement": 289,
+  "placement": 290,
   "internship": 843,
   "with_files": 211,
   "listed_downloads": 215
  },
  "categories": {
   "placement": [
+   {
+    "id": "1232",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "AMERICAN EXPRESS",
+    "notice": "All eligible students who have applied for any role at AMERICAN EXPRESS are required to complete the registration process before 4:00 PM, 28th October 2026.\n\nQualtrics Form : https://amex.co1.qualtrics.com/jfe/form/SV_8CYM7ewbkEQzIdE\n\nApplication Process:\n1.\u2060 \u2060Fill out the American Express Campus Application Form with your personal and academic details.\n2.\u2060 \u2060Upload your latest resume.\n3.\u2060 \u2060Select the role(s) you wish to be considered for and submit your preferences.\n4.\u2060 \u2060Apply through the relevant Business Unit Job Links provided in the form on the American Express Career Portal.\n5.\u2060 \u2060After completing each application, return to the Qualtrics form to access the next applicable Job Link. Remember to click on the box beneath so that it turns from light blue to drak blue.\n6.\u2060 \u2060Verify that you receive a confirmation email from American Express Careers for each submitted Business Unit application.\n\nRole-Specific Application Requirements:\n\nData Science and Analytics - Credit and Fraud Risk\nhttps://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010998\n\nAI Research - Credit and Fraud Risk\nhttps://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26015659\n\nImportant Notes:\nBoth the American Express Campus Application Form and the applicable American Express Career Portal applications are mandatory for consideration in subsequent stages of the hiring process.\n\nDeadline: 4:00 PM, 28th October 2026.\n\nCDC, IIT Kharagpur",
+    "noticeat": "27-10-2026 20:18",
+    "text_source": "full_notice",
+    "source_hash": "115d22ae65799dc92d2b56a6a902de87dd6600031d9a6c7ded6ddac0c8e6b8ca",
+    "has_download": false
+   },
    {
     "id": "1231",
     "type": "PLACEMENT",
