@@ -1,13 +1,25 @@
 {
- "last_updated": "2026-10-28T12:21:10Z",
+ "last_updated": "2026-10-28T12:54:25Z",
  "stats": {
-  "placement": 297,
+  "placement": 298,
   "internship": 846,
-  "with_files": 214,
-  "listed_downloads": 218
+  "with_files": 215,
+  "listed_downloads": 219
  },
  "categories": {
   "placement": [
+   {
+    "id": "1243",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "IXANA",
+    "notice": "PFA the test room allocation for the Assessment of Ixana for the Embedded Software Engineer role, scheduled from 6:00 PM onwards on 28th October, 2026.\n\nVenue: Nalanda Classroom Complex\n\nStudents are required to carry their original Institute ID card/Medical Book, failing which students will not be permitted to sit for test.\n\nPlease carry your laptops, pens, and papers.\n\nStudents are requested to report 15 minutes prior to the reporting time.\n\nPOC: Nikita (+91 9969207598), Bhavy (+91 7597121669)\n\nCDC, IIT Kharagpur",
+    "noticeat": "28-10-2026 17:47",
+    "text_source": "full_notice",
+    "source_hash": "bf07863973789138bbb206e347a89241daeed9f1f14f3b56b1854e42b3ed6064",
+    "has_download": true,
+    "file": "files/1243.pdf"
+   },
    {
     "id": "1241",
     "type": "PLACEMENT",
