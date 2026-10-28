@@ -1,13 +1,37 @@
 {
- "last_updated": "2026-10-28T07:14:25Z",
+ "last_updated": "2026-10-28T07:49:23Z",
  "stats": {
-  "placement": 291,
+  "placement": 293,
   "internship": 844,
-  "with_files": 211,
-  "listed_downloads": 215
+  "with_files": 213,
+  "listed_downloads": 217
  },
  "categories": {
   "placement": [
+   {
+    "id": "1236",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "IXANA",
+    "notice": "PFA the test shortlist for the Assessment of Ixana, common for the following 3 roles: IC Design Engineer II, IC Design Engineer III, Silicon Engineer scheduled from 8:00 PM onwards on 28th October, 2026.\n\nVenue: Nalanda Classroom Complex\n\nThe Room allocation for the test will be released shortly.\n\nStudents are requested to report 15 minutes prior to the reporting time.\n\nPOC: Nikita (+91 9969207598), Bhavy (+91 7597121669)\n\nCDC, IIT Kharagpur",
+    "noticeat": "28-10-2026 12:56",
+    "text_source": "full_notice",
+    "source_hash": "61ea38326108de3bdef84111549ae253154f7817828e5c0656eaf9638f75d487",
+    "has_download": true,
+    "file": "files/1236.pdf"
+   },
+   {
+    "id": "1235",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "IXANA",
+    "notice": "PFA the test shortlist for the Assessment of Ixana for the Embedded Software Engineer role, scheduled from 6:00 PM onwards on 28th October, 2026.\n\nAll the shortlisted students for this role are required to fill the following google form, providing their GitHub ids in the following format: Name-Surname-MM_DD_YYYY Github Id name\n\nLink: https://forms.gle/wh6crH47zgYjCrfz7\n\nVenue: Nalanda Classroom Complex\n\nThe Room allocation for the test will be released shortly.\n\nStudents are requested to report 15 minutes prior to the reporting time.\n\nPOC: Nikita (+91 9969207598), Bhavy (+91 7597121669)\n\nCDC, IIT Kharagpur",
+    "noticeat": "28-10-2026 12:51",
+    "text_source": "full_notice",
+    "source_hash": "04bb8605de0afa2cfdec4d7c8034436d214aa42ca956fa0dfa150306dced0f17",
+    "has_download": true,
+    "file": "files/1235.pdf"
+   },
    {
     "id": "1234",
     "type": "PLACEMENT",
