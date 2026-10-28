@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-10-28T13:50:24Z",
+ "last_updated": "2026-10-28T14:37:23Z",
  "stats": {
-  "placement": 298,
+  "placement": 299,
   "internship": 846,
   "with_files": 215,
   "listed_downloads": 219
  },
  "categories": {
   "placement": [
+   {
+    "id": "1244",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "IXANA",
+    "notice": "Please note that the test of Ixana for the roles of Silicon Engineer, IC Design Engineer III, IC Design Engineer II has been rescheduled to start from 8:30 PM.\nThere will be a common test to the 3 roles.\n\nThe room allocation will be released shortly.\n\nCDC, IIT Kharagpur",
+    "noticeat": "28-10-2026 19:38",
+    "text_source": "full_notice",
+    "source_hash": "7cc5f2bc212c6857acbd7d7f16af8f38b602481ed5aa0f9b80680f6b25644943",
+    "has_download": false
+   },
    {
     "id": "1243",
     "type": "PLACEMENT",
