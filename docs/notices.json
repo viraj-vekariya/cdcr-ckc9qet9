@@ -1,13 +1,47 @@
 {
- "last_updated": "2026-10-28T14:37:23Z",
+ "last_updated": "2026-10-28T15:21:38Z",
  "stats": {
-  "placement": 299,
+  "placement": 302,
   "internship": 846,
-  "with_files": 215,
-  "listed_downloads": 219
+  "with_files": 216,
+  "listed_downloads": 220
  },
  "categories": {
   "placement": [
+   {
+    "id": "1248",
+    "type": "PLACEMENT",
+    "subject": "Schedule",
+    "company": "CDC Placement Schedule for 29th October 2026",
+    "notice": "All students eligible for placement are advised to take note of the placement schedule for Thursday, 29th October 2026.\n\n1. [PPT: Online] LAT AEROSPACE(1:00 PM \u2013 2:00 PM)\n\n2. [PPT: Online] YCP AUCTUS (5:00 PM \u2013 6:00 PM)\n\n3. [TEST] QI-CAP (Profiles: Hardware Engineer, C++ Developer) (6:00 PM - 7:30 PM)\n\n4. [TEST] QI-CAP (Profiles: Quantitative Researcher, Machine Learning & Quantitative Researcher) (7:30 PM \u2013 9:00 PM)\n\n5. [TEST] QI-CAP Test 2 (Profiles: Hardware Engineer, C++ Developer) (9:00 PM \u2013 10:00 PM)\n\n6. [TEST] SEDEMAC (10:00 PM \u2013 11:59 PM)\n\nNote: Links to the PPTs and other relevant details will be shared separately. Room allocations and other necessary instructions for the tests will be communicated prior to the respective assessments.\n\nCDC, IIT Kharagpur",
+    "noticeat": "28-10-2026 20:41",
+    "text_source": "full_notice",
+    "source_hash": "bfef8b23421cf64e172d790fe5cb1530cfadbd8cce759dd34990a3d92ad8980c",
+    "has_download": false
+   },
+   {
+    "id": "1246",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "QUADEYE",
+    "notice": "The CV submission of Quadeye for all the roles has been extended till 11:59 AM, 29th October 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "28-10-2026 20:07",
+    "text_source": "full_notice",
+    "source_hash": "641bdfdae49fc508cedbc6efa21c74c80e8ba3526faf9a7ec8f83973f9faffba",
+    "has_download": false
+   },
+   {
+    "id": "1245",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "IXANA",
+    "notice": "PFA the test room allocation for the Assessment of Ixana for the following roles: Silicon Engineer, IC Design Engineer III, IC Design Engineer II, scheduled from 8:30 PM onwards on 28th October, 2026.\n\nVenue: Nalanda Classroom Complex\n\nStudents are required to carry their original Institute ID card/Medical Book, failing which students will not be permitted to sit for test.\n\nPlease carry your laptops, pens, and papers.\n\nStudents are requested to report 15 minutes prior to the reporting time.\n\nPOC: Nikita (+91 9969207598), Bhavy (+91 7597121669)\n\nCDC, IIT Kharagpur",
+    "noticeat": "28-10-2026 20:04",
+    "text_source": "full_notice",
+    "source_hash": "723c522267168a074251a5f256a71ebe09ad04ee4ed13e75fa819697138ac810",
+    "has_download": true,
+    "file": "files/1245.pdf"
+   },
    {
     "id": "1244",
     "type": "PLACEMENT",
