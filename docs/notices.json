@@ -1,13 +1,25 @@
 {
- "last_updated": "2026-10-29T18:25:11Z",
+ "last_updated": "2026-10-29T19:10:46Z",
  "stats": {
-  "placement": 319,
+  "placement": 320,
   "internship": 848,
-  "with_files": 219,
-  "listed_downloads": 223
+  "with_files": 220,
+  "listed_downloads": 224
  },
  "categories": {
   "placement": [
+   {
+    "id": "1270",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "QI-CAP",
+    "notice": "PFA the Shortlist for the 2nd Test for the C++ Developer, and the Hardware Engineer roles.\n\nThe schedule for the test will be communicated shortly.\n\nVenue: Nalanda Classroom Complex\n\nCDC, IIT Kharagpur",
+    "noticeat": "30-10-2026 00:17",
+    "text_source": "full_notice",
+    "source_hash": "27171994679cb81efa3c52981bbc83e4f4d8fe9af833de9ae37d0ba00929d75b",
+    "has_download": true,
+    "file": "files/1270.pdf"
+   },
    {
     "id": "1268",
     "type": "PLACEMENT",
