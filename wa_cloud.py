@@ -430,7 +430,11 @@ def send_file(path, caption="", headless=True, timeout_ms=40000, phone=None):
         page.wait_for_timeout(3000)  # let the socket to the phone settle, not just the DOM render
         _dismiss_popups(page)
         before_count = page.locator('[data-testid^="conv-msg-"]').count()
-        before_match = _match_count(page, caption[:40] if caption else '')
+        # 29 Oct 2026: match on the file name, which every document bubble
+        # shows -- the caption box is often not found, so matching on the
+        # caption failed every PDF send even when the file went through.
+        fname = Path(path).name
+        before_match = _match_count(page, fname)
         page_text = page.evaluate("document.body.innerText")
         if any(w in page_text for w in ("Connecting", "computer is not connected", "Trying to reach phone", "phone number shared via url is invalid")):
             ctx.close()
@@ -454,7 +458,7 @@ def send_file(path, caption="", headless=True, timeout_ms=40000, phone=None):
             page.keyboard.press("Enter")
         page.wait_for_timeout(5000)
 
-        sent_ok = _confirm_last_sent(page, before_count, expected_snippet=(caption[:40] if caption else None), timeout_ms=60000, before_match=before_match)
+        sent_ok = _confirm_last_sent(page, before_count, expected_snippet=fname, timeout_ms=60000, before_match=before_match)
         ctx.close()
         if not sent_ok:
             raise RuntimeError("could not confirm a NEW sent/delivered tick after sending the file")
