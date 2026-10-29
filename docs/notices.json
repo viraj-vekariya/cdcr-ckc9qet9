@@ -1,13 +1,35 @@
 {
- "last_updated": "2026-10-29T06:51:50Z",
+ "last_updated": "2026-10-29T07:53:41Z",
  "stats": {
-  "placement": 306,
+  "placement": 308,
   "internship": 846,
   "with_files": 216,
   "listed_downloads": 220
  },
  "categories": {
   "placement": [
+   {
+    "id": "1255",
+    "type": "PLACEMENT",
+    "subject": "PPO",
+    "company": "Walmart",
+    "notice": "Walmart has extended the offer to the following student(s):\n\nDevarakonda Sri Lalitha Rama Siddesh - 25CS60R80\n\nThe students are advised to give offer acceptance by 29.10.2026.\n\n(For more details, check your email ID.)\n\nCDC, IIT Kharagpur",
+    "noticeat": "29-10-2026 12:40",
+    "text_source": "full_notice",
+    "source_hash": "7de179d6b1e29170f4838c454f55a1e909698538af683257b0c01a89e46fabe5",
+    "has_download": false
+   },
+   {
+    "id": "1254",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "AMERICAN EXPRESS",
+    "notice": "All eligible students who have applied for any role at AMERICAN EXPRESS are required to complete the registration process before 4:00 PM, 29th October 2026.\n\nQualtrics Form : https://amex.co1.qualtrics.com/jfe/form/SV_8CYM7ewbkEQzIdE\n\nApplication Process:\n1.\u2060 \u2060Fill out the American Express Campus Application Form with your personal and academic details.\n2.\u2060 \u2060Upload your latest resume.\n3.\u2060 \u2060Select the role(s) you wish to be considered for and submit your preferences.\n4.\u2060 \u2060Apply through the relevant Business Unit Job Links provided in the form on the American Express Career Portal.\n5.\u2060 \u2060After completing each application, return to the Qualtrics form to access the next applicable Job Link. Remember to click on the box beneath so that it turns from light blue to drak blue.\n6.\u2060 \u2060Verify that you receive a confirmation email from American Express Careers for each submitted Business Unit application.\n\nRole-Specific Application Requirements:\n\nData Science and Analytics - Credit and Fraud Risk\nhttps://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010998\n\nAI Research - Credit and Fraud Risk\nhttps://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26015659\n\nImportant Notes:\nBoth the American Express Campus Application Form and the applicable American Express Career Portal applications are mandatory for consideration in subsequent stages of the hiring process.\n\nDeadline: 4:00 PM, 29th October 2026.\n\nCDC, IIT Kharagpur",
+    "noticeat": "29-10-2026 12:38",
+    "text_source": "full_notice",
+    "source_hash": "4f0f3d27a2685b45b4d1a5b6a6f7f3b3e705294476cb0f4c997ebe7df53dcea9",
+    "has_download": false
+   },
    {
     "id": "1253",
     "type": "PLACEMENT",
