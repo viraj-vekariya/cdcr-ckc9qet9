@@ -181,6 +181,11 @@ def login(verbose=False):
         if verbose:
             conflict = any(word in (a.text + h).lower() for word in ('already logged', 'abnormal', 'active session'))
             print("   ERP rejected login; existing-session conflict:", conflict)
+            # what ERP said, as keywords only (no page dump, no secrets)
+            hints = [w for w in ("invalid otp", "otp expired", "incorrect", "invalid", "expired",
+                                 "blocked", "locked", "try again", "captcha", "session")
+                     if w in (a.text + h).lower()]
+            print(f"   auth status {a.status_code}, landed on {a.url.split('?')[0]}, hints: {hints}")
         _delete_otp_emails(verbose)
         return None
     _delete_otp_emails(verbose)
