@@ -10,7 +10,7 @@ no Claude needed per run.
      explicit "no update" heartbeat. Best-effort: a WhatsApp hiccup never
      stops the docs/website from being rebuilt and committed.
 """
-import datetime, json, os, sys
+import datetime, json, os, sys, time
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -70,6 +70,13 @@ def get_session():
         return saved
     log("session dead/absent -- logging in fresh (OTP via Gmail)")
     cookie = login.login(verbose=True)
+    if not cookie:
+        # 29 Oct 2026: 8 of ~25 night logins were rejected even with a fresh
+        # OTP, and the next cycle 30 min later usually worked. One retry in
+        # the same run with a new OTP recovers most of these.
+        log("login rejected -- retrying once with a new OTP in 90s")
+        time.sleep(90)
+        cookie = login.login(verbose=True)
     if cookie:
         SESSION_FILE.write_text(cookie)
         log("login succeeded")
@@ -224,7 +231,7 @@ def send_update_email(subject, message, failed=False):
         log(f"update email failed: {e}")
 
 
-def notify_all(message, subject="CDC watcher update"):
+def notify_all(message, subject="CDC watcher update", extra=True):
     """Personal self-DM only -- the reliable, proven channel. The "CDC
     Updates" group send was tried as a second channel but is still flaky
     (WhatsApp-side sync glitches + UI timing issues), so it's been pulled
@@ -254,7 +261,7 @@ def notify_all(message, subject="CDC watcher update"):
         send_update_email(subject, f"{message}\n\n(WhatsApp error: {e})", failed=True)
     # Extra recipients (WA_EXTRA_NUMBERS) are best-effort: a failure there is
     # logged but never affects the self-chat or the email.
-    for n in wa_cloud.EXTRA_NUMBERS:
+    for n in (wa_cloud.EXTRA_NUMBERS if extra else []):
         try:
             wa_cloud.send(message, phone=n)
             log(f"WhatsApp sent to extra number ...{n[-4:]} (delivery confirmed)")
@@ -271,9 +278,18 @@ def main():
     now_str = datetime.datetime.now(IST).strftime("%d %b, %I:%M %p IST")
     cookie = get_session()
     if not cookie:
-        log(f"login failed at {now_str} -- will retry next hour.")
-        notify_all(f"CDC watcher: login failed at {now_str} -- will retry next hour.",
-                   subject="CDC watcher: login failed")
+        msg = f"CDC watcher: login failed at {now_str} -- will retry in 30 min."
+        log(msg)
+        # 29 Oct 2026: a single failed login is retried 30 min later and
+        # usually works, so it is email-only. WhatsApp (self-chat only, never
+        # the extra numbers) only once nothing has worked for 2+ hours.
+        last_ok = gate.last_success()
+        stale_h = (datetime.datetime.now(datetime.timezone.utc) - last_ok).total_seconds() / 3600 if last_ok else 99
+        if stale_h >= 2:
+            notify_all(f"{msg}\nNo successful check for {stale_h:.0f}h -- open ERP yourself if something is due.",
+                       subject="CDC watcher: login failing", extra=False)
+        else:
+            send_update_email("CDC watcher: login failed", msg, failed=True)
         return
 
     log("extracting notice board via headless browser...")
