@@ -1,13 +1,47 @@
 {
- "last_updated": "2026-10-29T15:37:32Z",
+ "last_updated": "2026-10-29T16:56:01Z",
  "stats": {
-  "placement": 316,
+  "placement": 319,
   "internship": 848,
-  "with_files": 218,
-  "listed_downloads": 222
+  "with_files": 219,
+  "listed_downloads": 223
  },
  "categories": {
   "placement": [
+   {
+    "id": "1268",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "SEDEMAC",
+    "notice": "PFA the test room allocation for the Assessment of SEDEMAC for all the roles, scheduled from 10:00 PM onwards on 29th October, 2026.\n\nVenue: Nalanda Classroom Complex\n\nStudents are required to carry their original Institute ID card (or Government ID + Medical Book), failing which students will not be permitted to sit for the test.\n\nPlease carry your laptops, pens, and papers.\n\nStudents are requested to report 15 minutes prior to the reporting time.\n\nPOC: Aditya Ghandge (+91 9325468252), Devansh(+91 7999892181)\n\nCDC, IIT Kharagpur",
+    "noticeat": "29-10-2026 21:36",
+    "text_source": "full_notice",
+    "source_hash": "c197cb3a58cb0fb0e5fff841eb910fceea8569c37093d1315611e76e1f970844",
+    "has_download": true,
+    "file": "files/1268.pdf"
+   },
+   {
+    "id": "1267",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "QI-CAP",
+    "notice": "Please note that the Test 2 for the roles of Hardware Engineer, C++ Developer has been postponed. The new timings will be communicated shortly.\n\nCDC, IIT Kharagpur",
+    "noticeat": "29-10-2026 21:16",
+    "text_source": "full_notice",
+    "source_hash": "daf87a839f346b6be6e34816572c3babbcd7acb85ebeee180f53fa1958736f1c",
+    "has_download": false
+   },
+   {
+    "id": "1266",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "SEDEMAC",
+    "notice": "Please note that the test for SEDEMAC for all the roles is scheduled from 10:00 PM.\n\nAll the eligible students who have successfully applied on ERP, as well as the superset portal, are requested to note that they are required to bring their Institute ID cards.\n\nThe room allocation will be released shortly.\n\nCDC, IIT Kharagpur",
+    "noticeat": "29-10-2026 21:13",
+    "text_source": "full_notice",
+    "source_hash": "730814c81e5a82d19243bd1f71adebcaeb057cb0efc49862fac220930fc6b086",
+    "has_download": false
+   },
    {
     "id": "1264",
     "type": "PLACEMENT",
