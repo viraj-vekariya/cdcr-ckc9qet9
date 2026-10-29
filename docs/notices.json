@@ -1,8 +1,8 @@
 {
- "last_updated": "2026-10-29T14:08:48Z",
+ "last_updated": "2026-10-29T14:54:14Z",
  "stats": {
   "placement": 316,
-  "internship": 847,
+  "internship": 848,
   "with_files": 218,
   "listed_downloads": 222
  },
@@ -3519,6 +3519,17 @@
    }
   ],
   "internship": [
+   {
+    "id": "1265",
+    "type": "INTERNSHIP",
+    "subject": "Shortlist",
+    "company": "Tech Mahindra",
+    "notice": "PFB the shortlist for the Interview round of Tech Mahindra\n\n23CS30053\n23EC39025\n23EC39047\n23EE38022\n23IE3FP38\n23MA25012\n24AI10046\n24CS10011\n24CS10074\n24CS10092\n24CS10119\n24EC10023\n24EC10102\n24EC10142\n24EE10104\n24IE10033\n24IE10034\n24MA10046\n\nFurther details would be communicated to the shortlisted candidates shortly.\n\nCDC, IIT Kharagpur",
+    "noticeat": "29-10-2026 19:56",
+    "text_source": "full_notice",
+    "source_hash": "56cea5d9d4160fe398565d6b71c546eb4573dd7662b7d3afb76a79f58da539fa",
+    "has_download": false
+   },
    {
     "id": "1263",
     "type": "INTERNSHIP",
