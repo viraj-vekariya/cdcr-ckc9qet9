@@ -1,13 +1,35 @@
 {
- "last_updated": "2026-10-29T03:51:28Z",
+ "last_updated": "2026-10-29T04:51:17Z",
  "stats": {
-  "placement": 303,
+  "placement": 305,
   "internship": 846,
   "with_files": 216,
   "listed_downloads": 220
  },
  "categories": {
   "placement": [
+   {
+    "id": "1252",
+    "type": "PLACEMENT",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "YCP INDIA PRIVATE LIMITED",
+    "notice": "Please note that the Pre-Placement Talk for YCP INDIA PRIVATE LIMITED will be held on 29th October, 2026 from 5:00 PM.\n\nLink: https://teams.microsoft.com/meet/421122338652590?p=OC0F3BDHkm8dvqYBPN\n\nAll interested students are required to attend the PPT without fail. Attendance is compulsory. Students should join 15 minutes prior to the meeting time.\n\nPOC: Anjali (+91 7989613926)\n\nCDC, IIT Kharagpur",
+    "noticeat": "29-10-2026 09:30",
+    "text_source": "full_notice",
+    "source_hash": "17cdee8299ea5f0adce6fb5cadb15afa8021135f38afe1b0891aa8c2e7a91800",
+    "has_download": false
+   },
+   {
+    "id": "1251",
+    "type": "PLACEMENT",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "LAT AEROSPACE",
+    "notice": "Please note that the Pre-Placement Talk for LAT AEROSPACE will be held on 29th October, 2026 from 1:00 PM.\n\nLink: https://meet.google.com/wtk-dwag-qfr\n\nAll interested students are required to attend the PPT without fail. Attendance is compulsory. Students should join 15 minutes prior to the meeting time.\n\nPOC: Anurag (+91 9491087133)\n\nCDC, IIT Kharagpur",
+    "noticeat": "29-10-2026 09:28",
+    "text_source": "full_notice",
+    "source_hash": "6db6b586b26714236b88fd0a45f52f12a5bb2c9e3b3cec01cbd833ae393e58a8",
+    "has_download": false
+   },
    {
     "id": "1250",
     "type": "PLACEMENT",
