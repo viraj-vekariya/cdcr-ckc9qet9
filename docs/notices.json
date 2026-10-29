@@ -1,13 +1,25 @@
 {
- "last_updated": "2026-10-29T19:55:50Z",
+ "last_updated": "2026-10-29T20:55:18Z",
  "stats": {
-  "placement": 320,
+  "placement": 321,
   "internship": 848,
-  "with_files": 220,
-  "listed_downloads": 224
+  "with_files": 221,
+  "listed_downloads": 225
  },
  "categories": {
   "placement": [
+   {
+    "id": "1273",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "SEDEMAC",
+    "notice": "PFA the shortlist for the technical test for Sedemac for all the roles.\n\nRoom allocation is the same as the previous test\n\nPOC: Aditya Ghandge (+91 9325468252), Devansh(+91 7999892181)\n\nCDC, IIT Kharagpur",
+    "noticeat": "30-10-2026 01:18",
+    "text_source": "full_notice",
+    "source_hash": "28cee92ce4b16b8453918e8d7e3a767d748334455fba26b3b3474b47b9e6ee5e",
+    "has_download": true,
+    "file": "files/1273.pdf"
+   },
    {
     "id": "1272",
     "type": "PLACEMENT",
