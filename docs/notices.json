@@ -1,13 +1,79 @@
 {
- "last_updated": "2026-10-29T10:53:07Z",
+ "last_updated": "2026-10-29T12:29:07Z",
  "stats": {
-  "placement": 308,
+  "placement": 314,
   "internship": 846,
   "with_files": 216,
   "listed_downloads": 220
  },
  "categories": {
   "placement": [
+   {
+    "id": "1261",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "JP MORGANCHASE",
+    "notice": "Please note that all the students who have applied for the Commercial & Investment Bank Research & Analytics, Global Research - Full Time Analyst Role for JP MORGANCHASE are required to fill the following additional details form by 4:00 PM, 30th October, 2026.\n\nLink: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210797409/?utm_medium=jobshare&utm_source=External+Job+Share\n\nAll the eligible students are advised to fill the form within the given deadline. No further extensions will be given\n\nCDC, IIT Kharagpur",
+    "noticeat": "29-10-2026 17:16",
+    "text_source": "full_notice",
+    "source_hash": "8b9eb9756bd8c943bc132abb3ee4ab9d61f1aedf517e2e0b0b4afea94e811051",
+    "has_download": false
+   },
+   {
+    "id": "1260",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "YCP AUCTUS",
+    "notice": "Please note that all the students who have applied for the Analyst Role for YCP Auctus are required to fill the additional details form.\n\nDeadline: 4:00 PM, 30th October, 2026\n\nLink:\nhttps://forms.gle/fA5w7bkMxYGXCeG19\n\nAll the eligible students are advised to fill the form within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "29-10-2026 17:09",
+    "text_source": "full_notice",
+    "source_hash": "12eb9bbb2a3679b36cff6aee3c99a6a4f7f3e568aa5418a195519a00d67e2223",
+    "has_download": false
+   },
+   {
+    "id": "1259",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "Multiple Companies",
+    "notice": "The following companies are open for CV Submission till 4:00 PM, 30th October, 2026.\n\n1. CARS24 (All Profiles)\n\n2. ALLEGRO CAPITAL (Profile: Investment Banking Analyst)\n\n3. CAPITAL ONE (Profiles: Associate - Business Analyst, Associate Software Engineer)\n\n4. PRODIGAL (Profiles: Associate Consultant, Applied AI)\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "29-10-2026 17:03",
+    "text_source": "full_notice",
+    "source_hash": "b6140beb65d90e1cfec65863ea191bd267d97b16cbcd63040208459606912dc0",
+    "has_download": false
+   },
+   {
+    "id": "1258",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "Multiple Companies",
+    "notice": "The CV submission for the following companies have been extended till 4:00 PM, 30th October, 2026.\n\n1. LAT AEROSPACE (Profile: Engineer)\n\n2. GE AEROSPACE (Profile: Edison Engineering Development Program)\n\n3. IBM (Profile: Software Developer, Software Engineer, Hardware Engineer)\n\n4. MERCEDES BENZ (Profile: Graduate Trainee)\n\n5. PINELABS (Profile: Software Development Engineer)\n\n6. AIRBUS (All Profiles)\n\n7. APPLIED MATERIALS (Profile: Application Engineer)\n\n8. COLLINS AEROSPACE (All Profiles)\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "29-10-2026 16:35",
+    "text_source": "full_notice",
+    "source_hash": "72d133136012b81a7a27acf3f9f698caec6d23fe35e507525433bede21e301e7",
+    "has_download": false
+   },
+   {
+    "id": "1257",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "EXXONMOBIL",
+    "notice": "The CV submission of EXXONMOBIL for all the roles have been extended till 4:00 PM, 30th October, 2026.\n\nIt is mandatory for all the interested and eligible candidates to apply on both ERP and the company portal.\n\nLink : https://career4.successfactors.com/sfcareer/jobreqcareerpvt?jobId=107440&company=exxonmobilP&st=C95E3C5669B0A3B03777F01ADDDB677EB5523735\n\nNOTE: Students are required to apply on the company portal using their personal email ID.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "29-10-2026 16:27",
+    "text_source": "full_notice",
+    "source_hash": "7895957184b798ecac4534a3a1fec421804633141273c288649232018ccfbcd7",
+    "has_download": false
+   },
+   {
+    "id": "1256",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "Multiple Companies",
+    "notice": "The following companies have been extended for CV Submission till 11:59 PM, 29th October, 2026.\n\n1. MEESHO (Profile: Senior Associate - Business Management)\n\n2. WHITEOAK CAPITAL (Profile: Research Executive)\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "29-10-2026 16:24",
+    "text_source": "full_notice",
+    "source_hash": "1aef15f5bf826d34cff4676e389ea53fcb5d9cc37ea7fb96c62a25970139bd41",
+    "has_download": false
+   },
    {
     "id": "1255",
     "type": "PLACEMENT",
