@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-10-30T06:56:20Z",
+ "last_updated": "2026-10-30T07:57:05Z",
  "stats": {
-  "placement": 327,
+  "placement": 328,
   "internship": 849,
   "with_files": 221,
   "listed_downloads": 225
  },
  "categories": {
   "placement": [
+   {
+    "id": "1284",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "Multiple Companies",
+    "notice": "The CV submission for the following companies have been extended till 4:00 PM, 30th October, 2026.\n\n1. EY PARTHENON (Profile: Associate Consultant)\n\n2. JP MORGANCHASE (Profile: Commercial & Investment Bank Research & Analytics, Global Research - Full Time Analyst)\n\n3. Navi (All Profiles)\n\n4. Nvidia (Profile: Hardware)\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "30-10-2026 12:54",
+    "text_source": "full_notice",
+    "source_hash": "ff2f66717db44096d8cd443160a87b0a4d9afa8f161938d80f833faa18e20ae1",
+    "has_download": false
+   },
    {
     "id": "1281",
     "type": "PLACEMENT",
