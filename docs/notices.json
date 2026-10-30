@@ -1,13 +1,35 @@
 {
- "last_updated": "2026-10-30T10:26:07Z",
+ "last_updated": "2026-10-30T11:27:50Z",
  "stats": {
-  "placement": 329,
+  "placement": 331,
   "internship": 850,
   "with_files": 222,
   "listed_downloads": 226
  },
  "categories": {
   "placement": [
+   {
+    "id": "1288",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "YCP AUCTUS",
+    "notice": "Please note that all the students who have applied for the Analyst Role for YCP Auctus are required to fill the following additional details form by 8:00 PM, 30th October, 2026.\n\nLink: https://forms.gle/fA5w7bkMxYGXCeG19\n\nAll the eligible students are advised to fill the form within the given deadline. No further extensions will be given\n\nCDC, IIT Kharagpur",
+    "noticeat": "30-10-2026 16:46",
+    "text_source": "full_notice",
+    "source_hash": "63e6bb9831c0ff21afcb13657bf9564336aaf5567c9a151fdc6aecdeb6214f00",
+    "has_download": false
+   },
+   {
+    "id": "1287",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "JP MORGANCHASE",
+    "notice": "Please note that all the students who have applied for the Commercial & Investment Bank Research & Analytics, Global Research - Full Time Analyst Role for JP MORGANCHASE are required to fill the following additional details form by 4:00 PM, 31st October, 2026.\n\nLink: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210797409/?utm_medium=jobshare&utm_source=External+Job+Share\n\nAll the eligible students are advised to fill the form within the given deadline. No further extensions will be given\n\nCDC, IIT Kharagpur",
+    "noticeat": "30-10-2026 16:45",
+    "text_source": "full_notice",
+    "source_hash": "764900a433fe53bc8224b2c8b78c94d24dbcde10a73b95db8b46634f404572b8",
+    "has_download": false
+   },
    {
     "id": "1285",
     "type": "PLACEMENT",
