@@ -1,13 +1,35 @@
 {
- "last_updated": "2026-10-30T12:29:55Z",
+ "last_updated": "2026-10-30T13:28:19Z",
  "stats": {
-  "placement": 336,
-  "internship": 850,
-  "with_files": 223,
-  "listed_downloads": 227
+  "placement": 338,
+  "internship": 852,
+  "with_files": 224,
+  "listed_downloads": 228
  },
  "categories": {
   "placement": [
+   {
+    "id": "1297",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "IBM",
+    "notice": "The CV submission of IBM for all the roles has been extended till 4 PM, 31st October, 2026 with revised eligibility criteria.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "30-10-2026 18:33",
+    "text_source": "full_notice",
+    "source_hash": "ca46203f087fbfe344364807de77861cee3bf5b4842118c9d19325a046e8b18b",
+    "has_download": false
+   },
+   {
+    "id": "1295",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "FUJITSU",
+    "notice": "The CV submission of FUJITSU for all the roles has been opened till 4:00 PM, 31st October 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "30-10-2026 18:16",
+    "text_source": "full_notice",
+    "source_hash": "97101587d6269288cf064aefc7aec53c1109df6c2931911bf41677dbe89e14f8",
+    "has_download": false
+   },
    {
     "id": "1293",
     "type": "PLACEMENT",
@@ -3743,6 +3765,29 @@
    }
   ],
   "internship": [
+   {
+    "id": "1296",
+    "type": "INTERNSHIP",
+    "subject": "Urgent",
+    "company": "SYNOPSYS",
+    "notice": "PFA the test room allocation for the Online Assessment of SYNOPSYS, scheduled from 7:00 PM onwards on 30th October, 2026.\n\nVenue: Nalanda Classroom Complex\n\nStudents are required to carry their original Institute ID card, failing which students will not be permitted to sit for the test.\n\nPlease carry your laptops, pens, and papers.\n\nStudents are requested to report 15 minutes prior to the reporting time.\n\nPOC: Hardik (+91 81770 18092)\n\nCDC, IIT Kharagpur",
+    "noticeat": "30-10-2026 18:31",
+    "text_source": "full_notice",
+    "source_hash": "650921fde2960ba975f4007c088a18c86fd78e4a481d6f02c3895e02a00fa752",
+    "has_download": true,
+    "file": "files/1296.pdf"
+   },
+   {
+    "id": "1294",
+    "type": "INTERNSHIP",
+    "subject": "CV Submission",
+    "company": "Mastercard",
+    "notice": "The CV submission of Mastercard for the Data Scientist role has been opened till 11:59 PM, 30th October 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "30-10-2026 18:13",
+    "text_source": "full_notice",
+    "source_hash": "981680c2e92c8f47bf1164efc00189838683c77c44929df6640d2e02be8b1570",
+    "has_download": false
+   },
    {
     "id": "1286",
     "type": "INTERNSHIP",
