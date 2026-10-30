@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-10-30T18:57:04Z",
+ "last_updated": "2026-10-30T19:57:15Z",
  "stats": {
-  "placement": 344,
+  "placement": 345,
   "internship": 854,
   "with_files": 229,
   "listed_downloads": 233
  },
  "categories": {
   "placement": [
+   {
+    "id": "1307",
+    "type": "PLACEMENT",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "HILABS",
+    "notice": "The Pre-Placement Talk for HILABS, will be held on 31st October 2026 from 1:30 PM.\n\nLink: https://teams.microsoft.com/l/meetup-join/19%3ameeting_NzBjZDYyZTYtOTgyNy00OGFjLWE1MWItMzFkZDFkNThkMTdk%40thread.v2/0?context=%7b%22Tid%22%3a%2200f78908-dfdd-4541-b78e-c377d4dbe6e2%22%2c%22Oid%22%3a%22db144931-1b39-4fb7-8cc3-be5fe70f5987%22%7d\n\nNote: All placement-registered students are supposed to attend the PPT, without fail. Attendance is compulsory. Students must join the link 15 minutes prior to the scheduled time.\n\nPOC: Aryan (+91 8100303122)\n\nCDC, IIT Kharagpur.",
+    "noticeat": "31-10-2026 01:07",
+    "text_source": "full_notice",
+    "source_hash": "9806b527797a004091fef6a4299776385021c85869266a34d2f636258cc8db26",
+    "has_download": false
+   },
    {
     "id": "1305",
     "type": "PLACEMENT",
