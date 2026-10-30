@@ -1,13 +1,25 @@
 {
- "last_updated": "2026-10-30T15:27:36Z",
+ "last_updated": "2026-10-30T16:56:51Z",
  "stats": {
-  "placement": 340,
+  "placement": 341,
   "internship": 853,
-  "with_files": 226,
-  "listed_downloads": 230
+  "with_files": 227,
+  "listed_downloads": 231
  },
  "categories": {
   "placement": [
+   {
+    "id": "1301",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "QUALCOMM",
+    "notice": "PFA the test room allocation for the Assessment of Qualcomm for all the roles except the Software Engineering Roles, scheduled from 10:00 PM onwards on 30th October, 2026.\n\nVenue: Nalanda Classroom Complex\n\nStudents are required to carry their original Institute ID card/Medical Book, failing which students will not be permitted to sit for tests.\n\nPlease carry your laptops, pens, and papers.\n\nStudents are requested to report 15 minutes prior to the reporting time.\n\nPOC: Ashutosh (+91 88401 04367), Ritvik (+91 94803 60231)\n\nCDC, IIT Kharagpur",
+    "noticeat": "30-10-2026 21:04",
+    "text_source": "full_notice",
+    "source_hash": "0b710ad05ce4604a01f1d00f4a6539d5d76435fdfa6ef9330d76750a4a10cc42",
+    "has_download": true,
+    "file": "files/1301.pdf"
+   },
    {
     "id": "1300",
     "type": "PLACEMENT",
