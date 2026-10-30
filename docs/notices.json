@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-10-30T08:42:04Z",
+ "last_updated": "2026-10-30T09:26:27Z",
  "stats": {
-  "placement": 328,
+  "placement": 329,
   "internship": 849,
   "with_files": 221,
   "listed_downloads": 225
  },
  "categories": {
   "placement": [
+   {
+    "id": "1285",
+    "type": "PLACEMENT",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "ZANSKAR",
+    "notice": "The Pre-Placement Talk for Zanskar for the Infrastructure Developer role, will be held on 30th October 2026 from 5:00 PM.\n\nLink: https://zoom.us/j/99285618718?pwd=NY2G7BHQfQu771ok99lRL3Wi0OmIei.1\n\nJoin and take notes\nhttps://zoom.us/j/99285618718?pwd=NY2G7BHQfQu771ok99lRL3Wi0OmIei.1&mynotes=on\n\nMeeting chat link\nhttps://zoom.us/launch/jc/99285618718\n\nMeeting ID: 992 8561 8718\nPasscode: 032664\n\nNote: All placement-registered students are supposed to attend the PPT, without fail. Attendance is compulsory. Students must join the link 15 minutes prior to the scheduled time.\n\nPOC: Aryan (+91 8100303122)\n\nCDC, IIT Kharagpur.",
+    "noticeat": "30-10-2026 14:15",
+    "text_source": "full_notice",
+    "source_hash": "b81d20b9d8cdd9ae60dd2a29fe91054dbd332b239084a00ca0f37b3669299618",
+    "has_download": false
+   },
    {
     "id": "1284",
     "type": "PLACEMENT",
