@@ -1,13 +1,35 @@
 {
- "last_updated": "2026-10-30T16:56:51Z",
+ "last_updated": "2026-10-30T17:57:24Z",
  "stats": {
-  "placement": 341,
+  "placement": 343,
   "internship": 853,
   "with_files": 227,
   "listed_downloads": 231
  },
  "categories": {
   "placement": [
+   {
+    "id": "1304",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "ACCENTURE SOLUTIONS",
+    "notice": "Students appearing for the Accenture Solutions \u2013 GN Management Consulting Associate role are hereby informed that the mock assessment link has been shared by the company.\n\nThe mock assessment must be completed by 11:59 AM on 31st October 2026. Students may attempt it at any time before the deadline.\n\nImportant Instructions:\n\n1.\u2060 \u2060The mock assessment is mandatory and must be completed within the stipulated deadline to identify and resolve any system compatibility issues before the actual assessment.\n\n2.\u2060 \u2060MacBooks are strictly not allowed. Only Windows laptops should be used.\n\n3.\u2060 \u2060Uninstall any previously installed version of Safe Exam Browser (SEB) and install the latest version using the link below:\nSEB \n\nLink: https://securetest.hirepro.in/accenture/v2/\n\n4.\u2060 \u2060Ensure that your laptop has a functional webcam and microphone and meets the required system specifications.\n\n5.\u2060 \u2060Uninstall any VPN or proxy configurations before attempting the assessment.\n\nAll students are advised to complete the mock assessment well before the deadline to avoid last-minute technical issues.\n\nCDC, IIT Kharagpur",
+    "noticeat": "30-10-2026 23:04",
+    "text_source": "full_notice",
+    "source_hash": "b17beabc5c9e6b74b8be5594c2c9e7a63d48bf928dc38ab5c84bcaa52d3ecd01",
+    "has_download": false
+   },
+   {
+    "id": "1303",
+    "type": "PLACEMENT",
+    "subject": "Schedule",
+    "company": "CDC Placement Schedule for 31st October 2026",
+    "notice": "All students eligible for placement are advised to take note of the placement schedule for 31st October 2026.\n\n1.\u2060 \u2060[TEST: SLOT 1] ACCENTURE AEH (Profile: Elite Technology Engineer) (8:30 AM \u2013 10:30 AM)\n\n2.\u2060 \u2060[TEST: SLOT 2] ACCENTURE AEH (Profile: Elite Technology Engineer) (11:00 AM \u2013 1:00 PM)\n\n3.\u2060 \u2060[PPT : Virtual ] HILABS (1:30 PM - 2:30 PM)\n\n4.\u2060 \u2060[TEST: SLOT 3] ACCENTURE AEH (Profile: Elite Technology Engineer) (2:00 PM \u2013 4:00 PM)\n\n5.\u2060 \u2060[TEST] ACCENTURE SOLUTIONS (Profile: GN Management Consulting Associate) (5:00 PM \u2013 7:00 PM)\n\n6.\u2060 \u2060[TEST] AMERICAN EXPRESS (Profile: Management Trainee - AI Research, Management Trainee - Data Science & Analytics) (8:00 PM \u2013 9:15 PM)\n\n7.\u2060 \u2060[TEST] WHITEOAK CAPITAL (Profile: Research Executive) (10:00 PM \u2013 11:30 PM)\n\nNote: Links to the PPTs and other relevant details will be shared separately. Room allocations and other necessary instructions for the tests will be communicated prior to the respective assessments.\n\nCDC, IIT Kharagpur",
+    "noticeat": "30-10-2026 22:56",
+    "text_source": "full_notice",
+    "source_hash": "b24c904b51f7335da1133c04a055b345ff3fb1d55aa0ad0ef416d4e9c2e91c8d",
+    "has_download": false
+   },
    {
     "id": "1301",
     "type": "PLACEMENT",
