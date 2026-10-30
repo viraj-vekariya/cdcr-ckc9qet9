@@ -1,10 +1,10 @@
 {
- "last_updated": "2026-10-30T09:26:27Z",
+ "last_updated": "2026-10-30T10:26:07Z",
  "stats": {
   "placement": 329,
-  "internship": 849,
-  "with_files": 221,
-  "listed_downloads": 225
+  "internship": 850,
+  "with_files": 222,
+  "listed_downloads": 226
  },
  "categories": {
   "placement": [
@@ -3665,6 +3665,18 @@
    }
   ],
   "internship": [
+   {
+    "id": "1286",
+    "type": "INTERNSHIP",
+    "subject": "Shortlist",
+    "company": "SYNOPSYS",
+    "notice": "PFA the test shortlist for the Online Assessment of Synopsys, scheduled from 7:00 PM onwards on 30th October, 2026.\n\nVenue: Nalanda Classroom Complex\n\nThe Room allocation for the test will be released shortly.\n\nShortlisted students are requested to attend the Pre-Placement Talk without fail.\n\nPOC: Hardik (+91 81770 18092)\n\nCDC, IIT Kharagpur",
+    "noticeat": "30-10-2026 15:38",
+    "text_source": "full_notice",
+    "source_hash": "5fc8782e04c082bdfc16f6b1093faf0a59d406558e3089c1e412241b83753f16",
+    "has_download": true,
+    "file": "files/1286.pdf"
+   },
    {
     "id": "1282",
     "type": "INTERNSHIP",
