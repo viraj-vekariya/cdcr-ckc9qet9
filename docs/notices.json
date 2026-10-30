@@ -1,13 +1,25 @@
 {
- "last_updated": "2026-10-30T17:57:24Z",
+ "last_updated": "2026-10-30T18:57:04Z",
  "stats": {
-  "placement": 343,
-  "internship": 853,
-  "with_files": 227,
-  "listed_downloads": 231
+  "placement": 344,
+  "internship": 854,
+  "with_files": 229,
+  "listed_downloads": 233
  },
  "categories": {
   "placement": [
+   {
+    "id": "1305",
+    "type": "PLACEMENT",
+    "subject": "Shortlist",
+    "company": "ACCENTURE AEH",
+    "notice": "Please find attached the list of eligible candidates for the in-campus coding assessment for the Accenture India Elite Technology Engineer FTE role. The slot timing and reporting room for each candidate are given in the attached list.\n\nDate: 31st October 2026\nSlot Timing and Reporting Room: As per the attached list\n\nNote: Students are requested to report to the venue 15 minutes before their slot time. The test will begin promptly at the scheduled time.\n\nImportant Instructions:\n\n- MacBooks are strictly not allowed for this test.\n\nIt is mandatory for all students to carry the following items to be eligible for the in-campus assessment:\n\n- A printout of the admit card sent to the registered email ID. A soft copy of the admit card will not be considered valid.\n- Original physical PAN card with photo. Scanned copies, photocopies, or laminated copies of the PAN card will not be accepted. DigiLocker PAN cards will not be considered valid.\n- If a student does not have their physical PAN card, they can download the official E-PAN card from an official source and bring a printed copy of it.\n- PAN cards made when the candidate was a minor will not be accepted, and such candidates will be rejected.\n- A PAN application acknowledgment will not be treated as valid proof.\n\nLaptop Requirements:\n\n- Operating system: Windows 11\n- RAM: 8 GB or more\n- Processor: Intel i3 8th Generation 2.2 GHz or higher\n- Browser: Latest 3 versions of Google Chrome\n- Webcam and microphone must work and stay on during the test. The webcam must show a clear image.\n- Uninstall any VPN and proxy setups.\n\nSafe Exam Browser (SEB):\n\n- Uninstall any old version of Safe Exam Browser, then install the new version from this link: https://securetest.hirepro.in/accenture/v2/\n\nPOC: Vatsal (+91 92344 57393), Arpita (+91 90755 64147)\n\nCDC, IIT Kharagpur",
+    "noticeat": "30-10-2026 23:53",
+    "text_source": "full_notice",
+    "source_hash": "984cffca9e27ea5d2a9e47f69bb3e4b0a8b0a88226f142c4e83cbc7ec7021592",
+    "has_download": true,
+    "file": "files/1305.pdf"
+   },
    {
     "id": "1304",
     "type": "PLACEMENT",
@@ -3822,6 +3834,18 @@
    }
   ],
   "internship": [
+   {
+    "id": "1306",
+    "type": "INTERNSHIP",
+    "subject": "Shortlist",
+    "company": "SYNOPSYS",
+    "notice": "PFA the shortlist for the Interview round of Synopsys.\n\nFurther details would be communicated to the shortlisted candidates shortly.\n\nCDC, IIT Kharagpur",
+    "noticeat": "31-10-2026 00:10",
+    "text_source": "full_notice",
+    "source_hash": "deeb483771802c58ff25409339997570f5df56c86880374793cb718e62fb9ffd",
+    "has_download": true,
+    "file": "files/1306.pdf"
+   },
    {
     "id": "1298",
     "type": "INTERNSHIP",
