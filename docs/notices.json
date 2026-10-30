@@ -1,13 +1,36 @@
 {
- "last_updated": "2026-10-30T14:26:35Z",
+ "last_updated": "2026-10-30T15:27:36Z",
  "stats": {
-  "placement": 338,
+  "placement": 340,
   "internship": 853,
-  "with_files": 225,
-  "listed_downloads": 229
+  "with_files": 226,
+  "listed_downloads": 230
  },
  "categories": {
   "placement": [
+   {
+    "id": "1300",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "Qualcomm",
+    "notice": "PFA the test shortlist for the Assessment of Qualcomm for all the roles except software roles scheduled from 10:00 PM onwards on 30th October, 2026.\n\nVenue: Nalanda Classroom Complex\n\nThe Room allocation for the test will be released shortly.\n\nStudents are requested to report 15 minutes prior to the reporting time.\n\nPOC: Ashutosh (+91 88401 04367), Ritvik (+91 94803 60231)\n\nCDC, IIT Kharagpur",
+    "noticeat": "30-10-2026 20:47",
+    "text_source": "full_notice",
+    "source_hash": "36b8c5c85071e5501ea5613dbed5d087de391ac11cfcad417ef7b32d6b54a09e",
+    "has_download": true,
+    "file": "files/1300.pdf"
+   },
+   {
+    "id": "1299",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "EY PARTHENON",
+    "notice": "All the eligible students who have applied for EY Parthenon on the ERP Portal are required to kindly fill the additional details form given below.\n\nLink: https://forms.gle/7PMrMJm2YpidzmcFA\n\nDeadline: 31st October 2026, 4:00 PM\n\nKindly ensure that you have filled the form before the deadline. No further extensions will be provided.\n\nCDC, IIT Kharagpur",
+    "noticeat": "30-10-2026 19:57",
+    "text_source": "full_notice",
+    "source_hash": "73061de4721602558c61808d4e79396dc4a0e8f6c39fcf76161922d031002f6e",
+    "has_download": false
+   },
    {
     "id": "1297",
     "type": "PLACEMENT",
