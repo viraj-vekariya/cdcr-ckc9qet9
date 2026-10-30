@@ -1,13 +1,69 @@
 {
- "last_updated": "2026-10-30T11:27:50Z",
+ "last_updated": "2026-10-30T12:29:55Z",
  "stats": {
-  "placement": 331,
+  "placement": 336,
   "internship": 850,
-  "with_files": 222,
-  "listed_downloads": 226
+  "with_files": 223,
+  "listed_downloads": 227
  },
  "categories": {
   "placement": [
+   {
+    "id": "1293",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "YCP AUCTUS",
+    "notice": "The CV Submission for YCP INDIA PRIVATE LIMITED for the Analyst Role has been extended till 8:00 PM, 30th October, 2026.\n\nPlease note that all the students who have applied for the Analyst Role for YCP Auctus are required to fill the following additional details form by 8:00 PM, 30th October, 2026.\n\nLink: https://forms.gle/fA5w7bkMxYGXCeG19\n\nAll the eligible students are advised to fill the form within the given deadline. No further extensions will be given\n\nCDC, IIT Kharagpur",
+    "noticeat": "30-10-2026 17:30",
+    "text_source": "full_notice",
+    "source_hash": "335209be90310c8bc85da5eb1ae617cccfb10bf77725c2584aba8e358994429a",
+    "has_download": false
+   },
+   {
+    "id": "1292",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "AIRBUS",
+    "notice": "The CV submission of AIRBUS for all the roles has been extended till 4 PM, 31st October, 2026 with revised eligibility criteria.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "30-10-2026 17:20",
+    "text_source": "full_notice",
+    "source_hash": "92559dec8a06648d02569305356516687109303ed69977e4f81d1ef40726312e",
+    "has_download": false
+   },
+   {
+    "id": "1291",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "EXXONMOBIL",
+    "notice": "The CV submission of EXXONMOBIL for all the roles have been extended till 11:59 AM, 31st October, 2026.\n\nIt is mandatory for all the interested and eligible candidates to apply on both ERP and the company portal.\n\nLink : https://career4.successfactors.com/sfcareer/jobreqcareerpvt?jobId=107440&company=exxonmobilP&st=C95E3C5669B0A3B03777F01ADDDB677EB5523735\n\nNOTE: Students are required to apply on the company portal using their personal email ID.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "30-10-2026 17:15",
+    "text_source": "full_notice",
+    "source_hash": "db78fe8001d54fa877d3e53a0c17d96093a085702a893dad680ddecc9b5e31c6",
+    "has_download": false
+   },
+   {
+    "id": "1290",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "DEUTSCHE BANK",
+    "notice": "PFA the shortlist for the workshop of Deutsche Bank.\n\nCDC, IIT Kharagpur",
+    "noticeat": "30-10-2026 17:00",
+    "text_source": "full_notice",
+    "source_hash": "3882991fab99bd6e6c0f5dd5722a65b945ee1c483d47b06de4d8c50205d9dec6",
+    "has_download": true,
+    "file": "files/1290.pdf"
+   },
+   {
+    "id": "1289",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "Multiple Companies",
+    "notice": "The CV submission for the following companies have been extended till 4:00 PM, 31st October, 2026.\n\n1. EY PARTHENON (Profile: Associate Consultant)\n\n2. JP MORGANCHASE (Profile: Commercial & Investment Bank Research & Analytics, Global Research - Full Time Analyst)\n\n3. Navi (All Profiles)\n\n4. Nvidia (Profile: Hardware)\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "30-10-2026 16:58",
+    "text_source": "full_notice",
+    "source_hash": "7da09d9c77877b1902c172b3c7eb155be0d7cff2f10eaaa9cf2812e837292dae",
+    "has_download": false
+   },
    {
     "id": "1288",
     "type": "PLACEMENT",
