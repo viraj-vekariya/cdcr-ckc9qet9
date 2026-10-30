@@ -1,19 +1,30 @@
 {
- "last_updated": "2026-10-30T05:56:49Z",
+ "last_updated": "2026-10-30T06:56:20Z",
  "stats": {
-  "placement": 326,
-  "internship": 848,
+  "placement": 327,
+  "internship": 849,
   "with_files": 221,
   "listed_downloads": 225
  },
  "categories": {
   "placement": [
    {
+    "id": "1281",
+    "type": "PLACEMENT",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "TIGER ANALYTICS",
+    "notice": "Please note that the Pre-Placement Talk for TIGER ANALYTICS will be held on 30th October, 2026 from 12:30 PM.\n\nLink: https://meet.google.com/sya-gcri-hds\n\nAll interested students are required to attend the PPT without fail. Attendance is compulsory. Students should join 15 minutes prior to the meeting time.\n\nPOC: Daksh (+91 9818071612)\n\nCDC, IIT Kharagpur",
+    "noticeat": "30-10-2026 11:53",
+    "text_source": "full_notice",
+    "source_hash": "3a3cd0a58ff3c3097d88f2ec6ae29c1bc990b797f1633b2f4a4ce9639be18c56",
+    "has_download": false
+   },
+   {
     "id": "1280",
     "type": "PLACEMENT",
     "subject": "PPT/Workshop/Seminars etc",
     "company": "COGNIZANT",
-    "notice": "The Pre-Placement Talk for COGNIZANT:\n\nDate: 30th October 2026\nTime: 8:00 PM\nVenue: NR 221, Nalanda\n\nNote:\nAttendance for the offline PPT for all the roles is mandatory and will be recorded. Students are advised to be present 15 minutes prior to the scheduled time.\n\nPOC:\nNeev (+91 90013 46350)\nArpita (+91 90755 64147)\n\nCDC, IIT Kharagpur.",
+    "notice": "The Pre-Placement Talk for COGNIZANT:\n\nDate: 30th October 2026\nTime: 8:00 PM\n\nVenue: NR 221, Nalanda\n\nNote:\nAttendance for the offline PPT for all the roles is mandatory and will be recorded. Students are advised to be present 15 minutes prior to the scheduled time.\n\nPOC:\nNeev (+91 90013 46350)\nArpita (+91 90755 64147)\n\nCDC, IIT Kharagpur.",
     "noticeat": "30-10-2026 11:09",
     "text_source": "full_notice",
     "source_hash": "7dc7f127c958c4a3237c1f05fff71bdd5072ecc80df7e3fe552e346435b67e09",
@@ -3632,6 +3643,17 @@
    }
   ],
   "internship": [
+   {
+    "id": "1282",
+    "type": "INTERNSHIP",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "SYNOPSYS",
+    "notice": "Please note that the Pre-Placement Talk for SYNOPSYS will be held on 30th October 2026 from 6:00 PM.\n\nLink: https://teams.microsoft.com/meet/2933619007686525?p=a7somZkOV41HxBeRhp\n\nAll interested and eligible students are required to attend the PPT without fail. Attendance is compulsory. Students should join 15 minutes prior to the meeting time.\n\nPOC: Hardik (+91 81770 18092)\n\nCDC, IIT Kharagpur",
+    "noticeat": "30-10-2026 12:09",
+    "text_source": "full_notice",
+    "source_hash": "7dde8d4385d8b969dac00e2579b1648ccf46ed4e48aaaeb6684443cd88a5e06a",
+    "has_download": false
+   },
    {
     "id": "1265",
     "type": "INTERNSHIP",
