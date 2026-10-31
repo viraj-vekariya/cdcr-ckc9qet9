@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-10-31T15:58:55Z",
+ "last_updated": "2026-10-31T16:59:16Z",
  "stats": {
-  "placement": 363,
-  "internship": 854,
-  "with_files": 234,
-  "listed_downloads": 238
+  "placement": 364,
+  "internship": 855,
+  "with_files": 235,
+  "listed_downloads": 239
  },
  "categories": {
   "placement": [
+   {
+    "id": "1330",
+    "type": "PLACEMENT",
+    "subject": "Date extension",
+    "company": "Multiple Companies",
+    "notice": "The CV submission for the following companies have been extended till 4:00 PM, 1st November, 2026.\n\n1\u2060. \u2060JP MORGANCHASE (Profile: Commercial & Investment Bank Research & Analytics, Global Research - Full Time Analyst)\n\n2.\u2060 \u2060Navi (All Profiles)\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "31-10-2026 22:12",
+    "text_source": "full_notice",
+    "source_hash": "b97d692ea80c3e8e6793f64dc74dfcf7a5698e963a9a9fe6d2b3fb14a2f57275",
+    "has_download": false
+   },
    {
     "id": "1328",
     "type": "PLACEMENT",
@@ -4048,6 +4059,18 @@
    }
   ],
   "internship": [
+   {
+    "id": "1329",
+    "type": "INTERNSHIP",
+    "subject": "Urgent",
+    "company": "TCG DIGITAL",
+    "notice": "PFA the test room allocation for the Online Assessment of TCG Digital, scheduled from 10:00 AM onwards on 1st November, 2026.\n\nVenue: Nalanda Classroom Complex\n\nNote: Candidates are required to display their Government-issued ID before the commencement of the test.\n\nPlease carry your laptops, pens, and papers.\n\nStudents are requested to report 15 minutes prior to the reporting time.\n\nPOC: Aditya Ghandge (+91 93254 68252), Rudra Pratap (+91 82357 55257)\n\nCDC, IIT Kharagpur",
+    "noticeat": "31-10-2026 22:01",
+    "text_source": "full_notice",
+    "source_hash": "eeae65f9c56c2f5bdb8f11a52930ffcd9f4c41eb96d74136af97ffae7b6f805f",
+    "has_download": true,
+    "file": "files/1329.pdf"
+   },
    {
     "id": "1306",
     "type": "INTERNSHIP",
