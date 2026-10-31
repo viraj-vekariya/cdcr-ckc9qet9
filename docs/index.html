@@ -581,6 +581,7 @@ footer a{color:var(--accent)}
     var desc = c.description || c.details || '';
     var hasDetail = !!(desc || c.company_details || c.more_details || c.more_details_url);
     var summary = '<tr class="opp-row">'+
+      '<td class="mono" style="color:var(--text-dim)">'+(idx+1)+'</td>'+
       '<td><p class="opp-company">'+esc(c.company)+'</p><p class="opp-role">'+esc(c.role)+'</p></td>'+
       '<td class="mono">'+esc(formatINR(c.ctc))+'<br><span style="color:var(--text-dim);font-size:11px">('+esc(c.currency)+')</span></td>'+
       '<td class="mono" style="font-size:12.5px">'+opens.date+'<br><span style="color:var(--text-dim);font-size:11px">'+opens.time+'</span></td>'+
@@ -588,7 +589,7 @@ footer a{color:var(--accent)}
       '<td><button class="opp-toggle-btn" data-target="'+detailId+'">Details</button></td>'+
     '</tr>';
     var body = hasDetail ? oppDetailBody(c) : '<p class="opp-empty">Not captured yet &mdash; this gets filled in on the next successful ERP sync.</p>';
-    var detail = '<tr class="opp-detail-row" id="'+detailId+'" hidden><td colspan="5"><div class="opp-detail">'+body+'</div></td></tr>';
+    var detail = '<tr class="opp-detail-row" id="'+detailId+'" hidden><td colspan="6"><div class="opp-detail">'+body+'</div></td></tr>';
     return summary + detail;
   }
 
@@ -629,7 +630,7 @@ footer a{color:var(--accent)}
     }
     wrap.innerHTML = '<a class="opp-global-open" href="https://erp.iitkgp.ac.in/SSOAdministration/login.htm?requestedUrl=https://erp.iitkgp.ac.in/IIT_ERP3/" target="_blank" rel="noopener noreferrer">Open ERP to apply, view full JD, or view an applied resume</a>'+
       '<div class="opp-table-wrap"><table class="opp-table"><thead><tr>'+
-      '<th>Company &amp; role</th><th>CTC</th><th>Resume opens</th><th>Deadline</th><th></th>'+
+      '<th>#</th><th>Company &amp; role</th><th>CTC</th><th>Resume opens</th><th>Deadline</th><th></th>'+
       '</tr></thead><tbody>'+data.companies.map(oppRow).join('')+'</tbody></table></div>';
     wireOppExpanders(wrap);
   }
