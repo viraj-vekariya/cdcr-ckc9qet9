@@ -1,13 +1,58 @@
 {
- "last_updated": "2026-10-31T13:58:20Z",
+ "last_updated": "2026-10-31T15:00:27Z",
  "stats": {
-  "placement": 355,
+  "placement": 359,
   "internship": 854,
-  "with_files": 232,
-  "listed_downloads": 236
+  "with_files": 233,
+  "listed_downloads": 237
  },
  "categories": {
   "placement": [
+   {
+    "id": "1324",
+    "type": "PLACEMENT",
+    "subject": "Date extension",
+    "company": "Multiple Companies",
+    "notice": "The CV submission for the following companies has been extended till 4:00 PM, 1st November, 2026.\n\n1.\u2060 \u2060COLLINS AEROSPACE(All Profiles)\n\n2.\u2060 \u2060TREDENCE ANALYTICS(Profile: DATA SCIENTIST)\n\n3.\u2060 \u2060CARS24 (All Profiles)\n\n4.\u2060 \u2060TEXAS INSTRUMENTS (All Profiles)\n\n5.\u2060 \u2060ALLEGRO CAPITAL ADVISORS (Profile: Investment Banking Analyst)\n\n6.\u2060 \u2060PRODIGAL TECHNOLOGIES (All Profiles)\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "31-10-2026 20:18",
+    "text_source": "full_notice",
+    "source_hash": "99fb0ed1e3e28fbd3c8502c9ba5ede6597b1d00e4ef6a50f5e5c01ee4e546e8e",
+    "has_download": false
+   },
+   {
+    "id": "1323",
+    "type": "PLACEMENT",
+    "subject": "Date extension",
+    "company": "CAPITAL ONE",
+    "notice": "The CV submission for CAPITAL ONE (All Profiles) has been extended till 11:59 PM, 31st October, 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "31-10-2026 20:17",
+    "text_source": "full_notice",
+    "source_hash": "0e098dd1d8a05b8a65979be6956f57ac3c17c945b2c92def1748dd55be41f64b",
+    "has_download": false
+   },
+   {
+    "id": "1322",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "CAPGEMINI",
+    "notice": "The CV submission of CAPGEMINI for the role of Software Engineer has been opened till 4:00 PM, 1st November, 2026.\n\nIts mandatory for all the candidates who are applying for this role, to apply on the portal link attached below:\n\nPortal \n\nLink: https://app.joinsuperset.com/join/#/signup/student?jp=1f4f633e-5ae5-4dca-81d7-572ca65ea7f7\n\nNOTE: Students are required to apply using their CDC-registered email ID on both the company portal. This step is mandatory, and candidates who fail to complete the registration will not be considered for the process\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "31-10-2026 20:15",
+    "text_source": "full_notice",
+    "source_hash": "2c145d3f04ece254b6c0ce9ca26468b4d30410462bedd18ea75103f452a2cf6d",
+    "has_download": false
+   },
+   {
+    "id": "1321",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "AMERICAN EXPRESS",
+    "notice": "PFA the test room allocation for the Assessment of American Express for all the roles, scheduled from 8:00 PM onwards on 31st October, 2026.\n\nVenue: Nalanda Classroom Complex\n\nStudents are required to carry their original Institute ID card/Medical Book, failing which students will not be permitted to sit for tests.\n\nPlease carry your laptops, pens, and papers.\n\nStudents are requested to report 15 minutes prior to the reporting time.\n\nPOC: Aryan (+91 8100303122), Anjali (+91 7989613926)\n\nCDC, IIT Kharagpur",
+    "noticeat": "31-10-2026 19:51",
+    "text_source": "full_notice",
+    "source_hash": "ce52d04c12d7a588d6585403a773b5d42b6c377fbe2ec0e2e360a5741b8b5d57",
+    "has_download": true,
+    "file": "files/1321.pdf"
+   },
    {
     "id": "1320",
     "type": "PLACEMENT",
