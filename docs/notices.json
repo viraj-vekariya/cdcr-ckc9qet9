@@ -1,13 +1,35 @@
 {
- "last_updated": "2026-10-31T04:27:49Z",
+ "last_updated": "2026-10-31T05:29:02Z",
  "stats": {
-  "placement": 344,
+  "placement": 346,
   "internship": 854,
   "with_files": 229,
   "listed_downloads": 233
  },
  "categories": {
   "placement": [
+   {
+    "id": "1309",
+    "type": "PLACEMENT",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "APPLIED MATERIALS",
+    "notice": "The Pre-Placement Talk for APPLIED MATERIALS, will be held on 31st October 2026 from 11:00 AM.\n\nLink: https://teams.microsoft.com/meet/2932973491181920?p=Fx6wrjMOrs5bLcTiL9\n\nNote: All placement-registered students are supposed to attend the PPT, without fail. Attendance is compulsory. Students must join the link 15 minutes prior to the scheduled time.\n\nPOC: Faiz (+91 7386295387)\n\nCDC, IIT Kharagpur",
+    "noticeat": "31-10-2026 10:44",
+    "text_source": "full_notice",
+    "source_hash": "7464bb565051bb8c2ea301199c827700ff903d404d00d6b61e30d37481155f36",
+    "has_download": false
+   },
+   {
+    "id": "1308",
+    "type": "PLACEMENT",
+    "subject": "Re-schedule",
+    "company": "CDC Placement Updated Schedule for 31st October 2026",
+    "notice": "All students eligible for placement are advised to take note of the revised timing for the following assessment:\n\n1. [TEST: SLOT 2] ACCENTURE AEH (Profile: Elite Technology Engineer) (12:00 PM \u2013 2:00 PM)\n\nThe revised timing for Slot 3 will be communicated separately.\n\nAll other placement activities scheduled for the day remain unchanged.\n\nCDC, IIT Kharagpur",
+    "noticeat": "31-10-2026 10:32",
+    "text_source": "full_notice",
+    "source_hash": "9a74c0b1c7d70a385aebce73583621ed7da5da67e8b49b07b454348fc50a4432",
+    "has_download": false
+   },
    {
     "id": "1307",
     "type": "PLACEMENT",
