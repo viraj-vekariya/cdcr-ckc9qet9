@@ -1,13 +1,49 @@
 {
- "last_updated": "2026-10-31T10:59:35Z",
+ "last_updated": "2026-10-31T11:58:46Z",
  "stats": {
-  "placement": 352,
+  "placement": 355,
   "internship": 854,
-  "with_files": 229,
-  "listed_downloads": 233
+  "with_files": 232,
+  "listed_downloads": 236
  },
  "categories": {
   "placement": [
+   {
+    "id": "1320",
+    "type": "PLACEMENT",
+    "subject": "Shortlist",
+    "company": "AMERICAN EXPRESS",
+    "notice": "PFA the test shortlist for the Assessment of American Express for both the roles, scheduled from 8:00 PM onwards on 31st October, 2026.\n\nVenue: Nalanda Classroom Complex\n\nStudents are requested to report 15 minutes prior to the reporting time.\n\nPOC: Aryan (+91 8100303122), Anjali (+91 7989613926)\n\nCDC, IIT Kharagpur",
+    "noticeat": "31-10-2026 17:15",
+    "text_source": "full_notice",
+    "source_hash": "75f18f4f3b4b5a04587a0834b232e9d5286663e06e9c1202802d52f346760a42",
+    "has_download": true,
+    "file": "files/1320.pdf"
+   },
+   {
+    "id": "1319",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "ACCENTURE SOLUTIONS",
+    "notice": "PFA the revised test room allocation for the Assessment of ACCENTURE SOLUTIONS for GN Management Consulting Associate Role, scheduled from 5:00 PM onwards on 31st October, 2026.\n\nImportant Instructions for the Assessment:\n- Students must attempt the assessment using a Windows laptop.\n\n- Minimum System Requirements:\n- RAM: 4 GB or higher.\n- Processor: Intel Core i3, 5th Generation, 2.2 GHz or equivalent/higher.\n- Operating System: Windows 8/10/11.\n\nMac laptops are not supported. The assessment will not work on Mac devices.\n\nPlease ensure that your system meets the above requirements before attempting the assessment.\n\nVenue: Nalanda Classroom Complex\n\nStudents are required to carry their original Institute ID card failing which students will not be permitted to sit for tests.\n\nPlease carry your laptops, pens, and papers.\n\nStudents are requested to report 15 minutes prior to the reporting time.\n\nPOC: Hardik (+91 8177018092), Neev (+91 9001346350)",
+    "noticeat": "31-10-2026 17:10",
+    "text_source": "full_notice",
+    "source_hash": "9e1d59ad66b8c8fbfef9809919dc092002185f0fb23dfc544f43d50ac29c8794",
+    "has_download": true,
+    "file": "files/1319.pdf"
+   },
+   {
+    "id": "1317",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "ACCENTURE SOLUTIONS",
+    "notice": "PFA the test room allocation for the Assessment of ACCENTURE SOLUTIONS for GN Management Consulting Associate Role, scheduled from 5:00 PM onwards on 31st October, 2026.\n\nImportant Instructions for the Assessment:\n- Students must attempt the assessment using a Windows laptop.\n\n- Minimum System Requirements:\n- RAM: 4 GB or higher.\n- Processor: Intel Core i3, 5th Generation, 2.2 GHz or equivalent/higher.\n- Operating System: Windows 8/10/11.\n\nMac laptops are not supported. The assessment will not work on Mac devices.\n\nPlease ensure that your system meets the above requirements before attempting the assessment.\n\nVenue: Nalanda Classroom Complex\n\nStudents are required to carry their original Institute ID card failing which students will not be permitted to sit for tests.\n\nPlease carry your laptops, pens, and papers.\n\nStudents are requested to report 15 minutes prior to the reporting time.\n\nPOC: Hardik (+91 8177018092), Neev (+91 9001346350)\n\nCDC, IIT Kharagpur",
+    "noticeat": "31-10-2026 16:32",
+    "text_source": "full_notice",
+    "source_hash": "a8c57753df35192608c2798d3cbd12afc8f63a9459813eb690b1f6f62ee58dff",
+    "has_download": true,
+    "file": "files/1317.pdf"
+   },
    {
     "id": "1314",
     "type": "PLACEMENT",
