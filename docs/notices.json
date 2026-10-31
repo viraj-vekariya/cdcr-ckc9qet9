@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-10-31T16:59:16Z",
+ "last_updated": "2026-10-31T17:59:36Z",
  "stats": {
-  "placement": 364,
+  "placement": 365,
   "internship": 855,
   "with_files": 235,
   "listed_downloads": 239
  },
  "categories": {
   "placement": [
+   {
+    "id": "1331",
+    "type": "PLACEMENT",
+    "subject": "Schedule",
+    "company": "CDC Placement Schedule for 1st November 2026",
+    "notice": "All students eligible for placement are advised to take note of the placement schedule for 1st November 2026.\n\n1.\u2060 \u2060[PPT: OFFLINE] NAVI (5:00 PM - 7:00 PM)\n2.\u2060 \u2060[TEST] HILABS (Profile: AI Engineer) (10:30 PM \u2013 12:00 AM)\n3.\u2060 \u2060[TEST] COMMONWEALTH BANK OF AUSTRALIA (Profile: Graduate Engineering) (12:30 AM \u2013 2:00 AM) (2nd November)\n\nNote: Links to the PPTs and other relevant details will be shared separately. Room allocations and other necessary instructions for the tests will be communicated prior to the respective assessments.\n\nCDC, IIT Kharagpur",
+    "noticeat": "31-10-2026 23:05",
+    "text_source": "full_notice",
+    "source_hash": "038677a45be7c036a7bdc7d90fb4aa593b2cf32d64c473b75e49db60a3b4f581",
+    "has_download": false
+   },
    {
     "id": "1330",
     "type": "PLACEMENT",
