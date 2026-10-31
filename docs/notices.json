@@ -1,13 +1,58 @@
 {
- "last_updated": "2026-10-31T15:00:27Z",
+ "last_updated": "2026-10-31T15:58:55Z",
  "stats": {
-  "placement": 359,
+  "placement": 363,
   "internship": 854,
-  "with_files": 233,
-  "listed_downloads": 237
+  "with_files": 234,
+  "listed_downloads": 238
  },
  "categories": {
   "placement": [
+   {
+    "id": "1328",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "WHITEOAK CAPITAL",
+    "notice": "PFA the test room allocation for the Assessment of WhiteOak Capital for all the roles, scheduled from 10:00 PM onwards on 31st October, 2026.\n\nVenue: Nalanda Classroom Complex\n\nStudents are required to carry their original Institute ID card/Medical Book, failing which students will not be permitted to sit for tests.\n\nPlease carry your laptops, pens, and papers.\n\nStudents are requested to report 15 minutes prior to the reporting time.\n\nPOC: Nikhita (+91 8770035884), Daksh (+91 9818071612)\n\nCDC, IIT Kharagpur",
+    "noticeat": "31-10-2026 21:13",
+    "text_source": "full_notice",
+    "source_hash": "30011937a62e23163cddf51616988c26bb12146d3184836b76da78dd47b0663c",
+    "has_download": true,
+    "file": "files/1328.pdf"
+   },
+   {
+    "id": "1327",
+    "type": "PLACEMENT",
+    "subject": "Date extension",
+    "company": "Fujitsu Research India Private Limited",
+    "notice": "The CV submission of Fujitsu Research India Private Limited (All Profiles) has been extended till 4:00 PM, 1st November, 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "31-10-2026 20:31",
+    "text_source": "full_notice",
+    "source_hash": "9f13a5f795832a98f43e92661959959ac7d9ce86f9214957e65bed1653cd134b",
+    "has_download": false
+   },
+   {
+    "id": "1326",
+    "type": "PLACEMENT",
+    "subject": "Date extension",
+    "company": "Multiple Companies",
+    "notice": "The CV submission for the following companies have been extended till 12:00 PM, 1st November, 2026.\n\n1.\u2060 \u2060IBM (All Profiles)\n\n2.\u2060 \u2060Nvidia (Profile: Hardware Engineer)\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "31-10-2026 20:28",
+    "text_source": "full_notice",
+    "source_hash": "766a731f13614915a5eb39e7b0198785d935ed0674acff4976d9ce74e5876523",
+    "has_download": false
+   },
+   {
+    "id": "1325",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "Multiple Companies",
+    "notice": "The following companies are open for CV Submission till 4:00 PM, 1st November, 2026.\n\n1. INFO EDGE INDIA LIMITED (Profile: Data Scientist)\n\n2. INDUS INSIGHTS (Profile: Assosiate)\n\n3. PORTER ( Profiles: Associate Product Manager, Software Development Engineer)\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "31-10-2026 20:22",
+    "text_source": "full_notice",
+    "source_hash": "1e1ca2031dbc19c9a3f353237457f08cc0e731cebf7895c74325c5d107b539cd",
+    "has_download": false
+   },
    {
     "id": "1324",
     "type": "PLACEMENT",
