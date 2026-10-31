@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-10-31T09:58:04Z",
+ "last_updated": "2026-10-31T10:59:35Z",
  "stats": {
-  "placement": 350,
+  "placement": 352,
   "internship": 854,
   "with_files": 229,
   "listed_downloads": 233
  },
  "categories": {
   "placement": [
+   {
+    "id": "1314",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "HILABS",
+    "notice": "All eligible students who have applied for HILABS are required to kindly fill out the preference form given below.\n\nLink: https://forms.gle/cT2jEqU9wXunhtpw9\n\nDeadline: 1st November 2026, 9:00 AM\n\nKindly ensure you have filled out the form before the deadline. No further extensions will be provided.\n\nCDC, IIT Kharagpur",
+    "noticeat": "31-10-2026 16:04",
+    "text_source": "full_notice",
+    "source_hash": "61770351e8c469de5897508d8ba3e484b995e201ee7a05bc169c018c6465f1bc",
+    "has_download": false
+   },
    {
     "id": "1313",
     "type": "PLACEMENT",
@@ -318,6 +329,17 @@
     "noticeat": "30-10-2026 04:05",
     "text_source": "full_notice",
     "source_hash": "12eb9bbb2a3679b36cff6aee3c99a6a4f7f3e568aa5418a195519a00d67e2223",
+    "has_download": false
+   },
+   {
+    "id": "1275",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "Multiple Companies",
+    "notice": "The following companies are open for CV Submission till 4:00 PM, 31th October, 2026.\n\n1. CARS24 (All Profiles)\n\n2. ALLEGRO CAPITAL (Profile: Investment Banking Analyst)\n\n3. CAPITAL ONE (Profiles: Associate - Business Analyst, Associate Software Engineer)\n\n4. PRODIGAL (Profiles: Associate Consultant, Applied AI)\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "30-10-2026 03:52",
+    "text_source": "full_notice",
+    "source_hash": "555738515547afaf3ffc464692cc0b98d9937406979638c0846c907932f77b24",
     "has_download": false
    },
    {
