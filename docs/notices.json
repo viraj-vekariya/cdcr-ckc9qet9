@@ -1,7 +1,7 @@
 {
- "last_updated": "2026-10-31T03:27:40Z",
+ "last_updated": "2026-10-31T04:27:49Z",
  "stats": {
-  "placement": 345,
+  "placement": 344,
   "internship": 854,
   "with_files": 229,
   "listed_downloads": 233
@@ -30,17 +30,6 @@
     "source_hash": "984cffca9e27ea5d2a9e47f69bb3e4b0a8b0a88226f142c4e83cbc7ec7021592",
     "has_download": true,
     "file": "files/1305.pdf"
-   },
-   {
-    "id": "1304",
-    "type": "PLACEMENT",
-    "subject": "Urgent",
-    "company": "ACCENTURE SOLUTIONS",
-    "notice": "Students appearing for the Accenture Solutions \u2013 GN Management Consulting Associate role are hereby informed that the mock assessment link has been shared by the company.\n\nThe mock assessment must be completed by 11:59 AM on 31st October 2026. Students may attempt it at any time before the deadline.\n\nImportant Instructions:\n\n1.\u2060 \u2060The mock assessment is mandatory and must be completed within the stipulated deadline to identify and resolve any system compatibility issues before the actual assessment.\n\n2.\u2060 \u2060MacBooks are strictly not allowed. Only Windows laptops should be used.\n\n3.\u2060 \u2060Uninstall any previously installed version of Safe Exam Browser (SEB) and install the latest version using the link below:\nSEB \n\nLink: https://securetest.hirepro.in/accenture/v2/\n\n4.\u2060 \u2060Ensure that your laptop has a functional webcam and microphone and meets the required system specifications.\n\n5.\u2060 \u2060Uninstall any VPN or proxy configurations before attempting the assessment.\n\nAll students are advised to complete the mock assessment well before the deadline to avoid last-minute technical issues.\n\nCDC, IIT Kharagpur",
-    "noticeat": "30-10-2026 23:04",
-    "text_source": "full_notice",
-    "source_hash": "b17beabc5c9e6b74b8be5594c2c9e7a63d48bf928dc38ab5c84bcaa52d3ecd01",
-    "has_download": false
    },
    {
     "id": "1303",
