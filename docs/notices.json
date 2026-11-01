@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-11-01T16:01:10Z",
+ "last_updated": "2026-11-01T17:01:15Z",
  "stats": {
   "placement": 374,
   "internship": 857,
@@ -9,16 +9,16 @@
  "categories": {
   "placement": [
    {
-    "id": "1346",
+    "id": "1347",
     "type": "PLACEMENT",
     "subject": "Urgent",
     "company": "HILABS",
-    "notice": "PFA the test room allocation for the Assessment of HILABS.\n\nCompany: HILABS\n\nRole: AI Engineer\n\nDate: 1st November, 2026\n\nTime: 10:30 PM onwards\n\nVenue: Nalanda Classroom Complex\n\nImportant Instructions:\n- Students are requested to report 15 minutes prior to the reporting time.\n- Students are required to carry their original Institute ID card/Medical Book, failing which students will not be permitted to sit for test.\n- Please carry your laptops, pens, and papers.\n\nPOCs:\n- Devansh: +91 7999892181\n- Aditi: +91 8815395895\n\nCDC, IIT Kharagpur",
-    "noticeat": "01-11-2026 20:53",
+    "notice": "PFA the updated test room allocation for the Assessment of HILABS for the AI Engineer role, scheduled from 10:30 PM onwards on 1st November, 2026.\n\nVenue: Nalanda Classroom Complex\n\nStudents are required to carry their original Institute ID card/Medical Book, failing which students will not be permitted to sit for test.\n\nPlease carry your laptops, pens, and papers.\n\nStudents are requested to report 15 minutes prior to the reporting time.\n\nPOC: Devansh (+91 7999892181), Aditi (+91 8815395895)\n\nCDC, IIT Kharagpur",
+    "noticeat": "01-11-2026 22:11",
     "text_source": "full_notice",
-    "source_hash": "58c3f0a83695f2fd6444277816e7a3c89264b931726659e4a1d6d8aefdcaefbe",
+    "source_hash": "85c1b3c5cde85f291e17646bb4022586c1f7d04162d739c591d745f9c8add810",
     "has_download": true,
-    "file": "files/1346.pdf"
+    "file": "files/1347.pdf"
    },
    {
     "id": "1344",
