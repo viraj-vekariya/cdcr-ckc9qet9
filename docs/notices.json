@@ -1,13 +1,57 @@
 {
- "last_updated": "2026-11-01T10:00:41Z",
+ "last_updated": "2026-11-01T12:33:17Z",
  "stats": {
-  "placement": 369,
+  "placement": 373,
   "internship": 856,
   "with_files": 236,
   "listed_downloads": 240
  },
  "categories": {
   "placement": [
+   {
+    "id": "1344",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "Multiple Companies",
+    "notice": "The CV submission for the following companies have been extended till 4:00 PM, 2nd November, 2026.\n\n1. INFO EDGE INDIA LIMITED (Profile: Data Scientist)\n\n2. INDUS INSIGHTS (Profile: Assosiate)\n\n3. PORTER ( Profiles: Associate Product Manager, Software Development Engineer)\n\n4. IBM (All Profiles)\n\n5. CAPGEMINI (Profile: Software Engineer)\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "01-11-2026 17:31",
+    "text_source": "full_notice",
+    "source_hash": "2151a26fb67ed140cdd9d0b5d4fc7d5c2788ac67ebce615726d9924266cd02bb",
+    "has_download": false
+   },
+   {
+    "id": "1343",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "AMAZON",
+    "notice": "The CV Submission for Amazon for the Software Development Engineer I role is open till 4:00 PM, 2nd November, 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "01-11-2026 17:27",
+    "text_source": "full_notice",
+    "source_hash": "db50e56049f1ecca47d8d2d990119626c88055de9b1e5b6a11e4d093578d419e",
+    "has_download": false
+   },
+   {
+    "id": "1341",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "FLIPKART",
+    "notice": "All the students who have applied for the Flipkart AI Engineer role need to register on the Portal.\n\nStudents are required to complete their registration on the portal by 2nd November 2026, 4:00 PM.\n\nThis is the final extension, and no further extension will be provided.\n\nStudents who have already completed their registration earlier need not register again.\n\nLink: https://a.hirepro.in/CgMDiOHY\n\nPlease note that registrations not completed within the deadline will not be considered for further process.\n\nCDC, IIT Kharagpur",
+    "noticeat": "01-11-2026 16:02",
+    "text_source": "full_notice",
+    "source_hash": "e4dec1bb8d0f561dd4b0e614a9d97909f2cd81109e04a18dbab6b5bd14ea981e",
+    "has_download": false
+   },
+   {
+    "id": "1340",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "CARS24",
+    "notice": "All the eligible students who have applied for Cars24 are required to kindly fill the additional details form given below.\n\nThe form now includes the Job Descriptions of all the roles, which can be accessed within the form itself. Students who have already filled the form earlier are encouraged to go through the JDs and fill the form again, if required.\n\nLink:\nhttps://forms.gle/mEpSyzF9ALVQ9TGG7\n\nDeadline:\n2nd November 2026, 7:00 PM\n\nKindly ensure you have filled the form before the deadline. No further extensions will be provided.\n\nCDC, IIT Kharagpur",
+    "noticeat": "01-11-2026 15:55",
+    "text_source": "full_notice",
+    "source_hash": "01933f1e57d71de8a095c38acf3432fe6d97ff7fe2c00234401b217fe58f4001",
+    "has_download": false
+   },
    {
     "id": "1339",
     "type": "PLACEMENT",
