@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-11-01T01:43:47Z",
+ "last_updated": "2026-11-01T02:29:37Z",
  "stats": {
   "placement": 367,
   "internship": 855,
@@ -9,14 +9,14 @@
  "categories": {
   "placement": [
    {
-    "id": "1334",
+    "id": "1336",
     "type": "PLACEMENT",
     "subject": "PPT/Workshop/Seminars etc",
     "company": "NAVI",
-    "notice": "The Pre-Placement Talk for NAVI will be held on 1st November 2026 at 5:00 PM.\n\nVenue: V1, Vikramshila\n\nNote: Attendance at the offline PPT for all roles is mandatory and will be recorded. Students are advised to arrive 15 minutes before the scheduled time.\n\nCDC, IIT Kharagpur.",
-    "noticeat": "01-11-2026 04:29",
+    "notice": "The Pre-Placement Talk (PPT) for NAVI for all the roles is scheduled on 1st November 2026 from 4:45 PM onwards in an offline mode.\n\nStudents are advised to be present 15 minutes prior to the scheduled time.\n\nReporting Time: 4:45 PM\n\nVenue: V1, Vikramshila\n\nNote: It is compulsory for all eligible students to attend the PPT. Attendance will be recorded by the company, and only those attending will be considered for the further process.\n\nPOC: Faiz (+91 7386295387), Zalavadiya Dishil (+91 9925492574)\n\nCDC, IITKharagpur",
+    "noticeat": "01-11-2026 07:46",
     "text_source": "full_notice",
-    "source_hash": "a14618c8cec44cfc0e5f3fc44187da21d1416039ff885c46475c1172e2329704",
+    "source_hash": "33c9822b5a30a3d148edf75841cc469f46423addc0dcecdf55aefe60ebf3bc02",
     "has_download": false
    },
    {
