@@ -1,13 +1,25 @@
 {
- "last_updated": "2026-11-01T18:01:00Z",
+ "last_updated": "2026-11-01T19:01:55Z",
  "stats": {
-  "placement": 374,
+  "placement": 375,
   "internship": 857,
-  "with_files": 237,
-  "listed_downloads": 241
+  "with_files": 238,
+  "listed_downloads": 242
  },
  "categories": {
   "placement": [
+   {
+    "id": "1348",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "COMMONWEALTH BANK OF AUSTRALIA",
+    "notice": "PFA the test room allocation for the Assessment of Commonwealth Bank of Australia for the Graduate Engineering role, scheduled from 12:30 AM onwards on 2nd November, 2026.\n\nVenue: Nalanda Classroom Complex\n\nStudents are required to carry their original Institute ID card/Medical Book, failing which students will not be permitted to sit for test.\n\nPlease carry your laptops, pens, and papers.\n\nStudents are requested to report 15 minutes prior to the reporting time.\n\nPOC: Nikita (+91 9969207598), Aditya Ghandge(+91 9325468252)\n\nCDC, IIT Kharagpur",
+    "noticeat": "01-11-2026 23:58",
+    "text_source": "full_notice",
+    "source_hash": "be5f1aff000472c6dce5398298794288008465f11b6da4e818f72fd9c7c78a78",
+    "has_download": true,
+    "file": "files/1348.pdf"
+   },
    {
     "id": "1347",
     "type": "PLACEMENT",
