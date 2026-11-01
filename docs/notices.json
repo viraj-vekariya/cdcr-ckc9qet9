@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-11-01T22:01:52Z",
+ "last_updated": "2026-11-01T23:01:32Z",
  "stats": {
-  "placement": 376,
+  "placement": 377,
   "internship": 857,
   "with_files": 238,
   "listed_downloads": 242
  },
  "categories": {
   "placement": [
+   {
+    "id": "1351",
+    "type": "PLACEMENT",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "ITC LIMITED",
+    "notice": "The Pre-Placement Talk for ITC LIMITED, will be held on 2nd November 2026 from 1:00 PM.\n\nJoin: https://teams.microsoft.com/meet/46077345069405?p=nwADypx7GqOdSBwHWf\n\nMeeting ID: 460 773 450 694 05\n\nPasscode: PT7er7ap\n\nNote: All placement-registered students are supposed to attend the PPT, without fail. Attendance is compulsory. Students must join the link 15 minutes prior to the scheduled time.\n\nPOC: Aryan (+91 8100303122)\n\nCDC, IIT Kharagpur",
+    "noticeat": "02-11-2026 04:06",
+    "text_source": "full_notice",
+    "source_hash": "497a4aa75ba8ec9f67e6f312f1c70c5fd254dff8d4067f4bdb48a7805c8e4652",
+    "has_download": false
+   },
    {
     "id": "1350",
     "type": "PLACEMENT",
