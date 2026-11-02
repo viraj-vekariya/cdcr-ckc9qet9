@@ -1,13 +1,58 @@
 {
- "last_updated": "2026-11-02T09:02:45Z",
+ "last_updated": "2026-11-02T10:05:36Z",
  "stats": {
-  "placement": 383,
+  "placement": 387,
   "internship": 857,
-  "with_files": 238,
-  "listed_downloads": 242
+  "with_files": 239,
+  "listed_downloads": 243
  },
  "categories": {
   "placement": [
+   {
+    "id": "1361",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "JP MORGANCHASE",
+    "notice": "Please note that all the students who have applied for the Commercial & Investment Bank Research & Analytics, Global Research - Full Time Analyst Role for JP MORGANCHASE are required to fill the following additional details form by 7:00 PM, 1st November, 2026.\n\nLink: https://forms.gle/4E6ryrdSr9umQsnn6\n\nPlease note that this is different from the company portal, and students are required to fill this as well.\n\nAll the eligible students are advised to fill the form within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "02-11-2026 15:19",
+    "text_source": "full_notice",
+    "source_hash": "bb9cfe2e6547e1b80f0419d1b8e640a663ce8bfd73c27beae89133f7ea0af27a",
+    "has_download": false
+   },
+   {
+    "id": "1360",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "ITC",
+    "notice": "All eligible students who have applied for ITC are required to kindly fill out the survey form given below.\n\nLink: https://survey.zohopublic.in/zs/ZNB5hZ\n\nDeadline: 3rd November 2026, 4:00 PM\n\nKindly ensure you have filled out the form before the deadline. No further extensions will be provided.\n\nCDC, IIT Kharagpur",
+    "noticeat": "02-11-2026 14:59",
+    "text_source": "full_notice",
+    "source_hash": "6c46472a50d76b004205757b1f12659fe63e8ab0a43635090f4ce9e29e7d4ec2",
+    "has_download": false
+   },
+   {
+    "id": "1359",
+    "type": "PLACEMENT",
+    "subject": "Shortlist",
+    "company": "CAPITAL ONE SERVICES INDIA PVT. LTD.",
+    "notice": "PFA the test shortlist for the Assessment of Capital One for the Associate (Software Engineer) role, scheduled from 6:00 PM onwards on 2nd November 2026.\n\nThe test links have been shared with the shortlisted students on their CDC-registered email IDs. Test instructions have also been shared.\n\nNote: Shortlisted candidates who have not received the test link are requested to fill out the following form.\n\nForm link: https://forms.gle/UGLr9tihnxFNurRR7\n\nVenue: Nalanda Classroom Complex\n\nThe room allocation for the test will be released shortly.\n\nStudents are requested to report 15 minutes prior to the scheduled start time.\n\nPOCs: Rudra (+91 8235755257), Faiz (+91 7386295387)\n\nCDC, IIT Kharagpur",
+    "noticeat": "02-11-2026 14:51",
+    "text_source": "full_notice",
+    "source_hash": "da4943a4e3774724a1bbb16d01b9e3909a98b658576f18bc502e53d97c3f0e34",
+    "has_download": true,
+    "file": "files/1359.pdf"
+   },
+   {
+    "id": "1358",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "POCKETFM",
+    "notice": "All the students who have applied for the Member of Technical Staff role need to register on the Portal.\n\nStudents are required to complete their registration on the portal by 2nd November 2026, 11:59 PM. The link has been shared over mail.\n\nNo further extension will be provided.\n\nStudents who have already completed their registration earlier need not register again.\n\nPlease note that registrations not completed within the deadline will not be considered for further process.\n\nCDC, IIT Kharagpur",
+    "noticeat": "02-11-2026 14:50",
+    "text_source": "full_notice",
+    "source_hash": "b11e21df27066adf777202507ee6ec661786c51a9147d2b3970db922cc8c628b",
+    "has_download": false
+   },
    {
     "id": "1357",
     "type": "PLACEMENT",
