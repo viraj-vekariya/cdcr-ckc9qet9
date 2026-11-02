@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-11-02T20:31:33Z",
+ "last_updated": "2026-11-02T21:34:41Z",
  "stats": {
-  "placement": 403,
+  "placement": 405,
   "internship": 859,
   "with_files": 246,
   "listed_downloads": 250
  },
  "categories": {
   "placement": [
+   {
+    "id": "1385",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "AMAZON",
+    "notice": "All the students who have applied for Amazon for the Software Development Engineer I Role are required to fill the following additional details form.\n\nLink: https://forms.gle/YnQUuC7NDD1zyfAo6\n\nDeadline: 4:00 PM, 3rd November, 2026.\n\nAll the students are advised to fill the form within the given deadline. No further extensions will be provided.\n\nCDC, IIT Kharagpur",
+    "noticeat": "03-11-2026 02:23",
+    "text_source": "full_notice",
+    "source_hash": "87b75f21a0e279a9c453e9b1177e2f8d4807174a612c15323b1bab15fe1a9c0d",
+    "has_download": false
+   },
    {
     "id": "1384",
     "type": "PLACEMENT",
@@ -19,6 +30,17 @@
     "source_hash": "ad7ae08b57b5b772f876b63e72f32313c7142f67fd5ee248a6a6db77bfe3530b",
     "has_download": true,
     "file": "files/1384.pdf"
+   },
+   {
+    "id": "1383",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "NAVI",
+    "notice": "The following company is open for CV Submission till 4:00 PM, 3rd November, 2026.\n\n1. Navi (Profile: AI Strategy Operations)\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "03-11-2026 00:40",
+    "text_source": "full_notice",
+    "source_hash": "1f17d39edab8e8c163b3ee438cd58f87aef0d3c8c5ba9041fe4724bb3a99ae7c",
+    "has_download": false
    },
    {
     "id": "1382",
