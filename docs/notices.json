@@ -1,13 +1,47 @@
 {
- "last_updated": "2026-11-02T16:33:48Z",
+ "last_updated": "2026-11-02T17:34:38Z",
  "stats": {
-  "placement": 397,
+  "placement": 400,
   "internship": 858,
-  "with_files": 242,
-  "listed_downloads": 246
+  "with_files": 243,
+  "listed_downloads": 247
  },
  "categories": {
   "placement": [
+   {
+    "id": "1377",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "PURPLLE",
+    "notice": "The CV submission of Purplle has been extended till 11:59 PM, 3rd November, 2026 with revised eligibility criteria.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "02-11-2026 22:37",
+    "text_source": "full_notice",
+    "source_hash": "a9f736b446dbc0ba1f5db2e1fe13d7266266bafcb039d6b81df14ddf2984d8d2",
+    "has_download": false
+   },
+   {
+    "id": "1376",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "Multiple Companies",
+    "notice": "The following companies are open for CV Submission till 4:00 PM, 3rd November, 2026.\n\n1. EXL Service (Profile: Analytics - Consultant)\n\n2. Bajaj (Profile: All Profiles)\n\n3. Tiger Analytics ( Profile: Trainee \u2013 Analyst)\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "02-11-2026 22:36",
+    "text_source": "full_notice",
+    "source_hash": "1a84904eb1f9eb9affa888e0ed74d574e813cab6255ced178a2acfbaf72e2e29",
+    "has_download": false
+   },
+   {
+    "id": "1375",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "ACCENTURE AEH",
+    "notice": "PFA the shortlist for the Communication Assessment for Accenture AEH.\n\nAll shortlisted candidates are required to complete the mandatory Communication Assessment by 3rd November 2026, 11:59 PM. The assessment link has been shared directly with the eligible candidates. Candidates must attempt the test from their respective locations.\n\nImportant Instructions for the Communication Assessment\n\nCandidates are advised to carefully read and follow the instructions below to ensure a smooth assessment experience:\n\n1. Internet Connectivity\n\nEnsure a stable internet connection with a minimum speed of 2 Mbps.\n\nMaintain consistent bandwidth throughout the assessment to avoid disruptions.\n\n2. Device Compatibility\n\nUse a laptop or desktop that meets the required compatibility standards.\n\nPerform a system check before starting the test to ensure that your device, camera, and microphone are functioning properly.\n\n3. Network Stability\n\nAvoid switching between networks or using mobile hotspots/USB tethering during the assessment.\n\nClose all unnecessary applications, browser tabs, and downloads that may consume bandwidth.\n\nClear your browser cache, cookies, and history before starting the test.\n\n4. Test Continuity\n\nNetwork interruptions, manual interventions, or device compatibility issues may result in automatic logout.\n\nOnce logged out, candidates will not be able to resume or re-login to the assessment.\n\n5. During the Assessment\n\nDo not refresh, close, or navigate away from the test window.\n\nAvoid any activity that may cause disconnection or violate the test integrity protocols.\n\nCandidates must attempt the assessment from their respective registered locations only. Taking the test from any other location is not permitted.\n\n6. Duration of Assessment\n\nTotal Duration: 60 Minutes\n\nVerbal Assessment: 30 Minutes\n\nWritten Assessment: 30 Minutes\n\nNote: Adherence to all the above instructions is mandatory. Non-compliance may result in the assessment being marked as incomplete or invalid.\n\nAll shortlisted candidates are advised to complete the assessment well before the deadline to avoid any last-minute technical issues.\n\nCDC, IIT Kharagpur",
+    "noticeat": "02-11-2026 21:59",
+    "text_source": "full_notice",
+    "source_hash": "ba63c0230118d41afb66b45a200ecc28b4bf4b6ffe12050e3465ffb1467e3977",
+    "has_download": true,
+    "file": "files/1375.pdf"
+   },
    {
     "id": "1374",
     "type": "PLACEMENT",
