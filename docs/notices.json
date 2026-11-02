@@ -1,13 +1,47 @@
 {
- "last_updated": "2026-11-02T15:33:58Z",
+ "last_updated": "2026-11-02T16:33:48Z",
  "stats": {
-  "placement": 394,
+  "placement": 397,
   "internship": 858,
-  "with_files": 241,
-  "listed_downloads": 245
+  "with_files": 242,
+  "listed_downloads": 246
  },
  "categories": {
   "placement": [
+   {
+    "id": "1374",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "FLIPKART",
+    "notice": "PFA the test room allocation for the Assessment of Flipkart for the AI Engineer role, scheduled from 10:30 PM onwards on 2nd November, 2026.\n\nVenue: Nalanda Classroom Complex\n\nStudents are required to carry their original Institute ID card/Medical Book, failing which students will not be permitted to sit for test.\n\nThe test links have already been shared on the Flipkart registered email id.\nPlease also check your spam folder for the same.\n\nPlease fill the following google form if you are in the Room Allocation but have not received the test link.\nForm \n\nLink: https://forms.gle/yjbPCZExgA9TZbW16\n\nPlease carry your laptops, pens, and papers.\n\nStudents are requested to report 15 minutes prior to the reporting time.\n\nPOC: Dishil (+91 9925492574), Hardik (+91 8177018092)\n\nCDC, IIT Kharagpur",
+    "noticeat": "02-11-2026 21:48",
+    "text_source": "full_notice",
+    "source_hash": "78795a6fd9f5e236c891c68462268fbfa02a46ba4d905cf441f70f3b237928a6",
+    "has_download": true,
+    "file": "files/1374.pdf"
+   },
+   {
+    "id": "1372",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "TREDENCE ANALYTICS",
+    "notice": "Please note that the Test for Tredence Analytics has been postponed to 2:30 AM, 3rd November, 2026.\n\nCDC, IIT Kharagpur",
+    "noticeat": "02-11-2026 21:05",
+    "text_source": "full_notice",
+    "source_hash": "3e7201ac5e34d00a22a494573681bf04ae3b245844eabcc4f96371336336fdb9",
+    "has_download": false
+   },
+   {
+    "id": "1371",
+    "type": "PLACEMENT",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "BLACKROCK",
+    "notice": "The Pre-Placement Talk for BLACKROCK, will be held on 3rd November 2026 from 1:00 PM.\n\nLink: https://blackrock.webex.com/blackrock/j.php?MTID=m189596c58d4cfcd970153a75b6bedef6\n\nMeeting ID: 2308 497 9172\n\nPassword: emP3rB2Qv2@\n\nNote: All placement-registered students are supposed to attend the PPT, without fail. Attendance is compulsory. Students must join the link 15 minutes prior to the scheduled time.\n\nPOC: Daksh (+91 98180 71612)\n\nCDC, IIT Kharagpur",
+    "noticeat": "02-11-2026 21:02",
+    "text_source": "full_notice",
+    "source_hash": "e4ccfff7404897c39cfcb64af1c1c84995099419fd9e79c13e7a5895da2a8635",
+    "has_download": false
+   },
    {
     "id": "1370",
     "type": "PLACEMENT",
