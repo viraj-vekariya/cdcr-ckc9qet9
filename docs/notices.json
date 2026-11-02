@@ -1,24 +1,46 @@
 {
- "last_updated": "2026-11-02T18:34:12Z",
+ "last_updated": "2026-11-02T19:34:48Z",
  "stats": {
-  "placement": 401,
-  "internship": 858,
-  "with_files": 244,
-  "listed_downloads": 248
+  "placement": 403,
+  "internship": 859,
+  "with_files": 245,
+  "listed_downloads": 249
  },
  "categories": {
   "placement": [
    {
-    "id": "1379",
+    "id": "1383",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "NAVI",
+    "notice": "The following company is open for CV Submission till 4:00 PM, 3rd November, 2026.\n\n1. Navi (Profile: AI Strategy Operations)\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "03-11-2026 00:40",
+    "text_source": "full_notice",
+    "source_hash": "1f17d39edab8e8c163b3ee438cd58f87aef0d3c8c5ba9041fe4724bb3a99ae7c",
+    "has_download": false
+   },
+   {
+    "id": "1382",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "TEXAS INSTRUMENTS",
+    "notice": "All the students who have applied for Texas Instruments need to register on the Hirepro Portal.\n\nStudents are required to complete their registration on the portal by 4th November 2026, 11:59 PM. The link has been shared over mail.\n\nNo further extension will be provided.\n\nStudents who have already completed their registration earlier need not register again.\n\nPlease note that registrations not completed within the deadline will not be considered for further process.\n\nCDC, IIT Kharagpur",
+    "noticeat": "03-11-2026 00:39",
+    "text_source": "full_notice",
+    "source_hash": "d5c3675178e49fb8d210675e557155408bc80a9af208de5ee8ae319005f4989e",
+    "has_download": false
+   },
+   {
+    "id": "1380",
     "type": "PLACEMENT",
     "subject": "Urgent",
     "company": "KLA",
-    "notice": "PFA the test room allocation for the Assessment of KLA, scheduled from 12:15 AM onwards.\n\nVenue: Nalanda Classroom Complex\n\nStudents are required to carry their original Institute ID card/Medical Book, failing which students will not be permitted to sit for tests.\n\nInstructions to be strictly followed:\n1. Clear all the cache and history in your device.\n2. Recommended to use the mentioned browser in the invite\n\nThe test links have already been shared on the KLA registered email id.\nPlease also check your spam folder for the same.\n\nPlease fill the following google form if you are in the Room Allocation but have not received the test link.\nForm \n\nLink: https://forms.gle/yjbPCZExgA9TZbW16\n\nPlease carry your laptops, pens, and papers.\n\nStudents are requested to strictly report 15 minutes prior to the reporting time.\n\nPOC: Nikita (+91 9969207598), Khush (+91 9922168000)\n\nCDC, IIT Kharagpur",
-    "noticeat": "02-11-2026 23:53",
+    "notice": "PFA the test room allocation for the Assessment of KLA, scheduled from 12:15 AM onwards.\n\nVenue: Nalanda Classroom Complex\n\nStudents are required to carry their original Institute ID card, failing which students will not be permitted to sit for tests.\n\nInstructions to be strictly followed:\n1. Clear all the cache and history in your device.\n2. Recommended to use the mentioned browser in the invite\n\nThe test links have already been shared on the KLA registered email id.\nPlease also check your spam folder for the same.\n\nPlease fill the following google form if you are in the Room Allocation but have not received the test link.\nForm \n\nLink: https://forms.gle/yjbPCZExgA9TZbW16\n\nPlease carry your laptops, pens, and papers.\n\nStudents are requested to strictly report 15 minutes prior to the reporting time.\n\nPOC: Nikita (+91 9969207598), Khush (+91 9922168000)\n\nCDC, IIT Kharagpur",
+    "noticeat": "02-11-2026 23:55",
     "text_source": "full_notice",
-    "source_hash": "515b11ab8d352d86a2e7f263234a37ee53da5b151cbd030fdee4c1106ba4fb09",
+    "source_hash": "f224df95a4cef0e79945ddc3caaef936c8140f0f00850f1eac0f205161e3bb23",
     "has_download": true,
-    "file": "files/1379.pdf"
+    "file": "files/1380.pdf"
    },
    {
     "id": "1377",
@@ -4474,6 +4496,18 @@
    }
   ],
   "internship": [
+   {
+    "id": "1381",
+    "type": "INTERNSHIP",
+    "subject": "Shortlist",
+    "company": "TCG DIGITAL SOLUTIONS PVT. LTD.",
+    "notice": "PFA the shortlist for the Interview round of TCG DIGITAL SOLUTIONS PVT. LTD.\n\nFurther details will be communicated to the shortlisted candidates shortly.\n\nCDC, IIT Kharagpur",
+    "noticeat": "03-11-2026 00:39",
+    "text_source": "full_notice",
+    "source_hash": "715abc053edc8d57374e7b7c072d0f7c10c3839280ea97cfb6c9ebd0b2313228",
+    "has_download": true,
+    "file": "files/1381.pdf"
+   },
    {
     "id": "1366",
     "type": "INTERNSHIP",
