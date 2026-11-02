@@ -1,23 +1,24 @@
 {
- "last_updated": "2026-11-02T19:34:48Z",
+ "last_updated": "2026-11-02T20:31:33Z",
  "stats": {
   "placement": 403,
   "internship": 859,
-  "with_files": 245,
-  "listed_downloads": 249
+  "with_files": 246,
+  "listed_downloads": 250
  },
  "categories": {
   "placement": [
    {
-    "id": "1383",
+    "id": "1384",
     "type": "PLACEMENT",
-    "subject": "CV Submission",
-    "company": "NAVI",
-    "notice": "The following company is open for CV Submission till 4:00 PM, 3rd November, 2026.\n\n1. Navi (Profile: AI Strategy Operations)\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
-    "noticeat": "03-11-2026 00:40",
+    "subject": "Urgent",
+    "company": "TREDENCE ANALYTICS",
+    "notice": "PFA the test room allocation for the Assessment of Tredence Analytics, scheduled from 2:10 AM onwards, on 3rd November, 2026..\n\nVenue: Nalanda Classroom Complex\n\nStudents are required to carry their original Institute ID card, failing which students will not be permitted to sit for tests.\n\nThe test links have already been shared on the CDC registered email id.\nPlease also check your spam folder for the same.\n\nPlease fill the following google form if you are in the Room Allocation but have not received the test link.\nForm \n\nLink: https://forms.gle/yjbPCZExgA9TZbW16\n\nPlease carry your laptops, pens, and papers.\n\nStudents are requested to strictly report 10 minutes prior to the reporting time.\n\nPOC: Bhavy (+91 7597121669), Aditya Ghosh(+91 6295916930)\n\nCDC, IIT Kharagpur",
+    "noticeat": "03-11-2026 01:14",
     "text_source": "full_notice",
-    "source_hash": "1f17d39edab8e8c163b3ee438cd58f87aef0d3c8c5ba9041fe4724bb3a99ae7c",
-    "has_download": false
+    "source_hash": "ad7ae08b57b5b772f876b63e72f32313c7142f67fd5ee248a6a6db77bfe3530b",
+    "has_download": true,
+    "file": "files/1384.pdf"
    },
    {
     "id": "1382",
