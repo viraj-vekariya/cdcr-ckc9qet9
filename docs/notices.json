@@ -1,13 +1,47 @@
 {
- "last_updated": "2026-11-02T12:03:18Z",
+ "last_updated": "2026-11-02T13:35:19Z",
  "stats": {
-  "placement": 387,
-  "internship": 857,
-  "with_files": 239,
-  "listed_downloads": 243
+  "placement": 390,
+  "internship": 858,
+  "with_files": 240,
+  "listed_downloads": 244
  },
  "categories": {
   "placement": [
+   {
+    "id": "1365",
+    "type": "PLACEMENT",
+    "subject": "General",
+    "company": "Attendance for Placement Process 2026-27",
+    "notice": "All the registered students for placement session 2026-27 are advised to take a note of the followings -\n\n1. All regular students of the campus, registered for placement session 2026-27 are not permitted to appear in the process of placement (test, GD, interview, etc.) from anywhere other than the allotted exam venue for whatsoever reasons.\n\n2. It is compulsory to appear for the tests from the Nalanda classroom (or as per allotted exam venue).\n\nCDC, IIT Kharagpur",
+    "noticeat": "02-11-2026 18:19",
+    "text_source": "full_notice",
+    "source_hash": "4ac87df6c4d6779128925e1f885c6b3f668b4e66e40ad958949fe5389d966a56",
+    "has_download": false
+   },
+   {
+    "id": "1364",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "Multiple Companies",
+    "notice": "The CV submission for the following companies has been extended till 4:00 PM, 3rd November, 2026.\n\n1. FUJITSU RESEARCH (All Profiles)\n\n2. PINE LABS (Profile: Software Development Engineer)\n\n3. AIRBUS INDIA PRIVATE LIMITED (Profile: Associate Engineer - Physical Design and Integration)\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "02-11-2026 17:46",
+    "text_source": "full_notice",
+    "source_hash": "a5cbb1c76056e4dbb1aa9605c56db60419f3a976baefaf6136e57fb4752b7714",
+    "has_download": false
+   },
+   {
+    "id": "1363",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "CAPITAL ONE SERVICES INDIA PVT. LTD.",
+    "notice": "PFA the test room allocation for the Assessment of Capital One for the Associate (Software Engineer) role, scheduled from 6:00 PM onwards on 2nd November, 2026.\n\nVenue: Nalanda Classroom Complex\n\nStudents are required to carry their original Institute ID card/Medical Book, failing which students will not be permitted to sit for test.\n\nPlease carry your laptops, pens, and papers.\n\nStudents are requested to report 15 minutes prior to the reporting time.\n\nPOC: Rudra (+91 8235755257), Faiz (+91 7386295387)\n\nCDC, IIT Kharagpur",
+    "noticeat": "02-11-2026 17:29",
+    "text_source": "full_notice",
+    "source_hash": "4e8b57ba946a1019298dea681739afaeb405661b4a93d3c6f8c329b775fa504b",
+    "has_download": true,
+    "file": "files/1363.pdf"
+   },
    {
     "id": "1362",
     "type": "PLACEMENT",
@@ -4315,6 +4349,17 @@
    }
   ],
   "internship": [
+   {
+    "id": "1366",
+    "type": "INTERNSHIP",
+    "subject": "CV Submission",
+    "company": "Liora Labs (Gravia)",
+    "notice": "The CV submission of Liora labs has been extended till 11:59 PM, 3rd November, 2026 with revised eligibility criteria.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "02-11-2026 18:52",
+    "text_source": "full_notice",
+    "source_hash": "98223c08dc59bf4d9c32a9fed082bd0d8ead2423e9a372adfef295e8162617b2",
+    "has_download": false
+   },
    {
     "id": "1345",
     "type": "INTERNSHIP",
