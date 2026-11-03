@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-03T15:35:41.913605+00:00",
+  "last_updated": "2026-11-03T17:06:20.785216+00:00",
   "companies": [
     {
       "company": "Accenture India Private Limited",
@@ -1330,9 +1330,9 @@
       "ctc": "2000000",
       "currency": "INR",
       "resume_start": "2026-11-02 10:45",
-      "resume_end": "2026-11-03 08:59",
+      "resume_end": "2026-11-04 09:01",
       "interview": "",
-      "is_applied": false,
+      "is_applied": true,
       "form_type": "PLACEMENT",
       "cgpa_cutoff": "0.0",
       "description": "Sharing as attachment on mail.\nView More Details\nClick Here for more details",
