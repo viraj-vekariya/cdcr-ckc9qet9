@@ -1,13 +1,59 @@
 {
- "last_updated": "2026-11-03T13:14:25Z",
+ "last_updated": "2026-11-03T14:36:25Z",
  "stats": {
-  "placement": 421,
+  "placement": 425,
   "internship": 859,
-  "with_files": 248,
-  "listed_downloads": 252
+  "with_files": 250,
+  "listed_downloads": 254
  },
  "categories": {
   "placement": [
+   {
+    "id": "1407",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "BAJAJ",
+    "notice": "All the eligible students who have applied for BAJAJ for the role of Flying Start GTE 2027 (R&D) are required to kindly fill the preference form given below.\n\nLink: https://forms.gle/pD4rh8TXEQvpvY3i8\n\nDeadline: 4th November 2026, 4:00 PM\n\nKindly ensure you have filled the form before the deadline. No further extensions will be provided.\n\nCDC, IIT Kharagpur",
+    "noticeat": "03-11-2026 19:36",
+    "text_source": "full_notice",
+    "source_hash": "774b7214dbbdc9c322e1ef1d18e701d290769d331661a6c252a92ffa1f176ac0",
+    "has_download": false
+   },
+   {
+    "id": "1406",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "INMOBI",
+    "notice": "Please find attached the list of absentees in the test for InMobi.\n\nThe attendance list has been shared with the respective companies. All students that are found to have appeared in this test remotely without having received prior permission from the CDC Office, take note that you are disqualified from the process for that particular company with immediate effect, i.e. you would not be making it to any of the subsequent rounds of selection to that firm.\n\nIn addition to this, further disciplinary actions will be taken against the individuals indulging in malpractices and bypassing the test guidelines that are communicated to them.\n\nCDC, IIT Kharagpur",
+    "noticeat": "03-11-2026 19:16",
+    "text_source": "full_notice",
+    "source_hash": "30c28c389cb3af7428d77bdd283bd350e6e583735f2dbec6fd18b60bf506e75b",
+    "has_download": true,
+    "file": "files/1406.pdf"
+   },
+   {
+    "id": "1405",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "CAPITAL ONE",
+    "notice": "PFA the test room allocation for the Assessment of Capital One for the role of Associate (Business Analyst), scheduled from 8:00 PM onwards on 3rd November, 2026.\n\nVenue: Nalanda Classroom Complex\n\nStudents are required to carry their original Institute ID card/Medical Book, failing which students will not be permitted to sit for test.\n\nPlease carry your laptops, pens, and papers.\n\nStudents are requested to report 15 minutes prior to the reporting time.\n\nPOC: Rudra (+91 8235755257), Faiz (+91 7386295387)\n\nCDC, IIT Kharagpur",
+    "noticeat": "03-11-2026 19:15",
+    "text_source": "full_notice",
+    "source_hash": "01a5a994acfea9d85ae1db881142c42fa1678567bd69230e5841d95052cd4cf4",
+    "has_download": true,
+    "file": "files/1405.pdf"
+   },
+   {
+    "id": "1404",
+    "type": "PLACEMENT",
+    "subject": "Re-schedule",
+    "company": "CDC Placement Schedule for 4th November 2026",
+    "notice": "All students eligible for placement are advised to take note of the updated placement schedule for 4th November 2026.\n\nPlease note that the NAVI assessment for all roles has been rescheduled to 4th November, 2026.\n\n1. [PPT] CATERPILLAR (12:00 PM \u2013 1:00 PM)\n2. [PPT] AIRBUS (5:00 PM \u2013 6:00 PM)\n3. [TEST] NAVI (Tech Profiles) (6:00 PM \u2013 7:30 PM)\n4. [TEST] APPLIED MATERIALS (Profile: Application Engineer) (8:00 PM \u2013 9:00 PM)\n5. [TEST] IBM (All Profiles) (9:00 PM \u2013 1:00 AM)\n6. [TEST] NAVI (Non-Tech Profiles) (1:30 AM \u2013 3:00 AM) (5th November)\n\nNote: Links to the PPTs and other relevant details will be shared separately. Room allocations and other necessary instructions for the tests will be communicated prior to the respective assessments.\n\nCDC, IIT Kharagpur",
+    "noticeat": "03-11-2026 18:38",
+    "text_source": "full_notice",
+    "source_hash": "d0ad3c0b6739a3b1f8afb6042fdce591abd7f9f0726734d0c224382a10d1d5e1",
+    "has_download": false
+   },
    {
     "id": "1402",
     "type": "PLACEMENT",
