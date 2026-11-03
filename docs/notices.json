@@ -1,8 +1,8 @@
 {
- "last_updated": "2026-11-03T17:06:45Z",
+ "last_updated": "2026-11-03T18:07:03Z",
  "stats": {
   "placement": 426,
-  "internship": 859,
+  "internship": 860,
   "with_files": 250,
   "listed_downloads": 254
  },
@@ -4754,6 +4754,17 @@
    }
   ],
   "internship": [
+   {
+    "id": "1409",
+    "type": "INTERNSHIP",
+    "subject": "Shortlist",
+    "company": "NAVIGATORS SOFTWARE PVT LTD",
+    "notice": "PFB the shortlist for the Interview round for the role of Data Scientist:\n\n24IM10041\n23AR10023\n24CH10044\n24HS10014\n24CH10102\n\nPFB the shortlist for the Interview round for the role of Data Engineer:\n\n24AG10016\n24CE10059\n24BT10026\n24CE10060\n\nFurther details would be communicated to the shortlisted candidates shortly.\n\nCDC, IIT Kharagpur",
+    "noticeat": "03-11-2026 22:31",
+    "text_source": "full_notice",
+    "source_hash": "28cf0805c0148d5f1b0cebe9273e1218f5b887d5b80c94fad9a622b95a3893fa",
+    "has_download": false
+   },
    {
     "id": "1381",
     "type": "INTERNSHIP",
