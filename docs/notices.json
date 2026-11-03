@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-11-03T20:36:33Z",
+ "last_updated": "2026-11-03T21:40:17Z",
  "stats": {
-  "placement": 427,
+  "placement": 428,
   "internship": 860,
   "with_files": 250,
   "listed_downloads": 254
  },
  "categories": {
   "placement": [
+   {
+    "id": "1411",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "ENERGY ASPECTS",
+    "notice": "All the eligible students who have applied for Energy Aspects for the role of Energy Market Analyst are required to kindly fill the additional details form given below.\n\nLink: https://forms.gle/cRaKHEJA4ErpDNAG7\n\nDeadline: 4th November 2026, 4:00 PM\n\nKindly ensure you have filled the form before the deadline. No further extensions will be provided.\n\nCDC, IIT Kharagpur",
+    "noticeat": "04-11-2026 02:55",
+    "text_source": "full_notice",
+    "source_hash": "f14d415b8f70464ce7dcc11d356255dfece8a9578d4561edd042f7ae87add465",
+    "has_download": false
+   },
    {
     "id": "1410",
     "type": "PLACEMENT",
