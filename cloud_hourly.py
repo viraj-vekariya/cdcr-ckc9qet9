@@ -63,20 +63,30 @@ def session_alive(cookie):
         return False
 
 
+def _try_login():
+    """3 Nov 2026: ERP dropped the connection mid-login and the exception
+    crashed the whole run (no retry, no email). Treat it as a failed login."""
+    try:
+        return login.login(verbose=True)
+    except Exception as e:
+        log(f"login error: {type(e).__name__}: {str(e)[:200]}")
+        return None
+
+
 def get_session():
     saved = SESSION_FILE.read_text().strip() if SESSION_FILE.exists() else ""
     if session_alive(saved):
         log("session reused (still alive) -- no OTP needed")
         return saved
     log("session dead/absent -- logging in fresh (OTP via Gmail)")
-    cookie = login.login(verbose=True)
+    cookie = _try_login()
     if not cookie:
         # 29 Oct 2026: 8 of ~25 night logins were rejected even with a fresh
         # OTP, and the next cycle 30 min later usually worked. One retry in
         # the same run with a new OTP recovers most of these.
         log("login rejected -- retrying once with a new OTP in 90s")
         time.sleep(90)
-        cookie = login.login(verbose=True)
+        cookie = _try_login()
     if cookie:
         SESSION_FILE.write_text(cookie)
         log("login succeeded")
