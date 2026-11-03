@@ -186,6 +186,13 @@ def login(verbose=False):
                                  "blocked", "locked", "try again", "captcha", "session")
                      if w in (a.text + h).lower()]
             print(f"   auth status {a.status_code}, landed on {a.url.split('?')[0]}, hints: {hints}")
+            # 3 Nov 2026: hints alone didn't say why. Print the page's visible
+            # message text (scripts, styles and form fields stripped).
+            txt = re.sub(r"(?is)<(script|style)[^>]*>.*?</\1>", " ", a.text)
+            txt = re.sub(r"(?is)<input[^>]*>", " ", txt)
+            txt = re.sub(r"(?s)<[^>]+>", " ", txt)
+            txt = re.sub(r"\s+", " ", txt).strip()
+            print(f"   ERP page says: {txt[:400]!r}")
         _delete_otp_emails(verbose)
         return None
     _delete_otp_emails(verbose)
