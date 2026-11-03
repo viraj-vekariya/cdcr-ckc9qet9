@@ -336,7 +336,7 @@ def send(message, headless=True, timeout_ms=30000, phone=None):
         # on every action instead of holding a handle to a specific node, so
         # it survives that re-render.
         box = page.locator('div[contenteditable="true"][aria-label^="Type a message" i]')
-        _wait_for_compose(page, box)
+        _wait_for_compose(page, box, url=url)
         page.wait_for_timeout(3000)  # let the socket to the phone settle, not just the DOM render
         _dismiss_popups(page)
         before_count = page.locator('[data-testid^="conv-msg-"]').count()
@@ -394,19 +394,29 @@ def send(message, headless=True, timeout_ms=30000, phone=None):
         ctx.close()
 
 
-def _wait_for_compose(page, box, timeout_s=150):
+def _wait_for_compose(page, box, timeout_s=150, url=None):
     """Waits for the compose box, closing popups meanwhile. Since 22 Oct 2026
     WhatsApp opens only for real notices, so a run can start many hours after
     the last one and the catch-up sync takes longer than the old 30 s wait
     (23 Oct 2026: timed out with the session still valid). On failure, say
     what the page showed instead of a bare locator timeout."""
     deadline = time.time() + timeout_s
+    last_goto = time.time()
     while time.time() < deadline:
         try:
             box.wait_for(state="visible", timeout=5000)
             return
         except Exception:
             _dismiss_popups(page, rounds=1)
+        # 3 Nov 2026: right after a re-link (and once on 29 Oct) the send?phone=
+        # link dropped to the plain home screen while chats were still syncing,
+        # and never opened the chat. Open the link again every 30 s.
+        if url and "/send" not in page.url and time.time() - last_goto > 30:
+            last_goto = time.time()
+            try:
+                page.goto(url, timeout=30000)
+            except Exception:
+                pass
     try:
         body = page.evaluate("document.body.innerText")[:300]
     except Exception:
@@ -425,8 +435,9 @@ def send_file(path, caption="", headless=True, timeout_ms=40000, phone=None):
     with sync_playwright() as p:
         ctx = _launch(p, headless)
         page = ctx.pages[0] if ctx.pages else ctx.new_page()
-        page.goto(f"https://web.whatsapp.com/send?phone={phone}", timeout=timeout_ms)
-        _wait_for_compose(page, page.locator('div[contenteditable="true"][aria-label^="Type a message" i]'))
+        chat_url = f"https://web.whatsapp.com/send?phone={phone}"
+        page.goto(chat_url, timeout=timeout_ms)
+        _wait_for_compose(page, page.locator('div[contenteditable="true"][aria-label^="Type a message" i]'), url=chat_url)
         page.wait_for_timeout(3000)  # let the socket to the phone settle, not just the DOM render
         _dismiss_popups(page)
         before_count = page.locator('[data-testid^="conv-msg-"]').count()
