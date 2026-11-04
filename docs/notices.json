@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-11-04T17:09:05Z",
+ "last_updated": "2026-11-04T18:09:08Z",
  "stats": {
-  "placement": 443,
+  "placement": 444,
   "internship": 863,
   "with_files": 253,
   "listed_downloads": 257
  },
  "categories": {
   "placement": [
+   {
+    "id": "1433",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "BLACKROCK",
+    "notice": "The CV Submission for Blackrock for the Data Scientist - Quantitative Finance (Analytics Stewardship) Analyst role are open till 04:00 PM, 5th November, 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "04-11-2026 23:08",
+    "text_source": "full_notice",
+    "source_hash": "a43c75b0c91934eae6ac2919391375440ccd05ea4af65a2cbd845c12c4fdb996",
+    "has_download": false
+   },
    {
     "id": "1432",
     "type": "PLACEMENT",

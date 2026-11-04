@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-04T17:08:27.067961+00:00",
+  "last_updated": "2026-11-04T18:08:15.003668+00:00",
   "companies": [
     {
       "company": "Accenture India Private Limited",
@@ -1017,7 +1017,7 @@
       "resume_start": "2026-11-03 16:13",
       "resume_end": "2026-11-04 16:14",
       "interview": "",
-      "is_applied": false,
+      "is_applied": true,
       "form_type": "PLACEMENT",
       "cgpa_cutoff": "6.5",
       "description": "Please read and review the complete job description by following the link below: https://in.mathworks.com/company/jobs/opportunities/8788?source=23736&s_eid=Rcv_23736\nView More Details\nClick Here for more details",
