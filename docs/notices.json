@@ -1,13 +1,35 @@
 {
- "last_updated": "2026-11-04T10:08:26Z",
+ "last_updated": "2026-11-04T11:08:56Z",
  "stats": {
-  "placement": 434,
-  "internship": 860,
-  "with_files": 250,
-  "listed_downloads": 254
+  "placement": 436,
+  "internship": 861,
+  "with_files": 251,
+  "listed_downloads": 255
  },
  "categories": {
   "placement": [
+   {
+    "id": "1422",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "NAVI",
+    "notice": "All students who have applied for NAVI for the following roles on the ERP Portal are hereby informed that the respective HirePro registration links for Both Profiles (Tech and Non-Tech) have been sent to their CDC-registered email IDs.\n\n- Non-Tech profiles (AI Strategy Operations, Business Analyst-1, Associate Product Manager-1)\n\n- Tech profiles (Data Scientist-1, Software Development Engineer-1)\n\nCandidates are required to compulsorily complete their registration on HirePro to be considered for further stages of the recruitment process.\n\nPlease fill the following google form if you have applied but have not received the registration link.\nForm \n\nLink: https://forms.gle/yjbPCZExgA9TZbW16\n\nDeadline: 4th November 2026, 5:00 PM\n\nKindly ensure that you complete the registration before the deadline. Failure to do so may result in your candidature not being considered further.\n\nPOC: Daksh (+91 9818071612), Vatsal (+91 9234457393)\n\nCDC, IIT Kharagpur",
+    "noticeat": "04-11-2026 16:00",
+    "text_source": "full_notice",
+    "source_hash": "4e44c89e3d6e2e6fe3152bfbf5f6cae2b7abe4b1ee74f1c914cde9cae4be2045",
+    "has_download": false
+   },
+   {
+    "id": "1420",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "NAVI",
+    "notice": "All students who have applied for NAVI for the following roles on the ERP Portal are hereby informed that the respective HirePro registration links for Both Profiles (Tech and Non-Tech) have been sent to their CDC-registered email IDs.\n\n- Non-Tech profiles (AI Strategy Operations, Business Analyst-1, Associate Product Manager-1)\n\n- Tech profiles (Data Scientist-1, Software Development Engineer-1)\n\nCandidates are required to compulsorily complete their registration on HirePro to be considered for further stages of the recruitment process.\n\nPlease fill the following google form if you have applied but have not received the registration link.\nForm \n\nLink: https://forms.gle/yjbPCZExgA9TZbW16\n\nDeadline: 4th November 2026, 4:00 PM\n\nKindly ensure that you complete the registration before the deadline. Failure to do so may result in your candidature not being considered further.\n\nPOC: Daksh (+91 9818071612), Vatsal (+91 9234457393)\n\nCDC, IIT Kharagpur",
+    "noticeat": "04-11-2026 15:41",
+    "text_source": "full_notice",
+    "source_hash": "9515c47372e377b53666c6c645d0d6a000a1f24676614e0abf08d19b9414b084",
+    "has_download": false
+   },
    {
     "id": "1417",
     "type": "PLACEMENT",
@@ -4842,6 +4864,18 @@
    }
   ],
   "internship": [
+   {
+    "id": "1421",
+    "type": "INTERNSHIP",
+    "subject": "Shortlist",
+    "company": "GLASSDATA",
+    "notice": "PFA the test shortlist for GlassData.\n\nThe Online Assessment is scheduled on 4th November, 08:00 P.\n\nM. onwards.\n\nVenue: Respective Location\n\nPOC: Khush (+91 9922168000), Aditya Ghosh (+91 6295916930)\n\nCDC, IIT Kharagpur",
+    "noticeat": "04-11-2026 15:50",
+    "text_source": "full_notice",
+    "source_hash": "b30cf64e16f539640bb24698e470f51fc9d12a43dc53513bdfc2fbe4b22a58d1",
+    "has_download": true,
+    "file": "files/1421.pdf"
+   },
    {
     "id": "1409",
     "type": "INTERNSHIP",
