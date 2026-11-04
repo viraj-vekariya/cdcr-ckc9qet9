@@ -1,13 +1,25 @@
 {
- "last_updated": "2026-11-04T20:09:22Z",
+ "last_updated": "2026-11-04T21:09:26Z",
  "stats": {
-  "placement": 447,
+  "placement": 448,
   "internship": 863,
-  "with_files": 255,
-  "listed_downloads": 259
+  "with_files": 256,
+  "listed_downloads": 260
  },
  "categories": {
   "placement": [
+   {
+    "id": "1438",
+    "type": "PLACEMENT",
+    "subject": "Shortlist",
+    "company": "NAVI",
+    "notice": "PFA the test shortlist for the Assessment of NAVI for the Non-Tech Profiles, scheduled from 3:00 AM onwards on 5th November, 2026.\n\nVenue: Nalanda Classroom Complex\n\nThe room allocation for the test will be released shortly.\n\nStudents are requested to report 15 minutes prior to the reporting time.\n\nPOC: Daksh (+91 9818071612), Vatsal (+91 9234457393)\n\nCDC, IIT Kharagpur",
+    "noticeat": "05-11-2026 02:07",
+    "text_source": "full_notice",
+    "source_hash": "1300687e4fe1a1e75a0cf2040823c0307010356ab00c9c1b782e92c2f76046b7",
+    "has_download": true,
+    "file": "files/1438.pdf"
+   },
    {
     "id": "1437",
     "type": "PLACEMENT",
