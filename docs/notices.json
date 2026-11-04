@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-11-04T16:08:44Z",
+ "last_updated": "2026-11-04T17:09:05Z",
  "stats": {
-  "placement": 442,
+  "placement": 443,
   "internship": 863,
   "with_files": 253,
   "listed_downloads": 257
  },
  "categories": {
   "placement": [
+   {
+    "id": "1432",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "NAVI",
+    "notice": "Please note that two separate emails have been sent for each role (Tech and Non Tech) of Navi. All students are requested to check both their inbox and spam folders to ensure that they have received both emails.\n\nAdditionally, the deadline has been extended till 10:30 PM.\n\nStudents are requested to complete the registration within the revised deadline.\n\nDeadline: 4th November 2026, 10:30 PM\n\nPOC: Daksh (+91 9818071612), Vatsal (+91 9234457393)\n\nCDC, IIT Kharagpur",
+    "noticeat": "04-11-2026 22:04",
+    "text_source": "full_notice",
+    "source_hash": "0e028c28a0bb57a2d96bffa0265dc02f7897f363787e92c5e01628b7ea0cbca6",
+    "has_download": false
+   },
    {
     "id": "1431",
     "type": "PLACEMENT",
