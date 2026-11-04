@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-11-04T05:11:54Z",
+ "last_updated": "2026-11-04T06:07:11Z",
  "stats": {
-  "placement": 428,
+  "placement": 429,
   "internship": 860,
   "with_files": 250,
   "listed_downloads": 254
  },
  "categories": {
   "placement": [
+   {
+    "id": "1412",
+    "type": "PLACEMENT",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "CATERPILLAR",
+    "notice": "The Pre-Placement Talk for CATERPILLAR will be held on 4th November 2026 from 12:00 PM.\n\nLink: https://teams.microsoft.com/meet/264771799900698?p=dvZBqseySfzgJF9uJS\n\nNote: All placement-registered students are supposed to attend the PPT, without fail. Attendance is compulsory. Students must join the link 15 minutes prior to the scheduled time.\n\nPOC: Aditya Ghosh (+91 6295916930)\n\nCDC, IIT Kharagpur",
+    "noticeat": "04-11-2026 10:32",
+    "text_source": "full_notice",
+    "source_hash": "9eddd233f0b5719fccb6c07fb2161a241b604d92ad0c8a66f75f1746900dfe91",
+    "has_download": false
+   },
    {
     "id": "1411",
     "type": "PLACEMENT",
