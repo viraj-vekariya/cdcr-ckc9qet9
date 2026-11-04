@@ -1,13 +1,36 @@
 {
- "last_updated": "2026-11-04T15:05:50Z",
+ "last_updated": "2026-11-04T16:08:44Z",
  "stats": {
-  "placement": 440,
+  "placement": 442,
   "internship": 863,
-  "with_files": 252,
-  "listed_downloads": 256
+  "with_files": 253,
+  "listed_downloads": 257
  },
  "categories": {
   "placement": [
+   {
+    "id": "1431",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "NAVI",
+    "notice": "All students who have applied for NAVI for the following roles on the ERP Portal are hereby informed that the respective HirePro registration links for Both Profiles (Tech and Non-Tech) have been sent to their CDC-registered email IDs.\n\n- Non-Tech profiles (AI Strategy Operations, Business Analyst-1, Associate Product Manager-1)\n\n- Tech profiles (Data Scientist-1, Software Development Engineer-1)\n\nCandidates are required to compulsorily complete their registration on HirePro to be considered for further stages of the recruitment process.\n\nPlease fill the following google form if you have applied but have not received the registration link.\nForm \n\nLink: https://forms.gle/yjbPCZExgA9TZbW16\n\nDeadline: 4th November 2026, 10:00 PM\n\nKindly ensure that you complete the registration before the deadline. Failure to do so may result in your candidature not being considered further.\n\nPOC: Daksh (+91 9818071612), Vatsal (+91 9234457393)\n\nCDC, IIT Kharagpur",
+    "noticeat": "04-11-2026 21:14",
+    "text_source": "full_notice",
+    "source_hash": "d9f609c3ccd0ad36ed104045dca58bb4780aa4e6698447216eb0e4a39e438d91",
+    "has_download": false
+   },
+   {
+    "id": "1430",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "IBM",
+    "notice": "PFA the test room allocation for the Assessment of IBM for all the roles, scheduled from 9:00 PM onwards on 4th November, 2026.\n\nVenue: Nalanda Classroom Complex\n\nStudents are required to carry their original Institute ID card, failing which students will not be permitted to sit for test.\n\nPlease carry your laptops, pens, and papers.\n\nStudents are requested to report 15 minutes prior to the reporting time.\n\nPOC: Ritvik (+91 9480360231), Neev (+91 9001346350)\n\nCDC, IIT Kharagpur",
+    "noticeat": "04-11-2026 20:40",
+    "text_source": "full_notice",
+    "source_hash": "e4c7e7b17e7598652cb87d9f77eab8f9600d06a7a9b83738f35e6ecdaa66fc3f",
+    "has_download": true,
+    "file": "files/1430.pdf"
+   },
    {
     "id": "1427",
     "type": "PLACEMENT",
