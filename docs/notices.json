@@ -1,13 +1,46 @@
 {
- "last_updated": "2026-11-04T11:08:56Z",
+ "last_updated": "2026-11-04T12:09:01Z",
  "stats": {
-  "placement": 436,
-  "internship": 861,
+  "placement": 439,
+  "internship": 862,
   "with_files": 251,
   "listed_downloads": 255
  },
  "categories": {
   "placement": [
+   {
+    "id": "1426",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "NAVI",
+    "notice": "Please note that the Test for Navi for Non-Tech roles has been postponed to 3:00 AM, 5th November, 2026.\n\nCDC, IIT Kharagpur",
+    "noticeat": "04-11-2026 17:25",
+    "text_source": "full_notice",
+    "source_hash": "57315043be17aa87e58df7e8076c60c9c5014d85111da821bbca42ab70cf59bd",
+    "has_download": false
+   },
+   {
+    "id": "1424",
+    "type": "PLACEMENT",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "AIRBUS",
+    "notice": "The Pre-Placement Talk for AIRBUS will be held on 4th November 2026 from 5:00 PM.\n\nLink: https://meet.google.com/meet/ueq-uyau-pgd\n\nNote: All placement-registered students are supposed to attend the PPT without fail. Attendance is compulsory. Students must join the link 15 minutes prior to the scheduled time.\n\nPOC: Bhavy(+91 7597121669)\n\nCDC, IIT Kharagpur",
+    "noticeat": "04-11-2026 16:41",
+    "text_source": "full_notice",
+    "source_hash": "20bb4b0eacc3bcb6429c8b0c99b393bdfb481312c324200fcfcaf6f04b224268",
+    "has_download": false
+   },
+   {
+    "id": "1423",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "ROYAL TIER MAISON",
+    "notice": "The CV Submission of Royal Tier Maison for the role of Designer is open till 4:00 PM, 5th November, 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "04-11-2026 16:31",
+    "text_source": "full_notice",
+    "source_hash": "9b40210a39bc904ddb635299cc19a8d48954ef415be60a61d0f37065b3e727c6",
+    "has_download": false
+   },
    {
     "id": "1422",
     "type": "PLACEMENT",
@@ -4864,6 +4897,17 @@
    }
   ],
   "internship": [
+   {
+    "id": "1425",
+    "type": "INTERNSHIP",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "Liora Labs (Gravia)",
+    "notice": "Please note that the Pre-Placement Talk for Liora Labs will be held on 4th November 2026 from 6:00 PM.\n\nLink: https://meet.google.com/ude-pixm-exc\n\nAll interested students are required to attend the PPT without fail. Attendance is compulsory. Students should join 15 minutes prior to the meeting time.\n\nPOC: Ashutosh (+91 88401 04367)\n\nCDC, IIT Kharagpur",
+    "noticeat": "04-11-2026 17:19",
+    "text_source": "full_notice",
+    "source_hash": "01f74b7bb92dcb8929acae1b21df7b1cd73b747f651146b9a9f85ce4b11b4de8",
+    "has_download": false
+   },
    {
     "id": "1421",
     "type": "INTERNSHIP",
