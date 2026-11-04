@@ -1,13 +1,57 @@
 {
- "last_updated": "2026-11-04T06:52:44Z",
+ "last_updated": "2026-11-04T08:09:12Z",
  "stats": {
-  "placement": 429,
+  "placement": 433,
   "internship": 860,
   "with_files": 250,
   "listed_downloads": 254
  },
  "categories": {
   "placement": [
+   {
+    "id": "1416",
+    "type": "PLACEMENT",
+    "subject": "Re-schedule",
+    "company": "CDC Placement Schedule for 4th November 2026",
+    "notice": "All students eligible for placement are advised to take note of the updated placement schedule for 4th November 2026.\n\nPlease note that the NAVI assessment for all roles has been rescheduled to 4th November, 2026.\n\n1. [PPT] CATERPILLAR (12:00 PM \u2013 1:00 PM)\n\n2. [PPT] AIRBUS (5:00 PM \u2013 6:00 PM)\n\n3. [TEST] NAVI (Non-Tech Profiles) (6:00 PM \u2013 7:30 PM)\n\n4. [TEST] APPLIED MATERIALS (Profile: Application Engineer) (8:00 PM \u2013 9:00 PM)\n\n5. [TEST] IBM (All Profiles) (9:00 PM \u2013 1:00 AM)\n\n6. [TEST] NAVI (Tech Profiles) (1:30 AM \u2013 3:00 AM) (5th November)\n\nNote: Links to the PPTs and other relevant details will be shared separately. Room allocations and other necessary instructions for the tests will be communicated prior to the respective assessments.\n\nCDC, IIT Kharagpur",
+    "noticeat": "04-11-2026 12:59",
+    "text_source": "full_notice",
+    "source_hash": "be776ca25b75c717cf4846c57cadf9c7630b5c76e3390cbb9a7a2aa52950b2cf",
+    "has_download": false
+   },
+   {
+    "id": "1415",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "SUN VALLEY",
+    "notice": "The CV Submission for SUN VALLEY for the Research Analyst role is open till 4:00 PM, 4th November, 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "04-11-2026 12:54",
+    "text_source": "full_notice",
+    "source_hash": "332b71b4562d34939483c74556bf1b4ce315d3f77c44471037fbfb456ad3534b",
+    "has_download": false
+   },
+   {
+    "id": "1414",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "ROYAL TIER MAISON CO",
+    "notice": "The CV Submission for Royal Tier Maison for the Designer Role has been opened till 4:00 PM, 5th November, 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "04-11-2026 12:37",
+    "text_source": "full_notice",
+    "source_hash": "eaa7947434987e65fe868fb6d5b8f45ae4562f1882131554d228c8e78e2dd63f",
+    "has_download": false
+   },
+   {
+    "id": "1413",
+    "type": "PLACEMENT",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "ROYAL TIER MAISON",
+    "notice": "The Pre-Placement Talk for Royal Tier Maison will be held on 5th November 2026 at 7:00 AM.\n\nLink: https://us06web.zoom.us/j/82316940047?pwd=uJOuEMtUzPlxgGNWyVW43FWyWN7iC9.1\n\nNote: Royal Tier Maison operates in a highly specialized and niche domain. Students are strongly encouraged to attend the PPT to gain a deeper understanding of the company's core business, specialized operations, and the career opportunities it offers. As this is a unique opportunity to explore a specialized industry and gain valuable insights, all interested and placement-registered students are expected to attend the session sincerely.\n\nStudents are requested to join the meeting link 15 minutes prior to the scheduled time.\n\nPOC: Bhavy (+91 7597121669)\n\nCDC, IIT Kharagpur",
+    "noticeat": "04-11-2026 12:28",
+    "text_source": "full_notice",
+    "source_hash": "cba3c1da48f8865fd8bcd2bf82ebe76c66ce6cdbbf2a3ce41d59d4507259edc0",
+    "has_download": false
+   },
    {
     "id": "1412",
     "type": "PLACEMENT",
