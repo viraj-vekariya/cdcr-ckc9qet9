@@ -1,13 +1,25 @@
 {
- "last_updated": "2026-11-04T14:08:59Z",
+ "last_updated": "2026-11-04T15:05:50Z",
  "stats": {
-  "placement": 439,
-  "internship": 862,
-  "with_files": 251,
-  "listed_downloads": 255
+  "placement": 440,
+  "internship": 863,
+  "with_files": 252,
+  "listed_downloads": 256
  },
  "categories": {
   "placement": [
+   {
+    "id": "1427",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "APPLIED MATERIALS",
+    "notice": "PFA the test room allocation for the Assessment of Applied Materials for the role of Application Engineer, scheduled from 8:00 PM onwards on 4th November, 2026.\n\nVenue: Nalanda Classroom Complex\n\nStudents are required to carry their original Institute ID card/Medical Book, failing which students will not be permitted to sit for test.\n\nPlease carry your laptops, pens, and papers.\n\nStudents are requested to report 15 minutes prior to the reporting time.\n\nPOC: Nikhita (+91 877 003 5884), Ashutosh (+91 884 010 4367)\n\nCDC, IIT Kharagpur",
+    "noticeat": "04-11-2026 19:16",
+    "text_source": "full_notice",
+    "source_hash": "0f9a0a42bb45f9380ae243630aaf8fde18cc61a964f2a8f7b8047d1f06159253",
+    "has_download": true,
+    "file": "files/1427.pdf"
+   },
    {
     "id": "1426",
     "type": "PLACEMENT",
@@ -4897,6 +4909,17 @@
    }
   ],
   "internship": [
+   {
+    "id": "1428",
+    "type": "INTERNSHIP",
+    "subject": "Urgent",
+    "company": "GLASSDATA",
+    "notice": "The Online Assessment for Glassdata is rescheduled for 4th November, 09:00 P.\n\nM. onwards.\n\nNOTE: The shortlisted students will receive the test links over email shortly.\n\nVenue: Respective Location\n\nPOC: Khush (+91 9922168000), Aditya Ghosh (+91 6295916930)\n\nCDC, IIT Kharagpur",
+    "noticeat": "04-11-2026 20:18",
+    "text_source": "full_notice",
+    "source_hash": "879c107d3a50ee39ae5e154a708d9a36ac07f6fd767c2da3e8020aa0f7812fbd",
+    "has_download": false
+   },
    {
     "id": "1425",
     "type": "INTERNSHIP",
