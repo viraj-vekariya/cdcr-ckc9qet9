@@ -1,13 +1,25 @@
 {
- "last_updated": "2026-11-04T21:09:26Z",
+ "last_updated": "2026-11-04T22:39:43Z",
  "stats": {
-  "placement": 448,
+  "placement": 449,
   "internship": 863,
-  "with_files": 256,
-  "listed_downloads": 260
+  "with_files": 257,
+  "listed_downloads": 261
  },
  "categories": {
   "placement": [
+   {
+    "id": "1439",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "NAVI",
+    "notice": "PFA the test room allocation for the Assessment of NAVI for the Non-Tech Profiles, scheduled from 3:00 AM onwards on 5th November, 2026.\n\nVenue: Nalanda Classroom Complex\n\nStudents are required to carry their original Institute ID card, failing which students will not be permitted to sit for test.\n\nPlease carry your laptops, pens, and papers.\n\nStudents are requested to report 15 minutes prior to the reporting time.\n\nPOC: Daksh (+91 9818071612), Vatsal (+91 9234457393)\n\nCDC, IIT Kharagpur",
+    "noticeat": "05-11-2026 02:40",
+    "text_source": "full_notice",
+    "source_hash": "a3a2f87aeeb5c465cdb2d8a2a5f933f1ba276d1d8dcbf822fac4533bc29547f3",
+    "has_download": true,
+    "file": "files/1439.pdf"
+   },
    {
     "id": "1438",
     "type": "PLACEMENT",
