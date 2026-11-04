@@ -1,13 +1,36 @@
 {
- "last_updated": "2026-11-04T18:09:08Z",
+ "last_updated": "2026-11-04T19:11:19Z",
  "stats": {
-  "placement": 444,
+  "placement": 446,
   "internship": 863,
-  "with_files": 253,
-  "listed_downloads": 257
+  "with_files": 254,
+  "listed_downloads": 258
  },
  "categories": {
   "placement": [
+   {
+    "id": "1436",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "NAVI",
+    "notice": "PFA the test shortlist for the Assessment of NAVI for the Tech Profiles is scheduled from 1:30 AM onwards on 5th November, 2026.\n\nVenue: Nalanda Classroom Complex\n\nThe Room allocation for the test will be released shortly.\n\nStudents are requested to report 15 minutes prior to the reporting time.\n\nPOC: Daksh (+91 9818071612), Vatsal (+91 9234457393)\n\nCDC, IIT Kharagpur",
+    "noticeat": "05-11-2026 00:21",
+    "text_source": "full_notice",
+    "source_hash": "8e833e6a8ae67ad618fdea7d7fd198ba10c8bf16da665f4bb4ade00fcb5a7f62",
+    "has_download": true,
+    "file": "files/1436.pdf"
+   },
+   {
+    "id": "1434",
+    "type": "PLACEMENT",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "MeltPlan",
+    "notice": "Please note that the Pre-Placement Talk for MeltPlan will be held on 5th November 2026 from 1:00 AM.\n\nLink: https://meet.google.com/tmd-biia-ndu\n\nAll interested students are required to attend the PPT without fail. Attendance is compulsory. Students should join 15 minutes prior to the meeting time.\n\nPOC: Anjali (+91 7989613926)\n\nCDC, IIT Kharagpur",
+    "noticeat": "05-11-2026 00:00",
+    "text_source": "full_notice",
+    "source_hash": "8af08929c00bd7c24e6d9ce38516962c3afcfb98e4746cd7a6fc8d83da06f2dd",
+    "has_download": false
+   },
    {
     "id": "1433",
     "type": "PLACEMENT",
