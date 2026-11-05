@@ -1,13 +1,59 @@
 {
- "last_updated": "2026-11-05T15:41:19Z",
+ "last_updated": "2026-11-05T19:11:47Z",
  "stats": {
-  "placement": 471,
+  "placement": 475,
   "internship": 863,
-  "with_files": 261,
-  "listed_downloads": 265
+  "with_files": 263,
+  "listed_downloads": 267
  },
  "categories": {
   "placement": [
+   {
+    "id": "1472",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "IBM",
+    "notice": "PFA the test room allocation for the Assessment of IBM, scheduled from 12:30 AM onwards on 6th November, 2026.\n\nVenue: Nalanda Classroom Complex\n\nThe test link has been shared with the shortlisted students on their CDC-registered email IDs.\n\nNote: The scheduled assessment is only for students who could not appear for the test in the previous slot.\n\nStudents who are yet to receive the test link are requested to fill out the following form:\n\nForm \n\nLink: https://forms.gle/BEeUPUa37QPBP9aH8\n\nAll students are requested to check their inbox and spam/junk folders thoroughly before filling out the form.\n\nStudents are requested to report 15 minutes prior to the scheduled start time.\n\nPOC: Ritvik (+91 9480360231), Neev (+91 9001346350)\n\nCDC, IIT Kharagpur",
+    "noticeat": "05-11-2026 23:37",
+    "text_source": "full_notice",
+    "source_hash": "cfaf97ddd88175b624a16ff883e522d01111aaf51be45c234e4ed28c4ab83e10",
+    "has_download": true,
+    "file": "files/1472.pdf"
+   },
+   {
+    "id": "1471",
+    "type": "PLACEMENT",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "BLACKROCK",
+    "notice": "The CV Submission for Blackrock for all roles are open till 9:00 AM, 6th November, 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nAll the students who have applied for the roles are also required to fill the following preference form by 9:00 AM, 6th November, 2026.\n\nLink: https://forms.gle/AapFkoig6nhXuVBN9\n\nCDC, IIT Kharagpur",
+    "noticeat": "05-11-2026 21:57",
+    "text_source": "full_notice",
+    "source_hash": "e899f0c95003095dcb8eb98502e7feb16c9023c957a51f470db6959abda58b9a",
+    "has_download": false
+   },
+   {
+    "id": "1470",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "AIRBUS",
+    "notice": "All eligible students who have applied for AIRBUS are required to fill out the form given below. Only students who fill out this form will receive the company application link.\n\nLink: https://forms.gle/qb2pN7MmbgCqKXkE6\n\nDeadline: 8:00 AM, 6th November 2026\n\nKindly ensure that you submit the form before the deadline. No further extensions will be provided.\n\nCDC, IIT Kharagpur",
+    "noticeat": "05-11-2026 21:44",
+    "text_source": "full_notice",
+    "source_hash": "ebc45d45aeb189882dc047f16ec4a7a03f21393747f5005b95219259c8110220",
+    "has_download": false
+   },
+   {
+    "id": "1469",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "AMAZON",
+    "notice": "PFA the test room allocation for the Assessment of AMAZON, scheduled from 9:30 PM onwards on 5th November, 2026.\n\nVenue: Nalanda Classroom Complex\n\nStudents are required to carry their original Institute ID card, failing which students will not be permitted to sit for the test.\n\nNote: The registration link has already been shared with candidates through their CDC-registered email IDs. The link will be activated at 9:30 PM.\n\nPlease carry your laptops, pens, and papers.\n\nStudents are requested to report 15 minutes prior to the reporting time.\n\nPOC: Aditi (+91 88153 95895), Aryan (+91 81003 03122)\n\nCDC, IIT Kharagpur",
+    "noticeat": "05-11-2026 20:50",
+    "text_source": "full_notice",
+    "source_hash": "3e944785535da03e5fc087a3fb943d07b916af8bf6c25bf31a47b8338c8f8177",
+    "has_download": true,
+    "file": "files/1469.pdf"
+   },
    {
     "id": "1468",
     "type": "PLACEMENT",
