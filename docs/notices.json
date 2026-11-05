@@ -1,13 +1,36 @@
 {
- "last_updated": "2026-11-05T19:11:47Z",
+ "last_updated": "2026-11-05T20:20:48Z",
  "stats": {
-  "placement": 475,
+  "placement": 477,
   "internship": 863,
-  "with_files": 263,
-  "listed_downloads": 267
+  "with_files": 264,
+  "listed_downloads": 268
  },
  "categories": {
   "placement": [
+   {
+    "id": "1474",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "MathWorks",
+    "notice": "All eligible students who have applied for MathWorks are required to fill out the form given below.\n\nLink: https://forms.gle/YuW4YGGZWcPA72uy5\n\nDeadline: 11:59 AM, 6th November 2026\n\nKindly ensure that you submit the form before the deadline. No further extensions will be provided.\n\nCDC, IIT Kharagpur",
+    "noticeat": "06-11-2026 00:50",
+    "text_source": "full_notice",
+    "source_hash": "73243dfe51c3d9b0bb88d3c5e262e4b49aa9bd118b66bfd1c75faa312d7f3640",
+    "has_download": false
+   },
+   {
+    "id": "1473",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "Hi-Labs",
+    "notice": "All students who are eligible, have applied for the Associate Product Manager (APM) role of HiLabs, and have filled their preference for the APM role are required to go through the attached case study and prepare their solution as per the guidelines mentioned.\n\nSubmission Guidelines:\n\nSubmission Format: You may submit either a presentation deck or a one-pager, provided all the contents specified in the case study are covered.\n\nSubmission \n\nDeadline: 6th November 2026, 11:59 PM sharp.\n\nSubmission Process: A Google Form for submitting the case study solution will be shared later. Students are requested to submit their final deck/one-pager through the form once it is released.\n\nPlease ensure that your submission is completed within the specified deadline.\n\nNo further extensions will be provided.\n\nCDC, IIT Kharagpur",
+    "noticeat": "06-11-2026 00:42",
+    "text_source": "full_notice",
+    "source_hash": "e65b837cb62cc7919f4bb9a9bcee9007e9312bb7d4419597b0f9fc6aaaa44731",
+    "has_download": true,
+    "file": "files/1473.pdf"
+   },
    {
     "id": "1472",
     "type": "PLACEMENT",
