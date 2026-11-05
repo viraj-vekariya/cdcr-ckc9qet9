@@ -1,13 +1,58 @@
 {
- "last_updated": "2026-11-05T09:40:14Z",
+ "last_updated": "2026-11-05T10:45:51Z",
  "stats": {
-  "placement": 458,
+  "placement": 462,
   "internship": 863,
-  "with_files": 257,
-  "listed_downloads": 261
+  "with_files": 258,
+  "listed_downloads": 262
  },
  "categories": {
   "placement": [
+   {
+    "id": "1456",
+    "type": "PLACEMENT",
+    "subject": "Shortlist",
+    "company": "CAPITAL ONE SERVICES INDIA PVT. LTD.",
+    "notice": "PFA the test shortlist for the Assessment-2 of Capital One for the Associate (Software Engineer) role, scheduled from 6:00 PM onwards on 5th November 2026.\n\nThe test links have been shared with the shortlisted students on their CDC-registered email IDs.\n\nNote: All applicants are requested to check their inbox and spam/junk folders thoroughly for the test link. In case you have not received the test link even after checking these folders, please fill out the following form:\n\nForm link: https://forms.gle/tjrqEivyNPGXxBE56\n\nVenue: Nalanda Classroom Complex\n\nThe room allocation for the test will be released shortly.\n\nStudents are requested to report 15 minutes prior to the scheduled start time.\n\nPOCs: Rudra (+91 8235755257), Faiz (+91 7386295387)\n\nCDC, IIT Kharagpur",
+    "noticeat": "05-11-2026 15:37",
+    "text_source": "full_notice",
+    "source_hash": "363adde01e10b9d9f9a428e6d401f093bc49bc3db0bfb60e707f4279b82cf7c9",
+    "has_download": true,
+    "file": "files/1456.pdf"
+   },
+   {
+    "id": "1455",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "Tiger Analytics",
+    "notice": "CV Submission for Tiger Analytics for Trainee Analyst role is extended till 11:59 AM, 6th November, 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "05-11-2026 15:34",
+    "text_source": "full_notice",
+    "source_hash": "7a3327420193656b84c913f1e6a15381e235b11e09e65f751d3aeb6b065d6a44",
+    "has_download": false
+   },
+   {
+    "id": "1453",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "Sun Valley",
+    "notice": "CV Submission for Sun Valley for Research Analyst role is extended till 4:00 PM, 6th November, 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "05-11-2026 15:31",
+    "text_source": "full_notice",
+    "source_hash": "9fc28c7b661b21537535ef33aed5c3385c7505164f1729f05a48fa5d24e2d2cb",
+    "has_download": false
+   },
+   {
+    "id": "1452",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "NAVI",
+    "notice": "CV Submission for NAVI for Applied Computer Scientist role is opened till 4:00 PM, 6th November, 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "05-11-2026 15:31",
+    "text_source": "full_notice",
+    "source_hash": "989a9ee952c6e48274cc5b309fe33ea7d37dacc28f8f8e03b385f1d2eb2bb049",
+    "has_download": false
+   },
    {
     "id": "1451",
     "type": "PLACEMENT",
