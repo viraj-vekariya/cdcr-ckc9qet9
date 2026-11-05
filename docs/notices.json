@@ -1,13 +1,35 @@
 {
- "last_updated": "2026-11-05T06:40:00Z",
+ "last_updated": "2026-11-05T07:40:36Z",
  "stats": {
-  "placement": 456,
+  "placement": 457,
   "internship": 863,
   "with_files": 257,
   "listed_downloads": 261
  },
  "categories": {
   "placement": [
+   {
+    "id": "1450",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "IBM",
+    "notice": "All candidates who are required to appear for the re-test are hereby informed that the links have been sent to their registered email IDs.\n\nCandidates are strictly advised not to attempt the assessment until further instructions. Any candidate attempting the assessment before the official schedule will be deemed ineligible for the re-test.\n\nThe assessment schedule and timings will be communicated separately.\n\nCDC, IIT Kharagpur",
+    "noticeat": "05-11-2026 12:58",
+    "text_source": "full_notice",
+    "source_hash": "f472890110c2540887dd3fdc0430c013cad3866dcae117c237ae94980e67280e",
+    "has_download": false
+   },
+   {
+    "id": "1449",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "COGNIZANT",
+    "notice": "CV Submission for COGNIZANT for both roles has been opened till 11:59 AM, 6th November, 2026.\n\nIts mandatory for all the candidates who are applying for this role, to apply on the portal link attached below:\n\n1. Company Portal: https://app.joinsuperset.com/join/#/signup/student?jp=ab6aef62-9a2a-4ace-960c-08d64e0ef964\n\nNOTE: Students are required to apply using their ERP-registered email ID on the company portal, Please note that the portal is currently not accessible through the institute network. Students are requested to use their mobile network to access the portal and complete the application.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "05-11-2026 12:18",
+    "text_source": "full_notice",
+    "source_hash": "51d6af75196214f2d6133c297b915ab9ae179dfcc8e639a735749ba0908f5356",
+    "has_download": false
+   },
    {
     "id": "1446",
     "type": "PLACEMENT",
@@ -17,17 +39,6 @@
     "noticeat": "05-11-2026 11:58",
     "text_source": "full_notice",
     "source_hash": "042865770840fc797d4108c8e0c5f2b102ec5b5dec1e57699dee6a6b8b3ac37d",
-    "has_download": false
-   },
-   {
-    "id": "1445",
-    "type": "PLACEMENT",
-    "subject": "CV Submission",
-    "company": "Multiple Companies",
-    "notice": "The CV Submission of the following companies has been extended till 4:00 PM, 5th November, 2026.\n\n1.\u2060 \u2060MATHWORKS (All Profiles)\n\n2.\u2060 \u2060IVYCAP (Profile: Investment Analyst)\n\n3.\u2060 \u2060ENERGY ASPECTS (Profile: Energy Market Analyst)\n\n4.\u2060 \u2060NOVARTIS (Profile: AI Specialist/Expert)\n\n5.\u2060 \u2060NUTANIX (All Profiles)\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
-    "noticeat": "05-11-2026 11:47",
-    "text_source": "full_notice",
-    "source_hash": "96e1e0b7ce76b8d53409b161d70b87690a6b0594d259691c6e3b16e24b436e80",
     "has_download": false
    },
    {
