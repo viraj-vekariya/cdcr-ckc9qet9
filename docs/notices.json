@@ -1,13 +1,35 @@
 {
- "last_updated": "2026-11-05T04:40:07Z",
+ "last_updated": "2026-11-05T05:40:00Z",
  "stats": {
-  "placement": 449,
+  "placement": 451,
   "internship": 863,
   "with_files": 257,
   "listed_downloads": 261
  },
  "categories": {
   "placement": [
+   {
+    "id": "1441",
+    "type": "PLACEMENT",
+    "subject": "PPO",
+    "company": "CarDekho",
+    "notice": "CarDekho has extended the offer to the following student(s):\n\nASHWANI PATHAK - 23MT10013\n\nThe students are advised to give offer acceptance by 05.11.2026.\n\n(For more details, check your email ID.)\n\nCDC, IIT Kharagpur",
+    "noticeat": "05-11-2026 10:46",
+    "text_source": "full_notice",
+    "source_hash": "905aa78c67c9b292d480b8ae982c887d4635a75284f36b5a55d5873ec8aa59b1",
+    "has_download": false
+   },
+   {
+    "id": "1440",
+    "type": "PLACEMENT",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "Pine Labs",
+    "notice": "Please note that the Pre-Placement Talk for Pine Labs will be held on 5th November 2026 from 12:00 PM.\n\nLink: https://teams.microsoft.com/meet/488010155523658?p=6OIAZWwjADmzHlbSZj\n\nAll interested students are required to attend the PPT without fail. Attendance is compulsory. Students should join 15 minutes prior to the meeting time.\n\nPOC: Nikhita (+91 8770035884)\n\nCDC, IIT Kharagpur",
+    "noticeat": "05-11-2026 10:05",
+    "text_source": "full_notice",
+    "source_hash": "1fc7bd0a224077b2e8ce537047a1a3a78d811e54f1adcad11136dbed2b36f4bf",
+    "has_download": false
+   },
    {
     "id": "1439",
     "type": "PLACEMENT",
