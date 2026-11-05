@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-11-05T21:11:04Z",
+ "last_updated": "2026-11-05T22:12:04Z",
  "stats": {
-  "placement": 477,
+  "placement": 478,
   "internship": 863,
   "with_files": 264,
   "listed_downloads": 268
  },
  "categories": {
   "placement": [
+   {
+    "id": "1475",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "HiLabs",
+    "notice": "All students who are eligible, have applied for the Associate Product Manager (APM) role of HiLabs, and have filled their preference for the APM role are required to go through the shared case study and prepare their solution as per the guidelines mentioned.\n\nImportant Instructions:\n\nSubmission Format: Students are required to prepare one one-pager covering all the contents specified in the case study.\n\nThe one-pager should comprehensively cover all the required aspects of the case study.\n\nSubmission \n\nDeadline: 6th November 2026, 11:59 PM sharp.\n\nA Google Form for submitting the case study solution will be shared later.\n\nPlease ensure that your submission is completed within the specified deadline.\n\nNo further extensions will be provided.\n\nCDC, IIT Kharagpur",
+    "noticeat": "06-11-2026 02:57",
+    "text_source": "full_notice",
+    "source_hash": "4763791f565ae00be030fe38d57635c360b55a13f912ff4a7ad43f09862c84bd",
+    "has_download": false
+   },
    {
     "id": "1474",
     "type": "PLACEMENT",
