@@ -1,13 +1,69 @@
 {
- "last_updated": "2026-11-05T11:40:26Z",
+ "last_updated": "2026-11-05T12:41:17Z",
  "stats": {
-  "placement": 462,
+  "placement": 467,
   "internship": 863,
-  "with_files": 258,
-  "listed_downloads": 262
+  "with_files": 259,
+  "listed_downloads": 263
  },
  "categories": {
   "placement": [
+   {
+    "id": "1463",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "HiLabs",
+    "notice": "This is to inform all students who have applied for the HiLabs Associate Product Manager role that the problem statement and related details will be shared via email on their CDC-registered email IDs tonight.\n\nStudents are requested to check their email and go through the instructions carefully.\n\nDeck Submission Window: 24 Hours\nProblem Statement Release: 5th November, 12:00 AM\nSubmission \n\nDeadline: 6th November, 11:59 PM\n\nPlease note that no further extensions will be provided. Students are advised to ensure that their submissions are completed within the stipulated deadline.\n\nCDC, IIT Kharagpur",
+    "noticeat": "05-11-2026 17:35",
+    "text_source": "full_notice",
+    "source_hash": "3768a9c1567d6dcbe5f29ddf4bb0c6d2c364e74c542eb3b7163009d1ccdc78bd",
+    "has_download": false
+   },
+   {
+    "id": "1462",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "CAPITAL ONE SERVICES INDIA PVT. LTD.",
+    "notice": "PFA the test room allocation for the Assessment-2 of Capital One for the role of Associate (Software Engineer), scheduled from 6:00 PM onwards on 5th November 2026.\n\nVenue: Nalanda Classroom Complex\n\nStudents are required to carry their original Institute ID card/Medical Book, failing which students will not be permitted to sit for test.\n\nPlease carry your laptops, pens, and papers.\n\nStudents are requested to report 15 minutes prior to the reporting time.\n\nPOC: Rudra (+91 8235755257), Faiz (+91 7386295387)\n\nCDC, IIT Kharagpur",
+    "noticeat": "05-11-2026 17:31",
+    "text_source": "full_notice",
+    "source_hash": "d4898c5c3e083e6285026ff7b3af08aece7556a9554c8e2576949931b7332ac3",
+    "has_download": true,
+    "file": "files/1462.pdf"
+   },
+   {
+    "id": "1461",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "BLACKROCK",
+    "notice": "The CV Submission for Blackrock for the Data Scientist - Quantitative Finance (Analytics Stewardship) Analyst role has been extended till 9:00 AM, 6th November, 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "05-11-2026 17:16",
+    "text_source": "full_notice",
+    "source_hash": "ac07979c8204dba2b0459f6175434bf9e5b8a23e978f5681bace380f3fc5c242",
+    "has_download": false
+   },
+   {
+    "id": "1460",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "PAYTM",
+    "notice": "The CV Submission for PAYTM for the Software Engineer has been opened till 4:00 PM, 6th November, 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "05-11-2026 17:11",
+    "text_source": "full_notice",
+    "source_hash": "f850365f84fb5b53ea9f45c33ff5df383e115b1d4ae2e9eed445519b4b84a063",
+    "has_download": false
+   },
+   {
+    "id": "1458",
+    "type": "PLACEMENT",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "GE AEROSPACE",
+    "notice": "The Pre-Placement Talk for GE Aerospace, will be held on 5th November, 2026 from 5:00 PM.\n\nLink: https://gov.teams.microsoft.us/meet/992273895394?p=08t3D7ghNuRX1Aijt8\n\nNote: All placement-registered students are supposed to attend the PPT, without fail. Attendance is compulsory. Students must join the link 15 minutes prior to the scheduled time.\n\nPOC: Deepak (+91 90249 50269)\n\nCDC, IIT Kharagpur",
+    "noticeat": "05-11-2026 17:09",
+    "text_source": "full_notice",
+    "source_hash": "38806475b0dcf171a58685c85688d9e0699fe843c43e79f61d49cf12cff387be",
+    "has_download": false
+   },
    {
     "id": "1456",
     "type": "PLACEMENT",
