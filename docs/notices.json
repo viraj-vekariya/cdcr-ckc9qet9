@@ -1,13 +1,25 @@
 {
- "last_updated": "2026-11-06T15:43:11Z",
+ "last_updated": "2026-11-06T17:43:28Z",
  "stats": {
-  "placement": 493,
+  "placement": 494,
   "internship": 864,
-  "with_files": 267,
-  "listed_downloads": 271
+  "with_files": 268,
+  "listed_downloads": 272
  },
  "categories": {
   "placement": [
+   {
+    "id": "1499",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "PURPLLE",
+    "notice": "PFA the test room allocation for the assessment of PURPLLE, scheduled from 10:30 PM onwards on 6th November, 2026.\n\nVenue: Nalanda Classroom Complex\n\nStudents are requested to report 15 minutes prior to the scheduled start time.\n\nPOC: Vatsal (+91 92344 57393), Rudra (+91 82357 55257)\n\nCDC, IIT Kharagpur",
+    "noticeat": "06-11-2026 22:17",
+    "text_source": "full_notice",
+    "source_hash": "7227b5c58e587eeeb5f66d2cbda960a6cf6108005597964c5a5150478a7e476a",
+    "has_download": true,
+    "file": "files/1499.pdf"
+   },
    {
     "id": "1494",
     "type": "PLACEMENT",

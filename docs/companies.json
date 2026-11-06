@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-06T15:42:37.320415+00:00",
+  "last_updated": "2026-11-06T17:42:33.241301+00:00",
   "companies": [
     {
       "company": "Accenture India Private Limited",
@@ -912,7 +912,7 @@
       "resume_start": "2026-11-06 12:15",
       "resume_end": "2026-11-07 16:00",
       "interview": "",
-      "is_applied": false,
+      "is_applied": true,
       "form_type": "PLACEMENT",
       "cgpa_cutoff": "0.0",
       "description": "Attached for your reference\nView More Details\nClick Here for more details",
@@ -933,7 +933,7 @@
       "resume_start": "2026-11-06 12:14",
       "resume_end": "2026-11-07 16:00",
       "interview": "",
-      "is_applied": false,
+      "is_applied": true,
       "form_type": "PLACEMENT",
       "cgpa_cutoff": "0.0",
       "description": "Attached for your reference\nView More Details\nClick Here for more details",
@@ -1143,7 +1143,7 @@
       "resume_start": "2026-11-06 19:53",
       "resume_end": "2026-11-07 20:00",
       "interview": "",
-      "is_applied": false,
+      "is_applied": true,
       "form_type": "PLACEMENT",
       "cgpa_cutoff": "7.0",
       "description": "\u2022 You will contribute in partnership with appropriate stakeholder to determine user requirements for a feature and consider a variety of feedback channels to incorporate insights into future designs or solution fixes. \u2022 You will learn and contribute to processes for the architecture of a product/solution feature and learns to create proposals by testing design hypotheses and helping to refine code plans under the technical leadership of others as well as help produce code to test hypotheses for technical solutions and assists with technical validation efforts. \u2022 With guidance, you will learn to create and implement code that is extensible and maintainable and apply diagnosability, reliability and maintainabilit, and understand when the code is ready to be shared and delivered for a product, service, or feature reusing code as applicable \u2022 You will learn to review work items to gain knowledge of product features in partnership with appropriate stakeholders and assist and learn about breaking down work items into tasks and provides estimation as well as escalate any issues that would cause a delay. \u2022 You will learn about and contribute to operations of live service as issues arise on a rotational, on-call basis and identify solutions and mitigations to simple issues impacting performance or functionality of Live Site services and escalates as necessary. \u2022 You will help develop and contribute to automation within production and deployment of a product feature and run code in simulated or other non-production environments to confirm functionality and error-free runtime for products with oversight. \u2022 You will embody our culture and values.\nView More Details\nClick Here for more details",
