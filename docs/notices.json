@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-11-06T05:12:11Z",
+ "last_updated": "2026-11-06T06:12:15Z",
  "stats": {
-  "placement": 479,
+  "placement": 480,
   "internship": 863,
   "with_files": 264,
   "listed_downloads": 268
  },
  "categories": {
   "placement": [
+   {
+    "id": "1477",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "AIRBUS",
+    "notice": "All eligible students who have applied for AIRBUS are required to fill out the form given below. \n\nOnly students who fill out this form will receive the company application link.\n\nForm Link:\nhttps://forms.gle/qb2pN7MmbgCqKXkE6\n\nDeadline:\n1:00 PM, 6th November 2026\n\nKindly ensure that you submit the form before the deadline. No further extensions will be provided.\n\nCDC, IIT Kharagpur",
+    "noticeat": "06-11-2026 10:36",
+    "text_source": "full_notice",
+    "source_hash": "46d661386480136c98ee72af46dc024a6b2fa7d54f9ba53c5a09dd4fa366af69",
+    "has_download": false
+   },
    {
     "id": "1476",
     "type": "PLACEMENT",
