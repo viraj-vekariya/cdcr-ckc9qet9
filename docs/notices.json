@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-11-06T03:41:42Z",
+ "last_updated": "2026-11-06T05:12:11Z",
  "stats": {
-  "placement": 478,
+  "placement": 479,
   "internship": 863,
   "with_files": 264,
   "listed_downloads": 268
  },
  "categories": {
   "placement": [
+   {
+    "id": "1476",
+    "type": "PLACEMENT",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "EXXONMOBIL",
+    "notice": "The Pre-Placement Talk for ExxonMobil, will be held on 6th November, 2026 from 1:00 PM.\n\nLink: https://exxonmobil.zoom.us/j/95440889647?pwd=mzL94KOlDlmy1T5rcugav5RubaMdQ6.1\n\nNote: All placement-registered students are supposed to attend the PPT, without fail. Attendance is compulsory. Students must join the link 15 minutes prior to the scheduled time.\n\nPOC: Neev (+91 9001346350)\n\nCDC, IIT Kharagpur",
+    "noticeat": "06-11-2026 10:20",
+    "text_source": "full_notice",
+    "source_hash": "2585bcce41c199fb6e9a1df0c734a6b708adb87f09a3a48d5e537f9169f064ea",
+    "has_download": false
+   },
    {
     "id": "1475",
     "type": "PLACEMENT",
