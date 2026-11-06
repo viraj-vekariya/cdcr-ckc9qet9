@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-11-06T10:10:18Z",
+ "last_updated": "2026-11-06T11:13:02Z",
  "stats": {
   "placement": 486,
   "internship": 864,
@@ -9,7 +9,29 @@
  "categories": {
   "placement": [
    {
-    "id": "1487",
+    "id": "1485",
+    "type": "PLACEMENT",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "Test Notice 2 Pls Ignore",
+    "notice": "Pls ignore",
+    "noticeat": "06-11-2026 16:29",
+    "text_source": "full_notice",
+    "source_hash": "90ef8a9b05df00159da15bcd995f653e8c3772a589453cc7ab3bb4942092a320",
+    "has_download": false
+   },
+   {
+    "id": "1484",
+    "type": "PLACEMENT",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "Test Notice 1",
+    "notice": "Pls ignore",
+    "noticeat": "06-11-2026 15:59",
+    "text_source": "full_notice",
+    "source_hash": "90ef8a9b05df00159da15bcd995f653e8c3772a589453cc7ab3bb4942092a320",
+    "has_download": false
+   },
+   {
+    "id": "1483",
     "type": "PLACEMENT",
     "subject": "Urgent",
     "company": "COGNIZANT",
@@ -20,7 +42,7 @@
     "has_download": false
    },
    {
-    "id": "1486",
+    "id": "1482",
     "type": "PLACEMENT",
     "subject": "CV Submission",
     "company": "NVIDIA",
@@ -28,28 +50,6 @@
     "noticeat": "06-11-2026 14:28",
     "text_source": "full_notice",
     "source_hash": "e37b520b4239196e8b23f8b126c46104c7bd7d3030447d703cf3d8ae1ee7d9d4",
-    "has_download": false
-   },
-   {
-    "id": "1485",
-    "type": "PLACEMENT",
-    "subject": "PPT/Workshop/Seminars etc",
-    "company": "TEST COMPANY 1",
-    "notice": "TEST PLS IGNORE",
-    "noticeat": "06-11-2026 15:08",
-    "text_source": "full_notice",
-    "source_hash": "798876b549403ca9621017c3333759b706be0aa427508df6fba256abe44bf250",
-    "has_download": false
-   },
-   {
-    "id": "1484",
-    "type": "PLACEMENT",
-    "subject": "PPT/Workshop/Seminars etc",
-    "company": "TEST COMPANY 1",
-    "notice": "TEST. PLS IGNORE",
-    "noticeat": "06-11-2026 15:03",
-    "text_source": "full_notice",
-    "source_hash": "2e39a85c4beb32af5c5a681d002c4ffab1c4e2f7995358ffefb64a9f8dce344e",
     "has_download": false
    },
    {
