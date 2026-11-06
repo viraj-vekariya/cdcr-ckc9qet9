@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-11-06T09:13:23Z",
+ "last_updated": "2026-11-06T10:10:18Z",
  "stats": {
-  "placement": 483,
+  "placement": 486,
   "internship": 864,
   "with_files": 264,
   "listed_downloads": 268
  },
  "categories": {
   "placement": [
+   {
+    "id": "1487",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "COGNIZANT",
+    "notice": "All the applicants of Cognizant for any role are requested to apply on the portal link attached below by 4:00 PM, 7th November 2026.\n\nCompany Portal: https://app.joinsuperset.com/join/#/signup/student?jp=ab6aef62-9a2a-4ace-960c-08d64e0ef964\n\nNOTE: Students are required to apply using their ERP-registered email ID on the company portal, Please note that the portal is currently not accessible through the institute network. Students are requested to use their mobile network to access the portal and complete the application.\n\nAll the eligible students are advised to fill the form within the given deadline.\n\nNo further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "06-11-2026 14:39",
+    "text_source": "full_notice",
+    "source_hash": "0ffdd2dd70ee9ffbf3c0dc3453f9b585bb60e63a75feb0d511cd49d117596148",
+    "has_download": false
+   },
    {
     "id": "1486",
     "type": "PLACEMENT",
@@ -17,6 +28,28 @@
     "noticeat": "06-11-2026 14:28",
     "text_source": "full_notice",
     "source_hash": "e37b520b4239196e8b23f8b126c46104c7bd7d3030447d703cf3d8ae1ee7d9d4",
+    "has_download": false
+   },
+   {
+    "id": "1485",
+    "type": "PLACEMENT",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "TEST COMPANY 1",
+    "notice": "TEST PLS IGNORE",
+    "noticeat": "06-11-2026 15:08",
+    "text_source": "full_notice",
+    "source_hash": "798876b549403ca9621017c3333759b706be0aa427508df6fba256abe44bf250",
+    "has_download": false
+   },
+   {
+    "id": "1484",
+    "type": "PLACEMENT",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "TEST COMPANY 1",
+    "notice": "TEST. PLS IGNORE",
+    "noticeat": "06-11-2026 15:03",
+    "text_source": "full_notice",
+    "source_hash": "2e39a85c4beb32af5c5a681d002c4ffab1c4e2f7995358ffefb64a9f8dce344e",
     "has_download": false
    },
    {
