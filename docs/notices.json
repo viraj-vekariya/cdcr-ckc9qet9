@@ -1,13 +1,59 @@
 {
- "last_updated": "2026-11-06T13:12:51Z",
+ "last_updated": "2026-11-06T14:47:05Z",
  "stats": {
-  "placement": 486,
+  "placement": 490,
   "internship": 864,
-  "with_files": 265,
-  "listed_downloads": 269
+  "with_files": 267,
+  "listed_downloads": 271
  },
  "categories": {
   "placement": [
+   {
+    "id": "1491",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "Microsoft",
+    "notice": "CV Submission for Microsoft for Software Engineer role is opened till 8 PM, 7th November, 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "06-11-2026 19:56",
+    "text_source": "full_notice",
+    "source_hash": "d1a99629ac091b86a84f69299cf142a57b888e22c7c97121d6267a2ffa8ece90",
+    "has_download": false
+   },
+   {
+    "id": "1490",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "ITC Limited",
+    "notice": "PFA the test shortlist for ITC Limited. The test link has been triggered to the students on their email IDs.\n\nAll the shortlisted students are requested to complete the assessment by 10:00 AM, 9th November, 2026.\n\nVenue: Respective Location\n\nCDC, IIT Kharagpur",
+    "noticeat": "06-11-2026 19:27",
+    "text_source": "full_notice",
+    "source_hash": "eb5b7d7746b191c46b13bbf4af0bcf3f88e986e4c28a7eeb2aa49a4da4045b2b",
+    "has_download": true,
+    "file": "files/1490.pdf"
+   },
+   {
+    "id": "1488",
+    "type": "PLACEMENT",
+    "subject": "General",
+    "company": "FAQs related to CDC Placement Process.",
+    "notice": "Q1. Are all companies strictly verifying physical attendance against the online test logs?\n\nAns.: Yes, the physical attendance record for every online test is forwarded to the recruiter and retained in the records of the Career Development Centre. A candidate who appears for a test from a location other than the designated venue, and whose attendance is not recorded by CDC appointed invigilators, shall stand disqualified from the recruitment process. All shortlisted candidates are cross-verified against the physically recorded attendance sheet. Hence, CDC ensures attendance of students in designated venue for further processing.\n\nQ2. What actions are being considered for the candidates who bypassed the offline venue requirement?\n\nAns.: Any regular candidate (except students who went for SAIP/SAPP program) who takes a test from a location other than the designated venue, and whose attendance is not recorded, shall be disqualified from the recruitment process. Shortlisted candidates are cross-verified against the physically recorded attendance sheet.\n\nQ3. How can we be assured that these candidates are not repeating this behaviour across multiple company exams without any serious consequence?\n\nAns.: Attendance is recorded strictly and systematically, and designated staff members have been assigned to carry out this responsibility with due diligence. Any candidate found appearing for a test from an unauthorised location without a recorded attendance shall, without exception, be disqualified from the process. This procedure has been communicated to the recruiters, who are extending full cooperation with CDC.\nIt may also be noted that Placecom members and Dep-Reps are not involved in invigilation duties during online tests; their presence is limited to coordination purposes only.\nThe CDC remains committed to ensuring the fairness and integrity of all online tests. In addition to CDC officials and institute staff, often the tests are conducted in the presence of professional agencies deployed by the recruiters to oversee the entire process.\n\nQ4. How the identity of a student is verified during a test?\n\nAns.: Student candidature is verified exclusively using one of the following physical or live documents:\n\n\u2022 Original physical Institute ID Card\n\u2022 Original physical Institute Medical Book\n\u2022 Live login of the ERP profile\n\nCandidates who fail to produce one of these specified documents is marked \u2018ABSENT\u2019 on the attendance sheet.\n\nAlternative identification (such as Aadhaar, PAN, or EPIC etc. in any form) and photocopies or screenshots of institute credentials is not accepted. Such candidates are marked as \u2018ABSENT\u2019 on the attendance sheet.\n\nCDC, IIT Kharagpur",
+    "noticeat": "06-11-2026 19:02",
+    "text_source": "full_notice",
+    "source_hash": "7ab50a5f460be069400a88f0b8c78cb89a5d73f6a394bdb35966d784d714171f",
+    "has_download": false
+   },
+   {
+    "id": "1486",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "TEXAS INSTRUMENTS",
+    "notice": "PFA the test room allocation for the assessment of Texas Instruments, scheduled from 7:00 PM onwards on 6th November, 2026.\n\nVenue: Nalanda Classroom Complex\n\nStudents are requested to report 15 minutes prior to the scheduled start time.\n\nPOC: Arpita (+91 90755 64147), Rudra (+91 82357 55257)\n\nCDC, IIT Kharagpur",
+    "noticeat": "06-11-2026 18:39",
+    "text_source": "full_notice",
+    "source_hash": "4a422bfef99571f64cae1c18b4c64d577a8fd7ffe32dff4bd16c50c1d8e5aebb",
+    "has_download": true,
+    "file": "files/1486.pdf"
+   },
    {
     "id": "1485",
     "type": "PLACEMENT",
