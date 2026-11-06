@@ -1,13 +1,35 @@
 {
- "last_updated": "2026-11-06T20:43:21Z",
+ "last_updated": "2026-11-06T21:45:03Z",
  "stats": {
-  "placement": 496,
+  "placement": 498,
   "internship": 864,
   "with_files": 269,
   "listed_downloads": 273
  },
  "categories": {
   "placement": [
+   {
+    "id": "1504",
+    "type": "PLACEMENT",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "PRODIGAL",
+    "notice": "The Pre-Placement Talk for Prodigal for the Associate Consultant role, will be held on 7th November 2026 from 6:30 PM\n\nLink: https://us02web.zoom.us/j/83687732376\n\nNote: All placement-registered students are supposed to attend the PPT, without fail. Attendance is compulsory. Students must join the link 15 minutes prior to the scheduled time.\n\nPOC: Hardik (+91 8177018092)\n\nCDC, IIT Kharagpur.",
+    "noticeat": "07-11-2026 02:50",
+    "text_source": "full_notice",
+    "source_hash": "6d7ffca2b73ec6392d36c5200e1489c3f854e93b76ed61c665cbfe125a0bfde0",
+    "has_download": false
+   },
+   {
+    "id": "1503",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "MATHWORKS",
+    "notice": "Please note that the Test for MathWorks has been postponed until furthur notice.\n\nCDC, IIT Kharagpur",
+    "noticeat": "07-11-2026 02:15",
+    "text_source": "full_notice",
+    "source_hash": "f8751fc1b83897cd5e4a06b5202a4ce52a32342c60646743a43e254e2a69c07c",
+    "has_download": false
+   },
    {
     "id": "1502",
     "type": "PLACEMENT",
