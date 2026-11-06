@@ -1,13 +1,25 @@
 {
- "last_updated": "2026-11-06T18:43:26Z",
+ "last_updated": "2026-11-06T19:52:17Z",
  "stats": {
-  "placement": 495,
+  "placement": 496,
   "internship": 864,
-  "with_files": 268,
-  "listed_downloads": 272
+  "with_files": 269,
+  "listed_downloads": 273
  },
  "categories": {
   "placement": [
+   {
+    "id": "1502",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "NVIDIA",
+    "notice": "PFA the test room allocation for the Assessment of NVIDIA for Hardware Engineer, scheduled from 10:00 AM onwards on 7th November, 2026.\n\nVenue: Nalanda Classroom Complex\n\nStudents are required to carry their original Institute ID card, failing which students will not be permitted to sit for test.\n\nPlease carry your laptops, pens, and papers.\n\nThe test links have been shared with the shortlisted students on their CDC-registered email IDs. Test instructions have also been shared.\n\nNote: Shortlisted candidates who have not received the test link are requested to fill out the following form.\n\nQuery Form: https://forms.gle/UGLr9tihnxFNurRR7\n\nStudents are requested to report 15 minutes prior to the reporting time.\n\nPOC: Devansh Soni (+91 7999892181), Ashutosh Singh(+91 8840104367)\n\nCDC, IIT Kharagpur",
+    "noticeat": "07-11-2026 01:05",
+    "text_source": "full_notice",
+    "source_hash": "34f6c1f8ff373a9abeaab2193660833db4231b717672686d2d93386211522255",
+    "has_download": true,
+    "file": "files/1502.pdf"
+   },
    {
     "id": "1500",
     "type": "PLACEMENT",
