@@ -1,19 +1,41 @@
 {
- "last_updated": "2026-11-06T06:12:15Z",
+ "last_updated": "2026-11-06T07:13:39Z",
  "stats": {
-  "placement": 480,
-  "internship": 863,
+  "placement": 482,
+  "internship": 864,
   "with_files": 264,
   "listed_downloads": 268
  },
  "categories": {
   "placement": [
    {
+    "id": "1480",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "IQVIA",
+    "notice": "Company: IQVIA\n\nRole: All roles\n\nDeadline: 4:00 PM, 7th November 2026\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "06-11-2026 12:16",
+    "text_source": "full_notice",
+    "source_hash": "965ddd77edce38a9bb0dd4a632ec14ea6ec8bb8825d338c302c22db37e283e81",
+    "has_download": false
+   },
+   {
+    "id": "1478",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "MathWorks",
+    "notice": "All eligible students who have applied for MathWorks are required to fill out the form given below.\n\nLink:\nhttps://forms.gle/YuW4YGGZWcPA72uy5\n\nDeadline:\n2:00 PM, 6th November 2026\n\nKindly ensure that you submit the form before the deadline. No further extensions will be provided.\n\nCDC, IIT Kharagpur",
+    "noticeat": "06-11-2026 11:31",
+    "text_source": "full_notice",
+    "source_hash": "06f25e905beacbd9ba8e33c25ffaf105c39867a7cb03a689790f45592c7fb441",
+    "has_download": false
+   },
+   {
     "id": "1477",
     "type": "PLACEMENT",
     "subject": "Urgent",
     "company": "AIRBUS",
-    "notice": "All eligible students who have applied for AIRBUS are required to fill out the form given below. \n\nOnly students who fill out this form will receive the company application link.\n\nForm Link:\nhttps://forms.gle/qb2pN7MmbgCqKXkE6\n\nDeadline:\n1:00 PM, 6th November 2026\n\nKindly ensure that you submit the form before the deadline. No further extensions will be provided.\n\nCDC, IIT Kharagpur",
+    "notice": "All eligible students who have applied for AIRBUS are required to fill out the form given below. \n\nOnly students who fill out this form will receive the company application link.\n\nForm \n\nLink:\nhttps://forms.gle/qb2pN7MmbgCqKXkE6\n\nDeadline:\n1:00 PM, 6th November 2026\n\nKindly ensure that you submit the form before the deadline. No further extensions will be provided.\n\nCDC, IIT Kharagpur",
     "noticeat": "06-11-2026 10:36",
     "text_source": "full_notice",
     "source_hash": "46d661386480136c98ee72af46dc024a6b2fa7d54f9ba53c5a09dd4fa366af69",
@@ -5361,6 +5383,17 @@
    }
   ],
   "internship": [
+   {
+    "id": "1479",
+    "type": "INTERNSHIP",
+    "subject": "Urgent",
+    "company": "JSW GROUP",
+    "notice": "PFB the shortlist for the Interview round of JSW Group.\n\n24CH10081\n24CH10079\n23CH30001\n24CH10031\n23CE3EP16\n23CS30053\n24MF10041\n24ME10128\n24MF10059\n23MT30011\n\nFurther details would be communicated to the shortlisted candidates shortly.\n\nCDC, IIT Kharagpur",
+    "noticeat": "06-11-2026 11:37",
+    "text_source": "full_notice",
+    "source_hash": "7057d439062b910a4e71ca2f8ddba7defdfdbeeeea893ee5e636e1a36a1fe757",
+    "has_download": false
+   },
    {
     "id": "1428",
     "type": "INTERNSHIP",
