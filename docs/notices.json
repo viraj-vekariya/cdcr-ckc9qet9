@@ -1,13 +1,46 @@
 {
- "last_updated": "2026-11-06T14:47:05Z",
+ "last_updated": "2026-11-06T15:43:11Z",
  "stats": {
-  "placement": 490,
+  "placement": 493,
   "internship": 864,
   "with_files": 267,
   "listed_downloads": 271
  },
  "categories": {
   "placement": [
+   {
+    "id": "1494",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "IBM",
+    "notice": "A Competency Assessment has been triggered for all the students who have completed the assessment for the Software Developer, and the Software Engineer roles of IBM.\n\nVenue: Respective Locations\n\nDeadline: 11:59 PM, 7th November, 2026.\n\nNote: Students are required to complete this assessment to be considered for the further process.\n\nPOC: Neev (+91 9001346350)\n\nCDC, IIT Kharagpur.",
+    "noticeat": "06-11-2026 20:47",
+    "text_source": "full_notice",
+    "source_hash": "bc2bcb5e219ea58ef245aa7b46f1555c7ea9d34e02f8830c8c7a551ab3b6ce65",
+    "has_download": false
+   },
+   {
+    "id": "1493",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "HILABS",
+    "notice": "Please find below the link for the Deck Submission for the HILABS Associate Product Manager role. The submission deadline has been extended until 11:59 AM, 7th November 2026.\n\nLink: https://forms.gle/gCB2C1LFC33Pi1wg8\n\nDeadline : 11:59 AM, 7th November, 2025\n\nNo further extension will be provided. The submissions after the given deadline will not be considered for further process.\n\nCDC, IIT Kharagpur",
+    "noticeat": "06-11-2026 20:13",
+    "text_source": "full_notice",
+    "source_hash": "63c72cd5b0d583c2317d2b804e94aac812e852ca0d5090b42c65491a8c86dead",
+    "has_download": false
+   },
+   {
+    "id": "1492",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "PAYTM",
+    "notice": "The CV Submission for PAYTM for the Software Engineer has been extended till 4:00 PM, 7th November, 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "06-11-2026 20:02",
+    "text_source": "full_notice",
+    "source_hash": "8cb43f0533ed3c0aac9fc25a688e457c5d0b1cf699b16b5bc6f1d48d478a721b",
+    "has_download": false
+   },
    {
     "id": "1491",
     "type": "PLACEMENT",
