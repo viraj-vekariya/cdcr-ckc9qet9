@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-11-06T17:43:28Z",
+ "last_updated": "2026-11-06T18:43:26Z",
  "stats": {
-  "placement": 494,
+  "placement": 495,
   "internship": 864,
   "with_files": 268,
   "listed_downloads": 272
  },
  "categories": {
   "placement": [
+   {
+    "id": "1500",
+    "type": "PLACEMENT",
+    "subject": "Schedule",
+    "company": "CDC Placement Schedule for 7th November 2026",
+    "notice": "All students eligible for placement are advised to take note of the placement schedule for 7th November 2026.\n\n1. [TEST] MATHWORKS (All Profiles) (08:00 AM \u2013 09:30 AM)\n\n2. [TEST] NVIDIA (Profile: Hardware) (10:00 AM \u2013 11:00 AM)\n\n3. [TEST] PORTER (All Profiles) (02:00 PM \u2013 04:00 PM)\n\n4. [TEST] BLACKROCK (All Profiles) (04:30 PM \u2013 06:30 PM)\n\n5. [PPT] PRODIGAL (06:30 PM \u2013 07:30 PM)\n\n6. [TEST] INDUS INSIGHTS (Profile: Associate) (08:00 PM \u2013 10:00 PM)\n\n7. [TEST] BAJAJ (All Profiles) (10:30 PM \u2013 11:30 PM)\n\n8. [TEST] EXL (Profile: Analytics - Consultant I) (12:00 AM \u2013 01:30 AM) (8th November)\n\nNote: Links to the PPTs and other relevant details will be shared separately. Room allocations and other necessary instructions for the tests will be communicated prior to the respective assessments.\n\nCDC, IIT Kharagpur",
+    "noticeat": "06-11-2026 23:47",
+    "text_source": "full_notice",
+    "source_hash": "21e26d1fa368f1802a05dae2ad7d76d38a087342245980fe9ad6f8de6422efa6",
+    "has_download": false
+   },
    {
     "id": "1499",
     "type": "PLACEMENT",
