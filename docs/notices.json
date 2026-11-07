@@ -1,13 +1,57 @@
 {
- "last_updated": "2026-11-07T11:45:40Z",
+ "last_updated": "2026-11-07T12:45:15Z",
  "stats": {
-  "placement": 506,
+  "placement": 510,
   "internship": 864,
   "with_files": 273,
   "listed_downloads": 277
  },
  "categories": {
   "placement": [
+   {
+    "id": "1519",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "IDFC FIRST BANK",
+    "notice": "The CV submission of IDFC First Bank for all the roles has been opened till 4:00 PM, 8th November 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "07-11-2026 17:39",
+    "text_source": "full_notice",
+    "source_hash": "d9f4390363a332eba26d372a94927803c2c98f1882062a5e26d00c04cf26035f",
+    "has_download": false
+   },
+   {
+    "id": "1518",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "LANDEED",
+    "notice": "The CV Submission for Landeed for both the roles has been opened till 4:00 PM, 8th November, 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "07-11-2026 17:35",
+    "text_source": "full_notice",
+    "source_hash": "fc535298afd5c53960355dca1b45ecfaeb2befaf39b66fe61b9b6dc5d8d7596c",
+    "has_download": false
+   },
+   {
+    "id": "1517",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "NoBroker",
+    "notice": "The CV submission of NoBroker for all the roles has been opened till 4:00 PM, 8th November 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "07-11-2026 17:33",
+    "text_source": "full_notice",
+    "source_hash": "381556f6418966c02b4b4e515496f674355f428db1a2535820cb1d93322bb1e9",
+    "has_download": false
+   },
+   {
+    "id": "1516",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "Multiple Companies",
+    "notice": "The following companies are open for CV Submission till 4:00 PM, 8th November, 2026.\n\n1. NOVARTIS (Profile: AI Specialist/Expert)\n\n2. NUTANIX (All Profiles)\n\n3. NAVI (Profile : Applied Computer Scientist)\n\n4. COGNIZANT (All Profiles)\n\n5. PAYTM (Profile : Software Engineer)\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "07-11-2026 17:28",
+    "text_source": "full_notice",
+    "source_hash": "5a285e647ded52ac2d8ad1a02b2e202f417431d9db88601ade81d1cc3e52c3e5",
+    "has_download": false
+   },
    {
     "id": "1515",
     "type": "PLACEMENT",
