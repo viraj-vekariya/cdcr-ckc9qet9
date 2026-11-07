@@ -21,6 +21,15 @@ from extract_notices_playwright import fetch as extract_notices
 
 SESSION_FILE = BASE / "session_cookie.txt"
 SEEN_FILE = BASE / "seen_notice_ids.json"
+# 7 Nov 2026: ERP renumbered notices after deleting two test notices, so two
+# real notices took ids that were already "seen" and were never sent on
+# WhatsApp. New-notice detection now uses a content fingerprint instead.
+SEEN_FP_FILE = BASE / "seen_notice_fps.json"
+
+
+def fingerprint(r):
+    norm = lambda x: " ".join((x or "").split()).lower()
+    return f"{norm(r.get('company'))}|{norm(r.get('noticeat'))}|{norm(r.get('subject'))}"
 CACHE = BASE / "notices_cache.json"
 WA_GROUP = os.environ.get("WA_GROUP_NAME", "CDC Updates")  # dedicated group,
                                                             # keeps placement
@@ -312,7 +321,12 @@ def main():
     # internship, PPO included) since that split now lives client-side on
     # the site's own subject filter instead of at the alerting layer.
     # seen-tracking still covers every id so nothing wrongly resurfaces.
-    new_rows = [r for r in raw if r["id"] not in seen and r["type"] == "PLACEMENT"
+    seen_fp = set(json.loads(SEEN_FP_FILE.read_text())) if SEEN_FP_FILE.exists() else None
+    if seen_fp is None:
+        is_new = lambda r: r["id"] not in seen  # first run: no fingerprints yet
+    else:
+        is_new = lambda r: fingerprint(r) not in seen_fp
+    new_rows = [r for r in raw if is_new(r) and r["type"] == "PLACEMENT"
                 and (r.get("subject") or "").upper() != "PPO"]
 
     # Gemini-polish only the freshly-arriving notices (typically 0-5/hour) so
@@ -326,6 +340,7 @@ def main():
         "id": r["id"], "type": r["type"], "subject": r["subject"], "company": r["company"],
         "notice": smart_text.get(r["id"]) or reflow(r["notice"]), "noticeat": r["noticeat"],
         "download_raw": "<a href='#'>Download</a>" if r.get("hasDownload") else "",
+        "file_id": (r.get("fileId") or "") if r.get("hasDownload") else "",
         # enrich_notices() (extract_notices_playwright.py) sets these on `raw`
         # so it can skip re-fetching an already-captured notice next run --
         # but they were never carried through into this published row, so
@@ -344,6 +359,7 @@ def main():
     log(f"documents rebuilt ({len(cache_rows)} total rows)")
 
     SEEN_FILE.write_text(json.dumps(sorted({r["id"] for r in raw}, key=lambda x: int(x) if x.isdigit() else 0)))
+    SEEN_FP_FILE.write_text(json.dumps(sorted((seen_fp or set()) | {fingerprint(r) for r in raw})))
     login.logout(cookie)
     log("ERP session closed")
 
