@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-11-07T04:43:39Z",
+ "last_updated": "2026-11-07T06:14:14Z",
  "stats": {
-  "placement": 498,
+  "placement": 499,
   "internship": 864,
   "with_files": 269,
   "listed_downloads": 273
  },
  "categories": {
   "placement": [
+   {
+    "id": "1507",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "HILABS",
+    "notice": "Please find below the link for the Deck Submission for the HILABS Associate Product Manager role. The submission deadline has been extended until 11:00 PM, 7th November 2026.\n\nLink: https://forms.gle/gCB2C1LFC33Pi1wg8\n\nDeadline : 11:00 PM, 7th November, 2026\n\nNo further extension will be provided. The submissions after the given deadline will not be considered for further process.\n\nCDC, IIT Kharagpur",
+    "noticeat": "07-11-2026 11:32",
+    "text_source": "full_notice",
+    "source_hash": "d6731857b804d4e8b03fbd49a32723a99e473a0779d5d1f8a0d70f304af63bf6",
+    "has_download": false
+   },
    {
     "id": "1504",
     "type": "PLACEMENT",
