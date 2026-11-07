@@ -70,6 +70,28 @@ def _newest_otp():
         try: M.logout()
         except Exception: pass
 
+def _otps_since(ts):
+    """How many OTP mails ERP sent at/after ts -- more than the requests this
+    login made means someone else asked for an OTP on the account meanwhile."""
+    M = imaplib.IMAP4_SSL("imap.gmail.com", timeout=25)
+    try:
+        M.login(GMAIL, APP_PW)
+        M.select("INBOX")
+        typ, d = M.search(None, "FROM", OTP_SENDER)
+        n = 0
+        for i in d[0].split()[-15:]:
+            typ, md = M.fetch(i, "(BODY[HEADER.FIELDS (DATE)])")
+            dm = re.search(r"Date:\s*(.+)", md[0][1].decode("utf-8", "ignore"), re.I)
+            try:
+                if dm and email.utils.parsedate_to_datetime(dm.group(1).strip()).timestamp() >= ts - 60:
+                    n += 1
+            except Exception:
+                pass
+        return n
+    finally:
+        try: M.logout()
+        except Exception: pass
+
 def _wait_new_otp(baseline, timeout=90):
     end = time.time() + timeout
     while time.time() < end:
@@ -138,7 +160,9 @@ def login(verbose=False):
     global _NOT_BEFORE
     _NOT_BEFORE = time.time()
     o = s.post(f"{SSO}/getEmilOTP.htm", data=form, timeout=30)
-    if verbose: print("3) OTP request:", o.status_code)
+    if verbose:
+        msg = re.sub(r"[\w.+-]+@[\w.-]+", "<email>", o.text.strip())[:160]
+        print("3) OTP request:", o.status_code, "| ERP says:", msg)
     otp = _wait_new_otp(baseline, timeout=150)
     if not otp:
         if verbose: print("   no OTP within 150s -- resending once...")
@@ -192,7 +216,12 @@ def login(verbose=False):
             txt = re.sub(r"(?is)<input[^>]*>", " ", txt)
             txt = re.sub(r"(?s)<[^>]+>", " ", txt)
             txt = re.sub(r"\s+", " ", txt).strip()
-            print(f"   ERP page says: {txt[:400]!r}")
+            print(f"   ERP page says: {txt[:120]!r}")
+            try:
+                n = _otps_since(_NOT_BEFORE)
+                print(f"   OTP mails since this login started: {n} (this login requested {2 if resent else 1})")
+            except Exception as e:
+                print("   OTP count failed:", e)
         _delete_otp_emails(verbose)
         return None
     _delete_otp_emails(verbose)
