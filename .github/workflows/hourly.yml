@@ -122,7 +122,7 @@ jobs:
         run: |
           git config user.name "placement-watcher-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add seen_notice_ids.json docs/ last_run.json 2>/dev/null || true
+          git add seen_notice_ids.json seen_notice_fps.json docs/ last_run.json 2>/dev/null || true
           git commit -m "chore: hourly update $(date -u +%Y-%m-%dT%H:%M:%SZ)" || echo "nothing to commit"
           # unattended-safe: someone may have pushed meanwhile; rebase then push, retry once
           git pull --rebase --autostash -q || true
