@@ -1,13 +1,36 @@
 {
- "last_updated": "2026-11-07T08:46:31Z",
+ "last_updated": "2026-11-07T09:46:33Z",
  "stats": {
-  "placement": 502,
+  "placement": 504,
   "internship": 864,
-  "with_files": 270,
-  "listed_downloads": 275
+  "with_files": 271,
+  "listed_downloads": 276
  },
  "categories": {
   "placement": [
+   {
+    "id": "1512",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "ExxonMobil",
+    "notice": "Please note that the Online Behavioural Assessment (OBA) has been triggered for all students who have completed their registration on the ExxonMobil company portal.\n\nAll concerned students are required to complete the assessment in a single sitting before the stipulated deadline to be considered for the further recruitment process.\n\nVenue: Respective Locations\n\nDeadline: 8th November 2026, 11:59 AM\n\nKindly ensure that you complete the assessment within the stipulated deadline.\n\nCDC, IIT Kharagpur",
+    "noticeat": "07-11-2026 14:19",
+    "text_source": "full_notice",
+    "source_hash": "f47dfad54ebf4d89a811dea4fe2f5802b55a6983a4e2f69d6392a344e52fcd8c",
+    "has_download": false
+   },
+   {
+    "id": "1511",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "NAVI",
+    "notice": "Please find attached the list of absentees in the tests of Navi for both Tech and Non-Tech Profiles.\n\nThe attendance list has been shared with the respective companies. All students that are found to have appeared in this test remotely without having received prior permission from the CDC Office, take note that you are disqualified from the process for that particular company with immediate effect, i.e. you would not be making it to any of the subsequent rounds of selection to that firm.\n\nIn addition to this, further disciplinary actions will be taken against the individuals indulging in malpractices and bypassing the test guidelines that are communicated to them.\n\nCDC, IIT Kharagpur",
+    "noticeat": "07-11-2026 14:15",
+    "text_source": "full_notice",
+    "source_hash": "78679817e91e769ece7be48a660bf2d17ffccc57870e9f8d772e24bc75baab42",
+    "has_download": true,
+    "file": "files/1511.pdf"
+   },
    {
     "id": "1510",
     "type": "PLACEMENT",
