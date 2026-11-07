@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-11-07T15:25:14Z",
+ "last_updated": "2026-11-07T16:15:47Z",
  "stats": {
-  "placement": 513,
+  "placement": 515,
   "internship": 864,
   "with_files": 275,
   "listed_downloads": 279
  },
  "categories": {
   "placement": [
+   {
+    "id": "1524",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "AIRBUS",
+    "notice": "The Airbus portal registration links of the respective roles, as per the preferences submitted by the candidates, have been shared with all the eligible students on their CDC-registered email IDs.\n\nAll concerned students are advised to complete their registration by 8th November 2026, 11:59 PM. No further extensions will be provided.\n\nCDC, IIT Kharagpur",
+    "noticeat": "07-11-2026 21:29",
+    "text_source": "full_notice",
+    "source_hash": "a6507f40107faee2fc1adec62d0111b296453379267c798d2f32503835441614",
+    "has_download": false
+   },
    {
     "id": "1523",
     "type": "PLACEMENT",
@@ -41,6 +52,17 @@
     "noticeat": "07-11-2026 18:35",
     "text_source": "full_notice",
     "source_hash": "5cdbac3ef393e02d239acfad12cff8b41d09be77917beb812f21d462f16fecf7",
+    "has_download": false
+   },
+   {
+    "id": "1520",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "IQVIA",
+    "notice": "The CV submission of IQVIA for all the roles, has been extended till 4:00 PM, 8th November, 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "07-11-2026 17:59",
+    "text_source": "full_notice",
+    "source_hash": "08fef8c15fcc0688a26f66e6c312da0d6d54ac3adf6ef9ed976e3b4294dc9cee",
     "has_download": false
    },
    {
