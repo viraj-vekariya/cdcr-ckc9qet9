@@ -9,7 +9,7 @@ Notice). Opening Notice.jsp directly, or GETting AdmFilePDF.htm with a plain
 HTTP client, gets 200 / application/pdf / Content-Length: 0 for every id.
 So this replays the menu path in headless Chromium and uses the real download.
 """
-import os
+import json, os
 from pathlib import Path
 from playwright.sync_api import sync_playwright
 
@@ -79,24 +79,71 @@ def _download_all(cookie, ids, log):
 
 
 def sync(cookie, rows, log=print):
-    """rows: placement rows (dicts with id/download_raw). Downloads every
-    attachment not already on disk. Returns {id: Path} for ids that have a file."""
+    """rows: notice rows (dicts with id/download_raw/file_id). Makes sure
+    docs/files/<row id>.pdf holds the attachment of THAT notice. Returns
+    {id: Path} for ids that have a file.
+
+    7 Nov 2026: files used to be keyed only by the grid row id, which ERP
+    renumbered after deleting two test notices -- Fujitsu's PDF stayed under
+    its old id and showed up on a HiLabs notice. manifest.json now records
+    which ERP file id each saved PDF came from; a file whose row now points at
+    a different file id is moved or re-downloaded, and a stale one removed."""
     FILES.mkdir(parents=True, exist_ok=True)
-    have, todo = {}, []
+    mpath = FILES / "manifest.json"
+    try:
+        manifest = json.loads(mpath.read_text())
+    except Exception:
+        manifest = {}
+    # PDFs saved before the manifest existed were fetched with TPNotice(row id),
+    # so their file id is their own name.
+    for f in FILES.glob("*.pdf"):
+        if f.stat().st_size > 0:
+            manifest.setdefault(f.stem, f.stem)
+    holder = {fid: rid for rid, fid in manifest.items() if (FILES / f"{rid}.pdf").exists()}
+    want, unknown = {}, set()
     for r in rows:
-        if not (r.get("download_raw") or "").strip():
-            continue
-        dest = FILES / f"{r['id']}.pdf"
-        if dest.exists() and dest.stat().st_size > 0:
-            have[r["id"]] = dest
+        if (r.get("download_raw") or "").strip():
+            if r.get("file_id"):
+                want[r["id"]] = str(r["file_id"])
+            else:
+                # the Download link didn't expose its file id: old behaviour,
+                # trust an existing file and never treat it as stale
+                want[r["id"]] = manifest.get(r["id"], r["id"])
+                unknown.add(r["id"])
+
+    have, todo, moves = {}, {}, {}
+    for rid, fid in want.items():
+        if rid in unknown and (FILES / f"{rid}.pdf").exists():
+            have[rid] = FILES / f"{rid}.pdf"
+        elif manifest.get(rid) == fid and (FILES / f"{rid}.pdf").exists():
+            have[rid] = FILES / f"{rid}.pdf"
+        elif fid in holder:
+            moves[rid] = holder[fid]
         else:
-            todo.append(r["id"])
+            todo[fid] = rid
+    # read every source first so a move can't clobber another move's source
+    blobs = {rid: (FILES / f"{src}.pdf").read_bytes() for rid, src in moves.items()}
+    for rid, data in blobs.items():
+        (FILES / f"{rid}.pdf").write_bytes(data)
+        manifest[rid] = want[rid]
+        have[rid] = FILES / f"{rid}.pdf"
+        log(f"attachments: notice {rid} file moved from {moves[rid]}.pdf (ERP renumbered it)")
+    # a saved PDF whose row no longer points at that file is stale
+    for rid in list(manifest):
+        p = FILES / f"{rid}.pdf"
+        if rid not in have and p.exists() and manifest.get(rid) != want.get(rid):
+            p.unlink()
+            log(f"attachments: removed stale {rid}.pdf (it belonged to ERP file {manifest[rid]})")
+            manifest.pop(rid)
     if todo:
         try:
-            for nid, data in _download_all(cookie, todo[:MAX_PER_RUN], log).items():
-                dest = FILES / f"{nid}.pdf"
-                dest.write_bytes(data)
-                have[nid] = dest
+            got = _download_all(cookie, list(todo)[:MAX_PER_RUN], log)
+            for fid, data in got.items():
+                rid = todo[fid]
+                (FILES / f"{rid}.pdf").write_bytes(data)
+                manifest[rid] = fid
+                have[rid] = FILES / f"{rid}.pdf"
         except Exception as e:
             log(f"attachments: download pass failed (non-fatal): {str(e)[:120]}")
+    mpath.write_text(json.dumps(manifest, indent=0, sort_keys=True))
     return have
