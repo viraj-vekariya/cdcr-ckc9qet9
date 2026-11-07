@@ -1,13 +1,36 @@
 {
- "last_updated": "2026-11-07T12:45:15Z",
+ "last_updated": "2026-11-07T13:44:55Z",
  "stats": {
-  "placement": 510,
+  "placement": 512,
   "internship": 864,
-  "with_files": 273,
-  "listed_downloads": 277
+  "with_files": 274,
+  "listed_downloads": 278
  },
  "categories": {
   "placement": [
+   {
+    "id": "1522",
+    "type": "PLACEMENT",
+    "subject": "Shortlist",
+    "company": "INDUS INSIGHTS",
+    "notice": "PFA the test shortlist for the assessment of INDUS INSIGHTS for Associate Role, scheduled from 7:45 PM onwards on 7th November, 2026.\n\nImportant \n\nNote: The login window is strictly limited to 10 minutes and will not be extended under any circumstances. All students are therefore required to report to their allotted rooms at least 15 minutes before the scheduled start time and ensure that they log in within the stipulated window.\n\nThe test links have already been shared with all shortlisted applicants on their CDC-registered email IDs. The test instructions have also been shared with the applicants.\n\nAll applicants are requested to thoroughly check their inbox and spam/junk folders for the test link. In case you do not receive the test link even after checking both folders, please fill out the following form:\n\nForm \n\nLink: https://forms.gle/CGGNVowoivocSRpX9\n\nThe room allocation for the assessment will be released shortly.\n\nCDC, IIT Kharagpur",
+    "noticeat": "07-11-2026 18:52",
+    "text_source": "full_notice",
+    "source_hash": "ecbac8133b5ff92f1c8901c75562b7ebde8aa71e3f4c37a78be77ff5dda2d7f6",
+    "has_download": true,
+    "file": "files/1522.pdf"
+   },
+   {
+    "id": "1521",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "MICROSOFT",
+    "notice": "The CV submission of Microsoft for Software Engineer role, has been extended till 4:00 PM, 8th November, 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "07-11-2026 18:35",
+    "text_source": "full_notice",
+    "source_hash": "5cdbac3ef393e02d239acfad12cff8b41d09be77917beb812f21d462f16fecf7",
+    "has_download": false
+   },
    {
     "id": "1519",
     "type": "PLACEMENT",
