@@ -56,7 +56,11 @@ def fetch(cookie_str, headless=True, timeout_ms=60000):
           return data.map(r => ({
             id: r.id, type: strip(r.type).toUpperCase(), subject: strip(r.category),
             company: strip(r.company), notice: strip(r.notice), noticeat: strip(r.noticeat),
-            hasDownload: /Download/i.test(r.view1||'')
+            hasDownload: /Download/i.test(r.view1||''),
+            // 7 Nov 2026: the grid's row id is NOT stable (ERP renumbered rows
+            // after deleting two test notices) and is not always the file id.
+            // The Download link's own TPNotice(year, id) argument is.
+            fileId: (function(){ const m = /TPNotice\\(\\s*['"]?[^'",)]*['"]?\\s*,\\s*['"]?([^'",)\\s]+)/.exec(r.view1||''); return m ? m[1] : null; })()
           }));
         }
         """)
