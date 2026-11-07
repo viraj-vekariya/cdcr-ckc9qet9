@@ -1,13 +1,36 @@
 {
- "last_updated": "2026-11-07T10:44:10Z",
+ "last_updated": "2026-11-07T11:45:40Z",
  "stats": {
-  "placement": 504,
+  "placement": 506,
   "internship": 864,
-  "with_files": 272,
-  "listed_downloads": 276
+  "with_files": 273,
+  "listed_downloads": 277
  },
  "categories": {
   "placement": [
+   {
+    "id": "1515",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "EXL SERVICE",
+    "notice": "All the students who have applied for the EXL Service Analytics - Consultant role need to register on the Hirepro Portal.\n\nStudents are required to complete their registration on the portal by 7th November 2026, 7:00 PM. The link has already been shared over the CDC Registered Email ID with the students.\n\nThis is the final extension, and no further extension will be provided. Students who have already completed their registration need not register again.\n\nPlease note that registrations not completed within the deadline will not be considered for further process.\n\nCDC, IIT Kharagpur",
+    "noticeat": "07-11-2026 16:45",
+    "text_source": "full_notice",
+    "source_hash": "22542b55ccf31a03fd49dd16d5e5f2af0ede3fe436fee763661e8e412735cb94",
+    "has_download": false
+   },
+   {
+    "id": "1513",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "BLACKROCK",
+    "notice": "PFA the test room allocation for the Assessment of Blackrock, scheduled from 4:30 PM onwards on 7th November, 2026.\n\nVenue: Nalanda Classroom Complex\n\nStudents are required to carry their original Institute ID card, failing which students will not be permitted to sit for the test.\n\nNote: The test link has already been shared with candidates through their CDC-registered email IDs. The link will be activated at 4:30 PM.\n\nPlease carry your laptops, pens, and papers.\n\nStudents are requested to report 15 minutes prior to the reporting time.\n\nPOC: Aditya Ghandge (+91 9325468252), Nikita Sinha(+91 9969207598)\n\nCDC, IIT Kharagpur",
+    "noticeat": "07-11-2026 16:11",
+    "text_source": "full_notice",
+    "source_hash": "765f8bef909b97cdc93ff696654eb4bc37dfdf78159e84c29e6bc046b84957a9",
+    "has_download": true,
+    "file": "files/1513.pdf"
+   },
    {
     "id": "1512",
     "type": "PLACEMENT",
