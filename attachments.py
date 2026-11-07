@@ -128,13 +128,6 @@ def sync(cookie, rows, log=print):
         manifest[rid] = want[rid]
         have[rid] = FILES / f"{rid}.pdf"
         log(f"attachments: notice {rid} file moved from {moves[rid]}.pdf (ERP renumbered it)")
-    # a saved PDF whose row no longer points at that file is stale
-    for rid in list(manifest):
-        p = FILES / f"{rid}.pdf"
-        if rid not in have and p.exists() and manifest.get(rid) != want.get(rid):
-            p.unlink()
-            log(f"attachments: removed stale {rid}.pdf (it belonged to ERP file {manifest[rid]})")
-            manifest.pop(rid)
     if todo:
         try:
             got = _download_all(cookie, list(todo)[:MAX_PER_RUN], log)
@@ -145,5 +138,22 @@ def sync(cookie, rows, log=print):
                 have[rid] = FILES / f"{rid}.pdf"
         except Exception as e:
             log(f"attachments: download pass failed (non-fatal): {str(e)[:120]}")
+    # 7 Nov 2026 (second fix): only remove a saved PDF when ERP lists NO
+    # attachment for that notice any more. A mismatched file is replaced only
+    # once a real replacement downloaded -- the first version deleted the only
+    # copy of Fujitsu's PDF (ERP's own Download for it serves 0 bytes) and the
+    # files of notices that had simply dropped off the board.
+    listed = {r["id"]: bool((r.get("download_raw") or "").strip()) for r in rows}
+    for rid in list(manifest):
+        p = FILES / f"{rid}.pdf"
+        if rid in have or not p.exists():
+            continue
+        if listed.get(rid) is False:
+            p.unlink()
+            log(f"attachments: removed {rid}.pdf -- that notice now lists no attachment (ERP renumbered it)")
+            manifest.pop(rid)
+        elif listed.get(rid):
+            have[rid] = p
+            log(f"attachments: kept {rid}.pdf (from ERP file {manifest[rid]}); ERP file {want.get(rid)} could not be fetched")
     mpath.write_text(json.dumps(manifest, indent=0, sort_keys=True))
     return have
