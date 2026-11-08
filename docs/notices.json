@@ -1,13 +1,68 @@
 {
- "last_updated": "2026-11-08T15:16:55Z",
+ "last_updated": "2026-11-08T16:19:34Z",
  "stats": {
-  "placement": 518,
+  "placement": 523,
   "internship": 864,
   "with_files": 277,
   "listed_downloads": 281
  },
  "categories": {
   "placement": [
+   {
+    "id": "1532",
+    "type": "PLACEMENT",
+    "subject": "Schedule",
+    "company": "CDC Placement Schedule for 9th November 2026",
+    "notice": "All students eligible for placement are advised to take note of the tentative placement schedule for Monday, 9th November 2026 (and early morning of 10th November 2026).\n\n1.[TEST] ACCENTURE AI (Profile : AI and Data ) (6:00 PM \u2013 7:30 PM)\n\n2.[TEST] PINELABS (Profile : Software Development Engineer) (8:00 PM \u2013 9:30 PM)\n\n3.[TEST] AIRBUS (Profile : All Profiles ) (10:00 PM \u2013 12:00 AM)\n\n4.[TEST] PRODIGAL (Profile : Applied AI) (2:00 AM \u2013 4:30 AM, 10th November)\n\n5.[TEST] PRODIGAL (Profile : Associate Consultant ) (4:30 AM \u2013 5:30 AM, 10th November)\n\nNote: Links to the assessments and other relevant details will be shared separately. Room allocations and other necessary instructions for the tests will be communicated prior to the respective assessments.\n\nCDC, IIT Kharagpur",
+    "noticeat": "08-11-2026 21:09",
+    "text_source": "full_notice",
+    "source_hash": "e4b5c51fa7e620b19456b9220424087a44da88da3009b78ceb100e8ff45b4ffd",
+    "has_download": false
+   },
+   {
+    "id": "1531",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "Multiple Companies",
+    "notice": "The following companies are open for CV Submission till 4:00 PM, 9th November, 2026.\n\n1. HAKIMO AI (All Profiles)\n\n2. TEKION INDIA PVT LTD (Profile: Associate Software Engineer)\n\n3. AURONOVA CONSULTING (Profile: Analyst)\n\n4. PHYAGENTS INC. (All Profiles)\n\n5. AIRAMATRIX PRIVATE LIMITED (Profile: Trainee Engineer)\n\n6. TAKSHASHILA CONSULTING (Profile: Business Analyst)\n\n7. AVATHON (All Profiles)\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "08-11-2026 20:04",
+    "text_source": "full_notice",
+    "source_hash": "8bcf3b395bfff6acba5a10dba5a18c647a760eea09144543acb3bd88459320c3",
+    "has_download": false
+   },
+   {
+    "id": "1530",
+    "type": "PLACEMENT",
+    "subject": "Date extension",
+    "company": "IQVIA",
+    "notice": "The CV submission of IQVIA for all the roles has been extended till 11:59 AM, 9th November 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "08-11-2026 20:04",
+    "text_source": "full_notice",
+    "source_hash": "b5f997ad2617ba0aae2f094b8e0850d6663b54dcae474e6e01828224685d9e39",
+    "has_download": false
+   },
+   {
+    "id": "1529",
+    "type": "PLACEMENT",
+    "subject": "Date extension",
+    "company": "Multiple Companies",
+    "notice": "The following companies are open for CV Submission till 4:00 PM, 9th November, 2026.\n\n1. NOVARTIS (Profile: AI Specialist/Expert)\n\n2. NUTANIX (All Profiles)\n\n3. COGNIZANT (All Profiles)\n\n4. IDFC FIRST BANK (All Profiles)\n\n5. PAYTM (Profile : Software Engineer)\n\n6. NOBROKER (All Profiles)\n\n7. MICROSOFT (Profile: Software Engineer)\n\n8. ROYAL TIER MASON (Profile: Designer)\n\n9. LANDEED (All Profiles)\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "08-11-2026 20:03",
+    "text_source": "full_notice",
+    "source_hash": "5916c28f2dde2c9ef4e12a17b531bf5f775bffbaa9d89a2779331b6f20f26558",
+    "has_download": false
+   },
+   {
+    "id": "1528",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "ITC Limited",
+    "notice": "All the shortlisted students are requested to complete the ITC assessment by 10:00 AM, 9th November, 2026.\n\nThe test link has been triggered to the students on their email IDs.\n\nNote: Those who are facing the issue, please share a screenshot or video of the issue along with your email ID and roll number with the respective POC.\n\nVenue: Respective Location\n\nPOC: Aditi (+91 8815395895)\n\nCDC, IIT Kharagpur",
+    "noticeat": "08-11-2026 17:49",
+    "text_source": "full_notice",
+    "source_hash": "2945ca2b561f01f99c5f52d4c064a9b2089339b22eb8715272eb7e095f8286b3",
+    "has_download": false
+   },
    {
     "id": "1527",
     "type": "PLACEMENT",
