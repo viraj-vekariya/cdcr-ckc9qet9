@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-08T13:16:03.674292+00:00",
+  "last_updated": "2026-11-08T14:16:13.191572+00:00",
   "companies": [
     {
       "company": "Accenture India Private Limited",
@@ -1374,7 +1374,7 @@
       "resume_start": "2026-11-07 16:58",
       "resume_end": "2026-11-08 16:00",
       "interview": "",
-      "is_applied": false,
+      "is_applied": true,
       "form_type": "PLACEMENT",
       "cgpa_cutoff": "7.0",
       "description": "The Applied Scientist at NoBroker.com / ConvoZen.AI will work on the research, development and deployment of advanced AI and data science products impacting millions of users. The role involves conducting research on state-of-the-art AI algorithms, particularly Large Language Models (LLMs), Text-to-Speech (TTS), Speech-to-Text (STT) and Speech-to-Speech (STS) technologies. The candidate will design, build and deploy scalable end-to-end AI systems, including fine-tuning and optimisation of LLMs and multimodal models for real-time conversational AI applications. The role also involves analysing large and complex datasets to identify opportunities for automation and product optimisation, and collaborating with software engineers, product managers and research scientists to translate research into production-ready features. Candidates may also work on academic collaborations and research publications while leveraging generative AI, distributed systems and modern machine learning frameworks to develop robust and scalable AI solutions.\nView More Details\nClick Here for more details",
@@ -1395,7 +1395,7 @@
       "resume_start": "2026-11-07 16:59",
       "resume_end": "2026-11-08 16:00",
       "interview": "",
-      "is_applied": false,
+      "is_applied": true,
       "form_type": "PLACEMENT",
       "cgpa_cutoff": "7.0",
       "description": "Work with the Data Science & Machine Learning team on large-scale datasets and production-oriented ML problems. Responsibilities include developing and maintaining ML models and heuristic algorithms, validation, monitoring, deployment and upgrades of existing models, working with distributed systems and diverse data such as tabular, image, text, geospatial and audio data, and developing efficient production-grade algorithms impacting millions of users.\nView More Details\nClick Here for more details",
@@ -1416,7 +1416,7 @@
       "resume_start": "2026-11-03 16:18",
       "resume_end": "2026-11-08 16:00",
       "interview": "",
-      "is_applied": false,
+      "is_applied": true,
       "form_type": "PLACEMENT",
       "cgpa_cutoff": "0.0",
       "description": "The AI for Research (AI4R) team leads BR in exploring and applying advanced AI and machine learning to generate novel drug-discovery insights and make discovery faster, smarter, and more focused on patients' needs. We partner directly with drug-discovery teams, raise AI expertise across BR, and stay at the frontier by connecting with AI leaders in academia and industry. As an AI Specialist joining early in your career, you will design and build AI that helps discover tomorrow's medicines. You'll work alongside experienced AI engineers, ML-methods researchers, and rapid-prototyping builders on the same class of models and problems that define the field at the world's leading AI labs \u2013 but here, pointed at a goal that matters: real therapies for real patients. We don't yet know whether your strengths lean toward engineering robust systems, inventing new ML methods, rapidly building agentic AI workflows, or bridging AI with biology and chemistry to keep the science rigorous \u2013 and that's by design. We hire for talent, curiosity, and raw ability, and we will help you grow into where you shine.\nView More Details\nClick Here for more details",
