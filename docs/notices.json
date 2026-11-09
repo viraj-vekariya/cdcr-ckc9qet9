@@ -1,13 +1,35 @@
 {
- "last_updated": "2026-11-09T10:13:34Z",
+ "last_updated": "2026-11-09T11:15:57Z",
  "stats": {
-  "placement": 524,
+  "placement": 527,
   "internship": 864,
   "with_files": 277,
   "listed_downloads": 281
  },
  "categories": {
   "placement": [
+   {
+    "id": "1537",
+    "type": "PLACEMENT",
+    "subject": "Re-schedule",
+    "company": "CDC Placement Schedule for 9th November 2026",
+    "notice": "All students eligible for placement are advised to take note of the revised tentative placement schedule for Monday, 9th November 2026 (and early morning of 10th November 2026).\n\n1.[TEST] ACCENTURE AI (Profile : AI and Data ) (6:00 PM \u2013 7:30 PM)\n\n2.[TEST] PINELABS (Profile : Software Development Engineer) (8:00 PM \u2013 9:30 PM)\n\n3.[TEST] URBAN COMPANY (Profile : Senior Category Manager) (12:30 AM \u2013 1:30 AM, 10th November)\n\n4.[TEST] PRODIGAL (Profile : Applied AI) (2:00 AM \u2013 4:30 AM, 10th November)\n\n5.[TEST] PRODIGAL (Profile : Associate Consultant ) (4:30 AM \u2013 5:30 AM, 10th November)\n\nNote: Links for the assessments and other relevant details will be shared separately. Room allocations and other necessary instructions for the tests will be communicated prior to the respective assessments.\n\nCDC, IIT Kharagpur",
+    "noticeat": "09-11-2026 16:17",
+    "text_source": "full_notice",
+    "source_hash": "3471b56d9ee29636973c7eb8db06f117d5b6b51592fae2bbba1ce9caf29b1b83",
+    "has_download": false
+   },
+   {
+    "id": "1535",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "AIRBUS INDIA PRIVATE LIMITED",
+    "notice": "Please note that the Test for Airbus India has been postponed until furthur notice.\n\nCDC, IIT Kharagpur",
+    "noticeat": "09-11-2026 16:06",
+    "text_source": "full_notice",
+    "source_hash": "c0d0f8bae7f8dec3db69af769506b20aed636c7ca4938d887f62730ee1341884",
+    "has_download": false
+   },
    {
     "id": "1534",
     "type": "PLACEMENT",
@@ -17,6 +39,17 @@
     "noticeat": "09-11-2026 13:51",
     "text_source": "full_notice",
     "source_hash": "1dbaaa9fa55fdfee5f13c84c158e60a94c3fce66378b805fb94ff16304c464f1",
+    "has_download": false
+   },
+   {
+    "id": "1533",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "ITC Limited",
+    "notice": "All the shortlisted students are requested to complete the ITC assessment by 2:00 PM, 9th November, 2026.\n\nThe test link has been triggered to the students on their email IDs.\n\nNote: Those who are facing the issue, please share a screenshot or video of the issue along with your email ID and roll number with the respective POC.\n\nVenue: Respective Location\n\nPOC: Aditi (+91 8815395895)\n\nCDC, IIT Kharagpur",
+    "noticeat": "09-11-2026 12:00",
+    "text_source": "full_notice",
+    "source_hash": "1a888749123addf323f6ae37ddee4674f34a2aa0c6ff0fba9555a731b59d7c06",
     "has_download": false
    },
    {
