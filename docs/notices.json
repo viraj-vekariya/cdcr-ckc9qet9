@@ -1,13 +1,25 @@
 {
- "last_updated": "2026-11-09T20:13:57Z",
+ "last_updated": "2026-11-09T21:15:09Z",
  "stats": {
-  "placement": 535,
+  "placement": 536,
   "internship": 864,
-  "with_files": 279,
-  "listed_downloads": 283
+  "with_files": 280,
+  "listed_downloads": 284
  },
  "categories": {
   "placement": [
+   {
+    "id": "1549",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "PRODIGAL",
+    "notice": "PFA the test shortlist for the Assessment of Prodigal for the Applied AI role, scheduled from 2:10 AM onwards on 10th November, 2026.\n\nVenue: Nalanda Classroom Complex\n\nStudents are requested to report 15 minutes prior to the reporting time.\nThe Room allocation for the test will be released shortly.\n\nPOC: Devansh (+91 7999892181), Zalavadiya Dishil(+91 9925492574)\n\nCDC, IIT Kharagpur",
+    "noticeat": "10-11-2026 01:53",
+    "text_source": "full_notice",
+    "source_hash": "f797191aed06db8d43049ed570c81527ccb4c5133515ed9b924be55eea35ada1",
+    "has_download": true,
+    "file": "files/1549.pdf"
+   },
    {
     "id": "1547",
     "type": "PLACEMENT",
