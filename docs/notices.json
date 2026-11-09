@@ -1,23 +1,24 @@
 {
- "last_updated": "2026-11-09T13:13:58Z",
+ "last_updated": "2026-11-09T14:14:39Z",
  "stats": {
   "placement": 532,
   "internship": 864,
-  "with_files": 277,
-  "listed_downloads": 281
+  "with_files": 278,
+  "listed_downloads": 282
  },
  "categories": {
   "placement": [
    {
-    "id": "1542",
+    "id": "1543",
     "type": "PLACEMENT",
     "subject": "Urgent",
-    "company": "CAPGEMINI",
-    "notice": "Students who have applied for Capgemini through ERP are required to complete their registration on the company portal using the link provided below.\n\nPortal \n\nLink: https://app.joinsuperset.com/join/#/signup/student?jp=1f4f633e-5ae5-4dca-81d7-572ca65ea7f7\n\nNote: Students must register using their CDC-registered email ID. This registration is mandatory for further consideration in the recruitment process.\n\nCDC, IIT Kharagpur",
-    "noticeat": "09-11-2026 18:32",
+    "company": "PINE LABS",
+    "notice": "PFA the test room allocation for the Assessment of Pine Labs, scheduled from 8:00 PM onwards on 9th November, 2026.\n\nVenue: Nalanda Classroom Complex\n\nThe test link has been shared with the shortlisted students on their CDC registered email IDs.\n\nStudents are requested to report 15 minutes prior to the scheduled start time.\n\nPOC: Aditya(+91 9325468252), Himanshu(+91 9311332376)\n\nCDC, IIT Kharagpur",
+    "noticeat": "09-11-2026 19:01",
     "text_source": "full_notice",
-    "source_hash": "96cd515b2ce6afcaacac584c96fccd1e55476514b63dc477f62126edab1000a3",
-    "has_download": false
+    "source_hash": "73e9aced55694ed8fc926f200ab66a17477f6cc3b835bdcc7526a1d9e0ac8c84",
+    "has_download": true,
+    "file": "files/1543.pdf"
    },
    {
     "id": "1541",
