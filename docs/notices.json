@@ -1,13 +1,25 @@
 {
- "last_updated": "2026-11-09T22:15:22Z",
+ "last_updated": "2026-11-09T23:14:18Z",
  "stats": {
-  "placement": 539,
+  "placement": 540,
   "internship": 864,
-  "with_files": 283,
-  "listed_downloads": 287
+  "with_files": 284,
+  "listed_downloads": 288
  },
  "categories": {
   "placement": [
+   {
+    "id": "1552",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "PRODIGAL",
+    "notice": "PFA the test room allocation for the Assessment of Prodigal for the Associate Consultant role, scheduled from 4:40 AM onwards on 10th November, 2026.\n\nVenue: Nalanda Classroom Complex\n\nStudents are required to carry their original Institute ID card, failing which students will not be permitted to sit for test.\n\nPlease carry your laptops, pens, and papers.\n\nStudents are requested to report 15 minutes prior to the reporting time.\n\nPOC: Devansh (+91 7999892181), Zalavadiya Dishil(+91 9925492574)\n\nCDC, IIT Kharagpur",
+    "noticeat": "10-11-2026 03:28",
+    "text_source": "full_notice",
+    "source_hash": "53d624986a3c0799e3a3348810b91b1582d2f189c3c9a703b7cb5d8155cb4eb5",
+    "has_download": true,
+    "file": "files/1552.pdf"
+   },
    {
     "id": "1551",
     "type": "PLACEMENT",
