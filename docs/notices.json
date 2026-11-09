@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-11-09T12:16:16Z",
+ "last_updated": "2026-11-09T13:13:58Z",
  "stats": {
-  "placement": 531,
+  "placement": 532,
   "internship": 864,
   "with_files": 277,
   "listed_downloads": 281
  },
  "categories": {
   "placement": [
+   {
+    "id": "1542",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "CAPGEMINI",
+    "notice": "Students who have applied for Capgemini through ERP are required to complete their registration on the company portal using the link provided below.\n\nPortal \n\nLink: https://app.joinsuperset.com/join/#/signup/student?jp=1f4f633e-5ae5-4dca-81d7-572ca65ea7f7\n\nNote: Students must register using their CDC-registered email ID. This registration is mandatory for further consideration in the recruitment process.\n\nCDC, IIT Kharagpur",
+    "noticeat": "09-11-2026 18:32",
+    "text_source": "full_notice",
+    "source_hash": "96cd515b2ce6afcaacac584c96fccd1e55476514b63dc477f62126edab1000a3",
+    "has_download": false
+   },
    {
     "id": "1541",
     "type": "PLACEMENT",
@@ -24,7 +35,7 @@
     "type": "PLACEMENT",
     "subject": "Date extension",
     "company": "Multiple Companies",
-    "notice": "The CV Submission of the following companies has been extended till:\nTime: 4:00 PM\nDate: 10th November, 2026\n\nCompanies:\n\n1. HAKIMO AI\nProfile: All Profiles\n\n2. TEKION INDIA PVT LTD\nProfile: Associate Software Engineer\n\n3. AURONOVA CONSULTING\nProfile: Analyst\n\n4. PHYAGENTS INC.\nProfile: All Profiles\n\n5. AIRAMATRIX PRIVATE LIMITED\nProfile: Trainee Engineer\n\n6. TAKSHASHILA CONSULTING\nProfile: Business Analyst\n\n7. AVATHON\nProfile: All Profiles\n\n8. LANDEED\nProfile: All Profiles\n\n9. IDFC FIRST BANK\nProfile: All Profiles\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "notice": "The CV Submission of the following companies has been extended till:\nTime: 4:00 PM\n\nDate: 10th November, 2026\n\nCompanies:\n\n1. HAKIMO AI\nProfile: All Profiles\n\n2. TEKION INDIA PVT LTD\nProfile: Associate Software Engineer\n\n3. AURONOVA CONSULTING\nProfile: Analyst\n\n4. PHYAGENTS INC.\nProfile: All Profiles\n\n5. AIRAMATRIX PRIVATE LIMITED\nProfile: Trainee Engineer\n\n6. TAKSHASHILA CONSULTING\nProfile: Business Analyst\n\n7. AVATHON\nProfile: All Profiles\n\n8. LANDEED\nProfile: All Profiles\n\n9. IDFC FIRST BANK\nProfile: All Profiles\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
     "noticeat": "09-11-2026 16:57",
     "text_source": "full_notice",
     "source_hash": "6c54e88f225e2756e64526d1ec5d1bf8b784a403a80009f116aeac7fab5ca8e7",
