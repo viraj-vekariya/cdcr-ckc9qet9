@@ -1,13 +1,25 @@
 {
- "last_updated": "2026-11-09T15:14:24Z",
+ "last_updated": "2026-11-09T16:17:30Z",
  "stats": {
-  "placement": 534,
+  "placement": 535,
   "internship": 864,
-  "with_files": 278,
-  "listed_downloads": 282
+  "with_files": 279,
+  "listed_downloads": 283
  },
  "categories": {
   "placement": [
+   {
+    "id": "1546",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "URBAN COMPANY",
+    "notice": "PFA the test shortlist for the Assessment of Urban Company for the Senior Category Manager role, scheduled from 12:15 AM onwards on 10th November, 2026.\n\nVenue: Nalanda Classroom Complex\n\nStudents are requested to report 15 minutes prior to the reporting time.\n\nPOC: Vatsal (+91 9234457393), Rudra (+91 8235755257)\n\nCDC, IIT Kharagpur",
+    "noticeat": "09-11-2026 21:20",
+    "text_source": "full_notice",
+    "source_hash": "553d4b1ae10a46b64673651816d50c2f021ffcda390fbfcc5eaa6aa83e909f79",
+    "has_download": true,
+    "file": "files/1546.pdf"
+   },
    {
     "id": "1545",
     "type": "PLACEMENT",
