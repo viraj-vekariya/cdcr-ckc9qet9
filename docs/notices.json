@@ -1,13 +1,37 @@
 {
- "last_updated": "2026-11-09T21:15:09Z",
+ "last_updated": "2026-11-09T22:15:22Z",
  "stats": {
-  "placement": 536,
+  "placement": 539,
   "internship": 864,
-  "with_files": 280,
-  "listed_downloads": 284
+  "with_files": 283,
+  "listed_downloads": 287
  },
  "categories": {
   "placement": [
+   {
+    "id": "1551",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "PRODIGAL",
+    "notice": "PFA the test shortlist for the Assessment of Prodigal for the Associate Consultant role, scheduled from 4:40 AM onwards on 10th November, 2026.\n\nVenue: Nalanda Classroom Complex\n\nStudents are requested to report 15 minutes prior to the reporting time.\n\nPOC: Devansh (+91 7999892181), Zalavadiya Dishil(+91 9925492574)\n\nCDC, IIT Kharagpur",
+    "noticeat": "10-11-2026 03:12",
+    "text_source": "full_notice",
+    "source_hash": "92b499c4c54faa3994bd268a60ee4a0b7c1cf45ed39b969d016ffc23ef572db3",
+    "has_download": true,
+    "file": "files/1551.pdf"
+   },
+   {
+    "id": "1550",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "PRODIGAL",
+    "notice": "PFA the test room allocation for the Assessment of Prodigal for the Applied AI role, scheduled from 2:10 AM onwards on 10th November, 2026.\n\nVenue: Nalanda Classroom Complex\n\nStudents are required to carry their original Institute ID card, failing which students will not be permitted to sit for test.\n\nPlease carry your laptops, pens, and papers.\n\nStudents are requested to report 15 minutes prior to the reporting time.\n\nPOC: Devansh (+91 7999892181), Zalavadiya Dishil(+91 9925492574)\n\nCDC, IIT Kharagpur",
+    "noticeat": "10-11-2026 01:59",
+    "text_source": "full_notice",
+    "source_hash": "5cb905804e1cc0cf3ff7b254429fae5bd9c3fcbe68b4e964be2e903c85830d84",
+    "has_download": true,
+    "file": "files/1550.pdf"
+   },
    {
     "id": "1549",
     "type": "PLACEMENT",
@@ -19,6 +43,18 @@
     "source_hash": "f797191aed06db8d43049ed570c81527ccb4c5133515ed9b924be55eea35ada1",
     "has_download": true,
     "file": "files/1549.pdf"
+   },
+   {
+    "id": "1548",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "URBAN COMPANY",
+    "notice": "PFA the test room allocation for the Assessment of Urban Company for the Senior Category Manager role, scheduled from 12:15 AM onwards on 9th November, 2026.\n\nVenue: Nalanda Classroom Complex\n\nThe test link will be shared with the shortlisted students on their CDC registered email IDs.\n\nStudents are requested to report 15 minutes prior to the scheduled start time.\n\nPOC: Vatsal (+91 9234457393), Rudra (+91 8235755257)\n\nCDC, IIT Kharagpur",
+    "noticeat": "09-11-2026 23:51",
+    "text_source": "full_notice",
+    "source_hash": "cddb302c00f7241fb5d872cd05f21b253116ace1ba5157baf0cff727ae55bbe4",
+    "has_download": true,
+    "file": "files/1548.pdf"
    },
    {
     "id": "1547",
