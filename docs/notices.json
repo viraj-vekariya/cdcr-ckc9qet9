@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-11-09T08:12:45Z",
+ "last_updated": "2026-11-09T09:13:45Z",
  "stats": {
-  "placement": 523,
+  "placement": 524,
   "internship": 864,
   "with_files": 277,
   "listed_downloads": 281
  },
  "categories": {
   "placement": [
+   {
+    "id": "1534",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "ExxonMobil",
+    "notice": "Please note that the deadline for completing the Online Behavioural Assessment (OBA) has been extended to 9th November 2026, 8:00 PM.\n\nAll concerned students are required to complete the assessment in a single sitting before the revised deadline to be considered for the further recruitment process.\n\nVenue: Respective Locations\nRevised \n\nDeadline: 9th November 2026, 8:00 PM\n\nKindly ensure that you complete the assessment within the revised deadline.\n\nCDC, IIT Kharagpur",
+    "noticeat": "09-11-2026 13:51",
+    "text_source": "full_notice",
+    "source_hash": "1dbaaa9fa55fdfee5f13c84c158e60a94c3fce66378b805fb94ff16304c464f1",
+    "has_download": false
+   },
    {
     "id": "1532",
     "type": "PLACEMENT",
