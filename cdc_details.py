@@ -14,6 +14,7 @@ from notice_text import detail_body
 BASE = Path(__file__).resolve().parent
 ROOT = 'https://erp.iitkgp.ac.in/TrainingPlacementSSO/'
 YEAR = os.environ.get('ERP_YEAR', '2026-2027')
+DETAIL_BUDGET_S = 300  # 9 Nov 2026: time for JD/company dialogs per run; the rest wait for the next run
 
 DEPT_HEADING = re.compile(r'^[A-Z][A-Z0-9 &,./()\-]+$')
 
@@ -225,26 +226,47 @@ def capture_companies(context):
         if total > app.locator('#grid37 tr.jqgrow').count():
             app.evaluate('n => jQuery("#grid37").jqGrid("setGridParam",{rowNum:n, page:1}).trigger("reloadGrid")', total)
             try:
-                app.wait_for_function(f'jQuery("#grid37 tr.jqgrow").length >= {total}', timeout=20000)
+                app.wait_for_function(f'jQuery("#grid37 tr.jqgrow").length >= {total}', timeout=60000)
             except Exception:
                 pass
         rows = app.locator('#grid37 tr.jqgrow')
         print(f'Opportunities: {rows.count()} rows read, ERP reports {total}')
-        for index in range(min(rows.count(), 80)):
-            row = rows.nth(index)
-            def cell(field):
-                return row.locator(f'[aria-describedby="grid37_{field}"]').inner_text().strip()
-            company = cell('companyname')
-            role = cell('designation')
-            item = dict(company=company, role=role, ctc=cell('ctc'), currency=cell('Currency'),
-                        resume_start=cell('resumedeadline_st'), resume_end=cell('resumedeadline'),
-                        interview=cell('interview_date_confirmed'), is_applied=None,
-                        form_type='', cgpa_cutoff='', description='',
+        # 9 Nov 2026: no row cap (was 80; ERP had 102). Every row's grid cells
+        # are read in one pass; the slow part -- two detail dialogs per row,
+        # ~5 s -- runs only for new/incomplete rows plus the stalest ones,
+        # within DETAIL_BUDGET_S, so 800+ roles never blow the job timeout.
+        # Rows not refreshed this run keep their earlier details (carry-over
+        # below) and get their turn in a later run.
+        grid = app.evaluate("""() => Array.from(document.querySelectorAll('#grid37 tr.jqgrow')).map(tr => {
+            const c = f => { const td = tr.querySelector('[aria-describedby="grid37_' + f + '"]'); return td ? td.innerText.trim() : ''; };
+            return {company: c('companyname'), role: c('designation'), ctc: c('ctc'), currency: c('Currency'),
+                    resume_start: c('resumedeadline_st'), resume_end: c('resumedeadline'),
+                    interview: c('interview_date_confirmed')};
+        })""")
+        try:
+            old_by_id = {c['id']: c for c in json.loads((BASE / 'docs/companies.json').read_text())['companies']}
+        except (OSError, ValueError, KeyError):
+            old_by_id = {}
+        for g in grid:
+            item = dict(g, is_applied=None, form_type='', cgpa_cutoff='', description='',
                         eligibility_summary='', eligibility_full='',
                         details='', company_details='', more_details='', more_details_url='')
-            item['id'] = hashlib.sha256((company + '\n' + role).encode()).hexdigest()[:16]
+            item['id'] = hashlib.sha256((g['company'] + '\n' + g['role']).encode()).hexdigest()[:16]
+            item['checked_at'] = old_by_id.get(item['id'], {}).get('checked_at', '')
             results.append(item)
-
+        def needs_detail(i):
+            prev = old_by_id.get(results[i]['id'], {})
+            return not (prev.get('details') and prev.get('company_details'))
+        order = sorted(range(len(results)), key=lambda i: (not needs_detail(i), results[i]['checked_at']))
+        started, company_cache, done = time.monotonic(), {}, 0
+        for index in order:
+            if time.monotonic() - started > DETAIL_BUDGET_S:
+                break
+            item = results[index]
+            company = item['company']
+            row = rows.nth(index)
+            done += 1
+            item['checked_at'] = datetime.datetime.now(datetime.timezone.utc).isoformat()
             # Detail dialogs enrich the card but never prevent the grid data
             # from reaching the site.
             try:
@@ -284,6 +306,9 @@ def capture_companies(context):
                 except Exception:
                     pass
 
+            if company in company_cache:
+                item['company_details'] = company_cache[company]
+                continue
             try:
                 row.locator('[aria-describedby="grid37_companyname"] a').click()
                 app.locator('iframe[src*="TPComView.jsp"]').wait_for(state='attached', timeout=20000)
@@ -291,6 +316,7 @@ def capture_companies(context):
                 if 'Company Details' not in body:
                     raise RuntimeError(f'company page has no "Company Details" ({len(body)} chars)')
                 item['company_details'] = body.replace('Print This Page', '').strip()
+                company_cache[company] = item['company_details']
             except Exception as exc:
                 print(f'Company detail unavailable for {company}: {type(exc).__name__}: {str(exc)[:600]}')
             finally:
@@ -302,6 +328,7 @@ def capture_companies(context):
                     app.evaluate('document.querySelectorAll(\'iframe[src*="TPComView.jsp"]\').forEach(f => f.remove())')
                 except Exception:
                     pass
+        print(f'Detail pages opened for {done}/{len(results)} roles this run (budget {DETAIL_BUDGET_S}s)')
         # A failed detail fetch must never erase details captured earlier
         # (6 Oct 2026: hourly runs blanked the manually captured JD/company
         # pages within an hour). Carry over any field this run left empty.
