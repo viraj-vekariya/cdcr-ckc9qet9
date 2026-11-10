@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-11-10T09:15:42Z",
+ "last_updated": "2026-11-10T10:45:32Z",
  "stats": {
-  "placement": 545,
+  "placement": 546,
   "internship": 864,
   "with_files": 284,
   "listed_downloads": 288
  },
  "categories": {
   "placement": [
+   {
+    "id": "1558",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "GOLDMAN SACHS",
+    "notice": "All the students that have applied on erp, for the Quantitative Strategist Role for Goldman Sachs are required to apply on the following Company Portal as well.\n\nLink: https://hdpc.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CampusHiring/job/170478/?utm_medium=jobshare&utm_source=External+Job+Share\n\nDeadline: 4:00 PM, 11th November, 2026\n\nAll students are advised to apply on the Company Portal with their CDC Registered Email ID.\n\nCDC, IIT Kharagpur.",
+    "noticeat": "10-11-2026 15:07",
+    "text_source": "full_notice",
+    "source_hash": "7d5c0d0c60b7930e3187b0105e0902bfca68e277aa7885b7353da37cadc4d42b",
+    "has_download": false
+   },
    {
     "id": "1557",
     "type": "PLACEMENT",
