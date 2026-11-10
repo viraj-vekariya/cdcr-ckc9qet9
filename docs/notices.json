@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-11-10T03:14:44Z",
+ "last_updated": "2026-11-10T04:15:57Z",
  "stats": {
-  "placement": 541,
+  "placement": 542,
   "internship": 864,
   "with_files": 284,
   "listed_downloads": 288
  },
  "categories": {
   "placement": [
+   {
+    "id": "1554",
+    "type": "PLACEMENT",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "NOVARTIS",
+    "notice": "The Pre-Placement Talk for Novartis, will be held on 10th November 2026 from 1:00 PM\n\nLink:https://teams.microsoft.com/meet/3829975505878539?p=VTxavca9wbilZYsjb1\n\nNote: All placement-registered students are supposed to attend the PPT, without fail. Attendance is compulsory. Students must join the link 15 minutes prior to the scheduled time.\n\nPOC: Hardik (+91 8177018092)\n\nCDC, IIT Kharagpur.",
+    "noticeat": "10-11-2026 08:48",
+    "text_source": "full_notice",
+    "source_hash": "30f839658aa175940b26c6b0823a61049eabe77390b325931e65ddfde6152631",
+    "has_download": false
+   },
    {
     "id": "1553",
     "type": "PLACEMENT",
