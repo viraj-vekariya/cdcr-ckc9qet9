@@ -1,13 +1,47 @@
 {
- "last_updated": "2026-11-10T13:45:50Z",
+ "last_updated": "2026-11-10T14:48:11Z",
  "stats": {
-  "placement": 551,
+  "placement": 554,
   "internship": 864,
-  "with_files": 285,
-  "listed_downloads": 289
+  "with_files": 286,
+  "listed_downloads": 290
  },
  "categories": {
   "placement": [
+   {
+    "id": "1569",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "IQVIA",
+    "notice": "PFA the test room allocation for the Assessment of IQVIA, common for both the roles, scheduled from 8:00 PM onwards on 10th November, 2026.\n\nVenue: Nalanda Classroom Complex\n\nStudents are required to carry their original Institute ID card, failing which students will not be permitted to sit for test.\n\nPlease carry your laptops, pens, and papers.\n\nStudents are requested to report 15 minutes prior to the reporting time.\n\nPOC: Nikita (+91 9969207598), Neev (+91 9001346350)\n\nCDC, IIT Kharagpur",
+    "noticeat": "10-11-2026 19:31",
+    "text_source": "full_notice",
+    "source_hash": "afee68561a0796ca29249de93de24bef5970aa989543d6963f71ee27351ef0ce",
+    "has_download": true,
+    "file": "files/1569.pdf"
+   },
+   {
+    "id": "1568",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "CARS24",
+    "notice": "Please note that the Test of Cars24 for all the roles, has been postponed until further notice.\n\nCDC, IIT Kharagpur",
+    "noticeat": "10-11-2026 19:21",
+    "text_source": "full_notice",
+    "source_hash": "3d539537605c35249510871be020a11a2937f1701ff65ba989757b3392b81ba1",
+    "has_download": false
+   },
+   {
+    "id": "1567",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "CARS24",
+    "notice": "Please note that the Test of Cars24 for all the roles, has been postponed until further notice.\n\nCDC, IIT Kharagpur",
+    "noticeat": "10-11-2026 19:20",
+    "text_source": "full_notice",
+    "source_hash": "3d539537605c35249510871be020a11a2937f1701ff65ba989757b3392b81ba1",
+    "has_download": false
+   },
    {
     "id": "1566",
     "type": "PLACEMENT",
