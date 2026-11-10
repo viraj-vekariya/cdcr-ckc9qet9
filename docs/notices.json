@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-11-10T20:47:19Z",
+ "last_updated": "2026-11-10T21:34:34Z",
  "stats": {
-  "placement": 556,
+  "placement": 557,
   "internship": 864,
   "with_files": 286,
   "listed_downloads": 290
  },
  "categories": {
   "placement": [
+   {
+    "id": "1582",
+    "type": "PLACEMENT",
+    "subject": "Schedule",
+    "company": "CDC Placement Schedule for 11th-13th November 2026",
+    "notice": "All students eligible for placement are advised to take note of the tentative placement schedule from Wednesday, 11th November, to Friday, 13th November 2026.\n\nPlease note that this schedule is tentative and is subject to additions and subtractions.\n\nWednesday, 11th November 2026\n\n1. [PPT] AURONOVA CONSULTING (12:00 PM \u2013 1:00 PM)\n2. [PPT] AVATHON (1:00 PM \u2013 2:00 PM)\n3. [PPT] TOLARAM (5:00 PM \u2013 6:00 PM)\n4. [TEST] COGNIZANT (All Profiles) (6:00 PM \u2013 7:30 PM)\n5. [PPT] GREEN AERO PROPULSION (8:00 PM \u2013 9:00 PM)\n6. [TEST] INSURITY (Profile: Software Engineer I) (10:00 PM \u2013 11:30 PM)\n\nThursday, 12th November 2026\n\n1. [PPT] BLACKBUCK (1:00 PM \u2013 2:00 PM)\n2. [PPT] ENERGY ASPECTS (5:30 PM \u2013 6:30 PM)\n3. [PPT] PAYTM (6:00 PM \u2013 7:00 PM)\n4. [TEST] PAYTM (Profile: Software Engineer) (7:00 PM \u2013 9:00 PM)\n5. [TEST] CAPGEMINI (Profile: Software Engineer) (9:00 PM \u2013 12:30 AM)\n6. [TEST] IDFC FIRST BANK (All Profiles) (13th November) (1:00 AM \u2013 2:00 AM)\n\nFriday, 13th November 2026\n\n1. [PPT] ICICI LOMBARD (1:00 PM \u2013 2:00 PM)\n2. [TEST] PHYAGENTS (All Profiles) (6:00 PM \u2013 7:30 PM)\n3. [TEST] GOLDMAN SACHS (Profile: Quantitative Strategist) (7:30 PM \u2013 8:30 PM)\n4. [TEST] NUTANIX (Profile: Member Of Technical Staff) (9:00 PM \u2013 10:30 PM)\n5. [TEST] LANDEED (All Profiles) (14th November) (1:00 AM \u2013 3:00 AM)\n\nNote: The schedule is tentative and subject to change. Links for the PPTs and other relevant details will be shared separately. Room allocations and other necessary instructions for tests will be communicated prior to the respective assessments.\n\nCDC, IIT Kharagpur",
+    "noticeat": "11-11-2026 02:13",
+    "text_source": "full_notice",
+    "source_hash": "75a9095688b0bb4920727d5134070581983be35d9cb87aa2b524b6b0b5a291b9",
+    "has_download": false
+   },
    {
     "id": "1572",
     "type": "PLACEMENT",
