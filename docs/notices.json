@@ -1,13 +1,35 @@
 {
- "last_updated": "2026-11-10T12:45:44Z",
+ "last_updated": "2026-11-10T13:45:50Z",
  "stats": {
-  "placement": 549,
+  "placement": 551,
   "internship": 864,
   "with_files": 285,
   "listed_downloads": 289
  },
  "categories": {
   "placement": [
+   {
+    "id": "1566",
+    "type": "PLACEMENT",
+    "subject": "Date extension",
+    "company": "FISCHERJORDAN",
+    "notice": "The CV submission of FISCHERJORDAN for all the roles has been extended till 4:00 PM, 11th November 2026.\n\nInterested and eligible students are advised to apply within the given deadline.\n\nNo further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "10-11-2026 18:24",
+    "text_source": "full_notice",
+    "source_hash": "5d45a476b7b7248050d3084ea3b9df6f338571c078460c063c7e54cb5d4a503b",
+    "has_download": false
+   },
+   {
+    "id": "1565",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "Multiple Companies",
+    "notice": "The CV Submission of the following companies has been opened till 4:00 PM, 11th November, 2026.\n\n1. Caterpillar (Profile: Advanced Mining Technologies)\n\n2. GE Vernova (All Profiles)\n\n3. Finarb (All Profiles)\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "10-11-2026 18:23",
+    "text_source": "full_notice",
+    "source_hash": "2a9df2263bc9065d244bcc51f8f15de5a6093a41b32ed67dc5b5c9dafaf99499",
+    "has_download": false
+   },
    {
     "id": "1564",
     "type": "PLACEMENT",
