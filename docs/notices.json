@@ -1,13 +1,156 @@
 {
- "last_updated": "2026-11-10T07:16:55Z",
+ "last_updated": "2026-11-10T08:22:18Z",
  "stats": {
-  "placement": 552,
+  "placement": 565,
   "internship": 865,
   "with_files": 284,
   "listed_downloads": 288
  },
  "categories": {
   "placement": [
+   {
+    "id": "1578",
+    "type": "PLACEMENT",
+    "subject": "General",
+    "company": "Test Companey. Ignore This Email",
+    "notice": "The xxx Careers portal registration link for the role of xxx Engineer has been shared with all eligible students on their xxx-registered email IDs.\n\nAll concerned students are advised to complete their registration before the assessment scheduled on xxx November xxx at 6:00 PM IST. Completion of the registration is mandatory for further consideration.\n\nERP Testing Team, IIT Kharagpur",
+    "noticeat": "10-11-2026 13:37",
+    "text_source": "full_notice",
+    "source_hash": "b96d3a9f7b77089721288f2bf171c832be757cda8a98a8a7d757b5c2380f5476",
+    "has_download": false
+   },
+   {
+    "id": "1577",
+    "type": "PLACEMENT",
+    "subject": "General",
+    "company": "Test Companey. Ignore This Email",
+    "notice": "The xxx Careers portal registration link for the role of xxx Engineer has been shared with all eligible students on their xxx-registered email IDs.\n\nAll concerned students are advised to complete their registration before the assessment scheduled on xxx November xxx at 6:00 PM IST. Completion of the registration is mandatory for further consideration.\n\nERP Testing Team, IIT Kharagpur",
+    "noticeat": "10-11-2026 13:36",
+    "text_source": "full_notice",
+    "source_hash": "b96d3a9f7b77089721288f2bf171c832be757cda8a98a8a7d757b5c2380f5476",
+    "has_download": false
+   },
+   {
+    "id": "1576",
+    "type": "PLACEMENT",
+    "subject": "General",
+    "company": "URBAN COMPANY",
+    "notice": "Please ignore this message.\nIt is for testing purposes only. 22AR10015",
+    "noticeat": "10-11-2026 13:33",
+    "text_source": "full_notice",
+    "source_hash": "9a8b0077f224e9449fef9440e9e17a8adbf3f4b34ae94043d917036078def8f6",
+    "has_download": false
+   },
+   {
+    "id": "1575",
+    "type": "PLACEMENT",
+    "subject": "General",
+    "company": "URBAN COMPANY",
+    "notice": "Please ignore this message.\nIt is for testing purposes only. 22AR10015",
+    "noticeat": "10-11-2026 13:30",
+    "text_source": "full_notice",
+    "source_hash": "9a8b0077f224e9449fef9440e9e17a8adbf3f4b34ae94043d917036078def8f6",
+    "has_download": false
+   },
+   {
+    "id": "1574",
+    "type": "PLACEMENT",
+    "subject": "General",
+    "company": "Test Companey",
+    "notice": "Please ignore this message.\nIt is for testing purposes only.",
+    "noticeat": "10-11-2026 13:28",
+    "text_source": "full_notice",
+    "source_hash": "5192d722400bfdd357b3980c872bd410c245a714b8aeb4ccf0f5842439535871",
+    "has_download": false
+   },
+   {
+    "id": "1573",
+    "type": "PLACEMENT",
+    "subject": "General",
+    "company": "Test Companey",
+    "notice": "Please ignore this message.\nIt is for testing purposes only.",
+    "noticeat": "10-11-2026 13:25",
+    "text_source": "full_notice",
+    "source_hash": "5192d722400bfdd357b3980c872bd410c245a714b8aeb4ccf0f5842439535871",
+    "has_download": false
+   },
+   {
+    "id": "1572",
+    "type": "PLACEMENT",
+    "subject": "General",
+    "company": "Test Companey",
+    "notice": "Please ignore this message.\nIt is for testing purposes only.",
+    "noticeat": "10-11-2026 13:23",
+    "text_source": "full_notice",
+    "source_hash": "5192d722400bfdd357b3980c872bd410c245a714b8aeb4ccf0f5842439535871",
+    "has_download": false
+   },
+   {
+    "id": "1571",
+    "type": "PLACEMENT",
+    "subject": "General",
+    "company": "Test Companey",
+    "notice": "Please ignore this message.\nIt is for testing purposes only.",
+    "noticeat": "10-11-2026 13:21",
+    "text_source": "full_notice",
+    "source_hash": "5192d722400bfdd357b3980c872bd410c245a714b8aeb4ccf0f5842439535871",
+    "has_download": false
+   },
+   {
+    "id": "1570",
+    "type": "PLACEMENT",
+    "subject": "General",
+    "company": "Test Companey",
+    "notice": "Please ignore this message.\nIt is for testing purposes only.",
+    "noticeat": "10-11-2026 13:17",
+    "text_source": "full_notice",
+    "source_hash": "5192d722400bfdd357b3980c872bd410c245a714b8aeb4ccf0f5842439535871",
+    "has_download": false
+   },
+   {
+    "id": "1569",
+    "type": "PLACEMENT",
+    "subject": "General",
+    "company": "Test Companey",
+    "notice": "Please ignore this message.\nIt is for testing purposes only.",
+    "noticeat": "10-11-2026 13:10",
+    "text_source": "full_notice",
+    "source_hash": "5192d722400bfdd357b3980c872bd410c245a714b8aeb4ccf0f5842439535871",
+    "has_download": false
+   },
+   {
+    "id": "1568",
+    "type": "PLACEMENT",
+    "subject": "General",
+    "company": "Test Companey",
+    "notice": "Please ignore this message.\nIt is for testing purposes only.",
+    "noticeat": "10-11-2026 13:09",
+    "text_source": "full_notice",
+    "source_hash": "5192d722400bfdd357b3980c872bd410c245a714b8aeb4ccf0f5842439535871",
+    "has_download": false
+   },
+   {
+    "id": "1567",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "MICROSOFT",
+    "notice": "The Microsoft Careers portal registration link for the role of Software Engineer has been shared with all eligible students on their CDC-registered email IDs.\n\nAll concerned students are advised to complete their registration before the assessment scheduled on 10th November 2026 at 6:00 PM IST. Completion of the registration is mandatory for further consideration.\n\nCDC, IIT Kharagpur",
+    "noticeat": "10-11-2026 13:07",
+    "text_source": "full_notice",
+    "source_hash": "2bdfd33ccf7fd3c1971ab0a00f46d5c6bb6ff28cc7a39d2c70337001849850e9",
+    "has_download": false
+   },
+   {
+    "id": "1566",
+    "type": "PLACEMENT",
+    "subject": "General",
+    "company": "Test Companey",
+    "notice": "Please ignore this message.\nIt is for testing purposes only.",
+    "noticeat": "10-11-2026 13:06",
+    "text_source": "full_notice",
+    "source_hash": "5192d722400bfdd357b3980c872bd410c245a714b8aeb4ccf0f5842439535871",
+    "has_download": false
+   },
    {
     "id": "1565",
     "type": "PLACEMENT",
