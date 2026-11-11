@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-11-11T07:18:40Z",
+ "last_updated": "2026-11-11T08:17:41Z",
  "stats": {
-  "placement": 560,
+  "placement": 561,
   "internship": 864,
   "with_files": 286,
   "listed_downloads": 290
  },
  "categories": {
   "placement": [
+   {
+    "id": "1586",
+    "type": "PLACEMENT",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "Tolaram Group",
+    "notice": "The Pre-Placement Talk for Tolaram Group, will be held on 11th November 2026 from 5:00 PM\n\nLink: https://teams.microsoft.com/meet/43669851512833?p=Kr9glvV6r3nBECRr7A\n\nNote: All placement-registered students are supposed to attend the PPT, without fail. Attendance is compulsory. Students must join the link 15 minutes prior to the scheduled time.\n\nPOC: Bhavy (+91 7597121669)\n\nCDC, IIT Kharagpur",
+    "noticeat": "11-11-2026 13:16",
+    "text_source": "full_notice",
+    "source_hash": "5280073a8f613807855470df132c454cdb9a0f9380334f34364bb91df5691d6b",
+    "has_download": false
+   },
    {
     "id": "1585",
     "type": "PLACEMENT",
