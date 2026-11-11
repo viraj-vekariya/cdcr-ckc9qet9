@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-11-11T04:17:22Z",
+ "last_updated": "2026-11-11T05:16:54Z",
  "stats": {
-  "placement": 557,
+  "placement": 558,
   "internship": 864,
   "with_files": 286,
   "listed_downloads": 290
  },
  "categories": {
   "placement": [
+   {
+    "id": "1583",
+    "type": "PLACEMENT",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "AVATHON",
+    "notice": "Pre-Placement Talk: AVATHON\n\nDate: 11th November 2026\n\nTime: 1:00 PM onwards\n\nLink:\nhttps://teams.microsoft.com/meet/265879342777111?p=waO80UxV1HHZHFQlTZ\n\nMeeting ID: 265 879 342 777 111\n\nPasscode: WQ3yT6WM\n\nInstructions:\n\u2022 All interested students are required to attend the PPT without fail.\n\u2022 Attendance is compulsory.\n\u2022 Students should join 15 minutes prior to the meeting time.\n\nPOC:\nDaksh (+91 9818071612)\n\nCDC, IIT Kharagpur",
+    "noticeat": "11-11-2026 09:41",
+    "text_source": "full_notice",
+    "source_hash": "a14141d491dc3101712d0710ba8c1f8df958b1913997c1b10bee4dd31add60b4",
+    "has_download": false
+   },
    {
     "id": "1582",
     "type": "PLACEMENT",
