@@ -1,13 +1,48 @@
 {
- "last_updated": "2026-11-11T13:20:19Z",
+ "last_updated": "2026-11-11T17:20:01Z",
  "stats": {
-  "placement": 571,
+  "placement": 574,
   "internship": 864,
-  "with_files": 287,
-  "listed_downloads": 291
+  "with_files": 289,
+  "listed_downloads": 293
  },
  "categories": {
   "placement": [
+   {
+    "id": "1599",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "Accenture Solutions Private Limited",
+    "notice": "PFA the list of students eligible for the Assessment of Accenture Solutions Private Limited for the I&E- AI and Data role, scheduled from 12:30 AM onwards on 12th November, 2026.\n\nVenue: Nalanda Classroom Complex\n\nThe Room Allocation will be released shortly.\n\nStudents are requested to report 15 minutes prior to the reporting time.\n\nPOC: Ashutosh (+91 8840104367), Himanshu (+91 9311332376)\n\nCDC, IIT Kharagpur",
+    "noticeat": "11-11-2026 22:33",
+    "text_source": "full_notice",
+    "source_hash": "b324b7ba39915a85fa9901f707a13bf628ca92a11e0b7046920dc3eaa9960944",
+    "has_download": true,
+    "file": "files/1599.pdf"
+   },
+   {
+    "id": "1598",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "Insurity Solutions India Private Limited",
+    "notice": "PFA the test room allocation for the Assessment of Insurity for the Software Engineer I role, scheduled from 10:00 PM onwards on 11th November, 2026.\n\nVenue: Nalanda Classroom Complex\n\nStudents are required to carry their original Institute ID card, failing which students will not be permitted to sit for test.\n\nPlease carry your laptops, pens, and papers.\n\nStudents are requested to report 15 minutes prior to the reporting time.\n\nPOC: Syed Faiz Reza Zaidi(+91 7386295387), Zalavadiya Dishil (+91 9925492574)\n\nCDC, IIT Kharagpur",
+    "noticeat": "11-11-2026 21:45",
+    "text_source": "full_notice",
+    "source_hash": "eaa103eb15cb6df22a85082b0dbda91f40eeec279d16246c73e77f1b38765959",
+    "has_download": true,
+    "file": "files/1598.pdf"
+   },
+   {
+    "id": "1597",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "Accenture Solutions Private Limited",
+    "notice": "Please note that the Test of Accenture Solutions for the role of I&E - AI and Data, has been scheduled from 12:30 AM, 12th November.\n\nNote: Room allocations and other necessary instructions for the tests will be communicated prior to the respective assessments.\n\nCDC, IIT Kharagpur",
+    "noticeat": "11-11-2026 21:13",
+    "text_source": "full_notice",
+    "source_hash": "a9af3547215482094e2782daa68f4a2e20108c37ee126e93adc3b1da12a1d862",
+    "has_download": false
+   },
    {
     "id": "1596",
     "type": "PLACEMENT",
