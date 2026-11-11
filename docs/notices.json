@@ -1,13 +1,25 @@
 {
- "last_updated": "2026-11-11T17:20:01Z",
+ "last_updated": "2026-11-11T18:18:20Z",
  "stats": {
-  "placement": 574,
+  "placement": 575,
   "internship": 864,
-  "with_files": 289,
-  "listed_downloads": 293
+  "with_files": 290,
+  "listed_downloads": 294
  },
  "categories": {
   "placement": [
+   {
+    "id": "1600",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "Accenture Solutions Private Limited",
+    "notice": "PFA the test room allocation for the Assessment of Accenture Solutions Private Limited for the I&E- AI and Data role, scheduled from 12:30 AM onwards on 12th November, 2026.\n\nImportant Instructions for the Assessment:\n- Students must attempt the assessment using a Windows laptop.\n\n- Minimum System Requirements:\n- RAM: 4 GB or higher.\n- Processor: Intel Core i3, 5th Generation, 2.2 GHz or equivalent/higher.\n- Operating System: Windows 8/10/11.\n\nSafe Exam Browser (SEB):\n\n- Uninstall any old version of Safe Exam Browser, then install the new version from this link: https://securetest.hirepro.in/accenture/v2/\n\nMac laptops are not supported. The assessment will not work on Mac devices.\n\nPlease ensure that your system meets the above requirements before attempting the assessment.\n\nVenue: Nalanda Classroom Complex\n\nStudents are required to carry their original Institute ID card failing which students will not be permitted to sit for tests.\n\nPlease carry your laptops, pens, and papers.\n\nStudents are requested to report 15 minutes prior to the reporting time.\n\nPOC: Ashutosh (+91 8840104367), Himanshu (+91 9311332376)\n\nCDC, IIT Kharagpur",
+    "noticeat": "11-11-2026 23:10",
+    "text_source": "full_notice",
+    "source_hash": "e0c4aedfb4df87cd45baa716e141e840d8ec3752fcd84e94aee37be765d54184",
+    "has_download": true,
+    "file": "files/1600.pdf"
+   },
    {
     "id": "1599",
     "type": "PLACEMENT",
