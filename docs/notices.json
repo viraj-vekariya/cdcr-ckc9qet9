@@ -1,13 +1,90 @@
 {
- "last_updated": "2026-11-11T12:19:29Z",
+ "last_updated": "2026-11-11T13:20:19Z",
  "stats": {
-  "placement": 564,
+  "placement": 571,
   "internship": 864,
   "with_files": 287,
   "listed_downloads": 291
  },
  "categories": {
   "placement": [
+   {
+    "id": "1596",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "GROWW",
+    "notice": "The CV Submission for Groww for the Associate Product Manager role has been opened till 4:00 PM, 12th November, 2026.\n\nInterested and eligible students are advised to apply within the given deadline.\n\nNo further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "11-11-2026 18:31",
+    "text_source": "full_notice",
+    "source_hash": "6fc0ef87e2d5e0858a10606c296130e4d4e32cc50a4ecb24a8786209eeeffde7",
+    "has_download": false
+   },
+   {
+    "id": "1595",
+    "type": "PLACEMENT",
+    "subject": "Date extension",
+    "company": "Multiple Companies",
+    "notice": "The CV Submission of the following companies has been extended till 4:00 PM, 12th November, 2026.\n\n1. Caterpillar (Profile: Advanced Mining Technologies)\n\n2. GE Vernova (All Profiles)\n\n3. Finarb (All Profiles)\n\nInterested and eligible students are advised to apply within the given deadline.\n\nNo further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "11-11-2026 18:20",
+    "text_source": "full_notice",
+    "source_hash": "4dcc5cc8a6c1c836045021b895452f383f1edc697b48bfe76b0750ff1e582a45",
+    "has_download": false
+   },
+   {
+    "id": "1594",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "Multiple Companies",
+    "notice": "The following companies are open for CV Submission till 4:00 PM, 12th November, 2026.\n\n1. INFINEON TECHNOLOGIES (Profile: Analog/Mixed-Signal Engineer)\n2. HP INC (Profile: AI/ML - Software developer)\n3. ARIHANT CAPITAL MARKETS LIMITED (All Profiles)\n4. ICICI SECURITIES(Profile: Management Trainee)\n5. WEX (Profiles:Software Engineer 1, Software Engineer 1_PG)\n\nInterested and eligible students are advised to apply within the given deadline.\n\nNo further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "11-11-2026 18:19",
+    "text_source": "full_notice",
+    "source_hash": "23902ae52c33a40ad17e7d6a583eee3de5e3baf67283caa528f86609ecea7893",
+    "has_download": false
+   },
+   {
+    "id": "1593",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "Goldman Sachs",
+    "notice": "The CV Submission for Goldman Sachs for the Quantitative Strategist role has been opened till 4:00 PM, 12th November, 2026. Students are required to apply on the following Company Portal as well with their CDC Registered Email ID.\n\nLink: https://hdpc.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CampusHiring/job/170478/?utm_medium=jobshare&utm_source=External+Job+Share\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "11-11-2026 18:03",
+    "text_source": "full_notice",
+    "source_hash": "a49c36dd4bd2464116e590ae709c43780c0be7572520f8ba7b05a82f889184b0",
+    "has_download": false
+   },
+   {
+    "id": "1592",
+    "type": "PLACEMENT",
+    "subject": "PPO",
+    "company": "Microsoft",
+    "notice": "Microsoft has extended the offer to the following student(s):\n\nAAYUSH SRIVASTAVA - 23EE10080\n\nPATEL RIMI AMITKUMAR - 23MA10042\n\nANANYA MONDAL - 23CS10002\n\nABHINAV KUMAR JHA - 23EC10094\n\nThe students are advised to give offer acceptance by 11.11.2026.\n\n(For more details, check your email ID.)\n\nCDC, IIT Kharagpur",
+    "noticeat": "11-11-2026 17:59",
+    "text_source": "full_notice",
+    "source_hash": "33e03f5abea89268e898f43579466bba5bdc6e8828c14ca9c83eb15bbae9fb8b",
+    "has_download": false
+   },
+   {
+    "id": "1591",
+    "type": "PLACEMENT",
+    "subject": "PPO",
+    "company": "Pull Logic",
+    "notice": "Pull Logic has extended the offer to the following student(s):\n\nSarthak Mazumder - 23ME10110\n\nThe students are advised to give offer acceptance by 11.11.2026.\n\n(For more details, check your email ID.)\n\nCDC, IIT Kharagpur",
+    "noticeat": "11-11-2026 17:56",
+    "text_source": "full_notice",
+    "source_hash": "6980077bd64717d3833bef9160b7748ba135b3fcb66bb6c2ef79980b48153a23",
+    "has_download": false
+   },
+   {
+    "id": "1590",
+    "type": "PLACEMENT",
+    "subject": "PPO",
+    "company": "GE Aerospace",
+    "notice": "GE Aerospace has extended the offer to the following student(s):\n\nHimanshu Sahu - 22ME30027\n\nThe students are advised to give offer acceptance by 11.11.2026.\n\n(For more details, check your email ID.)\n\nCDC, IIT Kharagpur",
+    "noticeat": "11-11-2026 17:51",
+    "text_source": "full_notice",
+    "source_hash": "e717b00611af3ee8d4d9e56fe4f25489ce85f06ac6336dbb6f07c6652c2c1fa4",
+    "has_download": false
+   },
    {
     "id": "1589",
     "type": "PLACEMENT",
