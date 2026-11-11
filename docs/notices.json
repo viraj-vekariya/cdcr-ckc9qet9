@@ -1,13 +1,36 @@
 {
- "last_updated": "2026-11-11T11:18:32Z",
+ "last_updated": "2026-11-11T12:19:29Z",
  "stats": {
-  "placement": 562,
+  "placement": 564,
   "internship": 864,
-  "with_files": 286,
-  "listed_downloads": 290
+  "with_files": 287,
+  "listed_downloads": 291
  },
  "categories": {
   "placement": [
+   {
+    "id": "1589",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "POCKET FM",
+    "notice": "All the students that have applied for the Management Trainee Role in Pocket FM are required to attempt the Following Google Form Task Round.\n\nLink: https://forms.gle/zUWXnnUTKYi37Prx6\n\nVenue: Respective Locations\n\nDeadline: 11:59 PM, 12th November, 2026.\n\nNote: Students are required to complete this assessment to be considered for further process.\n\nPOC: Bhavy (+91 7597121669)\n\nCDC, IIT Kharagpur.",
+    "noticeat": "11-11-2026 17:35",
+    "text_source": "full_notice",
+    "source_hash": "906a3435e5221572a5d00f61a21f35171203dc992f4c24f307f1120d18dbbdfe",
+    "has_download": false
+   },
+   {
+    "id": "1588",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "COGNIZANT",
+    "notice": "PFA the test room allocation for the assessment of Cognizant, scheduled from 6:00 PM onwards on 11th November, 2026.\n\nVenue: Nalanda Classroom Complex\n\nStudents are requested to report 15 minutes prior to the scheduled start time.\n\nPOC: Daksh (+91 98180 71612), Nikhita (+91 87700 35884)\n\nCDC, IIT Kharagpur",
+    "noticeat": "11-11-2026 17:19",
+    "text_source": "full_notice",
+    "source_hash": "90349ee341783edb9c16df829c13e862ce3de6a955e6baccab19ed3735900107",
+    "has_download": true,
+    "file": "files/1588.pdf"
+   },
    {
     "id": "1587",
     "type": "PLACEMENT",
