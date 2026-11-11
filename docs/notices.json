@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-11-11T20:18:27Z",
+ "last_updated": "2026-11-11T21:18:24Z",
  "stats": {
-  "placement": 576,
+  "placement": 577,
   "internship": 864,
   "with_files": 290,
   "listed_downloads": 294
  },
  "categories": {
   "placement": [
+   {
+    "id": "1602",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "Auronova Consulting",
+    "notice": "All the eligible students who have applied for Auronova Consulting are required to kindly fill the additional details form given below.\n\nLink: https://forms.gle/t44tpGi5FmcimmyE8\n\nDeadline: 12th November 2026, 4:00 PM\n\nKindly ensure you have filled the form before the deadline. No further extensions will be provided.\n\nCDC, IIT Kharagpur",
+    "noticeat": "12-11-2026 02:04",
+    "text_source": "full_notice",
+    "source_hash": "61dd91de573d616f9a98ec5da9a42e825929d1718eac0b2252007bca0ce664ce",
+    "has_download": false
+   },
    {
     "id": "1601",
     "type": "PLACEMENT",
