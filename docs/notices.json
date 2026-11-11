@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-11-11T05:16:54Z",
+ "last_updated": "2026-11-11T06:17:34Z",
  "stats": {
-  "placement": 558,
+  "placement": 559,
   "internship": 864,
   "with_files": 286,
   "listed_downloads": 290
  },
  "categories": {
   "placement": [
+   {
+    "id": "1584",
+    "type": "PLACEMENT",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "Auronova Consulting",
+    "notice": "The Pre-Placement Talk for Auronova Consulting, will be held on 11th November 2026 from 12:00 PM\n\nLink: https://teams.microsoft.com/meet/418479879145478?p=TvOgkd8wpsBUKsYFGz\n\nNote: All placement-registered students are supposed to attend the PPT, without fail. Attendance is compulsory. Students must join the link 15 minutes prior to the scheduled time.\n\nPOC: Ritvik (+91 9480360231)\n\nCDC, IIT Kharagpur",
+    "noticeat": "11-11-2026 11:19",
+    "text_source": "full_notice",
+    "source_hash": "b38188c98257ea79a4e788fa639ec402e0ee72c667b529967948a29e0451507e",
+    "has_download": false
+   },
    {
     "id": "1583",
     "type": "PLACEMENT",
