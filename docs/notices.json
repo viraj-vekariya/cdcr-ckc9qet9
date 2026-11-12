@@ -1,13 +1,35 @@
 {
- "last_updated": "2026-11-12T09:49:29Z",
+ "last_updated": "2026-11-12T10:50:23Z",
  "stats": {
-  "placement": 582,
+  "placement": 584,
   "internship": 864,
   "with_files": 290,
   "listed_downloads": 294
  },
  "categories": {
   "placement": [
+   {
+    "id": "1610",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "Arihant Capital Markets Limited",
+    "notice": "The CV submission of Arihant Capital Markets Limited for all the roles have been extended till 4:00 PM, 13th November, 2026.\n\nIts mandatory for all the candidates who are applying for the roles, to fill the following google form attached below:\n\nGoogle Form: https://forms.gle/zxCKFvUtFpJaXdfJ8\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "12-11-2026 15:26",
+    "text_source": "full_notice",
+    "source_hash": "472d193a5664a686d1e492a0e513ec6c604626af52f43d39c55de1186d8e9612",
+    "has_download": false
+   },
+   {
+    "id": "1609",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "Moneyview Ltd",
+    "notice": "The CV Submission for MONEYVIEW for all the roles has been extended till 6:00 PM, 12th November, 2026.\n\nIts mandatory for all the candidates who are applying for this role, to fill the following google form and apply on the link attached below:\n\n1. Google Form: https://forms.gle/KpZL2CWr1GxpMdu78\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "12-11-2026 15:22",
+    "text_source": "full_notice",
+    "source_hash": "079a1321124b01a0dbbf7e5c1241d7eb4f6e8195d4cf35d9215feb7ade435755",
+    "has_download": false
+   },
    {
     "id": "1608",
     "type": "PLACEMENT",
