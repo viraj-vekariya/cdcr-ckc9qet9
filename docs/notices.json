@@ -1,13 +1,35 @@
 {
- "last_updated": "2026-11-12T04:19:38Z",
+ "last_updated": "2026-11-12T05:19:33Z",
  "stats": {
-  "placement": 579,
+  "placement": 581,
   "internship": 864,
   "with_files": 290,
   "listed_downloads": 294
  },
  "categories": {
   "placement": [
+   {
+    "id": "1607",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "Goldman Sachs",
+    "notice": "The CV Submission for Goldman Sachs for the Quantitative Strategist role has been opened till 6:00 PM, 12th November, 2026. Students are required to apply on the following Company Portal as well with their CDC Registered Email ID.\n\nLink: https://hdpc.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CampusHiring/job/170478/?utm_medium=jobshare&utm_source=External+Job+Share\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "12-11-2026 10:14",
+    "text_source": "full_notice",
+    "source_hash": "13e7b9128685282cc3bcfd4f421760fc445e08382f67de02d6038d60082d505e",
+    "has_download": false
+   },
+   {
+    "id": "1606",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "Eternal",
+    "notice": "The CV Submission for Eternal for all the roles has been opened till 6:00 PM, 12th November, 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "12-11-2026 10:13",
+    "text_source": "full_notice",
+    "source_hash": "3f2d17f51742584e2826fff0ea8b5e5f11bc58bea9f3e5c14e28be6c12342dbd",
+    "has_download": false
+   },
    {
     "id": "1605",
     "type": "PLACEMENT",
