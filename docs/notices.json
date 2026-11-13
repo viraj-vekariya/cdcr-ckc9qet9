@@ -1,13 +1,58 @@
 {
- "last_updated": "2026-11-13T11:02:33Z",
+ "last_updated": "2026-11-13T11:20:44Z",
  "stats": {
-  "placement": 606,
+  "placement": 610,
   "internship": 864,
-  "with_files": 294,
-  "listed_downloads": 298
+  "with_files": 295,
+  "listed_downloads": 299
  },
  "categories": {
   "placement": [
+   {
+    "id": "1640",
+    "type": "PLACEMENT",
+    "subject": "Shortlist",
+    "company": "PHYAGENTS",
+    "notice": "PFA the test shortlist for the Assessment of PhyAgents for both the roles, scheduled from 5:30 PM onwards on 13th November 2026.\n\nThe test links have been shared with the shortlisted students on their CDC-registered email IDs.\n\nNote: Shortlisted candidates who have not received the test link are requested to fill out the following form.\n\nForm link: https://forms.gle/eUK9z3asQYWvnWQh9\n\nVenue: Nalanda Classroom Complex\n\nThe room allocation for the test will be released shortly.\n\nStudents are requested to report 15 minutes prior to the scheduled start time.\n\nPOCs: Aditi (+91 88153 95895), Faiz (+91 73862 95387)\n\nCDC, IIT Kharagpur",
+    "noticeat": "13-11-2026 16:42",
+    "text_source": "full_notice",
+    "source_hash": "d67a0c129006b297d03b918efc1945626dfe97484fd9326b795d4e2bdbd76efd",
+    "has_download": true,
+    "file": "files/1640.pdf"
+   },
+   {
+    "id": "1639",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "Mygate",
+    "notice": "The CV Submission for MYGATE for Software Developer Engineer role has been opened till 4:00 PM, 14th November, 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "13-11-2026 16:39",
+    "text_source": "full_notice",
+    "source_hash": "b0dc192f6e5304606a2e8daab37759aaf6d2814d29b15a321a02b24f766c465e",
+    "has_download": false
+   },
+   {
+    "id": "1638",
+    "type": "PLACEMENT",
+    "subject": "Date extension",
+    "company": "NexusOne",
+    "notice": "The CV Submission for Nexusone for Data/App Engineer role is extended till 4:00 PM, 14th November, 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "13-11-2026 16:36",
+    "text_source": "full_notice",
+    "source_hash": "c9825d21f8f3f63b71542e589268608bb4f104cca44ed74b07e278d05cc51f86",
+    "has_download": false
+   },
+   {
+    "id": "1637",
+    "type": "PLACEMENT",
+    "subject": "Date extension",
+    "company": "Accordion India",
+    "notice": "The CV Submission for ACCORDION INDIA for all roles is extended till 4:00 PM, 14th November, 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nAll the students who have applied for the roles are also required to fill the following preference form by 4:00 PM, 14th November, 2026.\n\nLink: https://forms.gle/qjFLRLXY5FeHohct6\n\nCDC, IIT Kharagpur",
+    "noticeat": "13-11-2026 16:34",
+    "text_source": "full_notice",
+    "source_hash": "5161b95014b4e3492bc4f22a9f6050a7ab8c2b9ee9252ae78b67aa32eac0ef4d",
+    "has_download": false
+   },
    {
     "id": "1636",
     "type": "PLACEMENT",
