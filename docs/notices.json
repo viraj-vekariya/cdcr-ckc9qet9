@@ -1,13 +1,259 @@
 {
- "last_updated": "2026-11-12T10:50:23Z",
+ "last_updated": "2026-11-13T11:02:33Z",
  "stats": {
-  "placement": 584,
+  "placement": 606,
   "internship": 864,
-  "with_files": 290,
-  "listed_downloads": 294
+  "with_files": 294,
+  "listed_downloads": 298
  },
  "categories": {
   "placement": [
+   {
+    "id": "1636",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "CELEBAL TECHNOLOGIES",
+    "notice": "The CV Submission for CELEBAL TECHNOLOGIES has been opened till 4:00 PM, 14th November, 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "13-11-2026 16:15",
+    "text_source": "full_notice",
+    "source_hash": "c93024724bde623f03b017084114a08dbbc95c82873b6bdd8d85deaa00605078",
+    "has_download": false
+   },
+   {
+    "id": "1635",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "Multiple Companies",
+    "notice": "The following companies are open for CV Submission till 4:00 PM, 14th November, 2026.\n\n1. OLA (Profile: All roles)\n\n2. \u2060D. E. SHAW INDIA (Profile: Technology Developer)\n\nInterested and eligible students are advised to apply within the given deadline.\n\nNo further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "13-11-2026 15:38",
+    "text_source": "full_notice",
+    "source_hash": "358c840f05c988d367f690d46667ed83ce8b36d716dff18357314b7c9c1e645a",
+    "has_download": false
+   },
+   {
+    "id": "1634",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "ACCORDION INDIA",
+    "notice": "The CV Submission for ACCORDION INDIA for all roles has been opened till 4:00 PM, 13th November, 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "13-11-2026 13:00",
+    "text_source": "full_notice",
+    "source_hash": "93f114861fddedcd39a4d2787bbf11c1493d262830e80e20a60a7e0f03ced070",
+    "has_download": false
+   },
+   {
+    "id": "1633",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "Tolaram Group",
+    "notice": "The CV Submission for TOLARAM GROUP for the Management Trainee Enterprise Transformation role has been extended till 2:00 PM, 13th November, 2026.\n\nInterested and eligible students are advised to apply within the given deadline.\n\nNo further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "13-11-2026 11:23",
+    "text_source": "full_notice",
+    "source_hash": "f10d9c21c06ced035e1a8e23e5683c18588da3a1a07a286056e723a4c4a7d9fe",
+    "has_download": false
+   },
+   {
+    "id": "1632",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "FirstClub",
+    "notice": "The CV Submission for FIRSTCLUB for the Product Management role has been extended till 02:00 PM, 13th November, 2026.\n\nInterested and eligible students are advised to apply within the given deadline.\n\nNo further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "13-11-2026 09:44",
+    "text_source": "full_notice",
+    "source_hash": "8643c7a962f3c75342e75e1b4d1261d1d5a128d57de6b200dd45741b1e2fc87f",
+    "has_download": false
+   },
+   {
+    "id": "1631",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "CAPGEMINI",
+    "notice": "Please note that the Cognitive & Behavioural Assessment round of Capgemini is scheduled from 2:30 AM on 13th November 2026.\n\nVenue: Respective Location\n\nNote: The links have already been shared with the shortlisted students\n\nPOC: Arpita (+91 90755 64147)\n\nCDC, IIT Kharagpur",
+    "noticeat": "13-11-2026 00:29",
+    "text_source": "full_notice",
+    "source_hash": "c6211f22b163cf0caf2c9139e3319545a33fbd1d12be52690028c00e5e4fd93d",
+    "has_download": false
+   },
+   {
+    "id": "1630",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "IDFC First Bank",
+    "notice": "PFA the test room allocation for the Assessment of IDFC First Bank for all the roles, scheduled from 1:00 AM onwards on 13th November, 2026.\n\nVenue: Nalanda Classroom Complex\n\nStudents are required to carry their original Institute ID card, failing which students will not be permitted to sit for test.\n\nPlease carry your laptops, pens, and papers.\n\nStudents are requested to report 15 minutes prior to the reporting time.\n\nPOC: Bhavy (+91 7597121669), Neev (+91 9001346350)\n\nCDC, IIT Kharagpur",
+    "noticeat": "13-11-2026 00:19",
+    "text_source": "full_notice",
+    "source_hash": "dcacbc2eb49a6ee69f2b5ca36cb44cc36d686b4195e5ae45dd700edd6ccd5d2e",
+    "has_download": true,
+    "file": "files/1630.pdf"
+   },
+   {
+    "id": "1629",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "Royal Tier Maison Co",
+    "notice": "All the students who have applied for the Designer Role in Royal Tier Maison Co are required to fill the following google form to submit their portfolios.\n\nAll interested students are requested to go through the presentation below: https://drive.google.com/file/d/1XTuzaHTDf0EmTwM4ASA0JtLjGB3gRyEA/view?usp=drive_link\n\nSubmission form \n\nLink: https://forms.gle/NzZ74KUqaZr3EWeu8\n\nDeadline: 5:00 PM, 15th November, 2026.\n\nCDC, IIT Kharagpur.",
+    "noticeat": "13-11-2026 00:19",
+    "text_source": "full_notice",
+    "source_hash": "8ae9f03153ac574a245b1e3370f99d192a08323c868dcc1ffede4f7867cbc68c",
+    "has_download": false
+   },
+   {
+    "id": "1627",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "CAPGEMINI",
+    "notice": "Please note that the Cognitive & Behavioural Assessment round of Capgemini has been postponed until further notice.\n\nCDC, IIT Kharagpur",
+    "noticeat": "12-11-2026 23:57",
+    "text_source": "full_notice",
+    "source_hash": "fdb648b02f49324962d54120bd2a82a09c08d3290b55f5a26e7e14da26457463",
+    "has_download": false
+   },
+   {
+    "id": "1626",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "Pocket FM",
+    "notice": "All the students that have applied for the Management Trainee Role in Pocket FM are required to attempt the Following Google Form Task Round.\n\nLink: https://forms.gle/zUWXnnUTKYi37Prx6\n\nVenue: Respective Locations\n\nDeadline: 5:00 PM, 13th November, 2026.\n\nNote: Students are required to complete this assessment to be considered for further process.\n\nPOC: Bhavy (+91 7597121669)\n\nCDC, IIT Kharagpur.",
+    "noticeat": "12-11-2026 22:29",
+    "text_source": "full_notice",
+    "source_hash": "84871a2dd1344e44fd108ffac84c093fc2938257508883206c1f26c1b5c12ee5",
+    "has_download": false
+   },
+   {
+    "id": "1625",
+    "type": "PLACEMENT",
+    "subject": "Date extension",
+    "company": "ETERNAL",
+    "notice": "The CV Submission for Eternal for all the roles has been extended till 4:00 PM, 13th November, 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "12-11-2026 21:01",
+    "text_source": "full_notice",
+    "source_hash": "2226bc00ff8a193231c42f86013a22cc3de856de926313def2c6190e824123dc",
+    "has_download": false
+   },
+   {
+    "id": "1624",
+    "type": "PLACEMENT",
+    "subject": "Shortlist",
+    "company": "IDFC First Bank",
+    "notice": "PFA the test shortlist for the Assessment of IDFC First Bank for all the roles, scheduled from 1:00 AM onwards on 13th November 2026.\n\nThe test links have been shared with the shortlisted students on their CDC-registered email IDs. Test instructions have also been shared.\n\nNote: Shortlisted candidates who have not received the test link are requested to fill out the following form.\n\nForm link: https://forms.gle/UGLr9tihnxFNurRR7\n\nVenue: Nalanda Classroom Complex\n\nThe room allocation for the test will be released shortly.\n\nStudents are requested to report 15 minutes prior to the scheduled start time.\n\nPOCs: Bhavy (+91 7597121669), Neev (+91 9001346350)\n\nCDC, IIT Kharagpur",
+    "noticeat": "12-11-2026 20:55",
+    "text_source": "full_notice",
+    "source_hash": "408a0d11e4cbd4164aa81ae25bbb03704a8161322beaee3c7989c27eeeb3777b",
+    "has_download": true,
+    "file": "files/1624.pdf"
+   },
+   {
+    "id": "1623",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "CAPGEMINI",
+    "notice": "PFA the shortlist for the Assessment of Capgemini, scheduled from 9:00 PM onwards on 12th November, 2026.\n\nAssessment 1 - 9:00 PM to 10:00 PM\nAssessment 2 - 11:00 PM to 12:10 AM\n\nVenue: Respective Locations\n\nPOC: Arpita (+91 90755 64147)\n\nCDC, IIT Kharagpur",
+    "noticeat": "12-11-2026 20:51",
+    "text_source": "full_notice",
+    "source_hash": "0160e424bb18022dec7a39dc4eace1573aa3d0cfe110c2b43bedde064802d420",
+    "has_download": true,
+    "file": "files/1623.pdf"
+   },
+   {
+    "id": "1621",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "PAYTM",
+    "notice": "PFA the test room allocation for the Assessment of Paytm, scheduled from 7:00 PM onwards on 12th November, 2026.\n\nVenue: Nalanda Classroom Complex\n\nStudents are requested to report 15 minutes prior to the scheduled start time.\n\nPOC: Vatsal (+91 92344 57393), Nikhita (+91 87700 35884)\n\nCDC, IIT Kharagpur",
+    "noticeat": "12-11-2026 18:30",
+    "text_source": "full_notice",
+    "source_hash": "4be0a03e528208ac87e86aec43f1e52c69ded47e628208de623e346493caabf0",
+    "has_download": true,
+    "file": "files/1621.pdf"
+   },
+   {
+    "id": "1620",
+    "type": "PLACEMENT",
+    "subject": "Date extension",
+    "company": "Multiple Companies",
+    "notice": "The following companies are open for CV Submission till 4:00 PM, 13th November, 2026.\n\n1. GROWW (Profile: Associate Product Manager)\n2. RV CAPITAL (Profile: Risk Analyst)\n\nInterested and eligible students are advised to apply within the given deadline.\n\nNo further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "12-11-2026 17:11",
+    "text_source": "full_notice",
+    "source_hash": "c471b19dcadd39d275a6930f536b2e13f244ad5805951f2534b18894f12a0b9c",
+    "has_download": false
+   },
+   {
+    "id": "1619",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "Accordion India",
+    "notice": "The CV Submission for ACCORDION INDIA for all roles has been opened till 4:00 PM, 13th November, 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "12-11-2026 17:10",
+    "text_source": "full_notice",
+    "source_hash": "93f114861fddedcd39a4d2787bbf11c1493d262830e80e20a60a7e0f03ced070",
+    "has_download": false
+   },
+   {
+    "id": "1617",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "Multiple Companies",
+    "notice": "The following companies are open for CV Submission till 4:00 PM, 13th November, 2026.\n\n1. INFINEON TECHNOLOGIES (Profile: Analog/Mixed-Signal Engineer)\n2. HP INC (Profile: AI/ML - Software developer)\n3. WEX (Profiles:Software Engineer 1, Software Engineer 1_PG)\n\nInterested and eligible students are advised to apply within the given deadline.\n\nNo further extensions will be given.\n\nCg Criteria:\nINFINEON TECHNOLOGIES: 6\nHP INC: 7.5\nWEX: 8\n\nCDC, IIT Kharagpur",
+    "noticeat": "12-11-2026 16:27",
+    "text_source": "full_notice",
+    "source_hash": "656079f9801384ddaa6d2018d367806138060afe36313f4b7a4698b57ca6b74b",
+    "has_download": false
+   },
+   {
+    "id": "1615",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "NexusOne",
+    "notice": "The CV Submission for Nexusone for Data/App Engineer role has been opened till 4:00 PM, 13th November, 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "12-11-2026 16:25",
+    "text_source": "full_notice",
+    "source_hash": "e76c27802074f5e98fd7f88db5fec707941ac020b735f1da00420d707bfdabfb",
+    "has_download": false
+   },
+   {
+    "id": "1614",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "Auronova Consulting",
+    "notice": "All the eligible students who have applied for Auronova Consulting are required to kindly fill the additional details form given below.\n\nLink: https://forms.gle/t44tpGi5FmcimmyE8\n\nDeadline: 13th November 2026, 4:00 PM\n\nKindly ensure you have filled the form before the deadline. No further extensions will be provided.\n\nCDC, IIT Kharagpur",
+    "noticeat": "12-11-2026 16:20",
+    "text_source": "full_notice",
+    "source_hash": "f9a91d54f667c89622f89bedeeaba9998372cf57337f8764c0d1b845253f126e",
+    "has_download": false
+   },
+   {
+    "id": "1613",
+    "type": "PLACEMENT",
+    "subject": "Date extension",
+    "company": "Auronova Consulting",
+    "notice": "All the eligible students who have applied for Auronova Consulting are required to kindly fill the additional details form given below.\n\nLink: https://forms.gle/t44tpGi5FmcimmyE8\n\nDeadline: 13th November 2026, 4:00 PM\n\nKindly ensure you have filled the form before the deadline. No further extensions will be provided.\n\nCDC, IIT Kharagpur",
+    "noticeat": "12-11-2026 16:20",
+    "text_source": "full_notice",
+    "source_hash": "f9a91d54f667c89622f89bedeeaba9998372cf57337f8764c0d1b845253f126e",
+    "has_download": false
+   },
+   {
+    "id": "1612",
+    "type": "PLACEMENT",
+    "subject": "Date extension",
+    "company": "ICICI Securities",
+    "notice": "CV Submission for ICIC Securities for the Management Trainee role has been extended till 4:00 PM, 13th November, 2026.\n\nIts mandatory for all the candidates who are applying for this role, to apply on the portal link attached below:\n\n1. Company Portal: https://forms.cloud.microsoft/pages/responsepage.aspx?id=dVAnYXaTXUiCDhAriHyCP2UEeR1JB55IjiWNc6iVtltUMkEwS0ZXVTVWN09UOFJQVzFLUlc3SkhJUC4u&route=shorturl\n\nNOTE: Students are required to apply using their ERP-registered email ID on both the company portal.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "12-11-2026 16:19",
+    "text_source": "full_notice",
+    "source_hash": "cc86e04de0210cdfe43563943564d34ca2b1b6cb5955d21b367007a751410eec",
+    "has_download": false
+   },
+   {
+    "id": "1611",
+    "type": "PLACEMENT",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "Energy Aspects",
+    "notice": "The Pre-Placement Talk for Energy Aspects will be held on 12th November 2026 from 5:00 PM onwards.\n\nVenue: NR 224, Nalanda\n\nNote: Attendance for the offline PPT is mandatory and will be recorded. Students are advised to be present 15 minutes prior to the scheduled time.\n\nPOC: Khush (+91 9922168000), Daksh (+91 9818071612)\n\nCDC, IIT Kharagpur.",
+    "noticeat": "12-11-2026 16:19",
+    "text_source": "full_notice",
+    "source_hash": "a2b6764430104b2e1192ff557018c4d37f66cf7dd07eac69bbd3c6e2cbe69ad0",
+    "has_download": false
+   },
    {
     "id": "1610",
     "type": "PLACEMENT",
