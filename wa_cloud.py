@@ -318,6 +318,7 @@ def send(message, headless=True, timeout_ms=30000, phone=None):
     last outgoing bubble in the chat actually carries a sent/delivered tick
     before returning -- if it can't confirm that, it raises instead of
     silently claiming success."""
+    _check_logged_in()
     phone = phone or MY_NUMBER
     if not phone:
         raise RuntimeError("WA_NUMBER not set")
@@ -394,6 +395,23 @@ def send(message, headless=True, timeout_ms=30000, phone=None):
         ctx.close()
 
 
+class WALoggedOut(RuntimeError):
+    """The linked device was logged out: WhatsApp shows its QR login page."""
+
+
+# 13 Nov 2026: once logged out, every send waited the full 150 s for a compose
+# box that can never appear (8+ sends per notice), so the run hit its 25-min
+# limit. Now the first send that sees the QR page sets this and every later
+# send in the same run fails at once.
+LOGGED_OUT = False
+_QR_MARKERS = ("Scan to log in", "Log in with phone number", "Link with phone number instead")
+
+
+def _check_logged_in():
+    if LOGGED_OUT:
+        raise WALoggedOut("WhatsApp linked device is logged out -- re-link needed (skipped)")
+
+
 def _wait_for_compose(page, box, timeout_s=150, url=None):
     """Waits for the compose box, closing popups meanwhile. Since 22 Oct 2026
     WhatsApp opens only for real notices, so a run can start many hours after
@@ -408,6 +426,14 @@ def _wait_for_compose(page, box, timeout_s=150, url=None):
             return
         except Exception:
             _dismiss_popups(page, rounds=1)
+        try:
+            body = page.evaluate("document.body.innerText")[:400]
+        except Exception:
+            body = ""
+        if sum(m in body for m in _QR_MARKERS) >= 2:
+            global LOGGED_OUT
+            LOGGED_OUT = True
+            raise WALoggedOut("WhatsApp linked device is logged out -- the page shows the QR login screen; re-link needed")
         # 3 Nov 2026: right after a re-link (and once on 29 Oct) the send?phone=
         # link dropped to the plain home screen while chats were still syncing,
         # and never opened the chat. Open the link again every 30 s.
@@ -428,6 +454,7 @@ def send_file(path, caption="", headless=True, timeout_ms=40000, phone=None):
     """Sends a file (PDF etc.) as a document to the personal self-DM, with an
     optional caption. Attach menu -> Document -> file chooser -> preview ->
     Send. The file is sent as a document (not a compressed photo)."""
+    _check_logged_in()
     phone = phone or MY_NUMBER
     if not phone:
         raise RuntimeError("WA_NUMBER not set")
