@@ -142,6 +142,9 @@ GEMINI_MODEL = "gemini-flash-latest"  # confirmed via live API calls 25 Sep 2026
                                     # model per modelVersion in the response) does not
 
 
+_GEMINI_FAILS = 0
+
+
 def smart_reflow(text):
     """25 Sep 2026: reflow()'s regex only fixes glue patterns it already
     knows the literal wording of (e.g. "Venue:", "Batch One") -- a notice
@@ -158,6 +161,13 @@ def smart_reflow(text):
     the line breaks fall*, never what reaches WhatsApp/email/website."""
     api_key = os.environ.get("GEMINI_API_KEY", "")
     if not api_key:
+        return text
+    # 13 Nov 2026: a Gemini outage (503/429/timeouts) cost ~30s per notice,
+    # and a backlog of notices pushed the run past its 25-min limit before
+    # anything was sent. After 2 straight failures, skip Gemini for the rest
+    # of this run and use the regex text.
+    global _GEMINI_FAILS
+    if _GEMINI_FAILS >= 2:
         return text
     import re, time as _time, json as _json, urllib.request as _urlreq
     prompt = (
@@ -200,8 +210,11 @@ def smart_reflow(text):
             if attempt == 0:
                 _time.sleep(3)  # Google's own 503 message: "usually temporary"
     if out is None:
-        log("Gemini polish giving up, using regex text")
+        _GEMINI_FAILS += 1
+        log("Gemini polish giving up, using regex text"
+            + (" -- skipping Gemini for the rest of this run" if _GEMINI_FAILS >= 2 else ""))
         return text
+    _GEMINI_FAILS = 0
 
     # Loosened 29 Sep 2026 per explicit request: an exact-token-match check
     # rejected Gemini's output for ANY rewording/reordering, including
