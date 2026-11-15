@@ -107,6 +107,16 @@ footer a{color:var(--accent)}
 .opp-table-wrap{overflow-x:auto}
 .opp-global-open{display:inline-block;margin:2px 0 16px;font:600 13px "IBM Plex Sans";color:var(--accent-contrast);background:var(--accent);padding:9px 16px;border-radius:8px;text-decoration:none}
 .source-note{font-size:12px;color:var(--text-dim);margin-top:12px}
+.health{margin:12px 0;display:flex;flex-direction:column;gap:6px}
+.health:empty{display:none}
+.hl{display:flex;gap:9px;align-items:flex-start;border-radius:10px;padding:10px 13px;font-size:13px;line-height:1.45}
+.hl.bad{background:var(--bad-bg);color:var(--bad)}
+.hl.warn{background:var(--warn-bg);color:var(--warn)}
+.hl b{font-weight:700}
+.hl .dot{flex:0 0 auto;width:8px;height:8px;border-radius:50%;background:currentColor;margin-top:6px}
+:root{--bad:#b42318;--bad-bg:#fde8e6}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bad:#ff8a80;--bad-bg:#3d1714}}
+:root[data-theme="dark"]{--bad:#ff8a80;--bad-bg:#3d1714}
 </style>
 
 <header class="top">
@@ -122,6 +132,7 @@ footer a{color:var(--accent)}
     </button>
   </div>
 </header>
+<div class="health" id="healthBox" role="status" aria-live="polite"></div>
 
 <div class="toolbar">
   <div class="cv-links">
@@ -649,7 +660,29 @@ footer a{color:var(--accent)}
 
   renderSectionTabs();
   loadCompanies();
+  // 15 Nov 2026: any bot problem shows here, not only on WhatsApp.
+  function loadHealth(){
+    var box = document.getElementById("healthBox");
+    var bad = [];
+    function add(level, html){ bad.push('<div class="hl '+level+'"><span class="dot"></span><span>'+html+'</span></div>'); }
+    function fmt(iso){ var d=new Date(iso); return isNaN(d)?iso:d.toLocaleString("en-IN",{timeZone:"Asia/Kolkata",day:"numeric",month:"short",hour:"numeric",minute:"2-digit"})+" IST"; }
+    Promise.all([
+      fetch("./status.json?_="+Date.now(),{cache:"no-store"}).then(function(r){return r.ok?r.json():{};}).catch(function(){return {};}),
+      fetch(DATA_URL+"?_="+Date.now(),{cache:"no-store"}).then(function(r){return r.ok?r.json():{};}).catch(function(){return {};})
+    ]).then(function(res){
+      var st=res[0]||{}, data=res[1]||{};
+      var last = st.checked_at || data.last_updated;
+      var ageH = last ? (Date.now()-new Date(last).getTime())/3600000 : 99;
+      if(ageH >= 1.5) add("bad","<b>Bot hasn&rsquo;t checked ERP for "+(ageH>=48?Math.round(ageH/24)+" days":Math.round(ageH)+" h")+"</b> (last check "+(last?fmt(last):"unknown")+"). New notices may be missing here &mdash; check ERP directly.");
+      if(st.erp && st.erp.ok===false) add("bad","<b>ERP login failing</b> since "+fmt(st.erp.at)+": "+esc(st.erp.error||"")+". The list below may be out of date.");
+      if(st.whatsapp && st.whatsapp.ok===false) add("warn","<b>WhatsApp alerts are not going out</b> ("+esc(st.whatsapp.error||"")+", "+fmt(st.whatsapp.at)+"). Alerts are going by email only; this site still updates.");
+      if(st.run && st.run.ok===false) add("bad","<b>Last bot run crashed</b> ("+fmt(st.run.at)+"): "+esc(st.run.error||""));
+      box.innerHTML = bad.join("");
+    });
+  }
+
   fetchData(false);
-  setInterval(function(){ fetchData(false); }, 5 * 60 * 1000);
+  loadHealth();
+  setInterval(function(){ fetchData(false); loadHealth(); }, 5 * 60 * 1000);
 })();
 </script>
