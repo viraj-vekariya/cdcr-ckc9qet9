@@ -263,6 +263,35 @@ def send_update_email(subject, message, failed=False):
         log(f"update email failed: {e}")
 
 
+STATUS_FILE = BASE / "docs" / "status.json"
+_WA_RESULT = {}   # filled by notify_all: last WhatsApp outcome this run
+
+
+def write_status(**parts):
+    """15 Nov 2026: a problem must show on the website too, not only on
+    WhatsApp. docs/status.json carries the health of each part (ERP login,
+    WhatsApp, last check); the site shows a warning banner from it."""
+    try:
+        st = json.loads(STATUS_FILE.read_text()) if STATUS_FILE.exists() else {}
+    except Exception:
+        st = {}
+    now = datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds")
+    st["checked_at"] = now
+    for k, v in parts.items():
+        st[k] = dict(v, at=now)
+    STATUS_FILE.write_text(json.dumps(st, indent=1))
+
+
+def _wa_ok():
+    _WA_RESULT.update(ok=True, error="")
+
+
+def _wa_fail(e):
+    msg = ("WhatsApp is logged out; it needs re-linking" if isinstance(e, wa_cloud.WALoggedOut)
+           else str(e).split(" -- url=")[0][:160])
+    _WA_RESULT.update(ok=False, error=msg)
+
+
 def notify_all(message, subject="CDC watcher update", extra=True):
     """Personal self-DM only -- the reliable, proven channel. The "CDC
     Updates" group send was tried as a second channel but is still flaky
@@ -280,9 +309,11 @@ def notify_all(message, subject="CDC watcher update", extra=True):
     try:
         wa_cloud.send(message)
         log("WhatsApp sent to personal DM (delivery confirmed)")
+        _wa_ok()
         send_update_email(subject, message, failed=False)
     except Exception as e:
         log(f"WhatsApp personal-DM send failed: {e}")
+        _wa_fail(e)
         # 3 Oct 2026: email_fallback() used to also mail the personal Gmail
         # (GMAIL/APP_PW's own inbox) on every WhatsApp failure -- explicit
         # request to stop that account getting any of these at all. Dropped
@@ -301,17 +332,19 @@ def notify_all(message, subject="CDC watcher update", extra=True):
             log(f"WhatsApp send to extra number ...{n[-4:]} failed (non-fatal): {e}")
 
 
-def main():
+def _main():
     if not gate.run_is_due():
         log("skipping -- not due (a recent attempt/success exists; another trigger already handled this hour)")
         return
     gate.record_attempt()
+    _RAN[0] = True
 
     now_str = datetime.datetime.now(IST).strftime("%d %b, %I:%M %p IST")
     cookie = get_session()
     if not cookie:
         msg = f"CDC watcher: login failed at {now_str} -- will retry in 30 min."
         log(msg)
+        write_status(erp={"ok": False, "error": "ERP login failed (wrong password, OTP or ERP down)"})
         # 29 Oct 2026: a single failed login is retried 30 min later and
         # usually works, so it is email-only. WhatsApp (self-chat only, never
         # the extra numbers) only once nothing has worked for 2+ hours.
@@ -370,6 +403,7 @@ def main():
         f"{sum(1 for r in cache_rows if r['download_raw'])} notice(s) list a Download")
     build_docs.main()
     log(f"documents rebuilt ({len(cache_rows)} total rows)")
+    write_status(erp={"ok": True, "error": ""}, site={"ok": True, "error": "", "rows": len(cache_rows)})
 
     SEEN_FILE.write_text(json.dumps(sorted({r["id"] for r in raw}, key=lambda x: int(x) if x.isdigit() else 0)))
     SEEN_FP_FILE.write_text(json.dumps(sorted((seen_fp or set()) | {fingerprint(r) for r in raw})))
@@ -421,6 +455,23 @@ def main():
             msg = f"No CDC update for now ({end} IST).\n\n\U0001F310 {SITE_URL}"
         send_update_email("CDC watcher: no update this hour", msg, failed=False)
         log("no new notices -- email only (WhatsApp is kept for real notices)")
+
+
+def main():
+    try:
+        _main()
+    except Exception as e:
+        write_status(run={"ok": False, "error": f"bot crashed: {type(e).__name__}: {str(e)[:120]}"})
+        raise
+    else:
+        if _RAN[0]:   # a real cycle ran (not skipped by the gate)
+            write_status(run={"ok": True, "error": ""})
+    finally:
+        if _WA_RESULT:
+            write_status(whatsapp=dict(_WA_RESULT))
+
+
+_RAN = [False]
 
 
 if __name__ == "__main__":
