@@ -1,0 +1,5 @@
+{
+ "checked_at": "2026-11-13T11:20:45+00:00",
+ "erp": {"ok": true, "error": "", "at": "2026-11-13T11:20:45+00:00"},
+ "whatsapp": {"ok": false, "error": "WhatsApp is logged out; it needs re-linking", "at": "2026-11-13T11:23:18+00:00"}
+}
