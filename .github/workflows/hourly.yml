@@ -23,7 +23,7 @@ concurrency:
 jobs:
   check:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
       - name: Check if a run is actually due
@@ -89,6 +89,9 @@ jobs:
           WA_EXTRA_NUMBERS: ${{ secrets.WA_EXTRA_NUMBERS }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           FORCE_RUN: ${{ inputs.force }}
+        # 15 Nov 2026: a step limit (not only the job limit) so a stuck
+        # WhatsApp send can never stop the site/state commit below.
+        timeout-minutes: 18
         run: python3 -u cloud_hourly.py
       - name: Re-encrypt WhatsApp session (may have refreshed tokens)
         id: wa_encrypt
