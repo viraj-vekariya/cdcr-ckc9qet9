@@ -1,13 +1,25 @@
 {
- "last_updated": "2026-11-15T08:24:04Z",
+ "last_updated": "2026-11-15T09:24:44Z",
  "stats": {
-  "placement": 654,
+  "placement": 655,
   "internship": 864,
-  "with_files": 320,
-  "listed_downloads": 324
+  "with_files": 321,
+  "listed_downloads": 325
  },
  "categories": {
   "placement": [
+   {
+    "id": "1688",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "WEX",
+    "notice": "PFA the test room allocation of shortlisted candidates for the Assessment of WEX Fintech, scheduled from 2:45 PM onwards on 15th November, 2026.\n\nVenue: Nalanda Classroom Complex\n\nStudents are required to carry their original Institute ID card, failing which students will not be permitted to sit for test.\n\nThe \n\nTest link will be shared on the CDC Registered Email ID of the students.\n\nPlease carry your laptops, pens, and papers.\n\nStudents are requested to report 15 minutes prior to the reporting time.\n\nPOC: Ritvik (9480360231), Anurag (9491087133)\n\nCDC, IIT Kharagpur",
+    "noticeat": "15-11-2026 14:06",
+    "text_source": "full_notice",
+    "source_hash": "98b777a318a50950659820f7ea271d701c16237773d40cbdd0fa37720d437004",
+    "has_download": true,
+    "file": "files/1688.pdf"
+   },
    {
     "id": "1687",
     "type": "PLACEMENT",
