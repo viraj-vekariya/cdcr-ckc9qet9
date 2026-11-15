@@ -1,9 +1,9 @@
 {
- "checked_at": "2026-11-15T03:53:54+00:00",
+ "checked_at": "2026-11-15T04:50:00+00:00",
  "erp": {
-  "ok": true,
-  "error": "",
-  "at": "2026-11-15T03:53:51+00:00"
+  "ok": false,
+  "error": "ERP login failed (wrong password, OTP or ERP down)",
+  "at": "2026-11-15T04:49:58+00:00"
  },
  "whatsapp": {
   "ok": false,
@@ -13,7 +13,7 @@
  "run": {
   "ok": true,
   "error": "",
-  "at": "2026-11-15T03:53:54+00:00"
+  "at": "2026-11-15T04:50:00+00:00"
  },
  "site": {
   "ok": true,
