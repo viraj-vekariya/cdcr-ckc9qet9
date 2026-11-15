@@ -1,13 +1,35 @@
 {
- "last_updated": "2026-11-15T12:24:38Z",
+ "last_updated": "2026-11-15T13:26:01Z",
  "stats": {
-  "placement": 655,
+  "placement": 657,
   "internship": 864,
   "with_files": 321,
   "listed_downloads": 325
  },
  "categories": {
   "placement": [
+   {
+    "id": "1690",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "Multiple Companies",
+    "notice": "The following companies are open for CV Submission till 4:00 PM, 16th November, 2026.\n\n1. TATA AIG (Profile: Senior Engineer Trainee - Analytics)\n\n2. ICICI BANK (Profile: Manager-1)\n\n3. AXXELA (Profile: Trainee Analyst)\n\n4. ATHER ENERGY (Profile: Module Quality, Data Office, Chief Engineer, Hardware Pack Engineering, Product Ownership)\n\n5. TELUS DIGITAL (Profile: Associate Project Manager)\n\n6. GREEN AERO PROPULSION (All Profiles)\n\n7. DELOITTE (Profile: Analyst)\n\n8. BARCLAYS (Profile: Risk Graduate Analyst)\n\n9. \u2060GDi PARTNERS (Profile: Associate Consultant)\n\n10. PRISM (Profile: Young Leader)\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "15-11-2026 18:06",
+    "text_source": "full_notice",
+    "source_hash": "46eba72c82c746e5a091abf4a8450e7d8c08a28023d4664d2a3ad03a28eccbe2",
+    "has_download": false
+   },
+   {
+    "id": "1689",
+    "type": "PLACEMENT",
+    "subject": "Date extension",
+    "company": "Multiple Companies",
+    "notice": "The following companies are open for CV Submission till 4:00 PM, 16th November, 2026.\n\n1. ANALOG DEVICES (All Profiles)\n\n2. \u2060GROWW (Profile : Associate Product Manager)\n\n3. INTEL (All Profiles)\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "15-11-2026 17:58",
+    "text_source": "full_notice",
+    "source_hash": "341d454bd2629c09a647e74867d408e0e46fa76217428128951e8133db6184a0",
+    "has_download": false
+   },
    {
     "id": "1688",
     "type": "PLACEMENT",
