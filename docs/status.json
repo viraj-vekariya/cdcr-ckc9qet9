@@ -1,5 +1,18 @@
 {
- "checked_at": "2026-11-13T11:20:45+00:00",
- "erp": {"ok": true, "error": "", "at": "2026-11-13T11:20:45+00:00"},
- "whatsapp": {"ok": false, "error": "WhatsApp is logged out; it needs re-linking", "at": "2026-11-13T11:23:18+00:00"}
+ "checked_at": "2026-11-15T00:33:35+00:00",
+ "erp": {
+  "ok": false,
+  "error": "ERP login failed (wrong password, OTP or ERP down)",
+  "at": "2026-11-15T00:33:27+00:00"
+ },
+ "whatsapp": {
+  "ok": false,
+  "error": "WhatsApp is logged out; it needs re-linking",
+  "at": "2026-11-15T00:33:35+00:00"
+ },
+ "run": {
+  "ok": true,
+  "error": "",
+  "at": "2026-11-15T00:33:35+00:00"
+ }
 }
