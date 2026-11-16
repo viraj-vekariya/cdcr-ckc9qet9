@@ -1,23 +1,48 @@
 {
- "last_updated": "2026-11-16T14:27:28Z",
+ "last_updated": "2026-11-16T15:58:18Z",
  "stats": {
-  "placement": 675,
+  "placement": 677,
   "internship": 864,
-  "with_files": 321,
-  "listed_downloads": 325
+  "with_files": 324,
+  "listed_downloads": 328
  },
  "categories": {
   "placement": [
    {
-    "id": "1709",
+    "id": "1712",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "CARS24",
+    "notice": "PFA the test room allocation for the Assessment of Cars24 for all the roles, scheduled from 9:00 PM onwards on 16th November 2026.\n\nVenue: Nalanda Classroom Complex\n\nNote: All shortlisted candidates are strictly instructed to report to their allocated rooms by 9:00 PM sharp, as the test schedule is fixed.\n\nStudents are required to carry their original Institute ID card, failing which students will not be permitted to sit for test.\n\nPlease carry your laptops, pens, and papers.\n\nStudents are requested to report 15 minutes prior to the reporting time.\n\nPOCs: Aryan (+91 81003 03122), Hardik (+91 81770 18092)\n\nCDC, IIT Kharagpur",
+    "noticeat": "16-11-2026 20:46",
+    "text_source": "full_notice",
+    "source_hash": "ef34d9a7fd3d7449a7bba5373d035c06c875db4e9711f1e84c3b80797713ba9d",
+    "has_download": true,
+    "file": "files/1712.pdf"
+   },
+   {
+    "id": "1711",
+    "type": "PLACEMENT",
+    "subject": "Shortlist",
+    "company": "CARS24",
+    "notice": "PFA the test shortlist for the Assessment of Cars24 for all the roles, scheduled from 9:00 PM onwards on 16th November 2026.\n\nThe test links have been shared with the shortlisted students on their email IDs.\n\nVenue: Nalanda Classroom Complex\n\nThe room allocation for the test will be released shortly.\n\nPOCs: Aryan (+91 81003 03122), Hardik (+91 81770 18092)\n\nCDC, IIT Kharagpur",
+    "noticeat": "16-11-2026 20:13",
+    "text_source": "full_notice",
+    "source_hash": "daa44f9b80c6b847f2ab674cea9c6a20f253d71c8168a6f6350142b71928eca7",
+    "has_download": true,
+    "file": "files/1711.pdf"
+   },
+   {
+    "id": "1710",
     "type": "PLACEMENT",
     "subject": "Urgent",
     "company": "ACCENTURE",
-    "notice": "Please find attached the list of shortlisted candidates for the further process for the Accenture India Elite Technology Engineer FTE role.\n\nStudents from the shortlist who have received this communication are required to select Elite Technology Engineer FTE as their role preference.\n\nThe remaining students in the shortlist who have not received this email are requested to ignore this notice. They will be informed regarding the further process and details at a later stage.\n\nPOC: Vatsal (+91 92344 57393)\n\nCDC, IIT Kharagpur",
-    "noticeat": "16-11-2026 19:49",
+    "notice": "Please find attached the list of shortlisted candidates for the further process for the Accenture India Elite Technology Engineer FTE role.\n\nStudents from the shortlist who have received the mail from Accenture are required to select Elite Technology Engineer FTE as their role preference.\n\nThe remaining students in the shortlist who have not received this email are requested to ignore this notice. They will be informed regarding the further process and details at a later stage.\n\nPOC: Vatsal (+91 92344 57393)\n\nCDC, IIT Kharagpur",
+    "noticeat": "16-11-2026 19:56",
     "text_source": "full_notice",
-    "source_hash": "f7ca6c27e470536b295b9bb5e5fb095521ed479d02be2ec8daf66435ae90f59f",
-    "has_download": false
+    "source_hash": "6332b438d92f4523dac7720f6b56849033ff73271abad4563175f3df9b426009",
+    "has_download": true,
+    "file": "files/1710.pdf"
    },
    {
     "id": "1708",
