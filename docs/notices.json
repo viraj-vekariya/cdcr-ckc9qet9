@@ -1,13 +1,57 @@
 {
- "last_updated": "2026-11-16T15:58:18Z",
+ "last_updated": "2026-11-16T17:57:40Z",
  "stats": {
-  "placement": 677,
+  "placement": 681,
   "internship": 864,
   "with_files": 324,
   "listed_downloads": 328
  },
  "categories": {
   "placement": [
+   {
+    "id": "1716",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "SLB",
+    "notice": "The CV Submission for SLB for all the roles have been opened till 4:00 PM, 17th November, 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "16-11-2026 23:18",
+    "text_source": "full_notice",
+    "source_hash": "9a4dcb33f053c6c47db2677d8fb550a5d88cbd6b843e1e278bc73b0420781100",
+    "has_download": false
+   },
+   {
+    "id": "1715",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "Multiple Companies",
+    "notice": "The following companies CV Submission are extended till 4:00 PM, 17th November, 2026.\n\n1. ICICI BANK (Profile: Manager-1)\n\n2. AXXELA (Profile: Trainee Analyst)\n\n3. ATHER ENERGY (Profile: Module Quality, Data Office, Chief Engineer, Hardware Pack Engineering, Product Ownership)\n\n4. TELUS DIGITAL (Profile: Associate Project Manager)\n\n5. BARCLAYS (Profile: Risk Graduate Analyst)\n\n6. \u2060GDi PARTNERS (Profile: Associate Consultant)\n\n7. PRISM (Profile: Young Leader)\n\n8. DELOITTE ( Profile: Analyst)\n\n9. INTEL ( All Profiles)\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "16-11-2026 23:14",
+    "text_source": "full_notice",
+    "source_hash": "3c22ea0ad15326f4c762eaaf2ed4d775d7921a8a08f72c5be5374986c855d5fa",
+    "has_download": false
+   },
+   {
+    "id": "1714",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "ETERNAL",
+    "notice": "All the eligible students who have applied for Eternal for the roles of (Software Development Engineer, Machine Learning Scientist, Product Analyst) are required to kindly fill the preference form given below.\n\nLink: https://forms.gle/d1FAmp5zCaw7ieiu6\n\nDeadline: 16th November 2026, 11:59 PM\n\nKindly ensure you have filled the form before the deadline. No further extensions will be provided.\n\nCDC, IIT Kharagpur",
+    "noticeat": "16-11-2026 22:36",
+    "text_source": "full_notice",
+    "source_hash": "48984a7e8f24f1ad8d11be859f137b6627149f2b56fe19e915b30098f941ea98",
+    "has_download": false
+   },
+   {
+    "id": "1713",
+    "type": "PLACEMENT",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "PAYTM",
+    "notice": "The Pre-Placement Talk for PAYTM, will be held on 17th November, 2026 from 6:00 PM.\n\nLink: meet.google.com/zpj-jcbe-yei\n\nNote: All placement-registered students are supposed to attend the PPT, without fail. Attendance is compulsory. Students must join the link 15 minutes prior to the scheduled time.\n\nPOC: Devansh (+91 7999892181)\n\nCDC, IIT Kharagpur",
+    "noticeat": "16-11-2026 21:50",
+    "text_source": "full_notice",
+    "source_hash": "aff67687366c8fd469c299b62999865f9e44e92a7b13d16ffa54a9874ddcacd3",
+    "has_download": false
+   },
    {
     "id": "1712",
     "type": "PLACEMENT",
