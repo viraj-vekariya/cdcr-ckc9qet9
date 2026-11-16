@@ -1,13 +1,35 @@
 {
- "last_updated": "2026-11-16T03:56:01Z",
+ "last_updated": "2026-11-16T05:29:24Z",
  "stats": {
-  "placement": 658,
+  "placement": 660,
   "internship": 864,
   "with_files": 321,
   "listed_downloads": 325
  },
  "categories": {
   "placement": [
+   {
+    "id": "1693",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "Ola",
+    "notice": "The CV Submission for OLA for all the roles has been extended till 4:00 PM, 16th November, 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "16-11-2026 09:45",
+    "text_source": "full_notice",
+    "source_hash": "fcae23852e9866415128bfe01e5d39db53335d97f0b7ad6358cf7e178034d593",
+    "has_download": false
+   },
+   {
+    "id": "1692",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "D.E. Shaw",
+    "notice": "CV Submission for D. E. SHAW INDIA for the Technology Developer role has been extended till 4:00 PM, 16th November, 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "16-11-2026 09:43",
+    "text_source": "full_notice",
+    "source_hash": "90766f0f93850171cc5e13ca9c1811496ca443b5ab27ea36a7810f7ee7ce4d47",
+    "has_download": false
+   },
    {
     "id": "1691",
     "type": "PLACEMENT",
