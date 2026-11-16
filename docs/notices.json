@@ -1,13 +1,101 @@
 {
- "last_updated": "2026-11-16T12:26:45Z",
+ "last_updated": "2026-11-16T14:27:28Z",
  "stats": {
-  "placement": 666,
+  "placement": 675,
   "internship": 864,
   "with_files": 321,
   "listed_downloads": 325
  },
  "categories": {
   "placement": [
+   {
+    "id": "1709",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "ACCENTURE",
+    "notice": "Please find attached the list of shortlisted candidates for the further process for the Accenture India Elite Technology Engineer FTE role.\n\nStudents from the shortlist who have received this communication are required to select Elite Technology Engineer FTE as their role preference.\n\nThe remaining students in the shortlist who have not received this email are requested to ignore this notice. They will be informed regarding the further process and details at a later stage.\n\nPOC: Vatsal (+91 92344 57393)\n\nCDC, IIT Kharagpur",
+    "noticeat": "16-11-2026 19:49",
+    "text_source": "full_notice",
+    "source_hash": "f7ca6c27e470536b295b9bb5e5fb095521ed479d02be2ec8daf66435ae90f59f",
+    "has_download": false
+   },
+   {
+    "id": "1708",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "LTM",
+    "notice": "All eligible students who have applied for LTM are required to fill out the preference form given below.\n\nLink: https://forms.gle/7ZnogmawRL2chtAC8\n\nDeadline: 17th November 2026, 4:00 PM\n\nKindly ensure you have filled the form before the deadline. No further extensions will be provided.\n\nCDC, IIT Kharagpur",
+    "noticeat": "16-11-2026 19:46",
+    "text_source": "full_notice",
+    "source_hash": "3a1b552a84c1bf80b3af0a04d512db2006973b3c02bd4dd76f62d83faa44fd1b",
+    "has_download": false
+   },
+   {
+    "id": "1707",
+    "type": "PLACEMENT",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "Green Aero Propulsion",
+    "notice": "The Pre-Placement Talk for Green Aero Propulsion, will be held on 16th October, 2026 from 8:00 PM.\n\nLink: https://meet.google.com/bzv-wsjz-fvq\n\nNote: All placement-registered students are supposed to attend the PPT, without fail. Attendance is compulsory. Students must join the link 15 minutes prior to the scheduled time.\n\nPOC: Neev (+91 9001346350)\n\nCDC, IIT Kharagpur",
+    "noticeat": "16-11-2026 19:08",
+    "text_source": "full_notice",
+    "source_hash": "a606cdf9395c01e6d61be9bcaba06b4a9de365ac38c982c3fdfcee5b992da207",
+    "has_download": false
+   },
+   {
+    "id": "1706",
+    "type": "PLACEMENT",
+    "subject": "Date extension",
+    "company": "TATA AIG General Insurance",
+    "notice": "The CV Submission for Tata AIG for the role of Senior Engineer Trainee - Analytics has been extended with revised eligibility till 4:00 PM, 17th November, 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "16-11-2026 18:52",
+    "text_source": "full_notice",
+    "source_hash": "f9eaad35b7f463e36fac2d9cec90ce891df5c13a0fad1e7723caefc744c88896",
+    "has_download": false
+   },
+   {
+    "id": "1705",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "Multiple Companies",
+    "notice": "The following companies are open for CV Submission till 4:00 PM, 17th November, 2026.\n\n1. NATION WITH NAMO (Profile: Associate)\n\n2. ROUTE MOBILE LIMITED (Profile: SDE 1, Business Analyst)\n\n3. DELOITTE TOUCHE TOHMATSU (All Profiles)\n\n4. EY GLOBAL DELIVERY SERVICES (Profile: Senior Analyst - Supply Chain Management, Senior Analyst - Data Scientist)\n\n5. LTM (Profile: Post-Graduate Engineer Trainee, Graduate Engineer Trainee)\n\n6. WATERFLY (All Profiles)\n\n7. WINDFLOW AI (Profile: AI Engineer)\n\n8. XION MULTIVENTURES (Profile: Trainee Trader & Research Analyst)\n\n9. DASSAULT SYSTEMES (All Profiles)\n\n10. AXON DEVELOPERS (All Profiles)\n\n11. SKYROOT AEROSPACE (All Profiles)\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "16-11-2026 18:46",
+    "text_source": "full_notice",
+    "source_hash": "18866cbec215443cf2ea85b28a21c7aed43f4b985c5125a7d73ab1bb85dca560",
+    "has_download": false
+   },
+   {
+    "id": "1704",
+    "type": "PLACEMENT",
+    "subject": "Date extension",
+    "company": "ETERNAL",
+    "notice": "The CV Submission for Eternal for the role of Assistant Program Manager has been extended till 11:59 PM, 16th November, 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "16-11-2026 18:45",
+    "text_source": "full_notice",
+    "source_hash": "d06f033dcba19fd52eabb555e013031cfc6769ec5624f2258d2f5307ac65d2bd",
+    "has_download": false
+   },
+   {
+    "id": "1703",
+    "type": "PLACEMENT",
+    "subject": "Date extension",
+    "company": "Energy Aspects",
+    "notice": "The CV submission of Energy Aspects for Energy Market Analyst role has been extended till 4:00 PM, 17th November, 2026.\n\nIts mandatory for all the candidates who are applying for the roles, to fill the following google form attached below:\n\nGoogle Form: https://forms.gle/Awqjt1j6rffL1DD26\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "16-11-2026 18:27",
+    "text_source": "full_notice",
+    "source_hash": "00aa1d549f7cc518bf5542ff33aa9d10e1d01cbae026e44c4f121f9e186a749c",
+    "has_download": false
+   },
+   {
+    "id": "1702",
+    "type": "PLACEMENT",
+    "subject": "Date extension",
+    "company": "Multiple Companies",
+    "notice": "The following companies are open for CV Submission till 10:00 AM, 17th November, 2026.\n\n1. OLA (Profile: All roles)\n\n2. \u2060D. E. SHAW INDIA (Profile: Technology Developer)\n\nInterested and eligible students are advised to apply within the given deadline.\n\nNo further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "16-11-2026 18:25",
+    "text_source": "full_notice",
+    "source_hash": "c312a97c99cbc10fea33add3287b65f6394f9ff849f0a62b63155cc1f6341931",
+    "has_download": false
+   },
    {
     "id": "1701",
     "type": "PLACEMENT",
@@ -28,6 +116,17 @@
     "noticeat": "16-11-2026 16:36",
     "text_source": "full_notice",
     "source_hash": "006c73ba4651d64cae868face6c2bda4d5a8b3fc3c9963ed50bb6d769afd4b4d",
+    "has_download": false
+   },
+   {
+    "id": "1699",
+    "type": "PLACEMENT",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "BREVAN HOWARD",
+    "notice": "Please note that the Pre-Placement Talk of Brevan Howard, has been postponed until further notice.\n\nCDC, IIT Kharagpur",
+    "noticeat": "16-11-2026 15:56",
+    "text_source": "full_notice",
+    "source_hash": "f6bc6db8ac67613ad95d40d529900754a2c80f3a0e85e6a5bc4b2cdbf5c5c23d",
     "has_download": false
    },
    {
