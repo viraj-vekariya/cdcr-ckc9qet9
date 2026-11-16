@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-11-16T10:26:23Z",
+ "last_updated": "2026-11-16T11:26:28Z",
  "stats": {
-  "placement": 664,
+  "placement": 665,
   "internship": 864,
   "with_files": 321,
   "listed_downloads": 325
  },
  "categories": {
   "placement": [
+   {
+    "id": "1700",
+    "type": "PLACEMENT",
+    "subject": "PPO",
+    "company": "INTEL",
+    "notice": "INTEL has extended the offer to the following student(s):\n\nLALITHA SAHITYA SARIPAKA - 25MT61R15\n\nThe students are advised to give offer acceptance by 16.11.2026.\n\n(For more details, check your email ID.)\n\nCDC, IIT Kharagpur",
+    "noticeat": "16-11-2026 16:36",
+    "text_source": "full_notice",
+    "source_hash": "006c73ba4651d64cae868face6c2bda4d5a8b3fc3c9963ed50bb6d769afd4b4d",
+    "has_download": false
+   },
    {
     "id": "1698",
     "type": "PLACEMENT",
