@@ -1,13 +1,35 @@
 {
- "last_updated": "2026-11-17T18:29:25Z",
+ "last_updated": "2026-11-17T19:29:22Z",
  "stats": {
-  "placement": 694,
+  "placement": 696,
   "internship": 864,
   "with_files": 325,
   "listed_downloads": 329
  },
  "categories": {
   "placement": [
+   {
+    "id": "1732",
+    "type": "PLACEMENT",
+    "subject": "Schedule",
+    "company": "CDC Placement Schedule for 18th November 2026",
+    "notice": "All students eligible for placement are advised to take note of the tentative placement schedule for Wednesday, 18th November 2026.\n\n1. [PPT] NATION WITH NAMO (6:00 PM - 7:00 PM)\n\n2. [TEST] GE VERNOVA (All Profiles) (6:00 PM \u2013 7:00 PM)\n\n3. [PPT] GDI PARTNERS (7:00 PM - 8:00 PM)\n\n4. [PPT] BREVAN HOWARD (8:00 PM \u2013 9:00 PM)\n\n5. [TEST] INFINEON TECHNOLOGIES (Profile: Analog/Mixed-Signal Engineer) (9:30 PM \u2013 11:00 PM)\n\nNote: Links for the tests and other relevant details will be shared separately. Room allocations and other necessary instructions for the assessments will be communicated prior to the respective tests.\n\nCDC, IIT Kharagpur",
+    "noticeat": "18-11-2026 00:14",
+    "text_source": "full_notice",
+    "source_hash": "836ae9e9d3f2a704ebc885c2210e849771bd15c080a6609aafd70abbac57488b",
+    "has_download": false
+   },
+   {
+    "id": "1731",
+    "type": "PLACEMENT",
+    "subject": "Additional requirement",
+    "company": "OLA",
+    "notice": "All the eligible students who have applied for Ola for the roles of:\n- Founder's Program - General Management\n- Founder's Program \u2013 Technology\n\nare required to kindly fill the Additional Details Form by the company as linked below. Kindly note the updated deadline.\n\nLink:\nhttps://forms.gle/THbGxUBqBY61R1jC6\n\nDeadline:\n18th November 2026, 11:59 AM\n\nKindly ensure you have filled the form before the deadline. No further extensions will be provided.\n\nCDC, IIT Kharagpur",
+    "noticeat": "18-11-2026 00:08",
+    "text_source": "full_notice",
+    "source_hash": "3713b00469e92ce7be4f73523c20004751e64da48efd4e4b416bd4cb832b79ac",
+    "has_download": false
+   },
    {
     "id": "1729",
     "type": "PLACEMENT",
