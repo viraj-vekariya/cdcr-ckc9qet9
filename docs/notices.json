@@ -1,13 +1,35 @@
 {
- "last_updated": "2026-11-17T01:57:44Z",
+ "last_updated": "2026-11-17T02:58:59Z",
  "stats": {
-  "placement": 681,
+  "placement": 683,
   "internship": 864,
   "with_files": 324,
   "listed_downloads": 328
  },
  "categories": {
   "placement": [
+   {
+    "id": "1718",
+    "type": "PLACEMENT",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "BLACKBUCK",
+    "notice": "Pre-Placement Talk: BlackBuck\n\nDate: 17th November 2026\n\nTime: 7:00 PM\n\nLink:\nhttps://meet.google.com/ths-qmta-kqv\n\nInstructions:\n- All interested students are required to attend the PPT without fail.\n- Attendance is compulsory.\n- Students should join 15 minutes prior to the meeting time.\n\nPOC:\nKhush (+91 99221 68000)\n\nCDC, IIT Kharagpur",
+    "noticeat": "17-11-2026 08:14",
+    "text_source": "full_notice",
+    "source_hash": "8121df867aa9087f92a6d5687f2c1b43669333fdc49de89bcdeb0bec4eb24854",
+    "has_download": false
+   },
+   {
+    "id": "1717",
+    "type": "PLACEMENT",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "PAYTM",
+    "notice": "Please note that the Pre-Placement Talk for Paytm will be held on 17th November 2026 from 6:00 PM.\n\nLink: https://meet.google.com/zpj-jcbe-yei\n\nAll interested students are required to attend the PPT without fail. Attendance is compulsory. Students should join 15 minutes prior to the meeting time.\n\nPOC: Dishil (+91 99254 92574)\n\nCDC, IIT Kharagpur",
+    "noticeat": "17-11-2026 08:13",
+    "text_source": "full_notice",
+    "source_hash": "f0256b4ee1cbf838acc14df6c69e442775abc902996e0af0eab4ea2946e42b73",
+    "has_download": false
+   },
    {
     "id": "1716",
     "type": "PLACEMENT",
