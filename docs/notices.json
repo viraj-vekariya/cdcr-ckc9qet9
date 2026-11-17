@@ -1,13 +1,35 @@
 {
- "last_updated": "2026-11-17T13:29:05Z",
+ "last_updated": "2026-11-17T14:30:12Z",
  "stats": {
-  "placement": 687,
+  "placement": 689,
   "internship": 864,
   "with_files": 324,
   "listed_downloads": 328
  },
  "categories": {
   "placement": [
+   {
+    "id": "1724",
+    "type": "PLACEMENT",
+    "subject": "Additional requirement",
+    "company": "ICICI BANK",
+    "notice": "All the eligible students who have applied for ICICI Bank, are required to apply directly through the company\u2019s careers portal using the link below.\n\nApplication \n\nLink: https://careers.icici.bank.in/CareerApplicant/Career/job-details/2271594\n\nDeadline: 18th November 2026, 11:59 AM\n\nImportant Instructions:\n\n1. Click on the link \"Apply\". Students are advised to use their personal email IDs for registration instead of their institute email IDs.\n2. While selecting the degree and college, ensure that the correct options are selected from the dropdown menu.\n3. Students who have previously registered on the ICICI Bank portal should log in using their existing Applicant ID and password, update their application, and submit the declaration.\n4. First-time applicants must sign up, complete the application and submit the declaration.\n5. An Applicant ID will be generated upon successful registration. Students must retain this ID for future correspondence.\n6. All applicants are also required to fill out the questionnaire along with the registration form.\n\nPlease ensure that the application and questionnaire are completed before the deadline. Late applications will not be considered.\n\nCDC, IIT Kharagpur",
+    "noticeat": "17-11-2026 19:29",
+    "text_source": "full_notice",
+    "source_hash": "07b0567358813ec282758796a6866356a1fc12cf035469a658301c12772e40c2",
+    "has_download": false
+   },
+   {
+    "id": "1723",
+    "type": "PLACEMENT",
+    "subject": "Additional requirement",
+    "company": "ETERNAL",
+    "notice": "All the eligible students who have applied for Eternal for all the roles are required to kindly fill the Additional Details Form given below.\n\nLink: https://forms.gle/adhQGjpHrREJMt3fA\n\nDeadline: 18th November 2026, 8:00 AM\n\nKindly ensure you have filled the form before the deadline. No further extensions will be provided.\n\nCDC, IIT Kharagpur",
+    "noticeat": "17-11-2026 19:10",
+    "text_source": "full_notice",
+    "source_hash": "669e5bfd40685085b86342a79312e93d867119f3703d34bf0f3c5886a52b036d",
+    "has_download": false
+   },
    {
     "id": "1722",
     "type": "PLACEMENT",
