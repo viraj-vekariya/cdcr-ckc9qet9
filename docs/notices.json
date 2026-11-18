@@ -1,13 +1,46 @@
 {
- "last_updated": "2026-11-18T05:31:13Z",
+ "last_updated": "2026-11-18T06:30:21Z",
  "stats": {
-  "placement": 699,
+  "placement": 702,
   "internship": 864,
   "with_files": 325,
   "listed_downloads": 329
  },
  "categories": {
   "placement": [
+   {
+    "id": "1738",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "GE VERNOVA",
+    "notice": "All the students who have applied for GE Vernova need to register on the Hirepro Portal.\n\nDeadline: 18th November 2026, 4:00 PM\n\nThe link has already been shared over the CDC Registered Email ID with the students.\n\nPlease note that registrations not completed within the deadline will not be considered for further process.\n\nCDC, IIT Kharagpur",
+    "noticeat": "18-11-2026 10:53",
+    "text_source": "full_notice",
+    "source_hash": "26f4793bbbdfabfac19e07837c97f46e2d95fe578e8171046574465422d3b675",
+    "has_download": false
+   },
+   {
+    "id": "1737",
+    "type": "PLACEMENT",
+    "subject": "Additional requirement",
+    "company": "ICICI BANK",
+    "notice": "All the eligible students who have applied for ICICI Bank, are required to apply directly through the company\u2019s careers portal using the link below.\n\nApplication \n\nLink: https://careers.icici.bank.in/CareerApplicant/Career/job-details/2271594\n\nDeadline: 18th November 2026, 6:00 PM\n\nImportant Instructions:\n\n1. Click on the link \"Apply\". Students are advised to use their personal email IDs for registration instead of their institute email IDs.\n2. While selecting the degree and college, ensure that the correct options are selected from the dropdown menu.\n3. Students who have previously registered on the ICICI Bank portal should log in using their existing Applicant ID and password, update their application, and submit the declaration.\n4. First-time applicants must sign up, complete the application and submit the declaration.\n5. An Applicant ID will be generated upon successful registration. Students must retain this ID for future correspondence.\n6. All applicants are also required to fill out the questionnaire along with the registration form.\n\nPlease ensure that the application and questionnaire are completed before the deadline. No further extensions will be provided.\n\nCDC, IIT Kharagpur",
+    "noticeat": "18-11-2026 10:50",
+    "text_source": "full_notice",
+    "source_hash": "f33a4ac2f02904f957601cffab7c1d9c3d39197ed329ec4c69b4bdd85dc1430b",
+    "has_download": false
+   },
+   {
+    "id": "1736",
+    "type": "PLACEMENT",
+    "subject": "Additional requirement",
+    "company": "OLA",
+    "notice": "All the eligible students who have applied for Ola for the roles of:\n- Founder's Program - General Management\n- Founder's Program \u2013 Technology\n\nare required to kindly fill the Additional Details Form by the company as linked below.\n\nLink:\nhttps://forms.gle/THbGxUBqBY61R1jC6\n\nDeadline:\n18th November 2026, 3:00 PM\n\nKindly ensure you have filled the form before the deadline. No further extensions will be provided.\n\nCDC, IIT Kharagpur",
+    "noticeat": "18-11-2026 10:48",
+    "text_source": "full_notice",
+    "source_hash": "31a9c0f0bcb0735a02db179c956fe92d808495a889a5effed886f29cda9b20da",
+    "has_download": false
+   },
    {
     "id": "1735",
     "type": "PLACEMENT",
