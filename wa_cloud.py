@@ -181,6 +181,27 @@ def setup_with_phone_code(timeout_s=480):
                 break
             except Exception:
                 time.sleep(3)
+        if ok:
+            # 18 Nov 2026: closing the browser the moment the chat list showed
+            # left a session that was already logged out minutes later (first
+            # sync with the phone never finished). Stay open until WhatsApp's
+            # "loading/syncing" text is gone and the chat list has rows, then
+            # 30 s more, max 4 min.
+            print("Linked -- keeping WhatsApp open while it finishes syncing with the phone...")
+            sync_end = time.time() + 240
+            steady = 0
+            while time.time() < sync_end:
+                time.sleep(5)
+                try:
+                    txt = page.evaluate("document.body.innerText").lower()
+                    rows = page.locator('#pane-side [role="row"], #pane-side [role="listitem"]').count()
+                except Exception:
+                    txt, rows = "", 0
+                busy = any(w in txt for w in ("syncing", "loading your chats", "loading messages", "don't close this window"))
+                steady = steady + 5 if (rows > 0 and not busy) else 0
+                if steady >= 30:
+                    break
+            print(f"sync wait done (chat rows visible: {rows}, still syncing: {busy})")
         print("LOGIN_OK" if ok else "LOGIN_TIMEOUT")
         ctx.close()
         return ok
@@ -420,6 +441,7 @@ def _wait_for_compose(page, box, timeout_s=150, url=None):
     what the page showed instead of a bare locator timeout."""
     deadline = time.time() + timeout_s
     last_goto = time.time()
+    qr_since = None
     while time.time() < deadline:
         try:
             box.wait_for(state="visible", timeout=5000)
@@ -430,7 +452,16 @@ def _wait_for_compose(page, box, timeout_s=150, url=None):
             body = page.evaluate("document.body.innerText")[:400]
         except Exception:
             body = ""
-        if sum(m in body for m in _QR_MARKERS) >= 2:
+        # 18 Nov 2026: right after a re-link the QR screen flashes for a few
+        # seconds while the session loads; only call it logged out once the
+        # QR screen has stayed up for 45 s straight.
+        if sum(m in body for m in _QR_MARKERS) < 2:
+            qr_since = None
+            continue_wait = True
+        else:
+            qr_since = qr_since or time.time()
+            continue_wait = time.time() - qr_since < 45
+        if not continue_wait:
             global LOGGED_OUT
             LOGGED_OUT = True
             raise WALoggedOut("WhatsApp linked device is logged out -- the page shows the QR login screen; re-link needed")
