@@ -1,13 +1,35 @@
 {
- "last_updated": "2026-11-18T17:01:14Z",
+ "last_updated": "2026-11-18T18:01:46Z",
  "stats": {
-  "placement": 721,
+  "placement": 723,
   "internship": 864,
   "with_files": 328,
   "listed_downloads": 332
  },
  "categories": {
   "placement": [
+   {
+    "id": "1759",
+    "type": "PLACEMENT",
+    "subject": "Date extension",
+    "company": "INTEL",
+    "notice": "The CV submission of Intel for all roles have been extended till 4:00 PM, 19th November 2026\n\nIts mandatory for all candidates who are applying for the roles, to fill the following Google Form attached below:\n\nAdditional Details Form: https://forms.gle/68c1FHsCYKE4N9eo6\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "18-11-2026 23:25",
+    "text_source": "full_notice",
+    "source_hash": "440eca13a7d6d61944b685bf57c2550cdd4a35081bd7429dbef479e3a762493a",
+    "has_download": false
+   },
+   {
+    "id": "1758",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "SLB",
+    "notice": "The CV Submission for SLB for all the roles have been opened till 4:00 PM, 19th November, 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "18-11-2026 23:23",
+    "text_source": "full_notice",
+    "source_hash": "ffbb2058f5976f55a0bb18d0b6391ebb187a529b24a20ddc989a785271fd9c3f",
+    "has_download": false
+   },
    {
     "id": "1757",
     "type": "PLACEMENT",
