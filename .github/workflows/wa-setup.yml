@@ -6,7 +6,7 @@ permissions:
 jobs:
   link:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -27,7 +27,12 @@ jobs:
         run: |
           rm -rf wa_profile/Default/"Code Cache" wa_profile/Default/Cache \
                  wa_profile/Default/GPUCache wa_profile/Default/DawnWebGPUCache \
-                 wa_profile/Default/DawnGraphiteCache wa_profile/GraphiteDawnCache 2>/dev/null || true
+                 wa_profile/Default/DawnGraphiteCache wa_profile/GraphiteDawnCache \
+                 wa_profile/Default/"Cache Data" wa_profile/Default/GrShaderCache \
+                 wa_profile/Default/ShaderCache wa_profile/Default/"Service Worker/CacheStorage" \
+                 wa_profile/Default/"Service Worker/ScriptCache" wa_profile/Default/blob_storage \
+                 wa_profile/component_crx_cache wa_profile/GrShaderCache wa_profile/ShaderCache \
+                 wa_profile/Crashpad 2>/dev/null || true
           tar -czf wa_profile.tar.gz -C wa_profile .
           openssl enc -aes-256-cbc -pbkdf2 -salt -in wa_profile.tar.gz -out wa_profile.tar.gz.enc -pass env:WA_PROFILE_KEY
           rm -f wa_profile.tar.gz
@@ -38,5 +43,6 @@ jobs:
           git config user.name "placement-watcher-bot"
           git config user.email "actions@users.noreply.github.com"
           git add wa_profile.tar.gz.enc
-          git commit -m "chore: initial WhatsApp session link" || echo "nothing to commit"
-          git push
+          git commit -m "chore: WhatsApp session linked in the cloud" || echo "nothing to commit"
+          git pull --rebase --autostash -q || true
+          git push || (sleep 5 && git pull --rebase --autostash -q && git push)
