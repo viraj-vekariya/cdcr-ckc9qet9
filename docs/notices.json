@@ -1,13 +1,159 @@
 {
- "last_updated": "2026-11-18T11:01:29Z",
+ "last_updated": "2026-11-18T12:01:56Z",
  "stats": {
-  "placement": 704,
+  "placement": 717,
   "internship": 864,
-  "with_files": 325,
-  "listed_downloads": 329
+  "with_files": 328,
+  "listed_downloads": 332
  },
  "categories": {
   "placement": [
+   {
+    "id": "1753",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "Multiple Companies",
+    "notice": "The following companies are open for CV Submission till 4:00 PM, 19th November, 2026.\n\n\u20071.\u2060 \u2060EY GLOBAL DELIVERY SERVICES (Profile: Senior Analyst - Supply Chain Management, Senior Analyst - Data Scientist)\n\n\u20072.\u2060 \u2060LTM (Profile: Post-Graduate Engineer Trainee, Graduate Engineer Trainee)\n\n\u20073.\u2060 \u2060WATERFLY (All Profiles)\n\n\u20074.\u2060 \u2060WINDFLOW AI (Profile: AI Engineer)\n\n\u20075.\u2060 \u2060XION MULTIVENTURES (Profile: Trainee Trader & Research Analyst)\n\n\u20076.\u2060 \u2060DASSAULT SYSTEMES (All Profiles)\n\n7.\u2060 \u2060AXON DEVELOPERS (All Profiles)\n\n8.\u2060 \u2060SKYROOT AEROSPACE (All Profiles)\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "18-11-2026 17:22",
+    "text_source": "full_notice",
+    "source_hash": "f909a6bb40d88f2699b8c1dd24fc2a13563ea1c82f1167e113abea18055bccf8",
+    "has_download": false
+   },
+   {
+    "id": "1752",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "Multiple Companies",
+    "notice": "The following companies are open for CV Submission till 4:00 PM, 17th November, 2026.\n\n\u20071.\u2060 \u2060EY GLOBAL DELIVERY SERVICES (Profile: Senior Analyst - Supply Chain Management, Senior Analyst - Data Scientist)\n\n\u20072.\u2060 \u2060LTM (Profile: Post-Graduate Engineer Trainee, Graduate Engineer Trainee)\n\n\u20073.\u2060 \u2060WATERFLY (All Profiles)\n\n\u20074.\u2060 \u2060WINDFLOW AI (Profile: AI Engineer)\n\n\u20075.\u2060 \u2060XION MULTIVENTURES (Profile: Trainee Trader & Research Analyst)\n\n\u20076.\u2060 \u2060DASSAULT SYSTEMES (All Profiles)\n\n7.\u2060 \u2060AXON DEVELOPERS (All Profiles)\n\n8.\u2060 \u2060SKYROOT AEROSPACE (All Profiles)\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "18-11-2026 17:20",
+    "text_source": "full_notice",
+    "source_hash": "c017dffc5a5a09e0f072db187ad7b9bbc2856b6dc5be393762ef0c103ce62749",
+    "has_download": false
+   },
+   {
+    "id": "1751",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "DELOITTE",
+    "notice": "All eligible students who have applied for DELOITTE are required to fill in the company\u2019s careers portal and the additional details form attached below\n\nApplication \n\nLink: https://usijobs.deloitte.com/en_US/careersUSI/HiddenJob?jobId=369832&source=Campus+career+center\n\nAdditional Details Form: https://forms.gle/dwdYoavuVAqiGh3T6\n\nDeadline: 19th November 2026, 4:00 PM\n\nNote: The students are required to apply over the company's portal with their CDC-registered email ID.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "18-11-2026 17:17",
+    "text_source": "full_notice",
+    "source_hash": "8e1320aa44c628766e484294a19f67982e4d58df2c4258c36f66ad78317fd72d",
+    "has_download": false
+   },
+   {
+    "id": "1750",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "HPCL",
+    "notice": "The CV Submission for HPCL for the Officer-Engineering role have been opened till 11:59 PM, 20th November, 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nFill the google sheet -\n\nhttps://docs.google.com/forms/d/e/1FAIpQLSctISBm34I2uwEftTvu2S9bWFh5AQU_yC4sMheUDVx23Diicw/viewform?usp=dialog\n\nFilling this form is mandatory, failing which application shall not be further processed.\n\nCDC, IIT Kharagpur",
+    "noticeat": "18-11-2026 17:10",
+    "text_source": "full_notice",
+    "source_hash": "734de7e2f6776cafbeba1ac6dc59ce08e0893fa33ba959cbf2c7757db6e8fbbd",
+    "has_download": false
+   },
+   {
+    "id": "1749",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "GE Vernova",
+    "notice": "PFA the test room allocation of shortlisted candidates for the Assessment of GE Vernova, scheduled from 6:00 PM onwards on 18th November, 2026.\n\nVenue: Nalanda Classroom Complex\n\nStudents are required to carry their original Institute ID card, failing which students will not be permitted to sit for test.\n\nThe \n\nTest link will be shared on the CDC Registered Email ID of the students.\n\nPlease carry your laptops, pens, and papers.\n\nStudents are requested to report 15 minutes prior to the reporting time.\n\nPOC: Ashutosh Singh (+91 8840104367)\n\nCDC, IIT Kharagpur",
+    "noticeat": "18-11-2026 17:09",
+    "text_source": "full_notice",
+    "source_hash": "7fe06be4352d8a8c083fd37038b5cd568e38edf3a68032439d9e4daa82ea812e",
+    "has_download": true,
+    "file": "files/1749.pdf"
+   },
+   {
+    "id": "1748",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "D. E. Shaw India",
+    "notice": "All the Postgraduate students that have applied for the Technology Developer Role in D. E. SHAW INDIA are required to fill the following Additional Details Google Form.\n\nLink: https://forms.gle/8kA3wHzrJJwHKqn56\n\nVenue: Respective Locations\n\nDeadline: 4:00 PM, 19th November, 2026.\n\nNote: Students are required to fill this form to be considered for further process.\n\nCDC, IIT Kharagpur.",
+    "noticeat": "18-11-2026 16:58",
+    "text_source": "full_notice",
+    "source_hash": "edcffd7e919325101eab40344a2e5d8d6dedb5e54291666b3733ab120cbd1cee",
+    "has_download": false
+   },
+   {
+    "id": "1747",
+    "type": "PLACEMENT",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "Nation with Namo",
+    "notice": "Please note that the Pre-Placement Talk for Nation With Namo will be held on 18th November 2026 from 6:30 PM.\n\nLink: meet.google.com/yag-ycia-gfe\n\nAll interested students are required to attend the PPT without fail. Attendance is compulsory. Students should join 15 minutes prior to the meeting time.\n\nPOC: Khush ( +91 9922168000)\n\nCDC, IIT Kharagpur",
+    "noticeat": "18-11-2026 16:58",
+    "text_source": "full_notice",
+    "source_hash": "cee6717a80f8cbfa9c58a804a2a43757ca06557543c8e8a06c75332fb18c68e7",
+    "has_download": false
+   },
+   {
+    "id": "1746",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "Multiple Companies",
+    "notice": "The following companies are open for CV Submission till 4:00 PM, 19th November, 2026.\n\n\u20071.\u2060 \u2060BLACKBUCK (Profile: Associate Manager)\n\n\u20072.\u2060 \u2060SEARCE INC.(All Profiles)\n\n\u20073.\u2060 \u2060FLIPSPACES TECHNOLOGY LABS (Profile: Entrepreneur-in-Residence)\n\n\u20074.\u2060 \u2060KALAM LABS (All Profiles)\n\n\u20075.\u2060 \u2060YMS FINANCIAL PRIVATE LIMITED (Profile: Quant Researcher)\n\n\u20076.\u2060 \u2060SWIGGY LIMITED (Profile: Data Scientist 1)\n\n7. RECKITT (Profile: FLS Trainee)\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "18-11-2026 16:58",
+    "text_source": "full_notice",
+    "source_hash": "dab3f16e944be5d6340be81db207ee6578d1666c8206e98979e2883a91f52e85",
+    "has_download": false
+   },
+   {
+    "id": "1745",
+    "type": "PLACEMENT",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "GDi Partners",
+    "notice": "Please note that the Pre-Placement Talk for GDi Partners will be held on 18th November 2026 from 7:00 PM.\n\nLink: https://meet.google.com/wio-gfjc-mhk\n\nAll interested students are required to attend the PPT without fail. Attendance is compulsory. Students should join 15 minutes prior to the meeting time.\n\nPOC: Rudra ( +91 8235755257)\n\nCDC, IIT Kharagpur",
+    "noticeat": "18-11-2026 16:55",
+    "text_source": "full_notice",
+    "source_hash": "9c76c4ab68916a578af9a9aa004ccbd422efbe952acb6156af9fff7016509f3d",
+    "has_download": false
+   },
+   {
+    "id": "1744",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "GROWW",
+    "notice": "All the eligible students who have applied for Groww for Associate Product Manager role are required to kindly fill the Additional Details Form given below.\n\nLink: https://forms.gle/DBwqF2S9d4PJ8aNk7\n\nDeadline: 19th November 2026, 4:00 PM\n\nKindly ensure you have filled the form before the deadline. No further extensions will be provided.\n\nCDC, IIT Kharagpur",
+    "noticeat": "18-11-2026 16:51",
+    "text_source": "full_notice",
+    "source_hash": "b3aac6b17ecfe6011c1f3daf8e3387f889d20cee365df7b5d6797b0eb1714bf9",
+    "has_download": false
+   },
+   {
+    "id": "1743",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "HPCL",
+    "notice": "The CV Submission for HPCL for the Officer-Engineering role have been opened till 11:59 PM, 20th November, 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "18-11-2026 16:48",
+    "text_source": "full_notice",
+    "source_hash": "b289f9fdc2c6c0df20df57cdd75e1aa026784ea7e3506899235e81019c7b29a5",
+    "has_download": false
+   },
+   {
+    "id": "1742",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "Infineon Technologies",
+    "notice": "PFA the test room allocation for the Assessment of Infineon Technologies for the Analog/Mixed-Signal Engineer Role, scheduled from 9:00 PM onwards on 18th November, 2026.\n\nVenue: Nalanda Classroom Complex\n\nStudents are required to carry their original Institute ID card, failing which students will not be permitted to sit for the test.\n\nNote: The test link has already been shared with candidates through their CDC-registered email IDs. Please check your CDC Registered Email ID carefully for the test link. A demo test link has also been shared as well. Please attempt that to check all the system requirements for a smooth test.\n\nIn case you have not received the test link, please fill the following Google Form:\n\nLink: https://forms.gle/3MtYiyzezXXudioo7\n\nPlease carry your laptops, pens, and papers.\n\nStudents are requested to report 15 minutes prior to the reporting time.\n\nPOC: Ritvik(+91 9480360231), Aditi (+91 8815395895)\n\nCDC, IIT Kharagpur",
+    "noticeat": "18-11-2026 16:44",
+    "text_source": "full_notice",
+    "source_hash": "788646b91d28e58b66ae6ba73b2c11dfe31268b427c252ea7d4129d6f21702f7",
+    "has_download": true,
+    "file": "files/1742.pdf"
+   },
+   {
+    "id": "1741",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "Infineon Technologies",
+    "notice": "PFA the test room allocation for the Assessment of Infineon Technologies for the Analog/Mixed-Signal Engineer Role, scheduled from 9:30 PM onwards on 18th November, 2026.\n\nVenue: Nalanda Classroom Complex\n\nStudents are required to carry their original Institute ID card, failing which students will not be permitted to sit for the test.\n\nNote: The test link has already been shared with candidates through their CDC-registered email IDs. Please check your CDC Registered Email ID carefully for the test link. A demo test link has also been shared as well. Please attempt that to check all the system requirements for a smooth test.\n\nIn case you have not received the test link, please fill the following Google Form:\n\nLink: https://forms.gle/3MtYiyzezXXudioo7\n\nPlease carry your laptops, pens, and papers.\n\nStudents are requested to report 15 minutes prior to the reporting time.\n\nPOC: Ritvik(+91 9480360231), Aditi (+91 8815395895)\n\nCDC, IIT Kharagpur",
+    "noticeat": "18-11-2026 16:33",
+    "text_source": "full_notice",
+    "source_hash": "fe42afc759a05942f9ca50cd5b92c3f8b1e3c793d8f8f2de5f790248bfcf27a8",
+    "has_download": true,
+    "file": "files/1741.pdf"
+   },
    {
     "id": "1740",
     "type": "PLACEMENT",
