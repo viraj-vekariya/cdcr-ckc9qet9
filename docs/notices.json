@@ -1,13 +1,46 @@
 {
- "last_updated": "2026-11-18T04:30:07Z",
+ "last_updated": "2026-11-18T05:31:13Z",
  "stats": {
-  "placement": 696,
+  "placement": 699,
   "internship": 864,
   "with_files": 325,
   "listed_downloads": 329
  },
  "categories": {
   "placement": [
+   {
+    "id": "1735",
+    "type": "PLACEMENT",
+    "subject": "Additional requirement",
+    "company": "ETERNAL",
+    "notice": "All the eligible students who have applied for Eternal for all the roles are required to kindly fill the Additional Details Form given below.\n\nLink: https://forms.gle/adhQGjpHrREJMt3fA\n\nDeadline: 18th November 2026, 2:00 PM\n\nKindly ensure you have filled the form before the deadline. No further extensions will be provided.\n\nCDC, IIT Kharagpur",
+    "noticeat": "18-11-2026 10:47",
+    "text_source": "full_notice",
+    "source_hash": "17cdcdf1f304822c0db02352de0ea61825005fa13ec67dfae0359fa1094803db",
+    "has_download": false
+   },
+   {
+    "id": "1734",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "Takshashila Consulting",
+    "notice": "The CV Submission for Takshashila Consulting for the role of Business Analyst has been extended with revised eligibility till 1 pm, 18th November, 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "18-11-2026 10:42",
+    "text_source": "full_notice",
+    "source_hash": "00160d83c1c624ac289edef18a3ab4134316aa438b3532697cff5b58b37569b0",
+    "has_download": false
+   },
+   {
+    "id": "1733",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "Intel",
+    "notice": "The CV Submission for Intel for all the roles have been extended with revised eligibility till 4:00 PM, 18th November, 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "18-11-2026 10:41",
+    "text_source": "full_notice",
+    "source_hash": "75cd0e1a06cccb0d652841de302a50a803417aa104658e6c2fe4b9c534e5ec52",
+    "has_download": false
+   },
    {
     "id": "1732",
     "type": "PLACEMENT",
