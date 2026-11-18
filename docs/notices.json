@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-11-18T10:04:34Z",
+ "last_updated": "2026-11-18T11:01:29Z",
  "stats": {
-  "placement": 703,
+  "placement": 704,
   "internship": 864,
   "with_files": 325,
   "listed_downloads": 329
  },
  "categories": {
   "placement": [
+   {
+    "id": "1740",
+    "type": "PLACEMENT",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "BREVAN HOWARD",
+    "notice": "The Pre-Placement Talk for Brevan Howard, will be held on 18th November, 2026 from 8:00 PM.\n\nLink : https://teams.microsoft.com/meet/3247019726101755?p=JigrQpYevxa66Ps8n6\n\nMeeting ID: 324 701 972 610 175 5\nPasscode: it9Tv3NJ\n\nNote: All placement-registered students are supposed to attend the PPT, without fail. Attendance is compulsory. Students must join the link 15 minutes prior to the scheduled time.\n\nPOC: Khush (+91 9922168000)\n\nCDC, IIT Kharagpur",
+    "noticeat": "18-11-2026 16:17",
+    "text_source": "full_notice",
+    "source_hash": "d82463ead498565748f6e3111ce94713577e2cdfd5979b318ad0c1c99675353c",
+    "has_download": false
+   },
    {
     "id": "1739",
     "type": "PLACEMENT",
