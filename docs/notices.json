@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-11-18T22:01:41Z",
+ "last_updated": "2026-11-18T22:54:01Z",
  "stats": {
   "placement": 723,
   "internship": 864,
@@ -8,6 +8,17 @@
  },
  "categories": {
   "placement": [
+   {
+    "id": "1760",
+    "type": "PLACEMENT",
+    "subject": "Schedule",
+    "company": "CDC Placement Schedule for 19th November 2026",
+    "notice": "All students eligible for placement are advised to take note of the tentative placement schedule for Thursday, 19th November 2026.\n\n1. [PPT] OLA (6:00 PM \u2013 7:00 PM)\n\n2. [TEST] ETERNAL (7:00 PM \u2013 9:00 PM)\n\n3. [TEST] TAKSHASHILA CONSULTING (9:30 PM \u2013 11:00 PM)\n\nNote: Links for the tests and other relevant details will be shared separately. Room allocations and other necessary instructions for the assessments will be communicated prior to the respective tests.\n\nCDC, IIT Kharagpur",
+    "noticeat": "19-11-2026 03:30",
+    "text_source": "full_notice",
+    "source_hash": "0d040a1db8186b32d236faa7f3998568043168ac378a45b3b1953f92efdffae8",
+    "has_download": false
+   },
    {
     "id": "1759",
     "type": "PLACEMENT",
@@ -28,17 +39,6 @@
     "noticeat": "18-11-2026 23:23",
     "text_source": "full_notice",
     "source_hash": "ffbb2058f5976f55a0bb18d0b6391ebb187a529b24a20ddc989a785271fd9c3f",
-    "has_download": false
-   },
-   {
-    "id": "1757",
-    "type": "PLACEMENT",
-    "subject": "Urgent",
-    "company": "Ola",
-    "notice": "All the eligible students who have applied for Ola for the roles of (Founder's Program - General Management, Founder's Program \u2013 Technology) are required to kindly fill the Additional Details Form by the company as linked below.\n\nLink: https://forms.gle/THbGxUBqBY61R1jC6\n\nDeadline: 19th November 2026, 11:59 PM\n\nKindly ensure you have filled the form before the deadline. No further extensions will be provided.\n\nCDC, IIT Kharagpur",
-    "noticeat": "18-11-2026 20:59",
-    "text_source": "full_notice",
-    "source_hash": "e383e1481d8a0a974be251011509df04639addc916900e2da9370eb5ab43b879",
     "has_download": false
    },
    {
