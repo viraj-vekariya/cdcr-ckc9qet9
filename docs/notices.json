@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-11-19T05:32:27Z",
+ "last_updated": "2026-11-19T06:32:38Z",
  "stats": {
-  "placement": 726,
+  "placement": 727,
   "internship": 864,
   "with_files": 328,
   "listed_downloads": 332
  },
  "categories": {
   "placement": [
+   {
+    "id": "1764",
+    "type": "PLACEMENT",
+    "subject": "Additional requirement",
+    "company": "GDi Partners",
+    "notice": "All students who have applied for GDi Partners must fill out the Google Form linked below.\n\nGoogle Form: https://docs.google.com/forms/d/e/1FAIpQLSfFA9afq3Xj3BOswvRsK9nIewExGGsWybGLFInhnAkFOh2dwA/viewform\n\nDeadline: 11:00 PM, 19th November 2026.\n\nNote: It is mandatory for all applicants to fill out the form within the given deadline, else you won't be considered for the further process.\n\nAll the eligible students are advised to fill the form within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "19-11-2026 11:00",
+    "text_source": "full_notice",
+    "source_hash": "d33d1e7e87fd754733c4026b55f5cfb992543e2b1842a5a2578f0c336b90615f",
+    "has_download": false
+   },
    {
     "id": "1763",
     "type": "PLACEMENT",
