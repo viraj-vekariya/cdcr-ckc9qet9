@@ -1,13 +1,68 @@
 {
- "last_updated": "2026-11-19T10:33:07Z",
+ "last_updated": "2026-11-19T11:34:43Z",
  "stats": {
-  "placement": 728,
+  "placement": 733,
   "internship": 864,
   "with_files": 328,
   "listed_downloads": 332
  },
  "categories": {
   "placement": [
+   {
+    "id": "1770",
+    "type": "PLACEMENT",
+    "subject": "PPO",
+    "company": "ICICI Bank",
+    "notice": "ICICI Bank has extended the offer to the following student(s):\n\nMANISH - 23CH10093\n\nThe students are advised to give offer acceptance by 19.11.2026.\n\n(For more details, check your email ID.)\n\nCDC, IIT Kharagpur",
+    "noticeat": "19-11-2026 16:42",
+    "text_source": "full_notice",
+    "source_hash": "4b554cbd10873d14ea7ad7484f52109e51ea35cc170fc512d9bfcd6f02bc1ad5",
+    "has_download": false
+   },
+   {
+    "id": "1769",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "Multiple Companies",
+    "notice": "The following companies are open for CV Submission till 4:00 PM, 20th November, 2026.\n\n1. BREVAN HOWARD (Profile: Graduate Traniee - Technology)\n\n2. MELTPLAN (Profile: Software Engineer, Estimating Engineer)\n\nInterested and eligible students are advised to apply within the given deadline.\n\nNo further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "19-11-2026 16:37",
+    "text_source": "full_notice",
+    "source_hash": "ca97be5a379fb9e747757f5b5b3ea22dae5b733e68a6b4e505433e40db2e4d4b",
+    "has_download": false
+   },
+   {
+    "id": "1768",
+    "type": "PLACEMENT",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "OLA",
+    "notice": "Please note that the Pre-Placement Talk for OLA will be held on 19th November 2026 from 6:00 PM.\n\nLink: https://olacabs.zoom.us/j/93832509211\n\nAll interested students are required to attend the PPT without fail. Attendance is compulsory. Students should join 15 minutes prior to the meeting time.\n\nPOC: Daksh (+91 98180 71612)\n\nCDC, IIT Kharagpur",
+    "noticeat": "19-11-2026 16:24",
+    "text_source": "full_notice",
+    "source_hash": "942ac9fe8e7c1a6518ae1b2e0589ce798ea24ab43e46ff8506ff8adbb8f45eaa",
+    "has_download": false
+   },
+   {
+    "id": "1767",
+    "type": "PLACEMENT",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "ETERNAL",
+    "notice": "Please note that the Pre-Placement Talk for Eternal will be held on 19th November 2026 from 5:15 PM.\n\nLink: https://meet.google.com/nhb-edpn-eve\n\nAll interested students are required to attend the PPT without fail. Attendance is compulsory. Students should join 15 minutes prior to the meeting time.\n\nPOC: Vatsal (+91 92344 57393)\n\nCDC, IIT Kharagpur",
+    "noticeat": "19-11-2026 16:24",
+    "text_source": "full_notice",
+    "source_hash": "a1841164f38544bb049aa76d8b6c54aae8ce98bd5834807db906c9a216a121ae",
+    "has_download": false
+   },
+   {
+    "id": "1766",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "OLA",
+    "notice": "All the eligible students who have applied for Ola for the roles of (Founder's Program - General Management, Founder's Program \u2013 Technology) are required to kindly fill the preference form given below.\n\nAdditional Details Form: https://forms.gle/THbGxUBqBY61R1jC6\nPreference Form: https://forms.gle/rFa8g4g9j2SjcQvd9\n\nDeadline: 19th November 2026, 6:00 PM\n\nKindly ensure you have filled the forms before the deadline. No further extensions will be provided.\n\nCDC, IIT Kharagpur",
+    "noticeat": "19-11-2026 16:10",
+    "text_source": "full_notice",
+    "source_hash": "47170a274d8a7b1a8770244a7f564ab51b4a6094a0282919999f7414fe795dec",
+    "has_download": false
+   },
    {
     "id": "1765",
     "type": "PLACEMENT",
