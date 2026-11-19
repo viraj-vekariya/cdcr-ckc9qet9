@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-11-19T06:32:38Z",
+ "last_updated": "2026-11-19T07:33:00Z",
  "stats": {
-  "placement": 727,
+  "placement": 728,
   "internship": 864,
   "with_files": 328,
   "listed_downloads": 332
  },
  "categories": {
   "placement": [
+   {
+    "id": "1765",
+    "type": "PLACEMENT",
+    "subject": "PPT/Workshop/Seminars etc",
+    "company": "Accordion India",
+    "notice": "Please note that the Pre-Placement Talk for Accordion will be held on 19th November 2026 from 1:00 PM.\n\nLink: https://accordion.zoom.us/j/95403090652?pwd=LMfXayG8DmVt2dLapbU0aZIgphqN4o.1\n\nMeeting ID: 954 0309 0652\nPasscode: 700652\n\nAll interested students are required to attend the PPT without fail. Attendance is compulsory. Students should join 15 minutes prior to the meeting time.\n\nPOC: Rudra ( +91 8235755257)\n\nCDC, IIT Kharagpur",
+    "noticeat": "19-11-2026 12:48",
+    "text_source": "full_notice",
+    "source_hash": "77e1c3bbdae773e8334c58b2a86f0bd599f35a48b4864eb02c23b3d1bd4e0820",
+    "has_download": false
+   },
    {
     "id": "1764",
     "type": "PLACEMENT",
