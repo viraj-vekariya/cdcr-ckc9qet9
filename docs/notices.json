@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-11-19T04:33:45Z",
+ "last_updated": "2026-11-19T05:32:27Z",
  "stats": {
-  "placement": 725,
+  "placement": 726,
   "internship": 864,
   "with_files": 328,
   "listed_downloads": 332
  },
  "categories": {
   "placement": [
+   {
+    "id": "1763",
+    "type": "PLACEMENT",
+    "subject": "PPO",
+    "company": "MEDIATEK",
+    "notice": "MEDIATEK has extended the offer to the following student(s):\n\nPARMITA SAHA - 25GS61R10\n\nSHAIK KAMMUGARI MAHAMMAD MUZAMMIL - 25GS61R09\n\nThe students are advised to give offer acceptance by 18.11.2026.\n\n(For more details, check your email ID.)\n\nCDC, IIT Kharagpur",
+    "noticeat": "19-11-2026 10:54",
+    "text_source": "full_notice",
+    "source_hash": "c9dac1fb95e218ba374e56de4eb9feb07d2a84d3d5b0114e73d54945732e8322",
+    "has_download": false
+   },
    {
     "id": "1762",
     "type": "PLACEMENT",
