@@ -1,13 +1,68 @@
 {
- "last_updated": "2026-11-19T18:33:32Z",
+ "last_updated": "2026-11-19T19:34:51Z",
  "stats": {
-  "placement": 741,
+  "placement": 746,
   "internship": 864,
   "with_files": 332,
   "listed_downloads": 336
  },
  "categories": {
   "placement": [
+   {
+    "id": "1783",
+    "type": "PLACEMENT",
+    "subject": "Additional requirement",
+    "company": "AIRAMATRIX",
+    "notice": "All the eligible students who have applied for AIRAMATRIX are required to kindly fill the additional details form given below.\n\nLink: https://forms.gle/aMqTKukPq1gLVZQV8\n\nDeadline: 20th November 2026, 4:00 PM\n\nKindly ensure you have filled the form before the deadline. No further extensions will be provided.\n\nCDC, IIT Kharagpur",
+    "noticeat": "20-11-2026 00:42",
+    "text_source": "full_notice",
+    "source_hash": "fb5f84d77fc7b50481a59602b754cb22e8001513b725f864661f6a773da8f449",
+    "has_download": false
+   },
+   {
+    "id": "1782",
+    "type": "PLACEMENT",
+    "subject": "Additional requirement",
+    "company": "OLA",
+    "notice": "All the eligible students who have applied for Ola for the roles of (Founder's Program - General Management, Founder's Program \u2013 Technology) are required to kindly fill the preference form given below.\n\nForm: https://forms.gle/rFa8g4g9j2SjcQvd9\n\nDeadline: 20th November 2026, 10:00 AM\n\nKindly ensure you have filled the forms before the deadline. No further extensions will be provided.\n\nCDC, IIT Kharagpur",
+    "noticeat": "20-11-2026 00:41",
+    "text_source": "full_notice",
+    "source_hash": "46d1507317db54dec12e072a525ed0e84b3e31fe3ca90a613836f70ec0a5e817",
+    "has_download": false
+   },
+   {
+    "id": "1781",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "DELOITTE",
+    "notice": "All eligible students who have applied for DELOITTE are required to fill in the company\u2019s careers portal and the additional details form attached below\n\nApplication \n\nLink: https://usijobs.deloitte.com/en_US/careersUSI/HiddenJob?jobId=369832&source=Campus+career+center\n\nAdditional Details Form: https://forms.gle/dwdYoavuVAqiGh3T6\n\nDeadline: 20th November 2026, 4:00 PM\n\nNote: The students are required to apply on the company's portal with their CDC-registered email ID.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "20-11-2026 00:38",
+    "text_source": "full_notice",
+    "source_hash": "49dabbc88d12c7ec5ee71ac0e799efc9ad90b256704e7117ac892aff4a9c0ece",
+    "has_download": false
+   },
+   {
+    "id": "1780",
+    "type": "PLACEMENT",
+    "subject": "Additional requirement",
+    "company": "GROWW",
+    "notice": "All the eligible students who have applied for Groww for Associate Product Manager role are required to kindly fill the Additional Details Form given below.\n\nLink: https://forms.gle/DBwqF2S9d4PJ8aNk7\n\nDeadline: 20th November 2026, 2:00 PM\n\nKindly ensure you have filled the form before the deadline. No further extensions will be provided.\n\nCDC, IIT Kharagpur",
+    "noticeat": "20-11-2026 00:36",
+    "text_source": "full_notice",
+    "source_hash": "d2a97bdc707b5bb11b242f80e5882a0ce486f4047028c9646ea8e5a29ee13c95",
+    "has_download": false
+   },
+   {
+    "id": "1779",
+    "type": "PLACEMENT",
+    "subject": "Additional requirement",
+    "company": "Accordion India",
+    "notice": "All students who have applied for any role at Accordion India must fill out the Google Form linked below.\n\nGoogle Form: https://forms.gle/77zGVjBWqamMuMfS8\n\nDeadline: 2:00 PM, 20th November 2026.\n\nNote: It is mandatory for all the applicants to fill the form within the given deadline, else you won't be considered for the further process.\n\nAll the eligible students are advised to fill the form within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "20-11-2026 00:34",
+    "text_source": "full_notice",
+    "source_hash": "0943830193c6a9e29547bebdd498164eb3b2248e22ceb5ab42d7161b58b5b8a0",
+    "has_download": false
+   },
    {
     "id": "1778",
     "type": "PLACEMENT",
