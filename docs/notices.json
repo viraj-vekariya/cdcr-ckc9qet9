@@ -1,13 +1,35 @@
 {
- "last_updated": "2026-11-19T03:32:11Z",
+ "last_updated": "2026-11-19T04:33:45Z",
  "stats": {
-  "placement": 723,
+  "placement": 725,
   "internship": 864,
   "with_files": 328,
   "listed_downloads": 332
  },
  "categories": {
   "placement": [
+   {
+    "id": "1762",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "ICICI LOMBARD GIC LTD.",
+    "notice": "The CV Submission for ICICI Lombard for the role of Actuarial Analyst has been opened till 4:00 PM, 20th November, 2026.\n\nAll candidates who are applying for the role, are required to kindly fill the Additional Details Form given below.\n\nLink: https://forms.gle/Di2j1Sw7VyCurUud7\n\nDeadline: 20th November 2026, 4:00 PM\n\nInterested and eligible students are advised to apply on the portal and fill the form within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "19-11-2026 09:53",
+    "text_source": "full_notice",
+    "source_hash": "f5668cd96846c3f3d6f9b2b1a95be4d452bdb2fcaf5d3faa8e6c3c2e42d2fa71",
+    "has_download": false
+   },
+   {
+    "id": "1761",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "Flipspaces Technology Labs Pvt. Ltd.",
+    "notice": "The CV submission of FLIPSPACES for Entrepreneur-in-Residence role has been extended with revised eligibility till 4:00 PM, 19th November 2026\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "19-11-2026 09:50",
+    "text_source": "full_notice",
+    "source_hash": "ad924bb745113749887d4e8eccf532aa51761385bbc2a2a0f542f1ec5fddce70",
+    "has_download": false
+   },
    {
     "id": "1760",
     "type": "PLACEMENT",
