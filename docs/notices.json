@@ -1,13 +1,35 @@
 {
- "last_updated": "2026-11-19T16:03:19Z",
+ "last_updated": "2026-11-19T17:33:40Z",
  "stats": {
-  "placement": 739,
+  "placement": 741,
   "internship": 864,
   "with_files": 332,
   "listed_downloads": 336
  },
  "categories": {
   "placement": [
+   {
+    "id": "1778",
+    "type": "PLACEMENT",
+    "subject": "Date extension",
+    "company": "ATHER ENERGY",
+    "notice": "Type : PLACEMENT\nSubject : Date extension\nCompany : ATHER ENERGY\n\nThe CV submission of ATHER ENERGY for all roles have been extended with revised eligibility till 6:00 PM, 20th November 2026\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "19-11-2026 22:57",
+    "text_source": "full_notice",
+    "source_hash": "88f462955826aebb84bc5efb824344de6fee4c95d90170c0a3d4c4f57c892f45",
+    "has_download": false
+   },
+   {
+    "id": "1777",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "Brevan Howard",
+    "notice": "All the students that have applied for the Graduate Trainee - Technology Role in Brevan Howard are required to apply on the following Career Portal, and complete the assessments as instructed below..\n\nLink: https://careers.brevanhoward.com/gb/en/job/BHABHAGBJR101671EXTERNALENGB/2027-Graduate-Programme-Quantitative-Developer-Bengaluru\n\nImportant points:\n1. After submitting an application through the link, applicants will receive an assessment at their registered email address.\n2. Candidates who successfully clear this assessment will receive two further assessments.\n3. All three assessments must be completed by 9:00 AM IST on 23 November 2026.\n4. Submissions received after this deadline will not be considered.\n\nVenue: Respective Locations\n\nDeadline: 9:00 AM, 23rd November, 2026\n\nNote: Students are required to follow the given instructions to be considered for further process.\n\nCDC, IIT Kharagpur.",
+    "noticeat": "19-11-2026 22:48",
+    "text_source": "full_notice",
+    "source_hash": "2ed4046fc20bcd4bf111f25a35aa1c3349fcdb737aefec9ca30d60ca188fd96d",
+    "has_download": false
+   },
    {
     "id": "1776",
     "type": "PLACEMENT",

@@ -1,24 +1,24 @@
 {
- "checked_at": "2026-11-19T16:59:11+00:00",
+ "checked_at": "2026-11-19T17:34:35+00:00",
  "erp": {
-  "ok": false,
-  "error": "ERP login failed (wrong password, OTP or ERP down)",
-  "at": "2026-11-19T16:59:10+00:00"
+  "ok": true,
+  "error": "",
+  "at": "2026-11-19T17:33:40+00:00"
  },
  "whatsapp": {
   "ok": false,
   "error": "WhatsApp is logged out; it needs re-linking",
-  "at": "2026-11-19T16:04:12+00:00"
+  "at": "2026-11-19T17:34:35+00:00"
  },
  "run": {
   "ok": true,
   "error": "",
-  "at": "2026-11-19T16:59:11+00:00"
+  "at": "2026-11-19T17:34:35+00:00"
  },
  "site": {
   "ok": true,
   "error": "",
-  "rows": 1603,
-  "at": "2026-11-19T16:03:19+00:00"
+  "rows": 1605,
+  "at": "2026-11-19T17:33:40+00:00"
  }
 }
