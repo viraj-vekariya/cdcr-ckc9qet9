@@ -1,13 +1,46 @@
 {
- "last_updated": "2026-11-20T18:06:23Z",
+ "last_updated": "2026-11-20T18:54:29Z",
  "stats": {
-  "placement": 757,
+  "placement": 760,
   "internship": 864,
   "with_files": 333,
   "listed_downloads": 337
  },
  "categories": {
   "placement": [
+   {
+    "id": "1797",
+    "type": "PLACEMENT",
+    "subject": "Date extension",
+    "company": "ICICI LOMBARD",
+    "notice": "The CV Submission for ICICI Lombard for the role of Actuarial Analyst has been opened till 4:00 PM, 21st November, 2026.\n\nAll candidates who are applying for the role, are required to kindly fill the Additional Details Form given below.\n\nLink: https://forms.gle/Di2j1Sw7VyCurUud7\n\nDeadline: 21st November 2026, 4:00 PM\n\nInterested and eligible students are advised to apply on the portal and fill the form within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "21-11-2026 00:07",
+    "text_source": "full_notice",
+    "source_hash": "307fd9680127b1cac442687c402c96873b7e34eb28d02c6b69237ecf12711882",
+    "has_download": false
+   },
+   {
+    "id": "1796",
+    "type": "PLACEMENT",
+    "subject": "Date extension",
+    "company": "Multiple Companies",
+    "notice": "The CV Submissions for the following companies have been extended till 8:00 PM, 21st November, 2026.\n\n1. ATHER ENERGY (Profile: All)\n2. AURO GROUP (Profile: All)\n3. AXON DEVELOPERS (Profile: All)\n4. BLACKBUCK (Profile: Associate Manager)\n5. BREVAN HOWARD (Profile: Graduate Traniee - Technology)\n6. DASSAULT SYSTEMES (Profile: All)\n7. FLIPSPACES TECHNOLOGY LABS (Profile: Entrepreneur-in-Residence)\n8. KALAM LABS (Profile: All)\n9. LTM (Profile: Graduate Engineer Trainee, Post-Graduate Engineer Trainee)\n10. RECKITT (Profile: FLS Trainee)\n11. SEARCE INC. (Profile: All)\n12. SKYROOT AEROSPACE (Profile: All)\n13. SLB (Profile: All)\n14. SWIGGY LIMITED (Profile: Data Scientist 1)\n15. TCG DIGITAL SOLUTIONS (Profile: Consultant/Product Developer)\n16. WATERFLY (Profile: All)\n17. XION MULTIVENTURES (Profile: Trainee Trader & Research Analyst)\n18. YMS FINANCIAL PRIVATE LIMITED (Profile: Quant Researcher)\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "21-11-2026 00:05",
+    "text_source": "full_notice",
+    "source_hash": "9097377aaeb513cb44e6b9746d5ac70dcd53d9539009b6b9880e1b472093ad7e",
+    "has_download": false
+   },
+   {
+    "id": "1795",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "Multiple Companies",
+    "notice": "The following companies are open for CV Submission till 8:00 PM, 21st November, 2026.\n\n1. ACCELEQUANT INDIA PVT. LTD. (Profile: Quantum Engineer 1)\n2. AIPRISE (Profile: All)\n3. ASTERA LABS (Profile: All)\n4. AXIS BANK (Profile: Business Intelligence Unit)\n5. DIAGEO (Profile: GBS Management Trainee)\n6. ESRI (Profile: Data Scientist 1)\n7. LYSKRAFT PVT LTD (Profile: All)\n8. NATIONAL PAYMENTS CORPORATION OF INDIA (Profile: Graduate Engineer Trainee)\n9. ORMAE (Profile: Operation Research Scientist I)\n10. PHYSICSWALLAH LIMITED (Profile: Associate Product Manager)\n11. TRANSUNION (Profile: Graduate Software Engineer)\n12. ZETWERK MANUFACTURING BUSINESSES LIMITED (Profile: Management Trainee)\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "21-11-2026 00:02",
+    "text_source": "full_notice",
+    "source_hash": "2a178714b47e1ae1924d3e3e61ef523e0b1de59b82116571463d33041729d2a3",
+    "has_download": false
+   },
    {
     "id": "1794",
     "type": "PLACEMENT",
