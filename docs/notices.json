@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-11-20T07:04:32Z",
+ "last_updated": "2026-11-20T08:05:25Z",
  "stats": {
-  "placement": 749,
+  "placement": 750,
   "internship": 864,
   "with_files": 332,
   "listed_downloads": 336
  },
  "categories": {
   "placement": [
+   {
+    "id": "1787",
+    "type": "PLACEMENT",
+    "subject": "Date extension",
+    "company": "Nation with Namo",
+    "notice": "The CV submission of Nation with Namo has been extended till 11:59 PM, 20th November 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "20-11-2026 13:24",
+    "text_source": "full_notice",
+    "source_hash": "8d11d4df2782b5ee4a58cb834a31773c4fefb9fcc951e3a34c49f10727c63f2a",
+    "has_download": false
+   },
    {
     "id": "1786",
     "type": "PLACEMENT",
