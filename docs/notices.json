@@ -1,13 +1,36 @@
 {
- "last_updated": "2026-11-20T14:05:07Z",
+ "last_updated": "2026-11-20T15:06:35Z",
  "stats": {
-  "placement": 755,
+  "placement": 757,
   "internship": 864,
-  "with_files": 332,
-  "listed_downloads": 336
+  "with_files": 333,
+  "listed_downloads": 337
  },
  "categories": {
   "placement": [
+   {
+    "id": "1794",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "Pine Labs",
+    "notice": "The case study link, along with the submission guidelines and instructions, has been shared with the shortlisted students over their respective institute email IDs.\n\nSubmission Guidelines:\n\n- Each student can select only ONE case study and submit ONE solution.\n- No deadline extensions will be provided.\n- GitHub repository links must have public access.\n- Students may optionally submit a video demonstration showcasing their solution.\n- All submitted links must be accessible for evaluation.\n\nSubmission \n\nDeadline: 22nd November 2026, 8:00 PM IST.\n\nNote: Students who have been shortlisted are requested to refer to the email shared and ensure that their submissions are completed within the specified deadline.\n\nCDC, IIT Kharagpur",
+    "noticeat": "20-11-2026 20:23",
+    "text_source": "full_notice",
+    "source_hash": "984e73c5e71ebd5b2287cd80ec6da07b34ffaa00cbbbf08cd637e4e316e1fd72",
+    "has_download": true,
+    "file": "files/1794.pdf"
+   },
+   {
+    "id": "1793",
+    "type": "PLACEMENT",
+    "subject": "Schedule",
+    "company": "CDC Placement Schedule for 21st November 2026",
+    "notice": "All students eligible for placement are advised to take note of the placement schedule for Saturday, 21st November 2026.\n\n1. [TEST] GROWW (Profile: Associate Product Manager) (3:00 PM \u2013 4:00 PM)\n\n2. [TEST] MERCEDES-BENZ (Profile: Graduate Trainee) (4:30 PM \u2013 6:30 PM)\n\n3. [TEST] NEXUSONE (Profile: Data/App Engineer) (7:00 PM \u2013 7:45 PM)\n\n4. [TEST] NWN (Profile: Associate) (10:00 PM \u2013 11:00 PM)\n\nNote: The schedule is tentative and subject to changes. Other relevant details and instructions regarding the assessments will be shared separately.\n\nCDC, IIT Kharagpur",
+    "noticeat": "20-11-2026 20:12",
+    "text_source": "full_notice",
+    "source_hash": "2eda29ffa5a987a3243271f7200b1c489e98e3bd85aa48ca6cd8b20768e7d12b",
+    "has_download": false
+   },
    {
     "id": "1792",
     "type": "PLACEMENT",
