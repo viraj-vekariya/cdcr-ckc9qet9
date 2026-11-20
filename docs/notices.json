@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-11-20T09:07:25Z",
+ "last_updated": "2026-11-20T10:05:30Z",
  "stats": {
-  "placement": 751,
+  "placement": 752,
   "internship": 864,
   "with_files": 332,
   "listed_downloads": 336
  },
  "categories": {
   "placement": [
+   {
+    "id": "1789",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "Analog Devices",
+    "notice": "All students who have applied for any role at Analog Devices must fill out the Google Form linked below.\n\nAdditional Details Form: https://forms.gle/GjQp3puQMQDnrsDb7\n\nDeadline: 6:00 PM, 20th November 2026.\n\nNote: It is mandatory for all applicants to fill the form within the given deadline, else you won't be considered for the further process.\n\nAll the eligible students are advised to fill the form within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "20-11-2026 15:01",
+    "text_source": "full_notice",
+    "source_hash": "c4c0e7ae09a3cb4200863082cde72e1d35300a106c8a1c361dabae8efdbb3096",
+    "has_download": false
+   },
    {
     "id": "1788",
     "type": "PLACEMENT",
