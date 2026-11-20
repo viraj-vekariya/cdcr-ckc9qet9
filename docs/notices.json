@@ -1,13 +1,46 @@
 {
- "last_updated": "2026-11-20T12:04:54Z",
+ "last_updated": "2026-11-20T13:05:55Z",
  "stats": {
-  "placement": 752,
+  "placement": 755,
   "internship": 864,
   "with_files": 332,
   "listed_downloads": 336
  },
  "categories": {
   "placement": [
+   {
+    "id": "1792",
+    "type": "PLACEMENT",
+    "subject": "PPO",
+    "company": "Accenture",
+    "notice": "Accenture has extended the offer to the following student(s):\n\nAnkur Dutta - 22IM30044\n\nDiya Sharma - 22GG10018\n\nThe students are advised to give offer acceptance by 19.11.2026.\n\n(For more details, check your email ID.)\n\nCDC, IIT Kharagpur",
+    "noticeat": "20-11-2026 18:17",
+    "text_source": "full_notice",
+    "source_hash": "31f18791a90ada95c62b032694396166893aad151e3cae9f7aa91a6a5567b1e0",
+    "has_download": false
+   },
+   {
+    "id": "1791",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "MeltPlan Inc",
+    "notice": "The CV submission of MeltPlan (Profile: Software Engineer, Estimating Engineer) has been opened till 8:00 PM, 21st November 2026.\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "20-11-2026 18:09",
+    "text_source": "full_notice",
+    "source_hash": "2a499b3c45b2bc1a2e2520bc947dd8baaf3e2c693b56c43ca2f1380533954ddf",
+    "has_download": false
+   },
+   {
+    "id": "1790",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "GODREJ PROPERTIES LIMITED",
+    "notice": "The CV submission of Godrej Properties Limited for the role of Assistant Manager - Civil Execution is open till 4:00 PM, 21st November 2026\n\nIt is mandatory for all candidates who are applying for the role, to register on the portal link below:\n\nPortal \n\nLink: https://gradpartners.in/festival/summersault-challenge-3.0\n\nInterested and eligible students are advised to apply on ERP and the portal within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "20-11-2026 17:41",
+    "text_source": "full_notice",
+    "source_hash": "a2dad7c928ece8dad174cc89215f5cccc8c0d46d06c9858028e709b1c720b298",
+    "has_download": false
+   },
    {
     "id": "1789",
     "type": "PLACEMENT",
