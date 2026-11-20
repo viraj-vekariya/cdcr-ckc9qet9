@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-11-20T04:04:21Z",
+ "last_updated": "2026-11-20T05:06:18Z",
  "stats": {
-  "placement": 748,
+  "placement": 749,
   "internship": 864,
   "with_files": 332,
   "listed_downloads": 336
  },
  "categories": {
   "placement": [
+   {
+    "id": "1786",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "Multiple Companies",
+    "notice": "The following companies are open for CV Submission:\n\nDeadline: 6:00 PM, 20th November, 2026\n\n1. BLACKBUCK\nProfile: Associate Manager\n\n2. SEARCE INC.\nProfile: All Profiles\n\n3. FLIPSPACES TECHNOLOGY LABS\nProfile: Entrepreneur-in-Residence\n\n4. KALAM LABS\nProfile: All Profiles\n\n5. YMS FINANCIAL PRIVATE LIMITED\nProfile: Quant Researcher\n\n6. SWIGGY LIMITED\nProfile: Data Scientist 1\n\n7. RECKITT\nProfile: FLS Trainee\n\n8. EY GLOBAL DELIVERY SERVICES\nProfile: Senior Analyst - Supply Chain Management, Senior Analyst - Data Scientist\n\n9. LTM\nProfile: Post-Graduate Engineer Trainee, Graduate Engineer Trainee\n\n10. WATERFLY\nProfile: All Profiles\n\n11. WINDFLOW AI\nProfile: AI Engineer\n\n12. XION MULTIVENTURES\nProfile: Trainee Trader & Research Analyst\n\n13. DASSAULT SYSTEMES\nProfile: All Profiles\n\n14. AXON DEVELOPERS\nProfile: All Profiles\n\n15. SKYROOT AEROSPACE\nProfile: All Profiles\n\n16. CELEBAL TECHNOLOGIES\nProfile: Data Scientist\n\n17. SLB\nProfile: All Profiles\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "20-11-2026 10:15",
+    "text_source": "full_notice",
+    "source_hash": "4240d90b74dc060456bb82f5206cbdb4c8deeeca40f4af5911bce252e2318f03",
+    "has_download": false
+   },
    {
     "id": "1785",
     "type": "PLACEMENT",
