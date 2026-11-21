@@ -1,13 +1,37 @@
 {
- "last_updated": "2026-11-21T08:37:00Z",
+ "last_updated": "2026-11-21T09:37:58Z",
  "stats": {
-  "placement": 761,
+  "placement": 763,
   "internship": 864,
-  "with_files": 333,
-  "listed_downloads": 337
+  "with_files": 335,
+  "listed_downloads": 339
  },
  "categories": {
   "placement": [
+   {
+    "id": "1800",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "GROWW",
+    "notice": "PFA the shortlist for the Groww AI Assessment Round.\n\nThe assessment starts at 3:00 PM , 21st November 2026\n\nDeadline: Complete the assessment by 4:30 PM IST on 21 November 2026\n\nVenue: Respective Locations\n\nNOTE:\n1) Each shortlisted candidate will receive a personal email from \"Groww via MasterPrep AI\" (groww@masterprep.ai). Check spam or promotions if it isn't in your inbox.\n2) Device and browser:\nLaptop or desktop: any browser except Firefox.\nPhone: Safari or Chrome on iPhone, Chrome on Android. Samsung Internet won't work.\n3)Before you start: find a quiet room, use headphones if you can, and allow camera and microphone access when the browser asks. The interview is recorded.\n4) If you see \"Too Many Requests\": the campus network is shared by many students. Switch to your phone's mobile data or hotspot, and open your link again.\n5) If you see \"Server is at capacity\": try again in a few minutes.\n6) Open your link in only one tab on one device. Don't keep refreshing; it can lock out other students on the same network.\n7) If the link is not working or it's expired, use \"Request a new sign-in link\" on the sign-in page.\n\nStudents are requested to complete their assessments within the given deadline.\n\nPOC: Khush (+91 9922168000), Ritvik (+91 9480360231)\n\nCDC, IIT Kharagpur",
+    "noticeat": "21-11-2026 14:50",
+    "text_source": "full_notice",
+    "source_hash": "fe9ef6adaf04453a73dd49479ab294f2e915d4794c5abf44c43d4c978ac87d63",
+    "has_download": true,
+    "file": "files/1800.pdf"
+   },
+   {
+    "id": "1799",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "MEESHO",
+    "notice": "PFA the shortlist for the Meesho AI Assessment Round.\n\nAll shortlisted students who have received the communication via email are required to book a assessment slot accordingly.\n\nSlot Booking Starts: 3:00 PM, 21st November 2026\n\nDeadline: 6:00 PM, 22nd November 2026\n\nVenue: Respective Location\n\nStudents are requested to book their slots within the given deadline.\n\nNote: Shortlisted candidates who have not received the link are requested to fill out the following form.\n\nForm link: https://forms.gle/UGLr9tihnxFNurRR7\n\nPOC: Bhavy (+91 7597121669), Neev (+91 9001346350)\n\nCDC, IIT Kharagpur",
+    "noticeat": "21-11-2026 14:26",
+    "text_source": "full_notice",
+    "source_hash": "38ddaf2e486fae54c5815e5d869baa563507b01dcc8b685195a9771de9185d7d",
+    "has_download": true,
+    "file": "files/1799.pdf"
+   },
    {
     "id": "1798",
     "type": "PLACEMENT",
