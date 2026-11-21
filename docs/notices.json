@@ -1,13 +1,69 @@
 {
- "last_updated": "2026-11-21T15:37:25Z",
+ "last_updated": "2026-11-21T16:38:50Z",
  "stats": {
-  "placement": 770,
+  "placement": 775,
   "internship": 864,
-  "with_files": 336,
-  "listed_downloads": 340
+  "with_files": 337,
+  "listed_downloads": 341
  },
  "categories": {
   "placement": [
+   {
+    "id": "1814",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "Nation With Namo",
+    "notice": "PFA the test room allocation for the Assessment of Nation with Namo for the Associate role, scheduled from 10:00 PM onwards on 21st November, 2026.\n\nVenue: Nalanda Classroom Complex\n\nStudents are required to carry their original Institute ID card/Medical Book, failing which students will not be permitted to sit for test.\n\nPlease carry your laptops, pens, and papers.\n\nStudents are requested to report 15 minutes prior to the reporting time.\n\nPOC: Aditi (+91 8815395895), Nikhita (+91 8770035884)\n\nCDC, IIT Kharagpur",
+    "noticeat": "21-11-2026 21:56",
+    "text_source": "full_notice",
+    "source_hash": "326da8e72ad826591520c38d2dfefd067cfe73190b5d3c173452d83752eba942",
+    "has_download": true,
+    "file": "files/1814.pdf"
+   },
+   {
+    "id": "1813",
+    "type": "PLACEMENT",
+    "subject": "Date extension",
+    "company": "Multiple Companies",
+    "notice": "The CV Submission for the following companies has been extended till 8:00 PM, 22nd November, 2026.\n\n1. ACCELEQUANT INDIA PVT. LTD. (Profile: Quantum Engineer 1)\n2. AIPRISE (Profile: All)\n3. ASTERA LABS (Profile: All)\n4. ATHER ENERGY (Profile: All)\n5. AURO GROUP (Profile: All)\n6. AXIS BANK (Profile: Business Intelligence Unit)\n7. AXON DEVELOPERS (Profile: All)\n8. DASSAULT SYSTEMES (Profile: All)\n9. DIAGEO (Profile: GBS Management Trainee)\n10. ESRI (Profile: Data Scientist 1)\n11. FLIPSPACES TECHNOLOGY LABS (Profile: Entrepreneur-in-Residence)\n12. KALAM LABS (Profile: All)\n13. LTM (Profile: Graduate Engineer Trainee, Post-Graduate Engineer Trainee)\n14. LYSKRAFT PVT LTD (Profile: All)\n15. NATIONAL PAYMENTS CORPORATION OF INDIA (Profile: Graduate Engineer Trainee)\n16. PHYSICSWALLAH LIMITED (Profile: Associate Product Manager)\n17. RECKITT (Profile: FLS Trainee)\n18. SEARCE INC. (Profile: All)\n19. SLB (Profile: All)\n20. TCG DIGITAL SOLUTIONS (Profile: Consultant/Product Developer)\n21. TRANSUNION (Profile: Graduate Software Engineer)\n22. WATERFLY (Profile: All)\n23. XION MULTIVENTURES (Profile: Trainee Trader & Research Analyst)\n24. YMS FINANCIAL PRIVATE LIMITED (Profile: Quant Researcher)\n25. ZETWERK MANUFACTURING BUSINESSES LIMITED (Profile: Management Trainee)\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "21-11-2026 21:54",
+    "text_source": "full_notice",
+    "source_hash": "bc69701097bf387984f478c4300f0640d43166c77d8ba5e62d85c1d1201e9e71",
+    "has_download": false
+   },
+   {
+    "id": "1812",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "Multiple Companies",
+    "notice": "The following companies are open for CV Submission till 8:00 PM, 22nd November, 2026.\n\n1. INTELLIMATION AI (Profile: All)\n2. CASHFREE PAYMENTS (Profile: Software Development Engineer 1)\n3. PIRAMAL FINANCE (Profile: All)\n4. SLB (Profile: Petrotechnical Engineer)\n5. ORMAE (Profile: Operation Research Scientist I)\n6. JAVIS (Profile: All)\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "21-11-2026 21:52",
+    "text_source": "full_notice",
+    "source_hash": "b95c956e48d6de8f734adcabfacb4274e8935628a9a6cfa82953f0fdbe40d03b",
+    "has_download": false
+   },
+   {
+    "id": "1811",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "JAVIS",
+    "notice": "The CV submission of JAVIS for all roles has been opened till 8:00 PM 22nd November 2026\n\nIts mandatory for all the candidates who are applying for the roles, to fill the following google form attached below:\n\nGoogle Form: https://forms.gle/tUWuigtehLBUgtuc7\n\nInterested and eligible students are advised to apply within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "21-11-2026 21:14",
+    "text_source": "full_notice",
+    "source_hash": "b3e55ed93d276b372c34ee67af363277606e9385813fa538e418bf6771508ef0",
+    "has_download": false
+   },
+   {
+    "id": "1810",
+    "type": "PLACEMENT",
+    "subject": "CV Submission",
+    "company": "Piramal Finance",
+    "notice": "The CV Submission for Piramal Finance for the both roles has been opened till 8:00 PM, 22nd November, 2026.\n\nAll candidates who are applying for the role, are required to kindly fill the Additional Details Form given below.\n\nLink: https://forms.gle/scMdRrkdpNVyeUxw6\n\nDeadline: 22nd November 2026, 8:00 PM\n\nInterested and eligible students are advised to apply on the portal and fill the form within the given deadline. No further extensions will be given.\n\nCDC, IIT Kharagpur",
+    "noticeat": "21-11-2026 21:04",
+    "text_source": "full_notice",
+    "source_hash": "2781b1ad455b9ad8005523b36775bac81610d47d1290f781a85f2f1b589bbf3e",
+    "has_download": false
+   },
    {
     "id": "1809",
     "type": "PLACEMENT",
