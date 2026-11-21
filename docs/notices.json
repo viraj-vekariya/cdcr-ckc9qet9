@@ -1,13 +1,47 @@
 {
- "last_updated": "2026-11-21T09:37:58Z",
+ "last_updated": "2026-11-21T11:39:37Z",
  "stats": {
-  "placement": 763,
+  "placement": 766,
   "internship": 864,
-  "with_files": 335,
-  "listed_downloads": 339
+  "with_files": 336,
+  "listed_downloads": 340
  },
  "categories": {
   "placement": [
+   {
+    "id": "1805",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "Mercedes Benz",
+    "notice": "The Assessment of Mercedes-Benz scheduled for 21st November 2026, from 4:30 PM onwards, has been postponed for students of the Chemical Engineering (CH) Department until further notice.\n\nThe revised schedule and further instructions will be communicated to the concerned students separately.\n\nStudents from other departments are requested to follow the previously communicated schedule.\n\nCDC, IIT Kharagpur",
+    "noticeat": "21-11-2026 15:53",
+    "text_source": "full_notice",
+    "source_hash": "ce752674ee57b8b31daa646efb8951aa8cdf9206b98a91c0823b59a2ac211d06",
+    "has_download": false
+   },
+   {
+    "id": "1804",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "Meesho",
+    "notice": "All students shortlisted for the Meesho AI Assessment are requested to carefully check their availability before booking their Assessment slots.\n\nPlease note the following:\n\nRescheduling of slots will not be possible due to logistical constraints.\nNo requests for changing the booked slot will be accommodated.\nStudents must book only a slot they are certain they can attend.\nOnce booked, the slot will be considered final.\n\nStudents are requested to keep this in mind while booking their slots and avoid any last-minute changes.\n\nPlease ensure that you book your slot responsibly and according to your availability.\n\nPOC: Bhavy (+91 7597121669), Neev (+91 9001346350)\n\nCDC, IIT Kharagpur",
+    "noticeat": "21-11-2026 15:31",
+    "text_source": "full_notice",
+    "source_hash": "c8a3e2977f93561e4d170decf6b0a5cbc897f83d58d36b0875a9b54a4826af55",
+    "has_download": false
+   },
+   {
+    "id": "1801",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "Mercedes Benz",
+    "notice": "PFA the test room allocation of shortlisted candidates for the Assessment of Mercedes Benz, scheduled from 4:30 PM onwards on 21st November, 2026.\n\nVenue: Nalanda Classroom Complex\n\nStudents are required to carry their original Institute ID card, failing which students will not be permitted to sit for test.\n\nPlease carry your laptops, pens, and papers.\n\nStudents are requested to report 15 minutes prior to the reporting time.\n\nPOCs: Nikhita (+91 8770035884)\n\nCDC, IIT Kharagpur",
+    "noticeat": "21-11-2026 15:00",
+    "text_source": "full_notice",
+    "source_hash": "1ce4389ae87d9188b72095504d3a3d5949c0f853129bbee73efd41e8b6cf6be5",
+    "has_download": true,
+    "file": "files/1801.pdf"
+   },
    {
     "id": "1800",
     "type": "PLACEMENT",
