@@ -1,13 +1,35 @@
 {
- "last_updated": "2026-11-21T12:38:08Z",
+ "last_updated": "2026-11-21T13:37:59Z",
  "stats": {
-  "placement": 768,
+  "placement": 770,
   "internship": 864,
   "with_files": 336,
   "listed_downloads": 340
  },
  "categories": {
   "placement": [
+   {
+    "id": "1809",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "NEXUSONE",
+    "notice": "Please note that the Assessment for NexusOne has been postponed until further notice.\n\nCDC, IIT Kharagpur.",
+    "noticeat": "21-11-2026 18:33",
+    "text_source": "full_notice",
+    "source_hash": "b5d38502aca91232de719f238b1ad044a89ed621cc026d7954d54fb11367a197",
+    "has_download": false
+   },
+   {
+    "id": "1808",
+    "type": "PLACEMENT",
+    "subject": "Urgent",
+    "company": "ICICI BANK",
+    "notice": "All the eligible students who have applied for ICICI Bank and are facing issues during the portal registration are required to fill out the query form linked below.\n\nForm \n\nLink: https://forms.gle/ncR5duMtRgZneYpv6\n\nDeadline: 22nd November 2026, 10:00 AM\n\nCDC, IIT Kharagpur",
+    "noticeat": "21-11-2026 18:13",
+    "text_source": "full_notice",
+    "source_hash": "59ba9b606569bc4f1f5f9f2c5a0e347a11cf46be83053d4531761390018fce74",
+    "has_download": false
+   },
    {
     "id": "1807",
     "type": "PLACEMENT",
