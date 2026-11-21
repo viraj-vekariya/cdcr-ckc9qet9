@@ -1,13 +1,24 @@
 {
- "last_updated": "2026-11-21T19:37:40Z",
+ "last_updated": "2026-11-21T20:38:15Z",
  "stats": {
-  "placement": 775,
+  "placement": 776,
   "internship": 864,
   "with_files": 337,
   "listed_downloads": 341
  },
  "categories": {
   "placement": [
+   {
+    "id": "1815",
+    "type": "PLACEMENT",
+    "subject": "Additional requirement",
+    "company": "Multiple Companies",
+    "notice": "All eligible students who have applied to the following companies are required to fill in the respective Additional Details forms, wherever applicable.\n\n1. BLACKBUCK - https://forms.gle/MEP7T3CKUsGbGScn7\n2. ICICI LOMBARD \u2013 https://forms.gle/Di2j1Sw7VyCurUud7\n3. ATHER ENERGY \u2013 https://forms.gle/JxJNMNYejRY2xp1Y9\n4. WATERFLY \u2013 https://forms.gle/S5RrRTPs8zYTinnLA\n5. AIRAMATRIX \u2013 https://forms.gle/aMqTKukPq1gLVZQV8\n6. INTELLIMATION AI \u2013 https://forms.gle/bi8CTqAdsUNr2Wod8\n7. SLB \u2013 https://forms.gle/GN3k8hPjxzKSow117\n8. PIRAMAL FINANCE \u2013 https://forms.gle/scMdRrkdpNVyeUxw6\n9. JAVIS \u2013 https://forms.gle/tUWuigtehLBUgtuc7\n10. LTM \u2013 https://forms.gle/xM6T2W15UjbfN4x26\n11. FINARB \u2013 https://forms.gle/PUWWMQ6bzRNyxYcn9\n12. AURO GROUP \u2013 https://forms.gle/hCjiDjPCMyUeK7S78\n13. TATA AIG \u2013 https://forms.gle/RJknpyAqiZfnMMhB6\n\nDeadline: 22nd November 2026, 8:00 PM\n\nStudents are advised to check the respective forms and complete their submissions within the stipulated deadlines.\n\nCDC, IIT Kharagpur",
+    "noticeat": "22-11-2026 01:14",
+    "text_source": "full_notice",
+    "source_hash": "3e9e40e0da77c0b0bf4b7446e33f7e97f1740a9c07988e1024d71643fcfec61b",
+    "has_download": false
+   },
    {
     "id": "1814",
     "type": "PLACEMENT",
